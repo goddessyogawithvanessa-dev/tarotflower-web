@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: goddessyogawithvanessa-dev/tarotflower-web
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "src/content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Original URL", name: "original_url", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Modified Date", name: "modified", widget: "date", required: false }
+      - { label: "Type", name: "type", widget: "select", options: ["post", "page"], default: "post" }
+      - { label: "Categories", name: "categories", widget: "list", default: [] }
+      - { label: "SEO Title", name: "seo_title", widget: "string", required: false }
+      - { label: "SEO Description", name: "seo_description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
