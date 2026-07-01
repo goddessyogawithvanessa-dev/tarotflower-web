@@ -33,11 +33,12 @@ const majorArcana = [
   { name: 'The World', slug: 'the-world-tarot' },
 ];
 
+const suitImg = '/images/2020/12/IMG_20201215_123548-scaled.jpg';
 const suits = [
-  { name: 'Pentacles', slug: 'pentacles-tarot', img: '/images/2023/04/tf-ai-pentacles.jpg', cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
-  { name: 'Wands', slug: 'wands-tarot', img: '/images/2023/04/tf-ai-rods-2.jpg', cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
-  { name: 'Swords', slug: 'swords-tarot', img: '/images/2023/04/tf-ai-swords-2.jpg', cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
-  { name: 'Cups', slug: 'cups-tarot', img: '/images/2023/04/tf-ace-of-cups-2-ai.jpg', cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
+  { name: 'Pentacles', slug: 'pentacles-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
+  { name: 'Wands', slug: 'wands-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
+  { name: 'Swords', slug: 'swords-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
+  { name: 'Cups', slug: 'cups-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
 ];
 
 function cardSlug(rank: string, suit: string) {

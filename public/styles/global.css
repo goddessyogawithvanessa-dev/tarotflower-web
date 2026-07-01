@@ -313,7 +313,7 @@ strong { color: #333; }
   transition: color 0.2s;
 }
 .arcana-right a:hover {
-  color: #333;
+  color: #2ea3f2;
   text-decoration: none;
 }
 
@@ -351,8 +351,22 @@ strong { color: #333; }
   box-shadow: 4px 4px 14px rgba(0,0,0,0.12);
   margin: 0;
 }
-.suit-img-link:hover img {
-  opacity: 0.9;
+.suit-img-link {
+  position: relative;
+}
+.suit-img-link::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(circle at center, rgba(211, 156, 178, 0.6) 0%, #ffffff 100%);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+.suit-img-link:hover::after {
+  opacity: 1;
+}
+.suit-img-link:hover {
+  transform: scale(0.95);
 }
 .suit-cards {
   display: flex;
