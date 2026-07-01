@@ -14,7 +14,7 @@ seo_description: "[divi\\_events\\_list\\_booking \\_builder\\_version=\"4.24.2\
 
 ## In the Historic 1st District
 
-[divi\_events\_list\_booking \_builder\_version="4.24.2" \_module\_preset="default" global\_colors\_info="{}"][/divi\_events\_list\_booking]![](https://tarotflower.com/wp-content/uploads/2023/11/1st-district-e1616088180525.jpeg)
+[divi\_events\_list\_booking \_builder\_version="4.24.2" \_module\_preset="default" global\_colors\_info="{}"][/divi\_events\_list\_booking]![](/images/2023/11/1st-district-e1616088180525.jpeg)
 
 ## Semi-Private Classess and Sessions in the 1st District
 
@@ -22,8 +22,8 @@ Join me for Goddess Yoga, sound bath meditations, energy healing body work and T
 
 Private sessions also available.
 
-![](https://tarotflower.com/wp-content/uploads/2023/09/IMG_20230909_152050.jpg)![](https://tarotflower.com/wp-content/uploads/2024/03/Goddess-Yoga-photos-new.jpg)![](https://tarotflower.com/wp-content/uploads/2023/11/3.jpg)
+![](/images/2023/09/IMG_20230909_152050.jpg)![](/images/2024/03/Goddess-Yoga-photos-new.jpg)![](/images/2023/11/3.jpg)
 
 ## Also Check Out Private Energy Healing Sessions & Tarot Card Readings
 
-![goddess yoga vienna energy healing body work vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/11/10-1.jpg)![goddess yoga vienna tarot card readings vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/11/8.jpg)![](https://tarotflower.com/wp-content/uploads/2023/11/7.jpg)![](https://tarotflower.com/wp-content/uploads/2023/11/11-1.jpg)
+![goddess yoga vienna energy healing body work vanessa hylande](/images/2023/11/10-1.jpg)![goddess yoga vienna tarot card readings vanessa hylande](/images/2023/11/8.jpg)![](/images/2023/11/7.jpg)![](/images/2023/11/11-1.jpg)

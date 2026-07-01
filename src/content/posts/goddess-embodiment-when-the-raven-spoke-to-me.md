@@ -10,7 +10,7 @@ seo_title: "Goddess Embodiment: When the Raven Spoke to Me | Tarot Flower"
 seo_description: "One morning, in that lucid dream state somewhere between dreaming and wakefulness, I heard a fierce tapping on my window. My body couldn’t move and my..."
 ---
 
-![Spoke the Raven Midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/10/raven.jpg)
+![Spoke the Raven Midjourney art Vanessa Hylande](/images/2023/10/raven.jpg)
 
 One morning, in that lucid dream state somewhere between dreaming and wakefulness, I heard a fierce tapping on my window. My body couldn’t move and my eyes weren’t open, but somehow I could see my room where I lay.
 
@@ -20,7 +20,7 @@ Before I knew what was happening, the raven flew *inside* my head and in an inst
 
 As I opened to my dream state, I saw a magnificent eagle covered in feathers and jewels perched before me. This powerful creature looked me in the eye with the deepest intensity. In front of us, a grand landscape with red mountains and canyons stretched as far as the eye could see. I stared in shock and awe as golden, shining hieroglyphs began to scroll across the bright blue sky. It was as if some kind of code were downloading into my mind.
 
-![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/hierophant-1.jpg)
+![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](/images/2021/02/hierophant-1.jpg)
 
 And then, in an instant, I was flying. I had shapeshifted. I had downloaded something from the Akasha and the transformation had begun. The greatest challenge of my life was before me, and it would require a complete self-transformation. A total phoenix rising moment.
 
@@ -30,7 +30,7 @@ Shortly thereafter, my four beautiful sons were taken from me in Playa del Carme
 
 At first I didn’t know if I wanted to go on with my life. But in that most horrific moment, when the world seemed to be crashing and burning down around me, the Goddess Ixchel spoke to me. And it was her inspiration, guidance and love that pulled me back into myself and reminded me how beautiful life can be. She told me exactly what I needed to do, I just had to learn to listen.
 
-![Goddess Ixchel Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/10/ixchel.jpg)
+![Goddess Ixchel Midjourney art by Vanessa Hylande](/images/2023/10/ixchel.jpg)
 
 Ixchel reminded me that dancing and music is a path back to joy. She showed me how my inner shadows of self-abandonment and self-betrayal were reflecting the same back to me in the form of other people in the 3D world. She spoke to me through song, poetry and channeled visions, and guided me through my self-healing journey.
 
@@ -40,7 +40,7 @@ I created the Goddess Yoga and Embodiment methods to heal myself, and have been 
 
 ## About Me
 
-![Vanessa Hylande Goddess Yoga and Embodiment coach](https://tarotflower.com/wp-content/uploads/2023/09/sidebend-smiling-landscape-1024x724.jpg)
+![Vanessa Hylande Goddess Yoga and Embodiment coach](/images/2023/09/sidebend-smiling-landscape-1024x724.jpg)
 
 I’m a **RYT200 certified yoga instructor**, former ballet dancer at the **Metropolitan Opera in NYC** and also a professional, **classically trained opera singer**. But most of all, I am a woman, a mother of four, who has experienced the deepest betrayal and grief, but found my way back to a life of joy, friendship, community and unconditional love.
 
@@ -48,7 +48,7 @@ So, are you ready to unleash your badass self and embody your inner sexy, strong
 
 I’m so, so excited to finally bring this beautiful Goddess Embodiment method online for you! I know that for a lot of you it’s not easy to get away for a week-long retreat in another part of the world. Plus, I’ve also heard over and over from my students that one-on-one support and connection is what they need the most during their toughest challenges. With this online program, I can give you that personalized attention that you won’t find in a group setting.
 
-![Vanessa Hylande Goddess Yoga and Embodiment coach](https://tarotflower.com/wp-content/uploads/2023/10/Goddess-Yoga-Group-1024x576.jpg)
+![Vanessa Hylande Goddess Yoga and Embodiment coach](/images/2023/10/Goddess-Yoga-Group-1024x576.jpg)
 
 Together we will create the perfect yoga and dance inspired fitness routine just for you that you can take with you forever. We will practice together (every day if you want) so that I can share my years of wisdom and experience regarding the body, movement, elegance and grace. We will connect with the goddess together to discover the channeled messages that are waiting to reach you. I am also a medium and am able to connect with passed on loved ones if you are grieving a loss. I will support you through your own **self-healing journey** as you begin your shadow work, with original, **personalized sound bath meditations**, **journaling exercises** and one-on-one sessions where we can talk about your discoveries and dreams. And most importantly, I will open the door to you to join the most beautiful community of like minded women who are on the same path of ascension.
 
@@ -56,7 +56,7 @@ Obviously, I can only take a limited number of students per month, so sign up fo
 
 ## What is goddess embodiment?
 
-![Vanessa Hylande Goddess Yoga and Embodiment coach](https://tarotflower.com/wp-content/uploads/2023/09/3-1-724x1024.jpg)
+![Vanessa Hylande Goddess Yoga and Embodiment coach](/images/2023/09/3-1-724x1024.jpg)
 
 When we embody the goddess, we allow the divine feminine archetype of the goddess to inspire us toward a life of self-empowerment, self-love and confidence. It is radiating love and beauty within and without, while bringing the dark aspects of the goddess into balance as well.
 
@@ -68,7 +68,7 @@ Connecting to the Goddess will help you to shine along your path no matter what 
 
 The Goddess Embodiment online program is a one-on-one journey, where I will inspire you to discover your power and confidence, **body, mind and spirit**. Together we will:
 
-![Vanessa Hylande Goddess Yoga and Embodiment coach](https://tarotflower.com/wp-content/uploads/2023/10/1.jpg)
+![Vanessa Hylande Goddess Yoga and Embodiment coach](/images/2023/10/1.jpg)
 
 * **Empower your physical body:** We will create a **personalized fitness program** for you that includes goddess yoga, dance and body conditioning based on your experience level and time availability. We will practice together so I can show you how to move with grace, practice healthfully without injury, and give you a deep understanding of the goddess yoga and dance method. No matter your level of experience, at the end, you will feel energized, rejuvenated and empowered to continue your goddess yoga practices on your own.
 
@@ -82,7 +82,7 @@ Choose from single Goddess Yoga classes, in person or online, private tarot card
 
 ## About Goddess Embodiment Practices
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-separation-2.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-separation-2.jpg)
 
 Goddess embodiment practices can offer a range of benefits for individuals, both in terms of personal growth and spiritual development. These practices are often rooted in various spiritual and cultural traditions and can help you in the following ways:
 

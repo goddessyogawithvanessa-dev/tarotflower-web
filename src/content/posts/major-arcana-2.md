@@ -15,7 +15,7 @@ seo_description: "Discover the Major Arcana tarot card meanings with Tarot Flowe
 
 ## The Great Archetypes of the Tarot
 
-![tarot card meanings major arcana explained online](https://tarotflower.com/wp-content/uploads/2021/01/Major-Arcana-e1610542977417.jpg)
+![tarot card meanings major arcana explained online](/images/2021/01/Major-Arcana-e1610542977417.jpg)
 
 The **Major Arcana** are the called the majors because they have a powerful long-term energy. Each card of the Major Arcana is an archetype that represents a stage on the journey toward spiritual ascension.Therefore, as you learn the lessons of each of the major cards, you come closer and closer to enlightenment and high-vibe living.
 

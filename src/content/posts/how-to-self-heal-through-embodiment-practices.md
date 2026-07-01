@@ -60,7 +60,7 @@ Join us on this wonderful, magical journey to Goddess embodiment and allow your 
 
 https://www.youtube.com/watch?v=rM-E5n87oXQ
 
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
+*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
 
 *Live events coming soon to*: *The Greater Dallas Area, Texas, 75205, 75209, 75219, 75283, 75284, 75391*
 

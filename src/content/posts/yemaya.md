@@ -10,7 +10,7 @@ seo_title: "Goddess Yemaya: Diving Into Dreams and Desires | Tarot Flower"
 seo_description: "Goddess Yemaya, the majestic deity of the sea, holds a special place in the hearts of many. Known for her nurturing and protective nature, Yemaya..."
 ---
 
-![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/yemaya-2-1-683x1024.jpg)
+![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](/images/2023/06/yemaya-2-1-683x1024.jpg)
 
 Goddess Yemaya, the majestic deity of the sea, holds a special place in the hearts of many. Known for her nurturing and protective nature, Yemaya embodies the archetype of the Mother Goddess. With her calming presence and deep wisdom, she inspires us to connect with our emotions, embrace our nurturing instincts, and dive into the depths of our souls.
 
@@ -34,7 +34,7 @@ Ultimately, Yemaya's archetype inspires us to embrace our own divine femininity,
 
 ## The Goddess Yemaya Oracle Card Meaning
 
-![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/yemaya-3-1-683x1024.jpg)
+![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](/images/2023/06/yemaya-3-1-683x1024.jpg)
 
 When the Yemaya goddess card appears in your tarot reading, it signals a profound invitation to dive deep into the realm of your dreams, desires, and emotions. This card beckons you to explore the depths of your being, like plunging into the vast ocean, to uncover hidden treasures within yourself.
 
@@ -42,7 +42,7 @@ Yemaya's presence reminds you to honor your intuition, embrace your vulnerabilit
 
 ## How to Embody the Goddess Yemaya
 
-![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/yemaya-683x1024.jpg)
+![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](/images/2023/06/yemaya-683x1024.jpg)
 
 Embodying the essence of the goddess Yemaya is a beautiful journey of connecting with your inner divine feminine and embracing the nurturing energy that flows within you. Here are a few practices that can help you embody the spirit of Yemaya:
 

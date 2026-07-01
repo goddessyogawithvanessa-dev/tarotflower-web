@@ -12,7 +12,7 @@ seo_description: "He rushes in and he means business! The Knight of Swords is sw
 
 He rushes in and he means business! The Knight of Swords is swift and brings knowledge, communication, and a passion for ideas. You might be dealing with an air sign today - a Gemini, Libra, or Aquarius, or maybe this is your energy. So, speak your truth today! But be careful not to become argumentative or opinionated.
 
-The Knight of Swords is an air element, which represents thoughts, ideas and communication. Namely, everything that relates to the mind. In the traditional [Rider-Waite](http://tarotflower.com/shop/) tarot deck, he is depicted charging forward on horseback with his sword before him in one hand. In the tarot, the sword represents the truth.
+The Knight of Swords is an air element, which represents thoughts, ideas and communication. Namely, everything that relates to the mind. In the traditional [Rider-Waite](https://tarotflower.com/shop/) tarot deck, he is depicted charging forward on horseback with his sword before him in one hand. In the tarot, the sword represents the truth.
 
 So, charge forward with your authentic ideas today and speak your truth to others! Just be careful not to rush too much. Also, never forget to always use compassion in everything you do.
 
@@ -20,7 +20,7 @@ So, charge forward with your authentic ideas today and speak your truth to other
 
 > "I speak my truth and share my ideas without judging others."
 
-![embodied goddesses online alignment experience](http://tarotflower.com/wp-content/uploads/2021/01/embody-your-inner-goddess-1024x1024.png)
+![embodied goddesses online alignment experience](/images/2021/01/embody-your-inner-goddess-1024x1024.png)
 
 *Want to learn more about embodying the tarot? Check out the*[*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

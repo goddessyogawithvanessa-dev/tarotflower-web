@@ -10,7 +10,7 @@ seo_title: "The Hierophant Tarot Card Meaning: The Shaman | Tarot Flower"
 seo_description: "This Major Arcana is powerful and important, so when The Hierophant tarot card appears in your reading, pay attention!"
 ---
 
-![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/hierophant-3.jpg)
+![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](/images/2021/02/hierophant-3.jpg)
 
 This [Major Arcana](https://tarotflower.com/major-arcana-2/) is powerful and important, so when The Hierophant tarot card appears in your reading, pay attention!
 
@@ -22,7 +22,7 @@ The Hierophant is the archetype of the **sacred, spiritual masculine**, the sham
 
 ## The Hierophant Meaning Quick Facts
 
-![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/hierophant-1.jpg)
+![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](/images/2021/02/hierophant-1.jpg)
 
 * Planet: Jupiter
 * Element: Earth
@@ -32,9 +32,9 @@ The Hierophant is the archetype of the **sacred, spiritual masculine**, the sham
 
 ## The Hierophant Tarot Card Summarized
 
-![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/hieroph-12.jpg)
+![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](/images/2021/02/hieroph-12.jpg)
 
-The counterpart of [The High Priestess](http://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/), The Hierophant tarot card symbolizes **tradition**, **conformity**, **religion**, and **institutions**. The systems of belief of this archetype provide comfort and security to the collective.
+The counterpart of [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/), The Hierophant tarot card symbolizes **tradition**, **conformity**, **religion**, and **institutions**. The systems of belief of this archetype provide comfort and security to the collective.
 
 Often associated with The Pope, The Hierophant is responsible for passing down **spiritual knowledge and tradition**. The High Priestess and Hierophant are like the divine feminine and sacred masculine versions of the same archetype.
 
@@ -42,7 +42,7 @@ In your tarot card reading, The Hierophant tarot card often indicates that a wis
 
 ## The Hierophant in a Twin Flame Reading
 
-![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/hieroph-3.jpg)
+![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](/images/2021/02/hieroph-3.jpg)
 
 In a twin flame reading, the appearance of the Hierophant tarot card brings a comforting message of divine guidance and spiritual connection. This card signifies the presence of a higher power and the sacred bond between twin flames on their spiritual journey. It reminds you that you are supported and not alone in this unique path.
 
@@ -56,7 +56,7 @@ Remember that you are on a transformative journey of love and spiritual growth. 
 
 ## How to Embody the Hierophant Card
 
-![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/hierophant-2.jpg)
+![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](/images/2021/02/hierophant-2.jpg)
 
 To embody the energy of the Hierophant tarot card, embrace the qualities of wisdom, tradition, and spiritual guidance. Seek knowledge and understanding through spiritual teachings, books, or mentors who resonate with your soul. Embrace rituals and practices that bring you a sense of grounding and connection to the divine. Honor the importance of tradition and incorporate meaningful rituals into your daily life. Share your wisdom and insights with others, acting as a guide or mentor to those who seek your counsel. Trust your intuition and follow your own spiritual path, integrating the lessons and teachings that resonate with your soul. By embodying the Hierophant's energy, you can deepen your spiritual connection and serve as a source of guidance and wisdom for yourself and others.
 
@@ -66,13 +66,13 @@ https://youtu.be/rM-E5n87oXQ
 
 ## The Hierophant Through the Major Arcana
 
-![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/hieroph-5.jpg)
+![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](/images/2021/02/hieroph-5.jpg)
 
 As the Hierophant tarot card sits between two other significant cards in the Major Arcana, its placement holds symbolic meaning and contributes to the unfolding story. Preceding the Hierophant is [The Emperor](https://tarotflower.com/tarot-card-meanings/the-emperor-tarot/), representing structure and authority, while following it is [The Lovers](https://tarotflower.com/tarot-card-meanings/the-lovers-tarot/), symbolizing choices and unions. The transition from the Emperor to the Hierophant signifies the evolution from external power and control to a deeper spiritual understanding and connection. The Hierophant encourages seeking spiritual guidance and embracing traditional teachings. Moving forward to the Lovers, the Hierophant offers wisdom and insights to navigate the complexities of relationships, guiding us to make choices that align with our higher selves. Together, these three cards form a transformative journey, reminding us of the importance of both personal and spiritual growth in our connections with others.
 
 ## The Hierophant Meaning in the Past
 
-![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/hirophant-4.jpg)
+![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](/images/2021/02/hirophant-4.jpg)
 
 If you've got The Hierophant in the past position, you may come from a religious background. Your past may be full of traditions and a strong community. This influences your current situation greatly.
 
@@ -90,7 +90,7 @@ We should never blindly follow the beliefs of others, but there is great value i
 
 ## The Hierophant Love
 
-![the hierophant tarot card love meaning](http://tarotflower.com/wp-content/uploads/2021/01/tarot-flower-2-1024x1024.jpg)
+![the hierophant tarot card love meaning](/images/2021/01/tarot-flower-2-1024x1024.jpg)
 
 The Hierophant tarot card in your love reading indicates that your relationship will be moving to the next level. You will begin to see your partnership in the context of society and traditions, and marriage may even be in in your future.
 
@@ -102,7 +102,7 @@ In the case that your tarot card spread shows The Hierophant reversed, love is s
 
 ## The Hierophant as Feelings
 
-[![hierophant tarot card meanings major arcana embody](https://tarotflower.com/wp-content/uploads/2021/01/IMG_20201216_115635-1024x988.jpg)](https://amzn.to/3nRRFU5)
+[![hierophant tarot card meanings major arcana embody](/images/2021/01/IMG_20201216_115635-1024x988.jpg)](https://amzn.to/3nRRFU5)
 
 From the [White Sage Tarot Deck](https://amzn.to/3nRRFU5) in a Tin
 
@@ -122,7 +122,7 @@ The Hierophant in your health reading indicates a stable and positive outlook. J
 
 ## The Hierophant Meaning in a Spirituality Reading
 
-![the hierophant tarot card affirmation](http://tarotflower.com/wp-content/uploads/2021/01/tarot-flower-1-1024x1024.jpg)
+![the hierophant tarot card affirmation](/images/2021/01/tarot-flower-1-1024x1024.jpg)
 
 Although the Hierophant represents tradition and religious norms, if you are on a spiritual journey, then this card can bring a deeper meaning.
 
@@ -132,7 +132,7 @@ The Hierophant does not condone blindly following others' beliefs. Rather, one o
 
 ## The Hierophant Reversed
 
-![the hierophant tarot card meaning](http://tarotflower.com/wp-content/uploads/2021/01/tarot-flower-1024x1024.jpg)
+![the hierophant tarot card meaning](/images/2021/01/tarot-flower-1024x1024.jpg)
 
 In the reverse, The Hierophant can indicate fanaticism or dogma. Whenever a card presents in the reversed position, the aspects of this archetype are out of balance. If they are in excess, tradition conformity turns to judgment and control. This can also be a warning to look within for answers. It can also be a sign that you should stand up to the status quo!
 
@@ -140,7 +140,7 @@ If the energies of this card are lacking, then it could indicate that you should
 
 ## The Hierophant Rider Waite
 
-![the hierophant tarot card meaning major arcana](https://tarotflower.com/wp-content/uploads/2023/05/hierophant-canva.jpeg)
+![the hierophant tarot card meaning major arcana](/images/2023/05/hierophant-canva.jpeg)
 
 In the original [Rider-Waite](https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_tarot_deck) tarot deck, The Hierophant sits on a throne wearing white and red robes and an ornate crown. This crown is made up of three tiers, which represent one of the domains over which he rules: the subconscious; the conscious, and the superconscious.
 

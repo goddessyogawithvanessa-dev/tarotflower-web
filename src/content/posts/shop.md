@@ -14,7 +14,7 @@ seo_description: "Welcome to our divine feminine boutique, where you'll find eve
 
 ## For Divine Feminine Practices
 
-![tarot flower shop for decks, candles, crystals and more image by vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/04/tf-shop-image.jpg)
+![tarot flower shop for decks, candles, crystals and more image by vanessa hylande](/images/2023/04/tf-shop-image.jpg)
 
 ### The best of everything you need
 
@@ -56,12 +56,12 @@ This gilded oracle deck combines all the experiences and power of the Goddesses 
 
 ### Candles
 
-![Kimerly scented all natural soy wax candle set for your goddess circle and altar](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-9.35.47-AM.jpg) 
-![all natural soy scented candles for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-9.38.46-AM.jpg) 
-![all natural soy scented candles for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-9.31.39-AM.jpg) 
-![hand poured all natural soy wax candle set with crystals for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-9.43.06-AM.jpg) 
-![aromatherapy natural lavender and sage candles for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-9.45.36-AM.jpg) 
-![divine feminine crystals for healing, ritual, altars and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/crystals-image.jpeg)
+![Kimerly scented all natural soy wax candle set for your goddess circle and altar](/images/2023/04/Screen-Shot-2023-04-25-at-9.35.47-AM.jpg) 
+![all natural soy scented candles for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-9.38.46-AM.jpg) 
+![all natural soy scented candles for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-9.31.39-AM.jpg) 
+![hand poured all natural soy wax candle set with crystals for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-9.43.06-AM.jpg) 
+![aromatherapy natural lavender and sage candles for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-9.45.36-AM.jpg) 
+![divine feminine crystals for healing, ritual, altars and goddess circles](/images/2023/04/crystals-image.jpeg)
 
 ##### CRYSTALS
 
@@ -75,21 +75,21 @@ Includes 7 genuine crystals: Aventurine, red jasper, tiger’s eye, amethyst, ob
 
 Aovila Premium Crystals Set in Wooden Box - 7 Raw Chakra Stones, 7 Tumbled Gemstones, 6 Protection Crystals + a drawstring pouch + a reference guide + a greeting card + a full-color e-book.
 
-![Palo Santo from Peru to cleanse your sacred space, altar and goddess circle](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-10.41.40-AM.jpg) 
-![incense selection with holder](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-10.49.48-AM.jpg)
+![Palo Santo from Peru to cleanse your sacred space, altar and goddess circle](/images/2023/04/Screen-Shot-2023-04-25-at-10.41.40-AM.jpg) 
+![incense selection with holder](/images/2023/04/Screen-Shot-2023-04-25-at-10.49.48-AM.jpg)
 
 ### Incense
 
-![all natural soy scented candles for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-10.52.44-AM.jpg) 
-![white sage and palo santo purification smudging kit with abalone shell for your goddess circle and altar](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-10.45.27-AM.jpg) 
-![aromatherapy natural lavender and sage candles for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-10.54.05-AM.jpg) 
-![shop for oracle cards and tarot decks](https://tarotflower.com/wp-content/uploads/2021/01/IMG_20210109_122246-scaled-e1610542283140.jpg)
+![all natural soy scented candles for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-10.52.44-AM.jpg) 
+![white sage and palo santo purification smudging kit with abalone shell for your goddess circle and altar](/images/2023/04/Screen-Shot-2023-04-25-at-10.45.27-AM.jpg) 
+![aromatherapy natural lavender and sage candles for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-10.54.05-AM.jpg) 
+![shop for oracle cards and tarot decks](/images/2021/01/IMG_20210109_122246-scaled-e1610542283140.jpg)
 
 At our online shop, we believe that everyone has the power to awaken their inner divine feminine goddess. Our products are designed to help you connect with your intuition, creativity, and sacred feminine spirit. Shop with us today and start your journey towards self-discovery and empowerment.
 
 And, be sure to check out our various reviews! Whether you are at the beginning of your journey toward learning the various [tarot card meanings](https://tarotflower.com/tarot-card-meanings/) or you're an experienced tarot card reader, we have excellent recommendations for you in our beautiful tarot flower shop.
 
-![tarot cards, oracle cards](https://tarotflower.com/wp-content/uploads/2021/01/Gold-Photo-Wedding-Pinterest-Graphic-1.jpg)![tarot cards, oracle cards](https://tarotflower.com/wp-content/uploads/2021/01/Gold-Photo-Wedding-Pinterest-Graphic-2.jpg)![slow down to enjoy the magic of life](https://tarotflower.com/wp-content/uploads/2021/01/affirmations-and-images-for-tarot-flower-1.jpg)
+![tarot cards, oracle cards](/images/2021/01/Gold-Photo-Wedding-Pinterest-Graphic-1.jpg)![tarot cards, oracle cards](/images/2021/01/Gold-Photo-Wedding-Pinterest-Graphic-2.jpg)![slow down to enjoy the magic of life](/images/2021/01/affirmations-and-images-for-tarot-flower-1.jpg)
 
 ## Want to do more than getting tarot card readings?
 

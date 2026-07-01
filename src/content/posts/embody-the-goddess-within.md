@@ -54,7 +54,7 @@ https://www.youtube.com/watch?v=rM-E5n87oXQ
 
 *Interested in beautiful* ***goddess oracle cards****,* ***tarot cards****,* ***crystals****,* ***essential oils****,* ***incense****,* ***candles*** *and more? Check out our*[*shop*](http://embodiedgoddesses.com/shop/) *where you can find everything you need for your*[*Goddess Yourself Experience.*](http://embodiedgoddesses.com/about-course/)
 
-*Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com) *where you will find everything tarot for blossoming souls.*
+*Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-1-1-576x1024.png)
 

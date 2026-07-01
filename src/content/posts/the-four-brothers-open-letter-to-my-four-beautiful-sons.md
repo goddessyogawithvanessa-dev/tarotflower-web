@@ -10,7 +10,7 @@ seo_title: "\\\"The Four Brothers\\\" - An open letter to my four beautiful sons
 seo_description: "Once there was a beautiful and delicate spiderweb that was suspended between two tall trees in the forest. The web would catch the dew in the morning..."
 ---
 
-![](https://tarotflower.com/wp-content/uploads/2023/11/four-brothers-1024x682.webp)
+![](/images/2023/11/four-brothers-1024x682.webp)
 
 Once there was a beautiful and delicate spiderweb that was suspended between two tall trees in the forest. The web would catch the dew in the morning so that it sparkled like diamonds. On this beautiful web lived four brothers, each little spider bigger than the next. The mother spider worked hard to keep the web beautiful for them, because it was her pride and joy. She knew that this was their safety net, their home.
 

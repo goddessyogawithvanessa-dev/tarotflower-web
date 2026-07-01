@@ -10,7 +10,7 @@ seo_title: "Positive Affirmation: I Am Devoted to My Happiness | Tarot Flower"
 seo_description: "Be devoted to your happiness today! That's how we make sure our garden stays in bloom. Today's daily tarot oracle card \"Childlike Devotion,\" is..."
 ---
 
-![childlike devotion to your happiness oracle messages whispers of the ocean card](http://tarotflower.com/wp-content/uploads/2021/01/Childlike-Devotion.gif)
+![childlike devotion to your happiness oracle messages whispers of the ocean card](/images/2021/01/Childlike-Devotion.gif)
 
 Be devoted to your happiness today! That's how we make sure our garden stays in bloom. Today's daily tarot oracle card "Childlike Devotion," is encouraging you to **invest in your own joy**. So, be sure to practice this positive affirmation for full effect.
 
@@ -18,7 +18,7 @@ So, anytime you notice yourself worrying or feeling down, think of your inner ch
 
 Play some **music**! **Dance** around the room. Take a moment to **laugh** and **play**! Honor your own unique self. And keep this positive affirmation in your back pocket at all times.
 
-Being devoted to your happiness does require some effort and commitment on you part. [The Empress](http://tarotflower.com/tarot-card-meanings/the-empress-tarot/) of the [Major Arcana](https://en.wikipedia.org/wiki/Major_Arcana) gravitates to the things in her life that are beautiful and bring her happiness. Take some time to do that for yourself today!
+Being devoted to your happiness does require some effort and commitment on you part. [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/) of the [Major Arcana](https://en.wikipedia.org/wiki/Major_Arcana) gravitates to the things in her life that are beautiful and bring her happiness. Take some time to do that for yourself today!
 
 Strive for balance in your life. Because, all work and no play is the quickest way to put out that spark that lives inside of all of us. Life is much more fun when we allow ourselves to be carefree. Are there burdens in your life that you are carrying that aren't really your responsibility? Take some time to reflect and choose your burdens thoughtfully.
 
@@ -28,7 +28,7 @@ Flowers need sunshine and rain to grow and bloom. So, create the sunshine in you
 
 Love,
 
-![tarot flower](http://tarotflower.com/wp-content/uploads/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](http://tarotflower.com/wp-content/uploads/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

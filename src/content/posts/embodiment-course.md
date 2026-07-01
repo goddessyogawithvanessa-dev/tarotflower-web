@@ -114,6 +114,6 @@ And last but not least, your embodiment course should be fun! Enough with this a
 
 That doesn't mean that your inner work won't at times be challenging and uncomfortable, but make sure that the overarching energy of the embodiment course is **uplifting and liberating**!
 
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com/)*where you will find everything tarot for the divine feminine.*
+*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for the divine feminine.*
 
 *Live events coming soon to*: *The Greater Dallas Area, Texas, 75205, 75209, 75219, 75283, 75284, 75391*

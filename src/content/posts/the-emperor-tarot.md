@@ -10,7 +10,7 @@ seo_title: "The Emperor Tarot Card Meaning: I Am the Master of My Fate | Tarot F
 seo_description: "When the Emperor tarot card appears in your reading, there are energies of stability and authority around you. The Emperor is like a traditional king...."
 ---
 
-![](https://tarotflower.com/wp-content/uploads/2021/01/the-emperor.jpg)
+![](/images/2021/01/the-emperor.jpg)
 
 When the Emperor tarot card appears in your reading, there are energies of **stability** and **authority** around you. The Emperor is like a traditional king. He is charged with **protecting** his people and leading them through conflict with strength but also with **compassion**.
 
@@ -20,7 +20,7 @@ When you receive this [Major Arcana](https://tarotflower.com/major-arcana-2/) ca
 
 ## The Emperor Tarot Card Summarized
 
-[![the emperor tarot card meanings major arcana](https://tarotflower.com/wp-content/uploads/2021/01/IMG_20201216_111514-1000x1024.jpg)](https://amzn.to/42KEBP5)
+[![the emperor tarot card meanings major arcana](/images/2021/01/IMG_20201216_111514-1000x1024.jpg)](https://amzn.to/42KEBP5)
 
 The Emperor tarot card represents structure and control. His archetype brings **authority, leadership** and **stability**. In his benevolent manifestation, he is The Great Father, the divine counterpart of The Empress. He is a protector and represents The Establishment.
 
@@ -32,7 +32,7 @@ If this card is referring to your more recent past, this energy could represent 
 
 ## The Emperor Tarot Card in the Present
 
-![the emperor tarot card meanings major arcana affirmation](http://tarotflower.com/wp-content/uploads/2021/01/the-emperor-3-1024x1024.jpg)
+![the emperor tarot card meanings major arcana affirmation](/images/2021/01/the-emperor-3-1024x1024.jpg)
 
 You are feeling very stable and in control. You are focused on rules and regulations, systems and ways of doing things. Or perhaps you are in a relationship or situation where an authority figure is very prominent.
 
@@ -46,7 +46,7 @@ The masculine "[yang](https://en.wikipedia.org/wiki/Yin_and_yang)" energies are 
 
 ## The Emperor in Your Love Reading
 
-![the emperor tarot card meanings major arcana embody love reading](http://tarotflower.com/wp-content/uploads/2021/01/the-emperor-2-1024x1024.jpg)
+![the emperor tarot card meanings major arcana embody love reading](/images/2021/01/the-emperor-2-1024x1024.jpg)
 
 There is an energy of traditional **strength** and **stability** in your current relationship. You or your partner may be focused on the "right way of doing things" in a **predictable** and **methodical** way. In terms of romance, this can get a little boring, so you may need to make an effort loosen and spice things up!
 
@@ -58,7 +58,7 @@ If you are in an excessively "Emperor-like" state, you might have more success i
 
 ## The Emperor in Your Career Reading
 
-![the emperor tarot card meaning midjourney art by vanessa hylande](https://tarotflower.com/wp-content/uploads/2021/01/emperor-2.jpg)
+![the emperor tarot card meaning midjourney art by vanessa hylande](/images/2021/01/emperor-2.jpg)
 
 The Emperor tarot card in your card in your career reading will either indicate your current environment or what you are striving for. It could also represent what is challenging you, but that would require an interpretation of the surrounding cards.
 
@@ -74,7 +74,7 @@ The Emperor is the wise leader who is backed by tradition and wisdom. In a spiri
 
 ## The Emperor Reversed
 
-![the emperor tarot card reversed meaning midjourney art by vanessa hylande](https://tarotflower.com/wp-content/uploads/2021/01/emperor-4.jpg)
+![the emperor tarot card reversed meaning midjourney art by vanessa hylande](/images/2021/01/emperor-4.jpg)
 
 In the reverse, The Emperor is a difficult card. It is a **controlling** and **domineering** person. An **intolerant tyrant**. This archetype is **lacking empathy** and is **devoid of kindness**. At the end of the day, control and power is all that matters to this Emperor.
 
@@ -86,7 +86,7 @@ It is important to always look within, rather than point fingers. Remember, life
 
 ## Symbology of The Emperor Rider Waite
 
-![the emperor tarot card meaning rider waite](https://tarotflower.com/wp-content/uploads/2021/01/13.jpg)
+![the emperor tarot card meaning rider waite](/images/2021/01/13.jpg)
 
 In the traditional [Rider-Waite deck](https://amzn.to/3LYsF5o), The Emperor sits on his throne, stable, secure, perhaps a bit rigid. Underneath his robes, he is wearing a suit of armor. This indicates that he has been to battle and persevered. He's one tough cookie.
 
@@ -94,7 +94,7 @@ The Emperor tarot card is represented by the number four even though it is the f
 
 ## How to Embody The Emperor
 
-![embody the emperor tarot card meanings major arcana](http://tarotflower.com/wp-content/uploads/2021/01/the-emperor-1-1024x1024.jpg)
+![embody the emperor tarot card meanings major arcana](/images/2021/01/the-emperor-1-1024x1024.jpg)
 
 Activate your **solar plexus chakra**. Have **confidence** in your own wisdom and knowledge. Remember that all of your **struggles, trials and tribulations** **have made you stronger**. It is from the place of experience and wisdom that we can best lead and protect others. But it all starts with leading and **protecting ourselves**.
 
@@ -102,9 +102,9 @@ Want to learn more about embodying the tarot? Check out our mystical [Goddess Yo
 
 https://youtu.be/Sbbi6Nvb4TU
 
-![the emperor tarot card meanings major arcana rider waite deck](http://tarotflower.com/wp-content/uploads/2021/01/the-emperor-pin-1-683x1024.jpg)
+![the emperor tarot card meanings major arcana rider waite deck](/images/2021/01/the-emperor-pin-1-683x1024.jpg)
 
-![the emperor tarot card meanings major arcana rider waite deck](http://tarotflower.com/wp-content/uploads/2021/01/the-emperor-pin-683x1024.jpg)
+![the emperor tarot card meanings major arcana rider waite deck](/images/2021/01/the-emperor-pin-683x1024.jpg)
 
 *the emperor tarot  
 meaning of the emperor tarot card  

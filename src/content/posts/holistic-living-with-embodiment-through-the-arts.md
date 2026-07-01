@@ -56,6 +56,6 @@ Finding liberation and freedom is an important part of becoming embodied, but we
 
 ![feel liberated and beautiful](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-9-576x1024.jpg)
 
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
+*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
 
 *Live events coming soon to*: *The Greater Dallas Area, Texas, 75205, 75209, 75219, 75283, 75284, 75391*

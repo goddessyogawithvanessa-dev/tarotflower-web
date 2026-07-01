@@ -10,7 +10,7 @@ seo_title: "In Darkness, Remember to Be the Light | Tarot Flower"
 seo_description: "Hello there, Tarot Flower garden. Some days feel darker than others, and sometimes we can feel like we are lost at night in an endless forest. That is..."
 ---
 
-![inspirational quote be the light oracle messages oracle cards ](http://tarotflower.com/wp-content/uploads/2021/01/In-darkness-be-the-light-1024x1024.jpg)
+![inspirational quote be the light oracle messages oracle cards ](/images/2021/01/In-darkness-be-the-light-1024x1024.jpg)
 
 Hello there, Tarot Flower garden. Some days feel darker than others, and sometimes we can feel like we are lost at night in an endless forest. That is when you need to **remember to be the light.**
 
@@ -20,7 +20,7 @@ We look around and see nothing but darkness and trees. And we don't know which w
 
 It is in these moments that we need to look up. It is when life is at it's darkest, that we need to look for messages of hope. The white dove of **peace** and **love** is carrying the **magical key right** before you. The message is one of **hope and faith**.
 
-![daily tarot and oracle card magical key meanings explained online inspiration](http://tarotflower.com/wp-content/uploads/2021/01/magical-key-p-1.gif)
+![daily tarot and oracle card magical key meanings explained online inspiration](/images/2021/01/magical-key-p-1.gif)
 
 When times are hard, rely upon your greatest gifts. Focus your energy on love and your belief in the good in the world.
 
@@ -28,13 +28,13 @@ When we are surrounded by darkness, we do not illuminate anything by darkening o
 
 We must make the effort to be the light. This way we can lead each other out of the darkness.
 
-Like [The Magician](http://tarotflower.com/tarot-card-meanings/the-magician-tarot/) of the major arcana, we manifest what we out our focus on. So, think about the good things in your life today. Put your energy into what works.
+Like [The Magician](https://tarotflower.com/tarot-card-meanings/the-magician-tarot/) of the major arcana, we manifest what we out our focus on. So, think about the good things in your life today. Put your energy into what works.
 
 > When you are in darkness, be the light.
 
 Love,
 
-![tarot flower](http://tarotflower.com/wp-content/uploads/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](http://tarotflower.com/wp-content/uploads/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

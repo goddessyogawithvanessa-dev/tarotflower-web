@@ -12,14 +12,14 @@ seo_description: "Did you know that the Greeks named all of the stars in the sky
 
 ## Have Fun With Tarot and Astrology!
 
-![capricorn zodiac sign about](http://tarotflower.com/wp-content/uploads/2021/01/1-1024x724-1.jpg)
+![capricorn zodiac sign about](/images/2021/01/1-1024x724-1.jpg)
 
 ## What is Astrology?
 
 Did you know that the Greeks named all of the stars in the sky? And when groups of stars, called **constellations**, reminded them of animals or strange creatures, they gave them names and stories too!
 There are twelve constellations, that make up what is called "**the zodiac.**"  There is one constellation for each month of the year (they don't all quite match up exactly). Each zodiac sign is supposed to have some special qualities. Are you curious to find out what your sign says about your talents and special gifts?
- ![tarot flower kids bringer of joy and good luck](http://tarotflower.com/wp-content/uploads/2021/01/You-Are-a-bringer-of-joy-e1644326141839.jpg)Tarot is full of imagination, fantasy, dreams and aspirations, so why not share tarot with your kids? Its a fun thing you can do together! At Tarot Flower Kids we strive to share the magic and beauty of tarot with kids in an easy to understand way. Tarot is full of inspirational messages and sage advice for high vibe living, so why not share that wisdom with children?
-Kids play [Pokemon](https://www.pokemon.com/us/) and all kinds of fun card games, but none of those really teach them anything valuable. But learning how to do tarot card readings will teach them everything from self-improvement to following their dreams. Teach them to create their own happiness early on! Wish beautiful messages such as "[You Are A Bringer of Joy and Good Luck](http://tarotflower.com/daily-tarot/bringer-of-joy-and-good-luck/)" they will learn self-confidence and shine.
+ ![tarot flower kids bringer of joy and good luck](/images/2021/01/You-Are-a-bringer-of-joy-e1644326141839.jpg)Tarot is full of imagination, fantasy, dreams and aspirations, so why not share tarot with your kids? Its a fun thing you can do together! At Tarot Flower Kids we strive to share the magic and beauty of tarot with kids in an easy to understand way. Tarot is full of inspirational messages and sage advice for high vibe living, so why not share that wisdom with children?
+Kids play [Pokemon](https://www.pokemon.com/us/) and all kinds of fun card games, but none of those really teach them anything valuable. But learning how to do tarot card readings will teach them everything from self-improvement to following their dreams. Teach them to create their own happiness early on! Wish beautiful messages such as "[You Are A Bringer of Joy and Good Luck](https://tarotflower.com/daily-tarot/bringer-of-joy-and-good-luck/)" they will learn self-confidence and shine.
 This will teach them to be in touch with their spiritual side. Learning to listen to the voice of intuition is a very important skill that has been lost in contemporary society.
 So, bring your kids over to Tarot Flower Kids, where they will learn fun lessons about the tarot, astrology and how to be kind and live in abundance and flow.
 
@@ -31,7 +31,7 @@ The sign of [**Capricorn**](capricorn-kids) is a funny looking goat-fish, and in
 
 Want to learn more about the zodiac sign Capricorn? You can also find your [**special birthday message**](capricorn-birthday) here!
 
-![](http://tarotflower.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-1.34.59-PM.jpg)
+![](/images/2021/01/Screen-Shot-2021-01-05-at-1.34.59-PM.jpg)
 
 ## What Are Tarot Cards Anyway?
 
@@ -54,4 +54,4 @@ Some people like to take the cards that 'pop' out while they're shuffling, and o
 
 ## How Do I Tell My Story?
 
-When you go to read your cards, remember what you were thinking about and imagine each card as a little picture book of your own personal story. What do you feel or think of when you look at those pictures? Have fun!!!![tarot for kids birthday card reading capricorn birthday](http://tarotflower.com/wp-content/uploads/2020/12/IMG_20201228_113432-scaled.jpg)![](http://tarotflower.com/wp-content/uploads/2021/01/TFK-small-stars.png)
+When you go to read your cards, remember what you were thinking about and imagine each card as a little picture book of your own personal story. What do you feel or think of when you look at those pictures? Have fun!!!![tarot for kids birthday card reading capricorn birthday](/images/2020/12/IMG_20201228_113432-scaled.jpg)![](/images/2021/01/TFK-small-stars.png)

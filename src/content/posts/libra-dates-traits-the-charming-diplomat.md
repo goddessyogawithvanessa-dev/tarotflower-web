@@ -10,7 +10,7 @@ seo_title: "Libra Dates & Traits: The Charming Diplomat | Tarot Flower"
 seo_description: "Libra is an air sign in the zodiac, symbolizing balance, harmony, and diplomacy. Born between September 23 and October 22, individuals under the sign..."
 ---
 
-![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/libra-3.jpg)
+![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-3.jpg)
 
 Libra is an air sign in the zodiac, symbolizing balance, harmony, and diplomacy. Born between September 23 and October 22, individuals under the sign of Libra are known for their refined taste, grace, and social skills. Ruled by the planet Venus, the goddess of love and beauty, Libra is strongly influenced by the themes of love, relationships, and aesthetics. Venus bestows upon Libra a natural charm, an appreciation for art and beauty, and a desire for harmonious connections with others.
 
@@ -33,7 +33,7 @@ In summary, Libra is an air sign guided by the principles of balance, harmony, a
 
 ## Libra Personality at a Glance
 
-![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/libra-4.jpg)
+![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-4.jpg)
 
 * **Diplomatic:** Libras have a natural ability to navigate conflicts and find fair resolutions through their diplomatic approach.
 * **Balanced:** They strive for equilibrium in all areas of their lives, seeking harmony and avoiding extremes.
@@ -48,7 +48,7 @@ In summary, Libra is an air sign guided by the principles of balance, harmony, a
 
 ## Libra Likes
 
-![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/libra-1.jpg)
+![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-1.jpg)
 
 * **Beauty:** Libras have a deep appreciation for beauty in all its forms, whether it's in art, nature, or personal aesthetics. They are drawn to visually pleasing surroundings and seek to create and surround themselves with beauty.
 * **Harmony:** Libras value peace and harmony in their relationships and environments. They strive to create a balanced and peaceful atmosphere, avoiding conflicts and seeking consensus among people.
@@ -56,7 +56,7 @@ In summary, Libra is an air sign guided by the principles of balance, harmony, a
 
 ## Libra Element: Air
 
-![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/libra-2.jpg)
+![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-2.jpg)
 
 Libra, as an air sign, is characterized by its strong connection to the intellect and communication. The air element symbolizes mental agility, social grace, and a keen sense of objectivity. Libras are known for their ability to analyze situations objectively and consider multiple perspectives before making decisions. They possess excellent communication skills and can effortlessly convey their thoughts and ideas to others. Their air element grants them a natural gift for diplomacy and mediation, as they can see all sides of an argument and find common ground. Libras thrive in social settings, enjoying engaging conversations and intellectual debates that stimulate their minds.
 
@@ -70,7 +70,7 @@ Libra is a sign that values balance, harmony, and partnership in love and relati
 
 ## Aries and Libra compatibility
 
-![Aries dates and traits zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/aries-3.jpg)
+![Aries dates and traits zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/aries-3.jpg)
 
 [Aries](https://tarotflower.com/astrology/aries-dates-traits-the-fearless-ram/) and Libra can create a dynamic and exciting relationship as they balance each other's energies.
 
@@ -80,7 +80,7 @@ They can learn a lot from each other, but conflicts may arise due to their diffe
 
 ## Taurus and Libra compatibility
 
-![taurus zodiac sign taurus dates and traits taurus compatibility artwork by vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/04/taurus-1.jpg)
+![taurus zodiac sign taurus dates and traits taurus compatibility artwork by vanessa hylande](/images/2023/04/taurus-1.jpg)
 
 [Taurus](https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/) and Libra have the potential for a harmonious and balanced relationship.
 
@@ -90,7 +90,7 @@ Together, they create a strong foundation built on trust and mutual respect, alt
 
 ## Libra and Gemini compatibility
 
-![Gemini zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/gemini-v2-3.jpg)
+![Gemini zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/gemini-v2-3.jpg)
 
 Libra and [Gemini](https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/) share a natural intellectual connection and love for communication.
 
@@ -102,7 +102,7 @@ However, they may need to work on maintaining emotional depth and addressing any
 
 ## Libra and Cancer compatibility
 
-![cancer zodiac sign cancer dates and traits, cancer personality, cancer compatibility, midjourney arts Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/cancer-3.jpg)
+![cancer zodiac sign cancer dates and traits, cancer personality, cancer compatibility, midjourney arts Vanessa Hylande](/images/2023/04/cancer-3.jpg)
 
 Libra and [Cancer](https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/) have contrasting qualities, which can create a complementary partnership.
 
@@ -112,7 +112,7 @@ They can learn from each other and create a harmonious relationship, but they ma
 
 ## Leo and Libra compatibility
 
-![Leo dates and traits, Leo zodiac sign. Leo personality, Leo compatibility, astrology midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/leo-2.jpg)
+![Leo dates and traits, Leo zodiac sign. Leo personality, Leo compatibility, astrology midjourney art by Vanessa Hylande](/images/2023/04/leo-2.jpg)
 
 Leo and Libra share a love for creativity, socializing, and the finer things in life.
 
@@ -122,7 +122,7 @@ However, conflicts may arise due to their different approaches to leadership and
 
 ## Virgo and Libra compatibility
 
-![Virgo dates & traits, virgo zodiac sign, astrology, Virgo compatibility, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/05/virgo-1.jpg)
+![Virgo dates & traits, virgo zodiac sign, astrology, Virgo compatibility, Midjourney art by Vanessa Hylande](/images/2023/05/virgo-1.jpg)
 
 Virgo and Libra have the potential for a complementary partnership. Virgo brings practicality, organization, and attention to detail, while Libra contributes harmony, diplomacy, and a love for beauty.
 
@@ -132,7 +132,7 @@ With open communication and mutual understanding, they can build a strong and su
 
 ## Libra and Scorpio compatibility
 
-![Scorpio dates and traits, scorpio compatibility zodiac astrology midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/scorpio-1.jpg)
+![Scorpio dates and traits, scorpio compatibility zodiac astrology midjourney art Vanessa Hylande](/images/2023/04/scorpio-1.jpg)
 
 Libra and Scorpio have contrasting energies, which can create a fascinating and intense dynamic in their relationship.
 
@@ -142,7 +142,7 @@ With effort and understanding, they can find a balance between Libra's need for 
 
 ## Libra and Sagittarius compatibility
 
-![Sagittarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/sag-1.jpg)
+![Sagittarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/sag-1.jpg)
 
 Libra and Sagittarius share a love for adventure, exploration, and intellectual pursuits. They have a natural curiosity and can engage in stimulating conversations.
 
@@ -152,7 +152,7 @@ However, they may need to work on finding a balance between Sagittarius' need fo
 
 ## Libra and Capricorn compatibility
 
-![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/capricorn-1.jpg)
+![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/capricorn-1.jpg)
 
 Libra and Capricorn have the potential for a complementary and harmonious partnership.
 
@@ -162,7 +162,7 @@ With mutual respect and understanding, they can build a solid foundation and sup
 
 ## Libra and Aquarius compatibility
 
-![the fool tarot card meaning major arcana , aquarius zodiac, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/fool-7.jpg)
+![the fool tarot card meaning major arcana , aquarius zodiac, Midjourney art by Vanessa Hylande](/images/2021/01/fool-7.jpg)
 
 Libra and Aquarius share a strong intellectual connection and a mutual love for socializing and humanitarian pursuits. They can engage in stimulating conversations and inspire each other's creativity and ideas.
 
@@ -172,7 +172,7 @@ However, they may need to work on balancing Aquarius' aloofness and Libra's desi
 
 ## Libra and Pisces compatibility
 
-![Pisces compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/pisces-2.jpg)
+![Pisces compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/pisces-2.jpg)
 
 Libra and Pisces share a deep emotional connection and a love for romance and harmony. They have a natural understanding of each other's needs and can create a compassionate and supportive relationship.
 
@@ -183,7 +183,7 @@ However, they may need to navigate through Libra's desire for balance and Pisces
 ## Libra Tarot: Justice
 
 [![justice tarot card meaning, major arcana, rider waite tarot deck
-](https://tarotflower.com/wp-content/uploads/2023/05/Rider-Waite-1.jpg)](https://amzn.to/3BFR4Ii)
+](/images/2023/05/Rider-Waite-1.jpg)](https://amzn.to/3BFR4Ii)
 
 The tarot card associated with Libra is Justice. In the [Rider-Waite deck](https://amzn.to/3BFR4Ii), Justice is depicted as a seated figure holding a sword in one hand and scales in the other. This card represents the ideals of fairness, balance, and harmony. It symbolizes the need for objective judgment, ethical decision-making, and the pursuit of truth.
 

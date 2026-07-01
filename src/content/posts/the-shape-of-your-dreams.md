@@ -20,7 +20,7 @@ Consideration is taking an honest look. What are your true feelings about where 
 
 Our skin is the limit where our physical bodies end and the outside world begins. It delineates our shape. Our moral and spiritual limits trace the shape of our dreams. The brush must meet the canvas.
 
-[The Bones of Our World](http://tarotflower.com/2020/07/01/the-bones-of-our-world/) have now been realigned with some acute pressure and force. Our limits and responsibilities have been reset into alignment with our soul's true purpose if we are courageous enough to embrace the possibility.
+[The Bones of Our World](https://tarotflower.com/2020/07/01/the-bones-of-our-world/) have now been realigned with some acute pressure and force. Our limits and responsibilities have been reset into alignment with our soul's true purpose if we are courageous enough to embrace the possibility.
 
 Some things we are joyfully encumbered with. Sacrifice is beautiful when given without attachment. Like a single soul blowing humanity the most tender kiss, it is a gift that is freely given from the heart.
 

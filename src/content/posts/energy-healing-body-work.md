@@ -14,8 +14,8 @@ seo_description: "Remove energetic and physcial blockages with Reiki, sound heal
 
 ## Healing Your Body and Soul
 
-![](https://tarotflower.com/wp-content/uploads/2023/11/7.jpg)
+![](/images/2023/11/7.jpg)
 
 Remove energetic and physcial blockages with Reiki, sound healing and body work. In person sessions in Vienna, Austria. Remote energy healing with tarot inspired ritual sessions available.
 
-![goddess yoga vienna energy healing body work vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/11/10-1.jpg)![goddess yoga vienna tarot card readings vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/11/8.jpg)
+![goddess yoga vienna energy healing body work vanessa hylande](/images/2023/11/10-1.jpg)![goddess yoga vienna tarot card readings vanessa hylande](/images/2023/11/8.jpg)

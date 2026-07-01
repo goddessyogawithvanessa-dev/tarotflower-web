@@ -14,7 +14,7 @@ Whenever we are met with resistance, no matter how sure we are that our way is t
 
 So, next time you are facing a difficult situation, remember this affirmation. Pause and take a moment to embody this lesson and it will guide through challenges and enlighten you with new ideas! Enjoy this little Hanged Man's poem and read it again the next time you find yourself in a frustrating situation!
 
-![a new perspective affirmation the hanged man tarot card meanings daily tarot](http://tarotflower.com/wp-content/uploads/2020/06/affirmations-vanessa-1-1024x1024.png)
+![a new perspective affirmation the hanged man tarot card meanings daily tarot](/images/2020/06/affirmations-vanessa-1-1024x1024.png)
 
 When frustration rears its ugly head put old habits straight to bed
 
@@ -30,7 +30,7 @@ Contemplate this message when you meditate on this affirmation for a new perspec
 
 Love,
 
-![tarot flower](http://tarotflower.com/wp-content/uploads/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](http://tarotflower.com/wp-content/uploads/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

@@ -22,7 +22,7 @@ Therefore, it is time to go deep. Release everything that no longer serves you s
 
 > "I am infinite possibility."
 
-![embodied goddesses online alignment program](http://tarotflower.com/wp-content/uploads/2021/01/embody-your-inner-goddess-1024x1024.png)
+![embodied goddesses online alignment program](/images/2021/01/embody-your-inner-goddess-1024x1024.png)
 
 *Want to learn more about embodying the tarot? Check out the*[*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

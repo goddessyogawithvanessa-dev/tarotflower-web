@@ -21,7 +21,7 @@ Cups are often associated with love, relationships, creativity, and our innermos
 
 The suit of cups is usually linked to the astrological signs of Cancer, Scorpio, and Pisces, which are known for their sensitivity, empathy, and emotional depth.
 
-![ace of cups tarot card meaning image by vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/04/tf-ace-of-cups-2-ai.jpg)
+![ace of cups tarot card meaning image by vanessa hylande](/images/2023/04/tf-ace-of-cups-2-ai.jpg)
 
 When the cups appear in a tarot card reading, it often indicates a focus on the inner emotional world and the need to explore and nurture one's feelings.
 
@@ -35,7 +35,7 @@ It is a symbol of overflowing love, compassion, and joy, and it encourages us to
 
 The Ace of Cups is a reminder to pay attention to our emotional needs and to let our intuition guide us towards a more fulfilling life.
 
-![the ace of cups tarot card meaning suit of cups image by vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/04/tf-ace-of-cups-ai.jpg)
+![the ace of cups tarot card meaning suit of cups image by vanessa hylande](/images/2023/04/tf-ace-of-cups-ai.jpg)
 
 The suit of cups also includes the cards of the Two of Cups, which represents partnerships and harmonious relationships, and the Ten of Cups, which symbolizes emotional fulfillment, joy, and harmony. However, the suit of cups is not all rainbows and sunshine - it also includes cards like the Five of Cups, which represents loss and disappointment, and the Three of Cups, which may indicate overindulgence or excessive emotions. Overall, the suit of cups encourages us to pay attention to our emotional well-being and to explore our inner world to find greater happiness, fulfillment, and balance in life.
 

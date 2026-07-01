@@ -10,30 +10,30 @@ seo_title: "Welcome to Tarot Flower - Unleash Your Beautiful Life with Inspirati
 seo_description: "The ladies from Tarot Flower welcome you!"
 ---
 
-![](http://tarotflower.com/wp-content/uploads/2021/01/cropped-Tarot-Flower-Logo-1024x1024.jpg)
+![](/images/2021/01/cropped-Tarot-Flower-Logo-1024x1024.jpg)
 
 The ladies from Tarot Flower welcome you!
 
 Welcome to Tarot Flower - you're going to *love* this site! We're here to delight you with **inspirational tarot**, tips for **manifesting abundance**, ways to embody the tarot, and guidance to support you on your **path to high-vibe living**. We know from experience that when you embrace the tarot with an open heart, you will **unleash your most beautiful life**.
 
-So, sit back and enjoy meaningful content and insights on [tarot card meanings](https://tarotflower.com/goddess-embodiment-practices/), [astrology](http://tarotflower.com/astrology/), [embodiment](https://embodiedgoddesses.com/) and more! We can't wait to share it all with you! Enjoy [affirmations](http://tarotflower.com/affirmations/) to inspire you, and [daily card readings](http://tarotflower.com/category/daily-tarot/) from our beautiful [tarot and oracle decks](http://tarotflower.com/tag/reviews/)! Thanks for joining us here at Tarot Flower - where you will find everything tarot for blossoming souls.
+So, sit back and enjoy meaningful content and insights on [tarot card meanings](https://tarotflower.com/goddess-embodiment-practices/), [astrology](https://tarotflower.com/astrology/), [embodiment](https://embodiedgoddesses.com/) and more! We can't wait to share it all with you! Enjoy [affirmations](https://tarotflower.com/affirmations/) to inspire you, and [daily card readings](https://tarotflower.com/category/daily-tarot/) from our beautiful [tarot and oracle decks](https://tarotflower.com/tag/reviews/)! Thanks for joining us here at Tarot Flower - where you will find everything tarot for blossoming souls.
 
 ## Tarot Flower Daily Tarot
 
 ![daily tarot: tarot and oracle decks
-](http://tarotflower.com/wp-content/uploads/2021/01/IMG_20210109_121320-1-780x1024.jpg)
+](/images/2021/01/IMG_20210109_121320-1-780x1024.jpg)
 
 Check out our daily card interpretations! We will pull a card from one of our beautiful decks and give you the energy reading for the day.
 
 What a lovely way to **inspire** and **energize** your morning, right?
 
-We draw from a gorgeous collection of tarot and oracle decks. You can find the links to purchase them yourself [here](http://tarotflower.com/shop/).
+We draw from a gorgeous collection of tarot and oracle decks. You can find the links to purchase them yourself [here](https://tarotflower.com/shop/).
 
-We also have some [reviews](http://tarotflower.com/tag/reviews/) for you if you would like to have a closer look at the cards. Everything from their size and feel and the messages they come with! Enjoy!
+We also have some [reviews](https://tarotflower.com/tag/reviews/) for you if you would like to have a closer look at the cards. Everything from their size and feel and the messages they come with! Enjoy!
 
 ## Astrology on Tarot Flower
 
-![capricorn kids astrology zodiac](http://tarotflower.com/wp-content/uploads/2021/01/Capricorn-h-1024x724.png)
+![capricorn kids astrology zodiac](/images/2021/01/Capricorn-h-1024x724.png)
 
 It's pretty easy to find information online about all of the zodiac signs. But at Tarot Flower, we are focusing on **kids**.
 
@@ -45,7 +45,7 @@ Let Tarot Flower astrology inspire you with some **helpful parenting tips** and 
 
 ## Embodiment and the Tarot
 
-![embodied goddesses online alignment program](http://tarotflower.com/wp-content/uploads/2021/01/embody-your-inner-goddess-1024x1024.png)
+![embodied goddesses online alignment program](/images/2021/01/embody-your-inner-goddess-1024x1024.png)
 
 We all love to get our tarot readings, but then what? At Tarot Flower, we take tarot one step further - to **embodiment**.
 
@@ -57,7 +57,7 @@ This "embodied living" is the key to living in the flow, in synchronicity.
 
 Check out my [Personalized Goddess Embodiment Program](https://tarotflower.com/goddess-embodiment-practices/), where I teach and guide you through incorporating divine feminine practices into your life so that you can full embody your inner goddess!
 
-![tarot for kids birthday card reading capricorn birthday](http://tarotflower.com/wp-content/uploads/2020/12/IMG_20201228_113432-810x1024.jpg)
+![tarot for kids birthday card reading capricorn birthday](/images/2020/12/IMG_20201228_113432-810x1024.jpg)
 
 ## Tarot for Kids on Tarot Flower
 
@@ -71,7 +71,7 @@ Our articles will introduce kids to the lovely world of tarot by teaching them t
 
 ## Zodiac Sign Birthday Messages for Kids!
 
-![Capricorn Special Birthday Message Kids](http://tarotflower.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-1.34.59-PM-1024x797.jpg)
+![Capricorn Special Birthday Message Kids](/images/2021/01/Screen-Shot-2021-01-05-at-1.34.59-PM-1024x797.jpg)
 
 Every month when we move into a new zodiac sign, we will post a **special birthday message** for your child.
 
@@ -85,7 +85,7 @@ Who doesn't enjoy a little **inspiration** and **encouragement** on their birthd
 
 ## Affirmations for Empowered Living
 
-[![i-choose-to-take-action-toward-my-dreams](http://tarotflower.com/wp-content/uploads/2020/07/i-choose-to-take-action-toward-my-dreams.png)](http://tarotflower.com/affirmations/)
+[![i-choose-to-take-action-toward-my-dreams](/images/2020/07/i-choose-to-take-action-toward-my-dreams.png)](https://tarotflower.com/affirmations/)
 
 At Tarot Flower our content is always beautiful because we believe that there is art and beauty in absolutely everything, if we just let it bloom.
 

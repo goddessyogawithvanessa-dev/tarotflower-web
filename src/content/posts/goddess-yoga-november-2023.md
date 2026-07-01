@@ -16,7 +16,7 @@ seo_description: "Join me for our next Goddess Yoga Series, live in Vienna, Aust
 
 ## Tarot Inspired Yoga, Meditation & Music
 
-![](https://tarotflower.com/wp-content/uploads/2023/09/3-1.jpg)
+![](/images/2023/09/3-1.jpg)
 
 Join me for our next Goddess Yoga Series, live in Vienna, Austria or online! We will dive deeply into the divine feminine through **tarot card readings**, **channel messgaes from the Goddess**, and **manifest our intentions** with our physical bodies through **yoga, dance** and **sound bath meditations**.
 
@@ -51,25 +51,25 @@ Singles class: 22€
 
 ### $450
 
-![](https://tarotflower.com/wp-content/uploads/2023/09/sidebend-smiling-landscape.jpg)
+![](/images/2023/09/sidebend-smiling-landscape.jpg)
 
 ## Single Classes and Sessions
 
 ##### **Full 1.5 hr Goddess Yoga Group Classes - $22**
 
-![](https://tarotflower.com/wp-content/uploads/2023/10/1.jpg)
+![](/images/2023/10/1.jpg)
 
 Discover your inner peace and strength with a 1.5 hr Tarot inspired Goddess Yoga class (online or in person.) Feel inspired, rejuvenated, strong and empowered with this dance inspired yoga flow method.
 
 ##### **Personalized 1hr Intuitive Tarot and Oracle Card Reading $75**
 
-![daily tarot oracle messages the fire element fairy wisdom oracle](https://tarotflower.com/wp-content/uploads/2021/01/Fire-Element.gif)
+![daily tarot oracle messages the fire element fairy wisdom oracle](/images/2021/01/Fire-Element.gif)
 
 I will channel the messages from your spirit guides and answer your questions on anything from major life decisions, love & romance, twin flame guidance, career & finances or messages from passed on loved ones.
 
 ##### Personalized 20 min Sound Bath Meditation - $55
 
-![](https://tarotflower.com/wp-content/uploads/2023/10/sound-bath.jpg)
+![](/images/2023/10/sound-bath.jpg)
 
 Relax deeply and go on a spiritual journey with a restorative 20 minute, personalized sound bath meditation. Includes a recording for you to keep and reuse forever any time.
 

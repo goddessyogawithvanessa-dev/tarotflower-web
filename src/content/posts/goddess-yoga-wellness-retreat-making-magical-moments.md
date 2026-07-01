@@ -10,7 +10,7 @@ seo_title: "Goddess Yoga Wellness Retreat: Making Magical Moments | Tarot Flower
 seo_description: "Welcome to a world of enchantment and self-discovery! If you're a woman longing for a transformative journey that weaves together the magic of yoga,..."
 ---
 
-![goddess yoga retreats, tarot flower, divine feminine, vanessa hylande, ai art](https://tarotflower.com/wp-content/uploads/2023/05/sitting-goddess-to-fix.jpg)
+![goddess yoga retreats, tarot flower, divine feminine, vanessa hylande, ai art](/images/2023/05/sitting-goddess-to-fix.jpg)
 
 Welcome to a world of enchantment and self-discovery! If you're a woman longing for a transformative journey that weaves together the magic of **yoga**, the **wisdom of the ages**, and the **rejuvenation** of a **wellness retreat**, then you've found your perfect haven. Get ready to embark on an extraordinary adventure at our Goddess Yoga wellness retreats, where you'll encounter a treasure trove of awe-inspiring moments.
 

@@ -10,7 +10,7 @@ seo_title: "Moon Magic Love Spells For Your Twin Flame, Soul Mate and Lover | Ta
 seo_description: "Feeling a little stuck in love lately? Give these moon magic love spells a shot to rekindle that love and passion in your life! If you’ve been trying..."
 ---
 
-![love spells for passion, sex, twin flame, soul mate. lover](https://tarotflower.com/wp-content/uploads/2023/02/42.jpg)
+![love spells for passion, sex, twin flame, soul mate. lover](/images/2023/02/42.jpg)
 
 Feeling a little stuck in love lately? Give these moon magic love spells a shot to rekindle that love and passion in your life! If you’ve been trying everything and nothing seems to help, I know how you feel. Especially when you’re on a twin flame journey, love and relationships can be heartbreaking and challenging.
 
@@ -20,7 +20,7 @@ But don't worry - a love spell might be the answer for you! It's not dangerous o
 
 ## What are love spells actually? Are they real?
 
-![moon magic love spells twin flame soul mate](https://tarotflower.com/wp-content/uploads/2023/02/44.jpg)
+![moon magic love spells twin flame soul mate](/images/2023/02/44.jpg)
 
 I'm sure you've heard of love spells, but what are they exactly? First of all, yes, they're real! Basically, love spells are just magical rituals that are used to bring about or enhance romantic love. The spells can be used to attract a new lover, bring back an old one, and even increase the bond between two existing lovers.
 
@@ -36,13 +36,13 @@ Love spells are a powerful way to bring love into your life, but did you know th
 
 The first type of love spell is the classic “attraction spell”. This type of spell is designed to attract a specific person into your life. The spell usually involves an item of personal significance, such as a photograph, hair, or jewelry, and is meant to draw the other person into your life. An attraction spell for love can help you create a powerful intention to bring your twin flame into your life, to make your connection a reality.
 
-![attraction spells love magic love spells moon magic](https://tarotflower.com/wp-content/uploads/2023/02/53.jpg)
+![attraction spells love magic love spells moon magic](/images/2023/02/53.jpg)
 
 #### 2. Protection spells
 
 The second type of love spell is a “protection spell”. This type of spell is designed to protect the relationship from outside influences and create a more lasting bond. Protection spells can involve items like candles, herbs, and crystals, and are meant to protect the relationship from negative energy. A protection spell can help your love relationship by providing a shield of loving energy that will protect the bond between you and your partner, promoting feelings of security and trust.
 
-![protection spells love spells moon magic](https://tarotflower.com/wp-content/uploads/2023/02/54.jpg)
+![protection spells love spells moon magic](/images/2023/02/54.jpg)
 
 #### 3. Binding spells
 
@@ -50,11 +50,11 @@ The third type of love spell is the “binding spell”. This type of spell is m
 
 So there you have it! Those are the three most popular kinds of love spells. Whether you’re looking to attract someone into your life, protect your relationship, or create a stronger bond between two people, these love spells can help make it happen.
 
-![binding love spell moon magic](https://tarotflower.com/wp-content/uploads/2023/02/55.jpg)
+![binding love spell moon magic](/images/2023/02/55.jpg)
 
 ## How do love spells work?
 
-![love spells for twin flame, soul mates and lovers spellcasting basics moon magic](https://tarotflower.com/wp-content/uploads/2023/02/43.jpg)
+![love spells for twin flame, soul mates and lovers spellcasting basics moon magic](/images/2023/02/43.jpg)
 
 So, you're wondering how love spells work? That's a great question! Love spells are a form of magic – a way to direct and focus energy to bring about a desired outcome. It can be tricky to understand, but essentially it works by tapping into the energy of the universe and manipulating it to bring about a particular result.
 
@@ -66,7 +66,7 @@ The effectiveness of a love spell depends on a few things – the strength of yo
 
 ## How to cast love spells that actually work
 
-![sacred space for love spells moon magic](https://tarotflower.com/wp-content/uploads/2023/02/45.jpg)
+![sacred space for love spells moon magic](/images/2023/02/45.jpg)
 
 Are you ready to start casting a love spell of your own? If so, reframe your intention by considering Law of Three. It's the principle that whatever energy you put out into the world will be returned to you threefold. So, it's important to remember that when you're casting a love spell, it's best to be sure you're not attracting someone against their will. If your love spell causes harm to another person, for example, that pain could come back to you three times as strong!
 
@@ -78,7 +78,7 @@ While it's always best to work with a spellcasting professional if you want your
 
 Ready to create your magical altar? This special place can be dedicated to your spellcasting and should be beautiful, quiet, and out of reach from any little hands or paws. Decorating your altar is part of the fun—you can incorporate the five elements: earth, air, fire, water and spirit with crystals, flowers, a candle, a bowl of water, and incense. Plus, add anything that represents your personality and energy. So don't be afraid to get creative and make it uniquely yours!
 
-![magical altar tarot cards moon magic love spells](https://tarotflower.com/wp-content/uploads/2023/02/46.jpg)
+![magical altar tarot cards moon magic love spells](/images/2023/02/46.jpg)
 
 ### 2. Cleanse the space
 
@@ -86,32 +86,32 @@ Now that you've created an inviting atmosphere, let's get to cleansing the space
 
 And if you don't have any instruments, don't worry - you can even just sing! Of course, any loud noise should do the trick and break up the energy. Have fun with it! You are manifesting love, after all, so you need to bring positivity, beauty and happiness to your ritual!
 
-![cleanse the space incense moon magic love spells](https://tarotflower.com/wp-content/uploads/2023/02/56.jpg)
+![cleanse the space incense moon magic love spells](/images/2023/02/56.jpg)
 
 ### 3. Cast the circle
 
 Now that you've cleansed the space, it's time to cast a circle! You can use your incense, light a candle, or if you want you can even walk around your space clockwise to create a magical boundary. This boundary will keep any unwanted energies outside and you'll be safe and cozy inside your special little sacred space!
 
-![create a magic circle love spells ritual](https://tarotflower.com/wp-content/uploads/2023/02/58.jpg)
+![create a magic circle love spells ritual](/images/2023/02/58.jpg)
 
 ### 4. Set your intention
 
 Hey there, spellcaster! You're making great progress already! Now, let's set your intention - this is the most important part. Get clear and specific on what you want. You can write it down on a piece of paper or say it out loud. Either way is totally fine, just make sure you keep it concise and focused - one sentence is all you need! Take your time with this because it's the most important part!
 
 ![write down your intention love spell moon magic
-](https://tarotflower.com/wp-content/uploads/2023/02/60.jpg)
+](/images/2023/02/60.jpg)
 
 ### 5. Cast your love spell ritual
 
 Okay, ready to do some magic? Once you have a clear intention in mind, then why not start with a simple candle magic love spell? There are plenty of love spells to choose from, and if this is your first time trying a love spell, then candle magic is the perfect place to start! So, go ahead and get started on your magical journey - let's make some love magic!
 
-![cast your love spell moon magic in a cauldron](https://tarotflower.com/wp-content/uploads/2023/02/57.jpg)
+![cast your love spell moon magic in a cauldron](/images/2023/02/57.jpg)
 
 ### 6. Ground your energy
 
 When you are finished with your spellcasting, take a moment to ground yourself and thank any spirit guides or divine energies that helped you in your ritual. This is also a great time to make them an offering. You can ground yourself by pressing your hands into the floor and pulling the energy back down and pushing it into the center of the earth.
 
-![grounding the energy love spell moon magic](https://tarotflower.com/wp-content/uploads/2023/02/59.jpg)
+![grounding the energy love spell moon magic](/images/2023/02/59.jpg)
 
 ### 7. Open the circle
 
@@ -119,7 +119,7 @@ Once your are finished grounding and thanking your spirit guides, its time to op
 
 Depending on the type of love spell you chose to cast, you might want to cleanse the space again and open all the windows - especially if you were working as a medium to communicate with the passed on. This will make sure there aren't any lingering energies in your home.
 
-![opening the magic circle love spells moon magic](https://tarotflower.com/wp-content/uploads/2023/02/62.jpg)
+![opening the magic circle love spells moon magic](/images/2023/02/62.jpg)
 
 ## A white magic free love spell
 
@@ -141,13 +141,13 @@ Cast this spell at night, preferably under the moonlight. Friday nights are powe
 
 On a Friday night, when the moon is full, prepare a sacred space by casting a circle and placing four red candles in the cardinal directions.
 
-![four red candles moon magic love spell](https://tarotflower.com/wp-content/uploads/2023/02/four-red-candles.jpeg)
+![four red candles moon magic love spell](/images/2023/02/four-red-candles.jpeg)
 
 ### Step 2: Setting your intention for your love spell
 
 Light a fire in a cauldron and draw a heart in red ink on a small piece of paper. Write the name of the person you wish to send your love beam to, hold a rose quartz in your hand and visualize the beam of love emanating from your heart to theirs.
 
-![rose quartz for love spells moon magic](https://tarotflower.com/wp-content/uploads/2023/02/rose-quartz.jpeg)
+![rose quartz for love spells moon magic](/images/2023/02/rose-quartz.jpeg)
 
 ### Step 3: Chant and perform the ritual
 
@@ -155,17 +155,17 @@ Kiss the paper three times and place it in the fire and let it burn completely. 
 
 > “My heart is full of love and shining. This love I send to thee. Should you have a place in your heart to love me, by the greatest good, so mote it be.”- Tarotflower
 
-![love spells chanting and ritual](https://tarotflower.com/wp-content/uploads/2023/02/heart.jpeg)
+![love spells chanting and ritual](/images/2023/02/heart.jpeg)
 
 ### Step 4: Ground and close the circle
 
 When you are finished, ground and then close your circle. Keep the rose quartz with you for at least a full moon cycle, and allow this powerful spell to unlock the mysteries of lost love!
 
-![moon magic love spells for twin flame soul mates and lovers](https://tarotflower.com/wp-content/uploads/2023/02/moon-magic.jpeg)
+![moon magic love spells for twin flame soul mates and lovers](/images/2023/02/moon-magic.jpeg)
 
 ## Twin flame Tarot card love spell to come together with your mirror soul
 
-![twin flame love soul union soul mate love spells moon magic ritual occult](https://tarotflower.com/wp-content/uploads/2023/02/twin-swirl.jpeg)
+![twin flame love soul union soul mate love spells moon magic ritual occult](/images/2023/02/twin-swirl.jpeg)
 
 There is a certain mysticism that shrouds the concept of a twin flame, as it is thought to be the other half of an individual's soul, split into two bodies. This powerful connection can be both challenging and healing, as it reveals the innermost depths of our insecurities, fears and shadows. Yet, it can also be a source of tremendous growth, as it is a reciprocal relationship – our twin flame will be equally influenced by us.
 
@@ -195,7 +195,7 @@ Cleanse your space and your energy and choose the following 5 cards from your Ta
 * T[he Hierophant Tarot card](https://tarotflower.com/tarot-card-meanings/the-hierophant-tarot/)
 * [The High Priestess Tarot card](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/)
 
-![](https://tarotflower.com/wp-content/uploads/2023/02/the-lovers.jpeg)
+![](/images/2023/02/the-lovers.jpeg)
 
 ### 2. Light your candle and arrange the Tarot cards
 
@@ -203,7 +203,7 @@ Cleanse your space and your energy and choose the following 5 cards from your Ta
 * Place **The Empress** and **The High Priestess** to the **left** of The Lovers - they represent the **divine feminine**.
 * Place **The Emperor** and **The Hierophant** on the right side of The Lovers card - they represent the **divine masculine**.
 
-![set your intention with a. candle love spells twin flame](https://tarotflower.com/wp-content/uploads/2023/02/71.jpg)
+![set your intention with a. candle love spells twin flame](/images/2023/02/71.jpg)
 
 ### 3. Focus your intention with crystals and chant
 
@@ -211,7 +211,7 @@ Hold the crystals in your hands and gaze into the flame as you focus on your int
 
 Repeat this chant three times while you hold your crystals and gaze into the flame.
 
-![twin flame love spell moon magic tarot cards](https://tarotflower.com/wp-content/uploads/2023/02/72.jpg)
+![twin flame love spell moon magic tarot cards](/images/2023/02/72.jpg)
 
 > *May the universe guide us to become our best selves,*
 >
@@ -239,7 +239,7 @@ Repeat this chant three times while you hold your crystals and gaze into the fla
 
 Place your crystals onto the tarot cards and lay the two roses side by side on top of The Lovers tarot card. Leave the candle safely burning until it is done.
 
-![](https://tarotflower.com/wp-content/uploads/2023/02/roses.jpeg)
+![](/images/2023/02/roses.jpeg)
 
 ## Frequently Asked Questions
 

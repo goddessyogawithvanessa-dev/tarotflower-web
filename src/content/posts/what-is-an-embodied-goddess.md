@@ -68,7 +68,7 @@ Check out our [Goddess Yoga Retreats,](https://goddess-yoga-retreat.com/retreats
 
 https://www.youtube.com/watch?v=rM-E5n87oXQ&t=1s
 
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
+*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/10/pinterest-for-blogs-576x1024.jpg)
 

@@ -10,7 +10,7 @@ seo_title: "The Divine Feminine Calling: Unveiling Your Sacred Dreamscape | Taro
 seo_description: "Welcome, beautiful souls, to a transformative week of deep inner exploration and healing. Consider keeping a dream journal this week, because you're..."
 ---
 
-![divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles](https://tarotflower.com/wp-content/uploads/2023/05/DF-Reading-May-21-2023-968x1024.jpeg)
+![divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles](/images/2023/05/DF-Reading-May-21-2023-968x1024.jpeg)
 
 Welcome, beautiful souls, to a transformative week of **deep inner exploration** and **healing**. Consider keeping a dream journal this week, because you're about to receive some profound messages in your dreamscape! From **May 22nd to 28th**, there is a powerful divine feminine calling to embark on a **profound journey within their sacred dreamscape**.
 
@@ -20,7 +20,7 @@ Expect to receive powerful messages from the depths of your being. Embrace this 
 
 ## Unveiling the Messages in Your Dreams
 
-![divine feminine tarot card reading, Universal Love Oracle, twin flame, goddess circles](https://tarotflower.com/wp-content/uploads/2023/05/DF-Reading-May-21-2023-2-1024x1019.jpeg)
+![divine feminine tarot card reading, Universal Love Oracle, twin flame, goddess circles](/images/2023/05/DF-Reading-May-21-2023-2-1024x1019.jpeg)
 
 Throughout this week, pay close attention to your dreams, for they hold precious insights and messages from your higher self and the universe.
 
@@ -32,7 +32,7 @@ Trust in your intuition and allow your dreams to reveal hidden truths, unresolve
 
 ## Transmuting Shadows into Light
 
-![divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles, universal love oracle](https://tarotflower.com/wp-content/uploads/2023/05/DF-Reading-May-21-2023-3-1024x980.jpeg)
+![divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles, universal love oracle](/images/2023/05/DF-Reading-May-21-2023-3-1024x980.jpeg)
 
 Within the realm of dreams, you may encounter aspects of yourself and past experiences that have been lurking in the shadows of your subconscious.
 
@@ -44,7 +44,7 @@ Through self-love and self-compassion, you have the power to transmute these sha
 
 ## The Goddess Hecate is Your Guide
 
-![divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles](https://tarotflower.com/wp-content/uploads/2023/05/DF-Reading-May-21-2023-4-920x1024.jpeg)
+![divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles](/images/2023/05/DF-Reading-May-21-2023-4-920x1024.jpeg)
 
 Goddess Hecate, the powerful and enigmatic goddess of transitions, stands as a guiding presence in times of transformation. As the keeper of crossroads, she holds the keys to the mysteries of life and death, light and darkness. Hecate is the embodiment of the liminal spaces where old paths end and new ones begin. With her torches illuminating the way, she offers unwavering support and wisdom as you navigate the thresholds of change.
 
@@ -56,7 +56,7 @@ In times of uncertainty, call upon Hecate to illuminate your path and grant you 
 
 ## Judgement Tarot: The Divine Feminine Calling
 
-![judgement tarot card, divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles](https://tarotflower.com/wp-content/uploads/2023/05/DF-Reading-May-21-2023-8-990x1024.jpeg)
+![judgement tarot card, divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles](/images/2023/05/DF-Reading-May-21-2023-8-990x1024.jpeg)
 
 The Judgement tarot card in delivering the divine feminine calling this week. It is time to embrace your ascension journey with courage and conviction. Rise above the limitations of the past and leave behind the old paradigms that no longer serve your highest purpose. Embracing this transformative energy will unlock the door to profound personal growth and liberation.
 
@@ -66,7 +66,7 @@ Even if you don't see clearly how the future will unfold, have faith. Look to yo
 
 ## Twin Flame Channeled Message
 
-![divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles](https://tarotflower.com/wp-content/uploads/2023/05/DF-Reading-May-21-2023-6-959x1024.jpeg)
+![divine feminine tarot card reading, goddess Hecate, twin flame, goddess circles](/images/2023/05/DF-Reading-May-21-2023-6-959x1024.jpeg)
 
 You, as a divine feminine, are being called to action, to fully embody the light and embrace the next phase of your ascension process. This may require a temporary period of separation from your twin flame, as both of you focus on individual growth and spiritual transformation. Trust that this twin flame separation is a necessary step towards aligning with higher vibrations and meeting at the next level of spiritual connection. There is important work to be done at this time, Earth Angels.
 

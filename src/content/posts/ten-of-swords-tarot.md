@@ -10,7 +10,7 @@ seo_title: "The Ten of Swords Tarot Card Meaning: Done, Done and Done! | Tarot F
 seo_description: "The 10 of Swords from The Classic Rider-Waite Deck."
 ---
 
-[![](https://tarotflower.com/wp-content/uploads/2023/03/Swords10.jpeg)](https://amzn.to/40dpmgU)
+[![](/images/2023/03/Swords10.jpeg)](https://amzn.to/40dpmgU)
 
 The 10 of Swords from [The Classic Rider-Waite Deck](https://amzn.to/40dpmgU).
 
@@ -32,7 +32,7 @@ The suit of swords is also associated with the element of air, which is often se
 
 ## Interpreting the 10 of Swords in Your Tarot Card Reading
 
-[![](https://tarotflower.com/wp-content/uploads/2023/03/10-0f-swords-anne-stokes-995x1024.jpeg)](https://amzn.to/3z5vMCE)
+[![](/images/2023/03/10-0f-swords-anne-stokes-995x1024.jpeg)](https://amzn.to/3z5vMCE)
 
 This mysterious 10 of Swords Tarot card is from the [Anne Stoke's Gothic Tarot Deck](https://amzn.to/3z5vMCE).
 

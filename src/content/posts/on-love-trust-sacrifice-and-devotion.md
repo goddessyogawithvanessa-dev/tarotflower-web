@@ -10,7 +10,7 @@ seo_title: "On Love, Trust, Sacrifice, and Devotion | Tarot Flower"
 seo_description: "Why do we choose to sacrifice? Why do we choose to prove our love through acts of devotion? And what are these demonstrations in service of?"
 ---
 
-![Vanessa Hylande AI art flower painting](https://tarotflower.com/wp-content/uploads/2020/07/flower-wc-2.jpg)
+![Vanessa Hylande AI art flower painting](/images/2020/07/flower-wc-2.jpg)
 
 Why do we choose to sacrifice? Why do we choose to prove our love through acts of devotion? And what are these demonstrations in service of?
 
@@ -20,7 +20,7 @@ As I pondered the choices I have made in the past in a Kundalini yoga meditation
 
 But my sacrifice, my devotion, was in service of their hearts, not mine. My blessing was secondary - a happiness born of their happiness. This kind of compassion and desire to heal others has its own beauty. Yet, how is this different than sacrifice that is in service of your own heart - your own self-love?
 
-![Vanessa Hylande AI art love trust sacrifice devotion](https://tarotflower.com/wp-content/uploads/2020/07/love-trust-sacrifice.jpg)
+![Vanessa Hylande AI art love trust sacrifice devotion](/images/2020/07/love-trust-sacrifice.jpg)
 
 If my child were hungry, I would sacrifice my own fulfillment in a heartbeat. But there is no other involved in this gift giving. The child does not even recognize the sacrifice is being made. Nothing is being proven to anyone. It simply fills my heart to see my child nurtured, even if it is at my expense. Nobody needs to witness this. Nobody needs to acknowledge that the sacrifice was made. This is coming close to altruism.
 
@@ -36,7 +36,7 @@ When we accept this challenge of proving our love and worth, we validate another
 
 ## Being Love
 
-![Vanessa Hylande AI art flower painting](https://tarotflower.com/wp-content/uploads/2020/07/tf-flower-1.jpg)
+![Vanessa Hylande AI art flower painting](/images/2020/07/tf-flower-1.jpg)
 
 By consenting to this self-sacrifice in demonstration of my love and devotion, I was conceding that somewhere deep in my heart I feared that maybe I was not love already. Perhaps my love was not enough. But it was my self-love that was not enough. We already are love, from the moment we are born, sometimes we just don't feel with our hearts what we know in our minds.
 
@@ -60,7 +60,7 @@ This self-doubt, self-consciousness, self-correction can stifle the soul. It can
 
 ## The Voice of Love
 
-![Vanessa Hylande AI art flower painting](https://tarotflower.com/wp-content/uploads/2020/07/flower-oil.jpg)
+![Vanessa Hylande AI art flower painting](/images/2020/07/flower-oil.jpg)
 
 Perhaps it would help to remind ourselves that we only need the filter of the mind when we are not speaking from a place of love. But fear often gets in the way of our heart's true self-expression. Fear of rejection, fear of abandonment, fear of ridicule, or whatever else causes us to withhold our truth.
 

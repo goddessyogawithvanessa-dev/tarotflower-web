@@ -14,6 +14,6 @@ seo_description: "Join me on Zoom for Goddess Yoga Classes online! Same great cl
 
 ## Tarot Inspired Yoga Flow
 
-![Goddess Yoga Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/09/1-1.jpg)
+![Goddess Yoga Vanessa Hylande](/images/2023/09/1-1.jpg)
 
 Join me on Zoom for Goddess Yoga Classes online! Same great class with goddess from around the world.

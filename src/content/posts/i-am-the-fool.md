@@ -10,7 +10,7 @@ seo_title: "I Am The Fool | Tarot Flower"
 seo_description: "Standing blissfully at the precipice, I am ready to step into the void of infinite possibility. The Warrior God has come home to his own temple. The..."
 ---
 
-![Vanessa Hylande AI Art the fool tarot card](https://tarotflower.com/wp-content/uploads/2020/06/I-am-the-fool.jpg)
+![Vanessa Hylande AI Art the fool tarot card](/images/2020/06/I-am-the-fool.jpg)
 
 Standing blissfully at the precipice, I am ready to step into the void of infinite possibility. The Warrior God has come home to his own temple. The illusions have been cast away now that we've left Pisces behind, and what our hearts are longing for has become stunningly clear.
 

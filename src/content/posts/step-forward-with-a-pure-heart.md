@@ -18,13 +18,13 @@ The Five of Pentacles in the reverse indicates an opportunity to put an end to t
 
 Whenever we encounter pain in our lives, there is a place in our own hearts where we are self inflicting the same energy. Do you abandon your own dreams or needs at times? Be thankful for these messages because they are windows into our souls. Now you have the clarity to self-heal. The King of Cups represents mastery over emotion.
 
-Don't choose a memory of love. Don't choose the possibility of love. Don't choose the longing for love. Where is love in your life in this very moment? That is all that is real. [Choose love](http://tarotflower.com/daily-tarot/choosing-love/) in the present. The rest is illusion - a crack in the cup of love through which your heart will slowly empty itself. Fill your cup instead.
+Don't choose a memory of love. Don't choose the possibility of love. Don't choose the longing for love. Where is love in your life in this very moment? That is all that is real. [Choose love](https://tarotflower.com/daily-tarot/choosing-love/) in the present. The rest is illusion - a crack in the cup of love through which your heart will slowly empty itself. Fill your cup instead.
 
 ## Daily Affirmation
 
 > "I choose love"
 
-![embodied goddesses online alignment program](http://tarotflower.com/wp-content/uploads/2021/01/embody-your-inner-goddess-1024x1024.png)
+![embodied goddesses online alignment program](/images/2021/01/embody-your-inner-goddess-1024x1024.png)
 
 *Want to learn more about embodying the tarot? Check out the*[*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

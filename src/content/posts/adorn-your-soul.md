@@ -10,7 +10,7 @@ seo_title: "Adorn Your Soul | Tarot Flower"
 seo_description: "> \"Adorn your soul with everything beautiful"
 ---
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/adorn-your-soul.jpg)
+![](/images/2023/12/adorn-your-soul.jpg)
 
 > "Adorn your soul with everything beautiful
 >

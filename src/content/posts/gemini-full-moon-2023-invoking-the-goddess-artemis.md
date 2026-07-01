@@ -10,7 +10,7 @@ seo_title: "Gemini Full Moon 2023: Invoking the Goddess Artemis | Tarot Flower"
 seo_description: "For this beautiful full moon in Gemini, 2023, I will be invoking the Goddess Artemis, as we have just moved into the sun sign of Sagittarius. The..."
 ---
 
-![goddess artemis gemini full moon 2023 goddess embodiment sagittarius season](https://tarotflower.com/wp-content/uploads/2023/11/Artemis-blog.jpg)
+![goddess artemis gemini full moon 2023 goddess embodiment sagittarius season](/images/2023/11/Artemis-blog.jpg)
 
 For this beautiful full moon in [Gemini](https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/), 2023, I will be invoking the Goddess [Artemis](https://tarotflower.com/goddess/goddess-artemis-greek-goddess-of-the-hunt/), as we have just moved into the sun sign of [Sagittarius](https://tarotflower.com/astrology/sagittarius-dates-traits-the-spirited-adventurer/). The Goddess Artemis hunts in the wild with her fiery bow and arrow. She is driven, adventurous and filled with confidence and prowess. This Greek Goddess was also revered as the goddess of the moon, so it's a perfect time to channel her passionate energy!
 

@@ -10,7 +10,7 @@ seo_title: "Surrender at the Lion's Gate | Tarot Flower"
 seo_description: "What are we taking with us, and what are we leaving behind as we surrender to transformation at this divine Gate of the Lions? What will our new world..."
 ---
 
-![The Altar of devotion poetry by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2020/08/the-altar-of-devotion.png-1024x1024.webp)
+![The Altar of devotion poetry by Vanessa Hylande](/images/2020/08/the-altar-of-devotion.png-1024x1024.webp)
 
 What are we taking with us, and what are we leaving behind as we surrender to transformation at this divine Gate of the Lions? What will our new world look like once we purify our relationships? Perhaps with our hearts realigned, our priorities will be better defined.
 

@@ -10,7 +10,7 @@ seo_title: "A Spiritual Wellness Retreat with Tarot Card Readings - Immerse Your
 seo_description: "If you love tarot card readings are yearn to dive deeply into what your heart really longs for, then this spiritual wellness retreat will blow your..."
 ---
 
-![wellness retreat with tarot card readings at goddess yoga](https://tarotflower.com/wp-content/uploads/2023/02/TF-wellness-retreat-goddess-.jpeg)
+![wellness retreat with tarot card readings at goddess yoga](/images/2023/02/TF-wellness-retreat-goddess-.jpeg)
 
 If you love tarot card readings are yearn to dive deeply into what your heart really longs for, then this spiritual wellness retreat will blow your mind! Are you determined to finally make your dreams manifest in your life? Then you're ready to gather with the women of Goddess Yoga to increase your power exponentially.
 
@@ -22,7 +22,7 @@ For one week, you will be immersed in magical excursions in nature with elementa
 
 ## Wellness retreat in magical Lake Orta, the land of the dragons
 
-![lago d'orta italy piedmont goddess yoga retreat ](https://tarotflower.com/wp-content/uploads/2023/01/26-1024x1024.jpg)
+![lago d'orta italy piedmont goddess yoga retreat ](/images/2023/01/26-1024x1024.jpg)
 
 Lago d'Orta is a mystical and sparkling Italian lake located in the Piedmont region of northern Italy. This enchanting lake is nestled in the Italian Alps, called the Dolomites. It is known for its incredible beauty and its enchanting mythology. The lake is home to the island of San Giulio, which is said to be the home of a legendary dragon. According to local legend, the dragon was slain by St. Giulio in the 4th century.
 
@@ -32,7 +32,7 @@ Can you imagine the kind of power a place like this holds? When we engage in spi
 
 ## Spend your summer in bliss and self-care at this spiritual retreat with yoga and Tarot
 
-![daily tarot oracle messages fire element fairy wisdom](https://tarotflower.com/wp-content/uploads/2021/01/1605965130704-scaled-e1610833644157-1024x1024.jpg)
+![daily tarot oracle messages fire element fairy wisdom](/images/2021/01/1605965130704-scaled-e1610833644157-1024x1024.jpg)
 
 For one incredible week, you can enjoy tarot card readings from **experienced psychics** while developing your intuition and **connecting to your divine feminine power.** You'll also get to stay fit by doing yoga and practicing embodiment dance every single day. What's more is you'll have fun while you're at it because everything is at your own pace and how you choose to do it!
 
@@ -42,7 +42,7 @@ This is the perfect chance to immerse yourself in the world of tarot card readin
 
 ## Tap into your intuition and dance like The Empress with trance dance
 
-![Best yoga retreats 2023 Goddess yoga tarot card readings and embodiment dance in Lago d'Orta Italy](https://tarotflower.com/wp-content/uploads/2023/01/GY-emb.jpeg)
+![Best yoga retreats 2023 Goddess yoga tarot card readings and embodiment dance in Lago d'Orta Italy](/images/2023/01/GY-emb.jpeg)
 
 There's another amazing way to increase your intuition, connect with your spirit guides, and dance your way to a higher level of consciousness. It's called trance dance, and it's like a magical journey into the 5D!
 
@@ -62,7 +62,7 @@ If you are looking for a way to **tap into the Universal source of energy, devel
 
 ## Learn how to dance The Major Arcana at this spiritual wellness retreat
 
-![lunar eclipse ritual moon magic](https://tarotflower.com/wp-content/uploads/2022/12/Tarot-Blogs-11.jpg)
+![lunar eclipse ritual moon magic](/images/2022/12/Tarot-Blogs-11.jpg)
 
 Actually, one of the best ways of embodying the lessons of the tarot, is by taking a movement and dance journey through the archetypes of the [Major Arcana](https://tarotflower.com/major-arcana-2/). At this Goddess Yoga retreat, you'll be have the opportunity to experience this spiritual journey. You'll be [dancing the major arcana](https://goddess-yoga-retreat.com/dancing-the-major-arcana/) in a safe and supportive environment with real psychics and spiritual guides.
 
@@ -76,7 +76,7 @@ Also, when we engage in trance dance and embodiment dance, we channel the messag
 
 So don't wait - book your spot today and get ready to have the time of your life in beautiful Italy!
 
-![](https://tarotflower.com/wp-content/uploads/2023/02/wedding-24.png)
+![](/images/2023/02/wedding-24.png)
 
 ## Early Bird Registration Now Open
 

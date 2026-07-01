@@ -10,7 +10,7 @@ seo_title: "Affirmation for Confidence: Warrior Woman | Tarot Flower"
 seo_description: "A warrior woman stands in bravery but is lead by the softness of her heart. Embody the strength of the loving warrior woman today. She embodies this..."
 ---
 
-![I was born a warrior woman.](http://tarotflower.com/wp-content/uploads/2021/01/featured-images-3-1024x1024.jpg)
+![I was born a warrior woman.](/images/2021/01/featured-images-3-1024x1024.jpg)
 
 A warrior woman stands in bravery but is lead by the softness of her heart. Embody the strength of the loving warrior woman today. She embodies this affirmation for confidence!
 
@@ -26,13 +26,13 @@ You may want to take some time in your meditation to reflect on the aspects of y
 
 If fear creeps in, do not resist it. Instead, take this opportunity to face fear in the eye and use it as an opportunity to expand. To grow. To become a better version of yourself. Now is the time to shine brighter and remove the chains from your internal prison.
 
-![my fear is an opportunity for growth](http://tarotflower.com/wp-content/uploads/2021/01/featured-images-2-1024x1024.jpg)
+![my fear is an opportunity for growth](/images/2021/01/featured-images-2-1024x1024.jpg)
 
 ## Find Your Inner Fire
 
-Just as the warrior woman, Joan of Arc, says herself, "Fear nothing; I was born to do this," you too are born with this loving inner confidence to follow your calling. The kind of energy that [The Emperor](http://tarotflower.com/tarot-card-meanings/the-emperor-tarot/) of the tarot brings when he is manifesting.
+Just as the warrior woman, Joan of Arc, says herself, "Fear nothing; I was born to do this," you too are born with this loving inner confidence to follow your calling. The kind of energy that [The Emperor](https://tarotflower.com/tarot-card-meanings/the-emperor-tarot/) of the tarot brings when he is manifesting.
 
-Remember the key to embodying your inner warrior and empowerment is to take action and lead with [compassion and confidence.](http://tarotflower.com/daily-tarot/lead-with-compassion-and-confidence/)
+Remember the key to embodying your inner warrior and empowerment is to take action and lead with [compassion and confidence.](https://tarotflower.com/daily-tarot/lead-with-compassion-and-confidence/)
 
 When you are feeling called to follow the direction of your heart, have trust and say to yourself, " I am not afraid. I was born to stand in courage and follow my heart. I am a warrior woman." All you have to is listen to the voice that you feel in your heart.
 
@@ -42,7 +42,7 @@ No more holding back. It's time to embody this affirmation for confidence! The w
 
 Love,
 
-![](http://tarotflower.com/wp-content/uploads/2021/01/signiture-1024x585.jpg)
+![](/images/2021/01/signiture-1024x585.jpg)
 
 > I was born a warrior woman- my fear is an opportunity for growth.
 >
@@ -50,7 +50,7 @@ Love,
 
 ---
 
-![embodied goddesses online alignment program](http://tarotflower.com/wp-content/uploads/2021/01/embody-your-inner-goddess-1024x1024.png)
+![embodied goddesses online alignment program](/images/2021/01/embody-your-inner-goddess-1024x1024.png)
 
 I*f you want to learn more about manifesting courage and abundance in your life, check out the[Embodied Goddesses](https://embodiedgoddesses.com/about-course/) online ascension program, and **dance** your way to embodying the warrior woman.*
 

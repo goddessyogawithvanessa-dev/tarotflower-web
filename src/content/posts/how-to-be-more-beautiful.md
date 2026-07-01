@@ -50,4 +50,4 @@ That is the kind of energy that turns heads and makes people say "wow!"
 
 And guess what? It means we are no longer competing with other women, and instead are supporting each other and being ourselves fearlessly. Are you ready to meet other women who want to ditch the game and be real? We only have one beautiful life to live and maybe it will be more beautiful if we share it together in harmony, rather than judgment.
 
-*Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com) *where you will find everything tarot for blossoming souls.*
+*Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*

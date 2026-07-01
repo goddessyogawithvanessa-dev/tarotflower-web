@@ -10,7 +10,7 @@ seo_title: "White Sage Tarot Deck In a Tin: Travel with Inspiration | Tarot Flow
 seo_description: "The White Sage Tarot Deck in a tin is a beautiful and creative Tarot deck that is perfect for those who are looking for a more feminine energy in their..."
 ---
 
-[![white sage tarot deck in a tin for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-6.00.49-PM.jpg)](https://www.amazon.com/White-Sage-Tarot-Theresa-Hutch/dp/1572819545?crid=2ULW1PKVHU70K&keywords=white+sage+tarot+deck+tin&qid=1682438377&sprefix=white+sage+tarot%2Caps%2C206&sr=8-5&linkCode=sl1&tag=tarotflower-20&linkId=56228c8eeae6083f19421f2a173fbcd2&language=en_US&ref_=as_li_ss_tl)
+[![white sage tarot deck in a tin for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-6.00.49-PM.jpg)](https://www.amazon.com/White-Sage-Tarot-Theresa-Hutch/dp/1572819545?crid=2ULW1PKVHU70K&keywords=white+sage+tarot+deck+tin&qid=1682438377&sprefix=white+sage+tarot%2Caps%2C206&sr=8-5&linkCode=sl1&tag=tarotflower-20&linkId=56228c8eeae6083f19421f2a173fbcd2&language=en_US&ref_=as_li_ss_tl)
 
 [The White Sage Tarot Deck](https://amzn.to/3V5K1lg) in a tin is a beautiful and creative Tarot deck that is perfect for those who are looking for a more feminine energy in their readings. It is also a deck that is well suited to younger readers.
 
@@ -30,7 +30,7 @@ This deck is designed by Theresa Hutch and is filled with adorable and uplifti
 
 ## Size Weight and Feel of The White Sage Tarot Deck
 
-[![white sage tarot deck in a tin for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-6.00.59-PM.jpg)](https://www.amazon.com/White-Sage-Tarot-Theresa-Hutch/dp/1572819545?crid=2ULW1PKVHU70K&keywords=white+sage+tarot+deck+tin&qid=1682438377&sprefix=white+sage+tarot%2Caps%2C206&sr=8-5&linkCode=sl1&tag=tarotflower-20&linkId=56228c8eeae6083f19421f2a173fbcd2&language=en_US&ref_=as_li_ss_tl)
+[![white sage tarot deck in a tin for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-6.00.59-PM.jpg)](https://www.amazon.com/White-Sage-Tarot-Theresa-Hutch/dp/1572819545?crid=2ULW1PKVHU70K&keywords=white+sage+tarot+deck+tin&qid=1682438377&sprefix=white+sage+tarot%2Caps%2C206&sr=8-5&linkCode=sl1&tag=tarotflower-20&linkId=56228c8eeae6083f19421f2a173fbcd2&language=en_US&ref_=as_li_ss_tl)
 
 The White Sage Tarot deck is nature-based and comes in a pocket-size tin, making it easy to carry around with you wherever you go. The cardboard boxes that most other decks come in, often get bent or worn. This tin however, is sturdy and stays closed, so you can easily throw it into your bag and know that your deck is safe.
 
@@ -40,7 +40,7 @@ Plus, smaller cards are great for using as clarifying cards because you can stil
 
 ## White Sage Tarot Artwork
 
-[![white sage tarot deck in a tin for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-6.01.10-PM.jpg)](https://www.amazon.com/White-Sage-Tarot-Theresa-Hutch/dp/1572819545?crid=2ULW1PKVHU70K&keywords=white+sage+tarot+deck+tin&qid=1682438377&sprefix=white+sage+tarot%2Caps%2C206&sr=8-5&linkCode=sl1&tag=tarotflower-20&linkId=56228c8eeae6083f19421f2a173fbcd2&language=en_US&ref_=as_li_ss_tl)
+[![white sage tarot deck in a tin for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-6.01.10-PM.jpg)](https://www.amazon.com/White-Sage-Tarot-Theresa-Hutch/dp/1572819545?crid=2ULW1PKVHU70K&keywords=white+sage+tarot+deck+tin&qid=1682438377&sprefix=white+sage+tarot%2Caps%2C206&sr=8-5&linkCode=sl1&tag=tarotflower-20&linkId=56228c8eeae6083f19421f2a173fbcd2&language=en_US&ref_=as_li_ss_tl)
 
 The artwork on the cards is stunning, with soft pastel colors used on the characters. The colors used in the deck represent the energy chakra system, which adds a creative and unique touch to the deck. The artwork is whimsical and charming, making it perfect for those who are looking for a more gentle and introspective tarot set.
 
@@ -50,7 +50,7 @@ Each card in the deck is unique, with its own story and symbolism, making it a f
 
 ## The Inspiration Behind the White Sage Tarot deck
 
-[![white sage tarot deck in a tin for your altar and goddess circles](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-25-at-6.01.19-PM.jpg)](https://www.amazon.com/White-Sage-Tarot-Theresa-Hutch/dp/1572819545?crid=2ULW1PKVHU70K&keywords=white+sage+tarot+deck+tin&qid=1682438377&sprefix=white+sage+tarot%2Caps%2C206&sr=8-5&linkCode=sl1&tag=tarotflower-20&linkId=56228c8eeae6083f19421f2a173fbcd2&language=en_US&ref_=as_li_ss_tl)
+[![white sage tarot deck in a tin for your altar and goddess circles](/images/2023/04/Screen-Shot-2023-04-25-at-6.01.19-PM.jpg)](https://www.amazon.com/White-Sage-Tarot-Theresa-Hutch/dp/1572819545?crid=2ULW1PKVHU70K&keywords=white+sage+tarot+deck+tin&qid=1682438377&sprefix=white+sage+tarot%2Caps%2C206&sr=8-5&linkCode=sl1&tag=tarotflower-20&linkId=56228c8eeae6083f19421f2a173fbcd2&language=en_US&ref_=as_li_ss_tl)
 
 The White Sage Tarot deck is inspired by ancient healing traditions and features endearing animals in the Court Cards, chakra colors in the Minors. Its a modern, minimalist 78-card deck based on a classical model of tarot[1](https://www.usgamesinc.com/white-sage-tarot.html)[2](https://lazarobrand.com/white-sage-tarot-cards-in-a-tin-by-theresa-hutch/).
 
@@ -64,23 +64,23 @@ The author and creator of the White Sage Tarot deck, Theresa Hutch, has worked a
 
 ## Pictures of the White Sage Tarot Deck in a Tin
 
-![the world tarot card meanings major arcana white sage deck](https://tarotflower.com/wp-content/uploads/2022/12/Tarot-Blogs-10.jpg)
+![the world tarot card meanings major arcana white sage deck](/images/2022/12/Tarot-Blogs-10.jpg)
 
-![](https://tarotflower.com/wp-content/uploads/2022/12/IMG_20201215_123126-scaled-3-923x1024.jpg)
+![](/images/2022/12/IMG_20201215_123126-scaled-3-923x1024.jpg)
 
-![](https://tarotflower.com/wp-content/uploads/2022/12/IMG_20201215_123548-scaled-3-908x1024.jpg)
+![](/images/2022/12/IMG_20201215_123548-scaled-3-908x1024.jpg)
 
-![](https://tarotflower.com/wp-content/uploads/2022/12/IMG_20201215_122606-scaled-2-874x1024.jpg)
+![](/images/2022/12/IMG_20201215_122606-scaled-2-874x1024.jpg)
 
-![the tower tarot card meaning](https://tarotflower.com/wp-content/uploads/2022/04/IMG_20220216_123119-992x1024.jpg)
+![the tower tarot card meaning](/images/2022/04/IMG_20220216_123119-992x1024.jpg)
 
-![](https://tarotflower.com/wp-content/uploads/2022/04/IMG_20220216_122913-1024x994.jpg)
+![](/images/2022/04/IMG_20220216_122913-1024x994.jpg)
 
-![](https://tarotflower.com/wp-content/uploads/2022/04/IMG_20201216_120012-1-1024x1016.webp)
+![](/images/2022/04/IMG_20201216_120012-1-1024x1016.webp)
 
-![the wheel of fortune tarot card meaning white sage tarot deck](https://tarotflower.com/wp-content/uploads/2021/01/IMG_20201216_115925-980x1024.webp)
+![the wheel of fortune tarot card meaning white sage tarot deck](/images/2021/01/IMG_20201216_115925-980x1024.webp)
 
-![the hermit tarot card](https://tarotflower.com/wp-content/uploads/2022/04/IMG_20201216_115855-1024x1003.webp)
+![the hermit tarot card](/images/2022/04/IMG_20201216_115855-1024x1003.webp)
 
 ## Pricing and Value
 
@@ -94,14 +94,14 @@ The White Sage Tarot deck in a tin is a beautiful and creative tarot deck that i
 
 If you love the convenience and size of a tarot deck in a tin, try these alternatives!
 
-[![Radiant Rider-Waite® Tarot in a Tin Cards review](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-26-at-9.49.06-AM.jpg)](https://amzn.to/3oGfjmy)
+[![Radiant Rider-Waite® Tarot in a Tin Cards review](/images/2023/04/Screen-Shot-2023-04-26-at-9.49.06-AM.jpg)](https://amzn.to/3oGfjmy)
 
-[![Atesswy Golden Art Nouveau Tarot Deck in A Tin, Gold Gilded Tarot Cards in Pocket Size review](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-26-at-9.51.04-AM.jpg)](https://amzn.to/3L6BN7W)
+[![Atesswy Golden Art Nouveau Tarot Deck in A Tin, Gold Gilded Tarot Cards in Pocket Size review](/images/2023/04/Screen-Shot-2023-04-26-at-9.51.04-AM.jpg)](https://amzn.to/3L6BN7W)
 
-[![Morgan Greer Tarot in a Tin Cards review](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-26-at-9.52.37-AM.jpg)](https://amzn.to/41WW0np)
+[![Morgan Greer Tarot in a Tin Cards review](/images/2023/04/Screen-Shot-2023-04-26-at-9.52.37-AM.jpg)](https://amzn.to/41WW0np)
 
-![Atesswy Lucid Dreams Beginners Tarot Deck, 78 Rainbow Gilded Tarot Cards with Keywords in A Tin review](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-26-at-9.54.46-AM.jpg)
+![Atesswy Lucid Dreams Beginners Tarot Deck, 78 Rainbow Gilded Tarot Cards with Keywords in A Tin review](/images/2023/04/Screen-Shot-2023-04-26-at-9.54.46-AM.jpg)
 
-![Sun & Moon In A Tin Cards review](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-26-at-10.02.47-AM.jpg)
+![Sun & Moon In A Tin Cards review](/images/2023/04/Screen-Shot-2023-04-26-at-10.02.47-AM.jpg)
 
-[![Aquarian Tarot In a Tin Cards review](https://tarotflower.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-26-at-10.04.40-AM.jpg)](https://amzn.to/3L7AMML)
+[![Aquarian Tarot In a Tin Cards review](/images/2023/04/Screen-Shot-2023-04-26-at-10.04.40-AM.jpg)](https://amzn.to/3L7AMML)

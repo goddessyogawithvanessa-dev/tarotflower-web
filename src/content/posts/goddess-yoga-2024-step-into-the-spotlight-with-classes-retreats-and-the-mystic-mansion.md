@@ -10,7 +10,7 @@ seo_title: "Goddess Yoga 2024: Step Into the Spotlight with Classes, Retreats an
 seo_description: "Goddess Yoga 2024 is going to be lit! I am so excited to be expanding our offerings and growing our beautiful community with all of you! This last year..."
 ---
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/goddess-yoga-2024-2.jpg)
+![](/images/2023/12/goddess-yoga-2024-2.jpg)
 
 Goddess Yoga 2024 is going to be lit! I am so excited to be expanding our offerings and growing our beautiful community with all of you! This last year was really the best and most beautiful year of my life, and I am so thankful we are on this journey together! This year I am launching several new initiatives, from **online classes** (for those of you not in Vienna), to **new summer yoga retreat locations** and the launch of our **Mystic Mansion** in Vienna! Are you as excited as I am?
 
@@ -20,7 +20,7 @@ Goddess Yoga 2024 is going to be lit! I am so excited to be expanding our offeri
 
 ## 2024 The Year of the Dragon
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/goddess-yoga-2024.jpg)
+![](/images/2023/12/goddess-yoga-2024.jpg)
 
 2024 will also be the Chinese year of the wood dragon. This will introduce a powerful energy of vitality, passion, and transformation that will bring forth dynamic changes across all aspects of life. **Financially**, you may experience opportunities for prosperity through bold and innovative ventures, because the Dragon is associated with good fortune and wealth. On your **career path**, you may witness significant growth and transformation, if you embrace your ambitions with courage and determination.
 
@@ -30,7 +30,7 @@ Overall, the year of the Dragon 2024 holds the promise of exciting endeavors, fi
 
 ## Goddess Yoga Vienna
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/goddess-yoga-2024-4-1.jpg)
+![](/images/2023/12/goddess-yoga-2024-4-1.jpg)
 
 In the spirit of growth, vitality and passion, I am adding a whole new selection of semi-private classes to the calendar here in Vienna! We have a limited number of spots for each class, so I kindly ask that you send me a whatsapp or an email through the [website](https://tarotflower.com/goddess-yoga-vienna/) to reserve your space in advance. Beginning this January 2024, I plan to offer classes on:
 
@@ -46,7 +46,7 @@ You can find the updated [calendar of all classes](https://tarotflower.com/godde
 
 ## Goddess Yoga Online
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/goddess-yoga-2024-3.jpg)
+![](/images/2023/12/goddess-yoga-2024-3.jpg)
 
 For my beautiful Goddesses around the world, from Europe to California and beyond, I am finally launching goddess yoga classes online! We will meet through zoom and share the same journey. A full dance inspired yoga flow class with a deep sound bath healing meditation at the end during shavasana. The only thing I won't be able to offer you is the hands on body work I like to incorporate, but I will send you all some wonderful healing vibes energetically during the sound bath! There are slots that should work for the European Goddesses, as well as my East Coast and West Coast beauties.
 
@@ -62,7 +62,7 @@ For my beautiful Goddesses around the world, from Europe to California and beyon
 
 ## Energy Healing Sessions with Vanessa
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/goddess-yoga-2024-6.jpg)
+![](/images/2023/12/goddess-yoga-2024-6.jpg)
 
 If you are interested in energy healing sessions, you are welcome to book as session with me in person in Vienna! I will do energy work, like Reiki, using sound and light touch, depending on what you need at the time. I also love to incorporate Tarot card readings when appropriate. Just email me to schedule a session!
 
@@ -76,23 +76,23 @@ Stephanie and I have been pounding the pavement getting the Summer 2024 Goddess 
 
 ### July 2024 – Naxos, Greece
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/naxos-beach-1024x683.jpeg)
+![](/images/2023/12/naxos-beach-1024x683.jpeg)
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/naxos-evening.jpeg)
+![](/images/2023/12/naxos-evening.jpeg)
 
 ### August 2024 – Lago d’Orta, Italy
 
-![](https://tarotflower.com/wp-content/uploads/2023/11/36.jpg)
+![](/images/2023/11/36.jpg)
 
-![](https://tarotflower.com/wp-content/uploads/2023/11/omegna-at-night.jpeg)
+![](/images/2023/11/omegna-at-night.jpeg)
 
 ### September 2024 – Pantelleria
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/Costa_dell_Isola_di_Pantelleria-1024x768-1.jpeg)
+![](/images/2023/12/Costa_dell_Isola_di_Pantelleria-1024x768-1.jpeg)
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/parco-dei-sesi-003-1024x576.jpeg)
+![](/images/2023/12/parco-dei-sesi-003-1024x576.jpeg)
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/pant-1.jpeg)
+![](/images/2023/12/pant-1.jpeg)
 
 ## The Mystic Mansion
 
@@ -118,7 +118,7 @@ Remove Energetic Blockages
 
 Remove energetic and physcial blockages. In person and remote.
 
-![](https://tarotflower.com/wp-content/uploads/2023/09/3-1.jpg)
+![](/images/2023/09/3-1.jpg)
 
 # The Goddess Embodiment Program
 

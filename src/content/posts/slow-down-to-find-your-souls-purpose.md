@@ -38,7 +38,7 @@ What would give you peace in this moment? What would fill your heart with joy. Y
 
 Want to learn how to find serenity and groundedness through embodiment practices and yoga? Join our Goddess Yoga retreats and reconnect with your inner wisdom and joy through music, dance, guided visual meditations, healthy recipes, journaling exercises and so much more!
 
-*Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com) *where you will find everything tarot for blossoming souls.*
+*Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-6-576x1024.jpg)
 

@@ -10,7 +10,7 @@ seo_title: "Pisces Dates & Traits: The Mystical Dreaming Fish | Tarot Flower"
 seo_description: "Let's dive into the dreamy and compassionate world of Pisces. Born between February 19 and March 20, Pisces is the 12th and final sign of the zodiac...."
 ---
 
-![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/pisces-1.jpg)
+![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](/images/2023/04/pisces-1.jpg)
 
 Let's dive into the dreamy and compassionate world of Pisces. Born between February 19 and March 20, Pisces is the 12th and final sign of the zodiac. They possess a unique blend of traits that make them truly special.
 
@@ -33,7 +33,7 @@ Overall, Pisces is a water sign that brings depth, empathy, and creativity to th
 
 ## Pisces personality quick facts
 
-![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/pisces-3.jpg)
+![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](/images/2023/04/pisces-3.jpg)
 
 1. **Element and Symbol:** Pisces is a water sign, representing the element of water. Its symbol is two fish swimming in opposite directions, symbolizing the duality within Pisces' nature.
 2. **Ruled by Neptune:** Pisces is ruled by the planet Neptune, which adds a touch of mysticism, creativity, and spiritual depth to their personality.
@@ -48,7 +48,7 @@ Overall, Pisces is a water sign that brings depth, empathy, and creativity to th
 
 ## Pisces Likes
 
-![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/pisces-2.jpg)
+![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](/images/2023/04/pisces-2.jpg)
 
 1. **Creativity:** Pisces has a deep appreciation for artistic expression and creativity in all its forms. They are often drawn to music, art, writing, and other creative outlets. Engaging in artistic pursuits allows Pisces to tap into their imaginative and intuitive nature, providing them with a sense of inspiration and emotional fulfillment.
 2. **Peaceful Environments:** Pisces seeks tranquility and harmony in their surroundings. They are naturally drawn to serene and peaceful environments that allow them to escape from the chaos of the world. Being near bodies of water, such as the ocean or a peaceful lake, can be particularly soothing for Pisces. They also appreciate quiet spaces where they can retreat, reflect, and recharge their emotional energy.
@@ -56,7 +56,7 @@ Overall, Pisces is a water sign that brings depth, empathy, and creativity to th
 
 ## Unraveling the Mystery of Pisces
 
-![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/pisces-5.jpg)
+![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](/images/2023/04/pisces-5.jpg)
 
 Are you ready to dive into the mysterious depths of the zodiac's most enigmatic sign? From the mystical fish to the mysterious symbol of two intertwined crescents, Pisces has long been shrouded in mystery and superstition. But what does the astrological sign of Pisces really mean?
 
@@ -70,7 +70,7 @@ Pisces is a water sign, and is ruled by the planet Neptune, which is associated 
 
 ### What Pisces loves
 
-![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/pisces-2.jpg)
+![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](/images/2023/04/pisces-2.jpg)
 
 Pisceans find joy in giving and are often drawn to artistic and creative pursuits. They are often intuitive and can pick up on the emotions of those around them. Pisces is a sign of transformation, and those born under it often find themselves faced with tough choices and changes in their lives. They are often drawn to spiritual pursuits and seek to find comfort from within.
 
@@ -80,7 +80,7 @@ Pisceans are often considered to be the most intuitive and creative of the zodia
 
 ## Pisces Compatibility Romance & Relationships
 
-![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/pisces-4.jpg)
+![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](/images/2023/04/pisces-4.jpg)
 
 Pisces in romantic relationships often take on the role of the dreamer, always looking for ways to bring more passion and beauty into their relationship. They are highly intuitive, often picking up on the hidden emotions of their partner and wanting to make sure they are fulfilled in their relationship. They are also incredibly loyal and passionate, taking their relationships very seriously and going out of their way to ensure their partner feels loved and appreciated.
 
@@ -90,7 +90,7 @@ On the negative side, Pisces can be too sensitive, easily overwhelmed and prone 
 
 ## Aries and Pisces Compatibility
 
-![Aries dates and traits, Aries compatibility zodiac astrology, aries star sign, midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/aries-1.jpg)
+![Aries dates and traits, Aries compatibility zodiac astrology, aries star sign, midjourney art Vanessa Hylande](/images/2023/04/aries-1.jpg)
 
 [Aries](https://tarotflower.com/astrology/aries-dates-traits-the-fearless-ram/), a fiery and adventurous sign, can bring excitement and passion to the gentle and dreamy Pisces. While they may have contrasting energies, they can complement each other well. Aries can inspire Pisces to take action and pursue their dreams, while Pisces can provide Aries with emotional depth and sensitivity.
 
@@ -98,7 +98,7 @@ However, conflicts may arise due to differences in their approaches to life, wit
 
 ## Taurus and Pisces Compatibility
 
-![taurus dates and traits, taurus compatibility, taurus personality, astrology, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/taurus-2.jpg)
+![taurus dates and traits, taurus compatibility, taurus personality, astrology, midjourney art by Vanessa Hylande](/images/2023/04/taurus-2.jpg)
 
 [Taurus](https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/) and Pisces can form a deeply harmonious and soulful connection. Both signs are drawn to the pleasures of life and value emotional intimacy in their relationships. Taurus, with its grounded and sensual nature, can provide stability and security for the sensitive and dreamy Pisces. Pisces, in turn, brings emotional depth, compassion, and creativity to Taurus' life.
 
@@ -106,7 +106,7 @@ Challenges may arise from Taurus' occasional stubbornness and Pisces' emotional 
 
 ## Gemini and Pisces Compatibility
 
-![Gemini dates and traits, Gemini zodiac, Gemini personality, Gemini compatibility, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/gemini-v2.jpg)
+![Gemini dates and traits, Gemini zodiac, Gemini personality, Gemini compatibility, Midjourney art by Vanessa Hylande](/images/2023/04/gemini-v2.jpg)
 
 [Gemini](https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/) and Pisces have contrasting energies that can create an intriguing and dynamic relationship. Gemini's intellectual curiosity and social nature can spark Pisces' imagination and bring excitement to their life. Pisces, with their emotional depth and empathy, can provide the understanding and support that Gemini needs.
 
@@ -114,7 +114,7 @@ However, differences may arise due to Gemini's need for constant mental stimulat
 
 ## Pisces and Cancer Compatibility
 
-![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/cancer-4.jpg)
+![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](/images/2023/04/cancer-4.jpg)
 
 Pisces and [Cancer](https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/) share a deep emotional connection and understanding, making them highly compatible partners. Both signs are sensitive, intuitive, and value emotional connections. They can create a nurturing and supportive environment for each other, providing emotional security and understanding.
 
@@ -122,7 +122,7 @@ Challenges may arise from their shared emotional sensitivity, as both signs can 
 
 ## Leo and Pisces Compatibility
 
-![Leo dates and traits, Leo zodiac sign. Leo personality, Leo compatibility, astrology midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/leo-3.jpg)
+![Leo dates and traits, Leo zodiac sign. Leo personality, Leo compatibility, astrology midjourney art by Vanessa Hylande](/images/2023/04/leo-3.jpg)
 
 Leo and Pisces have contrasting yet complementary qualities that can create a fascinating dynamic between them. Leo, a confident and charismatic sign, can provide Pisces with a sense of security and admiration. Pisces, on the other hand, brings emotional depth and compassion to Leo's life.
 
@@ -130,7 +130,7 @@ Their differences may lie in their levels of assertiveness and sensitivity, with
 
 ## Virgo and Pisces Compatibility
 
-![Virgo compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/virgo-2.jpg)
+![Virgo compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/virgo-2.jpg)
 
 Virgo and Pisces have contrasting yet complementary qualities that can create a harmonious and balanced relationship. Virgo's practicality and attention to detail can provide grounding for Pisces' dreamy and imaginative nature. Pisces, in turn, can bring emotional depth and empathy to Virgo's life.
 
@@ -138,13 +138,13 @@ Challenges may arise due to differences in their approaches to life, with Virgo 
 
 ## Libra and Pisces Compatibility
 
-![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/libra-3.jpg)
+![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-3.jpg)
 
 Libra and Pisces share a deep appreciation for beauty, harmony, and emotional connections. Both signs are romantic and seek balance in their relationships. Libra's charm and diplomacy can help create a peaceful and harmonious environment for Pisces to thrive. Pisces, with their intuitive nature, can understand and support Libra's need for fairness and harmony. Challenges may arise from Libra's indecisiveness and Pisces' emotional sensitivity. Communication and compromise are key to maintaining a strong and harmonious relationship between these two signs.
 
 ## Scorpio and Pisces Compatibility
 
-![Scorpio dates and traits, scorpio compatibility zodiac astrology midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/scorpio-1.jpg)
+![Scorpio dates and traits, scorpio compatibility zodiac astrology midjourney art Vanessa Hylande](/images/2023/04/scorpio-1.jpg)
 
 Scorpio and Pisces share an intense and transformative connection. Both signs are deeply emotional, intuitive, and value profound emotional connections. They understand each other on a deep level and can create a powerful bond based on trust and intimacy. Scorpio's intensity and passion complement Pisces' dreamy and empathetic nature.
 
@@ -152,7 +152,7 @@ Challenges may arise due to their shared emotional sensitivity and occasional mo
 
 ## Sagittarius and Pisces Compatibility
 
-![Sagittarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/sag-1.jpg)
+![Sagittarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/sag-1.jpg)
 
 Sagittarius and Pisces form an intriguing and contrasting relationship. Sagittarius, being a free-spirited and adventurous sign, brings excitement and enthusiasm to the partnership. Pisces, on the other hand, is more introspective and emotionally sensitive.
 
@@ -160,7 +160,7 @@ Despite their differences, Sagittarius can learn from Pisces' intuitive nature, 
 
 ## Capricorn and Pisces Compatibility
 
-![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/capricorn-1.jpg)
+![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/capricorn-1.jpg)
 
 Capricorn and Pisces have a complementary connection based on a blend of stability and creativity. Capricorn, known for its practicality and ambition, can provide a grounded and stable foundation for the dreamy and imaginative Pisces. Pisces, in turn, offers compassion, empathy, and artistic flair to Capricorn's life. Together, they can create a harmonious partnership where Capricorn provides structure and Pisces adds depth and emotional understanding.
 
@@ -168,7 +168,7 @@ Challenges may arise due to Capricorn's tendency to be too focused on material s
 
 ## Aquarius and Pisces Compatibility
 
-![Aquarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/virgo-3.jpg)
+![Aquarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/virgo-3.jpg)
 
 Aquarius and Pisces share a unique and ethereal connection. Aquarius, with its intellectual and innovative nature, can inspire and challenge the imaginative Pisces. Pisces, being a compassionate and intuitive sign, brings emotional depth and understanding to the relationship. Together, they can engage in profound conversations and explore new ideas and concepts.
 
@@ -184,7 +184,7 @@ Overall, Pisces have the potential to be extremely successful financially, but t
 
 ## Pisces in The Tarot
 
-[![the moon tarot card white sage tarot](https://tarotflower.com/wp-content/uploads/2022/02/IMG_20220216_122533-991x1024.jpg)](https://amzn.to/3nUU5RO)
+[![the moon tarot card white sage tarot](/images/2022/02/IMG_20220216_122533-991x1024.jpg)](https://amzn.to/3nUU5RO)
 
 The [White Sage Tarot Deck](https://amzn.to/3MkoFMS)
 

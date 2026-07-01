@@ -10,7 +10,7 @@ seo_title: "Sound Bath Meditation for Embodying The Goddess Yemaya | Tarot Flowe
 seo_description: "Sound bath meditations help to create a deep sense of relaxation and tranquility. The soothing and harmonious sounds facilitate the release of tension..."
 ---
 
-![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/yemaya-3-1-683x1024.jpg)
+![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](/images/2023/06/yemaya-3-1-683x1024.jpg)
 
 Sound bath meditations help to create a deep sense of relaxation and tranquility. The soothing and harmonious sounds facilitate the release of tension and stress, allowing you to enter a state of deep peace and calm. This relaxation is essential for connecting with the goddess energy within, as it opens up space for introspection and inner exploration. So, let's explore the ways in which this beautiful sound bath meditation to embody the goddess [Yemaya](https://tarotflower.com/oracle/yemaya/) will bring you health, peace and tranquility.
 

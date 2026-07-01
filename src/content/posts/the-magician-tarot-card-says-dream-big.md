@@ -10,9 +10,9 @@ seo_title: "The Magician Tarot Card Says \\\"Dream Big!\\\" | Tarot Flower"
 seo_description: "Spring is in the air and it's a beautiful day to manifest your dreams into existence! When you pull The Magician tarot card, you are being advised to..."
 ---
 
-![the magician tarot card meaning](http://tarotflower.com/wp-content/uploads/2021/01/the-magician-2-683x1024.jpg)
+![the magician tarot card meaning](/images/2021/01/the-magician-2-683x1024.jpg)
 
-Spring is in the air and it's a beautiful day to manifest your dreams into existence! When you pull [The Magician](http://tarotflower.com/tarot-card-meanings/the-magician-tarot/) tarot card, you are being advised to take full advantage of every tool you have at your disposal and go for it. Have your dreams been on hold? Have you felt stuck? Maybe you've been waiting for that perfect moment or circumstance?
+Spring is in the air and it's a beautiful day to manifest your dreams into existence! When you pull [The Magician](https://tarotflower.com/tarot-card-meanings/the-magician-tarot/) tarot card, you are being advised to take full advantage of every tool you have at your disposal and go for it. Have your dreams been on hold? Have you felt stuck? Maybe you've been waiting for that perfect moment or circumstance?
 
 The Magician card is telling you that the wait is over. You already have everything you need to succeed. Take another look at the resources around you. Could there be something that you're missing? You probably have more options and opportunities that you realize. Take the time to assess them all put a new plan into action.
 
@@ -28,13 +28,13 @@ It's a great day to pursue that dream job. Don't put it off any longer. Reassess
 
 ## Want to Learn How to Embody the Magician?
 
-![the magician tarot card manifest abundance](http://tarotflower.com/wp-content/uploads/2021/01/Magician1-1024x1024.jpg)
+![the magician tarot card manifest abundance](/images/2021/01/Magician1-1024x1024.jpg)
 
 If you're looking for some inspiration and guidance on embodying The Magician tarot card, then check out the [Embodied Goddesses](https://embodiedgoddesses.com/) online embodiment through the arts program. Jessica & Vanessa will guide you gently through dance embodiment practices, guided meditations, journaling exercises and best practices for using affirmations and inspirational quotes to manifest abundance in your life. And, abundance can come in all forms - money, love, joy, security. The Magician tarot card is telling you to get started creating the life you love today!
 
 Love,
 
-![tarot flower](http://tarotflower.com/wp-content/uploads/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](http://tarotflower.com/wp-content/uploads/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

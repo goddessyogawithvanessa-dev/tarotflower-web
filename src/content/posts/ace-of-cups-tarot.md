@@ -10,7 +10,7 @@ seo_title: "The Ace of Cups: Overflowing With Love | Tarot Flower"
 seo_description: "The Ace of Cups is one of the most powerful cards in the Tarot deck. It symbolizes the beginning of emotions and feelings. In a tarot card reading,..."
 ---
 
-![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2022/12/ace-of-cups-8.jpg)
+![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande](/images/2022/12/ace-of-cups-8.jpg)
 
 The Ace of Cups is one of the most powerful cards in the Tarot deck. It symbolizes the beginning of emotions and feelings. In a tarot card reading, it's often interpreted as a symbol of new love, creativity, and emotional fulfillment.
 
@@ -22,7 +22,7 @@ The Ace of Cups tarot card speaks of deep and meaningful emotions, as well as em
 
 ## The Ace of Cups Quick Facts
 
-![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande, TarotFlower deck](https://tarotflower.com/wp-content/uploads/2022/12/ace-of-cups.jpg)
+![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande, TarotFlower deck](/images/2022/12/ace-of-cups.jpg)
 
 * **Element:** Water
 * **Zodiac Sign:** [Cancer](https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/), [Scorpio](https://tarotflower.com/astrology/scorpio-dates-traits-the-phoenix-rising/), [Pisces](https://tarotflower.com/astrology/pisces-dates-traits-the-mystical-dreaming-fish/)
@@ -40,7 +40,7 @@ The Ace of Cups can also be seen as a sign of emotional balance and harmony. It 
 
 ## The Ace of Cups Love
 
-![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande, TarotFlower deck](https://tarotflower.com/wp-content/uploads/2022/12/ace-of-cups-2.jpg)
+![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande, TarotFlower deck](/images/2022/12/ace-of-cups-2.jpg)
 
 If you've received the Ace of Cups card in your tarot reading, you may have new love on the horizon! In a love reading, the Ace of Cups Tarot card brings forth a powerful message of emotional fulfillment and new beginnings in matters of the heart. It represents the [opening of the heart chakra](https://goddess-yoga-retreat.com/the-best-heart-chakra-yoga-poses-activating-opening-and-balancing-your-anahata-chakra/), allowing for a deep and transformative experience of love.
 
@@ -50,7 +50,7 @@ The Ace of Cups invites you to dive into the depths of your heart and explore th
 
 ## The Ace of Cups as Self-Love
 
-![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande, TarotFlower deck](https://tarotflower.com/wp-content/uploads/2022/12/ace-of-cups-1.jpg)
+![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande, TarotFlower deck](/images/2022/12/ace-of-cups-1.jpg)
 
 The Ace of Cups tarot card is a powerful symbol of self-love and emotional fulfillment. It represents a deep and genuine connection with oneself, embracing self-care, and nurturing one's own emotional well-being. When this card appears in a reading in the querent's own position, it encourages the seeker to prioritize their own needs and desires, and to fill their own cup with love and compassion.
 
@@ -58,7 +58,7 @@ The Ace of Cups tarot invites you to embark on a journey of self-discovery, expl
 
 ## How to Embody the Ace of Cups Tarot Card
 
-![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande, TarotFlower deck](https://tarotflower.com/wp-content/uploads/2022/12/ace-of-cups-5.jpg)
+![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande, TarotFlower deck](/images/2022/12/ace-of-cups-5.jpg)
 
 Embodying the Ace of Cups Tarot card is all about engaging in self-love and self-care practices!
 
@@ -100,7 +100,7 @@ Remove Energetic Blockages
 
 Remove energetic and physcial blockages. In person and remote.
 
-![](https://tarotflower.com/wp-content/uploads/2023/09/3-1.jpg)
+![](/images/2023/09/3-1.jpg)
 
 # The Goddess Embodiment Program
 

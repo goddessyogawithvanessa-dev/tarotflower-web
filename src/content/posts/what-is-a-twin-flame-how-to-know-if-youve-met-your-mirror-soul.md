@@ -10,7 +10,7 @@ seo_title: "What is a Twin Flame? How to Know if You've Met Your Mirror Soul | T
 seo_description: "Have you met someone that you feel so incredibly connected to? Like you have known each other for lifetimes even if you just met? Is the chemistry and..."
 ---
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-union-3.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-union-3.jpg)
 
 Have you met someone that you feel so incredibly connected to? Like you have known each other for lifetimes even if you just met? Is the chemistry and magnetic pull between the two of you so strong that you've having physical sensations? Do you feel their energy around you all the time, almost like you can hear and feel their thoughts and emotions? Are you experiencing incredible synchronicities at every turn? Then you may have met your twin flame. So, let's explore what is a twin flame and how to best navigate this incredible gift that you have been given.
 
@@ -20,7 +20,7 @@ A twin flame connection is an inexplicable and awe-inspiring encounter that surp
 
 ## Your Twin Flame Soul - A Cosmic Symphony
 
-![twin flame sex, twin flame union, twin flame journey, twin flame separation, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/02/twin-4.jpg)
+![twin flame sex, twin flame union, twin flame journey, twin flame separation, Midjourney art by Vanessa Hylande](/images/2023/02/twin-4.jpg)
 
 When you encounter your twin flame, it feels as if the universe aligns in a cosmic symphony, orchestrating the reunion of two souls on a sacred journey of evolution. The energetic fusion that takes place transcends physical boundaries and resonates on a soul level. It is an inexplicable bond that defies logic and rationality, igniting an array of emotions and experiences that are beyond comprehension.
 
@@ -30,7 +30,7 @@ The connection with your twin flame takes you on an extraordinary expedition of 
 
 ## Why Must We Undergo the Twin Flame Separation?
 
-![twin flame sex, goddess goddess card, tarotflower deck, kali embodiment, sacred sexuality, twin flame union, goddess yoga, divine feminine, sacred masculine, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/Kali-2-1-683x1024.jpg)
+![twin flame sex, goddess goddess card, tarotflower deck, kali embodiment, sacred sexuality, twin flame union, goddess yoga, divine feminine, sacred masculine, midjourney art by Vanessa Hylande](/images/2023/06/Kali-2-1-683x1024.jpg)
 
 As you navigate the twin flame journey, be prepared for a rollercoaster ride of emotions and experiences. This profound connection will test your strength, patience, and capacity for unconditional love. It is a sacred opportunity for personal growth and spiritual evolution, as you both mirror and support each other's journey towards wholeness.
 
@@ -46,7 +46,7 @@ Here are a few reasons why we must go through the twin flame separation:
 
 ### Self Discovery and Personal Growth
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-separation-7.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-separation-7.jpg)
 
 The separation provides an opportunity for each individual to delve deep within themselves, to explore their own wounds, patterns, and limiting beliefs. It is a time of self-reflection and self-discovery, where each twin flame is encouraged to confront their own shadows and work on their personal growth. The separation allows for individual healing and self-realization, ultimately leading to a stronger and more authentic version of oneself.
 
@@ -66,7 +66,7 @@ Remember, the twin flame separation is not a punishment or a sign of failure, bu
 
 ## Twin Flame Sex and Your Kundalini Awakening
 
-![twin flame sex, goddess kali embodiment, sacred sexuality, twin flame union, goddess yoga, divine feminine, sacred masculine, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/kali-1.jpg)
+![twin flame sex, goddess kali embodiment, sacred sexuality, twin flame union, goddess yoga, divine feminine, sacred masculine, midjourney art by Vanessa Hylande](/images/2023/06/kali-1.jpg)
 
 The meeting of your twin flame has the potential to ignite a profound [Kundalini awakening](https://tarotflower.com/twin-flame/kundalini-awakening-twin-flame-sex/) in both individuals, leading to an extraordinary and otherworldly experience during twin flame sex. The powerful connection and energetic exchange between twin flames serve as a catalyst for the awakening of the dormant Kundalini energy. As the divine energy rises and courses through your beings, it activates and purifies the chakras, the energy centers within the body. This heightened state of energetic alignment and activation creates a fertile ground for an unparalleled sexual connection.
 
@@ -78,7 +78,7 @@ In this heightened state of connection, twin flame sex becomes an otherworldly e
 
 ## The Twin Flame Psychic Bond
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-separation-6.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-separation-6.jpg)
 
 The psychic bond between twin flames creates an extraordinary connection that transcends physical limitations. It allows you to experience an intricate web of emotions, sensations, and energies that are shared with your twin flame. This profound bond can enable you to feel your twin's feelings as if they were your own, offering glimpses into their inner world and emotional state. At times, you may even sense their presence, feeling their energy surrounding you or hearing their voice in your mind. This psychic connection acts as a constant reminder of the deep spiritual union between twin flames, fostering a sense of interconnectedness and profound intimacy that defies traditional understanding.
 

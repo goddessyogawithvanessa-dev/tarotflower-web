@@ -18,4 +18,4 @@ With Love,
 
 Vanessa
 
-![Your Free Goddess Embodiment Guide download by Vanessa Hylande Goddess Yoga and Tarot Flower](https://tarotflower.com/wp-content/uploads/2024/03/Goddess-Embodiment-Guide-cover-1.jpeg)
+![Your Free Goddess Embodiment Guide download by Vanessa Hylande Goddess Yoga and Tarot Flower](/images/2024/03/Goddess-Embodiment-Guide-cover-1.jpeg)

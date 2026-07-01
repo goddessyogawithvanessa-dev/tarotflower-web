@@ -10,7 +10,7 @@ seo_title: "Capricorn Birthday Message! | Tarot Flower"
 seo_description: "Happy Birthday Capricorn kids! Welcome to your Tarot for Kids Capricorn birthday message! How old are you this year? What big plans do you have? I hope..."
 ---
 
-![kids astrology and tarot capricorn](http://tarotflower.com/wp-content/uploads/2020/12/Cappy-300x300.png)
+![kids astrology and tarot capricorn](/images/2020/12/Cappy-300x300.png)
 
 Happy Birthday Capricorn kids! Welcome to your Tarot for Kids Capricorn birthday message! How old are you this year? What big plans do you have? I hope you have a wonderful birthday month!
 
@@ -26,7 +26,7 @@ Since you were born when the sun was in the sign of Capricorn, you've got Capric
 
 Capricorn kids are very **responsible** and **disciplined**. I bet you're a great student and always get your homework done on time! Cappies **follow the rules** and like for things to be **organized**. You also like traditions and love family time, but who doesn't, right? Isn't astrology fun?
 
-![kids tarot and astrology capricorn symbol](http://tarotflower.com/wp-content/uploads/2020/12/Cappy-symbol-300x300.png)
+![kids tarot and astrology capricorn symbol](/images/2020/12/Cappy-symbol-300x300.png)
 
 Because Capricorn is an **earth sign**, and is represented by the goat, you have a reputation for being a little stubborn sometimes. Is that true, Cappy? Be sure to embrace your fish tail and try to stay open to new things and ideas. Sometimes wonderful things come to us in surprising ways - in ways we never could have guessed!
 
@@ -46,7 +46,7 @@ Be strong and confident this year! You have what it takes to make it happen. Any
 
 Always speak with kindness and honesty, but never be afraid to speak up when something feels bad to you. Everybody has the right to be happy and to feel safe and loved! You know what is right and wrong. You know what feels like love and peace, and what doesn't.
 
-![capricorn kids astrology zodiac](http://tarotflower.com/wp-content/uploads/2021/01/Capricorn-h-300x212.png)
+![capricorn kids astrology zodiac](/images/2021/01/Capricorn-h-300x212.png)
 
 ## Tarot for Kids Capricorn Tip: Embody Your Dreams
 

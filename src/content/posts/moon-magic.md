@@ -10,7 +10,7 @@ seo_title: "Moon Magic for Manifestation and Abundance | Tarot Flower"
 seo_description: "Are you looking to tap into your inner power and manifest your dreams with the help of the moon? If so, you may be interested in learning more about..."
 ---
 
-![moon magic candle magick](http://tarotflower.com/wp-content/uploads/2022/12/21.jpg)
+![moon magic candle magick](/images/2022/12/21.jpg)
 
 Are you looking to tap into your inner power and manifest your dreams with the help of the moon? If so, you may be interested in learning more about moon magic. Moon magic is a powerful practice that has been used for centuries to help people connect with their intuition and create positive change in their lives. It involves using the energy of the moon to set intentions, perform rituals, and manifest what you desire. By working with the moon’s energy, you can use its power to help you make the most of your life.
 

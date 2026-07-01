@@ -20,7 +20,7 @@ seo_description: "\"I am very happy that the universe brought me together with V
 
 *"I never thought that a woman can change the way how I feel my body - mind - soul. Vanessa made me trust in my inner strength - made me get in touch with my inner goddess and grow in a way I never thought possible 🤍"* - Tara, Austria
 
-![](https://tarotflower.com/wp-content/uploads/2023/10/Meditation-1.jpg)
+![](/images/2023/10/Meditation-1.jpg)
 
 I've developed the Goddess Yoga method specifically for women on their journey to reconnect with their divine feminine. In my classes, our practice is inspired by Tarot and Oracle cards, and we begin each session with a collective tarot card reading to guide our practice. After dedicating our bodies to the practice of the asanas, we continue our spiritual work during shavasana with a sound bath meditation. You will leave each class feeling strong, calm, grounded, uplifted and inspired.
 
@@ -28,13 +28,13 @@ Yoga is an ancient practice that unifies body, mind and spirit. It allows for de
 
 I’m a RYT300hr Yoga Alliance certified yoga instructor, former ballet dancer at the Metropolitan Opera in NYC and also a professional, classically trained opera singer. I'm so excited to share the deeply spiritual practice of yoga with you!
 
-![Goddess Yoga with Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2024/03/Yoga-Class-Group-1.jpg)![](https://tarotflower.com/wp-content/uploads/2023/11/3.jpg)![](https://tarotflower.com/wp-content/uploads/2023/11/Goddess-Yoga-photos-new.jpg)![Vanessa Hylande Goddess Yoga Tarot inspired yoga for the divine feminine](https://tarotflower.com/wp-content/uploads/2023/11/Goddess-Yoga-photos-new-2.jpg)
+![Goddess Yoga with Vanessa Hylande](/images/2024/03/Yoga-Class-Group-1.jpg)![](/images/2023/11/3.jpg)![](/images/2023/11/Goddess-Yoga-photos-new.jpg)![Vanessa Hylande Goddess Yoga Tarot inspired yoga for the divine feminine](/images/2023/11/Goddess-Yoga-photos-new-2.jpg)
 
 ## Current Goddess Yoga Classes
 
 You can join Goddess Yoga classes in person or online! Check out current offerings here!
 
-![](https://tarotflower.com/wp-content/uploads/2023/11/12.jpg)![](https://tarotflower.com/wp-content/uploads/2023/11/11.jpg)![Vanessa Hylande Goddess Yoga Tarot inspired yoga for the divine feminine](https://tarotflower.com/wp-content/uploads/2023/11/10.jpg)
+![](/images/2023/11/12.jpg)![](/images/2023/11/11.jpg)![Vanessa Hylande Goddess Yoga Tarot inspired yoga for the divine feminine](/images/2023/11/10.jpg)
 
 Vanessa Hylande
 

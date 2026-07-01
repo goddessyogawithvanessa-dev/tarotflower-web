@@ -10,7 +10,7 @@ seo_title: "Embrace Your Divine Feminine: Discover the Magic of Goddess Yoga | T
 seo_description: "Are you feeling disconnected from your inner self and feminine energy? Are you looking for a way to tap into your divine feminine? If so, goddess yoga..."
 ---
 
-![goddess yoga, divine feminine practices, tarot flower, vanessa hylande ai art](https://tarotflower.com/wp-content/uploads/2023/06/goddess-yoga-7.jpg)
+![goddess yoga, divine feminine practices, tarot flower, vanessa hylande ai art](/images/2023/06/goddess-yoga-7.jpg)
 
 Are you feeling disconnected from your inner self and feminine energy? Are you looking for a way to tap into your divine feminine? If so, goddess yoga may be just what you need.
 

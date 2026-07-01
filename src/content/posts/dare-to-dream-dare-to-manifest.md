@@ -50,4 +50,4 @@ So, how big will you allow yourself to dream? Because our manifestations can onl
 
 https://www.youtube.com/watch?v=rM-E5n87oXQ
 
-*Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com) *where you will find everything tarot for blossoming souls.*
+*Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*

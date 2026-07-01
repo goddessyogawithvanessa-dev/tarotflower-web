@@ -10,9 +10,9 @@ seo_title: "The High Priestess Tarot Card Meaning: Mystery and Intuition | Tarot
 seo_description: "The High Priestess tarot card is the mysterious sacred feminine. She embodies spirituality, mystery, and the divine knowledge that has been passed down..."
 ---
 
-![The High Priestess Tarot card meaning, major arcana, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/high-priestess-3.jpg)
+![The High Priestess Tarot card meaning, major arcana, Midjourney art by Vanessa Hylande](/images/2021/01/high-priestess-3.jpg)
 
-**The High Priestess** tarot card is the **mysterious sacred feminine**. She embodies **spirituality, mystery**, and the divine knowledge that has been passed down for generations. She is the feminine counterpart of [The Hierophant](http://tarotflower.com/tarot-card-meanings/the-hierophant-tarot/) and is known for her powerful intuition.
+**The High Priestess** tarot card is the **mysterious sacred feminine**. She embodies **spirituality, mystery**, and the divine knowledge that has been passed down for generations. She is the feminine counterpart of [The Hierophant](https://tarotflower.com/tarot-card-meanings/the-hierophant-tarot/) and is known for her powerful intuition.
 
 Therefore, when The High Priestess makes an appearance in your tarot card reading, you know that messages from your unconscious are trying to come in. **Find a place of stillness and listen!**
 
@@ -20,7 +20,7 @@ Therefore, when The High Priestess makes an appearance in your tarot card readin
 
 ## The High Priestess Tarot Meaning
 
-![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/high-priestess-2.jpg)
+![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](/images/2021/01/high-priestess-2.jpg)
 
 In **stillness**, The High Priestess explores the **sacred knowledge** of her **unconscious**. Her intuition informs her wisdom and her teachings reveal the **mysteries of life**. She represents that which is unknown. That space between endings and new beginnings. Like the Goddess Minerva who received consul from the wise owl, The High Priestess also gifts you with whispers of wisdom.
 
@@ -28,7 +28,7 @@ The gender of this card is not what is important. Rather, she embodies the "[yin
 
 ## The High Priestess in a Twin Flame Reading
 
-![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/high-priestess-4.jpg)
+![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](/images/2021/01/high-priestess-4.jpg)
 
 Receiving The High Priestess Tarot card in your Twin Flame love reading is a profound and reassuring sign. This card carries immense significance, representing the deep spiritual connection and intuitive guidance that accompanies your Twin Flame journey.
 
@@ -64,7 +64,7 @@ https://youtu.be/rM-E5n87oXQ
 
 ## The High Priestess in the Past Position
 
-![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/high-priestess-1.jpg)
+![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](/images/2021/01/high-priestess-1.jpg)
 
 With The High Priestess tarot card is in your past position, you **recently went through something** that really required you to lean on your intuition.
 
@@ -80,7 +80,7 @@ Don't try to control things. Get out of your head and go within. The answers are
 
 ## The High Priestess Future Position
 
-![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/high-priestess-5.jpg)
+![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](/images/2021/01/high-priestess-5.jpg)
 
 In the future position, The High Priestess tarot card is warning you that there is a **situation** in your near future where things **may not move forward**. Perhaps someone will **suddenly become silent**, or maybe this will be required of you.
 
@@ -92,7 +92,7 @@ It will be very important to "trust your gut" in the near future. If you find yo
 
 ## The High Priestess Love
 
-[![the high priestess tarot card meanings major arcana readings](http://tarotflower.com/wp-content/uploads/2021/01/IMG_20201216_111239-1024x977.jpg)](https://amzn.to/42F9zJt)
+[![the high priestess tarot card meanings major arcana readings](/images/2021/01/IMG_20201216_111239-1024x977.jpg)](https://amzn.to/42F9zJt)
 
 This beautiful The High Priestess Tarot card is from the [White Sage Tarot Deck](https://amzn.to/42F9zJt)
 
@@ -106,7 +106,7 @@ Also, be aware that The High Priestess represents **fertility** and **pregnancy*
 
 ## The High Priestess Career
 
-![high priestess tarot card meanings affirmation embody](http://tarotflower.com/wp-content/uploads/2021/01/An-EMbodied-Goddess-1024x1024.jpg)
+![high priestess tarot card meanings affirmation embody](/images/2021/01/An-EMbodied-Goddess-1024x1024.jpg)
 
 If **important negotiations** are at hand, **go silent** for a moment and listen. Take the time to go within and follow your inner wisdom.
 
@@ -120,7 +120,7 @@ Take some time to **mediate on your soul's path**. Ask the universe for guidance
 
 ## The High Priestess Health Reading
 
-![high priestess tarot card meanings love reading](http://tarotflower.com/wp-content/uploads/2021/01/An-EMbodied-Goddess-1-1024x1024.jpg)
+![high priestess tarot card meanings love reading](/images/2021/01/An-EMbodied-Goddess-1-1024x1024.jpg)
 
 In a health reading, The High Priestess tarot card represents **fertility**, **sexuality**, and **pregnancy**. If you're looking to start a family, that's great news! If not, be sure to take some extra preventative measures at this time!
 
@@ -140,7 +140,7 @@ The High Priestess reversed can also indicate that you are surrounded by **gossi
 
 ## The High Priestess Rider Waite
 
-![the high priestess tarot card meaning, major arcana, rider waite](https://tarotflower.com/wp-content/uploads/2021/01/high-priestess-rw.jpeg)
+![the high priestess tarot card meaning, major arcana, rider waite](/images/2021/01/high-priestess-rw.jpeg)
 
 In the original [The Rider Waite Tarot Deck](https://amzn.to/2L5vlDc), The High Priestess sits upon a throne **between** two pillars. One pillar represents **completion**, and the other represents **beginnings**. In this manner, the archetype of The High Priestess symbolizes the **mystery between death and new life**. The unknown mystery between endings and new beginnings.
 
@@ -148,7 +148,7 @@ She is a card that reminds you to **surrender, flow**, and **listen**. When we *
 
 ## The High Priestess as Advice
 
-![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/high-priestess6.jpg)
+![The High Priestess Tarot card meaning, major arcana, Goddess Minerva, owl spirit animal, Midjourney art by Vanessa Hylande](/images/2021/01/high-priestess6.jpg)
 
 The High Priestess Tarot card graces your reading with its profound wisdom and guidance. It appears as a gentle reminder to honor your intuition and embrace the power of inner knowing. Trust in your instincts, for they hold the key to unlocking the answers you seek.
 
@@ -158,15 +158,15 @@ The High Priestess urges you to trust in the unseen forces that are at work in y
 
 Embrace the energy of The High Priestess and trust in the divine flow of your life. Surrender to the wisdom of the universe and have faith that everything is unfolding exactly as it should. Allow yourself to be open to the signs and synchronicities that are guiding you along your path. Embrace the mysteries and embrace the journey.
 
-![Lake Orta Lago d'Orta Piedmont Italy](http://tarotflower.com/wp-content/uploads/2023/01/28-1024x1024.jpg)
+![Lake Orta Lago d'Orta Piedmont Italy](/images/2023/01/28-1024x1024.jpg)
 
 **Want to go beyond receiving Tarot card readings to actually living it? Learn how to trust and supercharge your intuition as you embody the High Priestess.**
 
 **Every summer, in beautiful Lake Orta, in Piedmont, Italy, there is a special “[Embodying the Divine Feminine](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)” mystical yoga, dance and somatics retreat for women. There, we focus on unleashing our inner divine goddess in a supportive, fun and mystical way.**
 
-![the high priestess tarot card meanings major arcana sacred feminine](http://tarotflower.com/wp-content/uploads/2021/01/high-priestess-pin-2-683x1024.jpg)
+![the high priestess tarot card meanings major arcana sacred feminine](/images/2021/01/high-priestess-pin-2-683x1024.jpg)
 
-![](http://tarotflower.com/wp-content/uploads/2021/01/high-priestess-pin-683x1024.jpg)
+![](/images/2021/01/high-priestess-pin-683x1024.jpg)
 
 *the high priestess tarot  
 the high priestess tarot meaning  

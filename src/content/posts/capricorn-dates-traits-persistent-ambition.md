@@ -10,7 +10,7 @@ seo_title: "Capricorn Dates & Traits: Persistent Ambition | Tarot Flower"
 seo_description: "Capricorn is an Earth sign that falls between December 22 and January 19. People born under this sign are known for their ambition, discipline, and..."
 ---
 
-![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/capricorn-1.jpg)
+![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/capricorn-1.jpg)
 
 Capricorn is an Earth sign that falls between **December 22 and January 19.** People born under this sign are known for their ambition, discipline, and practicality. They are driven by a strong work ethic and a desire to achieve their goals. Capricorns are ruled by the planet **Saturn**, which represents structure, responsibility, and perseverance. The Tarot card associated with Capricorn is [The Devil](https://tarotflower.com/tarot-card-meanings/the-devil-tarot/), symbolizing the challenges and temptations that can arise on their path to success. The element of Capricorn is Earth, reflecting their grounded and practical nature.
 
@@ -28,7 +28,7 @@ Capricorns are known for their determined and ambitious personality. They are hi
 
 ## Capricorn Personality at a Glance
 
-![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/cap-3.jpg)
+![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/cap-3.jpg)
 
 1. **Ambitious:** Capricorns possess a strong drive and are highly motivated to set and accomplish ambitious goals.
 2. **Disciplined:** They demonstrate exceptional self-discipline, allowing them to stay focused and committed to their objectives.
@@ -43,7 +43,7 @@ Capricorns are known for their determined and ambitious personality. They are hi
 
 ## Capricorn Likes
 
-![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/cap-2.jpg)
+![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/cap-2.jpg)
 
 1. **Achievement:** Capricorns have a strong desire for success and accomplishment, enjoying the feeling of reaching their goals and being recognized for their hard work and achievements.
 2. **Stability:** They appreciate stability and security in all aspects of life, seeking out situations and relationships that provide a sense of reliability and consistency.
@@ -51,7 +51,7 @@ Capricorns are known for their determined and ambitious personality. They are hi
 
 ## Capricorn Element: Earth
 
-![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/cap-4.jpg)
+![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/cap-4.jpg)
 
 Capricorn, as an Earth element, embodies qualities that are practical, grounded, and reliable. Capricorns have a strong sense of responsibility and prefer to build a solid foundation in all areas of their life, whether it's career, relationships, or personal development. They are known for their grounded nature and practical approach to life, approaching situations with a realistic mindset.
 
@@ -59,13 +59,13 @@ Capricorns have a natural ability to plan, strategize, and work diligently towar
 
 ## Capricorn Compatibility: Love & Relationships
 
-![the devil tarot card meaning, twin flame union, twin flame separation, twin flame sex, major arcana, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2022/04/devil-1.jpg)
+![the devil tarot card meaning, twin flame union, twin flame separation, twin flame sex, major arcana, Midjourney art by Vanessa Hylande](/images/2022/04/devil-1.jpg)
 
 Capricorn is known for their practical and responsible approach to love and relationships. They value stability and long-term commitment, seeking partners who share their goals and ambitions. Capricorns are attracted to individuals who are hardworking, dependable, and reliable. They appreciate partners who understand their need for structure and are willing to support their ambitions. Trust and loyalty are essential for Capricorns, as they value faithfulness and commitment in their relationships. While they may appear reserved at first, Capricorns are deeply loyal and dedicated once they open up. They seek partners who can provide them with emotional security and a solid foundation for building a lasting partnership. Communication and shared values are important for Capricorns, as they prefer practical and realistic discussions about the future of their relationship. With their steadfast nature and commitment to growth, Capricorns can form strong and enduring bonds with the right partner.
 
 ## Aries and Capricorn Compatibility
 
-![Aries dates and traits, Aries compatibility zodiac astrology, aries star sign, midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/aries-1.jpg)
+![Aries dates and traits, Aries compatibility zodiac astrology, aries star sign, midjourney art Vanessa Hylande](/images/2023/04/aries-1.jpg)
 
 [Aries](https://tarotflower.com/astrology/aries-dates-traits-the-fearless-ram/) and Capricorn are two ambitious and driven signs, but their approach to life and love can be quite different. Aries, ruled by fiery Mars, is spontaneous, energetic, and adventurous, always seeking new experiences. On the other hand, Capricorn, governed by disciplined Saturn, values stability, structure, and long-term goals. These contrasting qualities can create both attraction and challenges in their relationship. Aries may find Capricorn's seriousness and cautious nature restricting, while Capricorn may view Aries as impulsive and reckless.
 
@@ -73,7 +73,7 @@ However, if they can find a balance between Aries' passion and Capricorn's pract
 
 ## Taurus and Capricorn Compatibility
 
-![taurus dates and traits, taurus compatibility, taurus personality, astrology, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/taurus-4.jpg)
+![taurus dates and traits, taurus compatibility, taurus personality, astrology, midjourney art by Vanessa Hylande](/images/2023/04/taurus-4.jpg)
 
 [Taurus](https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/) and Capricorn share many common traits, making them a harmonious and stable couple. Both signs value security, material comforts, and long-term commitments. Taurus, an earth sign, is known for its sensuality, loyalty, and practicality, which aligns well with Capricorn's grounded and traditional approach to life.
 
@@ -83,7 +83,7 @@ While they may have occasional disagreements, their shared values and commitment
 
 ## Gemini and Capricorn Compatibility
 
-![Gemini dates and traits, Gemini zodiac, Gemini personality, Gemini compatibility, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/gemini-v2-2.jpg)
+![Gemini dates and traits, Gemini zodiac, Gemini personality, Gemini compatibility, Midjourney art by Vanessa Hylande](/images/2023/04/gemini-v2-2.jpg)
 
 [Gemini](https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/) and Capricorn are an interesting combination, as they possess contrasting qualities and approaches to life. Gemini, an air sign, is intellectual, adaptable, and social, seeking variety and mental stimulation. On the other hand, Capricorn, an earth sign, is practical, focused, and grounded, prioritizing stability and long-term goals.
 
@@ -93,7 +93,7 @@ With effective communication and a willingness to understand and appreciate each
 
 ## Cancer and Capricorn Compatibility
 
-![cancer zodiac sign cancer dates and traits, cancer personality, cancer compatibility, midjourney arts Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/cancer-3.jpg)
+![cancer zodiac sign cancer dates and traits, cancer personality, cancer compatibility, midjourney arts Vanessa Hylande](/images/2023/04/cancer-3.jpg)
 
 [Cancer](https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/) and Capricorn form a complementary partnership that combines emotional depth and practicality. Cancer, a water sign, is nurturing, sensitive, and deeply intuitive, valuing emotional connection and security. Capricorn, an earth sign, is grounded, responsible, and driven, focusing on material stability and success. Together, they can create a strong foundation built on trust, loyalty, and shared goals.
 
@@ -103,7 +103,7 @@ However, they may need to work on balancing Cancer's need for emotional expressi
 
 ## Leo and Capricorn Compatibility
 
-![Leo dates and traits, Leo zodiac sign. Leo personality, Leo compatibility, astrology midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/leo-2.jpg)
+![Leo dates and traits, Leo zodiac sign. Leo personality, Leo compatibility, astrology midjourney art by Vanessa Hylande](/images/2023/04/leo-2.jpg)
 
 [Leo](https://tarotflower.com/astrology/leo-dates-traits-the-shining-sun/) and Capricorn have different approaches to life and love, which can create a dynamic and challenging relationship. Leo, a fire sign, is confident, passionate, and seeks attention and admiration. Capricorn, an earth sign, is practical, ambitious, and values stability and long-term goals.
 
@@ -113,7 +113,7 @@ However, conflicts can arise due to Leo's need for constant attention and Capric
 
 ## Virgo and Capricorn Compatibility
 
-![Virgo dates & traits, virgo zodiac sign, astrology, Virgo compatibility, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/05/virgo-4.jpg)
+![Virgo dates & traits, virgo zodiac sign, astrology, Virgo compatibility, Midjourney art by Vanessa Hylande](/images/2023/05/virgo-4.jpg)
 
 [Virgo](https://tarotflower.com/astrology/virgo-dates-traits-harvest-and-abundance/) and Capricorn share many common traits, making them a compatible and harmonious couple. Both signs are grounded, practical, and value hard work and efficiency. Virgo, an earth sign, is detail-oriented, analytical, and seeks perfection in all aspects of life. Capricorn, also an earth sign, is disciplined, ambitious, and driven by success. Together, they can form a solid and reliable partnership built on mutual respect and shared goals.
 
@@ -121,7 +121,7 @@ Virgo's attention to detail complements Capricorn's practical mindset, and Capri
 
 ## Libra and Capricorn Compatibility
 
-![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/libra-4.jpg)
+![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-4.jpg)
 
 [Libra](https://tarotflower.com/astrology/libra-dates-traits-the-charming-diplomat/) and Capricorn may have different approaches to life and love, but their complementary qualities can create a balanced and harmonious partnership. Libra, an air sign, is social, diplomatic, and values harmony and fairness. Capricorn, an earth sign, is practical, responsible, and driven by success. Libra's charm and grace can soften Capricorn's seriousness, while Capricorn's stability and ambition can provide grounding to Libra's indecisiveness.
 
@@ -129,7 +129,7 @@ They both value commitment and loyalty in relationships, which can strengthen th
 
 ## Scorpio and Capricorn Compatibility
 
-![Scorpio zodiac sign, Pluto. Death tarot card, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/05/scorpio.jpg)
+![Scorpio zodiac sign, Pluto. Death tarot card, Midjourney art by Vanessa Hylande](/images/2023/05/scorpio.jpg)
 
 [Scorpio](https://tarotflower.com/astrology/scorpio-dates-traits-the-phoenix-rising/) and Capricorn form a powerful and intense partnership, characterized by depth, loyalty, and shared goals. Both signs are ambitious, determined, and value loyalty and commitment in relationships. Scorpio, a water sign, is passionate, mysterious, and deeply emotional. Capricorn, an earth sign, is practical, disciplined, and focused on long-term success.
 
@@ -139,7 +139,7 @@ However, both signs can be stubborn and possessive, which may lead to power stru
 
 ## Capricorn and Sagittarius Compatibility
 
-![Sagittarius zodiac sign, sagittarius dates and traits, spirit animal, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/05/vanessahylande_a_gorgeous_bejeweled_powerful_white_horse_gallop_29bc16d9-0e2d-48dc-8cc1-2be4b7be4f1d-1.jpg)
+![Sagittarius zodiac sign, sagittarius dates and traits, spirit animal, Midjourney art by Vanessa Hylande](/images/2023/05/vanessahylande_a_gorgeous_bejeweled_powerful_white_horse_gallop_29bc16d9-0e2d-48dc-8cc1-2be4b7be4f1d-1.jpg)
 
 Capricorn and [Sagittarius](https://tarotflower.com/astrology/sagittarius-dates-traits-the-spirited-adventurer/) have contrasting energies that can create a dynamic and challenging relationship. Capricorn, an earth sign, is grounded, practical, and focused on long-term goals. Sagittarius, a fire sign, is adventurous, spontaneous, and seeks freedom and exploration. Their different approaches to life can lead to clashes, as Capricorn values stability and structure while Sagittarius craves independence and excitement.
 
@@ -147,13 +147,13 @@ However, if they can find a balance between Capricorn's need for stability and S
 
 ## Aquarius and Capricorn Compatibility
 
-![the star tarot card meaning major arcana , aquarius zodiac, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/fool-7.jpg)
+![the star tarot card meaning major arcana , aquarius zodiac, Midjourney art by Vanessa Hylande](/images/2021/01/fool-7.jpg)
 
 [Aquarius](https://tarotflower.com/astrology/aquarius-dates-traits-the-new-age-thinker/) and Capricorn are two signs that approach life and relationships in different ways, but their differences can also complement each other. Aquarius, an air sign, is intellectual, innovative, and values individuality and freedom. Capricorn, an earth sign, is practical, disciplined, and focused on success and stability. Aquarius is often the visionary, while Capricorn provides the structure and stability needed to manifest those visions. They can inspire each other to pursue their goals and dreams, combining Aquarius' unconventional ideas with Capricorn's practicality. However, conflicts may arise due to Aquarius' need for independence and Capricorn's desire for commitment and security. Finding a balance between personal freedom and shared responsibilities is crucial for their relationship to thrive. With open-mindedness, communication, and a shared commitment to personal growth, Aquarius and Capricorn can create a unique and fulfilling partnership.
 
 ## Capricorn and Pisces Compatibility
 
-![Pisces compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/pisces-5.jpg)
+![Pisces compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/pisces-5.jpg)
 
 Capricorn and [Pisces](https://tarotflower.com/astrology/pisces-dates-traits-the-mystical-dreaming-fish/) have contrasting energies, which can lead to a complex and intriguing relationship. Capricorn, an earth sign, is practical, ambitious, and focused on material success. Pisces, a water sign, is intuitive, imaginative, and deeply emotional. While their differences can create challenges, they also have the potential to complement each other.
 
@@ -163,7 +163,7 @@ Finding a balance between Capricorn's need for structure and Pisces' need for fl
 
 ## Capricorn Tarot: The Devil
 
-![the devil tarot card meaning, major arcana, rider waite](https://tarotflower.com/wp-content/uploads/2022/04/devil-rw.jpeg)
+![the devil tarot card meaning, major arcana, rider waite](/images/2022/04/devil-rw.jpeg)
 
 In the [Rider-Waite Tarot deck,](https://amzn.to/42YP4XA) the Devil card is linked to Capricorn. This card symbolizes the shadow side of human nature, representing the temptations, limitations, and self-imposed restrictions that can hold individuals back from reaching their full potential. The imagery of the Devil card often depicts two figures chained to a pedestal, signifying bondage to material desires or unhealthy attachments.
 

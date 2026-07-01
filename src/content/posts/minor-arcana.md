@@ -15,7 +15,7 @@ seo_description: "Explore the Minor Arcana tarot card meanings with Tarot Flower
 
 ## The Four Suits of the Tarot
 
-![the minor arcana tarot cards artwork by vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/04/tf-ai-minor-arcana.jpg)
+![the minor arcana tarot cards artwork by vanessa hylande](/images/2023/04/tf-ai-minor-arcana.jpg)
 
 The Minor Arcana of the Tarot is comprised of four suits: [Cups](https://tarotflower.com/cups-tarot/), [Swords](https://tarotflower.com/swords-tarot/), [Wands](https://tarotflower.com/wands-tarot/), and [Pentacles](https://tarotflower.com/pentacles-tarot/). Each suit represents an element and has a specific astrological association. The Cups suit represents the element of water, the Swords suit represents air, the Wands suit represents fire, and the Pentacles suit represents earth. The Minor Arcana cards often provide specific details and insights into a situation or question in a tarot reading, while the [Major Arcana](https://tarotflower.com/major-arcana-2/) cards offer more overarching themes and messages.
 
@@ -27,7 +27,7 @@ The Wands suit represents creativity, passion, and inspiration. Wands cards ofte
 
 The Pentacles suit represents material possessions, finances, and practicality. Pentacles cards often indicate matters related to career, money, and the physical world. In astrology, Pentacles are associated with the earth signs: Taurus, Virgo, and Capricorn. When Pentacles cards appear in a reading, they often suggest the need for practicality, hard work, and financial stability.
 
-![](https://tarotflower.com/wp-content/uploads/2023/04/tf-ai-minor-arcana-2.jpg)
+![](/images/2023/04/tf-ai-minor-arcana-2.jpg)
 
 Overall, the Minor Arcana cards provide a detailed and nuanced perspective on a situation or question in a tarot reading. By understanding the symbolism and associations of each suit, tarot readers can gain deeper insights into the messages and guidance of the cards.
 

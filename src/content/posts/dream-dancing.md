@@ -10,7 +10,7 @@ seo_title: "Dream Dancing | Tarot Flower"
 seo_description: "> By night I take your soul by the hand"
 ---
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/dream-dancing.jpg)
+![](/images/2023/12/dream-dancing.jpg)
 
 > By night I take your soul by the hand
 >

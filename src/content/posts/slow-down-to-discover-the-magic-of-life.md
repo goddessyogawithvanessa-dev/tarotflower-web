@@ -10,7 +10,7 @@ seo_title: "Slow Down to Discover the Magic of Life | Tarot Flower"
 seo_description: "Slow down to discover the magic of life. What will you discover?"
 ---
 
-![Daily tarot oracle message affirmation slow down](http://tarotflower.com/wp-content/uploads/2021/01/affirmations-and-images-for-tarot-flower-1024x1024.jpg)
+![Daily tarot oracle message affirmation slow down](/images/2021/01/affirmations-and-images-for-tarot-flower-1024x1024.jpg)
 
 Slow down to discover the magic of life. What will you discover?
 
@@ -20,9 +20,9 @@ Today's tarot and oracle card, "Slow Down," reminds you that life is not a race.
 
 Taking on this new pace of life will always set a solid foundation for everything you want to manifest, create and achieve. You provide space to further imagine and dream of what else is possible**.** Remember you are infinite possibility.
 
-So, slow down. Release the unwanted chatter in the mind. Free your heart from your mind. And take your time, in your day-to-day life. Everything on your "to do" list will get done, trust us! Like [The High Priestess](http://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/) of the [major arcana](https://en.wikipedia.org/wiki/Major_Arcana), take a moment in stillness and listen to the voice of your intuition.
+So, slow down. Release the unwanted chatter in the mind. Free your heart from your mind. And take your time, in your day-to-day life. Everything on your "to do" list will get done, trust us! Like [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/) of the [major arcana](https://en.wikipedia.org/wiki/Major_Arcana), take a moment in stillness and listen to the voice of your intuition.
 
-![Daily tarot slow down oracle message](http://tarotflower.com/wp-content/uploads/2021/01/affirmations-and-images-for-tarot-flower-1-1024x1024.jpg)
+![Daily tarot slow down oracle message](/images/2021/01/affirmations-and-images-for-tarot-flower-1-1024x1024.jpg)
 
 You deserve to slow down and enjoy whatever you're placing your energy into. Whether it is taking the time each day to sit and eat your dinner with loved ones, give yourself a bath with essential oils, or to read your favorite book. There is always time for you in each day.
 
@@ -32,11 +32,11 @@ So, relax, loved ones! We are sure you are feeling burned out or mentally draine
 
 What are you doing to slow down and practice self-care today?
 
-![slow down oracle dancer ](http://tarotflower.com/wp-content/uploads/2021/01/slow-down-2-1024x1024.gif)
+![slow down oracle dancer ](/images/2021/01/slow-down-2-1024x1024.gif)
 
 Love,
 
-![tarot flower](http://tarotflower.com/wp-content/uploads/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](http://tarotflower.com/wp-content/uploads/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

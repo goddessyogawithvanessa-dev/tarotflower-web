@@ -14,7 +14,7 @@ What are you ready to release? Is there a darkness holding you back from true ha
 
 https://www.youtube.com/watch?v=xkM99VCS--4
 
-[![](https://tarotflower.com/wp-content/uploads/2023/03/Dark-Goddess-tarot-1024x948.jpeg)](https://amzn.to/3ZYXlcT)
+[![](/images/2023/03/Dark-Goddess-tarot-1024x948.jpeg)](https://amzn.to/3ZYXlcT)
 
 [The Dark Goddess Oracle Deck](https://amzn.to/3ZYXlcT) and [Anne Stoke's Gothic Tarot](https://amzn.to/3JUKuT6)
 

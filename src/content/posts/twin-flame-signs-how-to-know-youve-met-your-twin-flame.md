@@ -10,7 +10,7 @@ seo_title: "Twin Flame Signs: How to Know You've Met Your Twin Flame | Tarot Flo
 seo_description: "Meeting your twin flame will rock your world. It can leave us wondering what the hell is going on or if we're crazy. But No, You're Not Crazy! When you..."
 ---
 
-![twin flame sex, twin flame union, twin flame journey, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2022/04/judgment-twin.jpg)
+![twin flame sex, twin flame union, twin flame journey, midjourney art by Vanessa Hylande](/images/2022/04/judgment-twin.jpg)
 
 Meeting your twin flame will rock your world. It can leave us wondering what the hell is going on or if we're crazy. But [No, You're Not Crazy](https://tarotflower.com/twin-flame/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/)! When you meet your twin flame, it can be an extraordinary and awe-inspiring experience. There is an undeniable sense of recognition that surpasses the boundaries of time and space. It feels as though you have reunited with a soul companion you have known for eternity, even if your physical encounter is relatively new. The connection between you is so powerful that it seems to defy logic and explanation. So, what are some of the twin flame signs to look out for to help you navigate this life-changing experience?
 

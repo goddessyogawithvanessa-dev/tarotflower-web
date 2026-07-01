@@ -10,7 +10,7 @@ seo_title: "Cancer Dates & Traits: The Sensitive Intuitive | Tarot Flower"
 seo_description: "Welcome to the world of Cancer, the fourth sign of the zodiac. Cancer is known for being nurturing, sensitive, and highly intuitive. Cancer is a water..."
 ---
 
-![cancer dates and traits, zodiac sign, personality, compatibility, atrological sign, water sign, midjourney art by vanessa hylande](https://tarotflower.com/wp-content/uploads/2023/04/cancer-3.jpg)
+![cancer dates and traits, zodiac sign, personality, compatibility, atrological sign, water sign, midjourney art by vanessa hylande](/images/2023/04/cancer-3.jpg)
 
 Welcome to the world of Cancer, the fourth sign of the zodiac. Cancer is known for being nurturing, sensitive, and highly intuitive. Cancer is a water sign, which means they are highly emotional and intuitive individuals who crave deep connections with others. They are known for being great listeners and providing emotional support to those they care about.
 
@@ -30,7 +30,7 @@ In astrology, Cancer is ruled by the Moon, which is associated with emotions and
 
 ## Cancer Personality at a Glance
 
-![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/cancer-4.jpg)
+![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](/images/2023/04/cancer-4.jpg)
 
 1. **Emotional Sensitivity:** Cancers are known for their deep emotional sensitivity and intuitive nature.
 2. **Nurturing:** They have a natural inclination towards caring for and nurturing others.
@@ -44,7 +44,7 @@ In astrology, Cancer is ruled by the Moon, which is associated with emotions and
 
 ## Cancer Zodiac Likes
 
-![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/cancer-1.jpg)
+![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](/images/2023/04/cancer-1.jpg)
 
 1. **Home and Family:** Cancers have a strong attachment to their home and find comfort in spending time with their family.
 2. **Emotional Connections:** Cancers value deep emotional connections and cherish relationships built on trust and understanding.
@@ -52,7 +52,7 @@ In astrology, Cancer is ruled by the Moon, which is associated with emotions and
 
 ## Cancer, Element of Water
 
-![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/cancer-2.jpg)
+![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](/images/2023/04/cancer-2.jpg)
 
 Cancer, as a zodiac sign associated with the element of water, embodies the qualities of depth, sensitivity, and emotional intuition. Like the gentle ebb and flow of the tides, Cancer is in touch with their emotions and possesses a profound understanding of the human heart. Water brings a sense of empathy, compassion, and nurturance to Cancer's nature, allowing them to connect deeply with others on an emotional level. They have a remarkable ability to sense the underlying currents of emotions, both in themselves and those around them. This intuitive and watery nature makes Cancer a deeply empathetic and supportive friend, always willing to lend a listening ear and offer a comforting presence in times of need.
 
@@ -62,7 +62,7 @@ When it comes to love relationships, Cancer, the nurturing and sensitive zodiac 
 
 ## Aries and Cancer compatibility
 
-![Aries compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/aries-2.jpg)
+![Aries compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/aries-2.jpg)
 
 [Aries](https://tarotflower.com/astrology/aries-dates-traits-the-fearless-ram/) and Cancer have contrasting yet complementary qualities, which can create an intriguing dynamic in their relationship. Aries, being a fiery and assertive sign, brings passion, enthusiasm, and a bold approach to life, while Cancer, as a water sign, is emotionally sensitive, nurturing, and deeply intuitive.
 
@@ -70,7 +70,7 @@ Despite their differences, Aries and Cancer can find common ground through their
 
 ## Taurus and Cancer compatibility
 
-![Taurus zodiac sign, taurus dates and traits, compatibility and more](https://tarotflower.com/wp-content/uploads/2023/04/taurus-4.jpg)
+![Taurus zodiac sign, taurus dates and traits, compatibility and more](/images/2023/04/taurus-4.jpg)
 
 [Taurus](https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/) and Cancer can form a deep and stable bond in a romantic relationship. Taurus, as an earth sign, brings stability, reliability, and a love for the comforts of life to the partnership, while Cancer, as a water sign, offers emotional depth, sensitivity, and nurturing qualities.
 
@@ -78,7 +78,7 @@ Both signs value security and emotional connection, creating a strong foundation
 
 ## Gemini and Cancer compatibility
 
-![Gemini dates and traits, Gemini zodiac Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/gemini-v2.jpg)
+![Gemini dates and traits, Gemini zodiac Midjourney art by Vanessa Hylande](/images/2023/04/gemini-v2.jpg)
 
 [Gemini](https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/) and Cancer can create an interesting and complementary relationship. Gemini, as an air sign, brings intellectual stimulation, curiosity, and adaptability to the partnership, while Cancer, as a water sign, offers emotional depth, sensitivity, and nurturing qualities.
 
@@ -86,7 +86,7 @@ Gemini's wit and charm can captivate Cancer, while Cancer's emotional support an
 
 ## Leo and Cancer compatibility
 
-![Leo compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/Leo-1.jpg)
+![Leo compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/Leo-1.jpg)
 
 Leo and Cancer can form a powerful and dynamic duo in a romantic relationship. Leo, with its fiery and charismatic nature, craves attention, admiration, and being in the spotlight, while Cancer, as a sensitive and nurturing sign, seeks emotional security and a deep connection. Leo's confidence and outgoing personality can captivate Cancer, while Cancer's caring and supportive nature can provide the love and understanding that Leo craves.
 
@@ -94,7 +94,7 @@ Both signs value loyalty and devotion, which can create a strong bond between th
 
 ## Virgo and Cancer compatibility
 
-![Virgo compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/virgo-2.jpg)
+![Virgo compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/virgo-2.jpg)
 
 Virgo and Cancer have the potential to create a harmonious and supportive partnership. Virgo, as an earth sign, brings practicality, organization, and attention to detail to the relationship, while Cancer, as a water sign, offers emotional depth, sensitivity, and nurturing qualities. Virgo's analytical nature can complement Cancer's emotional intuition, and Cancer's caring nature can provide the support and understanding that Virgo needs.
 
@@ -102,7 +102,7 @@ Both signs value loyalty and commitment, which can strengthen their bond. Howeve
 
 ## Libra and Cancer compatibility
 
-![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/libra-3.jpg)
+![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-3.jpg)
 
 Libra and Cancer have a natural affinity for each other in a love relationship. Libra, as an air sign, brings charm, diplomacy, and a desire for balance to the partnership, while Cancer, as a water sign, offers emotional depth, sensitivity, and nurturing qualities.
 
@@ -110,7 +110,7 @@ Both signs value harmony and strive for peace in their relationships. Libra's ab
 
 ## Cancer and Scorpio compatibility
 
-![Scorpio compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/scorpio-1.jpg)
+![Scorpio compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/scorpio-1.jpg)
 
 Cancer and Scorpio have the potential for a deeply emotional and passionate relationship. Both signs are water signs, which means they share an intuitive and sensitive nature.
 
@@ -120,7 +120,7 @@ However, conflicts may arise due to both signs' possessiveness and occasional mo
 
 ## Cancer and Sagittarius compatibility
 
-![Sagittarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/sag-1.jpg)
+![Sagittarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/sag-1.jpg)
 
 Cancer and Sagittarius have contrasting energies, but with understanding and compromise, they can create a fulfilling relationship. Cancer, as a water sign, brings emotional depth, sensitivity, and nurturing qualities, while Sagittarius, as a fire sign, offers enthusiasm, adventure, and a free-spirited nature.
 
@@ -130,7 +130,7 @@ However, conflicts may arise due to Sagittarius' need for independence and Cance
 
 ## Cancer and Capricorn compatibility
 
-![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/capricorn-1.jpg)
+![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/capricorn-1.jpg)
 
 Cancer and Capricorn can form a harmonious and complementary partnership. Cancer, as a water sign, brings emotional depth, sensitivity, and nurturing qualities to the relationship, while Capricorn, as an earth sign, offers stability, practicality, and ambition.
 
@@ -140,7 +140,7 @@ However, conflicts may arise due to Capricorn's practicality conflicting with Ca
 
 ## Cancer and Aquarius compatibility
 
-![Aquarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/virgo-3.jpg)
+![Aquarius compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/virgo-3.jpg)
 
 Cancer and Aquarius have different approaches to life, but their unique qualities can create an intriguing and dynamic relationship. Cancer, as a water sign, brings emotional depth, sensitivity, and nurturing qualities, while Aquarius, as an air sign, offers intellectual stimulation, innovation, and a humanitarian outlook.
 
@@ -150,7 +150,7 @@ However, conflicts may arise due to Aquarius' need for freedom and Cancer's desi
 
 ## Pisces and Cancer compatibility
 
-![Pisces compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/pisces-5.jpg)
+![Pisces compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/pisces-5.jpg)
 
 Pisces and Cancer share a deep emotional connection, making their relationship highly compatible. Both signs are water signs, which means they understand and resonate with each other's emotions. Pisces brings compassion, creativity, and a spiritual nature to the partnership, while Cancer offers emotional depth, sensitivity, and nurturing qualities. They can create a safe and supportive space for each other to express their feelings and dreams.
 
@@ -160,7 +160,7 @@ However, conflicts may arise due to their shared tendency towards moodiness and 
 
 ## Cancer Tarot: The Moon
 
-![the chariot tarot card rider waite deck major arcana](https://tarotflower.com/wp-content/uploads/2023/05/chariot-rw.jpeg)
+![the chariot tarot card rider waite deck major arcana](/images/2023/05/chariot-rw.jpeg)
 
 The tarot card that represents the zodiac sign Cancer is [The Chariot](https://tarotflower.com/tarot-card-meanings/the-chariot-tarot/). In the Rider-Waite Tarot deck, The Chariot symbolizes Cancer's traits of emotional depth, intuition, and protective nature. The card depicts a figure in a chariot, symbolizing the Cancerian's ability to navigate through life's challenges with determination and control.
 

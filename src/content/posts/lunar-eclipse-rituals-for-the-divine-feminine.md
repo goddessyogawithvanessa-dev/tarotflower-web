@@ -10,7 +10,7 @@ seo_title: "Lunar Eclipse Rituals for the Divine Feminine | Tarot Flower"
 seo_description: "The lunar eclipse is a mysterious and powerful event that has been observed and celebrated by many cultures throughout the ages. While the scientific..."
 ---
 
-![lunar eclipse moon magic](http://tarotflower.com/wp-content/uploads/2022/12/23.jpg)
+![lunar eclipse moon magic](/images/2022/12/23.jpg)
 
 The lunar eclipse is a mysterious and powerful event that has been observed and celebrated by many cultures throughout the ages. While the scientific explanation of the lunar eclipse is well-known, people still practice various rituals and superstitions to ensure good luck during this celestial event.
 
@@ -40,7 +40,7 @@ Lunar eclipses can be a powerful time to tap into your divine feminine energy an
 
 ## Join Us for Live Lunar Eclipse Rituals
 
-![goddess yoga retreat awaken your divine feminine](http://tarotflower.com/wp-content/uploads/2022/12/Goddess-Yoga-1.jpg)
+![goddess yoga retreat awaken your divine feminine](/images/2022/12/Goddess-Yoga-1.jpg)
 
 Interested in experiencing a lunar eclipse ritual with other fellow goddesses? We will offer full moon rituals, lunar eclipse rituals, goddess circles, tarot yoga and goddess embodiment dance at our upcoming Goddess Yoga retreat in Lago d'Orta Italy, summer 2023.
 

@@ -10,7 +10,7 @@ seo_title: "Goddess Flora: The Goddess of Spring | Tarot Flower"
 seo_description: "In the realm of ancient Rome, there existed a radiant goddess known as Flora. She was the embodiment of nature's beauty, fertility, and the vibrant..."
 ---
 
-![Goddess Flora Card, Goddess of Spring, Tarot Flower deck, tarot cards, oracle cards, tarot deck, oracle deck, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/Flora-1-1-683x1024.jpg)
+![Goddess Flora Card, Goddess of Spring, Tarot Flower deck, tarot cards, oracle cards, tarot deck, oracle deck, Midjourney art by Vanessa Hylande](/images/2023/06/Flora-1-1-683x1024.jpg)
 
 In the realm of ancient Rome, there existed a radiant goddess known as Flora. She was the embodiment of nature's beauty, fertility, and the vibrant spirit of spring. Flora represented the archetype of the blossoming maiden, whose energy radiated with love, grace, and the joyous arrival of new beginnings.
 
@@ -34,7 +34,7 @@ By embracing the archetype of Flora, we are encouraged to embody her qualities o
 
 ## The Message of the Goddess Flora Card
 
-![Goddess Flora Card, Goddess of Spring, Tarot Flower deck, tarot cards, oracle cards, tarot deck, oracle deck, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/Flora-2-1-683x1024.jpg)
+![Goddess Flora Card, Goddess of Spring, Tarot Flower deck, tarot cards, oracle cards, tarot deck, oracle deck, Midjourney art by Vanessa Hylande](/images/2023/06/Flora-2-1-683x1024.jpg)
 
 When the Goddess Flora card graces your tarot reading, it brings forth a message of profound significance. It signals the arrival of new beginnings and the emergence of blossoming creations in your life. Just as Flora represents the vibrant energy of spring, she encourages you to embrace the opportunities that lie before you and allow your unique gifts to flourish.
 
@@ -60,7 +60,7 @@ As you connect with the Goddess Flora and absorb her wisdom, remember to trust i
 
 ## How to Embody the Goddess Flora
 
-![Goddess Flora Card, Goddess of Spring, Tarot Flower deck, tarot cards, oracle cards, tarot deck, oracle deck, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/Flora-3-683x1024.jpg)
+![Goddess Flora Card, Goddess of Spring, Tarot Flower deck, tarot cards, oracle cards, tarot deck, oracle deck, Midjourney art by Vanessa Hylande](/images/2023/06/Flora-3-683x1024.jpg)
 
 To embody the essence of the Goddess Flora is to invite the spirit of blooming beauty and vibrant energy into your being. Here are some ways to embrace and embody the essence of Flora in your everyday life:
 

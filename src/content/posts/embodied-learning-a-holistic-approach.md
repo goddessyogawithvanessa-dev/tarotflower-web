@@ -42,7 +42,7 @@ And that is why dance is the best embodiment practice. For to dance is to dream,
 
 And when we allow embodied learning to teach us how to live an embodied life, life becomes a dance for which we write the music.
 
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
+*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
 
 *Live events coming soon to*: *The Greater Dallas Area, Texas, 75205, 75209, 75219, 75283, 75284, 75391*
 

@@ -10,13 +10,13 @@ seo_title: "Kundalini Awakening and Twin Flame Sex: The 5D Union | Tarot Flower"
 seo_description: "If you've met your twin flame, you've certainly spent time thinking you're crazy or wondering what is happening to you. When twin flames meet, their..."
 ---
 
-![divine feminine, goddess embodiment, twin flame journey, twin flame sex, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/05/vanessahylande_the_face_of_a_beautiful_woman_bejeweled_with_gem_6417450d-5f8b-4a7e-9e58-16ea384cd883.jpg)
+![divine feminine, goddess embodiment, twin flame journey, twin flame sex, Midjourney art by Vanessa Hylande](/images/2023/05/vanessahylande_the_face_of_a_beautiful_woman_bejeweled_with_gem_6417450d-5f8b-4a7e-9e58-16ea384cd883.jpg)
 
 If you've met your twin flame, you've certainly spent time [thinking you're crazy](https://tarotflower.com/twin-flame/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/) or wondering what is happening to you. When twin flames meet, their kundalini energy is immediately and powerfully awakened. This mutual kundalini awakening goes way beyond great sex. Sex with your twin flame doesn't just happen in the 3D. It's such a powerful experience that both twin flames have an intense energetic connection in the spiritual realm as well. This connection creates a psychic bond that is unbreakable, and can even create powerful physical symptoms, even when the two of you aren't together. This is why sex with your twin flame is like nothing you've ever experienced before. Let's explore the reasons why.
 
 ## What is Kundalini Energy?
 
-![twin flame sex, goddess kali embodiment, sacred sexuality, twin flame union, goddess yoga, divine feminine, sacred masculine, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/kali-1.jpg)
+![twin flame sex, goddess kali embodiment, sacred sexuality, twin flame union, goddess yoga, divine feminine, sacred masculine, midjourney art by Vanessa Hylande](/images/2023/06/kali-1.jpg)
 
 Kundalini energy refers to a powerful spiritual force that resides within every individual. It is often described as a coiled, dormant energy located at the base of the spine, specifically in the area of the sacrum. The word "Kundalini" is derived from Sanskrit and translates to "coiled snake" or "serpent power."
 
@@ -30,7 +30,7 @@ It is important to approach Kundalini energy with respect, as its awakening can 
 
 ## What is a Kundalini Awakening?
 
-![twin flame sex, goddess kali embodiment, sacred sexuality, twin flame union, goddess yoga, divine feminine, sacred masculine, midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/06/kali-11.jpg)
+![twin flame sex, goddess kali embodiment, sacred sexuality, twin flame union, goddess yoga, divine feminine, sacred masculine, midjourney art by Vanessa Hylande](/images/2023/06/kali-11.jpg)
 
 A Kundalini awakening is when your dormant Kundalini energy, believed to be at the base of your spine, becomes activated and rises within you. It's like a powerful, coiled force representing your spiritual potential and life energy. As it awakens, this energy moves up your central channel, activating different energy centers called chakras.
 

@@ -20,7 +20,7 @@ Soon you will discover that when the moon reveals hidden truths it is a blessing
 
 > "I do not fear the teachings of my shadows, for they guide me out of the darkness."
 
-![embodied goddesses online alignment program](http://tarotflower.com/wp-content/uploads/2021/01/embody-your-inner-goddess-1024x1024.png)
+![embodied goddesses online alignment program](/images/2021/01/embody-your-inner-goddess-1024x1024.png)
 
 *Want to learn more about embodying the tarot? Check out the*[*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

@@ -15,7 +15,7 @@ seo_description: "Explore moon magic, spells, and sacred rituals on Tarot Flower
 
 ## Ritual and Practice
 
-![moon magic ritual and spellcasting](https://tarotflower.com/wp-content/uploads/2022/12/20.jpg)
+![moon magic ritual and spellcasting](/images/2022/12/20.jpg)
 
 ## Practicing Moon Magic
 

@@ -10,7 +10,7 @@ seo_title: "Windows to the Soul | Tarot Flower"
 seo_description: "Have you ever wondered what you would hear in my words"
 ---
 
-![Vanessa Hylande windows to the soul poetry Ai art](https://tarotflower.com/wp-content/uploads/2020/11/windows-to-the-soul.jpg)
+![Vanessa Hylande windows to the soul poetry Ai art](/images/2020/11/windows-to-the-soul.jpg)
 
 Have you ever wondered what you would hear in my words
 

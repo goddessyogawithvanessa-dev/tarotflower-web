@@ -68,7 +68,7 @@ Join us at one of our beautiful Goddess Yoga retreats! Life is just so much more
 
 When you join our community, you will get to learn chakra healing dances that will leave you feeling free, inspired and more in love with life. Our retreats are full of wonderful embodiment self-care practices!
 
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](http://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
+*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/10/pinterest-for-blogs-1-3-576x1024.jpg)
 

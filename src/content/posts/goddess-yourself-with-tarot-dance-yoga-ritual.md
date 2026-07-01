@@ -10,7 +10,7 @@ seo_title: "Goddess Yourself with Tarot, Dance, Yoga & Ritual | Tarot Flower"
 seo_description: "Are you ready to unleash your inner divine feminine and embody the powerful goddess within? There are many ways to connect with the divine feminine,..."
 ---
 
-![goddess yourself with mystical divine feminine practices at live goddess yoga retreats](https://tarotflower.com/wp-content/uploads/2023/04/ophelia-goddess-yourself.jpg)
+![goddess yourself with mystical divine feminine practices at live goddess yoga retreats](/images/2023/04/ophelia-goddess-yourself.jpg)
 
 Are you ready to unleash your inner divine feminine and embody the powerful goddess within? There are many ways to connect with the divine feminine, and one of the most potent ways is through the use of mystical tools such as tarot, yoga, dance, meditation, and music. By incorporating these practices into your life, you can tap into your inner wisdom, creativity, and intuition and connect with the powerful energy of the goddess.
 
@@ -30,7 +30,7 @@ Our live goddess yoga retreats provide a unique and transformative experience th
 
 ## Summer 2023: Embodying the Divine Feminine in Lago d'Orta, Italy
 
-[![goddess yoga retreat summer 2023 lago d'orta italy vanessa hylande stephanie tack ](https://tarotflower.com/wp-content/uploads/2023/04/Goddess-Yoga-Retreat-Flyer.jpeg)](https://goddess-yoga-retreat.com/)
+[![goddess yoga retreat summer 2023 lago d'orta italy vanessa hylande stephanie tack ](/images/2023/04/Goddess-Yoga-Retreat-Flyer.jpeg)](https://goddess-yoga-retreat.com/)
 
 https://youtu.be/rM-E5n87oXQ
 

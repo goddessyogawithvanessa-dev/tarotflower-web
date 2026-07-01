@@ -24,7 +24,7 @@ Capricorn kids are **practical** but **ambitious**, **down-to-earth** yet **pers
 
 Capricorn children frequently come across obstacles, making mistakes along the way, but are quick to learn from them and continue relentlessly moving forward. Some might underestimate them during the process, but once they’ve reached the mountain top, they are untouchable.
 
-*Do you have a Capricorn kiddo? Check out our **special*** [***Capricorn Birthday Message!***](http://tarotflower.com/tarot-flower-kids/capricorn-birthday/)
+*Do you have a Capricorn kiddo? Check out our **special*** [***Capricorn Birthday Message!***](https://tarotflower.com/tarot-flower-kids/capricorn-birthday/)
 
 ## All About The Earth Signs
 

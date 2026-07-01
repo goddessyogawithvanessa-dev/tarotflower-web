@@ -12,7 +12,7 @@ seo_description: "Are you looking to bring love into your life? We all see these
 
 ---
 
-![affirmation for love I choose love](http://tarotflower.com/wp-content/uploads/2020/07/i-choose-love--1024x1024.png)
+![affirmation for love I choose love](/images/2020/07/i-choose-love--1024x1024.png)
 
 Are you looking to bring love into your life? We all see these affirmations and hear the advice. But, how do you choose love if it doesn't choose you?
 
@@ -26,7 +26,7 @@ Then, from this place of **abundant self-love**, you will attract others who are
 
 Here's a little poem for you that you can read when you're feeling lonely or confused, so that you will always remember how to love **YOU!**
 
-![if you seek love become love choose love affirmation embodiment the empress tarot card major arcana](http://tarotflower.com/wp-content/uploads/2021/01/If-you-seek-love-become-love.-1024x1024.jpg)
+![if you seek love become love choose love affirmation embodiment the empress tarot card major arcana](/images/2021/01/If-you-seek-love-become-love.-1024x1024.jpg)
 
 Today and every day, I choose love
 
@@ -46,13 +46,13 @@ Because it's what connects us
 
 in all we do
 
-If you seek love, become love first. Remember this when you meditate on this **affirmation for love**. You attract love when you become love. But not just love for others - you must love yourself first. Like [The Lovers](http://tarotflower.com/tarot-card-meanings/the-lovers-tarot/) and [The Empress](http://tarotflower.com/tarot-card-meanings/the-empress-tarot/) in the tarot, there is a divine love waiting for you if you create it for yourself first.
+If you seek love, become love first. Remember this when you meditate on this **affirmation for love**. You attract love when you become love. But not just love for others - you must love yourself first. Like [The Lovers](https://tarotflower.com/tarot-card-meanings/the-lovers-tarot/) and [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/) in the tarot, there is a divine love waiting for you if you create it for yourself first.
 
 Nurture your own heart in everything you do. Have compassion for yourself and then for others. Hold yourself in high regard and do not hold space for relationships that do not fully honor you. Instead, cherish those relationships that cherish you.
 
 Love,
 
-![tarot flower](http://tarotflower.com/wp-content/uploads/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](http://tarotflower.com/wp-content/uploads/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

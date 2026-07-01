@@ -10,7 +10,7 @@ seo_title: "Embodying Artemis, Goddess of the Hunt: 12:12 Portal and New Moon in
 seo_description: "This Sagittarius new moon 2023 is happening on the 12:12 portal - a gateway to harmony, balance and love. The fiery energy of Sagittarius bids us to..."
 ---
 
-![](https://tarotflower.com/wp-content/uploads/2023/12/Artemis-1212-576x1024.jpg)
+![](/images/2023/12/Artemis-1212-576x1024.jpg)
 
 This Sagittarius new moon 2023 is happening on the 12:12 portal - a gateway to harmony, balance and love. The fiery energy of Sagittarius bids us to dream big, pursue our goals, travel and move toward our vision of the future.
 

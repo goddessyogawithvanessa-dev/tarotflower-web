@@ -10,7 +10,7 @@ seo_title: "How to Survive the Twin Flame Separation | Tarot Flower"
 seo_description: "Is your twin flame invading your psychic space? Are you feeling unwanted connections and emotions that are driving you crazy? Are you in twin flame..."
 ---
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-separation.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-separation.jpg)
 
 Is your twin flame invading your psychic space? Are you feeling unwanted connections and emotions that are driving you crazy? Are you in twin flame separation trying to forget your twin, but you just can't seem to cut the cord? Is it obsession? [Is it all in your head?](https://tarotflower.com/twin-flame/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/) Why is this happening and how can you get past it? Here are some helpful tips to navigate, survive and *thrive* a twin flame separation:
 
@@ -22,7 +22,7 @@ Use this time apart to invest in your own well-being and personal development. E
 
 ## Trust in the love and connection
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-union-3.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-union-3.jpg)
 
 Although the twin flame separation may not be temporary, it is important to remember that the love is real. Sometimes we are left wondering if we are crazy and if it's all in our heads. But the truth is that the love is real in the 5D, whether it is able to manifest in the 3D at this point in time or not. The important thing is to shift the focus away from your twin and onto what you are still lacking. Your twin is your mirror soul, and the separation is teaching you things that you still need to learn.
 
@@ -30,7 +30,7 @@ Have faith in the deep love and connection you share with your twin flame. Trust
 
 ## Release attachment to the 3D manifestation
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-separation-7.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-separation-7.jpg)
 
 Let go of expectations regarding the physical aspects of the relationship. Understand that the twin flame journey is about soul growth and spiritual evolution. Shift your focus from the external circumstances and trust in the divine timing of your reunion. Surrender to the higher plan and embrace the journey, even if it unfolds differently from what you initially envisioned.
 
@@ -38,7 +38,7 @@ That doesn't mean patiently waiting. It doesn't mean that once you so this, you 
 
 ## Nurture your own happiness from within
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-separation-2.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-separation-2.jpg)
 
 Recognize that you are responsible for your own happiness and well-being. Instead of relying solely on the presence of your twin flame for fulfillment, give yourself everything you need to be happy from within. Cultivate self-love, practice gratitude, and embrace joy in your own life. Explore your passions, cultivate meaningful connections with others, and create a fulfilling life that nourishes your soul.
 
@@ -46,7 +46,7 @@ Even if that means dating other people in the meantime, you may have energies to
 
 ## Seek support and guidance
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-separation-4.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-separation-4.jpg)
 
 One of the most comforting things during the twin flame journey is to share your experience with others. A twin flame connection can be very confusing and overwhelming, and it can be extremely helpful to share your experience with others who can relate. Most of us are familiar with the feeling of being misunderstood when we talk about our twin flames. People chalk it up to being toxic because they don't understand.
 
@@ -56,7 +56,7 @@ So, seek support and guidance from people who have experienced the twin flame jo
 
 ## Surrender and practice patience
 
-![twin flame separation, divine feminine healing, twin flame sex, twin flame union](https://tarotflower.com/wp-content/uploads/2023/06/twin-flame-separation-6.jpg)
+![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-separation-6.jpg)
 
 Embrace the art of surrender and practice patience. Trust that the universe is orchestrating your twin flame journey in the most divine and perfect way. Allow the process to unfold naturally, without trying to force or control the outcome. Surrendering allows for personal growth, healing, and alignment with the higher wisdom of the universe.
 

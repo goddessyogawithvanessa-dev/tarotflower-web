@@ -14,6 +14,6 @@ seo_description: "Relax deeply and go on a spiritual journey with a restorative 
 
 ## For Spiritual and Emotional Healing
 
-![Vanessa Hylande sound bath meditation](https://tarotflower.com/wp-content/uploads/2023/10/sound-bath.jpg)
+![Vanessa Hylande sound bath meditation](/images/2023/10/sound-bath.jpg)
 
 Relax deeply and go on a spiritual journey with a restorative 20 minute, personalized sound bath meditation. I will pull cards and channel the messages from the divine for your sound bath meditation. Includes a recording for you to keep and reuse forever any time.

@@ -10,9 +10,9 @@ seo_title: "The Empress Tarot Card Meaning: The Luxurious Divine Feminine | Taro
 seo_description: "The Empress tarot card is the Venus of the tarot. She represents abundance, fertility, creativity, and beauty. She is the divine feminine archetype,..."
 ---
 
-![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/empress-4.jpg)
+![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](/images/2021/01/empress-4.jpg)
 
-The Empress tarot card is the Venus of the tarot. She represents **abundance**, **fertility**, **creativity**, and **beauty**. She is the **divine feminine** archetype, The Great Mother who channels the spirituality of [The High Priestess](http://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/) into the physical realm.
+The Empress tarot card is the Venus of the tarot. She represents **abundance**, **fertility**, **creativity**, and **beauty**. She is the **divine feminine** archetype, The Great Mother who channels the spirituality of [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/) into the physical realm.
 
 The Empress is able to **effortlessly manifest abundance** all around her. When she turns up in your tarot card reading, you know that things are about to get good!
 
@@ -20,7 +20,7 @@ The Empress is able to **effortlessly manifest abundance** all around her. When 
 
 ## The Empress Tarot Card Summarized
 
-The Empress is the fourth card of the Major Arcana. [The Fool](http://tarotflower.com/tarot-card-meanings/the-fool-tarot/) began his journey and then learned how to manifest as [The Magician](http://tarotflower.com/tarot-card-meanings/the-magician-tarot/). Then The High Priestess brought spirituality and intuition into the mix. Now the Empress puts it all together by making it manifest in the physical world. So, what what does the empress card mean? Well, she literally **embodies abundance** of all forms.
+The Empress is the fourth card of the Major Arcana. [The Fool](https://tarotflower.com/tarot-card-meanings/the-fool-tarot/) began his journey and then learned how to manifest as [The Magician](https://tarotflower.com/tarot-card-meanings/the-magician-tarot/). Then The High Priestess brought spirituality and intuition into the mix. Now the Empress puts it all together by making it manifest in the physical world. So, what what does the empress card mean? Well, she literally **embodies abundance** of all forms.
 
 ## The Empress Tarot Card Upright Card Keywords
 
@@ -31,13 +31,13 @@ The Empress is the fourth card of the Major Arcana. [The Fool](http://tarotflowe
 
 ## The Empress Tarot Card in the Past
 
-![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/02/The-Empress-AI-4-1024x1024.jpg)
+![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](/images/2023/02/The-Empress-AI-4-1024x1024.jpg)
 
 When The Empress tarot card appears in the past position, you had **abundance** and **stability** in your past. Whether it was a beautiful and plentiful childhood, or a fulfilling job that paid well, you come from a stable foundation. There was beauty around you and your **creative pursuits** were prioritized. You may also have become a mother or had to do with **pregnancy** and **motherhood** in some other way. Whatever the case may be, this is forming the foundation for your current situation.
 
 ## The Empress Tarot Card in the Present
 
-![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2023/04/The-Empress-AI-1024x1024.jpg)
+![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](/images/2023/04/The-Empress-AI-1024x1024.jpg)
 
 In the present position, The Empress tarot card indicates that you are currently surrounded by **abundance** and **beauty**. Abundance is not always in the form of money. We can be abundant in **love, creativity, beauty, health**. Anything that supports and **nourishes mind, body and soul**.
 
@@ -47,7 +47,7 @@ The Empress tarot card in the present position illustrates that you are surround
 
 ## The Empress Tarot Card in the Future
 
-![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/empress-6.jpg)
+![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](/images/2021/01/empress-6.jpg)
 
 When The Empress tarot card appears in the future position, you are about to come into a period of beauty and abundance. This is definitely the best place for The Empress to show up!
 
@@ -55,7 +55,7 @@ You have some amazing things in store for you, beyond money and stability. You w
 
 ## The Empress in Your Love Reading
 
-![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/01/empress-5.jpg)
+![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](/images/2021/01/empress-5.jpg)
 
 Love and abundance tarot readings always welcome the appearance of The Empress. In your love reading, The Empress tarot card indicates a **fulfilling, stable, and balanced** energy.
 
@@ -67,7 +67,7 @@ But most importantly, we cannot find true love with another until we love oursel
 
 ## The Empress in Your Career Reading
 
-![the empress tarot card in love reading](http://tarotflower.com/wp-content/uploads/2021/01/the-empress-2-1024x1024.jpg)
+![the empress tarot card in love reading](/images/2021/01/the-empress-2-1024x1024.jpg)
 
 Whatever you are pursuing in terms of your career, it is going to have a **positive outcome**. In your career reading, The Empress indicates that **success, abundance and stability** will be yours. You are on a good path that will lead to your **fulfillment, comfort and happiness**.
 
@@ -75,7 +75,7 @@ If this card is appearing in the advice position, be sure to stay true to those 
 
 ## The Empress in Your Health Reading
 
-[![the empress tarot card meanings major arcana embody](http://tarotflower.com/wp-content/uploads/2021/01/IMG_20201216_115540-1024x1008.jpg)](https://amzn.to/3Jt9X4J)
+[![the empress tarot card meanings major arcana embody](/images/2021/01/IMG_20201216_115540-1024x1008.jpg)](https://amzn.to/3Jt9X4J)
 
 This beautiful The Empress card is from [The White Sage Tarot Deck](https://amzn.to/3Jt9X4J).
 
@@ -89,7 +89,7 @@ The Empress tarot card in your spirituality reading indicates that you have prog
 
 ## The Empress Reversed
 
-![Practise self love with The Empress Tarot Card](http://tarotflower.com/wp-content/uploads/2021/01/the-empress-3-1024x1024.jpg)
+![Practise self love with The Empress Tarot Card](/images/2021/01/the-empress-3-1024x1024.jpg)
 
 The Empress reversed can be **overindulgent**, **lazy** and **co-dependent**. Too much of a good thing can lead to trouble. If this card appears in the reverse position, the energy of the archetype is out of balance in one extreme or the other.
 
@@ -99,13 +99,13 @@ The Empress tarot card in the reverse is a sign that you need to self-reflect an
 
 ## Symbology of the The Empress Tarot Card
 
-![the empress tarot card meaning rider waite deck major arcana](https://tarotflower.com/wp-content/uploads/2021/01/empress-rw.jpeg)
+![the empress tarot card meaning rider waite deck major arcana](/images/2021/01/empress-rw.jpeg)
 
 The [Rider Waite](https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_tarot_deck) Empress sits pregnant upon cushions on her throne. She is surrounded by fields of grain and a flowing river, and the symbol for Venus lays at her feet. She is adorned with fruits and wears eleven pentacles upon her head. Behind her, the sun illuminates the sky a lovely orange. She is the Venus of the tarot. The Great Mother. And although different decks depict her differently and may focus on different aspects of her archetype, the meaning of empress tarot cards is essentially the same - she has arrived in her fullness, integrated and abundant.
 
 ## How to Embody The Empress Tarot Card
 
-![the empress tarot card meanings major arcana affirmation](http://tarotflower.com/wp-content/uploads/2021/01/I-celebrate-my-creations-4-1024x1024.jpg)
+![the empress tarot card meanings major arcana affirmation](/images/2021/01/I-celebrate-my-creations-4-1024x1024.jpg)
 
 Practice **self-love**. **Nurture yourself**, but not in excess, for excess of any kind is self-destructive. Provide yourself with everything you need to feed your **mind, body, and spirit**. Abundance comes in all forms, not just in money.
 
@@ -117,9 +117,9 @@ Practice **self-love**. **Nurture yourself**, but not in excess, for excess of a
 
 https://youtu.be/rM-E5n87oXQ
 
-[![the empress tarot card meanings major arcana embodiment](http://tarotflower.com/wp-content/uploads/2021/01/the-empress-683x1024.jpg)](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)
+[![the empress tarot card meanings major arcana embodiment](/images/2021/01/the-empress-683x1024.jpg)](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)
 
-[![the empress tarot card meanings major arcana](http://tarotflower.com/wp-content/uploads/2021/01/the-empress-1-683x1024.jpg)](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)
+[![the empress tarot card meanings major arcana](/images/2021/01/the-empress-1-683x1024.jpg)](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)
 
 *meaning of the empress card  
 what does the empress card mean in tarot  

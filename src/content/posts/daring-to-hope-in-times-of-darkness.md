@@ -10,7 +10,7 @@ seo_title: "Daring to Hope in Times of Darkness | Tarot Flower"
 seo_description: "Sometimes we fear to hope. We all know the saying \"Don't get your hopes up.\" If we never hope, we won't be disappointed. Or will we?"
 ---
 
-![Vanessa Hylande AI Art Hope](https://tarotflower.com/wp-content/uploads/2020/07/hope.jpg)
+![Vanessa Hylande AI Art Hope](/images/2020/07/hope.jpg)
 
 Sometimes we fear to hope. We all know the saying "Don't get your hopes up." If we never hope, we won't be disappointed. Or will we?
 
