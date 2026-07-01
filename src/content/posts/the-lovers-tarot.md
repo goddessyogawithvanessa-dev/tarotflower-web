@@ -6,6 +6,8 @@ date: 2021-02-14
 modified: 2023-05-21
 type: post
 categories: [major-arcana, tarot-card-meanings]
+seo_title: "The Lovers Tarot Card Meaning: Divine Union and Choice | Tarot Flower"
+seo_description: "Wow! A beautiful choice is before you when The Lovers Tarot card appears in your tarot card reading! This Major Arcana card represents a divine union,..."
 ---
 
 ![The Lovers Tarot card meaning, major arcana, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/lovers.jpg)

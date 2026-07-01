@@ -6,6 +6,8 @@ date: 2021-02-16
 modified: 2023-05-21
 type: post
 categories: [major-arcana, tarot-card-meanings]
+seo_title: "The Hierophant Tarot Card Meaning: The Shaman | Tarot Flower"
+seo_description: "This Major Arcana is powerful and important, so when The Hierophant tarot card appears in your reading, pay attention!"
 ---
 
 ![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](https://tarotflower.com/wp-content/uploads/2021/02/hierophant-3.jpg)

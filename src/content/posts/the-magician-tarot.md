@@ -6,6 +6,8 @@ date: 2023-05-17
 modified: 2023-05-24
 type: post
 categories: [major-arcana, tarot-card-meanings]
+seo_title: "The Magician Tarot Card Meaning: Manifest Your Dreams | Tarot Flower"
+seo_description: "When The Magician tarot card turns up in your reading, get ready for some magic!"
 ---
 
 ![the magician tarot card magical raven major arcana](https://tarotflower.com/wp-content/uploads/2021/01/magician-2-1.jpg)

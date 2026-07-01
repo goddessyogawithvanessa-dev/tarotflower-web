@@ -6,6 +6,8 @@ date: 2021-01-14
 modified: 2023-05-16
 type: post
 categories: [major-arcana, tarot-card-meanings]
+seo_title: "The Emperor Tarot Card Meaning: I Am the Master of My Fate | Tarot Flower"
+seo_description: "When the Emperor tarot card appears in your reading, there are energies of stability and authority around you. The Emperor is like a traditional king...."
 ---
 
 ![](https://tarotflower.com/wp-content/uploads/2021/01/the-emperor.jpg)
