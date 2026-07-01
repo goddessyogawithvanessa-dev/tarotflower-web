@@ -2,18 +2,11 @@
 import Base from './Base.astro';
 
 const { title, date, categories = [], original_url, seo_title, seo_description } = Astro.props;
-const displayDate = new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-const cats = categories.join(', ');
 const pageTitle = seo_title || title;
 const metaDesc = seo_description || '';
 ---
 <Base title={pageTitle} description={metaDesc}>
   <div class="container">
-    <h1>{title}</h1>
-    <div class="meta">
-      <span>{displayDate}</span>
-      {cats && <span>{cats}</span>}
-    </div>
     <div class="content clearfix">
       <slot />
     </div>

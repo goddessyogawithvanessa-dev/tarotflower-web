@@ -15,7 +15,8 @@ const { title, description = '' } = Astro.props;
   {description && <meta name="description" content={description} />}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Aboreto&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/styles/global.css" />
 </head>
 <body>
@@ -23,12 +24,56 @@ const { title, description = '' } = Astro.props;
     <a href="/"><img src="/images/2024/03/TF-Header-2024-Dandelion.jpeg" alt="Tarot Flower" /></a>
   </div>
   <nav>
-    <a href="/">Home</a>
-    <a href="/tarot-card-readings">Tarot Card Readings</a>
-    <a href="/tarot-card-meanings">Tarot Card Meanings</a>
-    <a href="/moon-magic-spells">Spells &amp; Rituals</a>
-    <a href="/astrology">Astrology &amp; Zodiac</a>
-    <a href="/daily-tarot">Witch's Journal</a>
+    <div class="nav-inner">
+      <a href="/">Home</a>
+      <div class="nav-dropdown">
+        <a href="/tarot-card-readings">Tarot Card Readings <span class="caret">&#9662;</span></a>
+        <div class="dropdown-menu">
+          <a href="/free-tarot-card-readings">Free Tarot Card Readings</a>
+          <a href="/melissa-warwood-tantric-tarot">Tantric Tarot by Melissa</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a href="/tarot-card-meanings">Tarot Card Meanings <span class="caret">&#9662;</span></a>
+        <div class="dropdown-menu dropdown-wide">
+          <div class="dropdown-col">
+            <strong><a href="/major-arcana-2">Major Arcana</a></strong>
+            <a href="/the-fool-tarot">The Fool</a>
+            <a href="/the-magician-tarot">The Magician</a>
+            <a href="/the-high-priestess-tarot">The High Priestess</a>
+            <a href="/the-empress-tarot">The Empress</a>
+            <a href="/the-emperor-tarot">The Emperor</a>
+            <a href="/the-hierophant-tarot">The Hierophant</a>
+            <a href="/the-lovers-tarot">The Lovers</a>
+            <a href="/the-chariot-tarot">The Chariot</a>
+            <a href="/strength-tarot">Strength</a>
+            <a href="/the-hermit-tarot">The Hermit</a>
+            <a href="/the-wheel-of-fortune-tarot">Wheel of Fortune</a>
+            <a href="/justice-tarot">Justice</a>
+            <a href="/the-hanged-man-tarot">The Hanged Man</a>
+            <a href="/death-tarot">Death</a>
+            <a href="/temperance-tarot">Temperance</a>
+            <a href="/the-devil-tarot">The Devil</a>
+            <a href="/the-tower-tarot">The Tower</a>
+            <a href="/the-star-tarot">The Star</a>
+            <a href="/the-moon-tarot">The Moon</a>
+            <a href="/the-sun-tarot">The Sun</a>
+            <a href="/judgement-tarot">Judgement</a>
+            <a href="/the-world-tarot">The World</a>
+          </div>
+          <div class="dropdown-col">
+            <strong><a href="/minor-arcana">Minor Arcana</a></strong>
+            <a href="/cups-tarot">Cups</a>
+            <a href="/pentacles-tarot">Pentacles</a>
+            <a href="/swords-tarot">Swords</a>
+            <a href="/wands-tarot">Wands</a>
+          </div>
+        </div>
+      </div>
+      <a href="/moon-magic-spells">Spells &amp; Rituals</a>
+      <a href="/astrology">Astrology &amp; Zodiac</a>
+      <a href="/daily-tarot">Witch's Journal</a>
+    </div>
   </nav>
 
   <slot />
@@ -36,34 +81,40 @@ const { title, description = '' } = Astro.props;
   <footer>
     <div class="footer-inner">
       <div class="footer-col">
-        <h4>Explore</h4>
-        <a href="/tarot-card-meanings">Tarot Card Meanings</a>
-        <a href="/major-arcana-2">Major Arcana</a>
-        <a href="/minor-arcana">Minor Arcana</a>
-        <a href="/moon-magic-spells">Spells &amp; Rituals</a>
-        <a href="/astrology">Astrology</a>
-        <a href="/free-tarot-card-readings">Free Tarot Readings</a>
+        <h4>CONNECT</h4>
+        <p class="footer-heading"><strong>Join the Circle</strong></p>
+        <p>Subscribe for moon phase updates, tarot wisdom, and spiritual insights — plus invitations to our goddess retreats &amp; rituals.</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/vanessahylande/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.pinterest.com/tarotflower/" target="_blank" rel="noopener" aria-label="Pinterest" class="social-pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="https://www.youtube.com/@vanessahylande" target="_blank" rel="noopener" aria-label="YouTube" class="social-youtube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/@vanessahylande" target="_blank" rel="noopener" aria-label="TikTok" class="social-tiktok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.facebook.com/tarotflower" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
       </div>
       <div class="footer-col">
-        <h4>More</h4>
-        <a href="/goddess-yoga">Goddess Yoga</a>
-        <a href="/goddess-yoga-retreats">Retreats</a>
-        <a href="/affirmations">Affirmations</a>
-        <a href="/sound-bath-meditations">Sound Bath Meditations</a>
-        <a href="/shop">Shop</a>
-        <a href="/contact">Contact</a>
+        <h4>MORE</h4>
+        <ul>
+          <li><a href="/tarot-card-meanings">Tarot Card Meanings</a></li>
+          <li><a href="/kundalini-awakening-twin-flame-sex">Psychic Abilities</a></li>
+          <li><a href="/what-is-a-twin-flame-how-to-know-if-youve-met-your-mirror-soul">Twin Flame Journey</a></li>
+          <li><a href="/moon-magic-spells">Spells &amp; Rituals</a></li>
+          <li><a href="/astrology">Astrology Insights</a></li>
+          <li><a href="/free-tarot-card-readings">Free Tarot Readings</a></li>
+          <li><a href="/goddess-yoga-retreats">Goddess Yoga Retreats</a></li>
+        </ul>
       </div>
       <div class="footer-col">
-        <h4>Connect</h4>
-        <a href="https://www.instagram.com/vanessahylande/" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://www.pinterest.com/tarotflower/" target="_blank" rel="noopener">Pinterest</a>
-        <a href="https://www.youtube.com/@vanessahylande" target="_blank" rel="noopener">YouTube</a>
-        <a href="https://www.tiktok.com/@vanessahylande" target="_blank" rel="noopener">TikTok</a>
-        <a href="https://www.facebook.com/tarotflower" target="_blank" rel="noopener">Facebook</a>
+        <h4>CONTACT</h4>
+        <p>For collaborations, readings, or mystical inquiries — send a raven... or just an email.</p>
+        <a href="/contact" class="footer-cta">send a message</a>
       </div>
     </div>
+    <div class="footer-quote">
+      <p>"A sacred space for divine insight and mystical connection."</p>
+    </div>
     <div class="footer-bottom">
-      <p>&copy; {new Date().getFullYear()} Tarot Flower &middot; Site by Vanessa Hylande</p>
+      <p>&copy; {new Date().getFullYear()} Tarot Flower &middot; All Rights Reserved &middot; <a href="/terms-and-conditions">Privacy Policy</a> &middot; Site by Vanessa Hylande</p>
     </div>
   </footer>
 </body>

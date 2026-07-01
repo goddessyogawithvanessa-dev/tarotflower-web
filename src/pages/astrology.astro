@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+const posts = await getCollection('posts');
+const astrologyPage = posts.find(p => p.data.slug === 'astrology');
+
+let PageContent: any = null;
+if (astrologyPage) {
+  const rendered = await render(astrologyPage);
+  PageContent = rendered.Content;
+}
+
+const zodiacSlugs = [
+  'aries-dates-traits-the-fearless-ram',
+  'taurus-dates-traits-the-loyal-dependable-romantic',
+  'gemini-dates-traits-the-clever-twins',
+  'cancer-dates-traits-the-sensitive-intuitive',
+  'leo-dates-traits-the-shining-sun',
+  'virgo-dates-traits-harvest-and-abundance',
+  'libra-dates-traits-the-charming-diplomat',
+  'scorpio-dates-traits-the-phoenix-rising',
+  'sagittarius-dates-traits-the-spirited-adventurer',
+  'capricorn-dates-traits-persistent-ambition',
+  'aquarius-dates-traits-the-new-age-thinker',
+  'pisces-dates-traits-the-mystical-dreaming-fish',
+];
+
+const zodiacPosts = zodiacSlugs
+  .map(slug => posts.find(p => p.data.slug === slug))
+  .filter(Boolean);
+
+function extractImage(body: string): string {
+  const match = body.match(/!\[([^\]]*)\]\(([^)]+)\)/);
+  return match ? match[2] : '';
+}
+
+function extractExcerpt(body: string): string {
+  const lines = body.split('\n');
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#') || trimmed.startsWith('!') || trimmed.startsWith('*') && trimmed.length < 30) continue;
+    const clean = trimmed.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1').replace(/\*([^*]+)\*/g, '$1');
+    if (clean.length > 30) return clean.length > 120 ? clean.slice(0, 117) + '...' : clean;
+  }
+  return '';
+}
+---
+<Base
+  title={astrologyPage?.data.seo_title || 'Astrology – Journey Through the Zodiac Signs'}
+  description={astrologyPage?.data.seo_description || ''}
+>
+  <div class="container">
+    <div class="content clearfix">
+      {PageContent && <PageContent />}
+    </div>
+
+    <section class="zodiac-grid">
+      {zodiacPosts.map(post => {
+        const img = extractImage(post!.body || '');
+        const excerpt = extractExcerpt(post!.body || '');
+        const displayDate = new Date(post!.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        return (
+          <a href={`/${post!.data.slug}`} class="zodiac-card">
+            {img && <div class="zodiac-img"><img src={img} alt={post!.data.title} loading="lazy" /></div>}
+            <div class="zodiac-info">
+              <h3>{post!.data.title}</h3>
+              <span class="zodiac-meta">by Vanessa Hylande | {displayDate} | Astrology</span>
+              {excerpt && <p class="zodiac-excerpt">{excerpt}</p>}
+            </div>
+          </a>
+        );
+      })}
+    </section>
+  </div>
+</Base>
