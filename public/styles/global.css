@@ -98,6 +98,7 @@ nav a:hover { color: #2ea3f2; }
   border-right: 1px solid #e8e8e8;
   min-width: 180px;
   padding: 10px 0;
+  align-self: flex-start;
 }
 .mega-cat {
   position: relative;
@@ -262,7 +263,13 @@ strong { color: #333; }
 }
 
 .arcana-section {
-  margin: 3em 0;
+  margin: 0;
+  padding: 3em 0;
+}
+.arcana-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 .arcana-section > h2 {
   font-family: 'Cormorant Garamond', Georgia, serif;
