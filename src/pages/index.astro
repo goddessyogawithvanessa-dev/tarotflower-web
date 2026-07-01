@@ -50,24 +50,35 @@ function cardSlug(rank: string, suit: string) {
     <section class="hero">
       <h1>Tarot Flower</h1>
       <h2>Unlock the Magic of Tarot, Astrology, and Ritual</h2>
-      <p>Welcome, beautiful soul. You've arrived at Tarot Flower — a sanctuary for seekers, mystics, and modern goddesses who are ready to deepen their connection with tarot, astrology, and spiritual ritual. Whether you're just starting your journey or you've been walking the path for years, this space was created for you to learn tarot online.</p>
-      <p>At Tarot Flower, we believe that tarot is more than a tool for prediction. It's a mirror — a sacred language that speaks to your inner world, revealing the energies at play in your life, your relationships, and your soul's evolution. Here, you'll find <strong>free tarot card readings</strong>, crafted with intention and love, designed to support your personal transformation.</p>
-      <p>This is a space where the mystical becomes practical. You'll find not only readings, but guidance on the <strong>Suit of Swords</strong>, the <strong>Major Arcana</strong>, the <strong>elements of the tarot</strong>, and how these archetypes can help you embody your higher self.</p>
+      <p>Welcome, beautiful soul. &#10024; You've arrived at Tarot Flower — a sanctuary for seekers, mystics, and modern goddesses who are ready to deepen their connection with tarot, astrology, and spiritual ritual. Whether you're just starting your journey or you've been walking the path for years, this space was created for you to learn tarot online.</p>
+
+      <details class="read-more-toggle">
+        <summary>Read More</summary>
+        <div class="read-more-content">
+          <p>At Tarot Flower, we believe that tarot is more than a tool for prediction. It's a mirror — a sacred language that speaks to your inner world, revealing the energies at play in your life, your relationships, and your soul's evolution. Here, you'll find <strong>free tarot card readings</strong>, crafted with intention and love, designed to support your personal transformation.</p>
+          <p>This is a space where the mystical becomes practical. You'll find not only readings, but guidance on the <strong>Suit of Swords</strong>, the <strong>Major Arcana</strong>, the <strong>elements of the tarot</strong>, and how these archetypes can help you embody your higher self. The goal here isn't just to learn tarot — it's to <strong>live it.</strong> To let the cards become part of your intuitive toolkit as you awaken your divine feminine wisdom and step into your power.</p>
+        </div>
+      </details>
     </section>
 
     <section class="arcana-section">
       <h2>The Major Arcana</h2>
-      <h3>The great archetypes of the Tarot</h3>
-      <div class="card-grid">
-        {majorArcana.map(card => (
-          <a href={`/${card.slug}`} class="card-link">{card.name}</a>
-        ))}
+      <h3 class="arcana-subtitle">The great archetypes of the Tarot</h3>
+      <div class="arcana-layout">
+        <div class="arcana-left">
+          <img src="/images/2021/01/Major-Arcana-e1610542977417.jpg" alt="The Major Arcana tarot cards" />
+        </div>
+        <div class="arcana-right">
+          {majorArcana.map(card => (
+            <a href={`/${card.slug}`}>{card.name}</a>
+          ))}
+        </div>
       </div>
     </section>
 
     <section class="arcana-section">
       <h2>The Minor Arcana</h2>
-      <h3>The four suits of the Tarot</h3>
+      <h3 class="arcana-subtitle">The four suits of the Tarot</h3>
       {suits.map(suit => (
         <div class="suit-block">
           <h3><a href={`/${suit.slug}`}>{suit.name}</a></h3>

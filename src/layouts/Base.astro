@@ -15,7 +15,7 @@ const { title, description = '' } = Astro.props;
   {description && <meta name="description" content={description} />}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Aboreto&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Aboreto&family=Quattrocento:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/styles/global.css" />
 </head>
@@ -35,9 +35,16 @@ const { title, description = '' } = Astro.props;
       </div>
       <div class="nav-dropdown">
         <a href="/tarot-card-meanings">Tarot Card Meanings <span class="caret">&#9662;</span></a>
-        <div class="dropdown-menu dropdown-wide">
-          <div class="dropdown-col">
-            <strong><a href="/major-arcana-2">Major Arcana</a></strong>
+        <div class="dropdown-menu dropdown-mega">
+          <div class="mega-categories">
+            <div class="mega-cat" data-panel="major">
+              <a href="/major-arcana-2">Major Arcana <span class="caret">&#9662;</span></a>
+            </div>
+            <div class="mega-cat" data-panel="minor">
+              <a href="/minor-arcana">Minor Arcana <span class="caret">&#9662;</span></a>
+            </div>
+          </div>
+          <div class="mega-panel" id="panel-major">
             <a href="/the-fool-tarot">The Fool</a>
             <a href="/the-magician-tarot">The Magician</a>
             <a href="/the-high-priestess-tarot">The High Priestess</a>
@@ -48,7 +55,7 @@ const { title, description = '' } = Astro.props;
             <a href="/the-chariot-tarot">The Chariot</a>
             <a href="/strength-tarot">Strength</a>
             <a href="/the-hermit-tarot">The Hermit</a>
-            <a href="/the-wheel-of-fortune-tarot">Wheel of Fortune</a>
+            <a href="/the-wheel-of-fortune-tarot">The Wheel of Fortune</a>
             <a href="/justice-tarot">Justice</a>
             <a href="/the-hanged-man-tarot">The Hanged Man</a>
             <a href="/death-tarot">Death</a>
@@ -61,8 +68,7 @@ const { title, description = '' } = Astro.props;
             <a href="/judgement-tarot">Judgement</a>
             <a href="/the-world-tarot">The World</a>
           </div>
-          <div class="dropdown-col">
-            <strong><a href="/minor-arcana">Minor Arcana</a></strong>
+          <div class="mega-panel" id="panel-minor">
             <a href="/cups-tarot">Cups</a>
             <a href="/pentacles-tarot">Pentacles</a>
             <a href="/swords-tarot">Swords</a>
@@ -117,5 +123,25 @@ const { title, description = '' } = Astro.props;
       <p>&copy; {new Date().getFullYear()} Tarot Flower &middot; All Rights Reserved &middot; <a href="/terms-and-conditions">Privacy Policy</a> &middot; Site by Vanessa Hylande</p>
     </div>
   </footer>
+  <script>
+    document.querySelectorAll('.mega-cat').forEach(cat => {
+      cat.addEventListener('mouseenter', () => {
+        const panel = cat.getAttribute('data-panel');
+        const menu = cat.closest('.dropdown-mega');
+        menu.querySelectorAll('.mega-panel').forEach(p => p.classList.remove('active'));
+        menu.querySelector('#panel-' + panel)?.classList.add('active');
+        menu.querySelectorAll('.mega-cat').forEach(c => c.classList.remove('active'));
+        cat.classList.add('active');
+      });
+    });
+    document.querySelectorAll('.dropdown-mega').forEach(menu => {
+      menu.addEventListener('mouseenter', () => {
+        if (!menu.querySelector('.mega-cat.active')) {
+          menu.querySelector('.mega-cat')?.classList.add('active');
+          menu.querySelector('.mega-panel')?.classList.add('active');
+        }
+      });
+    });
+  </script>
 </body>
 </html>
