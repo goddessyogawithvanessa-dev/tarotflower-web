@@ -4,7 +4,7 @@ slug: challenges-are-the-learning-ground-of-the-heart
 original_url: https://tarotflower.com/daily-tarot/challenges-are-the-learning-ground-of-the-heart/
 date: 2020-07-16
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Challenges Are the Learning Ground of the Heart | Tarot Flower"
 seo_description: "Pluto, Jupiter, and Saturn are all retrograde in Capricorn right now begging the question and self-reflection: What is your truth, what brings you joy,..."

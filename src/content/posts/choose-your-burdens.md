@@ -4,7 +4,7 @@ slug: choose-your-burdens
 original_url: https://tarotflower.com/daily-tarot/choose-your-burdens/
 date: 2020-07-03
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Choose Your Burdens | Tarot Flower"
 seo_description: "Sometimes the things that burden us the most are the responsibilities and obligations we have taken on because we were conditioned to believe that we..."

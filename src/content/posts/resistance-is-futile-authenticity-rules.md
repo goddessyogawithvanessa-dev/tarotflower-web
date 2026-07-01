@@ -4,7 +4,7 @@ slug: resistance-is-futile-authenticity-rules
 original_url: https://tarotflower.com/vanessas-musings/resistance-is-futile-authenticity-rules/
 date: 2020-01-07
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "III. Resistance is Futile, Authenticity Rules | Tarot Flower"
 seo_description: "There are those who will be fighting to preserve that which is dying. In so doing, they will remain stuck in a pattern of resistance for the entirety..."

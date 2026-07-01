@@ -4,7 +4,7 @@ slug: affirmation-for-happiness-i-take-action-toward-my-dreams
 original_url: https://tarotflower.com/daily-tarot/affirmation-for-happiness-i-take-action-toward-my-dreams/
 date: 2021-02-24
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [affirmations, daily-tarot]
 seo_title: "Affirmation for Happiness: I Take Action Toward My Dreams | Tarot Flower"
 seo_description: "Is it finally time to take the first step? At some point we have to choose to take a chance on our dreams. If you want to embody this affirmation for..."

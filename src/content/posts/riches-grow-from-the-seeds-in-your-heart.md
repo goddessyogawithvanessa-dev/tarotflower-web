@@ -4,7 +4,7 @@ slug: riches-grow-from-the-seeds-in-your-heart
 original_url: https://tarotflower.com/daily-tarot/riches-grow-from-the-seeds-in-your-heart/
 date: 2020-07-18
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Riches Grow From the Seeds in Your Heart | Tarot Flower"
 seo_description: "The seeds of abundance that we have planted in our hearts are manifesting for us in the physical world. The Ten of Pentacles represents stability,..."

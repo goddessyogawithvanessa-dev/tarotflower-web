@@ -4,7 +4,7 @@ slug: two-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/two-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Two of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Are you unable to make up your mind? Are you faced with a difficult decision? The Two of Swords Tarot card is one of indecision and duality. It is a..."

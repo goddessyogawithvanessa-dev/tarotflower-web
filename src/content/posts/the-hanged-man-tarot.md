@@ -4,7 +4,7 @@ slug: the-hanged-man-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-hanged-man-tarot/
 date: 2022-04-24
 modified: 2023-06-05
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Hanged Man Tarot Card Meaning: Reflection and Perspective | Tarot Flower"
 seo_description: "The Hanged Man pauses to look at the world from a new perspective. When life won't bend to our control we are wise to follow the guidance of The Hanged..."

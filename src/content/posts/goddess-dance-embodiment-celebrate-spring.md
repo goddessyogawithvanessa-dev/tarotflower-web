@@ -4,7 +4,7 @@ slug: goddess-dance-embodiment-celebrate-spring
 original_url: https://tarotflower.com/embodiment/goddess-dance-embodiment-celebrate-spring/
 date: 2022-05-09
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Goddess Dance Embodiment - Celebrate Spring!"
 seo_description: "Ready to brush off those winter blues? The sun is shining and we can finally enjoy the blossoming flowers and outdoor activities we love so much. Well,..."

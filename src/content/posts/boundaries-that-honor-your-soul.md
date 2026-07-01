@@ -4,7 +4,7 @@ slug: boundaries-that-honor-your-soul
 original_url: https://tarotflower.com/daily-tarot/boundaries-that-honor-your-soul/
 date: 2020-07-19
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Boundaries That Honor Your Soul | Tarot Flower"
 seo_description: "Today's tarot card is The Nine of Wands, the resilient protector, the setter of boundaries. The authenticity of the life we lead is revealed by how we..."

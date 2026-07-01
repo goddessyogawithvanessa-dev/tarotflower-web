@@ -4,7 +4,7 @@ slug: nine-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/nine-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "Nine of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "The Nine of Swords Tarot card is a card of deep sorrow and despair, often associated with feelings of guilt and regret. It is a card that symbolizes a..."

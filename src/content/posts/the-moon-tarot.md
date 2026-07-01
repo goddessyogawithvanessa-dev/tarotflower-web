@@ -4,7 +4,7 @@ slug: the-moon-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-moon-tarot/
 date: 2023-05-23
 modified: 2023-06-06
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Moon Tarot Card Meaning: Shining Light on the Shadows | Tarot Flower"
 seo_description: "Get ready for secrets and mysteries to be revealed. The Moon tarot card is one of the most mysterious and powerful cards in the tarot deck. When it..."

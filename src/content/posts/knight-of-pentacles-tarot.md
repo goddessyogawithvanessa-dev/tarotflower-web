@@ -4,7 +4,7 @@ slug: knight-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/knight-of-pentacles-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Knight of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "The Knight of Pentacles is one of the many cards in the Tarot deck that can give you insights into your life. This card represents a journey towards..."

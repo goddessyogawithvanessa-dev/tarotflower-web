@@ -4,7 +4,7 @@ slug: be-in-service-of-your-dreams
 original_url: https://tarotflower.com/daily-tarot/be-in-service-of-your-dreams/
 date: 2020-07-02
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Be in Service of Your Dreams | Tarot Flower"
 seo_description: "Invest your energy into your dreams through conscious action today. The Eight of Pentacles reminds us that dedication to our craft will lead to..."

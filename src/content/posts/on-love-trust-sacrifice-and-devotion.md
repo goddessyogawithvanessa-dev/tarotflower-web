@@ -4,7 +4,7 @@ slug: on-love-trust-sacrifice-and-devotion
 original_url: https://tarotflower.com/vanessas-musings/on-love-trust-sacrifice-and-devotion/
 date: 2023-12-25
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "On Love, Trust, Sacrifice, and Devotion | Tarot Flower"
 seo_description: "Why do we choose to sacrifice? Why do we choose to prove our love through acts of devotion? And what are these demonstrations in service of?"

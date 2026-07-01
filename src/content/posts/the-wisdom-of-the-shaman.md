@@ -4,7 +4,7 @@ slug: the-wisdom-of-the-shaman
 original_url: https://tarotflower.com/daily-tarot/the-wisdom-of-the-shaman/
 date: 2021-02-25
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "The Wisdom of The Shaman | Tarot Flower"
 seo_description: "The secrets of the universe are spoken softly, with a voice that you feel in your heart. Embody the wisdom of the shaman today."

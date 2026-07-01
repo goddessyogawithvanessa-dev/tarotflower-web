@@ -4,7 +4,7 @@ slug: four-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/four-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Four of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Four of Cups tarot card is associated with the element of water and is associated with the inner emotions of a person. It represents a time of..."

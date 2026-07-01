@@ -4,7 +4,7 @@ slug: choose-love
 original_url: https://tarotflower.com/daily-tarot/choose-love/
 date: 2021-02-14
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [affirmations, daily-tarot]
 seo_title: "Affirmation for Love: I Choose Love | Tarot Flower"
 seo_description: "Are you looking to bring love into your life? We all see these affirmations and hear the advice. But, how do you choose love if it doesn't choose you?"

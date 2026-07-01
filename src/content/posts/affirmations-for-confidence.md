@@ -4,7 +4,7 @@ slug: affirmations-for-confidence
 original_url: https://tarotflower.com/affirmations/affirmations-for-confidence/
 date: 2022-05-17
 modified: 2022-05-17
-type: post
+content_type: post
 categories: [affirmations]
 seo_title: "Affirmations for Confidence: Try These 10 Affirmations to Boost Your Self-Esteem | Tarot Flower"
 seo_description: "Affirmations for confidence come down to one simple thing - learning how to self-love. When you know how to practice self-love and you truly have..."

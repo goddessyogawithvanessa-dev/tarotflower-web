@@ -4,7 +4,7 @@ slug: five-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/five-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Five of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "If you’ve been asking yourself what the Five of Wands tarot card meaning is, you’ve come to the right place. This card is one of the most misunderstood..."

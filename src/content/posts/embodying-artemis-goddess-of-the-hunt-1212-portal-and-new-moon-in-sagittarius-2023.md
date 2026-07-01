@@ -4,7 +4,7 @@ slug: embodying-artemis-goddess-of-the-hunt-1212-portal-and-new-moon-in-sagittar
 original_url: https://tarotflower.com/daily-tarot/embodying-artemis-goddess-of-the-hunt-1212-portal-and-new-moon-in-sagittarius-2023/
 date: 2023-12-11
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [daily-tarot, embodiment]
 seo_title: "Embodying Artemis, Goddess of the Hunt: 12:12 Portal and New Moon in Sagittarius 2023 | Tarot Flower"
 seo_description: "This Sagittarius new moon 2023 is happening on the 12:12 portal - a gateway to harmony, balance and love. The fiery energy of Sagittarius bids us to..."

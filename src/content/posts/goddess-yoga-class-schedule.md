@@ -4,7 +4,7 @@ slug: goddess-yoga-class-schedule
 original_url: https://tarotflower.com/goddess-yoga-class-schedule/
 date: 2023-11-27
 modified: 2023-12-29
-type: page
+content_type: page
 categories: []
 seo_title: "Goddess Yoga Class Schedule | Tarot Flower"
 seo_description: "\"Vanessa brings calm and joy to her yoga classes in equal measure. She is a true goddess, and every class leaves you feeling like one too ❤️\" -..."

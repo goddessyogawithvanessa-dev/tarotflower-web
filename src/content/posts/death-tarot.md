@@ -4,7 +4,7 @@ slug: death-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/death-tarot/
 date: 2023-05-17
 modified: 2023-05-24
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Death Tarot Card Meaning: The Phoenix Rising | Tarot Flower"
 seo_description: "The Death tarot card, like the Three of Swords, often scares people when it appears in their tarot card reading. However, it is metaphorical and..."

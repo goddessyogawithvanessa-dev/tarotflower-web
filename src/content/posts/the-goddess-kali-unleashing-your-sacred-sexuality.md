@@ -4,7 +4,7 @@ slug: the-goddess-kali-unleashing-your-sacred-sexuality
 original_url: https://tarotflower.com/daily-tarot/the-goddess-kali-unleashing-your-sacred-sexuality/
 date: 2023-06-12
 modified: 2023-06-13
-type: post
+content_type: post
 categories: [daily-tarot, oracle]
 seo_title: "The Goddess Kali: Unleashing Your Sacred Sexuality | Tarot Flower"
 seo_description: "Deep within the realms of Hindu mythology, there exists a fierce and awe-inspiring deity known as the Goddess Kali. She is a powerful figure,..."

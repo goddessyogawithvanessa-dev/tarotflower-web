@@ -4,7 +4,7 @@ slug: allow-your-inner-goddess-to-bloom
 original_url: https://tarotflower.com/embodiment/allow-your-inner-goddess-to-bloom/
 date: 2021-09-01
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Allow Your Inner Goddess to Bloom | Tarot Flower"
 seo_description: "In this busy and complicated world, where and how do you find the time to allow your inner goddess to bloom?"

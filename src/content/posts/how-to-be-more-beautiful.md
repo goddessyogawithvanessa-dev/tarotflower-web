@@ -4,7 +4,7 @@ slug: how-to-be-more-beautiful
 original_url: https://tarotflower.com/embodiment/how-to-be-more-beautiful/
 date: 2021-09-22
 modified: 2021-09-22
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "How to Be More Beautiful | Tarot Flower"
 seo_description: "Glowing radiant skin, curves in all the right places, a smile that lights up the room. Isn't that what we're all going for? So, how do we achieve that..."

@@ -4,7 +4,7 @@ slug: minor-arcana
 original_url: https://tarotflower.com/minor-arcana/
 date: 2022-10-04
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Minor Arcana Tarot Meanings – Everyday Magic Revealed"
 seo_description: "Explore the Minor Arcana tarot card meanings with Tarot Flower. Learn how each suit reveals daily energy, emotions, challenges, and transformation.

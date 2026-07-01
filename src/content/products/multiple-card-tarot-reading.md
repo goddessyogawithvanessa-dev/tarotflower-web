@@ -4,7 +4,7 @@ slug: multiple-card-tarot-reading
 original_url: https://tarotflower.com/product/multiple-card-tarot-reading/
 date: 2024-05-12
 modified: 2024-05-29
-type: product
+content_type: product
 categories: []
 price: 70
 stripe_link: ""

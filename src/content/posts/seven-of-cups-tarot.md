@@ -4,7 +4,7 @@ slug: seven-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/seven-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Seven of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Seven of Cups is one of the most mysterious cards in the Tarot, often inciting a great deal of speculation and debate amongst Tarot readers. This..."

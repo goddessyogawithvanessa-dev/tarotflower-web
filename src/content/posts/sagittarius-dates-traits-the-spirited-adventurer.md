@@ -4,7 +4,7 @@ slug: sagittarius-dates-traits-the-spirited-adventurer
 original_url: https://tarotflower.com/astrology/sagittarius-dates-traits-the-spirited-adventurer/
 date: 2023-05-22
 modified: 2023-05-22
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Sagittarius Dates & Traits: The Spirited Adventurer | Tarot Flower"
 seo_description: "Welcome to the world of the spirited and adventurous Sagittarius zodiac sign! People born between November 22nd and December 21st fall under the..."

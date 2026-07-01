@@ -4,7 +4,7 @@ slug: moon-magic-spells
 original_url: https://tarotflower.com/moon-magic-spells/
 date: 2022-12-18
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Moon Magic – Ritual and Practice for the Modern Witch"
 seo_description: "Explore moon magic, spells, and sacred rituals on Tarot Flower. Learn how to cast with intention, harness lunar energy, and elevate your spiritual practice.

@@ -4,7 +4,7 @@ slug: nine-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/nine-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Nine of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Nine of Cups is a card of deep contentment and satisfaction. It is often referred to as the “wish card” as it is a sign that all of your heart’s..."

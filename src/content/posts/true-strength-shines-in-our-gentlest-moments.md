@@ -4,7 +4,7 @@ slug: true-strength-shines-in-our-gentlest-moments
 original_url: https://tarotflower.com/daily-tarot/true-strength-shines-in-our-gentlest-moments/
 date: 2020-07-11
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "True Strength Shines in Our Gentlest Moments | Tarot Flower"
 seo_description: "Are you feeling this shift in the energies? Many aspects of our lives are being transformed right now. Structures are changing all around us, and at..."

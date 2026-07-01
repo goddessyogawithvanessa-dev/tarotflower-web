@@ -4,7 +4,7 @@ slug: how-to-make-a-moon-magic-altar-for-rituals
 original_url: https://tarotflower.com/moonmagic/how-to-make-a-moon-magic-altar-for-rituals/
 date: 2022-12-19
 modified: 2023-01-16
-type: post
+content_type: post
 categories: [moonmagic]
 seo_title: "How to Make a Moon Magic Altar for Rituals | Tarot Flower"
 seo_description: "Want to tap into the power of the moon’s energy? Creating a moon magic altar to honor the moon and its powerful energy is a great way to practice moon..."

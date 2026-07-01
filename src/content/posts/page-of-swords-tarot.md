@@ -4,7 +4,7 @@ slug: page-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/page-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Page of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "The Page of Swords Tarot Card is a card of mental clarity and new beginnings. It symbolizes the power of the mind to cut through the confusion of life..."

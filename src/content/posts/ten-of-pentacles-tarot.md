@@ -4,7 +4,7 @@ slug: ten-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/ten-of-pentacles-tarot/
 date: 2022-12-17
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Ten of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "The Ten of Pentacles tarot card is a powerful card representing security, legacy, and family. It symbolizes the completion of a major event or cycle in..."

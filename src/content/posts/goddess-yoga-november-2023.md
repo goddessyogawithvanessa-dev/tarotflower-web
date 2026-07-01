@@ -4,7 +4,7 @@ slug: goddess-yoga-november-2023
 original_url: https://tarotflower.com/goddess-yoga-november-2023/
 date: 2023-09-19
 modified: 2023-11-04
-type: page
+content_type: page
 categories: []
 seo_title: "Goddess Yoga Series: November 2023 | Tarot Flower"
 seo_description: "Join me for our next Goddess Yoga Series, live in Vienna, Austria or online! We will dive deeply into the divine feminine through tarot card readings,..."

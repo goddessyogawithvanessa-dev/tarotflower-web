@@ -4,7 +4,7 @@ slug: what-is-an-embodied-goddess
 original_url: https://tarotflower.com/embodiment/what-is-an-embodied-goddess/
 date: 2021-10-06
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "What is an Embodied Goddess? | Tarot Flower"
 seo_description: "An Embodied Goddess is a woman who confidently accepts and celebrates her true self. She has a deep sense of self-worth and is unafraid to be her..."

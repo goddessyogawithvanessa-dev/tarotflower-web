@@ -4,7 +4,7 @@ slug: uplift-yourself-by-celebrating-friendship
 original_url: https://tarotflower.com/daily-tarot/uplift-yourself-by-celebrating-friendship/
 date: 2021-02-20
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Uplift Yourself by Celebrating Friendship | Tarot Flower"
 seo_description: "Take some time to uplift yourself by celebrating your friendships today! The Three of Cups is a card of celebration, sisterhood, and collaborative..."

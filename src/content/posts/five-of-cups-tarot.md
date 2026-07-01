@@ -4,7 +4,7 @@ slug: five-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/five-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Five of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "If you’ve ever had the Five of Cups appear in a Tarot reading, you know that it can be an incredibly powerful and emotional card. This card is..."

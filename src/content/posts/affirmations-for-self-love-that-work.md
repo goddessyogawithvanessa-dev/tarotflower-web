@@ -4,7 +4,7 @@ slug: affirmations-for-self-love-that-work
 original_url: https://tarotflower.com/affirmations/affirmations-for-self-love-that-work/
 date: 2022-05-18
 modified: 2022-05-18
-type: post
+content_type: post
 categories: [affirmations]
 seo_title: "Affirmations for Self Love That Actually Work | Tarot Flower"
 seo_description: "Everyone is talking about self love affirmations, but how do you know they will actually work? Positive affirmations for self love are easy enough to..."

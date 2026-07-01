@@ -4,7 +4,7 @@ slug: capricorn-kids
 original_url: https://tarotflower.com/tarot-flower-kids/capricorn-kids/
 date: 2021-01-03
 modified: 2023-05-22
-type: post
+content_type: post
 categories: [tarot-flower-kids]
 seo_title: "Capricorn Kids - Little Mountain Climbers"
 seo_description: "Capricorn kids are practical but ambitious, down-to-earth yet persistent, and appreciate the simple things in life. They’re ruled by slow moving..."

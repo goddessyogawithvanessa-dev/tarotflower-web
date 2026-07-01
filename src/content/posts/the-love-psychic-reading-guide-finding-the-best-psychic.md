@@ -4,7 +4,7 @@ slug: the-love-psychic-reading-guide-finding-the-best-psychic
 original_url: https://tarotflower.com/psychics/the-love-psychic-reading-guide-finding-the-best-psychic/
 date: 2023-06-07
 modified: 2023-12-27
-type: post
+content_type: post
 categories: [psychics]
 seo_title: "The Love Psychic Reading Guide: Finding the Best Psychic | Tarot Flower"
 seo_description: "When it comes to matters of the heart, finding the best psychic is a must! Not only are we vulnerable when it comes to love & relationships, but we..."

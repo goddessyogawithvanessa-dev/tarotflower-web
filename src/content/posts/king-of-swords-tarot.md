@@ -4,7 +4,7 @@ slug: king-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/king-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The King of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "The King of Swords tarot card is one of the most powerful cards in the tarot deck. It is associated with strength, justice, and authority. This card..."

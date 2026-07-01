@@ -4,7 +4,7 @@ slug: intuition-quotes-i-seek-answers-within-my-stillness
 original_url: https://tarotflower.com/daily-tarot/intuition-quotes-i-seek-answers-within-my-stillness/
 date: 2021-02-23
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [affirmations, daily-tarot]
 seo_title: "Intuition Quotes: I Seek Answers Within My Stillness | Tarot Flower"
 seo_description: "Intuition quotes can help to put you in touch with the inner voice of The High Priestess. The things that grow are the things we we focus on. So,..."

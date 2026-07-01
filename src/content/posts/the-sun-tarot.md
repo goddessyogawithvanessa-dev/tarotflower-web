@@ -4,7 +4,7 @@ slug: the-sun-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-sun-tarot/
 date: 2023-05-30
 modified: 2023-12-27
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Sun Tarot Card Meaning: Celebrating Life | Tarot Flower"
 seo_description: "The Sun Tarot card radiates warmth, joy, and positivity, and is one of the best cards to receive in your tarot card reading! The Sun card brings a..."

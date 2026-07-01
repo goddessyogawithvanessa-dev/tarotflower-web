@@ -4,7 +4,7 @@ slug: king-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/king-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The King of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The King of Wands tarot card is associated with powerful energy, ambition, and passion. It symbolizes a strong, assertive leader who takes initiative..."

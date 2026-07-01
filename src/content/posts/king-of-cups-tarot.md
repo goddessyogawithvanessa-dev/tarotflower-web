@@ -4,7 +4,7 @@ slug: king-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/king-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The King of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The King of Cups tarot card is a powerhouse of emotion, intuition, and deep understanding. It's a reminder to take time to nurture yourself and connect..."

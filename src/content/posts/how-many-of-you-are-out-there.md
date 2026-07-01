@@ -4,7 +4,7 @@ slug: how-many-of-you-are-out-there
 original_url: https://tarotflower.com/vanessas-musings/how-many-of-you-are-out-there/
 date: 2019-01-07
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "How many of you are out there? | Tarot Flower"
 seo_description: "How can our silence be so pervasive?"

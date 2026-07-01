@@ -4,7 +4,7 @@ slug: three-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/three-of-pentacles-tarot/
 date: 2022-12-05
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Three of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "When the Three of Pentacles pops up in your tarot card reading, you're getting advice to be a team player. Consider the partnerships in your life - are..."

@@ -4,7 +4,7 @@ slug: cups-tarot
 original_url: https://tarotflower.com/cups-tarot/
 date: 2022-10-04
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Suit of Cups Tarot Meanings – Emotions, Love &amp; Intuition"
 seo_description: "Dive into the Suit of Cups with Tarot Flower. Discover tarot card meanings for love, intuition, healing, and the emotional currents of the heart.

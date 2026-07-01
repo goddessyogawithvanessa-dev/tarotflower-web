@@ -4,7 +4,7 @@ slug: goddess-yoga-retreats
 original_url: https://tarotflower.com/goddess-yoga-retreats/
 date: 2023-11-27
 modified: 2024-04-28
-type: page
+content_type: page
 categories: []
 seo_title: "Goddess Yoga Retreats | Tarot Flower"
 seo_description: "\"To the OG Goddesses, Thank you for the best week - all the healing tears and belly laughs! Thank you for reminding me of the person I can be and joy I..."

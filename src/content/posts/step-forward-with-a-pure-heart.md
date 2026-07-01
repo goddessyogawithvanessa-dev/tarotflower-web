@@ -4,7 +4,7 @@ slug: step-forward-with-a-pure-heart
 original_url: https://tarotflower.com/daily-tarot/step-forward-with-a-pure-heart/
 date: 2020-07-28
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Step Forward With a Pure Heart | Tarot Flower"
 seo_description: "Let's clean out the dusty chambers of our hearts today. Whatever old pains or wounds still lurk in the shadows, today is a perfect day to let them all..."

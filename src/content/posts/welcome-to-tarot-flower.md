@@ -4,7 +4,7 @@ slug: welcome-to-tarot-flower
 original_url: https://tarotflower.com/news/welcome-to-tarot-flower/
 date: 2021-02-14
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [news]
 seo_title: "Welcome to Tarot Flower - Unleash Your Beautiful Life with Inspirational Tarot"
 seo_description: "The ladies from Tarot Flower welcome you!"

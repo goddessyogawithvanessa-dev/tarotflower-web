@@ -4,7 +4,7 @@ slug: twin-flame-union-blesse-by-the-full-moon-in-leo-2023
 original_url: https://tarotflower.com/daily-tarot/twin-flame-union-blesse-by-the-full-moon-in-leo-2023/
 date: 2023-02-05
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings, twin-flame]
 seo_title: "Twin Flame Union - Blessed by the Full Moon in Leo 2023"
 seo_description: "Hey beautiful people on this crazy path we call the twin flame journey. With incredible highs and gut wrenching lows, a twin flame union is never easy..."

@@ -4,7 +4,7 @@ slug: i-am-the-fool
 original_url: https://tarotflower.com/vanessas-musings/i-am-the-fool/
 date: 2023-12-25
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "I Am The Fool | Tarot Flower"
 seo_description: "Standing blissfully at the precipice, I am ready to step into the void of infinite possibility. The Warrior God has come home to his own temple. The..."

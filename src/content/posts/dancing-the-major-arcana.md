@@ -4,7 +4,7 @@ slug: dancing-the-major-arcana
 original_url: https://tarotflower.com/embodiment/dancing-the-major-arcana/
 date: 2022-12-07
 modified: 2022-12-07
-type: post
+content_type: post
 categories: [embodiment, tarot]
 seo_title: "Dancing the Major Arcana | Tarot Flower"
 seo_description: "The Tarot is a powerful tool that can be used to explore the inner workings of our own lives. And in Goddess yoga, we embody the Major Arcana through..."

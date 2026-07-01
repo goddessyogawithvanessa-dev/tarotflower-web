@@ -4,7 +4,7 @@ slug: music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023
 original_url: https://tarotflower.com/daily-tarot/music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023/
 date: 2023-03-06
 modified: 2023-03-06
-type: post
+content_type: post
 categories: [daily-tarot, moonmagic]
 seo_title: "Music For Ritual and Meditation: Moon Magic for the Full Moon in Virgo 2023 | Tarot Flower"
 seo_description: "Here is some beautiful music for this full moon in Virgo 2023 that you can use in your ritual! Light your candles and get out your crystals! Use these..."

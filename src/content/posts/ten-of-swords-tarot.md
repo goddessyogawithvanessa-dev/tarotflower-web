@@ -4,7 +4,7 @@ slug: ten-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/ten-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Ten of Swords Tarot Card Meaning: Done, Done and Done! | Tarot Flower"
 seo_description: "The 10 of Swords from The Classic Rider-Waite Deck."

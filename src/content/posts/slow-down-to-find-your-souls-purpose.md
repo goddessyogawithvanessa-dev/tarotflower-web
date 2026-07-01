@@ -4,7 +4,7 @@ slug: slow-down-to-find-your-souls-purpose
 original_url: https://tarotflower.com/embodiment/slow-down-to-find-your-souls-purpose/
 date: 2021-09-22
 modified: 2021-09-22
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Slow Down to Find Your Soul's Purpose | Tarot Flower"
 seo_description: "As the world speeds up, we get more and more distracted from what brings true happiness. If we keep on chasing, doing, planning and striving without..."

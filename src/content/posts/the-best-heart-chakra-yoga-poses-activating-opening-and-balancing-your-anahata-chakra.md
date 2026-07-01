@@ -4,7 +4,7 @@ slug: the-best-heart-chakra-yoga-poses-activating-opening-and-balancing-your-ana
 original_url: https://tarotflower.com/chakras/the-best-heart-chakra-yoga-poses-activating-opening-and-balancing-your-anahata-chakra/
 date: 2023-11-02
 modified: 2023-11-02
-type: post
+content_type: post
 categories: [chakras]
 seo_title: "The Best Heart Chakra Yoga Poses: Activating, Opening and Balancing Your Anahata Chakra | Tarot Flower"
 seo_description: "The heart chakra is also known as the Anahata chakra in Sanskrit, which means \"unstruck\" or \"unbeaten.\" This chakra is located in the center of the..."

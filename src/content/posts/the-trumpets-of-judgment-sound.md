@@ -4,7 +4,7 @@ slug: the-trumpets-of-judgment-sound
 original_url: https://tarotflower.com/vanessas-musings/the-trumpets-of-judgment-sound/
 date: 2020-01-11
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "VII. The Trumpets of Judgment Sound | Tarot Flower"
 seo_description: "If 'authenticity' is the theme of this age, then 'responsibility' is her sister. Liars and cheaters utilize neither, and this will become more and more..."

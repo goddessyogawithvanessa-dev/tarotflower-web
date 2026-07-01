@@ -4,7 +4,7 @@ slug: pisces-dates-traits-the-mystical-dreaming-fish
 original_url: https://tarotflower.com/astrology/pisces-dates-traits-the-mystical-dreaming-fish/
 date: 2023-02-05
 modified: 2023-05-18
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Pisces Dates & Traits: The Mystical Dreaming Fish | Tarot Flower"
 seo_description: "Let's dive into the dreamy and compassionate world of Pisces. Born between February 19 and March 20, Pisces is the 12th and final sign of the zodiac...."

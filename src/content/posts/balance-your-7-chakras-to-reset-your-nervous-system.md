@@ -4,7 +4,7 @@ slug: balance-your-7-chakras-to-reset-your-nervous-system
 original_url: https://tarotflower.com/chakras/balance-your-7-chakras-to-reset-your-nervous-system/
 date: 2022-12-08
 modified: 2022-12-08
-type: post
+content_type: post
 categories: [chakras]
 seo_title: "Balance Your 7 Chakras to Reset Your Nervous System  | Tarot Flower"
 seo_description: "Did you know that you can effectively balance your 7 chakras and reset your nervous system with yoga and embodiment dance? When it comes to achieving a..."

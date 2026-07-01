@@ -4,7 +4,7 @@ slug: self-love-affirmations-and-how-to-use-them
 original_url: https://tarotflower.com/affirmations/self-love-affirmations-and-how-to-use-them/
 date: 2022-02-24
 modified: 2022-02-24
-type: post
+content_type: post
 categories: [affirmations]
 seo_title: "Self Love Affirmations and How to Use Them | Tarot Flower"
 seo_description: "Self love affirmations can help you to find inner calm, set boundaries, attract love and heal emotional wounds, but only if you know how to use them..."

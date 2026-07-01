@@ -4,7 +4,7 @@ slug: scorpio-dates-traits-the-phoenix-rising
 original_url: https://tarotflower.com/astrology/scorpio-dates-traits-the-phoenix-rising/
 date: 2023-05-22
 modified: 2023-05-22
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Scorpio Dates & Traits: The Phoenix Rising | Tarot Flower"
 seo_description: "Scorpio is a dynamic and intense zodiac sign known for its transformative energy. It spans from October 23 to November 21 and is associated with..."

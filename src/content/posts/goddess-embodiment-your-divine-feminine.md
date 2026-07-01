@@ -4,7 +4,7 @@ slug: goddess-embodiment-your-divine-feminine
 original_url: https://tarotflower.com/embodiment/goddess-embodiment-your-divine-feminine/
 date: 2022-01-31
 modified: 2022-01-31
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Goddess Embodiment - Awaken Your Divine Feminine"
 seo_description: "What do we really mean when we talk about goddess embodiment? Is it a spiritual practice or something religious? Is it only for women? Can anyone do..."

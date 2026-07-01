@@ -4,7 +4,7 @@ slug: spiritual-wellness-retreat-with-tarot-card-readings
 original_url: https://tarotflower.com/news/spiritual-wellness-retreat-with-tarot-card-readings/
 date: 2023-02-01
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [news]
 seo_title: "A Spiritual Wellness Retreat with Tarot Card Readings - Immerse Yourself in Goddess Yoga"
 seo_description: "If you love tarot card readings are yearn to dive deeply into what your heart really longs for, then this spiritual wellness retreat will blow your..."

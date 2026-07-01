@@ -4,7 +4,7 @@ slug: the-sacred-temple-creating-sanctuary-within-and-without
 original_url: https://tarotflower.com/vanessas-musings/the-sacred-temple-creating-sanctuary-within-and-without/
 date: 2020-03-23
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "The Sacred Temple: Creating Sanctuary Within and Without | Tarot Flower"
 seo_description: "I stood in the middle of the storm wondering where I might find shelter. My mind raced through a million options, none of which provided any real..."

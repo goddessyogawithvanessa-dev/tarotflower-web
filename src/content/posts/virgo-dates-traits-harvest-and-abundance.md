@@ -4,7 +4,7 @@ slug: virgo-dates-traits-harvest-and-abundance
 original_url: https://tarotflower.com/astrology/virgo-dates-traits-harvest-and-abundance/
 date: 2023-05-18
 modified: 2023-05-18
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Virgo Dates & Traits: Harvest and Abundance | Tarot Flower"
 seo_description: "Virgo is an Earth sign, representing practicality, stability, and a grounded nature. People born between August 23 and September 22 fall under the sign..."

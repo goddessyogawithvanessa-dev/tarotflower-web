@@ -4,7 +4,7 @@ slug: embodied-learning-a-holistic-approach
 original_url: https://tarotflower.com/embodiment/embodied-learning-a-holistic-approach/
 date: 2021-11-16
 modified: 2021-11-16
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Embodied Learning - A Holistic Approach to Alignment"
 seo_description: "What is learning supposed to look like? And what does it mean to learn learn in an embodied way? And how does embodied learning differ from other methods?"

@@ -4,7 +4,7 @@ slug: best-yoga-wellness-retreat-for-women-2024
 original_url: https://tarotflower.com/destinations/best-yoga-wellness-retreat-for-women-2024/
 date: 2023-11-01
 modified: 2023-11-02
-type: post
+content_type: post
 categories: [destinations, retreats]
 seo_title: "Best Yoga Wellness Retreat for Women 2024 | Tarot Flower"
 seo_description: "In the hustle and bustle of everyday life, it's essential for women to prioritize their well-being and tap into their inner power. And what better way..."

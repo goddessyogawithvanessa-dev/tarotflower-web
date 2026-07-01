@@ -4,7 +4,7 @@ slug: divine-feminine-affirmations-for-kundalini-awakening-and-goddess-embodimen
 original_url: https://tarotflower.com/affirmations/divine-feminine-affirmations-for-kundalini-awakening-and-goddess-embodiment/
 date: 2024-02-05
 modified: 2024-02-05
-type: post
+content_type: post
 categories: [affirmations]
 seo_title: "Divine Feminine Affirmations for Kundalini Awakening and Goddess Embodiment | Tarot Flower"
 seo_description: "These affirmations are powerful in conjunction with your yoga practice, meditations and divine feminine energy channelings! Use them to gather your..."

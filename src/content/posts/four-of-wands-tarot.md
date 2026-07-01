@@ -4,7 +4,7 @@ slug: four-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/four-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Four of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Four of Wands is a tarot card that symbolizes celebration, joy, success, and contentment. It is a card of completion and of looking back on past..."

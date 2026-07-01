@@ -4,7 +4,7 @@ slug: nine-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/nine-of-pentacles-tarot/
 date: 2022-12-17
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Nine of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "The Nine of Pentacles is a card that symbolizes abundance, luxury, and self-care. It speaks to the idea of enjoying the fruits of your labor and taking..."

@@ -4,7 +4,7 @@ slug: imbolc-in-the-belly-of-the-mother
 original_url: https://tarotflower.com/vanessas-musings/imbolc-in-the-belly-of-the-mother/
 date: 2019-02-01
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Imbolc - In the Belly of The Mother"
 seo_description: "Under the vanishing light of the recent eclipses, the Goddesses walking this Earth planted new seeds. We got down on our hands and knees and dug our..."

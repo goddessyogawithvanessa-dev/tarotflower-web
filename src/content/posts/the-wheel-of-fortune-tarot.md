@@ -4,7 +4,7 @@ slug: the-wheel-of-fortune-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-wheel-of-fortune-tarot/
 date: 2023-06-01
 modified: 2023-12-27
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Wheel of Fortune Tarot Card Meaning: Fate, Karma & Good Luck | Tarot Flower"
 seo_description: "The Wheel of Fortune tarot card represents change and good luck! Just like the seasons, our lives move in cycles which cannot be controlled. Surrender..."

@@ -4,7 +4,7 @@ slug: 5-tips-affirmations-to-manifest-abundance
 original_url: https://tarotflower.com/affirmations/5-tips-affirmations-to-manifest-abundance/
 date: 2022-03-20
 modified: 2022-03-20
-type: post
+content_type: post
 categories: [affirmations]
 seo_title: "5 Tips & Affirmations to Manifest Abundance | Tarot Flower"
 seo_description: "Did you know that there is much more to affirmations than the power of positive thinking? It’s true that our perception of the world, and whether it’s..."

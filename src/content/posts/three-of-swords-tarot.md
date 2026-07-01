@@ -4,7 +4,7 @@ slug: three-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/three-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "Three of Swords Tarot Card Meaning: Free Your Heart from Your Mind | Tarot Flower"
 seo_description: "Getting the 3 of Swords in your tarot card reading can strike fear in the heart of just about anyone. Nobody wants to experience what this card..."

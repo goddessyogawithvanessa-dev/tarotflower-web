@@ -4,7 +4,7 @@ slug: affirmations
 original_url: https://tarotflower.com/affirmations/
 date: 2021-01-05
 modified: 2023-04-25
-type: page
+content_type: page
 categories: []
 seo_title: "Affirmations | Tarot Flower"
 seo_description: "Affirmations are powerful statements that you can use in meditation, moon magic rituals and embodiment dance to reprogram your subconscious mind and..."

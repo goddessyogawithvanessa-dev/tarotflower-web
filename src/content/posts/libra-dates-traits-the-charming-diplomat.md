@@ -4,7 +4,7 @@ slug: libra-dates-traits-the-charming-diplomat
 original_url: https://tarotflower.com/astrology/libra-dates-traits-the-charming-diplomat/
 date: 2023-05-18
 modified: 2023-05-18
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Libra Dates & Traits: The Charming Diplomat | Tarot Flower"
 seo_description: "Libra is an air sign in the zodiac, symbolizing balance, harmony, and diplomacy. Born between September 23 and October 22, individuals under the sign..."

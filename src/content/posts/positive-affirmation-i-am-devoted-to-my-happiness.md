@@ -4,7 +4,7 @@ slug: positive-affirmation-i-am-devoted-to-my-happiness
 original_url: https://tarotflower.com/daily-tarot/positive-affirmation-i-am-devoted-to-my-happiness/
 date: 2021-02-22
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [affirmations, daily-tarot]
 seo_title: "Positive Affirmation: I Am Devoted to My Happiness | Tarot Flower"
 seo_description: "Be devoted to your happiness today! That's how we make sure our garden stays in bloom. Today's daily tarot oracle card \"Childlike Devotion,\" is..."

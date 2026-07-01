@@ -4,7 +4,7 @@ slug: twin-flame-signs-how-to-know-youve-met-your-twin-flame
 original_url: https://tarotflower.com/twin-flame/twin-flame-signs-how-to-know-youve-met-your-twin-flame/
 date: 2023-07-09
 modified: 2023-07-09
-type: post
+content_type: post
 categories: [twin-flame]
 seo_title: "Twin Flame Signs: How to Know You've Met Your Twin Flame | Tarot Flower"
 seo_description: "Meeting your twin flame will rock your world. It can leave us wondering what the hell is going on or if we're crazy. But No, You're Not Crazy! When you..."

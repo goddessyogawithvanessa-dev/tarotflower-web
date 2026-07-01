@@ -4,7 +4,7 @@ slug: queen-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/queen-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Queen of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Queen of Wands tarot card is one of the most powerful cards in the tarot deck and holds a great deal of significance. Representing a strong and..."

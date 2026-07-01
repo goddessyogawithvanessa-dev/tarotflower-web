@@ -4,7 +4,7 @@ slug: embodying-harmony
 original_url: https://tarotflower.com/daily-tarot/embodying-harmony/
 date: 2020-07-10
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Embodying Harmony | Tarot Flower"
 seo_description: "Whatever obstacles or challenges present today, strive to approach them with grace, harmony, and balance. Instead of falling into conflict, the..."

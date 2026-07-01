@@ -4,7 +4,7 @@ slug: the-moon-reveals-hidden-truths
 original_url: https://tarotflower.com/daily-tarot/the-moon-reveals-hidden-truths/
 date: 2020-06-15
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "The Moon Reveals Hidden Truths | Tarot Flower"
 seo_description: "Look past what you see on the surface today, for The Moon reveals hidden truths. The path is long and may be dark - perhaps there are uncertainties..."

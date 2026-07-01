@@ -4,7 +4,7 @@ slug: celebrate-your-creations
 original_url: https://tarotflower.com/daily-tarot/celebrate-your-creations/
 date: 2020-07-14
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Celebrate Your Creations! | Tarot Flower"
 seo_description: "Celebrate your creations because the Four of Wands indicates that you have a stable foundation! With Mars conjunct Chiron today, we've got the drive to..."

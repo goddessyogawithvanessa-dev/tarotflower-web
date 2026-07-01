@@ -4,7 +4,7 @@ slug: sound-bath-meditation-for-embodying-the-goddess-yemaya
 original_url: https://tarotflower.com/news/sound-bath-meditation-for-embodying-the-goddess-yemaya/
 date: 2023-07-12
 modified: 2023-07-12
-type: post
+content_type: post
 categories: [news]
 seo_title: "Sound Bath Meditation for Embodying The Goddess Yemaya | Tarot Flower"
 seo_description: "Sound bath meditations help to create a deep sense of relaxation and tranquility. The soothing and harmonious sounds facilitate the release of tension..."

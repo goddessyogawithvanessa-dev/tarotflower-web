@@ -4,7 +4,7 @@ slug: the-tower-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-tower-tarot/
 date: 2023-06-05
 modified: 2023-12-27
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Tower Tarot Card Meaning: The Universe Clears a Path | Tarot Flower"
 seo_description: "Most of us have heard the expression having \"a tower moment.\" The tower tarot card is typically associated with sudden, disruptive change and the..."

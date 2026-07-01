@@ -4,7 +4,7 @@ slug: surrender-at-the-lions-gate
 original_url: https://tarotflower.com/daily-tarot/surrender-at-the-lions-gate/
 date: 2023-12-25
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [daily-tarot]
 seo_title: "Surrender at the Lion's Gate | Tarot Flower"
 seo_description: "What are we taking with us, and what are we leaving behind as we surrender to transformation at this divine Gate of the Lions? What will our new world..."

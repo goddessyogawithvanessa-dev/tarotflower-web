@@ -4,7 +4,7 @@ slug: affirmation-for-manifestation-i-am-infinite-possibility
 original_url: https://tarotflower.com/daily-tarot/affirmation-for-manifestation-i-am-infinite-possibility/
 date: 2021-02-27
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [affirmations, daily-tarot]
 seo_title: "Affirmation for Manifestation: I Am Infinite Possibility | Tarot Flower"
 seo_description: "The first thing to remember when you're manifesting is that your potential is infinite. You are infinite possibility. Reflect on that when you use this..."

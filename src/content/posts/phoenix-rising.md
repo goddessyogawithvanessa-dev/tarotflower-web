@@ -4,7 +4,7 @@ slug: phoenix-rising
 original_url: https://tarotflower.com/vanessas-musings/phoenix-rising/
 date: 2020-01-13
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "X. Phoenix Rising | Tarot Flower"
 seo_description: "\"Darkening Moon\" by Vanessa Hylande"

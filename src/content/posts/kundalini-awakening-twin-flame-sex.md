@@ -4,7 +4,7 @@ slug: kundalini-awakening-twin-flame-sex
 original_url: https://tarotflower.com/twin-flame/kundalini-awakening-twin-flame-sex/
 date: 2023-06-23
 modified: 2023-06-23
-type: post
+content_type: post
 categories: [twin-flame]
 seo_title: "Kundalini Awakening and Twin Flame Sex: The 5D Union | Tarot Flower"
 seo_description: "If you've met your twin flame, you've certainly spent time thinking you're crazy or wondering what is happening to you. When twin flames meet, their..."

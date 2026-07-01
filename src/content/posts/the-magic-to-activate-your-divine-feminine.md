@@ -4,7 +4,7 @@ slug: the-magic-to-activate-your-divine-feminine
 original_url: https://tarotflower.com/embodiment/the-magic-to-activate-your-divine-feminine/
 date: 2022-12-07
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "The Magic to Activate Your Divine Feminine | Tarot Flower"
 seo_description: "So many of us are looking for activation and healing of our divine feminine. Whether it’s liberating our hearts, our minds or our bodies, with Goddess..."

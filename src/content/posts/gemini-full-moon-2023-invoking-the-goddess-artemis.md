@@ -4,7 +4,7 @@ slug: gemini-full-moon-2023-invoking-the-goddess-artemis
 original_url: https://tarotflower.com/daily-tarot/gemini-full-moon-2023-invoking-the-goddess-artemis/
 date: 2023-11-27
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [daily-tarot, embodiment]
 seo_title: "Gemini Full Moon 2023: Invoking the Goddess Artemis | Tarot Flower"
 seo_description: "For this beautiful full moon in Gemini, 2023, I will be invoking the Goddess Artemis, as we have just moved into the sun sign of Sagittarius. The..."

@@ -4,7 +4,7 @@ slug: page-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/page-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Page of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Page of Cups tarot card is a symbol of new beginnings and the start of a creative journey. It is a reminder to stay open to new ideas, even if they..."

@@ -4,7 +4,7 @@ slug: ace-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/ace-of-pentacles-tarot/
 date: 2022-12-05
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Ace of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "In the tarot, the pentacles represent the Earth element, which symbolizes abundance of all kinds. As the Ace of Pentacles is the first card of that..."

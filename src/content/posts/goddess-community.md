@@ -4,7 +4,7 @@ slug: goddess-community
 original_url: https://tarotflower.com/goddess-community/
 date: 2023-11-27
 modified: 2023-11-27
-type: page
+content_type: page
 categories: []
 seo_title: "Goddess Community | Tarot Flower"
 seo_description: "Throughout the year we gather for amazing divine feminine retreats with Tarot, yoga, dance, ritual and more! And when we can't travel to get together,..."

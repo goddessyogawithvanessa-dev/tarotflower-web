@@ -4,7 +4,7 @@ slug: contact
 original_url: https://tarotflower.com/contact/
 date: 2025-05-31
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Contact | Tarot Flower"
 seo_description: "> Have a question about tarot, retreats, or mystical collaborations?"

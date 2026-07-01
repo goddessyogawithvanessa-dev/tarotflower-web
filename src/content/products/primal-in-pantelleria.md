@@ -4,7 +4,7 @@ slug: primal-in-pantelleria
 original_url: https://tarotflower.com/product/primal-in-pantelleria/
 date: 2024-03-30
 modified: 2024-05-12
-type: product
+content_type: product
 categories: []
 price: 3779
 stripe_link: ""

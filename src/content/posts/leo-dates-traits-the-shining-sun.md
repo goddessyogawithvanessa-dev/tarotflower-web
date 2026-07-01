@@ -4,7 +4,7 @@ slug: leo-dates-traits-the-shining-sun
 original_url: https://tarotflower.com/astrology/leo-dates-traits-the-shining-sun/
 date: 2023-05-18
 modified: 2023-05-18
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Leo Dates & Traits: The Shining Sun | Tarot Flower"
 seo_description: "Leo, represented by the majestic lion, spans from July 23rd to August 22nd. This fire sign exudes warmth, passion, and a natural flair for the..."

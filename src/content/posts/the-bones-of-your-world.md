@@ -4,7 +4,7 @@ slug: the-bones-of-your-world
 original_url: https://tarotflower.com/daily-tarot/the-bones-of-your-world/
 date: 2020-07-01
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "The Bones of Your World | Tarot Flower"
 seo_description: "Saturn is returning to his temple of Capricorn tonight. Are you ready to slow down and re-evaluate? As he retrogrades through his own zodiac sign, he..."

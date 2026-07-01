@@ -4,7 +4,7 @@ slug: eight-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/eight-of-pentacles-tarot/
 date: 2022-12-17
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Eight of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "The Eight of Pentacles tarot card is all about mastering a skill, putting in hard work and dedication to achieve success. It symbolizes learning a..."

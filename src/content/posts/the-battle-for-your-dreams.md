@@ -4,7 +4,7 @@ slug: the-battle-for-your-dreams
 original_url: https://tarotflower.com/daily-tarot/the-battle-for-your-dreams/
 date: 2020-07-04
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "The Battle for Your Dreams | Tarot Flower"
 seo_description: "We've been through a period of deep realignment. We've been recognizing what truly makes us happy. We've been admitting to ourselves where we stand in..."

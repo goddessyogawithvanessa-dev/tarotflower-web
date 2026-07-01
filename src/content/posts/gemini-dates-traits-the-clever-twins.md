@@ -4,7 +4,7 @@ slug: gemini-dates-traits-the-clever-twins
 original_url: https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/
 date: 2023-04-29
 modified: 2023-05-18
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Gemini Dates & Traits: The Clever Twins | Tarot Flower"
 seo_description: "Gemini is the third sign of the zodiac and is known for its curious and lively personality. Born between May 21 and June 20, Geminis are represented by..."

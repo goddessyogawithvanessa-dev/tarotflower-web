@@ -4,7 +4,7 @@ slug: persephone-will-never-return-below
 original_url: https://tarotflower.com/vanessas-musings/persephone-will-never-return-below/
 date: 2020-01-10
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "VI. Persephone Will Never Return Below | Tarot Flower"
 seo_description: "Most importantly of all, as much as we might like to indulge ourselves in a bit of Schadenfreude, Lady Justice is compassionate and fair. The scales..."

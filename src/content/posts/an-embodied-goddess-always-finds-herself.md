@@ -4,7 +4,7 @@ slug: an-embodied-goddess-always-finds-herself
 original_url: https://tarotflower.com/embodiment/an-embodied-goddess-always-finds-herself/
 date: 2021-09-19
 modified: 2021-09-19
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "An Embodied Goddess Always Finds Herself | Tarot Flower"
 seo_description: "We’ve all felt the need for a change, especially when we feel like we've lost who we are. So, how do we best find ourselves again? An Embodied Goddess..."

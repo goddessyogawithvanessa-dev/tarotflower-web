@@ -4,7 +4,7 @@ slug: goddess-yoga-wellness-retreat-making-magical-moments
 original_url: https://tarotflower.com/embodiment/goddess-yoga-wellness-retreat-making-magical-moments/
 date: 2023-11-02
 modified: 2023-11-02
-type: post
+content_type: post
 categories: [embodiment, retreats]
 seo_title: "Goddess Yoga Wellness Retreat: Making Magical Moments | Tarot Flower"
 seo_description: "Welcome to a world of enchantment and self-discovery! If you're a woman longing for a transformative journey that weaves together the magic of yoga,..."

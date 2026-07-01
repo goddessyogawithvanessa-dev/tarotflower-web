@@ -4,7 +4,7 @@ slug: two-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/two-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Two of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Two of Cups tarot card is one of the most interesting cards in the tarot deck. It symbolizes a deep connection between two people, and can indicate..."

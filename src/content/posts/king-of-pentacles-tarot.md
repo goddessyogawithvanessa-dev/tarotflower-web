@@ -4,7 +4,7 @@ slug: king-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/king-of-pentacles-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The King of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "The King of Pentacles tarot card is a symbol of success, wealth and stability. It is a card of material abundance, but it also speaks to the importance..."

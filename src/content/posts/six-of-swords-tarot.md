@@ -4,7 +4,7 @@ slug: six-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/six-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Six of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "The Six of Swords tarot card represents a journey, both physical and spiritual, in which we are moving away from pain and struggle and towards a..."

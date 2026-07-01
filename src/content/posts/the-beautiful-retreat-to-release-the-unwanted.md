@@ -4,7 +4,7 @@ slug: the-beautiful-retreat-to-release-the-unwanted
 original_url: https://tarotflower.com/vanessas-musings/the-beautiful-retreat-to-release-the-unwanted/
 date: 2019-02-18
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "The Beautiful Retreat to Release the Unwanted | Tarot Flower"
 seo_description: "Listening to our inner knowing. How often does the rational mind dissuade us from what we already know deep in our bones? That beautiful whisper upon..."

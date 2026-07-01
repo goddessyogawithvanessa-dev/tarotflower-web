@@ -4,7 +4,7 @@ slug: we-are-infinite-possibility
 original_url: https://tarotflower.com/daily-tarot/we-are-infinite-possibility/
 date: 2020-07-20
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "We Are Infinite Possibility | Tarot Flower"
 seo_description: "From stillness it is born. This dark moon in Cancer beckons you to honor your deepest and most intimate feelings. Stand with your soul's authenticity,..."

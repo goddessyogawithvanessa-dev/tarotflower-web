@@ -4,7 +4,7 @@ slug: why-dance-is-the-best-embodiment-practice
 original_url: https://tarotflower.com/embodiment/why-dance-is-the-best-embodiment-practice/
 date: 2021-11-12
 modified: 2021-11-12
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Why Dance is the Best Embodiment Practice | Tarot Flower"
 seo_description: "Are you interested in yoga and meditation because you know they would benefit you, but you can't find the time to commit? When you love something in..."

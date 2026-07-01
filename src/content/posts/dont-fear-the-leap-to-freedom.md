@@ -4,7 +4,7 @@ slug: dont-fear-the-leap-to-freedom
 original_url: https://tarotflower.com/daily-tarot/dont-fear-the-leap-to-freedom/
 date: 2020-07-05
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Don't Fear the Leap to Freedom | Tarot Flower"
 seo_description: "The Tower. One of the most feared cards in The Tarot. And yet the beauty of this card appearing at the moment of the final eclipse in Capricorn cannot..."

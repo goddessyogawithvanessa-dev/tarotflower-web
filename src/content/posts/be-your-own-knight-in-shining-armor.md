@@ -4,7 +4,7 @@ slug: be-your-own-knight-in-shining-armor
 original_url: https://tarotflower.com/daily-tarot/be-your-own-knight-in-shining-armor/
 date: 2020-07-17
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Be Your Own Knight in Shining Armor | Tarot Flower"
 seo_description: "Today's tarot card is the Knight of Wands, so if you've been waiting for the perfect time to set something passionate into motion, now's the time! This..."

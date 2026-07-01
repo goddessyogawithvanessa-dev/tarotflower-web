@@ -4,7 +4,7 @@ slug: affirmation-for-confidence-warrior-woman
 original_url: https://tarotflower.com/daily-tarot/affirmation-for-confidence-warrior-woman/
 date: 2021-03-14
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [affirmations, daily-tarot]
 seo_title: "Affirmation for Confidence: Warrior Woman | Tarot Flower"
 seo_description: "A warrior woman stands in bravery but is lead by the softness of her heart. Embody the strength of the loving warrior woman today. She embodies this..."

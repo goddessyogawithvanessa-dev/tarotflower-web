@@ -4,7 +4,7 @@ slug: isis-goddess-of-the-divine-feminine
 original_url: https://tarotflower.com/embodiment/isis-goddess-of-the-divine-feminine/
 date: 2021-08-31
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Isis Goddess of the Divine Feminine | Tarot Flower"
 seo_description: "The Goddess Isis is an ancient Egyptian deity of great power and beauty. She is the daughter of Geb and Nut, the sister of Osiris and Seth, and the..."

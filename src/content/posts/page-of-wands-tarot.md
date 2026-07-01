@@ -4,7 +4,7 @@ slug: page-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/page-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Page of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Page of Wands tarot card is an exciting card that represents the potential for new beginnings and fresh ideas. This card is all about having the..."

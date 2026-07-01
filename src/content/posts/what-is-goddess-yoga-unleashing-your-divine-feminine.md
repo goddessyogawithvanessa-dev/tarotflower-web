@@ -4,7 +4,7 @@ slug: what-is-goddess-yoga-unleashing-your-divine-feminine
 original_url: https://tarotflower.com/embodiment/what-is-goddess-yoga-unleashing-your-divine-feminine/
 date: 2023-04-22
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "What is Goddess Yoga? Unleashing Your Divine Feminine | Tarot Flower"
 seo_description: "Are you ready to tap into your inner goddess and unlock your feminine power? Join us on a transformative journey of self-discovery through yoga,..."

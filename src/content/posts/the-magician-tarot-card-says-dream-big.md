@@ -4,7 +4,7 @@ slug: the-magician-tarot-card-says-dream-big
 original_url: https://tarotflower.com/daily-tarot/the-magician-tarot-card-says-dream-big/
 date: 2022-04-29
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "The Magician Tarot Card Says \\\"Dream Big!\\\" | Tarot Flower"
 seo_description: "Spring is in the air and it's a beautiful day to manifest your dreams into existence! When you pull The Magician tarot card, you are being advised to..."

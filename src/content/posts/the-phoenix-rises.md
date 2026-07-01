@@ -4,7 +4,7 @@ slug: the-phoenix-rises
 original_url: https://tarotflower.com/vanessas-musings/the-phoenix-rises/
 date: 2020-01-03
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Spell Casting for This Lunar Eclipse: The Phoenix Rises | Tarot Flower"
 seo_description: "I've decided to use this lunar eclipse in Cancer to manifest something new and amazing, and I thought you might like to join me! I'm going to channel..."

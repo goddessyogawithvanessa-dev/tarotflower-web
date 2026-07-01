@@ -4,7 +4,7 @@ slug: goddess-yoga-2024-step-into-the-spotlight-with-classes-retreats-and-the-my
 original_url: https://tarotflower.com/news/goddess-yoga-2024-step-into-the-spotlight-with-classes-retreats-and-the-mystic-mansion/
 date: 2023-12-29
 modified: 2024-01-02
-type: post
+content_type: post
 categories: [news]
 seo_title: "Goddess Yoga 2024: Step Into the Spotlight with Classes, Retreats and the Mystic Mansion! | Tarot Flower"
 seo_description: "Goddess Yoga 2024 is going to be lit! I am so excited to be expanding our offerings and growing our beautiful community with all of you! This last year..."

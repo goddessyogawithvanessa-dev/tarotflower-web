@@ -9,11 +9,28 @@ const posts = defineCollection({
     original_url: z.string().optional(),
     date: z.coerce.date(),
     modified: z.coerce.date().optional(),
-    type: z.enum(['post', 'page']).default('post'),
+    content_type: z.enum(['post', 'page', 'product']).default('post'),
     categories: z.array(z.string()).default([]),
     seo_title: z.string().optional(),
     seo_description: z.string().optional(),
   }),
 });
 
-export const collections = { posts };
+const products = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/products' }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    original_url: z.string().optional(),
+    date: z.coerce.date(),
+    modified: z.coerce.date().optional(),
+    content_type: z.literal('product').default('product'),
+    categories: z.array(z.string()).default([]),
+    price: z.number().optional(),
+    stripe_link: z.string().default(''),
+    seo_title: z.string().optional(),
+    seo_description: z.string().optional(),
+  }),
+});
+
+export const collections = { posts, products };

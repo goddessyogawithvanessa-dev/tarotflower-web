@@ -4,7 +4,7 @@ slug: the-empress-emerges-from-stillness
 original_url: https://tarotflower.com/vanessas-musings/the-empress-emerges-from-stillness/
 date: 2020-01-23
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "The Empress Emerges from Stillness | Tarot Flower"
 seo_description: "Pluto will be around for a while and we will continue to work through our shadow sides over the next few months. But the Sun has just moved brightly..."

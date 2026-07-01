@@ -4,7 +4,7 @@ slug: judgement-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/judgement-tarot/
 date: 2023-05-17
 modified: 2023-05-17
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Judgement Tarot Card Meaning: The Calling | Tarot Flower"
 seo_description: "The Judgement Tarot card is a powerful symbol of transformation and change. Representing a divine call to action, this card signals the need to look..."

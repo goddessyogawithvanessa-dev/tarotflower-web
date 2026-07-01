@@ -4,7 +4,7 @@ slug: you-are-the-creator-of-your-own-life
 original_url: https://tarotflower.com/embodiment/you-are-the-creator-of-your-own-life/
 date: 2021-09-08
 modified: 2021-09-08
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "You Are the Creator of Your Own Life | Tarot Flower"
 seo_description: "Do you feel stuck sometimes? Like life is a ride that you're on and you just have to wait for the next stop to get off? It is in these moments that its..."

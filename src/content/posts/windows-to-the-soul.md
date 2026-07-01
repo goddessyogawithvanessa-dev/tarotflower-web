@@ -4,7 +4,7 @@ slug: windows-to-the-soul
 original_url: https://tarotflower.com/twin-flame/windows-to-the-soul/
 date: 2023-12-25
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [twin-flame, vanessas-musings]
 seo_title: "Windows to the Soul | Tarot Flower"
 seo_description: "Have you ever wondered what you would hear in my words"

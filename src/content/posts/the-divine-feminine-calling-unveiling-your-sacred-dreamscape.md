@@ -4,7 +4,7 @@ slug: the-divine-feminine-calling-unveiling-your-sacred-dreamscape
 original_url: https://tarotflower.com/daily-tarot/the-divine-feminine-calling-unveiling-your-sacred-dreamscape/
 date: 2023-05-22
 modified: 2023-05-22
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "The Divine Feminine Calling: Unveiling Your Sacred Dreamscape | Tarot Flower"
 seo_description: "Welcome, beautiful souls, to a transformative week of deep inner exploration and healing. Consider keeping a dream journal this week, because you're..."

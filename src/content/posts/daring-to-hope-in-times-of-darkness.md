@@ -4,7 +4,7 @@ slug: daring-to-hope-in-times-of-darkness
 original_url: https://tarotflower.com/vanessas-musings/daring-to-hope-in-times-of-darkness/
 date: 2023-12-25
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Daring to Hope in Times of Darkness | Tarot Flower"
 seo_description: "Sometimes we fear to hope. We all know the saying \"Don't get your hopes up.\" If we never hope, we won't be disappointed. Or will we?"

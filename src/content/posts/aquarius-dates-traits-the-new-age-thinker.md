@@ -4,7 +4,7 @@ slug: aquarius-dates-traits-the-new-age-thinker
 original_url: https://tarotflower.com/astrology/aquarius-dates-traits-the-new-age-thinker/
 date: 2023-05-18
 modified: 2023-05-20
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Aquarius Dates & Traits: The New Age Thinker | Tarot Flower"
 seo_description: "Aquarius is associated with the element of air, which represents intellect, communication, and ideas. People born under the Aquarius zodiac sign are..."

@@ -4,7 +4,7 @@ slug: free-tarot-card-readings
 original_url: https://tarotflower.com/free-tarot-card-readings/
 date: 2025-05-31
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_description: "Free tarot card readings for love, moon cycles, and personal transformation. Receive intuitive insight through sacred symbols and spiritual guidance."
 seo_title: "Free Tarot Card Readings | Tarot Flower"

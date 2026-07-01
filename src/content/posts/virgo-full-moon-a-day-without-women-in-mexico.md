@@ -4,7 +4,7 @@ slug: virgo-full-moon-a-day-without-women-in-mexico
 original_url: https://tarotflower.com/vanessas-musings/virgo-full-moon-a-day-without-women-in-mexico/
 date: 2020-03-09
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Virgo Full Moon: A Day Without Women in Mexico | Tarot Flower"
 seo_description: "What would it be like if all of the women just vanished? #UnDiaSinMujeres is taking over Mexico today, in case you haven't heard. Women are taking to..."

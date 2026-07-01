@@ -4,7 +4,7 @@ slug: goddess-artemis-greek-goddess-of-the-hunt
 original_url: https://tarotflower.com/embodiment/goddess-artemis-greek-goddess-of-the-hunt/
 date: 2022-05-17
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Goddess Artemis: Greek Goddess of the Hunt | Tarot Flower"
 seo_description: "Goddess Artemis, the Greek goddess of the hunt, is an inspiration for anyone who wants to embody the power of the feminine, divine, adventurous aspects..."

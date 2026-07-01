@@ -4,7 +4,7 @@ slug: freedom-of-the-fool
 original_url: https://tarotflower.com/daily-tarot/freedom-of-the-fool/
 date: 2020-06-14
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "The Freedom of The Fool | Tarot Flower"
 seo_description: "Take a walk on the wild side and follow your heart today! The Fool is ready to live his life to the fullest without worrying about everything that..."

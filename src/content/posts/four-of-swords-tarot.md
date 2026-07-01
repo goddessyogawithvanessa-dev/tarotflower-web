@@ -4,7 +4,7 @@ slug: four-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/four-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Four of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "The Four of Swords tarot card is a card of rest and contemplation. It signals a need for respite from the physical world and a retreat into the inner..."

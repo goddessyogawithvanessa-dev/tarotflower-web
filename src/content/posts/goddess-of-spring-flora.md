@@ -4,7 +4,7 @@ slug: goddess-of-spring-flora
 original_url: https://tarotflower.com/embodiment/goddess-of-spring-flora/
 date: 2023-06-13
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Goddess of Spring Flora: Rejuvenate Yourself and Shine | Tarot Flower"
 seo_description: "Flora, the Goddess of Spring, emerges from ancient mythology as a captivating and revered figure who personifies the essence of the blossoming season...."

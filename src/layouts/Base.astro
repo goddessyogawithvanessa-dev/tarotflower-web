@@ -1,0 +1,70 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = '' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  {description && <meta name="description" content={description} />}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/global.css" />
+</head>
+<body>
+  <div class="banner">
+    <a href="/"><img src="/images/2024/03/TF-Header-2024-Dandelion.jpeg" alt="Tarot Flower" /></a>
+  </div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/tarot-card-readings">Tarot Card Readings</a>
+    <a href="/tarot-card-meanings">Tarot Card Meanings</a>
+    <a href="/moon-magic-spells">Spells &amp; Rituals</a>
+    <a href="/astrology">Astrology &amp; Zodiac</a>
+    <a href="/daily-tarot">Witch's Journal</a>
+  </nav>
+
+  <slot />
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="/tarot-card-meanings">Tarot Card Meanings</a>
+        <a href="/major-arcana-2">Major Arcana</a>
+        <a href="/minor-arcana">Minor Arcana</a>
+        <a href="/moon-magic-spells">Spells &amp; Rituals</a>
+        <a href="/astrology">Astrology</a>
+        <a href="/free-tarot-card-readings">Free Tarot Readings</a>
+      </div>
+      <div class="footer-col">
+        <h4>More</h4>
+        <a href="/goddess-yoga">Goddess Yoga</a>
+        <a href="/goddess-yoga-retreats">Retreats</a>
+        <a href="/affirmations">Affirmations</a>
+        <a href="/sound-bath-meditations">Sound Bath Meditations</a>
+        <a href="/shop">Shop</a>
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://www.instagram.com/vanessahylande/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.pinterest.com/tarotflower/" target="_blank" rel="noopener">Pinterest</a>
+        <a href="https://www.youtube.com/@vanessahylande" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.tiktok.com/@vanessahylande" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.facebook.com/tarotflower" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {new Date().getFullYear()} Tarot Flower &middot; Site by Vanessa Hylande</p>
+    </div>
+  </footer>
+</body>
+</html>

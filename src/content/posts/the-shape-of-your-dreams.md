@@ -4,7 +4,7 @@ slug: the-shape-of-your-dreams
 original_url: https://tarotflower.com/daily-tarot/the-shape-of-your-dreams/
 date: 2020-07-07
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "The Shape of Your Dreams | Tarot Flower"
 seo_description: "The moment when a seed transmutes into a seedling is called \"the establishment.\" What do you require in order to establish yourself within your vision..."

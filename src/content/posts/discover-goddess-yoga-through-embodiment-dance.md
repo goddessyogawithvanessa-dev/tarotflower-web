@@ -4,7 +4,7 @@ slug: discover-goddess-yoga-through-embodiment-dance
 original_url: https://tarotflower.com/embodiment/discover-goddess-yoga-through-embodiment-dance/
 date: 2022-03-18
 modified: 2022-03-18
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Discover Goddess Yoga Through Embodiment Dance | Tarot Flower"
 seo_description: "As a yoga lover, I have spent many hours on the mat. Whether sweating away in Bikram, practicing mantras in Kundalini, or flowing through my Vinyasa..."

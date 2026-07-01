@@ -1,43 +1,96 @@
 ---
+import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
 const posts = await getCollection('posts');
-const sorted = posts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+const recentPosts = posts
+  .filter(p => p.data.content_type === 'post')
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 6);
+
+const majorArcana = [
+  { name: 'The Fool', slug: 'the-fool-tarot' },
+  { name: 'The Magician', slug: 'the-magician-tarot' },
+  { name: 'The High Priestess', slug: 'the-high-priestess-tarot' },
+  { name: 'The Empress', slug: 'the-empress-tarot' },
+  { name: 'The Emperor', slug: 'the-emperor-tarot' },
+  { name: 'The Hierophant', slug: 'the-hierophant-tarot' },
+  { name: 'The Lovers', slug: 'the-lovers-tarot' },
+  { name: 'The Chariot', slug: 'the-chariot-tarot' },
+  { name: 'Strength', slug: 'strength-tarot' },
+  { name: 'The Hermit', slug: 'the-hermit-tarot' },
+  { name: 'The Wheel of Fortune', slug: 'the-wheel-of-fortune-tarot' },
+  { name: 'Justice', slug: 'justice-tarot' },
+  { name: 'The Hanged Man', slug: 'the-hanged-man-tarot' },
+  { name: 'Death', slug: 'death-tarot' },
+  { name: 'Temperance', slug: 'temperance-tarot' },
+  { name: 'The Devil', slug: 'the-devil-tarot' },
+  { name: 'The Tower', slug: 'the-tower-tarot' },
+  { name: 'The Star', slug: 'the-star-tarot' },
+  { name: 'The Moon', slug: 'the-moon-tarot' },
+  { name: 'The Sun', slug: 'the-sun-tarot' },
+  { name: 'Judgement', slug: 'judgement-tarot' },
+  { name: 'The World', slug: 'the-world-tarot' },
+];
+
+const suits = [
+  { name: 'Pentacles', slug: 'pentacles-tarot', cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
+  { name: 'Wands', slug: 'wands-tarot', cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
+  { name: 'Swords', slug: 'swords-tarot', cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
+  { name: 'Cups', slug: 'cups-tarot', cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
+];
+
+function cardSlug(rank: string, suit: string) {
+  return `${rank.toLowerCase()}-of-${suit.toLowerCase()}-tarot`;
+}
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tarot Flower</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles/global.css" />
-</head>
-<body>
-  <div class="banner">
-    <img src="https://tarotflower.com/wp-content/uploads/2024/03/TF-Header-2024-Dandelion.jpeg" alt="Tarot Flower" />
-  </div>
-  <nav>
-    <a href="/">Home</a>
-    <a href="#">Tarot Card Readings</a>
-    <a href="#">Tarot Card Meanings</a>
-    <a href="#">Spells &amp; Rituals</a>
-    <a href="#">Astrology &amp; Zodiac</a>
-    <a href="#">Witch's Journal</a>
-  </nav>
-  <div class="container">
-    <h1>Tarot Flower</h1>
-    <p>{sorted.length} posts</p>
-    <ul class="index-list">
-      {sorted.map(post => (
-        <li>
-          <a href={`/${post.data.slug}`}>{post.data.title}</a>
-          <span class="slug">/{post.data.slug}</span>
-        </li>
+<Base title="Tarot Flower – Learn Tarot Online with Meaningful Insight" description="A modern guide to learn tarot online! Discover intuitive card meanings, spreads, rituals, and spiritual wisdom through the sacred art of tarot.">
+  <div class="container homepage">
+
+    <section class="hero">
+      <h1>Tarot Flower</h1>
+      <h2>Unlock the Magic of Tarot, Astrology, and Ritual</h2>
+      <p>Welcome, beautiful soul. You've arrived at Tarot Flower — a sanctuary for seekers, mystics, and modern goddesses who are ready to deepen their connection with tarot, astrology, and spiritual ritual. Whether you're just starting your journey or you've been walking the path for years, this space was created for you to learn tarot online.</p>
+      <p>At Tarot Flower, we believe that tarot is more than a tool for prediction. It's a mirror — a sacred language that speaks to your inner world, revealing the energies at play in your life, your relationships, and your soul's evolution. Here, you'll find <strong>free tarot card readings</strong>, crafted with intention and love, designed to support your personal transformation.</p>
+      <p>This is a space where the mystical becomes practical. You'll find not only readings, but guidance on the <strong>Suit of Swords</strong>, the <strong>Major Arcana</strong>, the <strong>elements of the tarot</strong>, and how these archetypes can help you embody your higher self.</p>
+    </section>
+
+    <section class="arcana-section">
+      <h2>The Major Arcana</h2>
+      <h3>The great archetypes of the Tarot</h3>
+      <div class="card-grid">
+        {majorArcana.map(card => (
+          <a href={`/${card.slug}`} class="card-link">{card.name}</a>
+        ))}
+      </div>
+    </section>
+
+    <section class="arcana-section">
+      <h2>The Minor Arcana</h2>
+      <h3>The four suits of the Tarot</h3>
+      {suits.map(suit => (
+        <div class="suit-block">
+          <h3><a href={`/${suit.slug}`}>{suit.name}</a></h3>
+          <div class="card-grid suit-grid">
+            {suit.cards.map(rank => (
+              <a href={`/${cardSlug(rank, suit.name)}`} class="card-link">{rank} of {suit.name}</a>
+            ))}
+          </div>
+        </div>
       ))}
-    </ul>
+    </section>
+
+    <section class="recent-posts">
+      <h2>Recent from the Journal</h2>
+      <div class="posts-grid">
+        {recentPosts.map(post => (
+          <a href={`/${post.data.slug}`} class="post-card">
+            <h3>{post.data.title}</h3>
+            <span class="post-date">{new Date(post.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
   </div>
-</body>
-</html>
+</Base>

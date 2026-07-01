@@ -4,7 +4,7 @@ slug: two-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/two-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Two of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Two of Wands tarot card is associated with having two options and making a decision. The card suggests you are standing at a crossroads, having to..."

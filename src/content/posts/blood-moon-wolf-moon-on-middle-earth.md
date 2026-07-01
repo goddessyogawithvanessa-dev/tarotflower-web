@@ -4,7 +4,7 @@ slug: blood-moon-wolf-moon-on-middle-earth
 original_url: https://tarotflower.com/vanessas-musings/blood-moon-wolf-moon-on-middle-earth/
 date: 2019-01-14
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Blood Moon Wolf Moon on Middle Earth | Tarot Flower"
 seo_description: "It's raining outside as I write this. Big, heavy drops of rain. The showering cleanses everything, even my soul. Like tears falling from the eyes of..."

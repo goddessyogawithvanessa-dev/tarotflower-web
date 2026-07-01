@@ -4,7 +4,7 @@ slug: the-reign-of-lady-justice
 original_url: https://tarotflower.com/vanessas-musings/the-reign-of-lady-justice/
 date: 2020-01-08
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "IV. The Reign of Lady Justice | Tarot Flower"
 seo_description: "There's no more hiding. It's all coming out and it can't be stopped. The time for Justice is upon us. Great, big, karmic, collective justice that will..."

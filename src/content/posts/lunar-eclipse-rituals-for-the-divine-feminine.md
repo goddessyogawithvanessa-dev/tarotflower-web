@@ -4,7 +4,7 @@ slug: lunar-eclipse-rituals-for-the-divine-feminine
 original_url: https://tarotflower.com/moonmagic/lunar-eclipse-rituals-for-the-divine-feminine/
 date: 2022-12-19
 modified: 2023-01-16
-type: post
+content_type: post
 categories: [moonmagic]
 seo_title: "Lunar Eclipse Rituals for the Divine Feminine | Tarot Flower"
 seo_description: "The lunar eclipse is a mysterious and powerful event that has been observed and celebrated by many cultures throughout the ages. While the scientific..."

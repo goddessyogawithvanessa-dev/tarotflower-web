@@ -4,7 +4,7 @@ slug: affirmation-for-abundance-i-celebrate-my-creations
 original_url: https://tarotflower.com/daily-tarot/affirmation-for-abundance-i-celebrate-my-creations/
 date: 2021-02-28
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [affirmations, daily-tarot]
 seo_title: "Affirmation for Abundance: I Celebrate My Creations | Tarot Flower"
 seo_description: "Take this positive affirmation for abundance into your hands and watch it grow as you celebrate your creations!"

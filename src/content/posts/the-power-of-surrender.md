@@ -4,7 +4,7 @@ slug: the-power-of-surrender
 original_url: https://tarotflower.com/vanessas-musings/the-power-of-surrender/
 date: 2020-01-13
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "IX. The Power of Surrender | Tarot Flower"
 seo_description: "Photography by the esteemed Howard Schatz, Orenstein Studios"

@@ -4,7 +4,7 @@ slug: adorn-your-soul
 original_url: https://tarotflower.com/vanessas-musings/adorn-your-soul/
 date: 2023-12-25
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Adorn Your Soul | Tarot Flower"
 seo_description: "> \"Adorn your soul with everything beautiful"

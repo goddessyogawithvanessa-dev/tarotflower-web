@@ -4,7 +4,7 @@ slug: tarot-flower-kids
 original_url: https://tarotflower.com/tarot-flower-kids/
 date: 2020-12-31
 modified: 2022-12-23
-type: page
+content_type: page
 categories: []
 seo_title: "Tarot Flower Kids | Tarot Flower"
 seo_description: "Did you know that the Greeks named all of the stars in the sky? And when groups of stars, called constellations, reminded them of animals or strange..."

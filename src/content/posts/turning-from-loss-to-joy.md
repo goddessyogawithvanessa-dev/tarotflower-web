@@ -4,7 +4,7 @@ slug: turning-from-loss-to-joy
 original_url: https://tarotflower.com/daily-tarot/turning-from-loss-to-joy/
 date: 2020-07-06
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Turning From Loss to Joy | Tarot Flower"
 seo_description: "After the storm passes, the sun rises in the morning and we step outside. We see the destruction left behind and a sorrow washes over us. We remember..."

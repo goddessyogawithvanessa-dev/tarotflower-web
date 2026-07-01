@@ -2,14 +2,16 @@ backend:
   name: github
   repo: goddessyogawithvanessa-dev/tarotflower-web
   branch: main
+  auth_type: pkce
 
-media_folder: "public/images"
+media_folder: "astro-site/public/images"
 public_folder: "/images"
 
 collections:
   - name: "posts"
     label: "Blog Posts"
-    folder: "src/content/posts"
+    folder: "astro-site/src/content/posts"
+    filter: { field: "content_type", value: "post" }
     create: true
     slug: "{{slug}}"
     fields:
@@ -18,8 +20,45 @@ collections:
       - { label: "Original URL", name: "original_url", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "date" }
       - { label: "Modified Date", name: "modified", widget: "date", required: false }
-      - { label: "Type", name: "type", widget: "select", options: ["post", "page"], default: "post" }
+      - { label: "Content Type", name: "content_type", widget: "hidden", default: "post" }
       - { label: "Categories", name: "categories", widget: "list", default: [] }
+      - { label: "SEO Title", name: "seo_title", widget: "string", required: false }
+      - { label: "SEO Description", name: "seo_description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pages"
+    folder: "astro-site/src/content/posts"
+    filter: { field: "content_type", value: "page" }
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Original URL", name: "original_url", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Modified Date", name: "modified", widget: "date", required: false }
+      - { label: "Content Type", name: "content_type", widget: "hidden", default: "page" }
+      - { label: "Categories", name: "categories", widget: "list", default: [] }
+      - { label: "SEO Title", name: "seo_title", widget: "string", required: false }
+      - { label: "SEO Description", name: "seo_description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "products"
+    label: "Products"
+    folder: "astro-site/src/content/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Original URL", name: "original_url", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Modified Date", name: "modified", widget: "date", required: false }
+      - { label: "Content Type", name: "content_type", widget: "hidden", default: "product" }
+      - { label: "Categories", name: "categories", widget: "list", default: [] }
+      - { label: "Price", name: "price", widget: "number", required: false }
+      - { label: "Stripe Payment Link", name: "stripe_link", widget: "string", required: false, default: "" }
       - { label: "SEO Title", name: "seo_title", widget: "string", required: false }
       - { label: "SEO Description", name: "seo_description", widget: "text", required: false }
       - { label: "Body", name: "body", widget: "markdown" }

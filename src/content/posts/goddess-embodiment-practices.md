@@ -4,7 +4,7 @@ slug: goddess-embodiment-practices
 original_url: https://tarotflower.com/goddess-embodiment-practices/
 date: 2023-11-01
 modified: 2025-06-09
-type: page
+content_type: page
 categories: []
 seo_title: "Goddess Embodiment | Tarot Flower"
 seo_description: "Hi! I'm Vanessa, the soul behind Tarot Flower and the Goddess Yoga Method. I'm thrilled to introduce you to our transformative Goddess Embodiment..."

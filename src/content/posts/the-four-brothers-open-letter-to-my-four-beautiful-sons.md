@@ -4,7 +4,7 @@ slug: the-four-brothers-open-letter-to-my-four-beautiful-sons
 original_url: https://tarotflower.com/vanessas-musings/the-four-brothers-open-letter-to-my-four-beautiful-sons/
 date: 2023-11-06
 modified: 2023-11-27
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "\\\"The Four Brothers\\\" - An open letter to my four beautiful sons."
 seo_description: "Once there was a beautiful and delicate spiderweb that was suspended between two tall trees in the forest. The web would catch the dew in the morning..."

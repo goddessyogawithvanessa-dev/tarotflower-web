@@ -4,7 +4,7 @@ slug: relationships-are-the-dance-of-life
 original_url: https://tarotflower.com/daily-tarot/relationships-are-the-dance-of-life/
 date: 2020-07-08
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Relationships are the Dance of Life | Tarot Flower"
 seo_description: "In solitude we simply exist, but in partnership and relation to others we become the alchemist. That is why relationships are the dance of life. Our..."

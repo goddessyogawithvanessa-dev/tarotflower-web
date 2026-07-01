@@ -4,7 +4,7 @@ slug: speak-your-truth
 original_url: https://tarotflower.com/daily-tarot/speak-your-truth/
 date: 2020-06-12
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Speak Your Truth | Tarot Flower"
 seo_description: "He rushes in and he means business! The Knight of Swords is swift and brings knowledge, communication, and a passion for ideas. You might be dealing..."

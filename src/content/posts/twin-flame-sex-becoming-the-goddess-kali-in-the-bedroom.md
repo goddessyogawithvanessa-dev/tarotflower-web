@@ -4,7 +4,7 @@ slug: twin-flame-sex-becoming-the-goddess-kali-in-the-bedroom
 original_url: https://tarotflower.com/twin-flame/twin-flame-sex-becoming-the-goddess-kali-in-the-bedroom/
 date: 2023-05-23
 modified: 2023-06-12
-type: post
+content_type: post
 categories: [twin-flame]
 seo_title: "Twin Flame Sex: Becoming the Goddess Kali in the Bedroom | Tarot Flower"
 seo_description: "If your twin flame encounter was anything like mine, you’ll be able to relate when I say that it was simply mind blowing. Twin flame sex is explosive...."

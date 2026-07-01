@@ -4,7 +4,7 @@ slug: goddess-yoga
 original_url: https://tarotflower.com/goddess-yoga/
 date: 2023-11-01
 modified: 2024-03-25
-type: page
+content_type: page
 categories: []
 seo_title: "Goddess Yoga | Tarot Flower"
 seo_description: "\"I am very happy that the universe brought me together with Vanessa. She creates a magical space where everything can be and the many great goddesses..."

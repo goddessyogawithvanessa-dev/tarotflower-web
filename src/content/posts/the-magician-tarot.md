@@ -4,7 +4,7 @@ slug: the-magician-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-magician-tarot/
 date: 2023-05-17
 modified: 2023-05-24
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Magician Tarot Card Meaning: Manifest Your Dreams | Tarot Flower"
 seo_description: "When The Magician tarot card turns up in your reading, get ready for some magic!"

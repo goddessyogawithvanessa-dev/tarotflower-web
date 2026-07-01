@@ -4,7 +4,7 @@ slug: reclaiming-our-power
 original_url: https://tarotflower.com/vanessas-musings/reclaiming-our-power/
 date: 2020-05-09
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Reclaiming Our Power | Tarot Flower"
 seo_description: "From our earliest days, we are taught to believe. We are taught to obey. We are taught to comply. All in the name of the social contract, the common..."

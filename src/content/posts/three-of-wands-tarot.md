@@ -4,7 +4,7 @@ slug: three-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/three-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Three of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Three of Wands tarot card is a card of vision and foresight. It represents having a clear direction and knowing where you’re headed. It is a card..."

@@ -4,7 +4,7 @@ slug: pantelleria-2024
 original_url: https://tarotflower.com/pantelleria-2024/
 date: 2024-03-04
 modified: 2024-04-02
-type: page
+content_type: page
 categories: []
 seo_title: "Pantelleria 2024 | Tarot Flower"
 seo_description: "Can’t make these dates? Join us for “Goddess Glow Up” in Lago d'Orta, Italy from June 30th - July 6th, 2024!"

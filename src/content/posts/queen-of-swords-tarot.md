@@ -4,7 +4,7 @@ slug: queen-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/queen-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Queen of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "The Queen of Swords tarot card is associated with the element of Air and is affiliated with the astrological signs of Libra and Aquarius. This card is..."

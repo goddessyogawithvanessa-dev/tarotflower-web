@@ -4,7 +4,7 @@ slug: eight-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/eight-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Eight of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Eight of Cups is a card that symbolizes a need for inner reflection and a desire to move away from the past. This card encourages us to take the..."

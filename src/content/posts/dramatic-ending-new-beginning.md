@@ -4,7 +4,7 @@ slug: dramatic-ending-new-beginning
 original_url: https://tarotflower.com/vanessas-musings/dramatic-ending-new-beginning/
 date: 2020-01-06
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "I. A Dramatic Ending Brings a New Beginning | Tarot Flower"
 seo_description: "Anyone who follows the learned astrologers knows that the end of 2019 has not only been the ending of a year or decade, but also the ending of an age...."

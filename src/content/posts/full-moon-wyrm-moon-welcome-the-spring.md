@@ -4,7 +4,7 @@ slug: full-moon-wyrm-moon-welcome-the-spring
 original_url: https://tarotflower.com/vanessas-musings/full-moon-wyrm-moon-welcome-the-spring/
 date: 2019-03-20
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Full Moon, Wyrm Moon, Welcome the Spring | Tarot Flower"
 seo_description: "\"Wann starb wohl je ein Drache am Gift einer Schlange?« – sagte er. »Aber nimm dein Gift zurück! Du bist nicht reich genug, es mir zu schenken.\"..."

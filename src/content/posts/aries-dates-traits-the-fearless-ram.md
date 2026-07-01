@@ -4,7 +4,7 @@ slug: aries-dates-traits-the-fearless-ram
 original_url: https://tarotflower.com/astrology/aries-dates-traits-the-fearless-ram/
 date: 2023-02-08
 modified: 2023-05-18
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Aries Dates & Traits: The Fearless Ram | Tarot Flower"
 seo_description: "Let's dive into the fiery world of Aries, shall we? If you have an Aries in your life, get ready for a wild ride filled with energy, passion, and a..."

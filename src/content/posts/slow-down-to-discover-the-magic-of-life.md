@@ -4,7 +4,7 @@ slug: slow-down-to-discover-the-magic-of-life
 original_url: https://tarotflower.com/daily-tarot/slow-down-to-discover-the-magic-of-life/
 date: 2021-02-18
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Slow Down to Discover the Magic of Life | Tarot Flower"
 seo_description: "Slow down to discover the magic of life. What will you discover?"

@@ -4,7 +4,7 @@ slug: spellcasting-preparation-for-this-new-moon-in-aquarius
 original_url: https://tarotflower.com/vanessas-musings/spellcasting-preparation-for-this-new-moon-in-aquarius/
 date: 2020-01-22
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Spellcasting Preparation for this New Moon in Aquarius | Tarot Flower"
 seo_description: "This new moon in Aquarius marks the beginning of our collective and personal new chapters. We have purged the old that stood in our way, and excavated..."

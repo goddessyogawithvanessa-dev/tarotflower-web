@@ -4,7 +4,7 @@ slug: goddess-flora-the-goddess-of-spring
 original_url: https://tarotflower.com/oracle/goddess-flora-the-goddess-of-spring/
 date: 2023-06-11
 modified: 2023-06-11
-type: post
+content_type: post
 categories: [oracle]
 seo_title: "Goddess Flora: The Goddess of Spring | Tarot Flower"
 seo_description: "In the realm of ancient Rome, there existed a radiant goddess known as Flora. She was the embodiment of nature's beauty, fertility, and the vibrant..."

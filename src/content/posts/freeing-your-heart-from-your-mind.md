@@ -4,7 +4,7 @@ slug: freeing-your-heart-from-your-mind
 original_url: https://tarotflower.com/daily-tarot/freeing-your-heart-from-your-mind/
 date: 2020-07-13
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Freeing Your Heart From Your Mind | Tarot Flower"
 seo_description: "The Three of Swords is often seen as a card of heartbreak and pain, and it certainly can indicate a painful ending or harsh words. However, there is a..."

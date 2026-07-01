@@ -4,7 +4,7 @@ slug: major-arcana-2
 original_url: https://tarotflower.com/major-arcana-2/
 date: 2022-10-04
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Major Arcana Tarot Meanings – The Soul’s Journey"
 seo_description: "Discover the Major Arcana tarot card meanings with Tarot Flower. Explore archetypes, spiritual lessons, and the journey of the soul through the cards.

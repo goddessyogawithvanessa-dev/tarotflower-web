@@ -4,7 +4,7 @@ slug: nine-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/nine-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Nine of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Nine of Wands tarot card is a card of resilience, courage, and strength. It symbolizes the courage to keep going, even when the odds seem..."

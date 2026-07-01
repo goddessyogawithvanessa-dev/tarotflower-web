@@ -4,7 +4,7 @@ slug: holistic-living-with-embodiment-through-the-arts
 original_url: https://tarotflower.com/embodiment/holistic-living-with-embodiment-through-the-arts/
 date: 2021-11-15
 modified: 2021-11-15
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Holistic Living With Embodiment Through the Arts | Tarot Flower"
 seo_description: "I can sum up the reason why embodiment through the arts is holistic living in three little words: \"artists of life.\" When we become embodied through..."

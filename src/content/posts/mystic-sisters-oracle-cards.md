@@ -4,7 +4,7 @@ slug: mystic-sisters-oracle-cards
 original_url: https://tarotflower.com/shop/mystic-sisters-oracle-cards/
 date: 2021-02-14
 modified: 2023-02-20
-type: post
+content_type: post
 categories: [reviews, shop]
 seo_title: "Mystic Sisters Oracle Cards - In the Realm of the Goddess"
 seo_description: "We wanted to review the Mystic Sisters Oracle Deck because it is one of our favorites! So, here you go! We're happy to be helping you find the best..."

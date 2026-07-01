@@ -4,7 +4,7 @@ slug: the-growing-pains-of-blossoming-dreams
 original_url: https://tarotflower.com/daily-tarot/the-growing-pains-of-blossoming-dreams/
 date: 2020-07-27
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "The Growing Pains of Blossoming Dreams | Tarot Flower"
 seo_description: "Stay true to the seeds of dreams you planted at the new moon, even if obstacles or resistance begin to appear on your path today. The first quarter..."

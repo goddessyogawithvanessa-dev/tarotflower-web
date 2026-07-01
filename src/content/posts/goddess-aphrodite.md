@@ -4,7 +4,7 @@ slug: goddess-aphrodite
 original_url: https://tarotflower.com/oracle/goddess-aphrodite/
 date: 2023-06-21
 modified: 2023-07-05
-type: post
+content_type: post
 categories: [oracle]
 seo_title: "The Goddess Aphrodite: Embodying Beauty of All Kinds | Tarot Flower"
 seo_description: "Aphrodite, the Greek goddess of love, beauty, and desire, has captivated the imagination of countless individuals throughout the ages. She holds a..."

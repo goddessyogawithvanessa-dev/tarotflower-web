@@ -4,7 +4,7 @@ slug: ace-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/ace-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "Ace of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "If you've been looking for answers and illumination around a certain situation, then the Ace of Swords tarot card brings you exactly what you need...."

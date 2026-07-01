@@ -4,7 +4,7 @@ slug: wands-tarot
 original_url: https://tarotflower.com/wands-tarot/
 date: 2022-10-04
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Suit of Wands Tarot Meanings – Passion, Power &amp; Purpose"
 seo_description: "Step into the Suit of Wands with Tarot Flower. Discover tarot meanings for creativity, passion, ambition, and the fire that fuels your soul’s purpose.

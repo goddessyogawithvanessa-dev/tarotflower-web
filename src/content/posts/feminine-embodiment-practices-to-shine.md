@@ -4,7 +4,7 @@ slug: feminine-embodiment-practices-to-shine
 original_url: https://tarotflower.com/embodiment/feminine-embodiment-practices-to-shine/
 date: 2022-01-04
 modified: 2022-01-04
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Feminine Embodiment Practices to Shine | Tarot Flower"
 seo_description: "Ever notice how some people just light up a room? Whether it's their smile, the way they speak, or simply their energy in general, they brighten the..."

@@ -4,7 +4,7 @@ slug: what-is-a-twin-flame-how-to-know-if-youve-met-your-mirror-soul
 original_url: https://tarotflower.com/twin-flame/what-is-a-twin-flame-how-to-know-if-youve-met-your-mirror-soul/
 date: 2023-07-15
 modified: 2023-07-15
-type: post
+content_type: post
 categories: [twin-flame]
 seo_title: "What is a Twin Flame? How to Know if You've Met Your Mirror Soul | Tarot Flower"
 seo_description: "Have you met someone that you feel so incredibly connected to? Like you have known each other for lifetimes even if you just met? Is the chemistry and..."

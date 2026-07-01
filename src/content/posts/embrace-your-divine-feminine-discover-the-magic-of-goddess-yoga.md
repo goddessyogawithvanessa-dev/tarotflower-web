@@ -4,7 +4,7 @@ slug: embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga
 original_url: https://tarotflower.com/embodiment/embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga/
 date: 2023-11-02
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Embrace Your Divine Feminine: Discover the Magic of Goddess Yoga | Tarot Flower"
 seo_description: "Are you feeling disconnected from your inner self and feminine energy? Are you looking for a way to tap into your divine feminine? If so, goddess yoga..."

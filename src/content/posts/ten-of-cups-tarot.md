@@ -4,7 +4,7 @@ slug: ten-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/ten-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Ten of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Ten of Cups is a card that symbolizes happiness, contentment, and joy. It is the card of fulfilled wishes and dreams. In a tarot reading, it could..."

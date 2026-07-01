@@ -4,7 +4,7 @@ slug: lago-dorta-italy-dragons-in-the-dolomites
 original_url: https://tarotflower.com/destinations/lago-dorta-italy-dragons-in-the-dolomites/
 date: 2022-12-20
 modified: 2022-12-20
-type: post
+content_type: post
 categories: [destinations]
 seo_title: "Lago d'Orta, Italy: Yoga in the Dolomites | Tarot Flower"
 seo_description: "Nestled in the foothills of the Italian Alps, or the Dolomites, Lago d'Orta is a stunningly beautiful lake situated in the Piedmont region of Northern..."

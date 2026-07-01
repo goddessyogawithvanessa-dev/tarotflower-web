@@ -4,7 +4,7 @@ slug: seven-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/seven-of-pentacles-tarot/
 date: 2022-12-17
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Seven of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "The Seven of Pentacles is a card of contemplation and assessment of the progress made thus far. It symbolizes taking the time to review the work you..."

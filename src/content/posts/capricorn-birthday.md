@@ -4,7 +4,7 @@ slug: capricorn-birthday
 original_url: https://tarotflower.com/tarot-flower-kids/capricorn-birthday/
 date: 2020-12-30
 modified: 2023-01-16
-type: post
+content_type: post
 categories: [tarot-flower-kids]
 seo_title: "Capricorn Birthday Message! | Tarot Flower"
 seo_description: "Happy Birthday Capricorn kids! Welcome to your Tarot for Kids Capricorn birthday message! How old are you this year? What big plans do you have? I hope..."

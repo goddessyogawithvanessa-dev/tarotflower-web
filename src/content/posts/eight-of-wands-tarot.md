@@ -4,7 +4,7 @@ slug: eight-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/eight-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Eight of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Eight of Wands tarot card is a minor arcana card that symbolizes swift movement and change. It is associated with energy, ambition, and creativity...."

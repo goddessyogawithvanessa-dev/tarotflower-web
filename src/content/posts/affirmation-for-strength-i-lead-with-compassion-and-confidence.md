@@ -4,7 +4,7 @@ slug: affirmation-for-strength-i-lead-with-compassion-and-confidence
 original_url: https://tarotflower.com/daily-tarot/affirmation-for-strength-i-lead-with-compassion-and-confidence/
 date: 2021-02-26
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [affirmations, daily-tarot]
 seo_title: "Affirmation for Strength: I Lead With Compassion and Confidence | Tarot Flower"
 seo_description: "True strength is not bold, and it doesn't boast. True strength doesn't need to be displayed or validated by others. But true strength does require one..."

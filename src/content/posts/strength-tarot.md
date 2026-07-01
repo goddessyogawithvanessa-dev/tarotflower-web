@@ -4,7 +4,7 @@ slug: strength-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/strength-tarot/
 date: 2023-05-18
 modified: 2023-05-24
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Strength Tarot Card Meaning: Taming Your Inner Beast | Tarot Flower"
 seo_description: "The Strength tarot card goes beyond using force to control your environment, and teaches the value of compassionate persuasion and influence. Our inner..."

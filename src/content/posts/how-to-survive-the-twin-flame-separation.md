@@ -4,7 +4,7 @@ slug: how-to-survive-the-twin-flame-separation
 original_url: https://tarotflower.com/twin-flame/how-to-survive-the-twin-flame-separation/
 date: 2023-07-10
 modified: 2023-07-10
-type: post
+content_type: post
 categories: [twin-flame]
 seo_title: "How to Survive the Twin Flame Separation | Tarot Flower"
 seo_description: "Is your twin flame invading your psychic space? Are you feeling unwanted connections and emotions that are driving you crazy? Are you in twin flame..."

@@ -4,7 +4,7 @@ slug: the-emperor-is-out-of-control
 original_url: https://tarotflower.com/vanessas-musings/the-emperor-is-out-of-control/
 date: 2020-01-14
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "The Emperor is Out of Control | Tarot Flower"
 seo_description: "The High Priestess of the Major Arcana in Tarot, embodies the Divine Feminine, sacred knowledge, intuition, change, and new beginnings. At this moment,..."

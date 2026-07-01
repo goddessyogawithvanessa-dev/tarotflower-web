@@ -4,7 +4,7 @@ slug: melissa-warwood-tantric-tarot
 original_url: https://tarotflower.com/melissa-warwood-tantric-tarot/
 date: 2024-05-08
 modified: 2024-06-04
-type: page
+content_type: page
 categories: []
 seo_title: "Tantric Tarot by Melissa | Tarot Flower"
 seo_description: "After leaving my high-demand religion over five years ago, I discovered Tarot and it has since become my steadfast spiritual companion. Tarot has not..."

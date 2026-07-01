@@ -4,7 +4,7 @@ slug: bringer-of-joy-and-good-luck
 original_url: https://tarotflower.com/daily-tarot/bringer-of-joy-and-good-luck/
 date: 2021-02-15
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "You Are a Bringer of Joy and Good Luck | Tarot Flower"
 seo_description: "The world is happier with your brightness! You are a bringer of joy and good luck, and you radiate color. So, it's time to be your own colorful lady bug!"

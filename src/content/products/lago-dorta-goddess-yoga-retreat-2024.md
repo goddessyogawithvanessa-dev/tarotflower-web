@@ -4,7 +4,7 @@ slug: lago-dorta-goddess-yoga-retreat-2024
 original_url: https://tarotflower.com/product/lago-dorta-goddess-yoga-retreat-2024/
 date: 2024-03-10
 modified: 2024-05-12
-type: product
+content_type: product
 categories: []
 price: 2667
 stripe_link: ""

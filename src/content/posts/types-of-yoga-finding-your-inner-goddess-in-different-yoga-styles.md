@@ -4,7 +4,7 @@ slug: types-of-yoga-finding-your-inner-goddess-in-different-yoga-styles
 original_url: https://tarotflower.com/embodiment/types-of-yoga-finding-your-inner-goddess-in-different-yoga-styles/
 date: 2023-11-02
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Types of Yoga: Finding Your Inner Goddess in Different Yoga Styles | Tarot Flower"
 seo_description: "Welcome, beautiful souls, to our guide on the many different types of yoga! Within the vastness of this sacred discipline, the divine feminine energy..."

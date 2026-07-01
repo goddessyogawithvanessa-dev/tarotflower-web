@@ -4,7 +4,7 @@ slug: the-first-whispers-of-the-high-priestess
 original_url: https://tarotflower.com/vanessas-musings/the-first-whispers-of-the-high-priestess/
 date: 2020-01-23
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "The First Whispers of the High Priestess | Tarot Flower"
 seo_description: "We are at a turning point once again. We spent months realizing, identifying, accepting and releasing everything that needed to left behind. A dramatic..."

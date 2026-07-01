@@ -4,7 +4,7 @@ slug: aphrodite-goddess-of-love
 original_url: https://tarotflower.com/embodiment/aphrodite-goddess-of-love/
 date: 2022-01-31
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Aphrodite Goddess of Love | Tarot Flower"
 seo_description: "Aphrodite, the ancient Greek Goddess of love and beauty embodies the essence of the flowering divine feminine. She was birthed out of the Mediterranean..."

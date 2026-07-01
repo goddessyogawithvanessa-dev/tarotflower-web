@@ -4,7 +4,7 @@ slug: best-yoga-retreat-europe-2023-the-perfect-european-vacation-in-italy
 original_url: https://tarotflower.com/destinations/best-yoga-retreat-europe-2023-the-perfect-european-vacation-in-italy/
 date: 2023-01-31
 modified: 2023-01-31
-type: post
+content_type: post
 categories: [destinations]
 seo_title: "Best Yoga Retreat Europe 2023: The Perfect European Vacation in Italy | Tarot Flower"
 seo_description: "Ditch the hustle and bustle of the city and transport yourself to a place of serenity, tranquility, and bliss. Here's why we think a goddess yoga..."

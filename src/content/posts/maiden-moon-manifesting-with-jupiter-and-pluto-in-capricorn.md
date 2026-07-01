@@ -4,7 +4,7 @@ slug: maiden-moon-manifesting-with-jupiter-and-pluto-in-capricorn
 original_url: https://tarotflower.com/vanessas-musings/maiden-moon-manifesting-with-jupiter-and-pluto-in-capricorn/
 date: 2020-04-04
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Maiden Moon: Manifesting with Jupiter and Pluto in Capricorn | Tarot Flower"
 seo_description: "Did you plant your seeds of intention at the last new moon? Our manifestations have been growing and are about to bloom. Tonight we will share the..."

@@ -4,7 +4,7 @@ slug: its-time-to-talk
 original_url: https://tarotflower.com/daily-tarot/its-time-to-talk/
 date: 2020-07-15
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "It's Time to Talk | Tarot Flower"
 seo_description: "Integrity is the word of the day today. The Page of Swords indicates that some kind of a challenge may be headed your way, but with the sword of truth,..."

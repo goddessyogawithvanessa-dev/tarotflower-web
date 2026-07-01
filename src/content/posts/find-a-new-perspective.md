@@ -4,7 +4,7 @@ slug: find-a-new-perspective
 original_url: https://tarotflower.com/daily-tarot/find-a-new-perspective/
 date: 2021-02-19
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "I Look at Every Situation From a New Perspective | Tarot Flower"
 seo_description: "Whenever we are met with resistance, no matter how sure we are that our way is the best way, we must take a moment to see the world differently and..."

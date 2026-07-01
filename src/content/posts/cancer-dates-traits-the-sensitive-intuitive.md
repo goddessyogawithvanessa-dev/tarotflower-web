@@ -4,7 +4,7 @@ slug: cancer-dates-traits-the-sensitive-intuitive
 original_url: https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/
 date: 2023-05-18
 modified: 2023-05-18
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Cancer Dates & Traits: The Sensitive Intuitive | Tarot Flower"
 seo_description: "Welcome to the world of Cancer, the fourth sign of the zodiac. Cancer is known for being nurturing, sensitive, and highly intuitive. Cancer is a water..."

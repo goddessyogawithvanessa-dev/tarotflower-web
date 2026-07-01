@@ -4,7 +4,7 @@ slug: dare-to-dream-dare-to-manifest
 original_url: https://tarotflower.com/embodiment/dare-to-dream-dare-to-manifest/
 date: 2021-09-17
 modified: 2021-09-17
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Dare to Dream, Dare to Manifest | Tarot Flower"
 seo_description: "Have you ever wished for something and then thought to yourself “that’s silly” or “that could never happen for me?”"

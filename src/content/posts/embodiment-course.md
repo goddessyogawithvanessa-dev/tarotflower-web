@@ -4,7 +4,7 @@ slug: embodiment-course
 original_url: https://tarotflower.com/embodiment/embodiment-course/
 date: 2022-01-31
 modified: 2022-01-31
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Embodiment Course - How to Find the Best One"
 seo_description: "What makes for the best embodiment course and how do you find one? One really important thing to consider is whether the environment is inspirational..."

@@ -4,7 +4,7 @@ slug: five-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/five-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Five of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Sometimes life can be full of difficult decisions, and the Five of Swords tarot card meaning is no exception. This card symbolizes the struggle between..."

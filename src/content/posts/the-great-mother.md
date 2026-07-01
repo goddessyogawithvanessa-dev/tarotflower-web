@@ -4,7 +4,7 @@ slug: the-great-mother
 original_url: https://tarotflower.com/vanessas-musings/the-great-mother/
 date: 2020-01-08
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "V. The Great Mother | Tarot Flower"
 seo_description: "The Great Mother is powerful. She is the one who gave us all life. There is nothing more profound and mysterious than her creation. And she is resented..."

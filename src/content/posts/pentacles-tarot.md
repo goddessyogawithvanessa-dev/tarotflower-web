@@ -4,7 +4,7 @@ slug: pentacles-tarot
 original_url: https://tarotflower.com/pentacles-tarot/
 date: 2022-10-04
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Suit of Pentacles Tarot Meanings – Abundance &amp; Stability"
 seo_description: "Explore the Suit of Pentacles with Tarot Flower. Learn tarot card meanings for abundance, career, health, home, and grounding your spiritual growth.

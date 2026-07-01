@@ -4,7 +4,7 @@ slug: the-devil-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-devil-tarot/
 date: 2023-05-17
 modified: 2023-05-24
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Devil Tarot Card Meaning: Breaking the Chains | Tarot Flower"
 seo_description: "The Devil Tarot card represents the attachments we cling to in our lives. Whether it be materialism or addictions to carnal, base instincts, we have..."

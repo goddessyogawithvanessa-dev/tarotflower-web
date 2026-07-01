@@ -4,7 +4,7 @@ slug: lago-dorta-italy
 original_url: https://tarotflower.com/lago-dorta-italy/
 date: 2023-11-27
 modified: 2024-02-12
-type: page
+content_type: page
 categories: []
 seo_title: "Lago d'Orta, Italy | Tarot Flower"
 seo_description: "Experience the magic of Lago d'Orta, one of the most serene and picturesque lakes in Italy. For 5 days and 6 nights, we'll start our days with Goddess..."

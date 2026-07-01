@@ -4,7 +4,7 @@ slug: you-are-your-own-beacon-of-light
 original_url: https://tarotflower.com/embodiment/you-are-your-own-beacon-of-light/
 date: 2021-09-08
 modified: 2021-09-08
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "You Are Your Own Beacon of Light | Tarot Flower"
 seo_description: "Let's face it, we all feel down sometimes, and there is nothing wrong with that. The important thing is that you know how to pick yourself back up..."

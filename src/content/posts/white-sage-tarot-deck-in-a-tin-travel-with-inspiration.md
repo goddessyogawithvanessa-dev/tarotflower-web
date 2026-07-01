@@ -4,7 +4,7 @@ slug: white-sage-tarot-deck-in-a-tin-travel-with-inspiration
 original_url: https://tarotflower.com/reviews/white-sage-tarot-deck-in-a-tin-travel-with-inspiration/
 date: 2023-04-25
 modified: 2023-04-26
-type: post
+content_type: post
 categories: [reviews]
 seo_title: "White Sage Tarot Deck In a Tin: Travel with Inspiration | Tarot Flower"
 seo_description: "The White Sage Tarot Deck in a tin is a beautiful and creative Tarot deck that is perfect for those who are looking for a more feminine energy in their..."

@@ -4,7 +4,7 @@ slug: tarot-card-meanings
 original_url: https://tarotflower.com/tarot-card-meanings/
 date: 2020-12-15
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Tarot Card Meanings – A Guide to the Major &amp; Minor Arcana"
 seo_description: "Explore all 78 tarot card meanings with Tarot Flower. Learn the wisdom of the Major and Minor Arcana and deepen your spiritual tarot practice.

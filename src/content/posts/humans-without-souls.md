@@ -4,7 +4,7 @@ slug: humans-without-souls
 original_url: https://tarotflower.com/vanessas-musings/humans-without-souls/
 date: 2020-01-12
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "VIII. Humans Without Souls | Tarot Flower"
 seo_description: "Excess breeds deformity and decay. That is why balance is so beautiful. We see this in business, with monopolies, for example. The excess of one entity..."

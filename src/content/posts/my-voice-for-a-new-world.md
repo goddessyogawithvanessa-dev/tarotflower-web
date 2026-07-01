@@ -4,7 +4,7 @@ slug: my-voice-for-a-new-world
 original_url: https://tarotflower.com/vanessas-musings/my-voice-for-a-new-world/
 date: 2023-11-06
 modified: 2023-11-06
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "My voice for a new world | Tarot Flower"
 seo_description: "I am tired of waiting around. I want to make a change the only way I know how. I don't know what the right way is, but I do know what my way is. Thank..."

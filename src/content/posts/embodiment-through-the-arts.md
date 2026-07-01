@@ -4,7 +4,7 @@ slug: embodiment-through-the-arts
 original_url: https://tarotflower.com/embodiment/embodiment-through-the-arts/
 date: 2021-11-14
 modified: 2021-11-14
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Embodiment Through the Arts, Yoga, Dance and More! | Tarot Flower"
 seo_description: "Do you feel like you're doing everything right but something is still missing? Yoga classes, healthy eating habits, meditation and more, but life is..."

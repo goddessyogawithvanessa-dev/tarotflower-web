@@ -4,7 +4,7 @@ slug: the-hermit-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-hermit-tarot/
 date: 2023-05-25
 modified: 2023-12-27
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Hermit Tarot Card Meaning: The Inward Journey | Tarot Flower"
 seo_description: "Get ready for a mysterious and introspective journey, my friend! The Hermit Tarot card is here to guide you through a time of retreat and..."

@@ -4,7 +4,7 @@ slug: in-darkness-be-the-light
 original_url: https://tarotflower.com/daily-tarot/in-darkness-be-the-light/
 date: 2021-02-17
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "In Darkness, Remember to Be the Light | Tarot Flower"
 seo_description: "Hello there, Tarot Flower garden. Some days feel darker than others, and sometimes we can feel like we are lost at night in an endless forest. That is..."

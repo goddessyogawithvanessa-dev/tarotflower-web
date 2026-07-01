@@ -4,7 +4,7 @@ slug: twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing
 original_url: https://tarotflower.com/daily-tarot/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/
 date: 2023-02-09
 modified: 2023-05-19
-type: post
+content_type: post
 categories: [daily-tarot, twin-flame]
 seo_title: "Twin Flames: No, You’re Not Crazy! Why Sex With Your Twin Flame Is So Mind-Blowing | Tarot Flower"
 seo_description: "A twin flame is your other half, your “Mirror Soul,” your unconditional love that defies gravity. It is beyond anything you have ever experienced - a..."

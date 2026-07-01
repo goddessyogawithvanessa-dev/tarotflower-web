@@ -4,7 +4,7 @@ slug: erase-me
 original_url: https://tarotflower.com/vanessas-musings/erase-me/
 date: 2020-01-17
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Erase Me | Tarot Flower"
 seo_description: "> Sometimes it's better to give people what they think they want. \"The ego’s dictate is “seek but do not find.” - Marianne Williamson"

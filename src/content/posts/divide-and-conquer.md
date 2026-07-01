@@ -4,7 +4,7 @@ slug: divide-and-conquer
 original_url: https://tarotflower.com/vanessas-musings/divide-and-conquer/
 date: 2020-06-02
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Divide And Conquer: Somebody's Gotta be the Bad One | Tarot Flower"
 seo_description: "The truth is we can always find common ground, we just have to want to. We all want freedom, we all want peace, we all want to be able to feed our..."

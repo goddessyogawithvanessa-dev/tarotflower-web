@@ -4,7 +4,7 @@ slug: solar-plexus-chakra-affirmations-be-the-fire-for-a-passionate-life
 original_url: https://tarotflower.com/daily-tarot/solar-plexus-chakra-affirmations-be-the-fire-for-a-passionate-life/
 date: 2021-02-21
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [affirmations, daily-tarot]
 seo_title: "Solar Plexus Chakra Affirmations: Be the Fire For A Passionate Life | Tarot Flower"
 seo_description: "The fire element is passion and creativity in all forms, so \"be the fire!\" today! Put your energy into your passion projects and take action toward..."

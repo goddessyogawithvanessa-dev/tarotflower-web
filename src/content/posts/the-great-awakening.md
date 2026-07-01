@@ -4,7 +4,7 @@ slug: the-great-awakening
 original_url: https://tarotflower.com/vanessas-musings/the-great-awakening/
 date: 2020-01-06
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "II. The Great Awakening is Coming | Tarot Flower"
 seo_description: "From the 12/12 portal over the galactic center to the eclipse on the Solstice, the powerful and magical energies of the last months have been intense..."

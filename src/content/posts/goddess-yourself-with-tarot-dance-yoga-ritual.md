@@ -4,7 +4,7 @@ slug: goddess-yourself-with-tarot-dance-yoga-ritual
 original_url: https://tarotflower.com/news/goddess-yourself-with-tarot-dance-yoga-ritual/
 date: 2023-04-25
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [news]
 seo_title: "Goddess Yourself with Tarot, Dance, Yoga & Ritual | Tarot Flower"
 seo_description: "Are you ready to unleash your inner divine feminine and embody the powerful goddess within? There are many ways to connect with the divine feminine,..."

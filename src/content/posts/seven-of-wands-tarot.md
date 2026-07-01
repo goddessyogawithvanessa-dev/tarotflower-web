@@ -4,7 +4,7 @@ slug: seven-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/seven-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Seven of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Seven of Wands tarot card is a card of courage and determination in the face of adversity. It symbolizes victory in the face of great odds, and an..."

@@ -4,7 +4,7 @@ slug: yemaya-goddess-of-the-seven-seas
 original_url: https://tarotflower.com/embodiment/yemaya-goddess-of-the-seven-seas/
 date: 2023-11-02
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Yemaya: Goddess of the Seven Seas | Tarot Flower"
 seo_description: "Once upon a time, in the rich tapestry of African mythology, there existed a powerful and beloved goddess named Yemaya. She was revered as the mother..."

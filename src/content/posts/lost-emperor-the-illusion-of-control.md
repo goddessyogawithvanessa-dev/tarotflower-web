@@ -4,7 +4,7 @@ slug: lost-emperor-the-illusion-of-control
 original_url: https://tarotflower.com/vanessas-musings/lost-emperor-the-illusion-of-control/
 date: 2020-01-15
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Lost Emperor: The Illusion of Control | Tarot Flower"
 seo_description: "In my last blog entry, The Emperor is Out of Control, we looked at the Major Arcana archetype of The Emperor in his negative presentation, and the..."

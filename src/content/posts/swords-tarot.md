@@ -4,7 +4,7 @@ slug: swords-tarot
 original_url: https://tarotflower.com/swords-tarot/
 date: 2022-10-04
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Suit of Swords Tarot Meanings – Truth, Conflict &amp; Clarity"
 seo_description: "Uncover the Suit of Swords with Tarot Flower. Explore tarot card meanings around truth, communication, mental clarity, and spiritual breakthrough.

@@ -4,7 +4,7 @@ slug: choosing-love
 original_url: https://tarotflower.com/daily-tarot/choosing-love/
 date: 2020-07-09
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Choosing Love | Tarot Flower"
 seo_description: "On the heels of the Three of Pentacles come The Lovers. Yesterday, the cards asked us to look at the flow of give and take in our relationships...."

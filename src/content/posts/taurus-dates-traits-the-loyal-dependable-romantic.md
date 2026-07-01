@@ -4,7 +4,7 @@ slug: taurus-dates-traits-the-loyal-dependable-romantic
 original_url: https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/
 date: 2023-04-27
 modified: 2023-05-18
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Taurus Dates & Traits: The Loyal, Dependable Romantic | Tarot Flower"
 seo_description: "Welcome to the world of Taurus - one of the most dependable and practical zodiac signs! If you were born between April 20 and May 20, you fall under..."

@@ -4,7 +4,7 @@ slug: what-is-divine-feminine-tarot-empowering-your-inner-goddess
 original_url: https://tarotflower.com/daily-tarot/what-is-divine-feminine-tarot-empowering-your-inner-goddess/
 date: 2023-04-21
 modified: 2023-06-07
-type: post
+content_type: post
 categories: [daily-tarot]
 seo_title: "What is Divine Feminine Tarot? Empowering Your Inner Goddess | Tarot Flower"
 seo_description: "Are you ready to embark on a journey of self-discovery and tap into your inner goddess? The world of tarot is not only a tool for divination, but also..."

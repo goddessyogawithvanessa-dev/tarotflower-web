@@ -4,7 +4,7 @@ slug: queen-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/queen-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Queen of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Queen of Cups tarot card is a beautiful card to receive in your tarot card reading! She is one of the most mysterious and powerful cards in the..."

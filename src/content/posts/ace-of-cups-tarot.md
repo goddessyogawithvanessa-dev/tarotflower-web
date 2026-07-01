@@ -4,7 +4,7 @@ slug: ace-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/ace-of-cups-tarot/
 date: 2023-06-09
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Ace of Cups: Overflowing With Love | Tarot Flower"
 seo_description: "The Ace of Cups is one of the most powerful cards in the Tarot deck. It symbolizes the beginning of emotions and feelings. In a tarot card reading,..."

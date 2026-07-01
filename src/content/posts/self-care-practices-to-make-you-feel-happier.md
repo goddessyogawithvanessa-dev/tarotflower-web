@@ -4,7 +4,7 @@ slug: self-care-practices-to-make-you-feel-happier
 original_url: https://tarotflower.com/embodiment/self-care-practices-to-make-you-feel-happier/
 date: 2021-10-20
 modified: 2021-10-20
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "4 Embodiment Self-Care Practices for Happiness | Tarot Flower"
 seo_description: "Are you feeling exhausted? Are you feeling uninspired? Or maybe you always feel like your body is tense and stressed all the time? Here are four..."

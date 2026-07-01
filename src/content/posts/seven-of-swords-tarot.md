@@ -4,7 +4,7 @@ slug: seven-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/seven-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Seven of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "The Seven of Swords tarot card is often seen as a difficult card to interpret, as it often has a negative connotation. It symbolizes a person who feels..."

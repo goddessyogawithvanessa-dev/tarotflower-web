@@ -4,7 +4,7 @@ slug: home
 original_url: https://tarotflower.com/
 date: 2021-12-14
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Tarot Flower – Learn Tarot Online with Meaningful Insight"
 seo_description: "A modern guide to learn tarot online! Discover intuitive card meanings, spreads, rituals, and spiritual wisdom through the sacred art of tarot.
@@ -37,49 +37,49 @@ Welcome home.
 
 ### The great archetypes of the Tarot
 
-[The Fool](https://tarotflower.com/tarot-card-meanings/the-fool-tarot/)
+[The Fool](the-fool-tarot/)
 
-[The Magician](https://tarotflower.com/tarot-card-meanings/the-magician-tarot/)
+[The Magician](the-magician-tarot/)
 
-[The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/)
+[The High Priestess](the-high-priestess-tarot/)
 
-[The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/)
+[The Empress](the-empress-tarot/)
 
-[The Emperor](https://tarotflower.com/tarot-card-meanings/the-emperor-tarot/)
+[The Emperor](the-emperor-tarot/)
 
-[The Hierophant](https://tarotflower.com/tarot-card-meanings/the-hierophant-tarot/)
+[The Hierophant](the-hierophant-tarot/)
 
-[The Lovers](/tarot-card-meanings/the-lovers-tarot/)
+[The Lovers](the-lovers-tarot/)
 
-[The Chariot](/tarot-card-meanings/the-chariot-tarot)
+[The Chariot](the-chariot-tarot)
 
-[Strength](/tarot-card-meanings/strength-tarot)
+[Strength](strength-tarot)
 
-[The Hermit](/tarot-card-meanings/the-hermit-tarot)
+[The Hermit](the-hermit-tarot)
 
-[The Wheel of Fortune](/tarot-card-meanings/the-wheel-of-fortune-tarot)
+[The Wheel of Fortune](the-wheel-of-fortune-tarot)
 
-[Justice](/tarot-card-meanings/justice-tarot)
+[Justice](justice-tarot)
 
-[The Hanged Man](/tarot-card-meanings/the-hanged-man-tarot)
+[The Hanged Man](the-hanged-man-tarot)
 
-[Death](/tarot-card-meanings/death-tarot)
+[Death](death-tarot)
 
-[Temperance](/tarot-card-meanings/temperance-tarot)
+[Temperance](temperance-tarot)
 
-[The Devil](https://tarotflower.com/tarot-card-meanings/the-devil-tarot)
+[The Devil](the-devil-tarot)
 
-[The Tower](/tarot-card-meanings/the-tower-tarot)
+[The Tower](the-tower-tarot)
 
-[The Star](/tarot-card-meanings/the-star-tarot)
+[The Star](the-star-tarot)
 
-[The Moon](/tarot-card-meanings/the-moon-tarot)
+[The Moon](the-moon-tarot)
 
-[The Sun](/tarot-card-meanings/the-sun-tarot)
+[The Sun](the-sun-tarot)
 
-[Judgment](/tarot-card-meanings/judgment-tarot)
+[Judgment](judgment-tarot)
 
-[The World](https://tarotflower.com/tarot-card-meanings/the-world-tarot/)
+[The World](the-world-tarot/)
 
 ## THE Minor Arcana
 
@@ -87,68 +87,68 @@ Welcome home.
 
 ### Pentacles
 
-[Ace of Pentacles](https://tarotflower.com/tarot-card-meanings/ace-of-pentacles-tarot/)  
-[Two of Pentacles](https://tarotflower.com/tarot-card-meanings/two-of-pentacles-tarot/)  
-[Three of Pentacles](https://tarotflower.com/tarot-card-meanings/three-of-pentacles-tarot/)  
-[Four of Pentacles](https://tarotflower.com/tarot-card-meanings/four-of-pentacles-tarot/)  
-[Five of Pentacles](https://tarotflower.com/tarot-card-meanings/five-of-pentacles-tarot/)  
-[Six of Pentacles](https://tarotflower.com/tarot-card-meanings/six-of-pentacles-tarot/)  
-[Seven of Pentacles](https://tarotflower.com/tarot-card-meanings/seven-of-pentacles-tarot/)  
-[Eight of Pentacles](https://tarotflower.com/tarot-card-meanings/eight-of-pentacles-tarot/)  
-[Nine of Pentacles](https://tarotflower.com/tarot-card-meanings/nine-of-pentacles-tarot/)  
-[Ten of Pentacles](https://tarotflower.com/tarot-card-meanings/ten-of-pentacles-tarot/)  
-[Page of Pentacles](https://tarotflower.com/tarot-card-meanings/page-of-pentacles-tarot/)  
-[Knight of Pentacles](https://tarotflower.com/tarot-card-meanings/knight-of-pentacles-tarot/)  
-[Queen of Pentacles](https://tarotflower.com/tarot-card-meanings/queen-of-pentacles-tarot/)  
-[King of Pentacles](https://tarotflower.com/tarot-card-meanings/king-of-pentacles-tarot/)
+[Ace of Pentacles](ace-of-pentacles-tarot/)  
+[Two of Pentacles](two-of-pentacles-tarot/)  
+[Three of Pentacles](three-of-pentacles-tarot/)  
+[Four of Pentacles](four-of-pentacles-tarot/)  
+[Five of Pentacles](five-of-pentacles-tarot/)  
+[Six of Pentacles](six-of-pentacles-tarot/)  
+[Seven of Pentacles](seven-of-pentacles-tarot/)  
+[Eight of Pentacles](eight-of-pentacles-tarot/)  
+[Nine of Pentacles](nine-of-pentacles-tarot/)  
+[Ten of Pentacles](ten-of-pentacles-tarot/)  
+[Page of Pentacles](page-of-pentacles-tarot/)  
+[Knight of Pentacles](knight-of-pentacles-tarot/)  
+[Queen of Pentacles](queen-of-pentacles-tarot/)  
+[King of Pentacles](king-of-pentacles-tarot/)
 
 ### Wands
 
-[Ace of  Wands](https://tarotflower.com/tarot-card-meanings/ace-of-wands-tarot/)  
-[Two of Wands](https://tarotflower.com/tarot-card-meanings/two-of-wands-tarot/)  
-[Three of Wands](https://tarotflower.com/tarot-card-meanings/three-of-wands-tarot/)  
-[Four of Wands](https://tarotflower.com/tarot-card-meanings/four-of-wands-tarot/)  
-[Five of Wands](https://tarotflower.com/tarot-card-meanings/five-of-wands-tarot/)  
-[Six of Wands](https://tarotflower.com/tarot-card-meanings/six-of-wands-tarot/)  
-[Seven of Wands](https://tarotflower.com/tarot-card-meanings/seven-of-wands-tarot/)  
-[Eight of Wands](https://tarotflower.com/tarot-card-meanings/eight-of-wands-tarot/)  
-[Nine of Wands](https://tarotflower.com/tarot-card-meanings/nine-of-wands-tarot/)  
-[Ten of Wands](https://tarotflower.com/tarot-card-meanings/ten-of-wands-tarot/)  
-[Page of Wands](https://tarotflower.com/tarot-card-meanings/page-of-wands-tarot/)  
-[Knight of Wands](https://tarotflower.com/tarot-card-meanings/knight-of-wands-tarot/)  
-[Queen of Wands](https://tarotflower.com/tarot-card-meanings/queen-of-wands-tarot/)  
-[King of Wands](https://tarotflower.com/tarot-card-meanings/king-of-wands-tarot/)
+[Ace of  Wands](ace-of-wands-tarot/)  
+[Two of Wands](two-of-wands-tarot/)  
+[Three of Wands](three-of-wands-tarot/)  
+[Four of Wands](four-of-wands-tarot/)  
+[Five of Wands](five-of-wands-tarot/)  
+[Six of Wands](six-of-wands-tarot/)  
+[Seven of Wands](seven-of-wands-tarot/)  
+[Eight of Wands](eight-of-wands-tarot/)  
+[Nine of Wands](nine-of-wands-tarot/)  
+[Ten of Wands](ten-of-wands-tarot/)  
+[Page of Wands](page-of-wands-tarot/)  
+[Knight of Wands](knight-of-wands-tarot/)  
+[Queen of Wands](queen-of-wands-tarot/)  
+[King of Wands](king-of-wands-tarot/)
 
 ### Swords
 
-[Ace of Swords](https://tarotflower.com/tarot-card-meanings/ace-of-swords-tarot/)  
-[Two of Swords](https://tarotflower.com/tarot-card-meanings/two-of-swords-tarot/)  
-[Three of Swords](https://tarotflower.com/tarot-card-meanings/three-of-swords-tarot/)  
-[Four of Swords](https://tarotflower.com/tarot-card-meanings/four-of-swords-tarot/)  
-[Five of Swords](https://tarotflower.com/tarot-card-meanings/five-of-swords-tarot/)  
-[Six of Swords](https://tarotflower.com/tarot-card-meanings/six-of-swords-tarot/)  
-[Seven of Swords](https://tarotflower.com/tarot-card-meanings/seven-of-swords-tarot/)  
-[Eight of Swords](https://tarotflower.com/tarot-card-meanings/eight-of-swords-tarot/)  
-[Nine of Swords](https://tarotflower.com/tarot-card-meanings/nine-of-swords-tarot/)  
-[Ten of Swords](https://tarotflower.com/tarot-card-meanings/ten-of-swords-tarot/)  
-[Page of Swords](https://tarotflower.com/tarot-card-meanings/page-of-swords-tarot/)  
-[Knight of Swords](https://tarotflower.com/tarot-card-meanings/knight-of-swords-tarot/)  
-[Queen of Swords](https://tarotflower.com/tarot-card-meanings/queen-of-swords-tarot/)  
-[King of Swords](https://tarotflower.com/tarot-card-meanings/king-of-swords-tarot/)
+[Ace of Swords](ace-of-swords-tarot/)  
+[Two of Swords](two-of-swords-tarot/)  
+[Three of Swords](three-of-swords-tarot/)  
+[Four of Swords](four-of-swords-tarot/)  
+[Five of Swords](five-of-swords-tarot/)  
+[Six of Swords](six-of-swords-tarot/)  
+[Seven of Swords](seven-of-swords-tarot/)  
+[Eight of Swords](eight-of-swords-tarot/)  
+[Nine of Swords](nine-of-swords-tarot/)  
+[Ten of Swords](ten-of-swords-tarot/)  
+[Page of Swords](page-of-swords-tarot/)  
+[Knight of Swords](knight-of-swords-tarot/)  
+[Queen of Swords](queen-of-swords-tarot/)  
+[King of Swords](king-of-swords-tarot/)
 
 ### Cups
 
-[Ace of Cups](https://tarotflower.com/tarot-card-meanings/ace-of-cups-tarot/)  
-[Two of Cups](https://tarotflower.com/tarot-card-meanings/two-of-cups-tarot/)  
-[Three of Cups](https://tarotflower.com/tarot-card-meanings/three-of-cups-tarot/)  
-[Four of Cups](https://tarotflower.com/tarot-card-meanings/four-of-cups-tarot/)  
-[Five of Cups](https://tarotflower.com/tarot-card-meanings/five-of-cups-tarot/)  
-[Six of Cups](https://tarotflower.com/tarot-card-meanings/six-of-cups-tarot/)  
-[Seven of Cups](https://tarotflower.com/tarot-card-meanings/seven-of-cups-tarot/)  
-[Eight of Cups](https://tarotflower.com/tarot-card-meanings/eight-of-cups-tarot/)  
-[Nine of Cups](https://tarotflower.com/tarot-card-meanings/nine-of-cups-tarot/)  
-[Ten of Cups](https://tarotflower.com/tarot-card-meanings/ten-of-cups-tarot/)  
-[Page of Cups](https://tarotflower.com/tarot-card-meanings/page-of-cups-tarot/)  
-[Knight of Cups](https://tarotflower.com/tarot-card-meanings/knight-of-cups-tarot/)  
-[Queen of Cups](https://tarotflower.com/tarot-card-meanings/queen-of-cups-tarot/)  
-[King of Cups](https://tarotflower.com/tarot-card-meanings/king-of-cups-tarot/)
+[Ace of Cups](ace-of-cups-tarot/)  
+[Two of Cups](two-of-cups-tarot/)  
+[Three of Cups](three-of-cups-tarot/)  
+[Four of Cups](four-of-cups-tarot/)  
+[Five of Cups](five-of-cups-tarot/)  
+[Six of Cups](six-of-cups-tarot/)  
+[Seven of Cups](seven-of-cups-tarot/)  
+[Eight of Cups](eight-of-cups-tarot/)  
+[Nine of Cups](nine-of-cups-tarot/)  
+[Ten of Cups](ten-of-cups-tarot/)  
+[Page of Cups](page-of-cups-tarot/)  
+[Knight of Cups](knight-of-cups-tarot/)  
+[Queen of Cups](queen-of-cups-tarot/)  
+[King of Cups](king-of-cups-tarot/)

@@ -4,7 +4,7 @@ slug: eight-of-swords-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/eight-of-swords-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Eight of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "The Eight of Swords tarot card is an intriguing card that speaks to the power of mental limitations and the strength that comes from letting go. It is..."

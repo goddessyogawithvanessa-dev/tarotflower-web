@@ -4,7 +4,7 @@ slug: ten-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/ten-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Ten of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Ten of Wands tarot card is a representation of a heavy burden, an obstacle, or a challenge that is weighing you down. It can be a sign of feeling..."

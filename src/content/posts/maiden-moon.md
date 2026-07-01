@@ -4,7 +4,7 @@ slug: maiden-moon
 original_url: https://tarotflower.com/vanessas-musings/maiden-moon/
 date: 2019-02-05
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Maiden Moon | Tarot Flower"
 seo_description: "From Spell Songs. Original Lyrics by Vanessa Hylande"

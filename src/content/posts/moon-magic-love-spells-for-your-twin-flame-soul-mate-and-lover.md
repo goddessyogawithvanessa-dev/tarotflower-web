@@ -4,7 +4,7 @@ slug: moon-magic-love-spells-for-your-twin-flame-soul-mate-and-lover
 original_url: https://tarotflower.com/daily-tarot/moon-magic-love-spells-for-your-twin-flame-soul-mate-and-lover/
 date: 2023-02-04
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, moonmagic, twin-flame]
 seo_title: "Moon Magic Love Spells For Your Twin Flame, Soul Mate and Lover | Tarot Flower"
 seo_description: "Feeling a little stuck in love lately? Give these moon magic love spells a shot to rekindle that love and passion in your life! If you’ve been trying..."

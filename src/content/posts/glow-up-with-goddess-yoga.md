@@ -4,7 +4,7 @@ slug: glow-up-with-goddess-yoga
 original_url: https://tarotflower.com/embodiment/glow-up-with-goddess-yoga/
 date: 2022-12-07
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Glow Up With Goddess Yoga! | Tarot Flower"
 seo_description: "Activate Your Divine Feminine and glow up with Goddess Yoga! In Goddess yoga, we use sound baths, ecstatic dance and the Tarot to practice yoga and..."

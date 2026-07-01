@@ -4,7 +4,7 @@ slug: how-to-be-a-goddess-of-dance
 original_url: https://tarotflower.com/embodiment/how-to-be-a-goddess-of-dance/
 date: 2021-12-10
 modified: 2021-12-10
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "How to Be a Goddess of Dance | Tarot Flower"
 seo_description: "What is the most important thing to learn if you want to be a Goddess of dance? Is it training? Or is it being fit and thin? Is it knowing all of the..."

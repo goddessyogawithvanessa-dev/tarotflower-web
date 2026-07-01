@@ -4,7 +4,7 @@ slug: devils-tongue
 original_url: https://tarotflower.com/vanessas-musings/devils-tongue/
 date: 2019-01-12
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Devil's Tongue | Tarot Flower"
 seo_description: "Devil’s tongue lashes out at me"

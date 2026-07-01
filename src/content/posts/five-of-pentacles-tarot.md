@@ -4,7 +4,7 @@ slug: five-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/five-of-pentacles-tarot/
 date: 2022-12-16
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Five of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "The Five of Pentacles tarot card is a reminder of the precariousness of life and that life can change in an instant. It speaks to feelings of..."

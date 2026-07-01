@@ -4,7 +4,7 @@ slug: yemaya
 original_url: https://tarotflower.com/oracle/yemaya/
 date: 2023-06-17
 modified: 2023-06-17
-type: post
+content_type: post
 categories: [oracle]
 seo_title: "Goddess Yemaya: Diving Into Dreams and Desires | Tarot Flower"
 seo_description: "Goddess Yemaya, the majestic deity of the sea, holds a special place in the hearts of many. Known for her nurturing and protective nature, Yemaya..."

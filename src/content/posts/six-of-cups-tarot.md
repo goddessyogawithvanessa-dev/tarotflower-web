@@ -4,7 +4,7 @@ slug: six-of-cups-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/six-of-cups-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Six of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Six of Cups is a Major Arcana card from the Tarot deck and is associated with nostalgia and childhood innocence. It is often interpreted as a..."

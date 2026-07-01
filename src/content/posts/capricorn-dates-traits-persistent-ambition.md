@@ -4,7 +4,7 @@ slug: capricorn-dates-traits-persistent-ambition
 original_url: https://tarotflower.com/astrology/capricorn-dates-traits-persistent-ambition/
 date: 2023-05-22
 modified: 2023-05-22
-type: post
+content_type: post
 categories: [astrology]
 seo_title: "Capricorn Dates & Traits: Persistent Ambition | Tarot Flower"
 seo_description: "Capricorn is an Earth sign that falls between December 22 and January 19. People born under this sign are known for their ambition, discipline, and..."

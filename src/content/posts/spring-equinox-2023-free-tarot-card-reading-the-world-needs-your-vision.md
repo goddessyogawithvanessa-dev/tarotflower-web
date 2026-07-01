@@ -4,7 +4,7 @@ slug: spring-equinox-2023-free-tarot-card-reading-the-world-needs-your-vision
 original_url: https://tarotflower.com/daily-tarot/spring-equinox-2023-free-tarot-card-reading-the-world-needs-your-vision/
 date: 2023-03-20
 modified: 2023-04-25
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "Spring Equinox 2023 Free Tarot Card Reading - The World Needs Your Vision."
 seo_description: "What are you ready to release? Is there a darkness holding you back from true happiness? Discover your Spring Equinox 2023 messages from the Dark..."

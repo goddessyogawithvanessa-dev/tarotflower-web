@@ -4,7 +4,7 @@ slug: temperance-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/temperance-tarot/
 date: 2022-02-19
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "Temperance Tarot Card Meaning: The Magic of Transmutation | Tarot Flower"
 seo_description: "If you've pulled the beautiful Temperance tarot card in your reading, then you have some wonderful energies coming into your life. This major arcana..."

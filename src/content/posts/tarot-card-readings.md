@@ -4,7 +4,7 @@ slug: tarot-card-readings
 original_url: https://tarotflower.com/tarot-card-readings/
 date: 2023-12-13
 modified: 2025-06-01
-type: page
+content_type: page
 categories: []
 seo_title: "Tarot Card Readings | Tarot Flower"
 seo_description: "The magic isn’t in the cards. It’s in the connection."

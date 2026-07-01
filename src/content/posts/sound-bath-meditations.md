@@ -4,7 +4,7 @@ slug: sound-bath-meditations
 original_url: https://tarotflower.com/sound-bath-meditations/
 date: 2023-12-13
 modified: 2024-03-10
-type: page
+content_type: page
 categories: []
 seo_title: "Sound Bath Meditations | Tarot Flower"
 seo_description: "Relax deeply and go on a spiritual journey with a restorative 20 minute, personalized sound bath meditation. I will pull cards and channel the messages..."

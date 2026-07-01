@@ -4,7 +4,7 @@ slug: minor-arcana-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/minor-arcana-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings]
 seo_title: "The Minor Arcana of the Tarot | Tarot Flower"
 seo_description: "Tarot card meanings of the Minor Arcana consist of four suits: The Pentacles; The Wands; The Cups; and The Swords. These four suits correspond with the..."

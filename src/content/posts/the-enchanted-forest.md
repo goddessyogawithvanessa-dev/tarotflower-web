@@ -4,7 +4,7 @@ slug: the-enchanted-forest
 original_url: https://tarotflower.com/vanessas-musings/the-enchanted-forest/
 date: 2020-04-01
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "The Enchanted Forest | Tarot Flower"
 seo_description: "When we think of creating sacred space, we often imagine a place that provides us shelter, peace and security. But the further we journey along the..."

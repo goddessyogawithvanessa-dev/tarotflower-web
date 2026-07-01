@@ -4,7 +4,7 @@ slug: the-star-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-star-tarot/
 date: 2023-05-27
 modified: 2023-12-27
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Star Tarot Card Meaning: Wishes Come True | Tarot Flower"
 seo_description: "The Star tarot card is a message of hope and optimism after the trauma of The Tower. It represents healing and a deep connection to your true self...."

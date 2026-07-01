@@ -4,7 +4,7 @@ slug: shop
 original_url: https://tarotflower.com/shop/
 date: 2021-01-07
 modified: 2024-03-30
-type: page
+content_type: page
 categories: []
 seo_title: "Shop | Tarot Flower"
 seo_description: "Welcome to our divine feminine boutique, where you'll find everything you need to create sacred space for yourself and connect with your inner goddess!"

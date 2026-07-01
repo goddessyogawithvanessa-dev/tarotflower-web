@@ -4,7 +4,7 @@ slug: justice-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/justice-tarot/
 date: 2023-06-07
 modified: 2023-06-07
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Justice Tarot Card Meaning: Achieving Balance and Fairness | Tarot Flower"
 seo_description: "If you have been struggling with an injustice, the truth is about to be revealed. The Justice tarot card brings balance and karma and can represent the..."

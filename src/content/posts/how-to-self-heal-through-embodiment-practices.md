@@ -4,7 +4,7 @@ slug: how-to-self-heal-through-embodiment-practices
 original_url: https://tarotflower.com/embodiment/how-to-self-heal-through-embodiment-practices/
 date: 2021-11-13
 modified: 2021-11-13
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "How to Self Heal Through Embodiment Practices | Tarot Flower"
 seo_description: "Do you want to know who your best teacher, healer, mentor and guide is? Well, its you! And at our Goddess Yoga retreats, we will show you how to..."

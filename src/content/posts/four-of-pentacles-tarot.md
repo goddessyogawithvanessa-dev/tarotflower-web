@@ -4,7 +4,7 @@ slug: four-of-pentacles-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/four-of-pentacles-tarot/
 date: 2022-12-08
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Four of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Are you holding onto something too tightly? When you receive the Four of Pentacles tarot card in your tarot card reading, it can indicate that you are..."

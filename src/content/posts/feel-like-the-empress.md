@@ -4,7 +4,7 @@ slug: feel-like-the-empress
 original_url: https://tarotflower.com/news/feel-like-the-empress/
 date: 2023-01-03
 modified: 2023-02-05
-type: post
+content_type: post
 categories: [news]
 seo_title: "How YOU Can Feel Like The Empress - Sexy, Alluring and Abundant!"
 seo_description: "What if you could do more than just get tarot card readings, but actually embody all of her divine feminine qualities so that you feel like The Empress..."

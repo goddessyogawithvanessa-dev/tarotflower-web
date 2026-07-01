@@ -4,7 +4,7 @@ slug: the-empress-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-empress-tarot/
 date: 2021-01-14
 modified: 2023-05-25
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Empress Tarot Card Meaning: The Luxurious Divine Feminine | Tarot Flower"
 seo_description: "The Empress tarot card is the Venus of the tarot. She represents abundance, fertility, creativity, and beauty. She is the divine feminine archetype,..."

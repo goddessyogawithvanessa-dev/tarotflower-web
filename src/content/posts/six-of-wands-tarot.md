@@ -4,7 +4,7 @@ slug: six-of-wands-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/six-of-wands-tarot/
 date: 2022-12-18
 modified: 2023-05-16
-type: post
+content_type: post
 categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Six of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "The Six of Wands tarot card is associated with victory, accomplishment, and success. It symbolizes the recognition of hard work and efforts. This card..."

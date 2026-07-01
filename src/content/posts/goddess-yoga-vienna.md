@@ -4,7 +4,7 @@ slug: goddess-yoga-vienna
 original_url: https://tarotflower.com/goddess-yoga-vienna/
 date: 2023-12-01
 modified: 2024-03-24
-type: page
+content_type: page
 categories: []
 seo_title: "Goddess Yoga Vienna | Tarot Flower"
 seo_description: "[divi\\_events\\_list\\_booking \\_builder\\_version=\"4.24.2\" \\_module\\_preset=\"default\" global\\_colors\\_info=\"{}\"][/divi\\_events\\_list\\_booking]"

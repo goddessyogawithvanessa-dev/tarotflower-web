@@ -4,7 +4,7 @@ slug: astrology
 original_url: https://tarotflower.com/astrology/
 date: 2020-12-18
 modified: 2025-05-31
-type: page
+content_type: page
 categories: []
 seo_title: "Astrology – Journey Through the Zodiac Signs"
 seo_description: "Explore astrology through the lens of the zodiac sigan. Learn the meaning of each sign and deepen your connection to planetary cycles and archetypal wisdom.

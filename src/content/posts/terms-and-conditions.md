@@ -4,7 +4,7 @@ slug: terms-and-conditions
 original_url: https://tarotflower.com/terms-and-conditions/
 date: 2024-05-03
 modified: 2024-05-03
-type: page
+content_type: page
 categories: []
 seo_title: "Terms and Conditions | Tarot Flower"
 seo_description: "By signing up to be an Affiliate in the Tarot Flower Affiliate Program (\"Program\") you are agreeing to be bound by the following terms and conditions..."

@@ -4,7 +4,7 @@ slug: a-powerful-trio-of-opportunity
 original_url: https://tarotflower.com/daily-tarot/a-powerful-trio-of-opportunity/
 date: 2020-07-29
 modified: 2023-12-26
-type: post
+content_type: post
 categories: [daily-tarot, tarot-card-readings]
 seo_title: "A Powerful Trio of Opportunity | Tarot Flower"
 seo_description: "Venus emerges from her shadow today and The Sun, The Magician, and The Three of Pentacles herald the beginning of something new and beautiful in your..."

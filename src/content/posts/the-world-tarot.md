@@ -4,7 +4,7 @@ slug: the-world-tarot
 original_url: https://tarotflower.com/tarot-card-meanings/the-world-tarot/
 date: 2023-05-17
 modified: 2023-05-21
-type: post
+content_type: post
 categories: [major-arcana, tarot-card-meanings]
 seo_title: "The World Tarot Card Meaning: The Portal | Tarot Flower"
 seo_description: "When you arrive at The World card, your spiritual evolution through this chapter of your life is complete. When you get this Major Arcana card in your..."

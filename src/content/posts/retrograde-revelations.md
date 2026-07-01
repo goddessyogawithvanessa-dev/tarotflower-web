@@ -4,7 +4,7 @@ slug: retrograde-revelations
 original_url: https://tarotflower.com/vanessas-musings/retrograde-revelations/
 date: 2020-02-27
 modified: 2023-12-25
-type: post
+content_type: post
 categories: [vanessas-musings]
 seo_title: "Retrograde Revelations | Tarot Flower"
 seo_description: "A period of unavoidable stillness. Mercury churns in reverse through the dreamscape of Pisces. There is no unseeing what is being revealed. The chasm..."

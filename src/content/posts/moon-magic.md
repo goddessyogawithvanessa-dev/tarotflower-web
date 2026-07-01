@@ -4,7 +4,7 @@ slug: moon-magic
 original_url: https://tarotflower.com/moonmagic/moon-magic/
 date: 2022-12-19
 modified: 2023-01-16
-type: post
+content_type: post
 categories: [moonmagic]
 seo_title: "Moon Magic for Manifestation and Abundance | Tarot Flower"
 seo_description: "Are you looking to tap into your inner power and manifest your dreams with the help of the moon? If so, you may be interested in learning more about..."

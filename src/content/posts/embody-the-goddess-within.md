@@ -4,7 +4,7 @@ slug: embody-the-goddess-within
 original_url: https://tarotflower.com/embodiment/embody-the-goddess-within/
 date: 2021-09-19
 modified: 2021-09-19
-type: post
+content_type: post
 categories: [embodiment]
 seo_title: "Embody the Goddess Within | Tarot Flower"
 seo_description: "Are you watching others and comparing yourself to them? Are you trying to be something you know doesn't really align with your true self? When you..."
