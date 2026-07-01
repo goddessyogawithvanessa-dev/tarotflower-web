@@ -310,50 +310,64 @@ strong { color: #333; }
   font-size: 1em;
   text-decoration: none;
   font-family: 'Quattrocento', Georgia, serif;
+  transition: color 0.2s;
 }
 .arcana-right a:hover {
-  color: #2ea3f2;
+  color: #333;
+  text-decoration: none;
 }
 
-.suit-block {
-  margin-bottom: 1.5em;
+.suits-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 1em;
 }
-.suit-block > h3 a {
+.suit-col {
+  display: flex;
+  flex-direction: column;
+}
+.suit-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+.suit-title a {
   color: #333;
+  text-decoration: none;
 }
-.suit-block > h3 a:hover {
+.suit-title a:hover {
   color: #2ea3f2;
 }
-.card-grid {
+.suit-img-link {
+  display: block;
+  margin-bottom: 1em;
+}
+.suit-img-link img {
+  width: 100%;
+  border-radius: 0;
+  box-shadow: 4px 4px 14px rgba(0,0,0,0.12);
+  margin: 0;
+}
+.suit-img-link:hover img {
+  opacity: 0.9;
+}
+.suit-cards {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 1em 0 1.5em;
+  flex-direction: column;
 }
-.card-link {
-  display: inline-block;
-  padding: 8px 16px;
-  background: #f9f9f9;
-  border: 1px solid #e8e8e8;
-  border-radius: 4px;
-  color: #333;
-  font-family: 'Aboreto', serif;
-  font-size: 1.05em;
-  text-decoration: none;
-  transition: all 0.2s;
-}
-.card-link:hover {
-  background: #2ea3f2;
-  color: #fff;
-  border-color: #2ea3f2;
-  text-decoration: none;
-}
-.suit-grid {
-  gap: 6px;
-}
-.suit-grid .card-link {
+.suit-cards a {
+  display: block;
+  padding: 4px 0;
+  color: #7a2740;
   font-size: 0.95em;
-  padding: 6px 12px;
+  text-decoration: none;
+  font-family: 'Quattrocento', Georgia, serif;
+}
+.suit-cards a:hover {
+  color: #2ea3f2;
 }
 
 .recent-posts {
@@ -634,6 +648,7 @@ footer {
   .zodiac-grid { grid-template-columns: 1fr; }
   .arcana-layout { grid-template-columns: 1fr; }
   .arcana-right { grid-template-columns: 1fr; }
+  .suits-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .banner { height: 200px; }
   .footer-inner {
     grid-template-columns: 1fr;
