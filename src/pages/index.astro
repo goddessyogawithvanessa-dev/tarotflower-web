@@ -3,10 +3,6 @@ import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
 const posts = await getCollection('posts');
-const recentPosts = posts
-  .filter(p => p.data.content_type === 'post')
-  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
-  .slice(0, 6);
 
 const majorArcana = [
   { name: 'The Fool', slug: 'the-fool-tarot' },
@@ -65,15 +61,15 @@ function cardSlug(rank: string, suit: string) {
         </div>
       </details>
     </section>
-  </div>
 
-  <section class="arcana-section">
-    <div class="arcana-inner">
+    <section class="arcana-section">
       <h2>The Major Arcana</h2>
       <h3 class="arcana-subtitle">The great archetypes of the Tarot</h3>
       <div class="arcana-layout">
         <div class="arcana-left">
-          <img src="/images/2021/01/Major-Arcana-e1610542977417.jpg" alt="The Major Arcana tarot cards" />
+          <a href="/major-arcana-2" class="suit-img-link">
+            <img src="/images/2021/01/Major-Arcana-e1610542977417.jpg" alt="The Major Arcana tarot cards" />
+          </a>
         </div>
         <div class="arcana-right">
           {majorArcana.map(card => (
@@ -81,11 +77,9 @@ function cardSlug(rank: string, suit: string) {
           ))}
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="arcana-section">
-    <div class="arcana-inner">
+    <section class="arcana-section">
       <h2>The Minor Arcana</h2>
       <h3 class="arcana-subtitle">The four suits of the Tarot</h3>
       <div class="suits-grid">
@@ -101,21 +95,6 @@ function cardSlug(rank: string, suit: string) {
               ))}
             </div>
           </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <div class="container homepage">
-
-    <section class="recent-posts">
-      <h2>Recent from the Journal</h2>
-      <div class="posts-grid">
-        {recentPosts.map(post => (
-          <a href={`/${post.data.slug}`} class="post-card">
-            <h3>{post.data.title}</h3>
-            <span class="post-date">{new Date(post.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-          </a>
         ))}
       </div>
     </section>
