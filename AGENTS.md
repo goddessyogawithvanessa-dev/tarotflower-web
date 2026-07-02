@@ -249,3 +249,9 @@ This is what has been done during the migration from WordPress. Use this as cont
 - Contact form backend (`functions/api/contact.js`) needs to be created at DNS cutover time
 - Product Stripe links are placeholders — need real links from Vanessa
 - Decap CMS GitHub OAuth app needs to be registered for production use
+- Add Blair's Cloudflare account as a member on Vanessa's Cloudflare account (so wrangler can check builds with `--account-id`)
+- Or: create a Cloudflare API token scoped to her account and set it as `CLOUDFLARE_API_TOKEN` locally
+- DNS cutover: point tarotflower.com to Cloudflare Pages, add MailChannels DNS records for contact form email
+- Confirm Vanessa's email address for contact form delivery
+- Monitor for 404s first week after go-live
+- Cancel WordPress hosting once stable
