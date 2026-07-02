@@ -12,18 +12,156 @@ const { title, description = '' } = Astro.props;
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
+  <link rel="icon" type="image/jpeg" sizes="32x32" href="/favicon.jpg" />
+  <link rel="icon" type="image/jpeg" sizes="192x192" href="/favicon-192x192.jpg" />
   {description && <meta name="description" content={description} />}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Aboreto&family=Quattrocento:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/styles/mmenu-light.css" />
   <link rel="stylesheet" href="/styles/global.css" />
 </head>
 <body>
   <div class="banner">
     <a href="/"><img src="/images/2024/03/TF-Header-2024-Dandelion.jpeg" alt="Tarot Flower" /></a>
   </div>
-  <nav>
+  <nav id="mobile-nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/tarot-card-readings">Tarot Card Readings</a>
+        <ul>
+          <li><a href="/free-tarot-card-readings">Free Tarot Card Readings</a></li>
+          <li><a href="/melissa-warwood-tantric-tarot">Tantric Tarot by Melissa</a></li>
+        </ul>
+      </li>
+      <li><a href="/tarot-card-meanings">Tarot Card Meanings</a>
+        <ul>
+          <li><a href="/major-arcana-2">Major Arcana</a>
+            <ul>
+              <li><a href="/the-fool-tarot">The Fool</a></li>
+              <li><a href="/the-magician-tarot">The Magician</a></li>
+              <li><a href="/the-high-priestess-tarot">The High Priestess</a></li>
+              <li><a href="/the-empress-tarot">The Empress</a></li>
+              <li><a href="/the-emperor-tarot">The Emperor</a></li>
+              <li><a href="/the-hierophant-tarot">The Hierophant</a></li>
+              <li><a href="/the-lovers-tarot">The Lovers</a></li>
+              <li><a href="/the-chariot-tarot">The Chariot</a></li>
+              <li><a href="/strength-tarot">Strength</a></li>
+              <li><a href="/the-hermit-tarot">The Hermit</a></li>
+              <li><a href="/the-wheel-of-fortune-tarot">The Wheel of Fortune</a></li>
+              <li><a href="/justice-tarot">Justice</a></li>
+              <li><a href="/the-hanged-man-tarot">The Hanged Man</a></li>
+              <li><a href="/death-tarot">Death</a></li>
+              <li><a href="/temperance-tarot">Temperance</a></li>
+              <li><a href="/the-devil-tarot">The Devil</a></li>
+              <li><a href="/the-tower-tarot">The Tower</a></li>
+              <li><a href="/the-star-tarot">The Star</a></li>
+              <li><a href="/the-moon-tarot">The Moon</a></li>
+              <li><a href="/the-sun-tarot">The Sun</a></li>
+              <li><a href="/judgement-tarot">Judgement</a></li>
+              <li><a href="/the-world-tarot">The World</a></li>
+            </ul>
+          </li>
+          <li><a href="/minor-arcana">Minor Arcana</a>
+            <ul>
+              <li><a href="/cups-tarot">Cups</a>
+                <ul>
+                  <li><a href="/ace-of-cups-tarot">Ace of Cups</a></li>
+                  <li><a href="/two-of-cups-tarot">Two of Cups</a></li>
+                  <li><a href="/three-of-cups-tarot">Three of Cups</a></li>
+                  <li><a href="/four-of-cups-tarot">Four of Cups</a></li>
+                  <li><a href="/five-of-cups-tarot">Five of Cups</a></li>
+                  <li><a href="/six-of-cups-tarot">Six of Cups</a></li>
+                  <li><a href="/seven-of-cups-tarot">Seven of Cups</a></li>
+                  <li><a href="/eight-of-cups-tarot">Eight of Cups</a></li>
+                  <li><a href="/nine-of-cups-tarot">Nine of Cups</a></li>
+                  <li><a href="/ten-of-cups-tarot">Ten of Cups</a></li>
+                  <li><a href="/page-of-cups-tarot">Page of Cups</a></li>
+                  <li><a href="/knight-of-cups-tarot">Knight of Cups</a></li>
+                  <li><a href="/queen-of-cups-tarot">Queen of Cups</a></li>
+                  <li><a href="/king-of-cups-tarot">King of Cups</a></li>
+                </ul>
+              </li>
+              <li><a href="/pentacles-tarot">Pentacles</a>
+                <ul>
+                  <li><a href="/ace-of-pentacles-tarot">Ace of Pentacles</a></li>
+                  <li><a href="/two-of-pentacles-tarot">Two of Pentacles</a></li>
+                  <li><a href="/three-of-pentacles-tarot">Three of Pentacles</a></li>
+                  <li><a href="/four-of-pentacles-tarot">Four of Pentacles</a></li>
+                  <li><a href="/five-of-pentacles-tarot">Five of Pentacles</a></li>
+                  <li><a href="/six-of-pentacles-tarot">Six of Pentacles</a></li>
+                  <li><a href="/seven-of-pentacles-tarot">Seven of Pentacles</a></li>
+                  <li><a href="/eight-of-pentacles-tarot">Eight of Pentacles</a></li>
+                  <li><a href="/nine-of-pentacles-tarot">Nine of Pentacles</a></li>
+                  <li><a href="/ten-of-pentacles-tarot">Ten of Pentacles</a></li>
+                  <li><a href="/page-of-pentacles-tarot">Page of Pentacles</a></li>
+                  <li><a href="/knight-of-pentacles-tarot">Knight of Pentacles</a></li>
+                  <li><a href="/queen-of-pentacles-tarot">Queen of Pentacles</a></li>
+                  <li><a href="/king-of-pentacles-tarot">King of Pentacles</a></li>
+                </ul>
+              </li>
+              <li><a href="/swords-tarot">Swords</a>
+                <ul>
+                  <li><a href="/ace-of-swords-tarot">Ace of Swords</a></li>
+                  <li><a href="/two-of-swords-tarot">Two of Swords</a></li>
+                  <li><a href="/three-of-swords-tarot">Three of Swords</a></li>
+                  <li><a href="/four-of-swords-tarot">Four of Swords</a></li>
+                  <li><a href="/five-of-swords-tarot">Five of Swords</a></li>
+                  <li><a href="/six-of-swords-tarot">Six of Swords</a></li>
+                  <li><a href="/seven-of-swords-tarot">Seven of Swords</a></li>
+                  <li><a href="/eight-of-swords-tarot">Eight of Swords</a></li>
+                  <li><a href="/nine-of-swords-tarot">Nine of Swords</a></li>
+                  <li><a href="/ten-of-swords-tarot">Ten of Swords</a></li>
+                  <li><a href="/page-of-swords-tarot">Page of Swords</a></li>
+                  <li><a href="/knight-of-swords-tarot">Knight of Swords</a></li>
+                  <li><a href="/queen-of-swords-tarot">Queen of Swords</a></li>
+                  <li><a href="/king-of-swords-tarot">King of Swords</a></li>
+                </ul>
+              </li>
+              <li><a href="/wands-tarot">Wands</a>
+                <ul>
+                  <li><a href="/ace-of-wands-tarot">Ace of Wands</a></li>
+                  <li><a href="/two-of-wands-tarot">Two of Wands</a></li>
+                  <li><a href="/three-of-wands-tarot">Three of Wands</a></li>
+                  <li><a href="/four-of-wands-tarot">Four of Wands</a></li>
+                  <li><a href="/five-of-wands-tarot">Five of Wands</a></li>
+                  <li><a href="/six-of-wands-tarot">Six of Wands</a></li>
+                  <li><a href="/seven-of-wands-tarot">Seven of Wands</a></li>
+                  <li><a href="/eight-of-wands-tarot">Eight of Wands</a></li>
+                  <li><a href="/nine-of-wands-tarot">Nine of Wands</a></li>
+                  <li><a href="/ten-of-wands-tarot">Ten of Wands</a></li>
+                  <li><a href="/page-of-wands-tarot">Page of Wands</a></li>
+                  <li><a href="/knight-of-wands-tarot">Knight of Wands</a></li>
+                  <li><a href="/queen-of-wands-tarot">Queen of Wands</a></li>
+                  <li><a href="/king-of-wands-tarot">King of Wands</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="/moon-magic-spells">Spells &amp; Rituals</a></li>
+      <li><a href="/astrology">Astrology &amp; Zodiac</a></li>
+      <li><a href="/daily-tarot">Witch's Journal</a></li>
+      <li><a href="/shop">Shop</a></li>
+    </ul>
+  </nav>
+  <a href="#mobile-nav" class="hamburger">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/>
+    </svg>
+  </a>
+
+  <svg style="display:none">
+    <filter id="btn-glass">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="3" result="noise"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" result="blur"/>
+      <feDisplacementMap in="blur" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </svg>
+
+  <nav class="desktop-nav">
     <div class="nav-inner">
       <a href="/">Home</a>
       <div class="nav-dropdown">
@@ -69,18 +207,85 @@ const { title, description = '' } = Astro.props;
             <a href="/the-world-tarot">The World</a>
           </div>
           <div class="mega-panel" id="panel-minor">
-            <a href="/cups-tarot">Cups</a>
-            <a href="/pentacles-tarot">Pentacles</a>
-            <a href="/swords-tarot">Swords</a>
-            <a href="/wands-tarot">Wands</a>
+            <div class="mega-categories suit-cats">
+              <div class="mega-cat" data-panel="suit-cups"><a href="/cups-tarot">Cups <span class="caret">&#9662;</span></a></div>
+              <div class="mega-cat" data-panel="suit-pentacles"><a href="/pentacles-tarot">Pentacles <span class="caret">&#9662;</span></a></div>
+              <div class="mega-cat" data-panel="suit-swords"><a href="/swords-tarot">Swords <span class="caret">&#9662;</span></a></div>
+              <div class="mega-cat" data-panel="suit-wands"><a href="/wands-tarot">Wands <span class="caret">&#9662;</span></a></div>
+            </div>
+            <div class="mega-panel suit-panel" id="panel-suit-cups">
+              <a href="/ace-of-cups-tarot">Ace of Cups</a>
+              <a href="/two-of-cups-tarot">Two of Cups</a>
+              <a href="/three-of-cups-tarot">Three of Cups</a>
+              <a href="/four-of-cups-tarot">Four of Cups</a>
+              <a href="/five-of-cups-tarot">Five of Cups</a>
+              <a href="/six-of-cups-tarot">Six of Cups</a>
+              <a href="/seven-of-cups-tarot">Seven of Cups</a>
+              <a href="/eight-of-cups-tarot">Eight of Cups</a>
+              <a href="/nine-of-cups-tarot">Nine of Cups</a>
+              <a href="/ten-of-cups-tarot">Ten of Cups</a>
+              <a href="/page-of-cups-tarot">Page of Cups</a>
+              <a href="/knight-of-cups-tarot">Knight of Cups</a>
+              <a href="/queen-of-cups-tarot">Queen of Cups</a>
+              <a href="/king-of-cups-tarot">King of Cups</a>
+            </div>
+            <div class="mega-panel suit-panel" id="panel-suit-pentacles">
+              <a href="/ace-of-pentacles-tarot">Ace of Pentacles</a>
+              <a href="/two-of-pentacles-tarot">Two of Pentacles</a>
+              <a href="/three-of-pentacles-tarot">Three of Pentacles</a>
+              <a href="/four-of-pentacles-tarot">Four of Pentacles</a>
+              <a href="/five-of-pentacles-tarot">Five of Pentacles</a>
+              <a href="/six-of-pentacles-tarot">Six of Pentacles</a>
+              <a href="/seven-of-pentacles-tarot">Seven of Pentacles</a>
+              <a href="/eight-of-pentacles-tarot">Eight of Pentacles</a>
+              <a href="/nine-of-pentacles-tarot">Nine of Pentacles</a>
+              <a href="/ten-of-pentacles-tarot">Ten of Pentacles</a>
+              <a href="/page-of-pentacles-tarot">Page of Pentacles</a>
+              <a href="/knight-of-pentacles-tarot">Knight of Pentacles</a>
+              <a href="/queen-of-pentacles-tarot">Queen of Pentacles</a>
+              <a href="/king-of-pentacles-tarot">King of Pentacles</a>
+            </div>
+            <div class="mega-panel suit-panel" id="panel-suit-swords">
+              <a href="/ace-of-swords-tarot">Ace of Swords</a>
+              <a href="/two-of-swords-tarot">Two of Swords</a>
+              <a href="/three-of-swords-tarot">Three of Swords</a>
+              <a href="/four-of-swords-tarot">Four of Swords</a>
+              <a href="/five-of-swords-tarot">Five of Swords</a>
+              <a href="/six-of-swords-tarot">Six of Swords</a>
+              <a href="/seven-of-swords-tarot">Seven of Swords</a>
+              <a href="/eight-of-swords-tarot">Eight of Swords</a>
+              <a href="/nine-of-swords-tarot">Nine of Swords</a>
+              <a href="/ten-of-swords-tarot">Ten of Swords</a>
+              <a href="/page-of-swords-tarot">Page of Swords</a>
+              <a href="/knight-of-swords-tarot">Knight of Swords</a>
+              <a href="/queen-of-swords-tarot">Queen of Swords</a>
+              <a href="/king-of-swords-tarot">King of Swords</a>
+            </div>
+            <div class="mega-panel suit-panel" id="panel-suit-wands">
+              <a href="/ace-of-wands-tarot">Ace of Wands</a>
+              <a href="/two-of-wands-tarot">Two of Wands</a>
+              <a href="/three-of-wands-tarot">Three of Wands</a>
+              <a href="/four-of-wands-tarot">Four of Wands</a>
+              <a href="/five-of-wands-tarot">Five of Wands</a>
+              <a href="/six-of-wands-tarot">Six of Wands</a>
+              <a href="/seven-of-wands-tarot">Seven of Wands</a>
+              <a href="/eight-of-wands-tarot">Eight of Wands</a>
+              <a href="/nine-of-wands-tarot">Nine of Wands</a>
+              <a href="/ten-of-wands-tarot">Ten of Wands</a>
+              <a href="/page-of-wands-tarot">Page of Wands</a>
+              <a href="/knight-of-wands-tarot">Knight of Wands</a>
+              <a href="/queen-of-wands-tarot">Queen of Wands</a>
+              <a href="/king-of-wands-tarot">King of Wands</a>
+            </div>
           </div>
         </div>
       </div>
       <a href="/moon-magic-spells">Spells &amp; Rituals</a>
       <a href="/astrology">Astrology &amp; Zodiac</a>
       <a href="/daily-tarot">Witch's Journal</a>
+      <a href="/shop">Shop</a>
     </div>
-  </nav>
+  </nav><!-- end desktop-nav -->
 
   <slot />
 
@@ -123,24 +328,46 @@ const { title, description = '' } = Astro.props;
       <p>&copy; {new Date().getFullYear()} Tarot Flower &middot; All Rights Reserved &middot; <a href="/terms-and-conditions">Privacy Policy</a> &middot; Site by Vanessa Hylande</p>
     </div>
   </footer>
-  <script>
-    document.querySelectorAll('.mega-cat').forEach(cat => {
-      cat.addEventListener('mouseenter', () => {
-        const panel = cat.getAttribute('data-panel');
-        const menu = cat.closest('.dropdown-mega');
-        menu.querySelectorAll('.mega-panel').forEach(p => p.classList.remove('active'));
-        menu.querySelector('#panel-' + panel)?.classList.add('active');
-        menu.querySelectorAll('.mega-cat').forEach(c => c.classList.remove('active'));
-        cat.classList.add('active');
+  <script src="/scripts/mmenu-light.js" is:inline></script>
+  <script is:inline>
+    // Desktop: mega menu hover behavior
+    document.querySelectorAll('.desktop-nav .mega-categories').forEach(catGroup => {
+      catGroup.querySelectorAll('.mega-cat').forEach(cat => {
+        cat.addEventListener('mouseenter', () => {
+          const panel = cat.getAttribute('data-panel');
+          const container = catGroup.parentElement;
+          container.querySelectorAll(':scope > .mega-panel').forEach(p => p.classList.remove('active'));
+          container.querySelector('#panel-' + panel)?.classList.add('active');
+          catGroup.querySelectorAll('.mega-cat').forEach(c => c.classList.remove('active'));
+          cat.classList.add('active');
+        });
       });
     });
-    document.querySelectorAll('.dropdown-mega').forEach(menu => {
-      menu.addEventListener('mouseenter', () => {
-        if (!menu.querySelector('.mega-cat.active')) {
-          menu.querySelector('.mega-cat')?.classList.add('active');
-          menu.querySelector('.mega-panel')?.classList.add('active');
+    document.querySelectorAll('.desktop-nav #panel-minor').forEach(minor => {
+      minor.addEventListener('mouseenter', () => {
+        const cats = minor.querySelector('.suit-cats');
+        if (cats && !cats.querySelector('.mega-cat.active')) {
+          cats.querySelector('.mega-cat')?.classList.add('active');
+          minor.querySelector('.suit-panel')?.classList.add('active');
         }
       });
+    });
+    document.querySelectorAll('.desktop-nav .dropdown-mega').forEach(menu => {
+      menu.addEventListener('mouseenter', () => {
+        if (!menu.querySelector(':scope > .mega-categories > .mega-cat.active')) {
+          menu.querySelector(':scope > .mega-categories > .mega-cat')?.classList.add('active');
+          menu.querySelector(':scope > .mega-panel')?.classList.add('active');
+        }
+      });
+    });
+
+    // Mobile: mmenu-light
+    var menu = new MmenuLight(document.querySelector('#mobile-nav'), '(max-width: 768px)');
+    var navigator = menu.navigation({ title: 'Tarot Flower', theme: 'light' });
+    var drawer = menu.offcanvas({ position: 'left' });
+    document.querySelector('a.hamburger')?.addEventListener('click', (e) => {
+      e.preventDefault();
+      drawer.open();
     });
   </script>
 </body>
