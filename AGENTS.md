@@ -186,7 +186,7 @@ Push to `main` on GitHub triggers Cloudflare Pages auto-build. Build command: `n
 ## Rules for AI Assistants
 
 1. **Only modify what is asked.** Do not make unrelated changes, cleanups, or improvements.
-2. **Do not build or push unless explicitly told to.** The user will say when to build and when to push.
+2. **Do not build or push unless explicitly told to.** Never run `npm run build`, `git commit`, `git push`, or deploy commands until the user says to. This is a hard rule — no exceptions, no "just checking," no "I'll do it to verify." Wait for the words.
 3. **Do not redesign.** This is a migrated WordPress site. Changes should preserve the existing look and feel unless the user explicitly asks for a design change.
 4. **Do not add `# Title` headings** to content markdown. The layout renders the title.
 5. **Container width is sacred.** All pages use `.container { width: 80%; max-width: 1080px }`. Do not add per-page width overrides.
