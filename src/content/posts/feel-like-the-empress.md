@@ -10,7 +10,7 @@ seo_title: "How YOU Can Feel Like The Empress - Sexy, Alluring and Abundant!"
 seo_description: "What if you could do more than just get tarot card readings, but actually embody all of her divine feminine qualities so that you feel like The Empress..."
 ---
 
-What if you could do more than just get tarot card readings, but actually *embody* all of her divine feminine qualities so that you *feel* like [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/) instead? She is sexy, alluring, creative and abundant. She is the sacred seductress, the mother of the tarot, the Goddess Venus. And she is an archetype that you can learn to embody if you have the tools. So, are you ready to awaken your divine feminine? It's time to give yourself permission to shine, Goddess!
+What if you could do more than just get tarot card readings, but actually *embody* all of her divine feminine qualities so that you *feel* like [The Empress](/the-empress-tarot) instead? She is sexy, alluring, creative and abundant. She is the sacred seductress, the mother of the tarot, the Goddess Venus. And she is an archetype that you can learn to embody if you have the tools. So, are you ready to awaken your divine feminine? It's time to give yourself permission to shine, Goddess!
 
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
@@ -32,7 +32,7 @@ Imagine exploring your divine feminine in the beautiful Italian Alps, swimming i
 
 ![moon magic circles mystical goddess yoga retreat divine feminine](/images/2022/12/29.jpg)
 
-When we connect to our inner divine feminine, we also connect with our own intuition. And like [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/), we will make magic moon circles and come together in an ecstatic dance and trance dance party to help us to journey with our intuition so that we can receive messages from the divine. And all of this in a safe and supportive environment.
+When we connect to our inner divine feminine, we also connect with our own intuition. And like [The High Priestess](/the-high-priestess-tarot), we will make magic moon circles and come together in an ecstatic dance and trance dance party to help us to journey with our intuition so that we can receive messages from the divine. And all of this in a safe and supportive environment.
 
 So, if you're curious about exploring Italy, and want to connect to your inner divine feminine through tarot card readings, moon magic circles, yoga, dance and more, then you will love the "[Embodying the Divine Feminine](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)" women's wellness retreat. [Early bird discount](https://goddess-yoga-retreat.com/embodying-the-divine-feminine-book-now/) if you sign up now!
 

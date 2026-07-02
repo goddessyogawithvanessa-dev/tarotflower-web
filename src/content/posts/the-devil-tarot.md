@@ -1,7 +1,7 @@
 ---
 title: "The Devil Tarot Card Meaning: Breaking the Chains"
 slug: the-devil-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-devil-tarot/
+original_url: /the-devil-tarot
 date: 2023-05-17
 modified: 2023-05-24
 content_type: post
@@ -43,7 +43,7 @@ On a lighter note, the meaning of the Devil tarot card can also indicate an extr
 
 ![the Devil tarot card meanings, major arcana, midjourney art by Vanessa Hylande](/images/2022/04/devil-2.jpg)
 
-The Devil Tarot Card is thefifteenth card of the Major Arcana, after the [Temperance](https://tarotflower.com/tarot-card-meanings/temperance-tarot/) card. It is one of the most misunderstood cards in the tarot deck. In fact, it embodies human desires,especially material ones and physical pleasures. At its core, the meaning of the Devil tarot card highlights somewhat negative, deep and dark human feelings such as temptation, addiction, obsessions, dependency, and depression.
+The Devil Tarot Card is thefifteenth card of the Major Arcana, after the [Temperance](/temperance-tarot) card. It is one of the most misunderstood cards in the tarot deck. In fact, it embodies human desires,especially material ones and physical pleasures. At its core, the meaning of the Devil tarot card highlights somewhat negative, deep and dark human feelings such as temptation, addiction, obsessions, dependency, and depression.
 
 A card of illusion, it is a sign of how these negative feelings can make you lose control. When you receive it, it is telling you that you are the only one responsible for your choice to have become a slave to your own desires. It urges you to ask yourself how your shadow manifests in your life. The Devil Tarot card also urges you to try to defeat the attachments you are clinging to. You are more powerful than your inner shadow.
 

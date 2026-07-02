@@ -10,8 +10,6 @@ seo_title: "Goddess Community | Tarot Flower"
 seo_description: "Throughout the year we gather for amazing divine feminine retreats with Tarot, yoga, dance, ritual and more! And when we can't travel to get together,..."
 ---
 
-# The Goddess Community
-
 ## Live Events for Body, Mind & Spirit
 
 ## Divine Feminine Retreats, Workshops, Online Circles and More!

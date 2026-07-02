@@ -10,8 +10,6 @@ seo_title: "Goddess Yoga Vienna | Tarot Flower"
 seo_description: "[divi\\_events\\_list\\_booking \\_builder\\_version=\"4.24.2\" \\_module\\_preset=\"default\" global\\_colors\\_info=\"{}\"][/divi\\_events\\_list\\_booking]"
 ---
 
-# Goddess Yoga Vienna
-
 ## In the Historic 1st District
 
 [divi\_events\_list\_booking \_builder\_version="4.24.2" \_module\_preset="default" global\_colors\_info="{}"][/divi\_events\_list\_booking]![](/images/2023/11/1st-district-e1616088180525.jpeg)

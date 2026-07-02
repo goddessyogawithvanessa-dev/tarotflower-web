@@ -1,7 +1,7 @@
 ---
 title: "The Five of Swords Tarot Card Meaning"
 slug: five-of-swords-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/five-of-swords-tarot/
+original_url: /five-of-swords-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

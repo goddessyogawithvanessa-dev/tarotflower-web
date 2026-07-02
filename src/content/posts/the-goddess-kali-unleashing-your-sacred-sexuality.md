@@ -1,7 +1,7 @@
 ---
 title: "The Goddess Kali: Unleashing Your Sacred Sexuality"
 slug: the-goddess-kali-unleashing-your-sacred-sexuality
-original_url: https://tarotflower.com/daily-tarot/the-goddess-kali-unleashing-your-sacred-sexuality/
+original_url: /the-goddess-kali-unleashing-your-sacred-sexuality
 date: 2023-06-12
 modified: 2023-06-13
 content_type: post

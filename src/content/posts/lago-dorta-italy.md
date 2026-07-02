@@ -10,8 +10,6 @@ seo_title: "Lago d'Orta, Italy | Tarot Flower"
 seo_description: "Experience the magic of Lago d'Orta, one of the most serene and picturesque lakes in Italy. For 5 days and 6 nights, we'll start our days with Goddess..."
 ---
 
-# Lago d'Orta, Italy
-
 ### Land of the Dragons
 
 **A Wonderful Week of:**
@@ -36,7 +34,7 @@ Experience the magic of Lago d'Orta, one of the most serene and picturesque lake
 
 ![](/images/2023/11/Mystic-Sisters-Deck.gif)![Stephanie Tack somatics goddess yoga](/images/2023/11/steph-dancing-e1681825186440.jpeg)![Vanessa Hylande Goddess Yoga Retreats](/images/2023/11/Standing-split-1.jpg)![aromatherapy essential oils goddess yoga](/images/2023/11/91.jpg)
 
-We'll also host regular Tarot Salons, where we delve into the magic of [Divine Feminine Tarot](https://tarotflower.com/daily-tarot/what-is-divine-feminine-tarot-empowering-your-inner-goddess/) through tarot card readings and embodiment practices. We will be tapping into our intuition and deepening our connection to the universe. Our sacred goddess circles and moon magic rituals will help us connect with each other and the divine feminine energy that flows through us.
+We'll also host regular Tarot Salons, where we delve into the magic of [Divine Feminine Tarot](/what-is-divine-feminine-tarot-empowering-your-inner-goddess) through tarot card readings and embodiment practices. We will be tapping into our intuition and deepening our connection to the universe. Our sacred goddess circles and moon magic rituals will help us connect with each other and the divine feminine energy that flows through us.
 
 But that's not all - we'll also have the opportunity to make our own DIY beauty care products with essential oils, enjoy luxurious manicures and pedicures, and receive bodywork to help us feel our best.
 

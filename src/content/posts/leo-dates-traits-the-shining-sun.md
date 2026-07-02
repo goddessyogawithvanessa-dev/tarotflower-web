@@ -1,7 +1,7 @@
 ---
 title: "Leo Dates & Traits: The Shining Sun"
 slug: leo-dates-traits-the-shining-sun
-original_url: https://tarotflower.com/astrology/leo-dates-traits-the-shining-sun/
+original_url: /leo-dates-traits-the-shining-sun
 date: 2023-05-18
 modified: 2023-05-18
 content_type: post
@@ -75,7 +75,7 @@ Leo in love and relationships is passionate, devoted, and full of warmth. As a n
 
 ![Aries dates and traits, Aries compatibility zodiac astrology, aries star sign, midjourney art Vanessa Hylande](/images/2023/04/aries-2.jpg)
 
-[Aries](https://tarotflower.com/astrology/aries-dates-traits-the-fearless-ram/) and Leo share a dynamic and fiery connection fueled by passion and excitement. Both signs have strong personalities and an innate drive for leadership. Their relationship is characterized by high energy, spontaneity, and a shared sense of adventure. They inspire and motivate each other, always pushing the boundaries of what is possible.
+[Aries](/aries-dates-traits-the-fearless-ram) and Leo share a dynamic and fiery connection fueled by passion and excitement. Both signs have strong personalities and an innate drive for leadership. Their relationship is characterized by high energy, spontaneity, and a shared sense of adventure. They inspire and motivate each other, always pushing the boundaries of what is possible.
 
 However, clashes of ego and a competitive nature can occasionally arise, requiring both partners to practice patience and compromise to maintain a healthy balance.
 
@@ -83,7 +83,7 @@ However, clashes of ego and a competitive nature can occasionally arise, requiri
 
 ![taurus dates and traits, taurus compatibility, taurus personality, astrology, midjourney art by Vanessa Hylande](/images/2023/04/taurus-2.jpg)
 
-[Taurus](https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/) and Leo create a harmonious union that combines stability and creativity. Taurus provides a solid foundation with their grounded nature and practical approach to life, while Leo brings excitement and enthusiasm. They share a deep appreciation for the finer things in life and enjoy indulging in luxury and sensual pleasures together. Both signs value loyalty and commitment, which forms the bedrock of their relationship.
+[Taurus](/taurus-dates-traits-the-loyal-dependable-romantic) and Leo create a harmonious union that combines stability and creativity. Taurus provides a solid foundation with their grounded nature and practical approach to life, while Leo brings excitement and enthusiasm. They share a deep appreciation for the finer things in life and enjoy indulging in luxury and sensual pleasures together. Both signs value loyalty and commitment, which forms the bedrock of their relationship.
 
 However, stubbornness and a clash of egos can pose challenges, necessitating open communication and a willingness to compromise.
 
@@ -91,7 +91,7 @@ However, stubbornness and a clash of egos can pose challenges, necessitating ope
 
 ![Gemini dates and traits, Gemini zodiac, Gemini personality, Gemini compatibility, Midjourney art by Vanessa Hylande](/images/2023/04/gemini-v2.jpg)
 
-Leo and [Gemini](https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/) form a magnetic and intellectually stimulating partnership. Both signs are social butterflies who enjoy engaging in stimulating conversations and embarking on exciting adventures. They inspire each other's creativity and bring a sense of fun and playfulness to their relationship. Leo's warmth and generosity complement Gemini's quick wit and adaptability.
+Leo and [Gemini](/gemini-dates-traits-the-clever-twins) form a magnetic and intellectually stimulating partnership. Both signs are social butterflies who enjoy engaging in stimulating conversations and embarking on exciting adventures. They inspire each other's creativity and bring a sense of fun and playfulness to their relationship. Leo's warmth and generosity complement Gemini's quick wit and adaptability.
 
 However, Leo's desire for attention and admiration may clash with Gemini's need for freedom and independence, requiring both partners to find a balance between individuality and togetherness.
 
@@ -99,7 +99,7 @@ However, Leo's desire for attention and admiration may clash with Gemini's need 
 
 ![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](/images/2023/04/cancer-4.jpg)
 
-Leo and [Cancer](https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/) create a beautiful and nurturing connection that blends passion and emotional depth. Leo's fiery energy is tempered by Cancer's sensitivity and intuitive nature. They share a profound emotional bond and support each other through thick and thin. Leo's charisma and protective instincts make Cancer feel secure and cherished, while Cancer's empathy and nurturing qualities make Leo feel understood and valued.
+Leo and [Cancer](/cancer-dates-traits-the-sensitive-intuitive) create a beautiful and nurturing connection that blends passion and emotional depth. Leo's fiery energy is tempered by Cancer's sensitivity and intuitive nature. They share a profound emotional bond and support each other through thick and thin. Leo's charisma and protective instincts make Cancer feel secure and cherished, while Cancer's empathy and nurturing qualities make Leo feel understood and valued.
 
 However, Leo's need for independence and Cancer's occasional moodiness can lead to challenges that require open communication and mutual understanding.
 

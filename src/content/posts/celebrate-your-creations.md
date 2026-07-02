@@ -1,7 +1,7 @@
 ---
 title: "Celebrate Your Creations!"
 slug: celebrate-your-creations
-original_url: https://tarotflower.com/daily-tarot/celebrate-your-creations/
+original_url: /celebrate-your-creations
 date: 2020-07-14
 modified: 2023-04-25
 content_type: post

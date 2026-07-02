@@ -1,7 +1,7 @@
 ---
 title: "Affirmation for Abundance: I Celebrate My Creations"
 slug: affirmation-for-abundance-i-celebrate-my-creations
-original_url: https://tarotflower.com/daily-tarot/affirmation-for-abundance-i-celebrate-my-creations/
+original_url: /affirmation-for-abundance-i-celebrate-my-creations
 date: 2021-02-28
 modified: 2023-04-25
 content_type: post
@@ -14,7 +14,7 @@ seo_description: "Take this positive affirmation for abundance into your hands a
 
 Take this positive **affirmation for abundance** into your hands and watch it grow as you celebrate your creations!
 
-[The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/) takes the time to smell the flowers. She practices gratitude for the beautiful and joyful things in her life, and she takes the time to enjoy them.
+[The Empress](/the-empress-tarot) takes the time to smell the flowers. She practices gratitude for the beautiful and joyful things in her life, and she takes the time to enjoy them.
 
 So, embody this affirmation for abundance as you say to the universe "**I celebrate my creations!**"
 
@@ -32,7 +32,7 @@ And every time you choose to allow yourself to do something that brings you joy,
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

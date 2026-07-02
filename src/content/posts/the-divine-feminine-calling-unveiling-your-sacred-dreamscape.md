@@ -1,7 +1,7 @@
 ---
 title: "The Divine Feminine Calling: Unveiling Your Sacred Dreamscape"
 slug: the-divine-feminine-calling-unveiling-your-sacred-dreamscape
-original_url: https://tarotflower.com/daily-tarot/the-divine-feminine-calling-unveiling-your-sacred-dreamscape/
+original_url: /the-divine-feminine-calling-unveiling-your-sacred-dreamscape
 date: 2023-05-22
 modified: 2023-05-22
 content_type: post

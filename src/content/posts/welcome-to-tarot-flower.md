@@ -16,7 +16,7 @@ The ladies from Tarot Flower welcome you!
 
 Welcome to Tarot Flower - you're going to *love* this site! We're here to delight you with **inspirational tarot**, tips for **manifesting abundance**, ways to embody the tarot, and guidance to support you on your **path to high-vibe living**. We know from experience that when you embrace the tarot with an open heart, you will **unleash your most beautiful life**.
 
-So, sit back and enjoy meaningful content and insights on [tarot card meanings](https://tarotflower.com/goddess-embodiment-practices/), [astrology](https://tarotflower.com/astrology/), [embodiment](https://embodiedgoddesses.com/) and more! We can't wait to share it all with you! Enjoy [affirmations](https://tarotflower.com/affirmations/) to inspire you, and [daily card readings](https://tarotflower.com/category/daily-tarot/) from our beautiful [tarot and oracle decks](https://tarotflower.com/tag/reviews/)! Thanks for joining us here at Tarot Flower - where you will find everything tarot for blossoming souls.
+So, sit back and enjoy meaningful content and insights on [tarot card meanings](/goddess-embodiment-practices), [astrology](/astrology), [embodiment](https://embodiedgoddesses.com/) and more! We can't wait to share it all with you! Enjoy [affirmations](/affirmations) to inspire you, and [daily card readings](https://tarotflower.com/category/daily-tarot/) from our beautiful [tarot and oracle decks](https://tarotflower.com/tag/reviews/)! Thanks for joining us here at Tarot Flower - where you will find everything tarot for blossoming souls.
 
 ## Tarot Flower Daily Tarot
 
@@ -27,7 +27,7 @@ Check out our daily card interpretations! We will pull a card from one of our be
 
 What a lovely way to **inspire** and **energize** your morning, right?
 
-We draw from a gorgeous collection of tarot and oracle decks. You can find the links to purchase them yourself [here](https://tarotflower.com/shop/).
+We draw from a gorgeous collection of tarot and oracle decks. You can find the links to purchase them yourself [here](/shop).
 
 We also have some [reviews](https://tarotflower.com/tag/reviews/) for you if you would like to have a closer look at the cards. Everything from their size and feel and the messages they come with! Enjoy!
 
@@ -55,7 +55,7 @@ Embodiment is the key to **alignment**, and when you are in alignment, **manifes
 
 This "embodied living" is the key to living in the flow, in synchronicity.
 
-Check out my [Personalized Goddess Embodiment Program](https://tarotflower.com/goddess-embodiment-practices/), where I teach and guide you through incorporating divine feminine practices into your life so that you can full embody your inner goddess!
+Check out my [Personalized Goddess Embodiment Program](/goddess-embodiment-practices), where I teach and guide you through incorporating divine feminine practices into your life so that you can full embody your inner goddess!
 
 ![tarot for kids birthday card reading capricorn birthday](/images/2020/12/IMG_20201228_113432-810x1024.jpg)
 
@@ -85,7 +85,7 @@ Who doesn't enjoy a little **inspiration** and **encouragement** on their birthd
 
 ## Affirmations for Empowered Living
 
-[![i-choose-to-take-action-toward-my-dreams](/images/2020/07/i-choose-to-take-action-toward-my-dreams.png)](https://tarotflower.com/affirmations/)
+[![i-choose-to-take-action-toward-my-dreams](/images/2020/07/i-choose-to-take-action-toward-my-dreams.png)](/affirmations)
 
 At Tarot Flower our content is always beautiful because we believe that there is art and beauty in absolutely everything, if we just let it bloom.
 

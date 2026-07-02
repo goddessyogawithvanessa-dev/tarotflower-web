@@ -1,7 +1,7 @@
 ---
 title: "The Fool Tarot Card Meaning: Freedom and New Beginnings"
 slug: the-fool-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-fool-tarot/
+original_url: /the-fool-tarot
 date: 2023-05-17
 modified: 2023-05-27
 content_type: post
@@ -12,7 +12,7 @@ seo_description: "The Fool tarot card, the first card of the Major Arcana, is a 
 
 ![the fool tarot card meaning, major arcana, the fool card, Midjourney art by Vanessa Hylande](/images/2023/05/AI-Square.jpg)
 
-The Fool tarot card, the first card of the [Major Arcana](https://tarotflower.com/major-arcana-2/), is a card of new beginnings. Like the crescent moon or the morning star, it signals a surrender to what the future may hold. Taking that first step toward your new beginning.
+The Fool tarot card, the first card of the [Major Arcana](/major-arcana-2), is a card of new beginnings. Like the crescent moon or the morning star, it signals a surrender to what the future may hold. Taking that first step toward your new beginning.
 
 If you've been feeling stuck or unsure, you're going to be really happy to receive this card! This **fun-loving** archetype represents **new beginnings**, the start of a **new life**, or a **new journey**.
 

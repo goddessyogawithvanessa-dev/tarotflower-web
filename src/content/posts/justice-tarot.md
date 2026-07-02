@@ -1,7 +1,7 @@
 ---
 title: "The Justice Tarot Card Meaning: Achieving Balance and Fairness"
 slug: justice-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/justice-tarot/
+original_url: /justice-tarot
 date: 2023-06-07
 modified: 2023-06-07
 content_type: post
@@ -28,7 +28,7 @@ The Justice card reminds us to approach situations with objectivity and to consi
 
 ![justice tarot card meaning, major arcana, lady justice, Libra, Midjourney art by Vanessa Hylande](/images/2022/04/justice-4.jpg)
 
-* **Zodiac:** [Libra](https://tarotflower.com/astrology/libra-dates-traits-the-charming-diplomat/)
+* **Zodiac:** [Libra](/libra-dates-traits-the-charming-diplomat)
 * **Planet:** Venus
 * **Number:** 11
 * **Element:** Air
@@ -44,9 +44,9 @@ The Justice card reminds us to approach situations with objectivity and to consi
 
 ![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-4.jpg)
 
-The Justice tarot card holds significant meaning and serves as a guiding force in matters of justice, fairness, and equilibrium. Represented by the number 11 and associated with the zodiac sign [Libra](https://tarotflower.com/astrology/libra-dates-traits-the-charming-diplomat/), this card aligns with the harmonizing energy of Venus, the planet of love, balance, and justice.
+The Justice tarot card holds significant meaning and serves as a guiding force in matters of justice, fairness, and equilibrium. Represented by the number 11 and associated with the zodiac sign [Libra](/libra-dates-traits-the-charming-diplomat), this card aligns with the harmonizing energy of Venus, the planet of love, balance, and justice.
 
-When this [Major Arcana](https://tarotflower.com/major-arcana-2/) card appears in a tarot reading, it speaks to the principles of truth, integrity, and impartiality. It emphasizes the need to make ethical choices and seek fairness in all areas of life. The number 11 symbolizes spiritual insight, awakening, and the pursuit of higher wisdom.
+When this [Major Arcana](/major-arcana-2) card appears in a tarot reading, it speaks to the principles of truth, integrity, and impartiality. It emphasizes the need to make ethical choices and seek fairness in all areas of life. The number 11 symbolizes spiritual insight, awakening, and the pursuit of higher wisdom.
 
 As the scales of justice symbolize, this card highlights the importance of balance and equilibrium. It prompts us to evaluate situations objectively, devoid of personal bias or hidden agendas. The Justice card encourages us to consider all perspectives, weigh the evidence, and make informed decisions based on truth and integrity.
 
@@ -108,7 +108,7 @@ However, it's important to note that the Justice card can also evoke some unease
 
 ![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-3.jpg)
 
-The Justice tarot card holds great significance in the querent's journey as it follows the [Wheel of Fortune](https://tarotflower.com/tarot-card-meanings/the-wheel-of-fortune-tarot/) and precedes the [Hanged Man](https://tarotflower.com/tarot-card-meanings/the-hanged-man-tarot/). The Wheel of Fortune represents cycles of change and destiny, where the querent experiences both ups and downs in their journey. As the querent approaches the Justice card, they reach a pivotal point where they are called to seek balance and fairness in the face of these unpredictable shifts. The Justice card serves as a reminder to the querent that their actions have consequences, and they are now being asked to take responsibility for the choices they have made.
+The Justice tarot card holds great significance in the querent's journey as it follows the [Wheel of Fortune](/the-wheel-of-fortune-tarot) and precedes the [Hanged Man](/the-hanged-man-tarot). The Wheel of Fortune represents cycles of change and destiny, where the querent experiences both ups and downs in their journey. As the querent approaches the Justice card, they reach a pivotal point where they are called to seek balance and fairness in the face of these unpredictable shifts. The Justice card serves as a reminder to the querent that their actions have consequences, and they are now being asked to take responsibility for the choices they have made.
 
 Having encountered the Justice card, the querent is then led to the Hanged Man. This card represents surrender and a change in perspective. The journey from Justice to the Hanged Man signifies a transformative process where the querent learns to let go of their need for control and embraces a different way of looking at the world. The Justice card prepares the querent for this shift by teaching them the importance of fairness, objectivity, and making choices aligned with their true values. It sets the stage for the querent to release their attachment to outcomes and embrace a more profound understanding of themselves and the world around them.
 

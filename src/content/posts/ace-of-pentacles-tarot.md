@@ -1,7 +1,7 @@
 ---
 title: "The Ace of Pentacles Tarot Card Meaning"
 slug: ace-of-pentacles-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/ace-of-pentacles-tarot/
+original_url: /ace-of-pentacles-tarot
 date: 2022-12-05
 modified: 2023-05-16
 content_type: post

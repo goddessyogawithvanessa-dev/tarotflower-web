@@ -1,7 +1,7 @@
 ---
 title: "The Three of Pentacles Tarot Card Meaning"
 slug: three-of-pentacles-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/three-of-pentacles-tarot/
+original_url: /three-of-pentacles-tarot
 date: 2022-12-05
 modified: 2023-05-16
 content_type: post

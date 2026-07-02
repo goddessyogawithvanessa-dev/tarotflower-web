@@ -1,7 +1,7 @@
 ---
 title: "The Page of Cups Tarot Card Meaning"
 slug: page-of-cups-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/page-of-cups-tarot/
+original_url: /page-of-cups-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

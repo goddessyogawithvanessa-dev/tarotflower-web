@@ -10,8 +10,6 @@ seo_title: "Goddess Yoga | Tarot Flower"
 seo_description: "\"I am very happy that the universe brought me together with Vanessa. She creates a magical space where everything can be and the many great goddesses..."
 ---
 
-# Goddess Yoga
-
 ### Tarot Inspired Yoga for the Divine Feminine
 
 *"I am very happy that the universe brought me together with Vanessa. She creates a magical space where everything can be and the many great goddesses in everyone of us can unfold easily. Every class is a journey deeper to ourselves with her intuitive guidance, love and creativity 💫🐉"* - Sabina, Austria

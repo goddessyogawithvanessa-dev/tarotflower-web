@@ -10,8 +10,6 @@ seo_title: "Goddess Embodiment | Tarot Flower"
 seo_description: "Hi! I'm Vanessa, the soul behind Tarot Flower and the Goddess Yoga Method. I'm thrilled to introduce you to our transformative Goddess Embodiment..."
 ---
 
-# The Personalized Goddess Embodiment Program
-
 ## Body Mind & Soul Practices for the Divine Feminine
 
 ![](/images/2023/10/Meditation-1.jpg)
@@ -60,8 +58,6 @@ Together we will channel your personalized messages from the Goddess through **i
 ![](/images/2023/11/1-e1696182390338.jpg)
 
 I will joyfully welcome you into the community of other beautiful souls walking the path of the Goddess, where you can enjoy free live group events such as full moon gatherings, sign up for additional online or in-person classes and retreats in gorgeous places around the world.
-
-![](/images/2023/10/246a26e1-935e-454f-a07f-4179e49bfa42.jpg)![](/images/2023/09/IMG_3203.jpg)
 
 ##### **Full 1.5 hr Tarot Inspired Goddess Yoga Group Classes - $22**
 

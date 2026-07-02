@@ -1,7 +1,7 @@
 ---
 title: "Cancer Dates & Traits: The Sensitive Intuitive"
 slug: cancer-dates-traits-the-sensitive-intuitive
-original_url: https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/
+original_url: /cancer-dates-traits-the-sensitive-intuitive
 date: 2023-05-18
 modified: 2023-05-18
 content_type: post
@@ -64,7 +64,7 @@ When it comes to love relationships, Cancer, the nurturing and sensitive zodiac 
 
 ![Aries compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/aries-2.jpg)
 
-[Aries](https://tarotflower.com/astrology/aries-dates-traits-the-fearless-ram/) and Cancer have contrasting yet complementary qualities, which can create an intriguing dynamic in their relationship. Aries, being a fiery and assertive sign, brings passion, enthusiasm, and a bold approach to life, while Cancer, as a water sign, is emotionally sensitive, nurturing, and deeply intuitive.
+[Aries](/aries-dates-traits-the-fearless-ram) and Cancer have contrasting yet complementary qualities, which can create an intriguing dynamic in their relationship. Aries, being a fiery and assertive sign, brings passion, enthusiasm, and a bold approach to life, while Cancer, as a water sign, is emotionally sensitive, nurturing, and deeply intuitive.
 
 Despite their differences, Aries and Cancer can find common ground through their shared commitment to their loved ones. Aries can inspire Cancer to be more adventurous and assertive, while Cancer provides the stability and emotional support that Aries needs. However, challenges may arise due to Aries' directness and Cancer's sensitivity, requiring both partners to communicate openly and find a balance between their individual needs. With effort and understanding, Aries and Cancer can create a loving and passionate connection that brings out the best in each other.
 
@@ -72,7 +72,7 @@ Despite their differences, Aries and Cancer can find common ground through their
 
 ![Taurus zodiac sign, taurus dates and traits, compatibility and more](/images/2023/04/taurus-4.jpg)
 
-[Taurus](https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/) and Cancer can form a deep and stable bond in a romantic relationship. Taurus, as an earth sign, brings stability, reliability, and a love for the comforts of life to the partnership, while Cancer, as a water sign, offers emotional depth, sensitivity, and nurturing qualities.
+[Taurus](/taurus-dates-traits-the-loyal-dependable-romantic) and Cancer can form a deep and stable bond in a romantic relationship. Taurus, as an earth sign, brings stability, reliability, and a love for the comforts of life to the partnership, while Cancer, as a water sign, offers emotional depth, sensitivity, and nurturing qualities.
 
 Both signs value security and emotional connection, creating a strong foundation for their relationship. Taurus' loyalty and devotion can provide the stability and grounding that Cancer seeks, while Cancer's caring and nurturing nature can make Taurus feel loved and cherished. However, conflicts may arise due to Taurus' stubbornness and Cancer's mood swings. Establishing trust, maintaining open communication, and honoring each other's needs are vital for their compatibility.
 
@@ -80,7 +80,7 @@ Both signs value security and emotional connection, creating a strong foundation
 
 ![Gemini dates and traits, Gemini zodiac Midjourney art by Vanessa Hylande](/images/2023/04/gemini-v2.jpg)
 
-[Gemini](https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/) and Cancer can create an interesting and complementary relationship. Gemini, as an air sign, brings intellectual stimulation, curiosity, and adaptability to the partnership, while Cancer, as a water sign, offers emotional depth, sensitivity, and nurturing qualities.
+[Gemini](/gemini-dates-traits-the-clever-twins) and Cancer can create an interesting and complementary relationship. Gemini, as an air sign, brings intellectual stimulation, curiosity, and adaptability to the partnership, while Cancer, as a water sign, offers emotional depth, sensitivity, and nurturing qualities.
 
 Gemini's wit and charm can captivate Cancer, while Cancer's emotional support and loyalty can provide the stability that Gemini needs. However, conflicts may arise due to Gemini's need for freedom and independence and Cancer's desire for security and stability. Effective communication and understanding of each other's needs are essential for their compatibility.
 
@@ -162,7 +162,7 @@ However, conflicts may arise due to their shared tendency towards moodiness and 
 
 ![the chariot tarot card rider waite deck major arcana](/images/2023/05/chariot-rw.jpeg)
 
-The tarot card that represents the zodiac sign Cancer is [The Chariot](https://tarotflower.com/tarot-card-meanings/the-chariot-tarot/). In the Rider-Waite Tarot deck, The Chariot symbolizes Cancer's traits of emotional depth, intuition, and protective nature. The card depicts a figure in a chariot, symbolizing the Cancerian's ability to navigate through life's challenges with determination and control.
+The tarot card that represents the zodiac sign Cancer is [The Chariot](/the-chariot-tarot). In the Rider-Waite Tarot deck, The Chariot symbolizes Cancer's traits of emotional depth, intuition, and protective nature. The card depicts a figure in a chariot, symbolizing the Cancerian's ability to navigate through life's challenges with determination and control.
 
 The Chariot tarot card represents the Cancerian's inner strength and their ability to harness their emotions for personal growth and success. It signifies the Cancerian's journey of self-discovery, finding balance between their inner world and the external realm. The Chariot tarot card encourages Cancers to trust their instincts, take the reins of their lives, and move forward with confidence and purpose.
 

@@ -10,8 +10,6 @@ seo_title: "Terms and Conditions | Tarot Flower"
 seo_description: "By signing up to be an Affiliate in the Tarot Flower Affiliate Program (\"Program\") you are agreeing to be bound by the following terms and conditions..."
 ---
 
-# Tarot Flower Affiliate Program Terms of Service
-
 ## Agreement
 
 By signing up to be an Affiliate in the Tarot Flower Affiliate Program ("Program") you are agreeing to be bound by the following terms and conditions ("Terms of Service").

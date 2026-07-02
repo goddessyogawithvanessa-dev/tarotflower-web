@@ -112,7 +112,7 @@ The Goddess of Spring is just one of the many goddesses that inspires us to **pr
 
 ## The Goddess Flora and the Tarot
 
-The Goddess of Spring Flora is associated with the suit of Pentacles as well as [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress/) in the **Tarot**. The coins don't just represent financial wealth, though they can. But abundance reaches across all forms. We can be abundant in health, love, security, happiness and wealth. But the thing that connects all of these together is an abundance mindset.
+The Goddess of Spring Flora is associated with the suit of Pentacles as well as [The Empress](/the-empress) in the **Tarot**. The coins don't just represent financial wealth, though they can. But abundance reaches across all forms. We can be abundant in health, love, security, happiness and wealth. But the thing that connects all of these together is an abundance mindset.
 
 ## The Goddess Flora and an Abundance Mindset
 

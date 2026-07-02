@@ -11,17 +11,15 @@ seo_description: "Explore the Suit of Pentacles with Tarot Flower. Learn tarot c
 "
 ---
 
-# The Suit of Pentacles
-
 ## The Element of Earth, Our Abundance
 
-![the suit of pentacles minor arcana tarot cards artwork by vanessa hylande](/images/2023/04/tf-ai-pentacles.jpg)
+![the suit of pentacles minor arcana tarot cards artwork by vanessa hylande](/images/2023/04/tf-ai-pentacles-980x980.jpg)
 
 The Suit of Pentacles in the Tarot is commonly associated with the element of Earth and represents our material world and physical existence. This suit is often depicted with images of coins, diamonds, or pentagrams, which are symbols of wealth, abundance, and prosperity. When we receive cards from the Suit of Pentacles in a Tarot reading, it often indicates a focus on our finances, career, or physical well-being.
 
 The astrological signs associated with the Suit of Pentacles are Taurus, Virgo, and Capricorn, which are all earth signs. These signs are known for their practicality, groundedness, and focus on material stability. When these signs show up in a reading, it often suggests that we need to focus on our financial or career goals, and work hard towards building a stable and secure future for ourselves.
 
-![suit of pentacles minor arcana tarot card meanings artwork by vanessa hylande](/images/2023/04/tf-ai-pentacles-2.jpg)
+![suit of pentacles minor arcana tarot card meanings artwork by vanessa hylande](/images/2023/04/tf-ai-pentacles-2-980x980.jpg)
 
 The Suit of Pentacles represents our outer world and our relationship with money and resources.
 
@@ -31,51 +29,65 @@ This suit is also associated with our physical body and health, and can indicate
 
 In a Tarot reading, the Suit of Pentacles can represent both the challenges and opportunities that come with abundance and material wealth. It can indicate the need to be grounded, practical, and disciplined when it comes to our finances, and to take responsibility for our material well-being. At the same time, this suit also reminds us to enjoy the fruits of our labor, to appreciate the abundance in our lives, and to cultivate a sense of gratitude and generosity towards ourselves and others.
 
-![the suit of pentacles tarot card meanings minor arcana artwork by vanessa hylande](/images/2023/04/tf-ai-pentacles-3.jpg)
+![the suit of pentacles tarot card meanings minor arcana artwork by vanessa hylande](/images/2023/04/tf-ai-pentacles-3-980x980.jpg)
 
 ## The Pentacles Tarot Cards
 
 <div class="zodiac-grid">
 <a href="/ace-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs.jpg" alt="Ace of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Ace of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/two-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-1.jpg" alt="Two of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Two of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/three-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-2.jpg" alt="Three of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Three of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/four-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-3.jpg" alt="Four of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Four of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/five-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-4.jpg" alt="Five of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Five of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/six-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-1-1.jpg" alt="Six of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Six of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/seven-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-2-1.jpg" alt="Seven of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Seven of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/eight-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-3-1.jpg" alt="Eight of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Eight of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/nine-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-4-1.jpg" alt="Nine of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Nine of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/ten-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-5.jpg" alt="Ten of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Ten of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/page-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-6.jpg" alt="Page of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Page of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/knight-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-7.jpg" alt="Knight of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Knight of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/queen-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-8.jpg" alt="Queen of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Queen of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/king-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-9.jpg" alt="King of Pentacles" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The King of Pentacles Tarot Card Meaning</h3></div>
 </a>
 </div>

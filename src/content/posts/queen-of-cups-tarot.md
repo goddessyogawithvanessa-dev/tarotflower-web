@@ -1,7 +1,7 @@
 ---
 title: "The Queen of Cups Tarot Card Meaning"
 slug: queen-of-cups-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/queen-of-cups-tarot/
+original_url: /queen-of-cups-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post
@@ -10,7 +10,7 @@ seo_title: "The Queen of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "The Queen of Cups tarot card is a beautiful card to receive in your tarot card reading! She is one of the most mysterious and powerful cards in the..."
 ---
 
-The Queen of Cups tarot card is a beautiful card to receive in your tarot card reading! She is one of the most mysterious and powerful cards in the tarot deck. Representing both intuition and emotion, this card symbolizes a deep level of understanding, creativity, and compassion. She is one of the four Queens in the [Minor Arcana](https://tarotflower.com/tarot-card-meanings/minor-arcana-tarot/), all four of which together, comprise [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/).
+The Queen of Cups tarot card is a beautiful card to receive in your tarot card reading! She is one of the most mysterious and powerful cards in the tarot deck. Representing both intuition and emotion, this card symbolizes a deep level of understanding, creativity, and compassion. She is one of the four Queens in the [Minor Arcana](/minor-arcana-tarot), all four of which together, comprise [The Empress](/the-empress-tarot).
 
 ### The Queen of Cups is intuitive
 

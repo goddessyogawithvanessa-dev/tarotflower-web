@@ -10,8 +10,6 @@ seo_title: "Lago d'Orta, Italy 2024 | Tarot Flower"
 seo_description: "Can't make these dates? Join us for \"Primal in Pantelleria\" in August 2024!"
 ---
 
-# Goddess Glow Up
-
 ### in Lago d'Orta, Italy
 
 ### YOGA FLOW, DANCE AND TAROT

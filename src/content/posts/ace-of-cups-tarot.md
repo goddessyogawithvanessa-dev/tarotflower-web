@@ -1,7 +1,7 @@
 ---
 title: "The Ace of Cups: Overflowing With Love"
 slug: ace-of-cups-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/ace-of-cups-tarot/
+original_url: /ace-of-cups-tarot
 date: 2023-06-09
 modified: 2023-12-26
 content_type: post
@@ -29,7 +29,7 @@ The Ace of Cups tarot card speaks of deep and meaningful emotions, as well as em
 ![Ace of cups tarot card meaning, love, minor arcana, Midjourney art by Vanessa Hylande, TarotFlower deck](/images/2022/12/ace-of-cups.jpg)
 
 * **Element:** Water
-* **Zodiac Sign:** [Cancer](https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/), [Scorpio](https://tarotflower.com/astrology/scorpio-dates-traits-the-phoenix-rising/), [Pisces](https://tarotflower.com/astrology/pisces-dates-traits-the-mystical-dreaming-fish/)
+* **Zodiac Sign:** [Cancer](/cancer-dates-traits-the-sensitive-intuitive), [Scorpio](/scorpio-dates-traits-the-phoenix-rising), [Pisces](/pisces-dates-traits-the-mystical-dreaming-fish)
 * **Represents:** Emotional abundance, new beginnings, love, and compassion
 * **Symbolizes:** Overflowing emotions, intuitive connections, and spiritual awakening
 * **Key Meanings:** Emotional fulfillment, deep connections, unconditional love

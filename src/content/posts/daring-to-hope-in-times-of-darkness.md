@@ -50,8 +50,8 @@ I realize now that the heart sings through hope, and we must never ever allow th
 
 Dare to hope, and know that if your dreams don't manifest in the way that you dreamed of, the universe surely has a better plan.
 
-* [The Star Tarot Card Meaning: Wishes Come True](https://tarotflower.com/tarot-card-meanings/the-star-tarot/)
+* [The Star Tarot Card Meaning: Wishes Come True](/the-star-tarot)
 * [Mystic Sisters Oracle Cards - In the Realm of the Goddess](https://tarotflower.com/shop/mystic-sisters-oracle-cards/)
-* [The Devil Tarot Card Meaning: Breaking the Chains](https://tarotflower.com/tarot-card-meanings/the-devil-tarot/)
-* [In Darkness, Remember to Be the Light](https://tarotflower.com/daily-tarot/in-darkness-be-the-light/)
-* [Surrender at the Lion's Gate](https://tarotflower.com/daily-tarot/surrender-at-the-lions-gate/)
+* [The Devil Tarot Card Meaning: Breaking the Chains](/the-devil-tarot)
+* [In Darkness, Remember to Be the Light](/in-darkness-be-the-light)
+* [Surrender at the Lion's Gate](/surrender-at-the-lions-gate)

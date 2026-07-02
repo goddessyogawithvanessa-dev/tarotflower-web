@@ -1,7 +1,7 @@
 ---
 title: "Affirmation for Happiness: I Take Action Toward My Dreams"
 slug: affirmation-for-happiness-i-take-action-toward-my-dreams
-original_url: https://tarotflower.com/daily-tarot/affirmation-for-happiness-i-take-action-toward-my-dreams/
+original_url: /affirmation-for-happiness-i-take-action-toward-my-dreams
 date: 2021-02-24
 modified: 2023-04-25
 content_type: post
@@ -16,13 +16,13 @@ Is it finally time to take the first step? At some point we have to choose to ta
 
 Sometimes planning and preparation is no longer needed. Rather we just need a simple "Okay, let's go!" With this in mind, meditate on this **positive affirmation** for happiness and be the one to make it happen.
 
-[The Fool](https://tarotflower.com/tarot-card-meanings/the-fool-tarot/) carries a little rucksack and walks gingerly along the path. But what matters is that **he really *is* walking along the path**. He **trusts** in the **universe** and in his **own abilities** to adapt and persevere. Do you?
+[The Fool](/the-fool-tarot) carries a little rucksack and walks gingerly along the path. But what matters is that **he really *is* walking along the path**. He **trusts** in the **universe** and in his **own abilities** to adapt and persevere. Do you?
 
 **Take a chance** on your life. Choose to **take a chance on** **your dreams** - nobody else can do it for you. So embody this positive affirmation for happiness and visualize yourself on the path. Then walk it. That is how we **[embody](https://embodiedgoddesses.com/)** the teachings of The Fool.
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

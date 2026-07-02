@@ -1,7 +1,7 @@
 ---
 title: "Challenges Are the Learning Ground of the Heart"
 slug: challenges-are-the-learning-ground-of-the-heart
-original_url: https://tarotflower.com/daily-tarot/challenges-are-the-learning-ground-of-the-heart/
+original_url: /challenges-are-the-learning-ground-of-the-heart
 date: 2020-07-16
 modified: 2023-04-25
 content_type: post

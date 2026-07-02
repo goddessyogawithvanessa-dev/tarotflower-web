@@ -1,7 +1,7 @@
 ---
 title: "Goddess Embodiment: When the Raven Spoke to Me"
 slug: goddess-embodiment-when-the-raven-spoke-to-me
-original_url: https://tarotflower.com/daily-tarot/goddess-embodiment-when-the-raven-spoke-to-me/
+original_url: /goddess-embodiment-when-the-raven-spoke-to-me
 date: 2023-10-07
 modified: 2023-10-09
 content_type: post
@@ -47,8 +47,6 @@ I’m a **RYT200 certified yoga instructor**, former ballet dancer at the **Metr
 So, are you ready to unleash your badass self and embody your inner sexy, strong, beautiful, powerful goddess?!!!
 
 I’m so, so excited to finally bring this beautiful Goddess Embodiment method online for you! I know that for a lot of you it’s not easy to get away for a week-long retreat in another part of the world. Plus, I’ve also heard over and over from my students that one-on-one support and connection is what they need the most during their toughest challenges. With this online program, I can give you that personalized attention that you won’t find in a group setting.
-
-![Vanessa Hylande Goddess Yoga and Embodiment coach](/images/2023/10/Goddess-Yoga-Group-1024x576.jpg)
 
 Together we will create the perfect yoga and dance inspired fitness routine just for you that you can take with you forever. We will practice together (every day if you want) so that I can share my years of wisdom and experience regarding the body, movement, elegance and grace. We will connect with the goddess together to discover the channeled messages that are waiting to reach you. I am also a medium and am able to connect with passed on loved ones if you are grieving a loss. I will support you through your own **self-healing journey** as you begin your shadow work, with original, **personalized sound bath meditations**, **journaling exercises** and one-on-one sessions where we can talk about your discoveries and dreams. And most importantly, I will open the door to you to join the most beautiful community of like minded women who are on the same path of ascension.
 

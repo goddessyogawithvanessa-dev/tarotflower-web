@@ -1,7 +1,7 @@
 ---
 title: "Affirmation for Strength: I Lead With Compassion and Confidence"
 slug: affirmation-for-strength-i-lead-with-compassion-and-confidence
-original_url: https://tarotflower.com/daily-tarot/affirmation-for-strength-i-lead-with-compassion-and-confidence/
+original_url: /affirmation-for-strength-i-lead-with-compassion-and-confidence
 date: 2021-02-26
 modified: 2023-04-25
 content_type: post
@@ -14,9 +14,9 @@ seo_description: "True strength is not bold, and it doesn't boast. True strength
 
 True strength is not bold, and it doesn't boast. True strength doesn't need to be displayed or validated by others. But true strength does require one thing: that you believe in yourself. So, embody this **affirmation for strength** as you **lead with compassion and confidence**.
 
-Remember this as you meditate on this positive **affirmation for empowerment**. That is the way of [The Emperor](https://tarotflower.com/tarot-card-meanings/the-emperor-tarot/) of the Major Arcana.
+Remember this as you meditate on this positive **affirmation for empowerment**. That is the way of [The Emperor](/the-emperor-tarot) of the Major Arcana.
 
-Breathe into that **fire** in your **solar plexus chakra** and [be the fire](https://tarotflower.com/daily-tarot/be-the-fire/). Allow it to shine. Allow it to grow. And in your **kindness** and in your **compassion**, you can show true leadership.
+Breathe into that **fire** in your **solar plexus chakra** and [be the fire](/be-the-fire). Allow it to shine. Allow it to grow. And in your **kindness** and in your **compassion**, you can show true leadership.
 
 This is the energy that The Emperor of the tarot brings when he is in his benevolent manifestation. And this is what we should focus on when we strive to embody the positive traits of this amazing archetype. Much like the woman and the lion on the Strength tarot card, true power is not brute force.
 
@@ -32,7 +32,7 @@ Have compassion for yourself in everything you do. Have **confidence** in the wo
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

@@ -1,7 +1,7 @@
 ---
 title: "It's Time to Talk"
 slug: its-time-to-talk
-original_url: https://tarotflower.com/daily-tarot/its-time-to-talk/
+original_url: /its-time-to-talk
 date: 2020-07-15
 modified: 2023-04-25
 content_type: post

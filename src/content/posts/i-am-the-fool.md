@@ -22,12 +22,12 @@ In the great space of nothingness, a new beginning emerges. So, I deliberately p
 
 First a sound. Then a touch, a sight, a taste, a smell. I am created anew. Spirit, Air, Fire, Water, Earth. I step forward. Never to abandon myself again.
 
-[The Star](https://tarotflower.com/tarot-card-meanings/the-star-tarot/) represents the purity of hope. That undefiled dream that arises from the rubble that litters the ground after [The Tower](https://tarotflower.com/tarot-card-meanings/the-tower-tarot/)'s collapse and destruction. Sometimes structures must come cashing down, especially those ones we erect within our own hearts and minds.
+[The Star](/the-star-tarot) represents the purity of hope. That undefiled dream that arises from the rubble that litters the ground after [The Tower](/the-tower-tarot)'s collapse and destruction. Sometimes structures must come cashing down, especially those ones we erect within our own hearts and minds.
 
-Dare to make your world anew. Dare to embrace the childlike innocence of [The Fool](https://tarotflower.com/tarot-card-meanings/the-fool-tarot/). Mars returning to his temple, Aries, gives us a chance to pursue our passions with vigor. Send the warrior out on your soul's mission. Blaze your heart's trail. We don't always need armor in battle. Not when we fly high enough.
+Dare to make your world anew. Dare to embrace the childlike innocence of [The Fool](/the-fool-tarot). Mars returning to his temple, Aries, gives us a chance to pursue our passions with vigor. Send the warrior out on your soul's mission. Blaze your heart's trail. We don't always need armor in battle. Not when we fly high enough.
 
-* [The Fool Tarot Card Meaning: Freedom and New Beginnings](https://tarotflower.com/tarot-card-meanings/the-fool-tarot/)
-* [The Freedom of The Fool](https://tarotflower.com/daily-tarot/freedom-of-the-fool/)
-* [Freeing Your Heart From Your Mind](https://tarotflower.com/daily-tarot/freeing-your-heart-from-your-mind/)
-* [Step Forward With a Pure Heart](https://tarotflower.com/daily-tarot/step-forward-with-a-pure-heart/)
-* [Riches Grow From the Seeds in Your Heart](https://tarotflower.com/daily-tarot/riches-grow-from-the-seeds-in-your-heart/)
+* [The Fool Tarot Card Meaning: Freedom and New Beginnings](/the-fool-tarot)
+* [The Freedom of The Fool](/freedom-of-the-fool)
+* [Freeing Your Heart From Your Mind](/freeing-your-heart-from-your-mind)
+* [Step Forward With a Pure Heart](/step-forward-with-a-pure-heart)
+* [Riches Grow From the Seeds in Your Heart](/riches-grow-from-the-seeds-in-your-heart)

@@ -1,7 +1,7 @@
 ---
 title: "Be Your Own Knight in Shining Armor"
 slug: be-your-own-knight-in-shining-armor
-original_url: https://tarotflower.com/daily-tarot/be-your-own-knight-in-shining-armor/
+original_url: /be-your-own-knight-in-shining-armor
 date: 2020-07-17
 modified: 2023-04-25
 content_type: post

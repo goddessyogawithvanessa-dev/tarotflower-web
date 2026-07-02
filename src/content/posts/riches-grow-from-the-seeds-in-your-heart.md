@@ -1,7 +1,7 @@
 ---
 title: "Riches Grow From the Seeds in Your Heart"
 slug: riches-grow-from-the-seeds-in-your-heart
-original_url: https://tarotflower.com/daily-tarot/riches-grow-from-the-seeds-in-your-heart/
+original_url: /riches-grow-from-the-seeds-in-your-heart
 date: 2020-07-18
 modified: 2023-04-25
 content_type: post

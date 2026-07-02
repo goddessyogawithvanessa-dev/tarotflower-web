@@ -1,7 +1,7 @@
 ---
 title: "The Ace of Wands Tarot Card Meaning"
 slug: ace-of-wands-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/ace-of-wands-tarot/
+original_url: /ace-of-wands-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

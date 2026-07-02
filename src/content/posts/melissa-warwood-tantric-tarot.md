@@ -10,8 +10,6 @@ seo_title: "Tantric Tarot by Melissa | Tarot Flower"
 seo_description: "After leaving my high-demand religion over five years ago, I discovered Tarot and it has since become my steadfast spiritual companion. Tarot has not..."
 ---
 
-# Tantic Tarot
-
 by
 
 ## Melissa

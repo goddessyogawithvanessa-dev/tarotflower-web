@@ -1,7 +1,7 @@
 ---
 title: "The Hanged Man Tarot Card Meaning: Reflection and Perspective"
 slug: the-hanged-man-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-hanged-man-tarot/
+original_url: /the-hanged-man-tarot
 date: 2022-04-24
 modified: 2023-06-05
 content_type: post
@@ -14,7 +14,7 @@ seo_description: "The Hanged Man pauses to look at the world from a new perspect
 
 The Hanged Man pauses to look at the world from a new perspective. When life won't bend to our control we are wise to follow the guidance of The Hanged Man tarot card. Look at the world from another angle and new possibilities will be revealed to you.
 
-The Hanged Man tarot card is often misunderstood as a symbol of pain and misfortune. While there may be some truth to that interpretation, it's too simplistic to capture the card's full significance. This [Major Arcana](https://tarotflower.com/major-arcana-2/) card carries a much deeper meaning beyond its visual representation.
+The Hanged Man tarot card is often misunderstood as a symbol of pain and misfortune. While there may be some truth to that interpretation, it's too simplistic to capture the card's full significance. This [Major Arcana](/major-arcana-2) card carries a much deeper meaning beyond its visual representation.
 
 So, the next time you come across the Hanged Man in a tarot reading, remember that there's more to it. This card represents acceptance and serves as a divine message advising you to let go of your ego, pride, and rigid beliefs in order to shift your perspective. By adopting a new mindset, you'll be able to truly understand life and the purpose behind it, including everything it encompasses.
 
@@ -53,7 +53,7 @@ Remember, lovely soul, that the twin flame journey is a transformative process. 
 
 ## The Hanged Man in the Major Arcana
 
-In the traditional Rider-Waite tarot deck, the Hanged Man is positioned between two major arcana cards: [Justice](https://tarotflower.com/tarot-card-meanings/justice-tarot/) and [Death](https://tarotflower.com/tarot-card-meanings/death-tarot/). Justice is the card that comes before the Hanged Man, while Death is the card that comes after it. The Hanged Man serves as a pivotal point between these two cards, representing a moment of suspension and reflection before undergoing transformation and rebirth.
+In the traditional Rider-Waite tarot deck, the Hanged Man is positioned between two major arcana cards: [Justice](/justice-tarot) and [Death](/death-tarot). Justice is the card that comes before the Hanged Man, while Death is the card that comes after it. The Hanged Man serves as a pivotal point between these two cards, representing a moment of suspension and reflection before undergoing transformation and rebirth.
 
 ## The Hanged Man Meaning
 

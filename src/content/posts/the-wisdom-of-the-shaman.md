@@ -1,7 +1,7 @@
 ---
 title: "The Wisdom of The Shaman"
 slug: the-wisdom-of-the-shaman
-original_url: https://tarotflower.com/daily-tarot/the-wisdom-of-the-shaman/
+original_url: /the-wisdom-of-the-shaman
 date: 2021-02-25
 modified: 2023-04-25
 content_type: post
@@ -24,7 +24,7 @@ But, what about the fire in your heart? What about the fire in your soul? Have y
 
 ![inspirational quote the secrets of the universe daily tarot the wisdom of the shaman oracle card](/images/2021/01/IQ-Secrets-of-the-Universe-2.jpg)
 
-**Give yourself permission** to retreat and [slow down to discover the magic of life](https://tarotflower.com/daily-tarot/slow-down-to-discover-the-magic-of-life/). Give yourself space and time to listen to your inner knowing. Let the universe reveal its secrets to you.
+**Give yourself permission** to retreat and [slow down to discover the magic of life](/slow-down-to-discover-the-magic-of-life). Give yourself space and time to listen to your inner knowing. Let the universe reveal its secrets to you.
 
 The wisdom of the Shaman guides you to put your connection to the divine first, because from this place of connectedness, all other things will flow.
 
@@ -36,7 +36,7 @@ Seek answers within your stillness to discover the secrets of your soul.
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

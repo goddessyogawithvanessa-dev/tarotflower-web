@@ -32,7 +32,7 @@ Overall, the year of the Dragon 2024 holds the promise of exciting endeavors, fi
 
 ![](/images/2023/12/goddess-yoga-2024-4-1.jpg)
 
-In the spirit of growth, vitality and passion, I am adding a whole new selection of semi-private classes to the calendar here in Vienna! We have a limited number of spots for each class, so I kindly ask that you send me a whatsapp or an email through the [website](https://tarotflower.com/goddess-yoga-vienna/) to reserve your space in advance. Beginning this January 2024, I plan to offer classes on:
+In the spirit of growth, vitality and passion, I am adding a whole new selection of semi-private classes to the calendar here in Vienna! We have a limited number of spots for each class, so I kindly ask that you send me a whatsapp or an email through the [website](/goddess-yoga-vienna) to reserve your space in advance. Beginning this January 2024, I plan to offer classes on:
 
 **Tuesdays: 18:30 – 20:00 CET**
 
@@ -42,7 +42,7 @@ In the spirit of growth, vitality and passion, I am adding a whole new selection
 
 **Sundays: 17:00 – 18:30 CET**
 
-You can find the updated [calendar of all classes](https://tarotflower.com/goddess-yoga-vienna/) on the Tarotflower website!
+You can find the updated [calendar of all classes](/goddess-yoga-vienna) on the Tarotflower website!
 
 ## Goddess Yoga Online
 

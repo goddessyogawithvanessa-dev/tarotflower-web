@@ -10,8 +10,6 @@ seo_title: "Goddess Yoga Retreats | Tarot Flower"
 seo_description: "\"To the OG Goddesses, Thank you for the best week - all the healing tears and belly laughs! Thank you for reminding me of the person I can be and joy I..."
 ---
 
-# Goddess Yoga Retreats
-
 ## Yoga, Dance, Magic & Travel
 
 *"To the OG Goddesses, Thank you for the best week - all the healing tears and belly laughs! Thank you for reminding me of the person I can be and joy I can experience when I surround myself with the right energy. Both of you are truly inspiring and your friendship and love for life is infectious. I'm so looking forward to keeping in touch and being goddess friends for life."* - Cat, Scottland

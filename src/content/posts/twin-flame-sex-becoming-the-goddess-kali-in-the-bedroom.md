@@ -94,13 +94,13 @@ A shadow does not need to be a trauma. It can simply be unfulfilled potential. A
 
 I love my twin flame unconditionally and I hold no resentment towards him. I am not able to. He can do no wrong. This is what is meant by unconditional love. Although I have felt the range of emotions from anger, to jealousy, to frustration, these feelings are always fleeting. They are always replaced by love, because I know from the depths of my heart that his intentions are pure, and so are mine.
 
-Every time we tried to come together over the years, the universe intervened. The notion of divine timing is true. And even though I suffered and longed for him, I knew that it was not in his control any more than it was in mine. This is the lesson of non-attachment. The complete surrender in order to break the chains of [The Devil](https://tarotflower.com/tarot-card-meanings/the-devil-tarot/) Tarot card.
+Every time we tried to come together over the years, the universe intervened. The notion of divine timing is true. And even though I suffered and longed for him, I knew that it was not in his control any more than it was in mine. This is the lesson of non-attachment. The complete surrender in order to break the chains of [The Devil](/the-devil-tarot) Tarot card.
 
 ## Manifesting the Divine Feminine Goddess in Your Daily Life
 
 ![The World Tarot card meaning, major arcana, Midjourney Art by Vanessa Hylande](/images/2022/12/world-10.jpg)
 
-So, my twin flame journey wasn't just about healing old wounds or ascending spiritually. It was also about fully coming back into my power as a woman in the 3D, in terms of my sexuality, career, financial stability, friendships and community, and passion projects. It was about coming fully into my Shakti power. The twin flame journey demands that you **embody *all* forms of abundance in your life**, for yourself, by yourself. You literally must become [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/).
+So, my twin flame journey wasn't just about healing old wounds or ascending spiritually. It was also about fully coming back into my power as a woman in the 3D, in terms of my sexuality, career, financial stability, friendships and community, and passion projects. It was about coming fully into my Shakti power. The twin flame journey demands that you **embody *all* forms of abundance in your life**, for yourself, by yourself. You literally must become [The Empress](/the-empress-tarot).
 
 Getting back on your life’s path is not done from within a twin flame connection. A twin flame relationship is so powerful that it would overshadow all of the work you must do for yourself. The universe will hold you to your task. It will hold your feet to the fire.
 

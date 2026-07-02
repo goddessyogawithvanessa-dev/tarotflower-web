@@ -38,8 +38,8 @@ Speaking as a woman of comparable privilege, I say that if you haven't taken act
 
 I believe that chaos and rage is inevitable under these circumstances. And yes, we must do our best to ensure stability and peace. But meeting this righteous anger with hatred and judgment serves nothing but your own ego. Where are your solutions? Not for yourself, but for the original cause of this trauma. What have you done to ease the injustices in the world? Have you even taken the time to ponder solutions? Or is it their problem - until it knocks at your door? Are you just waiting for a savior?
 
-* [The Tower Tarot Card Meaning: The Universe Clears a Path](https://tarotflower.com/tarot-card-meanings/the-tower-tarot/)
-* [Moon Magic Love Spells For Your Twin Flame, Soul Mate and Lover](https://tarotflower.com/daily-tarot/moon-magic-love-spells-for-your-twin-flame-soul-mate-and-lover/)
-* [Challenges Are the Learning Ground of the Heart](https://tarotflower.com/daily-tarot/challenges-are-the-learning-ground-of-the-heart/)
-* [Speak Your Truth](https://tarotflower.com/daily-tarot/speak-your-truth/)
-* [The Moon Reveals Hidden Truths](https://tarotflower.com/daily-tarot/the-moon-reveals-hidden-truths/)
+* [The Tower Tarot Card Meaning: The Universe Clears a Path](/the-tower-tarot)
+* [Moon Magic Love Spells For Your Twin Flame, Soul Mate and Lover](/moon-magic-love-spells-for-your-twin-flame-soul-mate-and-lover)
+* [Challenges Are the Learning Ground of the Heart](/challenges-are-the-learning-ground-of-the-heart)
+* [Speak Your Truth](/speak-your-truth)
+* [The Moon Reveals Hidden Truths](/the-moon-reveals-hidden-truths)

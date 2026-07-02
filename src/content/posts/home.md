@@ -11,8 +11,6 @@ seo_description: "A modern guide to learn tarot online! Discover intuitive card 
 "
 ---
 
-# Tarot Flower
-
 ## Unlock the Magic of Tarot, Astrology, and Ritual
 
 Welcome, beautiful soul. ✨ You’ve arrived at Tarot Flower — a sanctuary for seekers, mystics, and modern goddesses who are ready to deepen their connection with tarot, astrology, and spiritual ritual. Whether you’re just starting your journey or you’ve been walking the path for years, this space was created for you to learn tarot online.

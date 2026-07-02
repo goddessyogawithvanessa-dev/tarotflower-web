@@ -10,8 +10,6 @@ seo_title: "Contact | Tarot Flower"
 seo_description: "> Have a question about tarot, retreats, or mystical collaborations?"
 ---
 
-# 🌙 Get in Touch
-
 > Have a question about tarot, retreats, or mystical collaborations?  
 > I'm always happy to hear from kindred spirits.
 >

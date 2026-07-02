@@ -1,7 +1,7 @@
 ---
 title: "Ace of Swords Tarot Card Meaning"
 slug: ace-of-swords-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/ace-of-swords-tarot/
+original_url: /ace-of-swords-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post
@@ -40,7 +40,7 @@ The Ace of Swords is a card of action and new beginnings. It suggests that you w
 
 ## The Aces of the Minor Arcana
 
-The Aces in the Minor Arcana hold significant importance as they represent the purest essence and potential of each suit. They signify the seed of energy, the spark of inspiration, and the initiation of new beginnings. Each Ace embodies the fundamental qualities associated with its respective suit: the [Ace of Wands](https://tarotflower.com/tarot-card-meanings/ace-of-wands-tarot/) symbolizes passion and creative potential, the [Ace of Cups](https://tarotflower.com/tarot-card-meanings/ace-of-cups-tarot/) represents emotional depth and love, the Ace of Swords embodies clarity and intellect, and the [Ace of Pentacles](https://tarotflower.com/tarot-card-meanings/ace-of-pentacles-tarot/) signifies material abundance and groundedness.
+The Aces in the Minor Arcana hold significant importance as they represent the purest essence and potential of each suit. They signify the seed of energy, the spark of inspiration, and the initiation of new beginnings. Each Ace embodies the fundamental qualities associated with its respective suit: the [Ace of Wands](/ace-of-wands-tarot) symbolizes passion and creative potential, the [Ace of Cups](/ace-of-cups-tarot) represents emotional depth and love, the Ace of Swords embodies clarity and intellect, and the [Ace of Pentacles](/ace-of-pentacles-tarot) signifies material abundance and groundedness.
 
 As the first card in each suit, the Aces hold immense power and carry the promise of growth and manifestation. They invite individuals to tap into their innate talents, embrace new opportunities, and embark on transformative journeys within their respective areas of life. The Aces serve as a reminder to nurture and channel the elemental forces present within us, paving the way for growth, inspiration, and the fulfillment of our true potential.
 

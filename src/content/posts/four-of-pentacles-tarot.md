@@ -1,7 +1,7 @@
 ---
 title: "The Four of Pentacles Tarot Card Meaning"
 slug: four-of-pentacles-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/four-of-pentacles-tarot/
+original_url: /four-of-pentacles-tarot
 date: 2022-12-08
 modified: 2023-05-16
 content_type: post

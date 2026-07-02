@@ -1,7 +1,7 @@
 ---
 title: "Affirmation for Confidence: Warrior Woman"
 slug: affirmation-for-confidence-warrior-woman
-original_url: https://tarotflower.com/daily-tarot/affirmation-for-confidence-warrior-woman/
+original_url: /affirmation-for-confidence-warrior-woman
 date: 2021-03-14
 modified: 2023-04-25
 content_type: post
@@ -30,9 +30,9 @@ If fear creeps in, do not resist it. Instead, take this opportunity to face fear
 
 ## Find Your Inner Fire
 
-Just as the warrior woman, Joan of Arc, says herself, "Fear nothing; I was born to do this," you too are born with this loving inner confidence to follow your calling. The kind of energy that [The Emperor](https://tarotflower.com/tarot-card-meanings/the-emperor-tarot/) of the tarot brings when he is manifesting.
+Just as the warrior woman, Joan of Arc, says herself, "Fear nothing; I was born to do this," you too are born with this loving inner confidence to follow your calling. The kind of energy that [The Emperor](/the-emperor-tarot) of the tarot brings when he is manifesting.
 
-Remember the key to embodying your inner warrior and empowerment is to take action and lead with [compassion and confidence.](https://tarotflower.com/daily-tarot/lead-with-compassion-and-confidence/)
+Remember the key to embodying your inner warrior and empowerment is to take action and lead with [compassion and confidence.](/lead-with-compassion-and-confidence)
 
 When you are feeling called to follow the direction of your heart, have trust and say to yourself, " I am not afraid. I was born to stand in courage and follow my heart. I am a warrior woman." All you have to is listen to the voice that you feel in your heart.
 

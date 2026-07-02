@@ -1,7 +1,7 @@
 ---
 title: "Uplift Yourself by Celebrating Friendship"
 slug: uplift-yourself-by-celebrating-friendship
-original_url: https://tarotflower.com/daily-tarot/uplift-yourself-by-celebrating-friendship/
+original_url: /uplift-yourself-by-celebrating-friendship
 date: 2021-02-20
 modified: 2023-04-25
 content_type: post
@@ -9,8 +9,6 @@ categories: [daily-tarot, tarot-card-readings]
 seo_title: "Uplift Yourself by Celebrating Friendship | Tarot Flower"
 seo_description: "Take some time to uplift yourself by celebrating your friendships today! The Three of Cups is a card of celebration, sisterhood, and collaborative..."
 ---
-
-![](/images/2021/01/celebrate-friendships.gif)
 
 Take some time to uplift yourself by **celebrating** your **friendships** today! The **Three of Cups** is a card of celebration, **sisterhood**, and **collaborative creative projects**.
 
@@ -28,11 +26,11 @@ So, **go ahead and uplift yourself** and others! If you want to align into a sta
 
 Start with something small - give it a try! Release the darkness so the light shines in. No matter how tired you are, the only real way for you to **beat the blues** is to remember that when you're **in darkness, be the light.**
 
-[Relationships are the dance of life, so open your heart and celebrate](https://tarotflower.com/daily-tarot/relationships-are-the-dance-of-life/)! Focus your energy on **creating moments of happiness** and merriment and celebrate your friendships - no matter how small the gestures. It will **lift your spirits** **and the energy around you**!
+[Relationships are the dance of life, so open your heart and celebrate](/relationships-are-the-dance-of-life)! Focus your energy on **creating moments of happiness** and merriment and celebrate your friendships - no matter how small the gestures. It will **lift your spirits** **and the energy around you**!
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

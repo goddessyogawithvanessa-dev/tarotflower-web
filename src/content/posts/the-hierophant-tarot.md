@@ -1,7 +1,7 @@
 ---
 title: "The Hierophant Tarot Card Meaning: The Shaman"
 slug: the-hierophant-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-hierophant-tarot/
+original_url: /the-hierophant-tarot
 date: 2021-02-16
 modified: 2023-05-21
 content_type: post
@@ -12,7 +12,7 @@ seo_description: "This Major Arcana is powerful and important, so when The Hiero
 
 ![The Hierophant tarot card meaning, the shaman, major arcana, Midjourney art by Vanessa Hylande](/images/2021/02/hierophant-3.jpg)
 
-This [Major Arcana](https://tarotflower.com/major-arcana-2/) is powerful and important, so when The Hierophant tarot card appears in your reading, pay attention!
+This [Major Arcana](/major-arcana-2) is powerful and important, so when The Hierophant tarot card appears in your reading, pay attention!
 
 This major arcana tarot card represents **society** and **tradition** - especially **religious institutions**. That's why this card is often referred to as the The High Priest tarot card and is often associated with **marriage**.
 
@@ -38,7 +38,7 @@ The Hierophant is the archetype of the **sacred, spiritual masculine**, the sham
 
 ![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](/images/2021/02/hieroph-12.jpg)
 
-The counterpart of [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/), The Hierophant tarot card symbolizes **tradition**, **conformity**, **religion**, and **institutions**. The systems of belief of this archetype provide comfort and security to the collective.
+The counterpart of [The High Priestess](/the-high-priestess-tarot), The Hierophant tarot card symbolizes **tradition**, **conformity**, **religion**, and **institutions**. The systems of belief of this archetype provide comfort and security to the collective.
 
 Often associated with The Pope, The Hierophant is responsible for passing down **spiritual knowledge and tradition**. The High Priestess and Hierophant are like the divine feminine and sacred masculine versions of the same archetype.
 
@@ -72,7 +72,7 @@ Join us live at [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) to co
 
 ![the great eagle, the Hierophant tarot card meaning, the shaman, scorpio zodiac, spirit animal, Midjourney art by Vanessa Hylande](/images/2021/02/hieroph-5.jpg)
 
-As the Hierophant tarot card sits between two other significant cards in the Major Arcana, its placement holds symbolic meaning and contributes to the unfolding story. Preceding the Hierophant is [The Emperor](https://tarotflower.com/tarot-card-meanings/the-emperor-tarot/), representing structure and authority, while following it is [The Lovers](https://tarotflower.com/tarot-card-meanings/the-lovers-tarot/), symbolizing choices and unions. The transition from the Emperor to the Hierophant signifies the evolution from external power and control to a deeper spiritual understanding and connection. The Hierophant encourages seeking spiritual guidance and embracing traditional teachings. Moving forward to the Lovers, the Hierophant offers wisdom and insights to navigate the complexities of relationships, guiding us to make choices that align with our higher selves. Together, these three cards form a transformative journey, reminding us of the importance of both personal and spiritual growth in our connections with others.
+As the Hierophant tarot card sits between two other significant cards in the Major Arcana, its placement holds symbolic meaning and contributes to the unfolding story. Preceding the Hierophant is [The Emperor](/the-emperor-tarot), representing structure and authority, while following it is [The Lovers](/the-lovers-tarot), symbolizing choices and unions. The transition from the Emperor to the Hierophant signifies the evolution from external power and control to a deeper spiritual understanding and connection. The Hierophant encourages seeking spiritual guidance and embracing traditional teachings. Moving forward to the Lovers, the Hierophant offers wisdom and insights to navigate the complexities of relationships, guiding us to make choices that align with our higher selves. Together, these three cards form a transformative journey, reminding us of the importance of both personal and spiritual growth in our connections with others.
 
 ## The Hierophant Meaning in the Past
 

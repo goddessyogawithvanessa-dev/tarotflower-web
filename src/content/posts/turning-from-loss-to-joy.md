@@ -1,7 +1,7 @@
 ---
 title: "Turning From Loss to Joy"
 slug: turning-from-loss-to-joy
-original_url: https://tarotflower.com/daily-tarot/turning-from-loss-to-joy/
+original_url: /turning-from-loss-to-joy
 date: 2020-07-06
 modified: 2023-04-25
 content_type: post

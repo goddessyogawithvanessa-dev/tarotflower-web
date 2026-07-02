@@ -10,8 +10,6 @@ seo_title: "Energy Healing Body Work | Tarot Flower"
 seo_description: "Remove energetic and physcial blockages with Reiki, sound healing and body work. In person sessions in Vienna, Austria. Remote energy healing with..."
 ---
 
-# Energy Healing & Body Work
-
 ## Healing Your Body and Soul
 
 ![](/images/2023/11/7.jpg)

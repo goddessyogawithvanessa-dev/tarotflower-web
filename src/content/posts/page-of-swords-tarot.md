@@ -1,7 +1,7 @@
 ---
 title: "The Page of Swords Tarot Card Meaning"
 slug: page-of-swords-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/page-of-swords-tarot/
+original_url: /page-of-swords-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

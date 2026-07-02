@@ -1,7 +1,7 @@
 ---
 title: "The Six of Pentacles Tarot Card Meaning"
 slug: six-of-pentacles-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/six-of-pentacles-tarot/
+original_url: /six-of-pentacles-tarot
 date: 2022-12-17
 modified: 2023-05-16
 content_type: post

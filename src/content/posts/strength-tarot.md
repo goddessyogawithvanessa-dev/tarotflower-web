@@ -1,7 +1,7 @@
 ---
 title: "The Strength Tarot Card Meaning: Taming Your Inner Beast"
 slug: strength-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/strength-tarot/
+original_url: /strength-tarot
 date: 2023-05-18
 modified: 2023-05-24
 content_type: post
@@ -102,7 +102,7 @@ The Strength card evokes feelings of inner fortitude, courage, and resilience. I
 
 ![strength card meaning tarot, strength card in tarot, strength in tarot, strength tarot meaning, strength card tarot, tarot meaning strength, tarot strength meaning, Midjourney art by Vanessa Hylande](/images/2023/05/strength-white-lady-and-lion-2.jpg)
 
-The Strength tarot card holds a significant place in the journey through the major arcana, positioned between the [Chariot](https://tarotflower.com/tarot-card-meanings/the-chariot-tarot/) and the [Hermit](https://tarotflower.com/tarot-card-meanings/the-hermit-tarot/). In relation to the card before it, the Chariot, the Strength card represents the internal transformation and mastery that comes after external achievements. It signifies a shift from external control and willpower to inner strength and courage. It is a reminder to harness the power within, using compassion and gentleness to guide actions.
+The Strength tarot card holds a significant place in the journey through the major arcana, positioned between the [Chariot](/the-chariot-tarot) and the [Hermit](/the-hermit-tarot). In relation to the card before it, the Chariot, the Strength card represents the internal transformation and mastery that comes after external achievements. It signifies a shift from external control and willpower to inner strength and courage. It is a reminder to harness the power within, using compassion and gentleness to guide actions.
 
 As for the card that follows, the Hermit, the Strength card complements it by representing the inner wisdom gained through self-reflection. It signifies the integration of the lessons learned during the Hermit phase and the application of that wisdom in daily life. The Strength card encourages tapping into one's inner strength to navigate challenges and find solutions with compassion and patience.
 

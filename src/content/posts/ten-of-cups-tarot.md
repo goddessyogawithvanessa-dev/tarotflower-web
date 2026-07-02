@@ -1,7 +1,7 @@
 ---
 title: "The Ten of Cups Tarot Card Meaning"
 slug: ten-of-cups-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/ten-of-cups-tarot/
+original_url: /ten-of-cups-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

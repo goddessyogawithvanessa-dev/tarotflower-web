@@ -1,7 +1,7 @@
 ---
 title: "Moon Magic Love Spells For Your Twin Flame, Soul Mate and Lover"
 slug: moon-magic-love-spells-for-your-twin-flame-soul-mate-and-lover
-original_url: https://tarotflower.com/daily-tarot/moon-magic-love-spells-for-your-twin-flame-soul-mate-and-lover/
+original_url: /moon-magic-love-spells-for-your-twin-flame-soul-mate-and-lover
 date: 2023-02-04
 modified: 2023-04-25
 content_type: post
@@ -189,11 +189,11 @@ Cast this spell at night, preferably under the full moon. Friday nights are espe
 
 Cleanse your space and your energy and choose the following 5 cards from your Tarot deck:
 
-* [The Lovers Tarot card](https://tarotflower.com/tarot-card-meanings/the-lovers-tarot/)
-* [The Emperor Tarot card](https://tarotflower.com/tarot-card-meanings/the-emperor-tarot/)
-* [The Empress Tarot card](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/)
-* T[he Hierophant Tarot card](https://tarotflower.com/tarot-card-meanings/the-hierophant-tarot/)
-* [The High Priestess Tarot card](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/)
+* [The Lovers Tarot card](/the-lovers-tarot)
+* [The Emperor Tarot card](/the-emperor-tarot)
+* [The Empress Tarot card](/the-empress-tarot)
+* T[he Hierophant Tarot card](/the-hierophant-tarot)
+* [The High Priestess Tarot card](/the-high-priestess-tarot)
 
 ![](/images/2023/02/the-lovers.jpeg)
 

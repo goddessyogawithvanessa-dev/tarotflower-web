@@ -1,7 +1,7 @@
 ---
 title: "The Page of Wands Tarot Card Meaning"
 slug: page-of-wands-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/page-of-wands-tarot/
+original_url: /page-of-wands-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

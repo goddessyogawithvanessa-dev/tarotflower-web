@@ -1,7 +1,7 @@
 ---
 title: "The Emperor Tarot Card Meaning: I Am the Master of My Fate"
 slug: the-emperor-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-emperor-tarot/
+original_url: /the-emperor-tarot
 date: 2021-01-14
 modified: 2023-05-16
 content_type: post
@@ -14,7 +14,7 @@ seo_description: "When the Emperor tarot card appears in your reading, there are
 
 When the Emperor tarot card appears in your reading, there are energies of **stability** and **authority** around you. The Emperor is like a traditional king. He is charged with **protecting** his people and leading them through conflict with strength but also with **compassion**.
 
-When you receive this [Major Arcana](https://tarotflower.com/major-arcana-2/) card in your Tarot card reading, you've got some stable foundations in your life, or perhaps there is a significant other that embodies this archetype. However it resonates with you, the energy of the Emperor is a powerful energy to have in any tarot card reading.
+When you receive this [Major Arcana](/major-arcana-2) card in your Tarot card reading, you've got some stable foundations in your life, or perhaps there is a significant other that embodies this archetype. However it resonates with you, the energy of the Emperor is a powerful energy to have in any tarot card reading.
 
 **Discover the magic of Tarot and more at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
 
@@ -90,7 +90,7 @@ It is important to always look within, rather than point fingers. Remember, life
 
 In the traditional [Rider-Waite deck](https://amzn.to/3LYsF5o), The Emperor sits on his throne, stable, secure, perhaps a bit rigid. Underneath his robes, he is wearing a suit of armor. This indicates that he has been to battle and persevered. He's one tough cookie.
 
-The Emperor tarot card is represented by the number four even though it is the fifth card. [The Fool](https://tarotflower.com/tarot-card-meanings/the-fool-tarot/) card is symbolically the number "zero" because it is a brand new beginning. The counting then begins with [The Magician](https://tarotflower.com/tarot-card-meanings/the-magician-tarot/), number one, the number of creation and manifestation. After [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/) and The [Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/), we arrive at The Emperor tarot card, the number four. Four represents stability and structure.
+The Emperor tarot card is represented by the number four even though it is the fifth card. [The Fool](/the-fool-tarot) card is symbolically the number "zero" because it is a brand new beginning. The counting then begins with [The Magician](/the-magician-tarot), number one, the number of creation and manifestation. After [The High Priestess](/the-high-priestess-tarot) and The [Empress](/the-empress-tarot), we arrive at The Emperor tarot card, the number four. Four represents stability and structure.
 
 ## How to Embody The Emperor
 

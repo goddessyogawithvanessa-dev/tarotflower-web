@@ -1,7 +1,7 @@
 ---
 title: "Twin Flame Union - Blessed by the Full Moon in Leo 2023"
 slug: twin-flame-union-blesse-by-the-full-moon-in-leo-2023
-original_url: https://tarotflower.com/daily-tarot/twin-flame-union-blesse-by-the-full-moon-in-leo-2023/
+original_url: /twin-flame-union-blesse-by-the-full-moon-in-leo-2023
 date: 2023-02-05
 modified: 2023-04-25
 content_type: post
@@ -28,9 +28,9 @@ The upcoming Full Moon in the zodiac sign of Leo will be a time of great potenti
 
 I pulled the most beautiful cards - it was actually just a pre-shuffle, but they were so perfect and gorgeous that I had to continue with the reading. At the center, stands the card **"Sacred Union"** and I can't think of anything more appropriate and magical. A twin flame union is something so beyond our everyday, normal lives, that it is almost impossible to make sense of. The psychic connections we share with our twins, feeling each other's feelings good and bad, the energetic pulls and profound sense of longing, joy and love all at the same time, can make us feel like we're not grounded in reality. This can feel scary, confusing and painful.
 
-What is grounding the sacred union at this time is creativity. Whereas the divine feminine is in a state of retreat with [the six of swords tarot card](https://tarotflower.com/tarot-card-meanings/six-of-swords-tarot/), searching for calmer waters and confronting the truth of the relationship ([the ace of swords](https://tarotflower.com/tarot-card-meanings/ace-of-swords-tarot/)), the divine masculine is trying to figure out what exactly he wants to manifest and how to do it, but is in a state of anxiety about the connection ([eight of swords](https://tarotflower.com/news/eight-of-swords-tarot/)). He longs to be create something beautiful, but wants it also to be grounded and is afraid of screwing things up.
+What is grounding the sacred union at this time is creativity. Whereas the divine feminine is in a state of retreat with [the six of swords tarot card](/six-of-swords-tarot), searching for calmer waters and confronting the truth of the relationship ([the ace of swords](/ace-of-swords-tarot)), the divine masculine is trying to figure out what exactly he wants to manifest and how to do it, but is in a state of anxiety about the connection ([eight of swords](https://tarotflower.com/news/eight-of-swords-tarot/)). He longs to be create something beautiful, but wants it also to be grounded and is afraid of screwing things up.
 
-The twin flame union itself is clarified by the [Judgment](https://tarotflower.com/tarot-card-meanings/judgement-tarot/) tarot card, urging us not to judge the other. A love offer is there, and always has been, so remain strong. The Full Moon in Leo is bringing the [two of cups tarot card](https://tarotflower.com/tarot-card-meanings/two-of-cups-tarot/), a divine union and a blossoming of the connection.
+The twin flame union itself is clarified by the [Judgment](/judgement-tarot) tarot card, urging us not to judge the other. A love offer is there, and always has been, so remain strong. The Full Moon in Leo is bringing the [two of cups tarot card](/two-of-cups-tarot), a divine union and a blossoming of the connection.
 
 ## Love spells and white magic spells do draw in your twin flame
 

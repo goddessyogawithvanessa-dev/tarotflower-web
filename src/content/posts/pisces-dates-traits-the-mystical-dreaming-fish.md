@@ -1,7 +1,7 @@
 ---
 title: "Pisces Dates & Traits: The Mystical Dreaming Fish"
 slug: pisces-dates-traits-the-mystical-dreaming-fish
-original_url: https://tarotflower.com/astrology/pisces-dates-traits-the-mystical-dreaming-fish/
+original_url: /pisces-dates-traits-the-mystical-dreaming-fish
 date: 2023-02-05
 modified: 2023-05-18
 content_type: post
@@ -92,7 +92,7 @@ On the negative side, Pisces can be too sensitive, easily overwhelmed and prone 
 
 ![Aries dates and traits, Aries compatibility zodiac astrology, aries star sign, midjourney art Vanessa Hylande](/images/2023/04/aries-1.jpg)
 
-[Aries](https://tarotflower.com/astrology/aries-dates-traits-the-fearless-ram/), a fiery and adventurous sign, can bring excitement and passion to the gentle and dreamy Pisces. While they may have contrasting energies, they can complement each other well. Aries can inspire Pisces to take action and pursue their dreams, while Pisces can provide Aries with emotional depth and sensitivity.
+[Aries](/aries-dates-traits-the-fearless-ram), a fiery and adventurous sign, can bring excitement and passion to the gentle and dreamy Pisces. While they may have contrasting energies, they can complement each other well. Aries can inspire Pisces to take action and pursue their dreams, while Pisces can provide Aries with emotional depth and sensitivity.
 
 However, conflicts may arise due to differences in their approaches to life, with Aries being more assertive and Pisces being more passive. Mutual understanding, compromise, and open communication are essential for this relationship to thrive.
 
@@ -100,7 +100,7 @@ However, conflicts may arise due to differences in their approaches to life, wit
 
 ![taurus dates and traits, taurus compatibility, taurus personality, astrology, midjourney art by Vanessa Hylande](/images/2023/04/taurus-2.jpg)
 
-[Taurus](https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/) and Pisces can form a deeply harmonious and soulful connection. Both signs are drawn to the pleasures of life and value emotional intimacy in their relationships. Taurus, with its grounded and sensual nature, can provide stability and security for the sensitive and dreamy Pisces. Pisces, in turn, brings emotional depth, compassion, and creativity to Taurus' life.
+[Taurus](/taurus-dates-traits-the-loyal-dependable-romantic) and Pisces can form a deeply harmonious and soulful connection. Both signs are drawn to the pleasures of life and value emotional intimacy in their relationships. Taurus, with its grounded and sensual nature, can provide stability and security for the sensitive and dreamy Pisces. Pisces, in turn, brings emotional depth, compassion, and creativity to Taurus' life.
 
 Challenges may arise from Taurus' occasional stubbornness and Pisces' emotional sensitivity. However, with open communication and a willingness to understand each other's needs, they can create a loving and nurturing partnership.
 
@@ -108,7 +108,7 @@ Challenges may arise from Taurus' occasional stubbornness and Pisces' emotional 
 
 ![Gemini dates and traits, Gemini zodiac, Gemini personality, Gemini compatibility, Midjourney art by Vanessa Hylande](/images/2023/04/gemini-v2.jpg)
 
-[Gemini](https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/) and Pisces have contrasting energies that can create an intriguing and dynamic relationship. Gemini's intellectual curiosity and social nature can spark Pisces' imagination and bring excitement to their life. Pisces, with their emotional depth and empathy, can provide the understanding and support that Gemini needs.
+[Gemini](/gemini-dates-traits-the-clever-twins) and Pisces have contrasting energies that can create an intriguing and dynamic relationship. Gemini's intellectual curiosity and social nature can spark Pisces' imagination and bring excitement to their life. Pisces, with their emotional depth and empathy, can provide the understanding and support that Gemini needs.
 
 However, differences may arise due to Gemini's need for constant mental stimulation and Pisces' preference for emotional connection. It's important for Gemini to provide stability and consistency, while Pisces should appreciate Gemini's need for variety. Finding a balance between mental stimulation and emotional connection is essential for their compatibility.
 
@@ -116,7 +116,7 @@ However, differences may arise due to Gemini's need for constant mental stimulat
 
 ![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](/images/2023/04/cancer-4.jpg)
 
-Pisces and [Cancer](https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/) share a deep emotional connection and understanding, making them highly compatible partners. Both signs are sensitive, intuitive, and value emotional connections. They can create a nurturing and supportive environment for each other, providing emotional security and understanding.
+Pisces and [Cancer](/cancer-dates-traits-the-sensitive-intuitive) share a deep emotional connection and understanding, making them highly compatible partners. Both signs are sensitive, intuitive, and value emotional connections. They can create a nurturing and supportive environment for each other, providing emotional security and understanding.
 
 Challenges may arise from their shared emotional sensitivity, as both signs can easily absorb each other's emotions. Setting healthy boundaries and open communication are vital for maintaining balance and harmony in their relationship.
 
@@ -188,7 +188,7 @@ Overall, Pisces have the potential to be extremely successful financially, but t
 
 The [White Sage Tarot Deck](https://amzn.to/3MkoFMS)
 
-The Tarot is a powerful system of symbols and archetypes, and the zodiac sign Pisces is no exception. Represented by [The Moon card](https://tarotflower.com/tarot-card-meanings/the-moon-tarot/), Pisces is a sign of mystery, intuition, and emotion. This card speaks to the Pisces’s ability to navigate the deep and dark waters of the subconscious. It is a gateway to the higher realms and a portal to the unknown.
+The Tarot is a powerful system of symbols and archetypes, and the zodiac sign Pisces is no exception. Represented by [The Moon card](/the-moon-tarot), Pisces is a sign of mystery, intuition, and emotion. This card speaks to the Pisces’s ability to navigate the deep and dark waters of the subconscious. It is a gateway to the higher realms and a portal to the unknown.
 
 The Moon card is an invitation to explore the depths of the soul. It is a reminder that we must be willing to venture into the unknown and trust our intuition. As we look into the depths of ourselves, we can uncover the hidden mysteries and depths of our being.
 

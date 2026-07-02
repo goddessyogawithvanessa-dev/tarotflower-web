@@ -1,7 +1,7 @@
 ---
 title: "The Nine of Cups Tarot Card Meaning"
 slug: nine-of-cups-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/nine-of-cups-tarot/
+original_url: /nine-of-cups-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

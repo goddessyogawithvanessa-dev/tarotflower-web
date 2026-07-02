@@ -1,7 +1,7 @@
 ---
 title: "The Ten of Swords Tarot Card Meaning: Done, Done and Done!"
 slug: ten-of-swords-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/ten-of-swords-tarot/
+original_url: /ten-of-swords-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

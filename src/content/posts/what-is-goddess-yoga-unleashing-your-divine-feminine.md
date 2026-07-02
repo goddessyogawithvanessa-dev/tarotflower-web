@@ -56,7 +56,7 @@ At Goddess Yoga Retreats, you will embark on a spiritual journey like no other! 
 
 At Goddess Yoga Retreats, we believe that spirituality is a deeply personal experience, and our practice is not tied to any specific religion. It's a beautiful vehicle for every person, regardless of their background or beliefs, to connect with their inner divine feminine energy, mythic feminine power, and inner goddess energy.
 
-Through our yoga sessions, dance movements, [divine feminine tarot card readings](https://tarotflower.com/daily-tarot/what-is-divine-feminine-tarot-empowering-your-inner-goddess/), and other soul-nourishing activities, we create a sacred space where you can tap into your inner goddess and experience a profound sense of connection with your true self. It's a journey of self-discovery, self-care, and self-love, where you can embrace your feminine essence and unlock your full potential.
+Through our yoga sessions, dance movements, [divine feminine tarot card readings](/what-is-divine-feminine-tarot-empowering-your-inner-goddess), and other soul-nourishing activities, we create a sacred space where you can tap into your inner goddess and experience a profound sense of connection with your true self. It's a journey of self-discovery, self-care, and self-love, where you can embrace your feminine essence and unlock your full potential.
 
 Our approach is warm, inclusive, and empowering. We strive to create a supportive community where you can freely express yourself, explore your spirituality, and deepen your connection with the divine feminine. Our experienced instructors are here to guide you every step of the way, helping you awaken your inner goddess and cultivate a sense of inner peace, joy, and empowerment.
 

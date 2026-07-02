@@ -1,7 +1,7 @@
 ---
 title: "Music For Ritual and Meditation: Moon Magic for the Full Moon in Virgo 2023"
 slug: music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023
-original_url: https://tarotflower.com/daily-tarot/music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023/
+original_url: /music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023
 date: 2023-03-06
 modified: 2023-03-06
 content_type: post

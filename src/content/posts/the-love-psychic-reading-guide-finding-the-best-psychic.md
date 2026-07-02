@@ -72,7 +72,7 @@ Skilled love psychics utilize various tools and abilities to facilitate these re
 
 ### Love Tarot Card Readings
 
-[Tarot cards](https://tarotflower.com/shop/) are a popular tool in love psychic readings. These decks of symbolic cards help to tap into the subconscious mind and reveal insights into relationship dynamics, past experiences, and future developments. The cards provide a visual representation of the energies at play, allowing the psychic to interpret and convey meaningful messages that shed light on your love life. Through the careful arrangement and interpretation of the cards, a love psychic can provide valuable guidance and illuminate potential paths to explore or avoid in your romantic journey. To learn more about the tarot, check out our [Tarot Card Meanings](https://tarotflower.com/tarot-card-meanings/) pages!
+[Tarot cards](/shop) are a popular tool in love psychic readings. These decks of symbolic cards help to tap into the subconscious mind and reveal insights into relationship dynamics, past experiences, and future developments. The cards provide a visual representation of the energies at play, allowing the psychic to interpret and convey meaningful messages that shed light on your love life. Through the careful arrangement and interpretation of the cards, a love psychic can provide valuable guidance and illuminate potential paths to explore or avoid in your romantic journey. To learn more about the tarot, check out our [Tarot Card Meanings](/tarot-card-meanings) pages!
 
 ### Love Psychic Channeling
 
@@ -90,7 +90,7 @@ Overall, love psychic readings employ various skills and techniques to provide g
 
 ## Learn to Read Tarot, Channel and Connect to Your Own Divine Feminine at Goddess Yoga Retreats!
 
-If you'd like to join a sacred circle of like-minded women to explore and unleash your inner divine feminine, then join us in magical Lago d'Orta, Italy! At [Goddess Yoga Retreats](https://tarotflower.com/goddess-yoga-retreats/), we connect to our own inner goddess through ritual, intuitive practices, yoga, dance, meditation, music and more.
+If you'd like to join a sacred circle of like-minded women to explore and unleash your inner divine feminine, then join us in magical Lago d'Orta, Italy! At [Goddess Yoga Retreats](/goddess-yoga-retreats), we connect to our own inner goddess through ritual, intuitive practices, yoga, dance, meditation, music and more.
 
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 

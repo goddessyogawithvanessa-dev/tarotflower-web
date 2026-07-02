@@ -1,7 +1,7 @@
 ---
 title: "The Knight of Cups Tarot Card Meaning"
 slug: knight-of-cups-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/knight-of-cups-tarot/
+original_url: /knight-of-cups-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

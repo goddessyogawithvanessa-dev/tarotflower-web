@@ -1,7 +1,7 @@
 ---
 title: "Three of Swords Tarot Card Meaning: Free Your Heart from Your Mind"
 slug: three-of-swords-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/three-of-swords-tarot/
+original_url: /three-of-swords-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post
@@ -22,7 +22,7 @@ But do not despair! The 3 of Swords tarot card also brings great lessons and opp
 
 ![3 of swords tarot card meaning, minor arcana, midjourney art by Vanessa Hylande](/images/2022/12/3-of-swords-4.jpg)
 
-The Three of Swords tarot card is one of the most powerful cards in the deck, especially in the [Minor Arcana](https://tarotflower.com/tarot-card-meanings/minor-arcana-tarot/). It can often represent a difficult situation or a period of sorrow or heartbreak. The 3 of Swords tarot card is usually represented by a heart pierced by three swords, which symbolize the pain and suffering that can come from a broken heart. This tarot card serves as a warning of potential emotional pain and loss. It can be a sign of betrayal, heartache, or the end of a relationship. In some cases, it can be indicative of a period of mourning or grief.
+The Three of Swords tarot card is one of the most powerful cards in the deck, especially in the [Minor Arcana](/minor-arcana-tarot). It can often represent a difficult situation or a period of sorrow or heartbreak. The 3 of Swords tarot card is usually represented by a heart pierced by three swords, which symbolize the pain and suffering that can come from a broken heart. This tarot card serves as a warning of potential emotional pain and loss. It can be a sign of betrayal, heartache, or the end of a relationship. In some cases, it can be indicative of a period of mourning or grief.
 
 At the same time, the 3 of Swords card can also represent a period of growth and healing. This card can represent the process of overcoming a difficult situation, or the strength that comes from learning how to cope with loss or betrayal. It’s a reminder that pain and suffering can be a part of life, but that we can find healing and resilience through the process.
 
@@ -56,7 +56,7 @@ The 3 of swords symbolizes the need to confront and address the painful emotions
 
 ![two of swords tarot card meaning midjourney art Vanessa Hylande](/images/2022/12/vanessahylande_two-of-swords.jpg)
 
-The querent's journey through the Tarot from the [Two of Swords](https://tarotflower.com/tarot-card-meanings/two-of-swords-tarot/) to the [Four of Swords](https://tarotflower.com/tarot-card-meanings/four-of-swords-tarot/) represents a transformative path of self-discovery and healing. Starting with the Two of Swords, the querent finds themselves at a crossroads, facing a decision that has caused inner conflict and uncertainty. The blindfolded figure symbolizes the need to confront the truth and make a choice that aligns with their authentic self.
+The querent's journey through the Tarot from the [Two of Swords](/two-of-swords-tarot) to the [Four of Swords](/four-of-swords-tarot) represents a transformative path of self-discovery and healing. Starting with the Two of Swords, the querent finds themselves at a crossroads, facing a decision that has caused inner conflict and uncertainty. The blindfolded figure symbolizes the need to confront the truth and make a choice that aligns with their authentic self.
 
 As they move forward, the querent encounters the Three of Swords, experiencing heartbreak and emotional pain as a result of unresolved conflicts or difficult decisions. This card serves as a wake-up call, urging the querent to acknowledge and process their emotional wounds.
 

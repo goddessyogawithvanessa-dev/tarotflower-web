@@ -16,7 +16,7 @@ The Tarot is a powerful tool that can be used to explore the inner workings of o
 
 ## What is the Major Arcana?
 
-The [major arcana](https://tarotflower.com/tarot-card-meanings/) is a group of 22 cards within the traditional Tarot deck that can be used to gain insight into the major events and transitions we undergo in our life journeys. Each card symbolizes an archetype that represents a certain stage of our life, from the Fool at the beginning of the journey to the World at the end.
+The [major arcana](/tarot-card-meanings) is a group of 22 cards within the traditional Tarot deck that can be used to gain insight into the major events and transitions we undergo in our life journeys. Each card symbolizes an archetype that represents a certain stage of our life, from the Fool at the beginning of the journey to the World at the end.
 
 At the “[Activate Your Divine Feminine](http://goddess-yoga-retreat.com/retreats/divine-feminine-activation/)” yoga retreat in Lago d’Orta, Italy, we will journey through the Major Arcana with yoga, BodyMind dancing, and trance dance explorations. When we explore the Major Arcana of the Tarot, we can use it as a way to understand our own life journey. So, by dancing each archetype, we can come to a better understanding of the journey we are on and how to make the most of it.
 

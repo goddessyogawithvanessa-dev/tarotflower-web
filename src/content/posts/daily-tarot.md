@@ -1,7 +1,7 @@
 ---
 title: "Daily Tarot"
 slug: daily-tarot
-original_url: https://tarotflower.com/daily-tarot/
+original_url: /
 date: 2022-02-08
 modified: 2025-05-31
 content_type: page
@@ -10,8 +10,6 @@ seo_title: "The Witch’s Journal – Tarot, Rituals &amp; Reflections"
 seo_description: "Welcome to the Witch’s Journal. A space for tarot insights, lunar rituals, personal reflections, and spiritual stories from the path of the divine feminine.
 "
 ---
-
-# The Witch's Journal
 
 **Welomce to the Witch's Journal**
 
@@ -35,4 +33,4 @@ At Daily Tarot we love to talk about the current energies and bring you sage adv
 
 Our Tarot Flower Daily Tarot blog will not only discuss traditional tarot, but will also explore ways that you can embody the tarot. This will enable you to begin manifesting abundance and flow in your life, by putting the lessons of the tarot into practice. It’s not always enough to understand things with the mind. Sometimes we need guidance on how to put our spirituality into practice.
 
-If you’d like to learn more about embodiment, join us at our beautiful [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/glow-up-with-goddess-yoga/)[.](https://goddess-yoga-retreat.com/glow-up-with-goddess-yoga/ "goddess yoga retreat") Especially if you are an artist and prefer to learn in a holistic way, you have come to the right place. So, if you are ready to move beyond simply learning the [tarot card meanings](https://tarotflower.com/tarot-card-meanings/), read on! Enjoy!
+If you’d like to learn more about embodiment, join us at our beautiful [Goddess Yoga Retreats](https:/goddess-yoga-retreat.com/glow-up-with-goddess-yoga/)[.](https://goddess-yoga-retreat.com/glow-up-with-goddess-yoga/ "goddess yoga retreat") Especially if you are an artist and prefer to learn in a holistic way, you have come to the right place. So, if you are ready to move beyond simply learning the [tarot card meanings](/tarot-card-meanings), read on! Enjoy!

@@ -1,7 +1,7 @@
 ---
 title: "Embodying Artemis, Goddess of the Hunt: 12:12 Portal and New Moon in Sagittarius 2023"
 slug: embodying-artemis-goddess-of-the-hunt-1212-portal-and-new-moon-in-sagittarius-2023
-original_url: https://tarotflower.com/daily-tarot/embodying-artemis-goddess-of-the-hunt-1212-portal-and-new-moon-in-sagittarius-2023/
+original_url: /embodying-artemis-goddess-of-the-hunt-1212-portal-and-new-moon-in-sagittarius-2023
 date: 2023-12-11
 modified: 2023-12-26
 content_type: post
@@ -46,4 +46,4 @@ If you’d like to learn more about embodying the goddess Artemis, join me and o
 
 ## Discover Goddess Yoga Classes Online and Retreats Around the World
 
-Join me for [Goddess Yoga classes](https://tarotflower.com/goddess-yoga/) in Vienna, Austria or online. And stay tuned of upcoming retreats in 2024!
+Join me for [Goddess Yoga classes](/goddess-yoga) in Vienna, Austria or online. And stay tuned of upcoming retreats in 2024!

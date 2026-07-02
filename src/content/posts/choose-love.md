@@ -1,7 +1,7 @@
 ---
 title: "Affirmation for Love: I Choose Love"
 slug: choose-love
-original_url: https://tarotflower.com/daily-tarot/choose-love/
+original_url: /choose-love
 date: 2021-02-14
 modified: 2023-04-25
 content_type: post
@@ -46,13 +46,13 @@ Because it's what connects us
 
 in all we do
 
-If you seek love, become love first. Remember this when you meditate on this **affirmation for love**. You attract love when you become love. But not just love for others - you must love yourself first. Like [The Lovers](https://tarotflower.com/tarot-card-meanings/the-lovers-tarot/) and [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/) in the tarot, there is a divine love waiting for you if you create it for yourself first.
+If you seek love, become love first. Remember this when you meditate on this **affirmation for love**. You attract love when you become love. But not just love for others - you must love yourself first. Like [The Lovers](/the-lovers-tarot) and [The Empress](/the-empress-tarot) in the tarot, there is a divine love waiting for you if you create it for yourself first.
 
 Nurture your own heart in everything you do. Have compassion for yourself and then for others. Hold yourself in high regard and do not hold space for relationships that do not fully honor you. Instead, cherish those relationships that cherish you.
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

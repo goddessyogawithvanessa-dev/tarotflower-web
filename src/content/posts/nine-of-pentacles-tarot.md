@@ -1,7 +1,7 @@
 ---
 title: "The Nine of Pentacles Tarot Card Meaning"
 slug: nine-of-pentacles-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/nine-of-pentacles-tarot/
+original_url: /nine-of-pentacles-tarot
 date: 2022-12-17
 modified: 2023-05-16
 content_type: post

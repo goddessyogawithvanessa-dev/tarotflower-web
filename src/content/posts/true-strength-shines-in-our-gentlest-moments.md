@@ -1,7 +1,7 @@
 ---
 title: "True Strength Shines in Our Gentlest Moments"
 slug: true-strength-shines-in-our-gentlest-moments
-original_url: https://tarotflower.com/daily-tarot/true-strength-shines-in-our-gentlest-moments/
+original_url: /true-strength-shines-in-our-gentlest-moments
 date: 2020-07-11
 modified: 2023-04-25
 content_type: post

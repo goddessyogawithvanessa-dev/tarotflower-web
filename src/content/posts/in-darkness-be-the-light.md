@@ -1,7 +1,7 @@
 ---
 title: "In Darkness, Remember to Be the Light"
 slug: in-darkness-be-the-light
-original_url: https://tarotflower.com/daily-tarot/in-darkness-be-the-light/
+original_url: /in-darkness-be-the-light
 date: 2021-02-17
 modified: 2023-04-25
 content_type: post
@@ -28,13 +28,13 @@ When we are surrounded by darkness, we do not illuminate anything by darkening o
 
 We must make the effort to be the light. This way we can lead each other out of the darkness.
 
-Like [The Magician](https://tarotflower.com/tarot-card-meanings/the-magician-tarot/) of the major arcana, we manifest what we out our focus on. So, think about the good things in your life today. Put your energy into what works.
+Like [The Magician](/the-magician-tarot) of the major arcana, we manifest what we out our focus on. So, think about the good things in your life today. Put your energy into what works.
 
 > When you are in darkness, be the light.
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

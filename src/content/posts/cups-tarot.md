@@ -11,8 +11,6 @@ seo_description: "Dive into the Suit of Cups with Tarot Flower. Discover tarot c
 "
 ---
 
-# The Suit of Cups
-
 ## The Minor Arcana
 
 The suit of cups in the tarot deck represents the element of water, which symbolizes the flow of emotions and intuition.
@@ -29,7 +27,7 @@ It may also represent an invitation to tap into one's intuition and creative ene
 
 The suit of cups can help us to understand our emotional responses to situations and how to find balance and harmony within ourselves.
 
-One of the most famous cards in the suit of cups is the [Ace of Cups](https://tarotflower.com/tarot-card-meanings/ace-of-cups-tarot/), which represents new beginnings, emotional fulfillment, and spiritual awakening.
+One of the most famous cards in the suit of cups is the [Ace of Cups](/ace-of-cups-tarot), which represents new beginnings, emotional fulfillment, and spiritual awakening.
 
 It is a symbol of overflowing love, compassion, and joy, and it encourages us to open our hearts and connect with the world around us.
 

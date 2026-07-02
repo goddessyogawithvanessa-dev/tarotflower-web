@@ -1,7 +1,7 @@
 ---
 title: "The Moon Tarot Card Meaning: Shining Light on the Shadows"
 slug: the-moon-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-moon-tarot/
+original_url: /the-moon-tarot
 date: 2023-05-23
 modified: 2023-06-06
 content_type: post
@@ -47,7 +47,7 @@ The Moon is the 18th card of the [Major Arcana](https://en.wikipedia.org/wiki/Ma
 
 The Moon tarot card holds profound symbolism and significance within the realm of tarot readings. Representing the planet of intuition and emotions, the Moon embodies the mysterious and subconscious aspects of our being. It corresponds to the element of water, which reflects its association with our deepest emotions, dreams, and intuition. In numerology, the Moon card is linked to the number 18, a number that signifies the completion of a cycle and the beginning of a new phase.
 
-Astrologically, the Moon card is closely associated with the zodiac sign of [Cancer](https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/). Like Cancer, the Moon card embodies qualities such as sensitivity, nurturing, and a deep connection to the inner self. It highlights the importance of listening to our intuition and following our instincts to navigate the often hidden or obscured aspects of life.
+Astrologically, the Moon card is closely associated with the zodiac sign of [Cancer](/cancer-dates-traits-the-sensitive-intuitive). Like Cancer, the Moon card embodies qualities such as sensitivity, nurturing, and a deep connection to the inner self. It highlights the importance of listening to our intuition and following our instincts to navigate the often hidden or obscured aspects of life.
 
 ## The Moon Yes or No
 
@@ -105,7 +105,7 @@ Overall, The Moon as feelings represents a complex tapestry of emotions, encompa
 
 ![The Moon Tarot card meaning, major arcana, the owl spirit animal, Midjourney art by Vanessa Hylande](/images/2022/02/owl-6.jpg)
 
-As a significant card in the Major Arcana, The Moon Tarot card holds a pivotal place in the querent's journey. Positioned between the enchanting energy of [The Star](https://tarotflower.com/tarot-card-meanings/the-star-tarot/) and the transformative power of [The Sun](https://tarotflower.com/tarot-card-meanings/the-sun-tarot/), The Moon represents a critical juncture of self-exploration and inner growth. It serves as a bridge between the realm of intuition and the conscious mind.
+As a significant card in the Major Arcana, The Moon Tarot card holds a pivotal place in the querent's journey. Positioned between the enchanting energy of [The Star](/the-star-tarot) and the transformative power of [The Sun](/the-sun-tarot), The Moon represents a critical juncture of self-exploration and inner growth. It serves as a bridge between the realm of intuition and the conscious mind.
 
 When appearing before The Moon, the preceding card prepares the querent for a deep dive into the subconscious, urging them to confront hidden emotions and fears. After The Moon, the subsequent card, often The Sun, brings the gift of illumination, clarity, and a renewed sense of self. The Moon card's placement signifies a crucial stage of the querent's path, where they are called to trust their inner guidance, navigate through uncertainty, and embark on a journey of profound self-discovery and eventual awakening.
 
@@ -137,7 +137,7 @@ The Moon reversed reminds you to be cautious of hidden agendas, dishonesty, or u
 
 ### The Moon Tarot card meaning: divine feminine intuition
 
-The Moon tarot card is a deeply feminine card. It holds the mystery of **The Goddess**, of **intuition**. When you receive this this card in your reading, try to embody [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/) tarot card. It is your intuition and **psychic ability** that will guide you through the darkness.
+The Moon tarot card is a deeply feminine card. It holds the mystery of **The Goddess**, of **intuition**. When you receive this this card in your reading, try to embody [The High Priestess](/the-high-priestess-tarot) tarot card. It is your intuition and **psychic ability** that will guide you through the darkness.
 
 The Moon itself is mysterious by nature. The darkness of night and the reflection of moonlight distorts our vision. The world doesn’t appear as familiar in the dark. Be prepared for unexpected truths to be revealed. Although you may be faced with confusion or delusion in the moment, try not to worry! It is always better to have the truth brought out into the light, even if it is uncomfortable in the moment.
 
@@ -161,7 +161,7 @@ The Moon tarot card shows up to daydreamers and schemers and can represent someo
 
 ![Pisces compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/pisces-1.jpg)
 
-The Moon Card is related to the astrological sign of [Pisces](https://tarotflower.com/astrology/pisces-dates-traits-the-mystical-dreaming-fish/). This sign is one of the dreamer, the unconscious, psychic ability and sensitivity. Pisces are known to have strong psychic abilities, are deeply spiritual, perceptive and mysterious.
+The Moon Card is related to the astrological sign of [Pisces](/pisces-dates-traits-the-mystical-dreaming-fish). This sign is one of the dreamer, the unconscious, psychic ability and sensitivity. Pisces are known to have strong psychic abilities, are deeply spiritual, perceptive and mysterious.
 
 Pisces are great at delving into the deep psyche, and this is precisely what the Moon card asks you to do. Peer into the the overlooked and unheard-of aspects of your unconscious and spiritual side.
 

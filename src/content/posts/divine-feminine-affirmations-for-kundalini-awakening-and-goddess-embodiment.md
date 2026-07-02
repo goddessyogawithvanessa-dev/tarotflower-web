@@ -82,7 +82,7 @@ Thumbnail Art by Vanessa Hylande on Midjourney :-)
 
 Looking to fully embody the goddess in your daily life through Tarot, yoga, meditations and more?
 
-Check out all of our offerings like [Goddess Yoga Classes](https://tarotflower.com/goddess-yoga/) and [Retreats](https://tarotflower.com/goddess-yoga-retreats/)!
+Check out all of our offerings like [Goddess Yoga Classes](/goddess-yoga) and [Retreats](/goddess-yoga-retreats)!
 
 →EMBODY THE GODDESS←
 

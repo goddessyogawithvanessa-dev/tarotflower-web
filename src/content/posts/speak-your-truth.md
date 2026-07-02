@@ -1,7 +1,7 @@
 ---
 title: "Speak Your Truth"
 slug: speak-your-truth
-original_url: https://tarotflower.com/daily-tarot/speak-your-truth/
+original_url: /speak-your-truth
 date: 2020-06-12
 modified: 2023-04-25
 content_type: post
@@ -12,7 +12,7 @@ seo_description: "He rushes in and he means business! The Knight of Swords is sw
 
 He rushes in and he means business! The Knight of Swords is swift and brings knowledge, communication, and a passion for ideas. You might be dealing with an air sign today - a Gemini, Libra, or Aquarius, or maybe this is your energy. So, speak your truth today! But be careful not to become argumentative or opinionated.
 
-The Knight of Swords is an air element, which represents thoughts, ideas and communication. Namely, everything that relates to the mind. In the traditional [Rider-Waite](https://tarotflower.com/shop/) tarot deck, he is depicted charging forward on horseback with his sword before him in one hand. In the tarot, the sword represents the truth.
+The Knight of Swords is an air element, which represents thoughts, ideas and communication. Namely, everything that relates to the mind. In the traditional [Rider-Waite](/shop) tarot deck, he is depicted charging forward on horseback with his sword before him in one hand. In the tarot, the sword represents the truth.
 
 So, charge forward with your authentic ideas today and speak your truth to others! Just be careful not to rush too much. Also, never forget to always use compassion in everything you do.
 

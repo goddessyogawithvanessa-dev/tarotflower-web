@@ -1,7 +1,7 @@
 ---
 title: "The Sun Tarot Card Meaning: Celebrating Life"
 slug: the-sun-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-sun-tarot/
+original_url: /the-sun-tarot
 date: 2023-05-30
 modified: 2023-12-27
 content_type: post
@@ -14,7 +14,7 @@ seo_description: "The Sun Tarot card radiates warmth, joy, and positivity, and i
 
 The Sun Tarot card radiates warmth, joy, and positivity, and is one of the best cards to receive in your tarot card reading! The Sun card brings a sense of renewed energy and vitality into your life. It signifies a period of abundance, success, and personal fulfillment. The Sun tarot card's bright and optimistic energy encourages you to embrace the present moment and celebrate your achievements.
 
-This [Major Arcana](https://tarotflower.com/major-arcana-2/) tarot card represents the element of Fire, symbolizing **passion**, **creativity**, and **transformation**. It is associated with the zodiac sign of [Leo](https://tarotflower.com/astrology/leo-dates-traits-the-shining-sun/), embodying the qualities of **courage**, **leadership**, and **self-expression**. The number associated with the Sun card is 19, which carries the energy of completion and the fulfillment of one's aspirations.
+This [Major Arcana](/major-arcana-2) tarot card represents the element of Fire, symbolizing **passion**, **creativity**, and **transformation**. It is associated with the zodiac sign of [Leo](/leo-dates-traits-the-shining-sun), embodying the qualities of **courage**, **leadership**, and **self-expression**. The number associated with the Sun card is 19, which carries the energy of completion and the fulfillment of one's aspirations.
 
 <a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
 <h2>Ready to Embody the Mystery of the Tarot?</h2>
@@ -27,7 +27,7 @@ This [Major Arcana](https://tarotflower.com/major-arcana-2/) tarot card represen
 ![Leo dates and traits, Leo zodiac sign. Leo personality, Leo compatibility, astrology midjourney art by Vanessa Hylande](/images/2023/04/leo-4.jpg)
 
 * **Element:** Fire
-* **Zodiac Sign:** [Leo](https://tarotflower.com/astrology/leo-dates-traits-the-shining-sun/)
+* **Zodiac Sign:** [Leo](/leo-dates-traits-the-shining-sun)
 * **Number:** 19
 * **The Sun Yes or No:** Yes
 * **Represents:** Warmth, joy, abundance
@@ -86,7 +86,7 @@ Embodying The Sun Tarot card is a beautiful practice that allows you to embrace 
 
 By embodying The Sun Tarot card, you align yourself with its vibrant energy and embody its qualities of joy, positivity, authenticity, and self-assurance. Allow The Sun's light to guide your path and inspire you to live a life filled with warmth, love, and happiness.
 
-Consider using such tools as yoga**, affirmations**, **crystals**, meditations and dance. Want to learn more? You can explore how to empower and liberate the solar plexus chakra at our beautiful, live [Goddess Yoga Retreats](https://tarotflower.com/goddess-yoga-retreats/)!
+Consider using such tools as yoga**, affirmations**, **crystals**, meditations and dance. Want to learn more? You can explore how to empower and liberate the solar plexus chakra at our beautiful, live [Goddess Yoga Retreats](/goddess-yoga-retreats)!
 
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
@@ -98,9 +98,9 @@ The Sun Tarot card evokes a sense of pure joy and happiness, filling your heart 
 
 ![The Sun tarot card meaning, major arcana, the sun card, Leo zodiac sign, Fire element, Midjourney art by Vanessa Hylande](/images/2022/02/the-sun-5.jpg)
 
-In the Major Arcana, the Sun Tarot card holds a special place between the cards that come before and after it. As the nineteenth card, it follows [the Moon](https://tarotflower.com/tarot-card-meanings/the-moon-tarot/), which represents the realm of emotions, intuition, and the unconscious mind. The Moon signifies a phase of introspection and exploration of hidden depths. When the Sun appears, it brings a refreshing shift in energy, symbolizing the emergence from the darkness into the light.
+In the Major Arcana, the Sun Tarot card holds a special place between the cards that come before and after it. As the nineteenth card, it follows [the Moon](/the-moon-tarot), which represents the realm of emotions, intuition, and the unconscious mind. The Moon signifies a phase of introspection and exploration of hidden depths. When the Sun appears, it brings a refreshing shift in energy, symbolizing the emergence from the darkness into the light.
 
-The Sun is followed by the [Judgement](https://tarotflower.com/tarot-card-meanings/judgement-tarot/) card, which represents a time of reflection, awakening, and rebirth. After experiencing the radiant energy of the Sun, the Judgment card calls for self-evaluation, inner transformation, and a calling to align with one's higher purpose.
+The Sun is followed by the [Judgement](/judgement-tarot) card, which represents a time of reflection, awakening, and rebirth. After experiencing the radiant energy of the Sun, the Judgment card calls for self-evaluation, inner transformation, and a calling to align with one's higher purpose.
 
 Together, these three cards form a powerful sequence of transformation and growth. The journey starts with the Moon, diving deep into the subconscious, uncovering truths, and exploring emotions. Then comes the Sun, radiating warmth, joy, and clarity, illuminating the path forward. Finally, the Judgment card invites reflection and a profound awakening, urging one to make conscious choices and embrace personal transformation.
 
@@ -198,7 +198,7 @@ Strive to bring yourself back to a place of centeredness. In some cases, the ene
 
 ## A Few Opposite Cards to the Sun Tarot Card
 
-[**Moon**](https://tarotflower.com/tarot-card-meanings/the-moon-tarot/)**–** confusion, disorientation, illusion;
+[**Moon**](/the-moon-tarot)**–** confusion, disorientation, illusion;
 
 8 of Cups – leaving behind that which no longer serves you
 

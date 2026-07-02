@@ -10,8 +10,6 @@ seo_title: "Goddess Yoga Series: November 2023 | Tarot Flower"
 seo_description: "Join me for our next Goddess Yoga Series, live in Vienna, Austria or online! We will dive deeply into the divine feminine through tarot card readings,..."
 ---
 
-# Goddess Yoga Series
-
 ## November, 2023
 
 ## Tarot Inspired Yoga, Meditation & Music

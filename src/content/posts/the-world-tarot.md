@@ -1,7 +1,7 @@
 ---
 title: "The World Tarot Card Meaning: The Portal"
 slug: the-world-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-world-tarot/
+original_url: /the-world-tarot
 date: 2023-05-17
 modified: 2023-05-21
 content_type: post
@@ -12,7 +12,7 @@ seo_description: "When you arrive at The World card, your spiritual evolution th
 
 ![The World Tarot card meaning, major arcana, Midjourney art by Vanessa Hylande](/images/2022/12/world-10.jpg)
 
-When you arrive at The World card, your spiritual evolution through this chapter of your life is complete. When you get this [Major Arcana](https://tarotflower.com/major-arcana-2/) card in your tarot card reading, it indicates that your inner and outer worlds are now unified in perfect balance.
+When you arrive at The World card, your spiritual evolution through this chapter of your life is complete. When you get this [Major Arcana](/major-arcana-2) card in your tarot card reading, it indicates that your inner and outer worlds are now unified in perfect balance.
 
 The World tarot card is a card of **completion, arrival,** and **transformation**, and implies that you are beginning a new chapter in your life. Get ready to step into a whole new world.
 
@@ -83,9 +83,9 @@ By embodying the energy of The World card, you invite wholeness, fulfillment, an
 
 ## The World Tarot Card in the Major Arcana
 
-Just before the World, you encountered the transformative energy of the [Death](https://tarotflower.com/tarot-card-meanings/death-tarot/) card. It may have been a period of release, letting go of old patterns, or undergoing profound inner changes. The World surrounds you with its comforting embrace, assuring you that the journey through the darkness was necessary for your personal evolution. It encourages you to acknowledge and celebrate the lessons learned, as they have paved the way for the radiant future that awaits you.
+Just before the World, you encountered the transformative energy of the [Death](/death-tarot) card. It may have been a period of release, letting go of old patterns, or undergoing profound inner changes. The World surrounds you with its comforting embrace, assuring you that the journey through the darkness was necessary for your personal evolution. It encourages you to acknowledge and celebrate the lessons learned, as they have paved the way for the radiant future that awaits you.
 
-Looking ahead, after the World, the [Fool](https://tarotflower.com/tarot-card-meanings/the-fool-tarot/) card beckons with its adventurous spirit. It invites you to embrace the unknown with a sense of wonder and curiosity. The Fool signals a fresh start, where you can step onto a new path, unburdened by past experiences. The World assures you that you have gained the wisdom, strength, and self-awareness needed to navigate this exciting new journey. Trust in the divine flow of your life, for the World holds you in its loving embrace and supports you every step of the way.
+Looking ahead, after the World, the [Fool](/the-fool-tarot) card beckons with its adventurous spirit. It invites you to embrace the unknown with a sense of wonder and curiosity. The Fool signals a fresh start, where you can step onto a new path, unburdened by past experiences. The World assures you that you have gained the wisdom, strength, and self-awareness needed to navigate this exciting new journey. Trust in the divine flow of your life, for the World holds you in its loving embrace and supports you every step of the way.
 
 ## The World Card in the Past
 

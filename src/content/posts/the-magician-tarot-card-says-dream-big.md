@@ -1,7 +1,7 @@
 ---
 title: "The Magician Tarot Card Says \"Dream Big!\""
 slug: the-magician-tarot-card-says-dream-big
-original_url: https://tarotflower.com/daily-tarot/the-magician-tarot-card-says-dream-big/
+original_url: /the-magician-tarot-card-says-dream-big
 date: 2022-04-29
 modified: 2023-04-25
 content_type: post
@@ -12,7 +12,7 @@ seo_description: "Spring is in the air and it's a beautiful day to manifest your
 
 ![the magician tarot card meaning](/images/2021/01/the-magician-2-683x1024.jpg)
 
-Spring is in the air and it's a beautiful day to manifest your dreams into existence! When you pull [The Magician](https://tarotflower.com/tarot-card-meanings/the-magician-tarot/) tarot card, you are being advised to take full advantage of every tool you have at your disposal and go for it. Have your dreams been on hold? Have you felt stuck? Maybe you've been waiting for that perfect moment or circumstance?
+Spring is in the air and it's a beautiful day to manifest your dreams into existence! When you pull [The Magician](/the-magician-tarot) tarot card, you are being advised to take full advantage of every tool you have at your disposal and go for it. Have your dreams been on hold? Have you felt stuck? Maybe you've been waiting for that perfect moment or circumstance?
 
 The Magician card is telling you that the wait is over. You already have everything you need to succeed. Take another look at the resources around you. Could there be something that you're missing? You probably have more options and opportunities that you realize. Take the time to assess them all put a new plan into action.
 
@@ -34,7 +34,7 @@ If you're looking for some inspiration and guidance on embodying The Magician ta
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

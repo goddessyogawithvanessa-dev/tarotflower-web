@@ -1,7 +1,7 @@
 ---
 title: "The King of Cups Tarot Card Meaning"
 slug: king-of-cups-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/king-of-cups-tarot/
+original_url: /king-of-cups-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

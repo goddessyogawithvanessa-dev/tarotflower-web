@@ -1,7 +1,7 @@
 ---
 title: "The Empress Tarot Card Meaning: The Luxurious Divine Feminine"
 slug: the-empress-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-empress-tarot/
+original_url: /the-empress-tarot
 date: 2021-01-14
 modified: 2023-05-25
 content_type: post
@@ -12,7 +12,7 @@ seo_description: "The Empress tarot card is the Venus of the tarot. She represen
 
 ![The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande](/images/2021/01/empress-4.jpg)
 
-The Empress tarot card is the Venus of the tarot. She represents **abundance**, **fertility**, **creativity**, and **beauty**. She is the **divine feminine** archetype, The Great Mother who channels the spirituality of [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/) into the physical realm.
+The Empress tarot card is the Venus of the tarot. She represents **abundance**, **fertility**, **creativity**, and **beauty**. She is the **divine feminine** archetype, The Great Mother who channels the spirituality of [The High Priestess](/the-high-priestess-tarot) into the physical realm.
 
 The Empress is able to **effortlessly manifest abundance** all around her. When she turns up in your tarot card reading, you know that things are about to get good!
 
@@ -24,7 +24,7 @@ The Empress is able to **effortlessly manifest abundance** all around her. When 
 
 ## The Empress Tarot Card Summarized
 
-The Empress is the fourth card of the Major Arcana. [The Fool](https://tarotflower.com/tarot-card-meanings/the-fool-tarot/) began his journey and then learned how to manifest as [The Magician](https://tarotflower.com/tarot-card-meanings/the-magician-tarot/). Then The High Priestess brought spirituality and intuition into the mix. Now the Empress puts it all together by making it manifest in the physical world. So, what what does the empress card mean? Well, she literally **embodies abundance** of all forms.
+The Empress is the fourth card of the Major Arcana. [The Fool](/the-fool-tarot) began his journey and then learned how to manifest as [The Magician](/the-magician-tarot). Then The High Priestess brought spirituality and intuition into the mix. Now the Empress puts it all together by making it manifest in the physical world. So, what what does the empress card mean? Well, she literally **embodies abundance** of all forms.
 
 ## The Empress Tarot Card Upright Card Keywords
 

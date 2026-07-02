@@ -10,8 +10,6 @@ seo_title: "Shop | Tarot Flower"
 seo_description: "Welcome to our divine feminine boutique, where you'll find everything you need to create sacred space for yourself and connect with your inner goddess!"
 ---
 
-# The Tarot Flower Boutique
-
 ## For Divine Feminine Practices
 
 ![tarot flower shop for decks, candles, crystals and more image by vanessa hylande](/images/2023/04/tf-shop-image.jpg)
@@ -87,7 +85,7 @@ Aovila Premium Crystals Set in Wooden Box - 7 Raw Chakra Stones, 7 Tumbled Gemst
 
 At our online shop, we believe that everyone has the power to awaken their inner divine feminine goddess. Our products are designed to help you connect with your intuition, creativity, and sacred feminine spirit. Shop with us today and start your journey towards self-discovery and empowerment.
 
-And, be sure to check out our various reviews! Whether you are at the beginning of your journey toward learning the various [tarot card meanings](https://tarotflower.com/tarot-card-meanings/) or you're an experienced tarot card reader, we have excellent recommendations for you in our beautiful tarot flower shop.
+And, be sure to check out our various reviews! Whether you are at the beginning of your journey toward learning the various [tarot card meanings](/tarot-card-meanings) or you're an experienced tarot card reader, we have excellent recommendations for you in our beautiful tarot flower shop.
 
 ![tarot cards, oracle cards](/images/2021/01/Gold-Photo-Wedding-Pinterest-Graphic-1.jpg)![tarot cards, oracle cards](/images/2021/01/Gold-Photo-Wedding-Pinterest-Graphic-2.jpg)![slow down to enjoy the magic of life](/images/2021/01/affirmations-and-images-for-tarot-flower-1.jpg)
 

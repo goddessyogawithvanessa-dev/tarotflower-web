@@ -1,7 +1,7 @@
 ---
 title: "Surrender at the Lion's Gate"
 slug: surrender-at-the-lions-gate
-original_url: https://tarotflower.com/daily-tarot/surrender-at-the-lions-gate/
+original_url: /surrender-at-the-lions-gate
 date: 2023-12-25
 modified: 2023-12-25
 content_type: post
@@ -44,8 +44,8 @@ The greatest rouse of all time is that our Inner Goddess is something we have to
 
 But all we really have to do is allow the Goddess within us to be free. That's what it means to embody.
 
-* [The High Priestess Tarot Card Meaning: Mystery and Intuition](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/)
-* [Intuition Quotes: I Seek Answers Within My Stillness](https://tarotflower.com/daily-tarot/intuition-quotes-i-seek-answers-within-my-stillness/)
+* [The High Priestess Tarot Card Meaning: Mystery and Intuition](/the-high-priestess-tarot)
+* [Intuition Quotes: I Seek Answers Within My Stillness](/intuition-quotes-i-seek-answers-within-my-stillness)
 * [Capricorn Kids - Little Mountain Climbers](https://tarotflower.com/tarot-flower-kids/capricorn-kids/)
-* [The World Tarot Card Meaning: The Portal](https://tarotflower.com/tarot-card-meanings/the-world-tarot/)
+* [The World Tarot Card Meaning: The Portal](/the-world-tarot)
 * [How YOU Can Feel Like The Empress - Sexy, Alluring and Abundant!](https://tarotflower.com/news/feel-like-the-empress/)

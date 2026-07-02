@@ -1,7 +1,7 @@
 ---
 title: "The Death Tarot Card Meaning: The Phoenix Rising"
 slug: death-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/death-tarot/
+original_url: /death-tarot
 date: 2023-05-17
 modified: 2023-05-24
 content_type: post
@@ -12,9 +12,9 @@ seo_description: "The Death tarot card, like the Three of Swords, often scares p
 
 ![death tarot card meaning, tarot death card meaning, tarot death card meaning, death card in tarot meaning, major arcana, dia de los muertos,  midjourney art by vanessa hylande tarot card art](/images/2022/02/vanessahylande_a_gorgeous_woman_with_black_hair_with_piercing_b_abeda71f-a1c1-4fba-98c1-d781e0c52686.jpg)
 
-The Death tarot card, like the [Three of Swords](https://tarotflower.com/tarot-card-meanings/three-of-swords-tarot/), often scares people when it appears in their tarot card reading. However, it is metaphorical and represents the ending of something that no longer serves you. Just as the phoenix is reborn from the ashes, this archetype brings positive change. It represents a purging of the old in order to make room for the new.
+The Death tarot card, like the [Three of Swords](/three-of-swords-tarot), often scares people when it appears in their tarot card reading. However, it is metaphorical and represents the ending of something that no longer serves you. Just as the phoenix is reborn from the ashes, this archetype brings positive change. It represents a purging of the old in order to make room for the new.
 
-People are often afraid of pulling the 13th Trump of the [Major Arcana](https://tarotflower.com/major-arcana-2/) - the death tarot card in their tarot deck; it is normal to think it means it is the end of everything. It is natural to view any card representing such a thing as negative.
+People are often afraid of pulling the 13th Trump of the [Major Arcana](/major-arcana-2) - the death tarot card in their tarot deck; it is normal to think it means it is the end of everything. It is natural to view any card representing such a thing as negative.
 
 However, it does not necessarily depict physical death. In fact, this card is a wonderful and a powerful one. It is the most spiritual card in your Tarot deck. Whenever it appears in your reading, your life is going to change in a significant way. Let's dive into this mysterious and powerful card.
 
@@ -102,7 +102,7 @@ Learn how to embody the lessons of the Death card at our beautiful, mystical [Go
 
 ![death tarot card meaning major arcana midjourney art by vanessa hylande tarot card art](/images/2022/02/vanessahylande_a_gorgeous_woman_with_black_hair_with_piercing_b_2b0cb116-1f8d-4a91-8f7c-f5b4302c482d.jpg)
 
-In the traditional Rider-Waite tarot deck, the card that comes before the Death card is [Justice](https://tarotflower.com/tarot-card-meanings/justice-tarot/). Following the Death card is [Temperance](https://tarotflower.com/tarot-card-meanings/temperance-tarot/).
+In the traditional Rider-Waite tarot deck, the card that comes before the Death card is [Justice](/justice-tarot). Following the Death card is [Temperance](/temperance-tarot).
 
 Justice represents fairness, balance, and the consequences of our actions. It signifies the need for truth and integrity in a situation. When Justice appears before the Death card, it suggests that a significant change or transformation is imminent, and justice must prevail in order for that transformation to occur.
 

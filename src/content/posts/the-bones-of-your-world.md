@@ -1,7 +1,7 @@
 ---
 title: "The Bones of Your World"
 slug: the-bones-of-your-world
-original_url: https://tarotflower.com/daily-tarot/the-bones-of-your-world/
+original_url: /the-bones-of-your-world
 date: 2020-07-01
 modified: 2023-04-25
 content_type: post

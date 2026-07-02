@@ -1,7 +1,7 @@
 ---
 title: "Be in Service of Your Dreams"
 slug: be-in-service-of-your-dreams
-original_url: https://tarotflower.com/daily-tarot/be-in-service-of-your-dreams/
+original_url: /be-in-service-of-your-dreams
 date: 2020-07-02
 modified: 2023-04-25
 content_type: post

@@ -165,9 +165,10 @@ a.hamburger { display: none; }
 }
 
 .container {
+  width: 80%;
   max-width: 1080px;
   margin: 0 auto;
-  padding: 50px 40px;
+  padding: 50px 0;
 }
 
 h1 {
@@ -268,7 +269,6 @@ strong { color: #333; }
 /* Homepage */
 .homepage .hero {
   text-align: center;
-  max-width: 800px;
   margin: 0 auto 2em;
 }
 .homepage .hero h2 {
@@ -464,20 +464,17 @@ strong { color: #333; }
 }
 .read-more-toggle summary::-webkit-details-marker { display: none; }
 .read-more-toggle summary::after {
-  content: '+';
-  font-size: 1.4em;
-  color: #ccc;
-  width: 28px;
-  height: 28px;
-  border: 1px solid #ddd;
-  border-radius: 50%;
+  content: '>';
+  font-size: 1.2em;
+  color: #333;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  transition: transform 0.2s ease;
 }
 .read-more-toggle[open] summary::after {
-  content: '−';
+  transform: rotate(90deg);
 }
 .read-more-content {
   padding: 0 24px 20px;
@@ -629,21 +626,19 @@ footer {
   align-items: center;
 }
 .social-icons a {
-  color: #333;
+  color: #7a8b6f;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  font-size: 18px;
-  transition: opacity 0.2s;
+  border: 1px solid #7a8b6f;
+  font-size: 16px;
+  transition: background-color 0.2s, color 0.2s;
   text-decoration: none;
 }
-.social-icons a:hover { opacity: 0.7; text-decoration: none; }
-.social-pinterest { color: #fff; background: #cb2027; }
-.social-youtube { color: #fff; background: #c4302b; }
-.social-tiktok { color: #fff; background: #333; }
+.social-icons a:hover { background: #7a8b6f; color: #fff; text-decoration: none; }
 .footer-cta {
   display: inline-block;
   margin-top: 1em;
@@ -954,7 +949,7 @@ footer {
 
 @media (max-width: 768px) {
   .content > p img { float: none !important; width: 100% !important; margin: 0 0 1em 0 !important; }
-  .container { padding: 30px 18px; }
+  .container { width: auto; padding: 30px 18px; }
   h1 { font-size: 2.8em; }
 
   /* Mobile nav: show hamburger, hide desktop nav */
@@ -983,7 +978,7 @@ footer {
     z-index: 0;
     overflow: hidden;
     border-radius: 9999px;
-    box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+    border: 1.5px solid rgba(122, 139, 111, 0.5);
     background-color: rgb(255 255 255 / 10%);
   }
   a.hamburger::after {

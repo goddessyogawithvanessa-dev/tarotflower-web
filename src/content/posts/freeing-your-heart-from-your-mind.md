@@ -1,7 +1,7 @@
 ---
 title: "Freeing Your Heart From Your Mind"
 slug: freeing-your-heart-from-your-mind
-original_url: https://tarotflower.com/daily-tarot/freeing-your-heart-from-your-mind/
+original_url: /freeing-your-heart-from-your-mind
 date: 2020-07-13
 modified: 2023-04-25
 content_type: post

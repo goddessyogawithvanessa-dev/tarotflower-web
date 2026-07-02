@@ -1,7 +1,7 @@
 ---
 title: "Choose Your Burdens"
 slug: choose-your-burdens
-original_url: https://tarotflower.com/daily-tarot/choose-your-burdens/
+original_url: /choose-your-burdens
 date: 2020-07-03
 modified: 2023-04-25
 content_type: post

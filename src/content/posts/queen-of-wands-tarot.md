@@ -1,7 +1,7 @@
 ---
 title: "The Queen of Wands Tarot Card Meaning"
 slug: queen-of-wands-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/queen-of-wands-tarot/
+original_url: /queen-of-wands-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

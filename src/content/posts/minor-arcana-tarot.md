@@ -1,7 +1,7 @@
 ---
 title: "The Minor Arcana of the Tarot"
 slug: minor-arcana-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/minor-arcana-tarot/
+original_url: /minor-arcana-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

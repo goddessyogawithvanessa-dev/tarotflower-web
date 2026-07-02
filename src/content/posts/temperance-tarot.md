@@ -1,7 +1,7 @@
 ---
 title: "Temperance Tarot Card Meaning: The Magic of Transmutation"
 slug: temperance-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/temperance-tarot/
+original_url: /temperance-tarot
 date: 2022-02-19
 modified: 2023-05-16
 content_type: post
@@ -14,7 +14,7 @@ seo_description: "If you've pulled the beautiful Temperance tarot card in your r
 
 If you've pulled the beautiful Temperance tarot card in your reading, then you have some wonderful energies coming into your life. This major arcana card represents the ability to remain calm and serene in the face of challenges. It teaches us the benefits of moderation and patience.
 
-The angel depicted on the card mixes the waters of the super and subconscious minds, achieving unity and infinity. Everyone wants to live a harmonious life full of happiness and fulfillment despite the challenges that he/she may need to cope with. This is where the Temperance tarot card comes in. Appearing after The [Death tarot card](https://tarotflower.com/tarot-card-meanings/death-tarot/) and before The Devil tarot card, this 14th Major Arcana card is one of the most beautiful cards in your Tarot deck.
+The angel depicted on the card mixes the waters of the super and subconscious minds, achieving unity and infinity. Everyone wants to live a harmonious life full of happiness and fulfillment despite the challenges that he/she may need to cope with. This is where the Temperance tarot card comes in. Appearing after The [Death tarot card](/death-tarot) and before The Devil tarot card, this 14th Major Arcana card is one of the most beautiful cards in your Tarot deck.
 
 **Discover the magic of Tarot and more at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
 

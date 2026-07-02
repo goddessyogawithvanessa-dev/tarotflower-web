@@ -1,7 +1,7 @@
 ---
 title: "The Six of Wands Tarot Card Meaning"
 slug: six-of-wands-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/six-of-wands-tarot/
+original_url: /six-of-wands-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

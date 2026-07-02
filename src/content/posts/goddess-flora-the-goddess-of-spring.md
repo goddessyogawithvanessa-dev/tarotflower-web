@@ -18,7 +18,7 @@ As the goddess of flowers, Flora carried within her the essence of nature's colo
 
 ### The Goddess Flora Archetype
 
-Flora's archetype goes beyond the physical realm of flowers and plants. Much like [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/) tarot card, she symbolizes the flourishing of our inner landscapes, reminding us to nurture our dreams, passions, and creative potential. Like a garden, our souls yearn to be tended with love and care, allowing our unique gifts to bloom and radiate their beauty into the world.
+Flora's archetype goes beyond the physical realm of flowers and plants. Much like [The Empress](/the-empress-tarot) tarot card, she symbolizes the flourishing of our inner landscapes, reminding us to nurture our dreams, passions, and creative potential. Like a garden, our souls yearn to be tended with love and care, allowing our unique gifts to bloom and radiate their beauty into the world.
 
 ### Goddess Flora and the Wonders of Nature
 

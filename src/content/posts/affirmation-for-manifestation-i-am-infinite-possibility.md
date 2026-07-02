@@ -1,7 +1,7 @@
 ---
 title: "Affirmation for Manifestation: I Am Infinite Possibility"
 slug: affirmation-for-manifestation-i-am-infinite-possibility
-original_url: https://tarotflower.com/daily-tarot/affirmation-for-manifestation-i-am-infinite-possibility/
+original_url: /affirmation-for-manifestation-i-am-infinite-possibility
 date: 2021-02-27
 modified: 2023-04-25
 content_type: post
@@ -26,7 +26,7 @@ When we practice an affirmation for manifestation we have to be careful to not s
 
 Sometimes we carry deeply engrained beliefs that we are not good enough, or are not deserving. "Oh, I could never do that." Or "I missed my chance." Well, the truth is that if you decide that you can't, you won't be able to. If you don't believe in yourself, who will?
 
-Even if it might be hard sometimes, give yourself permission to try. Give yourself a chance at infinite potential. Dare to dream, and then embody that dream every moment of every day. This is how we embody the magic of [The Magician tarot](https://tarotflower.com/tarot-card-meanings/the-magician-tarot/) card.
+Even if it might be hard sometimes, give yourself permission to try. Give yourself a chance at infinite potential. Dare to dream, and then embody that dream every moment of every day. This is how we embody the magic of [The Magician tarot](/the-magician-tarot) card.
 
 Remember that **infinite possibility** is available to you in everything you do. In every choice, in every feeling and perspective you choose to give energy and attention to.
 
@@ -34,7 +34,7 @@ The world can be as you dream it because you **are** infinite possibility. Go an
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

@@ -1,7 +1,7 @@
 ---
 title: "Don't Fear the Leap to Freedom"
 slug: dont-fear-the-leap-to-freedom
-original_url: https://tarotflower.com/daily-tarot/dont-fear-the-leap-to-freedom/
+original_url: /dont-fear-the-leap-to-freedom
 date: 2020-07-05
 modified: 2023-04-25
 content_type: post

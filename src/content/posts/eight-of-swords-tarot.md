@@ -1,7 +1,7 @@
 ---
 title: "The Eight of Swords Tarot Card Meaning"
 slug: eight-of-swords-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/eight-of-swords-tarot/
+original_url: /eight-of-swords-tarot
 date: 2022-12-18
 modified: 2023-05-16
 content_type: post

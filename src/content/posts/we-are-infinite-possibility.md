@@ -1,7 +1,7 @@
 ---
 title: "We Are Infinite Possibility"
 slug: we-are-infinite-possibility
-original_url: https://tarotflower.com/daily-tarot/we-are-infinite-possibility/
+original_url: /we-are-infinite-possibility
 date: 2020-07-20
 modified: 2023-04-25
 content_type: post

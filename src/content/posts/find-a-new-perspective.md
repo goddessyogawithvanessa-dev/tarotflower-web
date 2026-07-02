@@ -1,7 +1,7 @@
 ---
 title: "I Look at Every Situation From a New Perspective"
 slug: find-a-new-perspective
-original_url: https://tarotflower.com/daily-tarot/find-a-new-perspective/
+original_url: /find-a-new-perspective
 date: 2021-02-19
 modified: 2023-04-25
 content_type: post
@@ -30,7 +30,7 @@ Contemplate this message when you meditate on this affirmation for a new perspec
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 

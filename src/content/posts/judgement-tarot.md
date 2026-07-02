@@ -1,7 +1,7 @@
 ---
 title: "The Judgement Tarot Card Meaning: The Calling"
 slug: judgement-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/judgement-tarot/
+original_url: /judgement-tarot
 date: 2023-05-17
 modified: 2023-05-17
 content_type: post
@@ -40,7 +40,7 @@ Receiving The Judgement tarot card in your tarot card reading is a sign to take 
 
 ![Judgement tarot card meaning, the calling, major arcana, Midjourney art by Vanessa Hylande](/images/2022/04/judg-6.jpg)
 
-The Judgement tarot card represents a moment of self-reflection and release of all past baggage. It symbolizes a spiritual awakening that encourages us to address our deepest emotions and take responsibility for our own destiny. This [Major Arcana](https://tarotflower.com/major-arcana-2/) card is a call to action, to take a look at our lives and decide if we are living in alignment with our highest potential. Because it is the second to last card in the journey through the Tarot, it is the last big challenge we face before we step into a new and ascended life with [The World](https://tarotflower.com/tarot-card-meanings/the-world-tarot/) Tarot card.
+The Judgement tarot card represents a moment of self-reflection and release of all past baggage. It symbolizes a spiritual awakening that encourages us to address our deepest emotions and take responsibility for our own destiny. This [Major Arcana](/major-arcana-2) card is a call to action, to take a look at our lives and decide if we are living in alignment with our highest potential. Because it is the second to last card in the journey through the Tarot, it is the last big challenge we face before we step into a new and ascended life with [The World](/the-world-tarot) Tarot card.
 
 The Judgement card encourages us to accept our failings and let go of our attachments, so we can move forward in life with peace and joy. It is a reminder that we all have the power to make choices that will shape our lives and create our own unique journey. It encourages us to trust our inner wisdom and take the risk of being vulnerable, so we can experience true transformation and genuine joy.
 
@@ -62,7 +62,7 @@ Remember, dear soul, that the Judgement card in a twin flame reading is a loving
 
 ![embody the judgement tarot card meaning, major arcana, midjourney art by vanessa hylande, goddess yoga](/images/2022/04/judg-10.jpg)
 
-The Judgement tarot card is a beautiful invitation to embark on a journey of personal transformation and self-discovery. Embracing the energy of this card means embracing the power of positive affirmations. [Affirmations](https://tarotflower.com/affirmations/) can help shift your mindset and align your thoughts with the transformative energy of the Judgement card. By repeating affirmations that empower and inspire you, you can tap into your inner strength and embrace the path of self-discovery.
+The Judgement tarot card is a beautiful invitation to embark on a journey of personal transformation and self-discovery. Embracing the energy of this card means embracing the power of positive affirmations. [Affirmations](/affirmations) can help shift your mindset and align your thoughts with the transformative energy of the Judgement card. By repeating affirmations that empower and inspire you, you can tap into your inner strength and embrace the path of self-discovery.
 
 Taking responsibility for our actions and healing relationships is another essential aspect of embodying the Judgement card's energy. It encourages us to acknowledge any mistakes we've made and make amends where necessary. By owning up to our past actions and expressing genuine remorse, we open the doors to healing and transformation. Taking responsibility is a courageous step towards personal growth and aligning with the transformative energy of the Judgement card.
 
@@ -78,7 +78,7 @@ Begin your embodiment journey at [Goddess Yoga Retreats](https://goddess-yoga-re
 
 ![embody the judgement tarot card meaning, major arcana, midjourney art by vanessa hylande, goddess yoga](/images/2022/04/judg-4.jpg)
 
-The Judgment Tarot card represents a significant turning point in the querent's journey through the Major Arcana. As the card that follows the [Death](https://tarotflower.com/tarot-card-meanings/death-tarot/) card and precedes the [World](https://tarotflower.com/tarot-card-meanings/the-world-tarot/) card, it signifies a powerful moment of transition and spiritual awakening. The Death card symbolizes the end of an old phase and the necessary release of attachments, while the Judgment card represents a moment of profound reflection and self-evaluation. It prompts the querent to examine their past actions, beliefs, and choices, and make a judgment about their true self and purpose.
+The Judgment Tarot card represents a significant turning point in the querent's journey through the Major Arcana. As the card that follows the [Death](/death-tarot) card and precedes the [World](/the-world-tarot) card, it signifies a powerful moment of transition and spiritual awakening. The Death card symbolizes the end of an old phase and the necessary release of attachments, while the Judgment card represents a moment of profound reflection and self-evaluation. It prompts the querent to examine their past actions, beliefs, and choices, and make a judgment about their true self and purpose.
 
 After the transformative experience depicted in the Judgment card, the querent moves towards the World card, which signifies a sense of completion and fulfillment. The World card represents the integration of all aspects of the self and the attainment of wholeness. It reflects the culmination of the querent's spiritual journey, where they have gained wisdom, self-awareness, and a deeper understanding of their place in the world.
 

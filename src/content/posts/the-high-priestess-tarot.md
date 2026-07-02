@@ -1,7 +1,7 @@
 ---
 title: "The High Priestess Tarot Card Meaning: Mystery and Intuition"
 slug: the-high-priestess-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/
+original_url: /the-high-priestess-tarot
 date: 2021-01-14
 modified: 2023-05-17
 content_type: post
@@ -12,7 +12,7 @@ seo_description: "The High Priestess tarot card is the mysterious sacred feminin
 
 ![The High Priestess Tarot card meaning, major arcana, Midjourney art by Vanessa Hylande](/images/2021/01/high-priestess-3.jpg)
 
-**The High Priestess** tarot card is the **mysterious sacred feminine**. She embodies **spirituality, mystery**, and the divine knowledge that has been passed down for generations. She is the feminine counterpart of [The Hierophant](https://tarotflower.com/tarot-card-meanings/the-hierophant-tarot/) and is known for her powerful intuition.
+**The High Priestess** tarot card is the **mysterious sacred feminine**. She embodies **spirituality, mystery**, and the divine knowledge that has been passed down for generations. She is the feminine counterpart of [The Hierophant](/the-hierophant-tarot) and is known for her powerful intuition.
 
 Therefore, when The High Priestess makes an appearance in your tarot card reading, you know that messages from your unconscious are trying to come in. **Find a place of stillness and listen!**
 

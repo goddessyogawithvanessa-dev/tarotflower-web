@@ -1,7 +1,7 @@
 ---
 title: "The Moon Reveals Hidden Truths"
 slug: the-moon-reveals-hidden-truths
-original_url: https://tarotflower.com/daily-tarot/the-moon-reveals-hidden-truths/
+original_url: /the-moon-reveals-hidden-truths
 date: 2020-06-15
 modified: 2023-04-25
 content_type: post

@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export function getStaticPaths() {
+  return [
+    { params: { tag: 'full-moon' } },
+    { params: { tag: 'love' } },
+    { params: { tag: 'oracle' } },
+    { params: { tag: 'shadow-work' } },
+    { params: { tag: 'divine-feminine' } },
+  ];
+}
+
+const tagConfig: Record<string, { title: string; description: string; categories: string[]; keywords: string[] }> = {
+  'full-moon': {
+    title: 'Full Moon',
+    description: 'Moon magic, full moon rituals, and lunar energy readings.',
+    categories: ['moonmagic'],
+    keywords: ['full-moon', 'full moon', 'lunar', 'moon magic'],
+  },
+  'love': {
+    title: 'Love & Twin Flames',
+    description: 'Twin flame journeys, love readings, and soulmate connections.',
+    categories: ['twin-flame'],
+    keywords: ['twin-flame', 'twin flame', 'love reading', 'soulmate'],
+  },
+  'oracle': {
+    title: 'Oracle Spreads',
+    description: 'Oracle card readings, goddess spreads, and divination guides.',
+    categories: ['oracle'],
+    keywords: ['oracle'],
+  },
+  'shadow-work': {
+    title: 'Shadow Work',
+    description: 'Shadow work practices, journaling prompts, and inner healing.',
+    categories: [],
+    keywords: ['shadow work', 'shadow-work'],
+  },
+  'divine-feminine': {
+    title: 'Divine Feminine',
+    description: 'Goddess embodiment, divine feminine energy, and sacred practices.',
+    categories: ['embodiment'],
+    keywords: ['divine feminine', 'goddess embodiment'],
+  },
+};
+
+const { tag } = Astro.params;
+const config = tagConfig[tag!];
+
+const allPosts = await getCollection('posts');
+const filtered = allPosts.filter(post => {
+  const cats = post.data.categories || [];
+  if (config.categories.some(c => cats.includes(c))) return true;
+  const slug = post.data.slug || '';
+  const title = (post.data.title || '').toLowerCase();
+  return config.keywords.some(kw => slug.includes(kw.replace(/ /g, '-')) || title.includes(kw));
+}).sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+---
+<Base title={`${config.title} – Tarot Flower`} description={config.description}>
+  <div class="container">
+    <h1>{config.title}</h1>
+    <p class="tag-description">{config.description}</p>
+    <div class="zodiac-grid">
+      {filtered.map(post => (
+        <a href={`/${post.data.slug}`} class="zodiac-card">
+          <div class="zodiac-info"><h3>{post.data.title}</h3></div>
+        </a>
+      ))}
+    </div>
+    {filtered.length === 0 && <p>No posts found for this theme yet.</p>}
+  </div>
+</Base>

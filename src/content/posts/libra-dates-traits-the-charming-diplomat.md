@@ -1,7 +1,7 @@
 ---
 title: "Libra Dates & Traits: The Charming Diplomat"
 slug: libra-dates-traits-the-charming-diplomat
-original_url: https://tarotflower.com/astrology/libra-dates-traits-the-charming-diplomat/
+original_url: /libra-dates-traits-the-charming-diplomat
 date: 2023-05-18
 modified: 2023-05-18
 content_type: post
@@ -72,7 +72,7 @@ Libra is a sign that values balance, harmony, and partnership in love and relati
 
 ![Aries dates and traits zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/aries-3.jpg)
 
-[Aries](https://tarotflower.com/astrology/aries-dates-traits-the-fearless-ram/) and Libra can create a dynamic and exciting relationship as they balance each other's energies.
+[Aries](/aries-dates-traits-the-fearless-ram) and Libra can create a dynamic and exciting relationship as they balance each other's energies.
 
 Aries brings passion, spontaneity, and a sense of adventure, while Libra contributes harmony, diplomacy, and a love for beauty.
 
@@ -82,7 +82,7 @@ They can learn a lot from each other, but conflicts may arise due to their diffe
 
 ![taurus zodiac sign taurus dates and traits taurus compatibility artwork by vanessa hylande](/images/2023/04/taurus-1.jpg)
 
-[Taurus](https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/) and Libra have the potential for a harmonious and balanced relationship.
+[Taurus](/taurus-dates-traits-the-loyal-dependable-romantic) and Libra have the potential for a harmonious and balanced relationship.
 
 Taurus appreciates Libra's charm, diplomacy, and refined taste, while Libra admires Taurus' stability, loyalty, and sensuality.
 
@@ -92,7 +92,7 @@ Together, they create a strong foundation built on trust and mutual respect, alt
 
 ![Gemini zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/gemini-v2-3.jpg)
 
-Libra and [Gemini](https://tarotflower.com/astrology/gemini-dates-traits-the-clever-twins/) share a natural intellectual connection and love for communication.
+Libra and [Gemini](/gemini-dates-traits-the-clever-twins) share a natural intellectual connection and love for communication.
 
 They enjoy engaging in deep conversations, exchanging ideas, and exploring various interests together.
 
@@ -104,7 +104,7 @@ However, they may need to work on maintaining emotional depth and addressing any
 
 ![cancer zodiac sign cancer dates and traits, cancer personality, cancer compatibility, midjourney arts Vanessa Hylande](/images/2023/04/cancer-3.jpg)
 
-Libra and [Cancer](https://tarotflower.com/astrology/cancer-dates-traits-the-sensitive-intuitive/) have contrasting qualities, which can create a complementary partnership.
+Libra and [Cancer](/cancer-dates-traits-the-sensitive-intuitive) have contrasting qualities, which can create a complementary partnership.
 
 Libra brings harmony, diplomacy, and a social nature, while Cancer contributes emotional depth, nurturing qualities, and a strong sense of home.
 

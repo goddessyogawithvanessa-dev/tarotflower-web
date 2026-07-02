@@ -1,7 +1,7 @@
 ---
 title: "Step Forward With a Pure Heart"
 slug: step-forward-with-a-pure-heart
-original_url: https://tarotflower.com/daily-tarot/step-forward-with-a-pure-heart/
+original_url: /step-forward-with-a-pure-heart
 date: 2020-07-28
 modified: 2023-04-25
 content_type: post
@@ -18,7 +18,7 @@ The Five of Pentacles in the reverse indicates an opportunity to put an end to t
 
 Whenever we encounter pain in our lives, there is a place in our own hearts where we are self inflicting the same energy. Do you abandon your own dreams or needs at times? Be thankful for these messages because they are windows into our souls. Now you have the clarity to self-heal. The King of Cups represents mastery over emotion.
 
-Don't choose a memory of love. Don't choose the possibility of love. Don't choose the longing for love. Where is love in your life in this very moment? That is all that is real. [Choose love](https://tarotflower.com/daily-tarot/choosing-love/) in the present. The rest is illusion - a crack in the cup of love through which your heart will slowly empty itself. Fill your cup instead.
+Don't choose a memory of love. Don't choose the possibility of love. Don't choose the longing for love. Where is love in your life in this very moment? That is all that is real. [Choose love](/choosing-love) in the present. The rest is illusion - a crack in the cup of love through which your heart will slowly empty itself. Fill your cup instead.
 
 ## Daily Affirmation
 

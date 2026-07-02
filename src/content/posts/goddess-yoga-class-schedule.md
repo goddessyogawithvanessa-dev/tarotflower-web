@@ -10,8 +10,6 @@ seo_title: "Goddess Yoga Class Schedule | Tarot Flower"
 seo_description: "\"Vanessa brings calm and joy to her yoga classes in equal measure. She is a true goddess, and every class leaves you feeling like one too ❤️\" -..."
 ---
 
-# Goddess Yoga Class Schedule
-
 ## Tarot Inspired Yoga, Meditation & Music
 
 *"Vanessa brings calm and joy to her yoga classes in equal measure. She is a true goddess, and every class leaves you feeling like one too ❤️" - Catriona, Scottland*

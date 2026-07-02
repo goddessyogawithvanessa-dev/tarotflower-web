@@ -1,7 +1,7 @@
 ---
 title: "What is Divine Feminine Tarot? Empowering Your Inner Goddess"
 slug: what-is-divine-feminine-tarot-empowering-your-inner-goddess
-original_url: https://tarotflower.com/daily-tarot/what-is-divine-feminine-tarot-empowering-your-inner-goddess/
+original_url: /what-is-divine-feminine-tarot-empowering-your-inner-goddess
 date: 2023-04-21
 modified: 2023-06-07
 content_type: post
@@ -60,7 +60,7 @@ Mystical practices such as meditation, visualization, and divination can help yo
 
 ![the empress tarot card rider waite](/images/2021/03/The-empress--683x1024.jpg)
 
-The Major Arcana of the Tarot deck includes several cards that are associated with the divine feminine and the goddess archetype. These cards include [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/), [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/), [The Star](https://tarotflower.com/tarot-card-meanings/the-star-tarot/), and [The World](https://tarotflower.com/tarot-card-meanings/the-world-tarot/). Each of these cards represents a different aspect of the divine feminine and can help you tap into your own intuition and creativity.
+The Major Arcana of the Tarot deck includes several cards that are associated with the divine feminine and the goddess archetype. These cards include [The High Priestess](/the-high-priestess-tarot), [The Empress](/the-empress-tarot), [The Star](/the-star-tarot), and [The World](/the-world-tarot). Each of these cards represents a different aspect of the divine feminine and can help you tap into your own intuition and creativity.
 
 * The High Priestess is associated with intuition and spiritual wisdom. She can help you connect with your own inner wisdom and intuition, and open yourself up to new possibilities and insights.
 * The Empress is associated with nurturing, creativity, and abundance. She can help you tap into your own creativity and abundance, and open yourself up to new experiences and possibilities.

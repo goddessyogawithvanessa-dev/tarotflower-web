@@ -1,7 +1,7 @@
 ---
 title: "Twin Flames: No, You’re Not Crazy! Why Sex With Your Twin Flame Is So Mind-Blowing"
 slug: twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing
-original_url: https://tarotflower.com/daily-tarot/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/
+original_url: /twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing
 date: 2023-02-09
 modified: 2023-05-19
 content_type: post
@@ -92,7 +92,7 @@ The truth is that both parties have to evolve, and it can’t be done from withi
 
 ![](/images/2022/02/6.jpg)
 
-If you’re struggling with a twin flame connection that is in separation, you may find support in [affirmations](https://tarotflower.com/affirmations/) for gratitude or courses and programs that will help you to [embody your inner goddess](https://goddess-yoga-retreat.com/goddess-embodiment-your-divine-feminine/) and find your badass self!
+If you’re struggling with a twin flame connection that is in separation, you may find support in [affirmations](/affirmations) for gratitude or courses and programs that will help you to [embody your inner goddess](https://goddess-yoga-retreat.com/goddess-embodiment-your-divine-feminine/) and find your badass self!
 
 Check out our [Goddess Yoga retreats](https://goddess-yoga-retreat.com/), where you can safely explore and awaken your divine feminine, and harness the power of your kundalini awakening.
 
@@ -104,9 +104,9 @@ Check out our [Goddess Yoga retreats](https://goddess-yoga-retreat.com/), where 
 
 Because a twin flame is your “mirror soul” your interactions with them will trigger personal issues. Whether those triggers are fear of abandonment, fear of commitment, jealousy, loss of control or any other low-vibrational emotions, you have to work with those issues on your own.
 
-Even if these energies are simply an inability or unwillingness to make the changes in life that will lead to happiness, a twin flame connection will brutally show you your own face in the mirror. Then it is up to both parties to go within and self-reflect like [The Hermit tarot card](https://tarotflower.com/tarot-card-meanings/the-hermit-tarot/), tap into their intuition like [The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/), until both come out on the other side full of abundance like [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/).
+Even if these energies are simply an inability or unwillingness to make the changes in life that will lead to happiness, a twin flame connection will brutally show you your own face in the mirror. Then it is up to both parties to go within and self-reflect like [The Hermit tarot card](/the-hermit-tarot), tap into their intuition like [The High Priestess](/the-high-priestess-tarot), until both come out on the other side full of abundance like [The Empress](/the-empress-tarot).
 
-Naturally, the twin flame kundalini awakening does not only apply to the divine feminine energies. If a person’s divine masculine energies are out of balance, the twin flame journey will require healing those. Whether you need to find groundedness and stability like [The Emperor](https://tarotflower.com/tarot-card-meanings/the-emperor-tarot/), or the courage to move forward toward your happiness like [The Chariot](https://tarotflower.com/tarot-card-meanings/the-chariot-tarot/), your twin flame journey will leave no stone unturned.
+Naturally, the twin flame kundalini awakening does not only apply to the divine feminine energies. If a person’s divine masculine energies are out of balance, the twin flame journey will require healing those. Whether you need to find groundedness and stability like [The Emperor](/the-emperor-tarot), or the courage to move forward toward your happiness like [The Chariot](/the-chariot-tarot), your twin flame journey will leave no stone unturned.
 
 ## What a twin flame union is not
 

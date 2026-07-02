@@ -10,8 +10,6 @@ seo_title: "Tarot Card Readings | Tarot Flower"
 seo_description: "The magic isn’t in the cards. It’s in the connection."
 ---
 
-# Tarot Card Readings
-
 ## Personalized Tarot, Oracle and Ritual
 
 ## 🔮 Tarot Card Readings

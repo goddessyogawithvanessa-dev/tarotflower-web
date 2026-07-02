@@ -10,8 +10,6 @@ seo_title: "Sound Bath Meditations | Tarot Flower"
 seo_description: "Relax deeply and go on a spiritual journey with a restorative 20 minute, personalized sound bath meditation. I will pull cards and channel the messages..."
 ---
 
-# Sound Bath Meditations
-
 ## For Spiritual and Emotional Healing
 
 ![Vanessa Hylande sound bath meditation](/images/2023/10/sound-bath.jpg)

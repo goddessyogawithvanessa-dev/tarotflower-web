@@ -1,7 +1,7 @@
 ---
 title: "Relationships are the Dance of Life"
 slug: relationships-are-the-dance-of-life
-original_url: https://tarotflower.com/daily-tarot/relationships-are-the-dance-of-life/
+original_url: /relationships-are-the-dance-of-life
 date: 2020-07-08
 modified: 2023-04-25
 content_type: post

@@ -34,8 +34,8 @@ https://tarotflower.com/twin-flame/twin-flames-no-youre-not-crazy-why-sex-with-y
 
 https://tarotflower.com/twin-flame/how-to-survive-the-twin-flame-separation/
 
-* [The Five of Pentacles Tarot Card Meaning](https://tarotflower.com/tarot-card-meanings/five-of-pentacles-tarot/)
-* [The King of Swords Tarot Card Meaning](https://tarotflower.com/tarot-card-meanings/king-of-swords-tarot/)
-* [Speak Your Truth](https://tarotflower.com/daily-tarot/speak-your-truth/)
-* [Boundaries That Honor Your Soul](https://tarotflower.com/daily-tarot/boundaries-that-honor-your-soul/)
-* [The Wisdom of The Shaman](https://tarotflower.com/daily-tarot/the-wisdom-of-the-shaman/)
+* [The Five of Pentacles Tarot Card Meaning](/five-of-pentacles-tarot)
+* [The King of Swords Tarot Card Meaning](/king-of-swords-tarot)
+* [Speak Your Truth](/speak-your-truth)
+* [Boundaries That Honor Your Soul](/boundaries-that-honor-your-soul)
+* [The Wisdom of The Shaman](/the-wisdom-of-the-shaman)

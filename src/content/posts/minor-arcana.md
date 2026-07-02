@@ -11,15 +11,13 @@ seo_description: "Explore the Minor Arcana tarot card meanings with Tarot Flower
 "
 ---
 
-# The Minor Arcana
-
 ## The Four Suits of the Tarot
 
 ![the minor arcana tarot cards artwork by vanessa hylande](/images/2023/04/tf-ai-minor-arcana.jpg)
 
-The Minor Arcana of the Tarot is comprised of four suits: [Cups](https://tarotflower.com/cups-tarot/), [Swords](https://tarotflower.com/swords-tarot/), [Wands](https://tarotflower.com/wands-tarot/), and [Pentacles](https://tarotflower.com/pentacles-tarot/). Each suit represents an element and has a specific astrological association. The Cups suit represents the element of water, the Swords suit represents air, the Wands suit represents fire, and the Pentacles suit represents earth. The Minor Arcana cards often provide specific details and insights into a situation or question in a tarot reading, while the [Major Arcana](https://tarotflower.com/major-arcana-2/) cards offer more overarching themes and messages.
+*The Minor Arcana of the Tarot is comprised of four suits: [Cups](/cups-tarot), [Swords](/swords-tarot), [Wands](/wands-tarot), and [Pentacles](/pentacles-tarot). Each suit represents an element and has a specific astrological association. The Cups suit represents the element of water, the Swords suit represents air, the Wands suit represents fire, and the Pentacles suit represents earth. The Minor Arcana cards often provide specific details and insights into a situation or question in a tarot reading, while the [Major Arcana](/major-arcana-2) cards offer more overarching themes and messages.*
 
-The Cups suit is associated with emotions, love, and intuition. Cups cards often indicate matters related to relationships, creativity, and spirituality. In astrology, Cups are associated with the water signs: Cancer, Scorpio, and Pisces. When Cups cards appear in a reading, they often suggest the need for emotional healing, the importance of compassion and empathy, and the exploration of inner feelings.
+*The Cups suit is associated with emotions, love, and intuition. Cups cards often indicate matters related to relationships, creativity, and spirituality. In astrology, Cups are associated with the water signs: Cancer, Scorpio, and Pisces. When Cups cards appear in a reading, they often suggest the need for emotional healing, the importance of compassion and empathy, and the exploration of inner feelings.*
 
 The Swords suit represents the intellect, communication, and truth. Swords cards often indicate matters related to conflict, decision-making, and mental clarity. In astrology, Swords are associated with the air signs: Gemini, Libra, and Aquarius. When Swords cards appear in a reading, they often suggest the need for clear communication, the importance of logic and reason, and the need to face and resolve conflicts.
 
@@ -37,17 +35,25 @@ The Cups of the Minor Arcana represent the element of Water - your emotions. The
 
 Astrologically, the suit of Cups corresponds to the water signs of the zodiac - Pisces, Cancer, Scorpio. Cups are related to the heart chakra.
 
+![cups tarot cards spread](/images/2020/12/IMG_20201215_122606-scaled.jpg)
+
+![pentacles tarot cards](/images/2020/12/IMG_20201215_123548-scaled.jpg)
+
 ### Pentacles
 
 Pentacles represent the element of earth - abundance in the physical world. These cards can indicate money and wealth, but also other kinds of abundance.
 
 The Earth element pertains to things in our physical world that bring us a sense of physical safety and wellbeing. Therefore, the suit of Pentacles corresponds to the Earth signs of the zodiac - Taurus, Capricorn, Virgo. Pentacles are related to the root chakra.
 
+![swords tarot cards](/images/2021/01/swords-e1610542966242.jpg)
+
 ### Swords
 
 The Suit of Swords correspond to the mind, the Air element. This element rules thoughts, ideas, communication, and decisions.
 
 Therefore, Swords are often associated with news and also states of being where our thinking is influencing us, such as anxiety or over analyzing things. The Swords are associated with the air signs of the zodiac - Libra, Aquarius and Gemini. Swords are related to the throat chakra.
+
+![wands tarot cards](/images/2021/01/wands-e1610542935860.jpg)
 
 ### Wands
 

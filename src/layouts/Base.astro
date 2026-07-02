@@ -5,6 +5,7 @@ interface Props {
 }
 
 const { title, description = '' } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -12,9 +13,18 @@ const { title, description = '' } = Astro.props;
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
+  <link rel="canonical" href={canonicalURL.href} />
   <link rel="icon" type="image/jpeg" sizes="32x32" href="/favicon.jpg" />
   <link rel="icon" type="image/jpeg" sizes="192x192" href="/favicon-192x192.jpg" />
   {description && <meta name="description" content={description} />}
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonicalURL.href} />
+  <meta property="og:title" content={title} />
+  {description && <meta property="og:description" content={description} />}
+  <meta property="og:site_name" content="Tarot Flower" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={title} />
+  {description && <meta name="twitter:description" content={description} />}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Aboreto&family=Quattrocento:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -297,9 +307,9 @@ const { title, description = '' } = Astro.props;
         <p>Subscribe for moon phase updates, tarot wisdom, and spiritual insights — plus invitations to our goddess retreats &amp; rituals.</p>
         <div class="social-icons">
           <a href="https://www.instagram.com/vanessahylande/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.pinterest.com/tarotflower/" target="_blank" rel="noopener" aria-label="Pinterest" class="social-pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
-          <a href="https://www.youtube.com/@vanessahylande" target="_blank" rel="noopener" aria-label="YouTube" class="social-youtube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://www.tiktok.com/@vanessahylande" target="_blank" rel="noopener" aria-label="TikTok" class="social-tiktok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.pinterest.com/tarotflower/" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="https://www.youtube.com/@vanessahylande" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/@vanessahylande" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
           <a href="https://www.facebook.com/tarotflower" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
         </div>
       </div>

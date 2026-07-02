@@ -1,7 +1,7 @@
 ---
 title: "The Shape of Your Dreams"
 slug: the-shape-of-your-dreams
-original_url: https://tarotflower.com/daily-tarot/the-shape-of-your-dreams/
+original_url: /the-shape-of-your-dreams
 date: 2020-07-07
 modified: 2023-04-25
 content_type: post

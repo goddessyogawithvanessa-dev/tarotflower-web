@@ -1,7 +1,7 @@
 ---
 title: "The Five of Pentacles Tarot Card Meaning"
 slug: five-of-pentacles-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/five-of-pentacles-tarot/
+original_url: /five-of-pentacles-tarot
 date: 2022-12-16
 modified: 2023-05-16
 content_type: post

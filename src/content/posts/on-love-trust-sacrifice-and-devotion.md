@@ -74,8 +74,8 @@ I'm going to focus my next meditation on the voice of love. Unbridled from the m
 
 *Thank you to my guru [Gaziza Onalbayeva](https://www.instagram.com/gaziza_onalbayeva/) for guiding me on this beautiful journey of self-reflection and healing.*
 
-* [Be in Service of Your Dreams](https://tarotflower.com/daily-tarot/be-in-service-of-your-dreams/)
-* [Positive Affirmation: I Am Devoted to My Happiness](https://tarotflower.com/daily-tarot/positive-affirmation-i-am-devoted-to-my-happiness/)
-* [The Seven of Swords Tarot Card Meaning](https://tarotflower.com/tarot-card-meanings/seven-of-swords-tarot/)
-* [Freeing Your Heart From Your Mind](https://tarotflower.com/daily-tarot/freeing-your-heart-from-your-mind/)
-* [Challenges Are the Learning Ground of the Heart](https://tarotflower.com/daily-tarot/challenges-are-the-learning-ground-of-the-heart/)
+* [Be in Service of Your Dreams](/be-in-service-of-your-dreams)
+* [Positive Affirmation: I Am Devoted to My Happiness](/positive-affirmation-i-am-devoted-to-my-happiness)
+* [The Seven of Swords Tarot Card Meaning](/seven-of-swords-tarot)
+* [Freeing Your Heart From Your Mind](/freeing-your-heart-from-your-mind)
+* [Challenges Are the Learning Ground of the Heart](/challenges-are-the-learning-ground-of-the-heart)

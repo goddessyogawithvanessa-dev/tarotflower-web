@@ -10,8 +10,6 @@ seo_title: "10 Steps to Embody the Goddess: Your Goddess Embodiment Guide | Taro
 seo_description: "Enjoy your free Goddess Embodiment download!"
 ---
 
-# 10 Steps to Embody the Goddess
-
 Enjoy your free Goddess Embodiment download!
 
 With Love,

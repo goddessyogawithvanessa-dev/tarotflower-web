@@ -1,7 +1,7 @@
 ---
 title: "Boundaries That Honor Your Soul"
 slug: boundaries-that-honor-your-soul
-original_url: https://tarotflower.com/daily-tarot/boundaries-that-honor-your-soul/
+original_url: /boundaries-that-honor-your-soul
 date: 2020-07-19
 modified: 2023-04-25
 content_type: post

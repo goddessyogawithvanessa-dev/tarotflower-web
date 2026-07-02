@@ -1,7 +1,7 @@
 ---
 title: "The Seven of Pentacles Tarot Card Meaning"
 slug: seven-of-pentacles-tarot
-original_url: https://tarotflower.com/tarot-card-meanings/seven-of-pentacles-tarot/
+original_url: /seven-of-pentacles-tarot
 date: 2022-12-17
 modified: 2023-05-16
 content_type: post

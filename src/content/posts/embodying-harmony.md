@@ -1,7 +1,7 @@
 ---
 title: "Embodying Harmony"
 slug: embodying-harmony
-original_url: https://tarotflower.com/daily-tarot/embodying-harmony/
+original_url: /embodying-harmony
 date: 2020-07-10
 modified: 2023-04-25
 content_type: post

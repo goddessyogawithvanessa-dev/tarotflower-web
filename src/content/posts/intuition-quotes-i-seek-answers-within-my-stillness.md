@@ -1,7 +1,7 @@
 ---
 title: "Intuition Quotes: I Seek Answers Within My Stillness"
 slug: intuition-quotes-i-seek-answers-within-my-stillness
-original_url: https://tarotflower.com/daily-tarot/intuition-quotes-i-seek-answers-within-my-stillness/
+original_url: /intuition-quotes-i-seek-answers-within-my-stillness
 date: 2021-02-23
 modified: 2023-04-25
 content_type: post
@@ -14,7 +14,7 @@ seo_description: "Intuition quotes can help to put you in touch with the inner v
 
 Intuition quotes can help to put you in touch with the inner voice of The High Priestess. The things that grow are the things we we focus on. So, **strengthen** your **intuition** by **listening**, and seek your answers within your stillness. Improve your flow by receiving and letting go of control. This is how we embody this positive affirmation for intuition**.**
 
-[The High Priestess](https://tarotflower.com/tarot-card-meanings/the-high-priestess-tarot/) is the archetype of the **sacred feminine**. She is that "yang" element, the **receiver**, the vessel. This [Major Arcana](https://en.wikipedia.org/wiki/Major_Arcana) card is a very important archetype in the querent's journey to ascension.
+[The High Priestess](/the-high-priestess-tarot) is the archetype of the **sacred feminine**. She is that "yang" element, the **receiver**, the vessel. This [Major Arcana](https://en.wikipedia.org/wiki/Major_Arcana) card is a very important archetype in the querent's journey to ascension.
 
 So, rather than doing and controlling, pause for a moment. What do you **feel**? What do you **hear**? Which things do you **know** deep in your bones?
 
@@ -24,7 +24,7 @@ What you are feeling, hearing and knowing, that is the voice of your High Priest
 
 Love,
 
-![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)![embodied goddesses embody the tarot](/images/2022/02/EG-FLower-Photo-Gold-RIm.webp)
+![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
 *Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
 
