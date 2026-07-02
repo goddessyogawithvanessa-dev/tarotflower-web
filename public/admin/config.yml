@@ -3,6 +3,8 @@ backend:
   repo: goddessyogawithvanessa-dev/tarotflower-web
   branch: main
   auth_type: pkce
+  app_id: Ov23lin0sjbHVkCF42UT
+  base_url: https://api.netlify.com
 
 media_folder: "astro-site/public/images"
 public_folder: "/images"
