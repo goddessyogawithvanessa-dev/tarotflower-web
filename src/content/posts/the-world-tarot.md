@@ -16,7 +16,11 @@ When you arrive at The World card, your spiritual evolution through this chapter
 
 The World tarot card is a card of **completion, arrival,** and **transformation**, and implies that you are beginning a new chapter in your life. Get ready to step into a whole new world.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The World Tarot Card Quick Facts
 
@@ -75,7 +79,7 @@ When you embody The World tarot card, you embrace the cycles of beginnings and e
 
 By embodying the energy of The World card, you invite wholeness, fulfillment, and a deep sense of unity into your life's journey. If you want to learn how to embody the qualities of The World in a supportive circle of like-minded women, join our mystical [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/) in beautiful destinations around the world.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The World Tarot Card in the Major Arcana
 

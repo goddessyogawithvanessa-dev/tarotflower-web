@@ -100,4 +100,4 @@ Music is also an important tool for embodying the divine feminine energy within 
 
 **Embody the wisdom and powerful intuition of the High Priestess at our live mystical yoga, dance and somatics wellness retreat for women in Italy this summer! U****nleash your inner divine goddess at this all-inclusive magical event!**
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

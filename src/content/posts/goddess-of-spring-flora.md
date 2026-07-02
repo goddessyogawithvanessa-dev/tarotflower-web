@@ -54,11 +54,11 @@ Remember, the key to embodying Flora is to embrace her qualities of growth, vibr
 
 At Goddess Yoga Retreats in the picturesque setting of Lago d'Orta, Italy, we will immerse ourselves in the essence of the goddess Flora. Surrounded by the natural beauty of the region, we will create a sacred space where we can embody Flora's vibrant and abundant energy. Through yoga, meditation, and a range of transformative practices, we will tap into the essence of blossoming and renewal that Flora represents. Like the flowers that bloom in spring, we will embrace our own growth and transformation, cultivating a deep connection with the cycles of nature. Guided by skilled instructors, we will explore movements that mirror the grace and vitality of Flora, allowing our bodies to sway and flow with the rhythms of life. We will celebrate the beauty and diversity of the natural world, honoring the interconnectedness between ourselves and the environment. In this enchanting setting, we will blossom and flourish, embodying the goddess Flora's spirit of growth, fertility, and the eternal renewal of life.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## Video The Goddess of Spring Flora
 
-https://youtu.be/Wt0U1WnAKkU
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/Wt0U1WnAKkU" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## Embody the Goddess of Spring Using the Elements
 

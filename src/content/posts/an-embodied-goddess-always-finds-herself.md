@@ -50,7 +50,7 @@ But beyond that, embodiment practice will enable you to manifest the life you tr
 
 Want to learn how to embody the Goddess in your daily life? Check out the Embodied Goddesses “Goddess Yourself” online embodiment and ascension program, and begin manifesting the life you dream of today.
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Interested in beautiful* ***goddess oracle cards****,* ***tarot cards****,* ***crystals****,* ***essential oils****,* ***incense****,* ***candles*** *and more? Check ou*t our beautiful [*Goddess Yoga retreats.*](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)
 

@@ -12,7 +12,7 @@ seo_description: "What if you could do more than just get tarot card readings, b
 
 What if you could do more than just get tarot card readings, but actually *embody* all of her divine feminine qualities so that you *feel* like [The Empress](https://tarotflower.com/tarot-card-meanings/the-empress-tarot/) instead? She is sexy, alluring, creative and abundant. She is the sacred seductress, the mother of the tarot, the Goddess Venus. And she is an archetype that you can learn to embody if you have the tools. So, are you ready to awaken your divine feminine? It's time to give yourself permission to shine, Goddess!
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## A Mystical Yoga, Dance and Somatics Retreat in Lake Orta, Italy
 

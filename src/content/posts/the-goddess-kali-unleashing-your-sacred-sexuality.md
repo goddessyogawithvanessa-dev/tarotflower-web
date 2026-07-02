@@ -52,7 +52,7 @@ Furthermore, Kali's association with time and death mirrors the transformative n
 
 On a twin flame journey? Ready to level-up your divine feminine game? Join us at our mystical [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/), where we embody the goddess through yoga, dance, ritual, music and more.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ### Kali Teaches Us Surrender
 

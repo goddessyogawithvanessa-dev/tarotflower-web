@@ -78,7 +78,7 @@ Embrace the journey before you, knowing that your twin flame union is divinely g
 
 Ready to delve into the mysteries of the Tarot and embody the goddess and your highest self? Join us at [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) where we will share mystical practices, ritual, yoga, dance and more in gorgeous locations around the world!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ##### Divine Feminine
 

@@ -82,7 +82,7 @@ So don't wait - book your spot today and get ready to have the time of your life
 
 Save on your entire experience when you register today!
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *live tarot readings, tarot card readings, tarot card readings near me, tarot cards for beginners, tarot for beginners, tarot near me  
 tarot reading, tarot reading near me, tarot reading near me in person, tarot spreads for beginners*

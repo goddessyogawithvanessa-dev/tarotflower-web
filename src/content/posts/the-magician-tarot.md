@@ -20,7 +20,11 @@ Whatever you put your mind to, whatever you set your focus on, **will become a r
 
 The magician upright meaning is one of endless possibility, so be sure to take full advantage of every opportunity that comes your way in the near future.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Magician Tarot Card Quick Facts
 
@@ -80,7 +84,7 @@ https://tarotflower.com/news/feel-like-the-empress/
 
 Want to learn how to embody the powers of The Magician? Check out our beautiful, mystical [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/), where we come together to practice manifestation of all kinds.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Magician as Feelings
 
@@ -180,8 +184,5 @@ The Magician card invites individuals to harness their inner power, use their sk
 
 Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
 
-![the magician tarot card meaning](/images/2021/01/the-magician-2-683x1024.jpg)
-
-![the magician tarot card meaning major arcana](/images/2021/01/the-magician-683x1024.png)
-
+<div class="img-pair"><img src="/images/2021/01/the-magician-2-683x1024.jpg" alt="" /><img src="/images/2021/01/the-magician-683x1024.png" alt="" /></div>
 *the magician tarot, the magician tarot card meaning, the magician love tarot, the magician tarot yes or no, the magician tarot card yes or no, is the magician a yes or no card, the magician tarot reading. the magician tarot art, the magician tarot personality, the magician tarot as a person, the magician tarot symbolism*

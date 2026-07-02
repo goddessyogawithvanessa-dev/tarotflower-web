@@ -58,6 +58,7 @@ collections:
       - { label: "Content Type", name: "content_type", widget: "hidden", default: "product" }
       - { label: "Categories", name: "categories", widget: "list", default: [] }
       - { label: "Price", name: "price", widget: "number", required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Stripe Payment Link", name: "stripe_link", widget: "string", required: false, default: "" }
       - { label: "SEO Title", name: "seo_title", widget: "string", required: false }
       - { label: "SEO Description", name: "seo_description", widget: "text", required: false }

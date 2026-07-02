@@ -18,7 +18,11 @@ People are often afraid of pulling the 13th Trump of the [Major Arcana](https://
 
 However, it does not necessarily depict physical death. In fact, this card is a wonderful and a powerful one. It is the most spiritual card in your Tarot deck. Whenever it appears in your reading, your life is going to change in a significant way. Let's dive into this mysterious and powerful card.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Death Card Quick Facts
 
@@ -92,7 +96,7 @@ In a nutshell, it's all about accepting the things you can't change and having t
 
 Learn how to embody the lessons of the Death card at our beautiful, mystical [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/).
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Death Card in the Major Arcana
 
@@ -204,8 +208,5 @@ In one word, you need to tell yourself you are able to accept the things you can
 
 Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
 
-![death tarot card meaning, death tarot](/images/2022/02/major-arcanas-2-683x1024.jpg)
-
-![](/images/2022/02/major-arcanas-3-683x1024.jpg)
-
+<div class="img-pair"><img src="/images/2022/02/major-arcanas-2-683x1024.jpg" alt="" /><img src="/images/2022/02/major-arcanas-3-683x1024.jpg" alt="" /></div>
 *death tarot card meaning, tarot death card meaning, tarot death card meaning, death card in tarot meaning, the death tarot card meaning, meaning of death tarot card, meaning of the death card in tarot, meaning of the death tarot card, tarot card meanings death, the death card tarot meaning, meaning of tarot death card, tarot meaning death,*

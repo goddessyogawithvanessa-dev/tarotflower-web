@@ -137,7 +137,7 @@ https://youtube.com/shorts/tvoN2eFwvWY?feature=share
 
 You may use this music, "Surrender," filled with beautiful, flowing ocean sounds, to accompany your dance.
 
-https://youtu.be/7q4Fc1bv1mM
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/7q4Fc1bv1mM" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## Connect to Aphrodite, Goddess of Love to Open Your Heart
 
@@ -151,7 +151,7 @@ To tap into Aphrodite's energy, you can practice self-care rituals that nourish 
 
 By embracing the goddess Aphrodite, you can open your heart chakra and connect with your truest self. You can learn to love yourself fully and unconditionally, which will lead to more fulfilling relationships with others as well. Remember that you are worthy of love and respect, and embodying the goddess Aphrodite can help you fully embrace this truth. Learn how to Embody the Goddess Within today!
 
-https://youtu.be/J7axeOi4S9w
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/J7axeOi4S9w" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## Try This Heart Chakra Meditation to Balance Your Anahata Chakra
 
@@ -177,13 +177,13 @@ As you come to the end of this meditation, take a few deep breaths and slowly br
 
 Feel free to use this music to help you visualize your connection with the ocean, the water element, the Goddess and your beautiful heart chakra. Allow your intuition and imagination to take you wherever it wishes. There is no right or wrong.
 
-https://youtu.be/mE3JHXvSKWk
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/mE3JHXvSKWk" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## Expand and Unleash Your Heart Chakra at a Beautiful Italian Yoga Retreat this Summer!
 
 At Goddess Yoga Retreats, we practice daily yoga, embodiment dance, meditation and spiritual practices to help you bring all of your chakras into alignment. You'll be enjoying a beautiful European vacation while also practicing wellness, self-care, self-love, and most importantly, having fun! Check out our three available sessions for this summer: Two Sessions of "Journey to the Goddess" and one week of "Embodying the Divine Feminine." Sign up now and enjoy an early bird discount on all Goddess Yoga Retreats 2023 until the end of April!
 
-https://youtu.be/Sbbi6Nvb4TU
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/Sbbi6Nvb4TU" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *heart chakra  
 yoga for the heart chakra  

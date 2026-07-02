@@ -169,4 +169,4 @@ By exploring the world of yoga, we embark on a journey of self-discovery and con
 
 So, let us step onto our mats with reverence, allowing our hearts and minds to open like delicate petals in the presence of the divine feminine. We embrace the timeless wisdom that flows through the practice, surrendering to the graceful dance of energy. With each practice, we ignite the divine spark within us, awakening boundless potential and possibilities. Let the world of yoga be our sacred companion, guiding us towards a sanctuary of growth, well-being, and inner harmony.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

@@ -20,7 +20,11 @@ As the wheel turns, it brings forth the unpredictable nature of life and the con
 
 The Wheel of Fortune carries several key characteristics that guide its interpretation. It embodies the concept of karma, highlighting the consequences of our past actions and the potential for future rewards or challenges. This card signifies a turning point or a pivotal moment in life, where unexpected events or circumstances can alter the course of our journey. It also emphasizes the importance of being open to new experiences and taking calculated risks, as the wheel continues to spin, offering us the chance for growth, expansion, and personal evolution.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and wellness retreats!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Wheel of Fortune Tarot Card Quick Facts
 
@@ -80,7 +84,7 @@ By embodying these practices, you align yourself with the energy and wisdom of t
 
 Consider using such tools as yoga**, affirmations**, **crystals**, meditations and dance. Want to learn more? You can explore how to empower and liberate the solar plexus chakra at our beautiful, live [Goddess Yoga Retreats](https://tarotflower.com/goddess-yoga-retreats/)!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Wheel of Fortune as Feelings
 

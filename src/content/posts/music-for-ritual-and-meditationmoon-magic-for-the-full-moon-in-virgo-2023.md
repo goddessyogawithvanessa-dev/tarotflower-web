@@ -12,7 +12,7 @@ seo_description: "Here is some beautiful music for this full moon in Virgo 2023 
 
 Here is some beautiful music for this full moon in Virgo 2023 that you can use in your ritual! Light your candles and get out your crystals! Use these magical energies to release old karmic paradigms and allow your new intentions to blossom into life. With the equinox approaching, this is the perfect time to manifest under the full moon.
 
-https://www.youtube.com/watch?v=-OL\_gef8vkk
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/-OL\_gef8vkk" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Long moon, mother moon  
 Gateway opening from the womb  

@@ -52,4 +52,4 @@ If you're ready to channel the prowess and power of Goddess Artemis, then check 
 
 Are you ready to embody the Goddess Artemis? Join our Goddess Yoga retreats worldwide!
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

@@ -74,4 +74,4 @@ Lastly, assert your boundaries and stand firm in your convictions, ensuring that
 
 ## Learn How to Embody the Tarot at Goddess Yoga Retreats
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

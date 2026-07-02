@@ -90,4 +90,4 @@ When we do this, we show an appreciation for the money that we do have. Then we 
 
 When we are connected to the **divine** through the beautiful white light of the **crown chakra**, we are in a position to manifest anything that our heart desires. As long as we remain in a **high vibrational state** and act from a place of **unconditional love**, affirmations to manifest can help us to bring our dreams into reality. But you need to be in alignment with the greater good and your soul's purpose in order to manifest any kind of abundance or situation into your life. You must be fully embodying your life's purpose.
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

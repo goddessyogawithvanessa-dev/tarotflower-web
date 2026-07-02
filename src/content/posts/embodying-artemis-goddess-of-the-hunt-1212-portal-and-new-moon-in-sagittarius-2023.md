@@ -32,7 +32,7 @@ To embody Artemis is to heed the call of the untamed, to draw strength from soli
 
 When the Artemis Goddess card graces your Tarot reading, it heralds a call to embrace the daring spirit of the huntress within. This powerful archetype encourages you to step boldly into uncharted territories, just as Artemis navigates the dense forests with unwavering determination. The appearance of this card signals a time to hone your skills and trust your instincts, much like the skilled archer herself.
 
-https://youtu.be/W96ItA4bu2E?si=-pd0r6Wpq4hC6ii5
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/W96ItA4bu2E" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 Artemis beckons you to dare greatly, pursue your dreams with an agile and focused mind, and find strength in your self-reliance. It's a cosmic nod, urging you to embrace the wild beauty of your aspirations, become both the hunter and the hunted in the pursuit of your goals, and embark on a journey of self-discovery with the fearless grace of the goddess of the hunt.
 

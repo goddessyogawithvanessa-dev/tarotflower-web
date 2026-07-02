@@ -30,3 +30,49 @@ Overall, the Suit of Wands in the Tarot is a powerful symbol of energy, creativi
 ![the suit of wands, rods, tarot card meanings minor arcana artwork by vanessa hylande](/images/2023/04/tf-ai-rods-3.jpg)
 
 ## The Wands Tarot Cards
+
+<div class="zodiac-grid">
+<a href="/ace-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Ace of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/two-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Two of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/three-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Three of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/four-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Four of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/five-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Five of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/six-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Six of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/seven-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Seven of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/eight-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Eight of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/nine-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Nine of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/ten-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Ten of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/page-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Page of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/knight-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Knight of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/queen-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Queen of Wands Tarot Card Meaning</h3></div>
+</a>
+<a href="/king-of-wands-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The King of Wands Tarot Card Meaning</h3></div>
+</a>
+</div>
+

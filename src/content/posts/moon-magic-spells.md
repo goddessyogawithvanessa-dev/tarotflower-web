@@ -11,17 +11,21 @@ seo_description: "Explore moon magic, spells, and sacred rituals on Tarot Flower
 "
 ---
 
-# Moon Magic
+<h1 style="margin-bottom: 0.1em;">Moon Magic</h1>
+<p style="text-align: center; font-family: 'Aboreto', serif; font-size: 1.1em; color: #999; letter-spacing: 1px; margin-bottom: 2em;">Ritual and Practice</p>
 
-## Ritual and Practice
-
-![moon magic ritual and spellcasting](/images/2022/12/20.jpg)
-
-## Practicing Moon Magic
-
-## The Divine Feminine Ritual
+<div class="moon-hero">
+<div class="moon-hero-img">
+<img src="/images/2022/12/20.jpg" alt="moon magic ritual and spellcasting" />
+</div>
+<div class="moon-hero-text">
+<h2 style="text-align: center;">Practicing Moon Magic</h2>
+<h3 style="text-align: center; font-family: 'Tangerine', cursive; font-size: 2.2em; font-weight: 400; font-style: italic;">The Divine Feminine Ritual</h3>
 
 Moon magic is the practice of utilizing the energy of the moon and its phases to manifest intentions and goals. People who practice moon magic often cast spells, meditate, and use crystals to draw upon the energy of the moon. They may also use the moon's energy to help them with spiritual healing and inner growth.
+
+</div>
+</div>
 
 Moon magic is an ancient pagan practice that has been used for centuries for manifesting dreams, healing, and purification. It's a practice that has become increasingly popular in recent years, particularly among those who follow spiritual or new age beliefs. The moon, with its powerful energy, is believed to have a profound impact on our lives and the world around us. It's often associated with the divine feminine, and many people believe that harnessing the moon's energy can help us tap into our inner wisdom and intuition.
 

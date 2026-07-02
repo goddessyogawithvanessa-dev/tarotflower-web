@@ -104,4 +104,4 @@ So, give yourself permission to go inward and listen to your heart. Give yoursel
 
 **Want some guidance on using these beautiful affirmations for confidence? Join** for our "Embodying the Divine Feminine" mystical yoga, dance and somatics retreat this summer and boost your confidence in a supportive environment.
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

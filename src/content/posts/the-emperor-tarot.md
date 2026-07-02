@@ -100,12 +100,9 @@ Activate your **solar plexus chakra**. Have **confidence** in your own wisdom an
 
 Want to learn more about embodying the tarot? Check out our mystical [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) around the world. Through kundalini yoga, **meditation, chakra work, music, dance** and other **spiritual practices**, you will activate your solar plexus chakra and find the power you need to be the master of your own fate.
 
-https://youtu.be/Sbbi6Nvb4TU
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/Sbbi6Nvb4TU" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
-![the emperor tarot card meanings major arcana rider waite deck](/images/2021/01/the-emperor-pin-1-683x1024.jpg)
-
-![the emperor tarot card meanings major arcana rider waite deck](/images/2021/01/the-emperor-pin-683x1024.jpg)
-
+<div class="img-pair"><img src="/images/2021/01/the-emperor-pin-1-683x1024.jpg" alt="" /><img src="/images/2021/01/the-emperor-pin-683x1024.jpg" alt="" /></div>
 *the emperor tarot  
 meaning of the emperor tarot card  
 the emperor love tarot  

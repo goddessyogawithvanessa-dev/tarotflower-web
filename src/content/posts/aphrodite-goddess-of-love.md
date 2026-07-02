@@ -80,7 +80,7 @@ Aphrodite, Goddess of love, will guide you toward your heart chakra opening. Lea
 
 ## Your Aphrodite Goddess Story Video
 
-https://youtu.be/J7axeOi4S9w
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/J7axeOi4S9w" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 Music by Vanessa Hylande, Narrated by Jessica Angileri
 

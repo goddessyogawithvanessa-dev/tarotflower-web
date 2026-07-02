@@ -12,7 +12,7 @@ seo_description: "Did you plant your seeds of intention at the last new moon? Ou
 
 Did you plant your seeds of intention at the last new moon? Our manifestations have been growing and are about to bloom. Tonight we will share the first of three Jupiter-Pluto conjunctions. The planet of expansion and the planet of revelation will meet in the sign of Capricorn, a conjunction we haven't seen in 200 years. May this mark the turning point that leads us into a beautiful collective ascension.
 
-https://youtu.be/\_5\_hZP\_OVdk
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/\_5\_hZP\_OVdk" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Maiden Moon,*  
 *Manifest dreams  

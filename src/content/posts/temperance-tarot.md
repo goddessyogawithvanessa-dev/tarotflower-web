@@ -157,7 +157,7 @@ In conclusion, in order to embody the Temperance tarot card, you need to embody 
 
 Join us for beautiful, mystical [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) around the world. Find your Temperance with yoga, dance, meditation, tarot card readings and more!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ![temperance tarot card meaning, tarot embodiment](/images/2022/02/major-arcanas-4-683x1024.jpg)
 

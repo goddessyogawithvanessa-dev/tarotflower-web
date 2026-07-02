@@ -55,7 +55,7 @@ function extractExcerpt(body: string): string {
       {PageContent && <PageContent />}
     </div>
 
-    <section class="zodiac-grid">
+    <section id="zodiac-grid-section" class="zodiac-grid">
       {zodiacPosts.map(post => {
         const img = extractImage(post!.body || '');
         const excerpt = extractExcerpt(post!.body || '');
@@ -73,4 +73,42 @@ function extractExcerpt(body: string): string {
       })}
     </section>
   </div>
+  <script>
+    const content = document.querySelector('.content.clearfix');
+    const grid = document.getElementById('zodiac-grid-section');
+    if (content && grid) {
+      // Find the paragraph containing the spiral text
+      const paragraphs = content.querySelectorAll('p');
+      for (const p of paragraphs) {
+        if (p.textContent?.includes('learn to name the steps')) {
+          // Insert the grid after this paragraph, but outside .content
+          // Split .content: everything after this paragraph goes into a new .content div
+          const afterNodes: Node[] = [];
+          let found = false;
+          for (const child of Array.from(content.childNodes)) {
+            if (found) {
+              afterNodes.push(child);
+            }
+            if (child === p) {
+              found = true;
+            }
+          }
+          // Move remaining content to a new div after the grid
+          if (afterNodes.length > 0) {
+            const afterDiv = document.createElement('div');
+            afterDiv.className = 'content clearfix';
+            for (const node of afterNodes) {
+              afterDiv.appendChild(node);
+            }
+            // Insert grid after .content, then afterDiv after grid
+            content.parentNode?.insertBefore(grid, content.nextSibling);
+            grid.parentNode?.insertBefore(afterDiv, grid.nextSibling);
+          } else {
+            content.parentNode?.insertBefore(grid, content.nextSibling);
+          }
+          break;
+        }
+      }
+    }
+  </script>
 </Base>

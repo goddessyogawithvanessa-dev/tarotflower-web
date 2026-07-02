@@ -34,3 +34,53 @@ At the same time, the suit of swords can also represent the potential for clarit
 ![suit of swords minor arcana tarot card meanings artwork by vanessa hylande](/images/2023/04/tf-ai-swords.jpg)
 
 ## The Swords Tarot Cards
+
+<div class="zodiac-grid">
+<a href="/ace-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/1-swords-3.jpg" alt="Ace of Swords Tarot Card Meaning" loading="lazy" /></div>
+<div class="zodiac-info"><h3>Ace of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/two-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/vanessahylande_two-of-swords.jpg" alt="The Two of Swords Tarot Card Meaning" loading="lazy" /></div>
+<div class="zodiac-info"><h3>The Two of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/three-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2022/12/3-of-swords.jpg" alt="Three of Swords Tarot Card Meaning: Free Your Heart from Your Mind" loading="lazy" /></div>
+<div class="zodiac-info"><h3>Three of Swords Tarot Card Meaning: Free Your Heart from Your Mind</h3></div>
+</a>
+<a href="/four-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Four of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/five-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Five of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/six-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Six of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/seven-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Seven of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/eight-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Eight of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/nine-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>Nine of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/ten-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-img"><img src="/images/2023/03/Swords10.jpeg" alt="The Ten of Swords Tarot Card Meaning: Done, Done and Done!" loading="lazy" /></div>
+<div class="zodiac-info"><h3>The Ten of Swords Tarot Card Meaning: Done, Done and Done!</h3></div>
+</a>
+<a href="/page-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Page of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/knight-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Knight of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/queen-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Queen of Swords Tarot Card Meaning</h3></div>
+</a>
+<a href="/king-of-swords-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The King of Swords Tarot Card Meaning</h3></div>
+</a>
+</div>
+

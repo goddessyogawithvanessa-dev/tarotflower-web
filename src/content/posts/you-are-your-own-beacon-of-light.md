@@ -48,7 +48,7 @@ xoxo,
 
 Jess & Ness
 
-https://youtu.be/3fWTz5ghk70
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/3fWTz5ghk70" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Interested in beautiful* ***goddess oracle cards****,* ***tarot cards****,* ***crystals****,* ***essential oils****,* ***incense****,* ***candles*** *and more? Check out our beautiful [Goddess Yoga retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/) around the world!*
 

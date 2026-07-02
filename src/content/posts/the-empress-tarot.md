@@ -16,7 +16,11 @@ The Empress tarot card is the Venus of the tarot. She represents **abundance**, 
 
 The Empress is able to **effortlessly manifest abundance** all around her. When she turns up in your tarot card reading, you know that things are about to get good!
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Empress Tarot Card Summarized
 
@@ -115,12 +119,9 @@ Practice **self-love**. **Nurture yourself**, but not in excess, for excess of a
 
 **Every summer, in beautiful Lake Orta, in Piedmont, Italy, there is a special “[Embodying the Divine Feminine](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)” mystical yoga, dance and somatics retreat for women. There, we focus on unleashing our inner divine goddess in a supportive, fun and mystical way.**
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
-[![the empress tarot card meanings major arcana embodiment](/images/2021/01/the-empress-683x1024.jpg)](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)
-
-[![the empress tarot card meanings major arcana](/images/2021/01/the-empress-1-683x1024.jpg)](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)
-
+<div class="img-pair"><a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/"><img src="/images/2021/01/the-empress-683x1024.jpg" alt="" /></a><a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/"><img src="/images/2021/01/the-empress-1-683x1024.jpg" alt="" /></a></div>
 *meaning of the empress card  
 what does the empress card mean in tarot  
 what does the empress mean in tarot cards  

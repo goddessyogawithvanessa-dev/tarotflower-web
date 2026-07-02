@@ -138,4 +138,4 @@ Divine feminine practices can also help you connect with your emotions and tap i
 
 Ultimately, incorporating divine feminine practices into your regular yoga practice can help you connect with your inner goddess and access a deeper sense of purpose and fulfillment. By incorporating practices that tap into your intuition, creativity, and nurturing side, you can create a more holistic and transformative experience for yourself. Whether you're looking to deepen your spiritual practice, connect with your emotions, or simply explore new ways of moving your body, incorporating divine feminine practices into your regular yoga practice can take your experience to the next level.
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ&t=1s
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

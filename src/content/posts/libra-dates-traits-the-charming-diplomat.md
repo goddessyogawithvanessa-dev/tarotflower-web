@@ -197,7 +197,7 @@ Overall, the Justice card associated with Libra signifies the importance of fair
 
 ## Want to Learn More about Astrology and Tarot?
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ##### Divine Feminine
 

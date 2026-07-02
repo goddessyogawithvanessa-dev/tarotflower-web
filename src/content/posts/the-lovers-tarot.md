@@ -16,7 +16,11 @@ Wow! A beautiful **choice** is before you when The Lovers Tarot card appears in 
 
 But make sure your choice is in alignment with your truest desires and feelings. You must be truly honest with yourself and take action from a place of high vibration in order to manifest this divine love!
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Lovers Card Quick Facts
 
@@ -91,7 +95,7 @@ Unconditional love for yourself means believing in yourself, nurturing your drea
 
 Once you are filled with unconditional love for yourself, you will attract others who are resonating on the same vibration. Want to learn more about embodying The Lovers and attracting abundance into your life? Join the beautiful Goddess circle at our mystical [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/), and dance your way into joyful living.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Lovers as Feelings
 
@@ -191,10 +195,7 @@ Are you loving others unconditionally or are you chained down by expectations an
 
 **There, we focus on unleashing our inner divine goddess in a supportive, fun and mystical way.**
 
-![the lovers major arcana tarot card meanings rider waite](/images/2021/02/the-lovers-1-683x1024.jpg)
-
-![the lovers tarot card meanings major arcana rider waite](/images/2021/02/the-lovers-683x1024.jpg)
-
+<div class="img-pair"><img src="/images/2021/02/the-lovers-1-683x1024.jpg" alt="" /><img src="/images/2021/02/the-lovers-683x1024.jpg" alt="" /></div>
 *the lovers tarot  
 meaning of the lovers tarot card  
 the lovers tarot cards  

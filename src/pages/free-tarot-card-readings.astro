@@ -1,0 +1,101 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('posts');
+const page = posts.find(p => p.data.slug === 'free-tarot-card-readings');
+
+const readingSlugs = [
+  'surrender-at-the-lions-gate',
+  'sound-bath-meditation-12-12-portal-and-the-sagittarius-new-moon',
+  'embodying-artemis-goddess-of-the-hunt-1212-portal-and-new-moon-in-sagittarius-2023',
+  'goddess-embodiment-when-the-raven-spoke-to-me',
+  'the-divine-feminine-calling-unveiling-your-sacred-dreamscape',
+  'gemini-full-moon-2023-invoking-the-goddess-artemis',
+  'music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023',
+  'spring-equinox-2023-free-tarot-card-reading-the-world-needs-your-vision',
+  'the-goddess-kali-unleashing-your-sacred-sexuality',
+  'what-is-divine-feminine-tarot-empowering-your-inner-goddess',
+];
+const readingPosts = readingSlugs
+  .map(slug => posts.find(p => p.data.slug === slug))
+  .filter(Boolean);
+
+function extractImage(body: string): string {
+  const match = body.match(/!\[([^\]]*)\]\(([^)]+)\)/);
+  return match ? match[2] : '';
+}
+
+function extractExcerpt(body: string): string {
+  const lines = body.split('\n');
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#') || trimmed.startsWith('!') || trimmed.startsWith('*') && trimmed.length < 30) continue;
+    const clean = trimmed.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1').replace(/\*([^*]+)\*/g, '$1');
+    if (clean.length > 30) return clean.length > 120 ? clean.slice(0, 117) + '...' : clean;
+  }
+  return '';
+}
+
+const fallbackImages: Record<string, string> = {
+  'sound-bath-meditation-12-12-portal-and-the-sagittarius-new-moon': '/images/2023/12/Screen-Shot-2023-12-13-at-10.18.52-AM-400x250.jpg',
+  'music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023': '/images/2023/03/Screen-Shot-2023-03-06-at-3.43.13-PM-400x250.jpg',
+};
+
+function formatCategories(cats: string[]): string {
+  return cats.map(c => c.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')).join(', ');
+}
+---
+<Base
+  title={page?.data.seo_title || 'Free Tarot Card Readings | Tarot Flower'}
+  description={page?.data.seo_description || ''}
+>
+  <div class="container">
+    <div class="content clearfix">
+      <h1>Free Tarot Card Readings</h1>
+
+      <p>Hello Goddess! &#127769; These free tarot readings are written for moments of transformation, clarity, and divine timing. Pull a card, follow your intuition, and let the messages guide your path. Whether you're navigating love, moon cycles, or your soul purpose—these readings are here for you.</p>
+
+      <details class="read-more-toggle">
+        <summary>Read More</summary>
+        <div class="read-more-content">
+          <p>Tarot has long been used as a mirror of the soul — a way to tune into your intuition, receive divine guidance, and better understand the energetic currents shaping your life. These free tarot card readings are written from that place: where the mystical and the practical meet, where ritual becomes reflection, and where each card offers a doorway to deeper embodiment.</p>
+          <p>Whether you're here seeking clarity in your love life, navigating a spiritual awakening, or feeling a gentle tug from the universe to <em>listen deeper</em> — this space is for you. It's not just about prediction or fortune-telling. It's about presence. It's about remembering who you are.</p>
+          <p>Each reading is offered freely as part of our shared journey — an open-handed gift to those walking the path of self-discovery, healing, and divine feminine awakening. The posts you'll find here align with moon phases, seasonal portals, planetary shifts, and intuitive downloads that come through in meditation, ritual, or dreamwork. I draw on the energy of the day, the cards that call to me, and the collective field that we are all tapped into — whether we realize it or not.</p>
+          <p>&#129695; Sometimes the messages are light and affirming — reminders to step into your power and claim your joy. Other times, the readings invite you to go deeper, to sit with what is uncomfortable, and to transmute what is ready to be released. These are the moments when the work becomes sacred — when we are not just receiving a message, but learning how to embody it.</p>
+          <p>Because ultimately, this isn't just about learning tarot.<br />It's about learning <em>yourself</em>.<br />And through that, beginning to <strong>embody the goddess</strong>.</p>
+          <p>The cards speak to archetypes we carry within — the Empress, the High Priestess, the Lovers, the Star. As you read and reflect, I invite you to notice which archetypes show up for you again and again. Which messages light something within you? Which ones challenge you to rise?</p>
+          <p>This is part of the practice. This is part of the path.</p>
+          <p>You can use these free tarot card readings as daily rituals, journaling prompts, full moon reflections, or meditations for the week ahead. Light a candle. Pull your own card after reading. See what themes overlap or diverge. Let your inner priestess guide the process.</p>
+          <p>Over time, you may begin to notice patterns — both in the cards and in your life. That's when the magic really begins to unfold. Tarot is not about answers. It's about <em>relationship</em>. And the more time you spend in communion with the cards, the more fluent the conversation becomes.</p>
+          <p>&#128140; If you're longing for more personal guidance, you're always welcome to reach out or join one of our live moon circles. These gatherings offer a deeper layer of connection — a space to be seen, to speak, to receive, and to remember your own divine rhythm.</p>
+          <p>Because at the heart of all of this — the tarot, the ritual, the words on these pages — is a deeper invitation:<br />To awaken. To transform. To return to your essence.<br />And ultimately, to join the circle.</p>
+          <p>Welcome to the craft.<br />Welcome to the journey.<br />Welcome home.</p>
+        </div>
+      </details>
+
+      <p>&#10024; Browse by Theme:- &#127765; <a href="/tag/full-moon/">Full Moon</a>- &#128152; <a href="/tag/love/">Love & Twin Flames</a>- &#128302; <a href="/tag/oracle/">Oracle Spreads</a>- &#129695; <a href="/tag/shadow-work/">Shadow Work</a>- &#127800; <a href="/tag/divine-feminine/">Divine Feminine</a></p>
+    </div>
+
+    <section class="zodiac-grid">
+      {readingPosts.map(post => {
+        const img = fallbackImages[post.data.slug] || extractImage(post.body || '');
+        const excerpt = extractExcerpt(post.body || '');
+        const displayDate = new Date(post.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        const cats = (post.data.categories || []).filter((c: string) => c !== 'daily-tarot');
+        return (
+          <a href={`/${post.data.slug}`} class="zodiac-card">
+            {img && <div class="zodiac-img"><img src={img} alt={post.data.title} loading="lazy" /></div>}
+            <div class="zodiac-info">
+              <h3>{post.data.title}</h3>
+              <span class="zodiac-meta">by Vanessa Hylande | {displayDate}{cats.length > 0 && ` | ${formatCategories(cats)}`}</span>
+              {excerpt && <p class="zodiac-excerpt">{excerpt}</p>}
+            </div>
+          </a>
+        );
+      })}
+    </section>
+
+    <p>Want something more personal? <a href="/contact/">Send me your question</a> or <a href="/goddess-yoga-retreats/">join a retreat</a> for deeper connection and divine guidance &#127800;</p>
+  </div>
+</Base>

@@ -18,7 +18,11 @@ The devil tarot card meaning is one of caution and taking responsibility for one
 
 On a lighter note, the meaning of the Devil tarot card can also indicate an extremely passionate and carnal relationship or experience is at hand, and depending on the surrounding cards, need not always be interpreted as an omen.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Devil Card Quick Facts
 
@@ -79,7 +83,7 @@ Lastly, embodying the lessons of the Devil card encourages us to recognize the i
 
 Want to learn how to release your attachments? Join us at our beautiful, mystical [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/)!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Devil as Feelings
 

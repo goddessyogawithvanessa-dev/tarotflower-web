@@ -16,7 +16,11 @@ If you've been working hard toward a challenging goal, just know that The Chario
 
 After a long journey over difficult terrain, The Chariot arrives triumphantly. The lessons of this archetype are to learn to **balance opposing forces** and to **persist in your objectives**. Congratulations! Your perseverance is paying off and triumph is now yours!
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and wellness retreats!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Chariot Meaning Quick Facts
 
@@ -85,7 +89,7 @@ It is not enough to understand The Chariot tarot card with the mind. We must als
 
 Consider using such tools as yoga**, affirmations**, **crystals**, meditations and dance. Want to learn more? You can explore how to empower and liberate the solar plexus chakra at our beautiful, live [Goddess Yoga Retreats](https://tarotflower.com/goddess-yoga-retreats/)!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Chariot as Feelings
 
@@ -211,10 +215,7 @@ Want some personal guidance on your journey? In this one-on-one, live program we
 
 **4. Introduce you to a vibrant community of incredible human beings on their own Goddess path.**
 
-![](/images/2022/02/major-arcanas-683x1024.jpg)
-
-![](/images/2022/02/major-arcanas-1-683x1024.jpg)
-
+<div class="img-pair"><img src="/images/2022/02/major-arcanas-683x1024.jpg" alt="" /><img src="/images/2022/02/major-arcanas-1-683x1024.jpg" alt="" /></div>
 the chariot tarot  
 the chariot tarot meaning  
 meaning of the chariot tarot card  

@@ -66,7 +66,7 @@ With the right tools and practices, we can start to live a life full of happines
 
 Check out our [Goddess Yoga Retreats,](https://goddess-yoga-retreat.com/retreats/) where you will discover your inner goddess through chakra healing dances, guided visual meditations, healing music, journaling, healthy recipes, natural beauty care and so much more.
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ&t=1s
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
 

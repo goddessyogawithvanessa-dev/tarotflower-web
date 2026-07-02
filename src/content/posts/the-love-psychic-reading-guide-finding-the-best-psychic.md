@@ -92,7 +92,7 @@ Overall, love psychic readings employ various skills and techniques to provide g
 
 If you'd like to join a sacred circle of like-minded women to explore and unleash your inner divine feminine, then join us in magical Lago d'Orta, Italy! At [Goddess Yoga Retreats](https://tarotflower.com/goddess-yoga-retreats/), we connect to our own inner goddess through ritual, intuitive practices, yoga, dance, meditation, music and more.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## What About Psychic Websites?
 

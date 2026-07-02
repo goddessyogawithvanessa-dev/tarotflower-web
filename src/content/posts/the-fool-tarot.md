@@ -20,7 +20,11 @@ In the [Rider-Waite](https://amzn.to/430oVaA) Tarot deck, The Fool tarot card, t
 
 The Fool dances through life without a care in the world. He lets his free spirit guide him. He doesn't let fear stop him and he has left the past behind. Drawing The Fool card is a message of **hope** and **possibility**, so get ready for a whole new world!
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Fool Tarot Card Quick Facts
 
@@ -73,7 +77,7 @@ When you learn to embody The Fool, you'll embrace each moment with a lighthearte
 
 Want to learn how to manifest new beginnings in your life through embodiment? Check out our beautiful [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/), where we join together to activate the divine feminine goddess within all of us. Learn to live your life as a free spirit just like The Fool does.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Fool Tarot Card in the Past
 
@@ -133,10 +137,7 @@ In the original Rider-Waite, The Fool tarot card depicts a young man walking gin
 
 He doesn't seem to have a care in the world and he isn't worrying about what lies before him. He holds a single while rose in his hand, a symbol of purity and innocence. His little dog is looking out for him, the way that spirit guides often do.
 
-![the fool tarot card meaning](/images/2021/01/the-fool-683x1024.jpg)
-
-![the fool tarot meaning](/images/2021/01/Journaling-Pinterest-Pin-Design-683x1024.jpg)
-
+<div class="img-pair"><img src="/images/2021/01/the-fool-683x1024.jpg" alt="" /><img src="/images/2021/01/Journaling-Pinterest-Pin-Design-683x1024.jpg" alt="" /></div>
 ##### Divine Feminine
 
 ### The Tarot Flower Boutique

@@ -18,7 +18,11 @@ Have you been in an unnerving and complicated situation which makes you feel lik
 
 Coming after the Tower card, which is a card of massive of disruption and destruction, the Star tarot card is an uplifting card, bringing light with a glimmer of hope and faith for the future. When it appears in your reading, rest assured that it will lead you to the other side of any obstacle that is currently in your way. Read on to find out more about this wonderful card.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and wellness retreats!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Star Tarot Card Quick Facts
 
@@ -112,7 +116,7 @@ Embodying the essence of the Star Tarot card is a beautiful journey of self-disc
 Remember, embodying the essence of the Star Tarot card is a personal and unique journey. Trust your intuition and allow the practices that resonate with you to guide your path. As you embody the qualities of the Star, you become a beacon of hope, inspiration, and healing, illuminating the world with your radiant presence.  
 Learn how to embody the lessons of the Star card at our beautiful, mystical [Goddess Yoga Retreats](https://tarotflower.com/goddess-yoga-retreats/).
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Star Tarot Card in the Major Arcana
 

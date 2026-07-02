@@ -50,7 +50,7 @@ Naturally, we must always act from a place of love and compassion for others. Ou
 
 Ready to discover your inner Goddess and shine like the beautiful, radiant soul you were always meant to be? Check out our [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/), where you will discover your inner goddess through chakra healing dances, music, journaling, healthy recipes, natural beauty care and so much more.
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Interested in beautiful* ***goddess oracle cards****,* ***tarot cards****,* ***crystals****,* ***essential oils****,* ***incense****,* ***candles*** *and more? Check out our*[*shop*](http://embodiedgoddesses.com/shop/) *where you can find everything you need for your*[*Goddess Yourself Experience.*](http://embodiedgoddesses.com/about-course/)
 

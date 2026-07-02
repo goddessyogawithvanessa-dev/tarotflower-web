@@ -58,7 +58,7 @@ The Goddess within is the nurturer, the loving, compassionate healer. And when y
 
 Join us on this wonderful, magical journey to Goddess embodiment and allow your inner Goddess to bloom. At our beautiful Goddess Yoga retreats we will walk with you every step of the way on your path to self love and ascension. Let us show you how to embody the Goddess to receive all of her healing, wisdom and love.
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
 

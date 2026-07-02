@@ -198,7 +198,7 @@ Pisces is a sign of compassion, creativity, and transformation. When this sign i
 
 Discover the magic of [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/), where we explore the mystical arts of tarot, astrology, goddess invocation, yoga, dance, meditation and do much more.
 
-https://youtu.be/Sbbi6Nvb4TU
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/Sbbi6Nvb4TU" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ##### Divine Feminine
 

@@ -60,4 +60,4 @@ But sometimes, in order to liberate the heart and soul, we must spin, run, jump 
 
 The next time you are feeling heavy, tired or stressed, put on your favorite music and just dance. See how you feel afterwards! Who knows, maybe you’ll also discover that embodiment dance can bring you into yoga. And if you discover you love it, then join us at our Goddess Yoga retreats, where we practice daily mystical yoga, dance and somatics.
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

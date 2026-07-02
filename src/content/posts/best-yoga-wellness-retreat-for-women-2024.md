@@ -150,4 +150,4 @@ In the embrace of Lago d'Orta's natural beauty, cultural heritage, and mystical 
 
 In the sacred space of a Goddess Yoga retreat, women find a haven where divine feminine practices, support, relaxation, and self-care merge harmoniously. It is here that we rediscover our inner goddess, embracing our authentic selves and illuminating the path towards peace, joy, and empowerment. So, join us on this wellness retreat for women, where you can bask in the beauty of sisterhood, embody the goddess within, and embark on a transformative journey that will leave you radiating with newfound light, love, and serenity.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

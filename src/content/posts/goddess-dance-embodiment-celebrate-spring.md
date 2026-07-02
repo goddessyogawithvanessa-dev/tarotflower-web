@@ -36,6 +36,6 @@ Goddess dance embodiment will reconnect you with your **inner child**, balance y
 
 And if you're shy to dance in front of others, don't worry. Our beautiful Goddess Yoga retreats are held in a safe and non-judgmental space with loving and supportive women. Are you ready to glow up?
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 embodiment dance, dance therapy, dance therapy movement, learn dancing at home, learning dance at home, online dance classes, what does embodiment mean, online dance classes for adults, online just dance, online dance, dance revolution.

@@ -27,6 +27,7 @@ const products = defineCollection({
     content_type: z.literal('product').default('product'),
     categories: z.array(z.string()).default([]),
     price: z.number().optional(),
+    image: z.string().optional(),
     stripe_link: z.string().default(''),
     seo_title: z.string().optional(),
     seo_description: z.string().optional(),

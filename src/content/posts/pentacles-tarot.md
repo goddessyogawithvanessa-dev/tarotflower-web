@@ -34,3 +34,49 @@ In a Tarot reading, the Suit of Pentacles can represent both the challenges and 
 ![the suit of pentacles tarot card meanings minor arcana artwork by vanessa hylande](/images/2023/04/tf-ai-pentacles-3.jpg)
 
 ## The Pentacles Tarot Cards
+
+<div class="zodiac-grid">
+<a href="/ace-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Ace of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/two-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Two of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/three-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Three of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/four-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Four of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/five-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Five of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/six-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Six of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/seven-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Seven of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/eight-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Eight of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/nine-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Nine of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/ten-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Ten of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/page-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Page of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/knight-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Knight of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/queen-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The Queen of Pentacles Tarot Card Meaning</h3></div>
+</a>
+<a href="/king-of-pentacles-tarot" class="zodiac-card">
+<div class="zodiac-info"><h3>The King of Pentacles Tarot Card Meaning</h3></div>
+</a>
+</div>
+

@@ -16,7 +16,11 @@ seo_description: "The High Priestess tarot card is the mysterious sacred feminin
 
 Therefore, when The High Priestess makes an appearance in your tarot card reading, you know that messages from your unconscious are trying to come in. **Find a place of stillness and listen!**
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The High Priestess Tarot Meaning
 
@@ -60,7 +64,7 @@ Embody The High Priestess tarot card through **meditation** and **developing you
 
 At [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/), we come together as women to learn how to tap into our intuition, channel divine messages and embody the goddess through yoga, dance, meditation, tarot card readings and more. Join us for an amazing week of [Embodying the Divine Feminine](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/) in beautiful Lago d'Orta, Italy this summer.
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The High Priestess in the Past Position
 
@@ -164,10 +168,7 @@ Embrace the energy of The High Priestess and trust in the divine flow of your li
 
 **Every summer, in beautiful Lake Orta, in Piedmont, Italy, there is a special “[Embodying the Divine Feminine](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)” mystical yoga, dance and somatics retreat for women. There, we focus on unleashing our inner divine goddess in a supportive, fun and mystical way.**
 
-![the high priestess tarot card meanings major arcana sacred feminine](/images/2021/01/high-priestess-pin-2-683x1024.jpg)
-
-![](/images/2021/01/high-priestess-pin-683x1024.jpg)
-
+<div class="img-pair"><img src="/images/2021/01/high-priestess-pin-2-683x1024.jpg" alt="" /><img src="/images/2021/01/high-priestess-pin-683x1024.jpg" alt="" /></div>
 *the high priestess tarot  
 the high priestess tarot meaning  
 what does the high priestess mean  

@@ -18,7 +18,11 @@ The Judgement card is a powerful reminder that we are the master of our own dest
 
 Receiving The Judgement tarot card in your tarot card reading is a sign to take responsibility for your actions and to accept the consequences that are headed your way. It is time to look deep within and acknowledge the good or the ill you have caused.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## Judgement Tarot Quick Facts
 
@@ -68,7 +72,7 @@ Embodying the Judgement card is an empowering and transformative journey. Throug
 
 Begin your embodiment journey at [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/)!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## Judgment Through the Major Arcana
 

@@ -30,7 +30,7 @@ Furthermore, sound bath meditations create a [sacred space](https://tarotflower.
 
 In summary, sound bath meditations are incredibly useful when embodying the goddess as they facilitate relaxation, activate and balance the chakras, release energetic blockages, and provide a sacred space for self-connection. They can support you in accessing and expressing the divine feminine qualities within, nurturing your self-love, compassion, and intuition. By incorporating sound bath meditations into your practice, you can deepen your embodiment of the goddess energy and cultivate a harmonious and transformative relationship with your divine feminine essence.
 
-https://youtu.be/KpstudjsD\_U
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/KpstudjsD\_U" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## Why Embody the Goddess Yemaya?
 

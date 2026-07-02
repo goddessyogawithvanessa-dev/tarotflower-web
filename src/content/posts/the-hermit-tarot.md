@@ -20,7 +20,11 @@ It might feel a bit scary to take this journey alone, but don't worry! The Hermi
 
 Trust the process and have faith in yourself. Who knows what you might discover along the way? So, get ready to embark on a mysterious and transformative journey with the Hermit Tarot card by your side!
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and wellness retreats!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Hermit Tarot Card Quick Facts
 
@@ -92,7 +96,7 @@ In addition to these practices, it's essential to set boundaries and take time f
 
 Want to learn more about embodying the tarot? There are so many wonderful lessons in this ancient divine feminine practice. Reconnect with your inner goddess - join us for an amazing week or tarot card readings, yoga, somatic movement, embodiment dance practices and inspiring cultural excursions! Check out [Goddess Yoga Retreats](https://tarotflower.com/goddess-yoga-retreats/) to unleash your divine feminine!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Hermit as Feelings
 
@@ -246,7 +250,7 @@ Want some personal guidance on your journey? In this one-on-one, live program we
 
 **4. Introduce you to a vibrant community of incredible human beings on their own Goddess path.**
 
-https://youtu.be/R2wOL02v5oI
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/R2wOL02v5oI" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *the hermit tarot card meaning, the hermit tarot card meaning, the hermit yes or no, tarot the hermit meaning, the hermit meaning, what does the hermit card mean in tarot, the hermit card meaning, what does the hermit mean in tarot cards, tarot cards hermit meaning, the hermit tarot card meaning love, what does the tarot card the hermit mean, what does the hermit tarot card mean  
 the hermit tarot meaning  

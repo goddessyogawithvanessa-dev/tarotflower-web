@@ -62,7 +62,7 @@ Our approach is warm, inclusive, and empowering. We strive to create a supportiv
 
 So, whether you're a seasoned yogi or just starting your spiritual journey, join us at Goddess Yoga Retreats and let's embark on a transformational experience together. Let's celebrate the beauty of the feminine energy within each and every one of us and embrace the magic of Goddess Yoga!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *yoga retreat  
 goddess yoga  

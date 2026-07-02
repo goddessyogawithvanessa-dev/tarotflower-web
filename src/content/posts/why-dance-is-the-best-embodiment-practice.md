@@ -46,7 +46,7 @@ Each module of the embodiment dance method is inspired by a Goddess and her arch
 
 Want to experience embodiment dance, yoga and somatics live in beautiful Lago d'Orta, Italy this summer? Early bird registration is now open!
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
 

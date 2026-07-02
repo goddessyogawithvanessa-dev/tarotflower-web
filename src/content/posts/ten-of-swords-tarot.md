@@ -62,7 +62,7 @@ Ultimately, the Ten of Swords is a reminder that we can survive even the most di
 
 Join us in beautiful Lago d'Orta, Italy this summer for our mystical yoga and dance retreats with [Goddess Yoga](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)! We will explore the Tarot, practice ritual and do yoga and dance in a beautiful, Medieval, lake-side village!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ten of swords  
 ten of swords taro  

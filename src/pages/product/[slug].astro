@@ -12,17 +12,21 @@ export async function getStaticPaths() {
 
 const { product } = Astro.props;
 const { Content } = await render(product);
-const { title, price, stripe_link, seo_title, seo_description } = product.data;
+const { title, price, image, stripe_link, seo_title, seo_description } = product.data;
 ---
 <Base title={seo_title || title} description={seo_description || ''}>
   <div class="container">
     <h1>{title}</h1>
+    {image && <img src={image} alt={title} class="product-hero-img" />}
     {price && <p class="product-price">${price}</p>}
     <div class="content clearfix">
       <Content />
     </div>
     {stripe_link && (
-      <a href={stripe_link} class="buy-button" target="_blank" rel="noopener">Buy Now</a>
+      <a href={stripe_link} class="buy-button" target="_blank" rel="noopener">Book Now</a>
     )}
+    <div class="back-to-shop">
+      <a href="/shop">&larr; Back to Shop</a>
+    </div>
   </div>
 </Base>

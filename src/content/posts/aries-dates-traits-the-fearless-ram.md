@@ -190,7 +190,7 @@ The Emperor is also a reminder that we must make our own decisions and not rely 
 
 ## Learn to Embody the Fiery Energy of Aries at Goddess Yoga Retreats
 
-https://youtu.be/Sbbi6Nvb4TU
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/Sbbi6Nvb4TU" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ##### Divine Feminine
 

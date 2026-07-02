@@ -20,7 +20,7 @@ The upcoming Full Moon in the zodiac sign of Leo will be a time of great potenti
 
 ## Your Live Full Moon in Leo Tarot Card Reading 2023 on Youtube
 
-https://www.youtube.com/watch?v=R2wOL02v5oI
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/R2wOL02v5oI" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## Your Twin Flame Full Moon in Leo Tarot Card Reading at a Glance
 

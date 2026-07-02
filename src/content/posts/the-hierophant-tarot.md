@@ -18,7 +18,11 @@ This major arcana tarot card represents **society** and **tradition** - especial
 
 The Hierophant is the archetype of the **sacred, spiritual masculine**, the shaman. It advises you to stick to the tried, true especially spiritual tradition, and find security within your community at this time.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Hierophant Meaning Quick Facts
 
@@ -62,7 +66,7 @@ To embody the energy of the Hierophant tarot card, embrace the qualities of wisd
 
 Join us live at [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) to connect to the divine, practice divine rituals, yoga, dance, tarot card readings and more!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Hierophant Through the Major Arcana
 

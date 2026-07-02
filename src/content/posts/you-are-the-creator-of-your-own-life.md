@@ -40,7 +40,7 @@ When we are embodied we find the lightness and freedom in life because we are tr
 
 This is when **joy**, **abundance** and **love** can flourish in our every day lives. Want to learn more? Join our Goddess Yoga Retreats around the world today and learn how to embody beautiful goddess that already lives within you. Your divine feminine is waiting to fly!
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Interested in beautiful* ***goddess oracle cards****,* ***tarot cards****,* ***crystals****,* ***essential oils****,* ***incense****,* ***candles*** *and more? Check out our* *beautiful* [*Goddess* *Yoga retreats*](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/) *around the world and join today!*
 

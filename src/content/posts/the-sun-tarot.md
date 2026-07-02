@@ -16,7 +16,11 @@ The Sun Tarot card radiates warmth, joy, and positivity, and is one of the best 
 
 This [Major Arcana](https://tarotflower.com/major-arcana-2/) tarot card represents the element of Fire, symbolizing **passion**, **creativity**, and **transformation**. It is associated with the zodiac sign of [Leo](https://tarotflower.com/astrology/leo-dates-traits-the-shining-sun/), embodying the qualities of **courage**, **leadership**, and **self-expression**. The number associated with the Sun card is 19, which carries the energy of completion and the fulfillment of one's aspirations.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and wellness retreats!**
+<a href="https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/" target="_blank" rel="noopener" class="cta-banner">
+<h2>Ready to Embody the Mystery of the Tarot?</h2>
+<p><strong>Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! Unleash your inner divine goddess at our all-inclusive magical events!</strong></p>
+<span class="cta-btn">Register Now!</span>
+</a>
 
 ## The Sun Tarot Card Quick Facts
 
@@ -84,7 +88,7 @@ By embodying The Sun Tarot card, you align yourself with its vibrant energy and 
 
 Consider using such tools as yoga**, affirmations**, **crystals**, meditations and dance. Want to learn more? You can explore how to empower and liberate the solar plexus chakra at our beautiful, live [Goddess Yoga Retreats](https://tarotflower.com/goddess-yoga-retreats/)!
 
-https://youtu.be/rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## The Sun as Feelings
 

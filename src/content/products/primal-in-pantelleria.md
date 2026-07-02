@@ -6,8 +6,9 @@ date: 2024-03-30
 modified: 2024-05-12
 content_type: product
 categories: []
+image: "/images/products/primal-pantelleria-2024.jpg"
 price: 3779
-stripe_link: ""
+stripe_link: "https://buy.stripe.com/test_PLACEHOLDER_pantelleria"
 seo_title: "Primal in Pantelleria Goddess Yoga Retreat 2024 | Tarot Flower"
 seo_description: "Single private room in a gorgeous private villa in Pantelleria for 6 nights, daily breakfast/brunch for 5 days, two daily yoga/dance classes (M-F),..."
 ---

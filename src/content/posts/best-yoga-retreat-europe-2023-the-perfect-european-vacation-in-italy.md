@@ -134,8 +134,8 @@ We understand that taking a break from your everyday life can be a daunting pros
 
 ## Choose from THREE Weeks of Inspirational Yoga Retreats this Summer 2023!
 
-https://www.youtube.com/watch?v=Sbbi6Nvb4TU
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/Sbbi6Nvb4TU" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
-https://www.youtube.com/watch?v=rM-E5n87oXQ
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *2023 yoga retreats, all inclusive european vacations, best yoga retreats 2023, cheap european vacations, emotional wellness, european vacation, goddess yoga retreats, health and wellness, physical wellness, spiritual wellness, summer in italy, travel italy, trip to italy, vacation italy, wellness retreat 2023, yoga retreat 2023, yoga retreat europe, yoga retreat italy, yoga retreats*
