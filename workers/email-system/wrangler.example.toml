@@ -1,0 +1,38 @@
+name = "tarotflower-email-system-prototype"
+main = "src/index.js"
+compatibility_date = "2026-07-03"
+
+routes = [
+  { pattern = "tarotflower.com/api/email/*", zone_name = "tarotflower.com" }
+]
+
+[vars]
+SITE_URL = "https://tarotflower.com"
+EMAIL_FROM = "Tarot Flower <hello@tarotflower.com>"
+EMAIL_REPLY_TO = "hello@tarotflower.com"
+LEAD_MAGNET_BUCKET_URL = "https://downloads.tarotflower.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tarotflower-email"
+database_id = "replace-with-d1-database-id"
+
+[[queues.producers]]
+binding = "EMAIL_QUEUE"
+queue = "tarotflower-email-jobs"
+
+[[queues.consumers]]
+queue = "tarotflower-email-jobs"
+max_batch_size = 10
+max_batch_timeout = 30
+
+[[r2_buckets]]
+binding = "LEAD_MAGNETS"
+bucket_name = "tarotflower-lead-magnets"
+
+send_email = [
+  { name = "EMAIL" }
+]
+
+[triggers]
+crons = ["*/15 * * * *"]

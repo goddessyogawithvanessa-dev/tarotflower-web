@@ -1,5 +1,6 @@
 ---
 import Base from './Base.astro';
+import EmailOptIn from '../components/EmailOptIn.astro';
 
 const { title, date, categories = [], original_url, seo_title, seo_description } = Astro.props;
 const pageTitle = seo_title || title;
@@ -11,5 +12,6 @@ const metaDesc = seo_description || '';
     <div class="content clearfix">
       <slot />
     </div>
+    <EmailOptIn />
   </div>
 </Base>

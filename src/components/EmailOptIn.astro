@@ -1,0 +1,66 @@
+---
+interface Props {
+  leadMagnet?: string;
+  title?: string;
+  description?: string;
+}
+
+const {
+  leadMagnet = 'first-3-card-pull',
+  title = 'Begin with a Free 3-Card Pull Guide',
+  description = 'A gentle printable guide for your first tarot reading, delivered by email.',
+} = Astro.props;
+const sourcePath = Astro.url.pathname;
+---
+<section class="email-optin" data-email-optin>
+  <div class="email-optin-copy">
+    <p class="email-optin-kicker">Free tarot guide</p>
+    <h2>{title}</h2>
+    <p>{description}</p>
+  </div>
+  <form class="email-optin-form" action="/api/email/subscribe" method="post">
+    <input type="hidden" name="lead_magnet" value={leadMagnet} />
+    <input type="hidden" name="source_path" value={sourcePath} />
+    <label>
+      <span>Email address</span>
+      <input type="email" name="email" autocomplete="email" required placeholder="you@example.com" />
+    </label>
+    <label>
+      <span>First name</span>
+      <input type="text" name="first_name" autocomplete="given-name" placeholder="Optional" />
+    </label>
+    <button type="submit">Send me the guide</button>
+    <p class="email-optin-note">You can unsubscribe anytime. No spam, just tarot wisdom and launch notes.</p>
+    <p class="email-optin-status" aria-live="polite"></p>
+  </form>
+</section>
+
+<script is:inline>
+  document.querySelectorAll('[data-email-optin] form').forEach((form) => {
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const status = form.querySelector('.email-optin-status');
+      const submit = form.querySelector('button[type="submit"]');
+      const formData = new FormData(form);
+
+      status.textContent = 'Sending...';
+      submit.disabled = true;
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: { Accept: 'application/json' },
+        });
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.error || 'Something went wrong.');
+        status.textContent = result.message || 'Check your inbox to confirm your email.';
+        form.reset();
+      } catch (error) {
+        status.textContent = error.message || 'Please try again in a moment.';
+      } finally {
+        submit.disabled = false;
+      }
+    });
+  });
+</script>

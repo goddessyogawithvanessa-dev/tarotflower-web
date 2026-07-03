@@ -1,0 +1,7 @@
+Welcome, {{first_name}}.
+
+Your free 3-Card Pull Guide is ready here:
+
+{{lead_magnet_url}}
+
+May this be a gentle doorway into your own intuition.

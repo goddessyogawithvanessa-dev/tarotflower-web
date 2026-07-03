@@ -947,6 +947,70 @@ footer {
   color: #333;
 }
 
+/* Email capture prototype */
+.email-optin {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+  gap: 28px;
+  align-items: center;
+  margin: 3em 0 1em;
+  padding: 28px;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  background: #fff;
+}
+.email-optin-kicker {
+  margin: 0 0 0.5em;
+  color: #7a8b6f;
+  font-family: 'Aboreto', serif;
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+.email-optin h2 {
+  margin-top: 0;
+  font-size: 1.7em;
+}
+.email-optin-form {
+  display: grid;
+  gap: 12px;
+}
+.email-optin-form label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.95em;
+}
+.email-optin-form label span {
+  color: #333;
+}
+.email-optin-form input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  font: inherit;
+}
+.email-optin-form button {
+  border: 0;
+  border-radius: 4px;
+  padding: 13px 18px;
+  background: #881291;
+  color: #fff;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 1em;
+  cursor: pointer;
+}
+.email-optin-form button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+.email-optin-note,
+.email-optin-status {
+  margin: 0;
+  font-size: 0.9em;
+  color: #777;
+}
+
 @media (max-width: 768px) {
   .content > p img { float: none !important; width: 100% !important; margin: 0 0 1em 0 !important; }
   .container { width: auto; padding: 30px 18px; }
@@ -1010,4 +1074,5 @@ footer {
   .banner { height: 200px; }
   .footer-inner { grid-template-columns: 1fr; gap: 24px; padding: 0 18px; }
   .posts-grid { grid-template-columns: 1fr; }
+  .email-optin { grid-template-columns: 1fr; padding: 22px 18px; }
 }

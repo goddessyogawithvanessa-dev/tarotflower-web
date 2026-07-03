@@ -1,0 +1,7 @@
+Welcome to Tarot Flower.
+
+Please confirm your email address to receive your free guide:
+
+{{confirm_url}}
+
+If you did not request this, you can ignore this message.
