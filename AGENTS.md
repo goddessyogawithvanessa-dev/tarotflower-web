@@ -11,7 +11,7 @@ The migration goal was 1:1 replication of the WordPress site — not a redesign.
 ## Tech Stack
 
 - **Framework:** Astro v7 (static site generation, no SSR)
-- **Hosting:** Cloudflare Pages (auto-deploys from GitHub on push to `main`)
+- **Hosting:** Cloudflare Workers (static Astro build deployed with Wrangler)
 - **CMS:** Decap CMS at `/admin/` (GitHub-backed, PKCE auth)
 - **Repo:** `goddessyogawithvanessa-dev/tarotflower-web` on GitHub
 - **Node:** >=22.12.0
@@ -181,7 +181,49 @@ This file is critical for SEO — it preserves Google rankings from the old URL 
 
 ## Deployment
 
-Push to `main` on GitHub triggers Cloudflare Pages auto-build. Build command: `npm run build`. Output directory: `astro-site/dist`. No CI/CD config files — Cloudflare Pages dashboard handles it.
+This project currently deploys as Cloudflare Workers static assets, not Cloudflare Pages. Cloudflare API checks on 2026-07-04 showed zero Pages projects in the configured account and one Worker script named `tarotflower-web`.
+
+- `main` is the production branch in GitHub.
+- Production Worker: `tarotflower-web`.
+- `dev` is the staging/testing branch in GitHub.
+- Dev Worker: `tarotflower-web-dev`.
+- Build command: `npm run build`.
+- Static output directory: `dist/`.
+- Deployment tool: Wrangler.
+
+Do not assume Cloudflare Pages branch auto-deploys exist for this repo. If a future deploy path changes, update this section immediately.
+
+### Local credentials
+
+Local credentials may live in `.env`, which is ignored by Git. Never print, commit, or paste secret values into chat or files.
+
+Expected local variable names:
+
+```bash
+CLOUDFLARE_ACCOUNT_ID='...'
+CLOUDFLARE_SECRET='...'
+GH_TOKEN='...'
+```
+
+`CLOUDFLARE_SECRET` is a Cloudflare account-scoped token whose value starts with `cfat_`. It is valid for the account-token API path, not the user-token verification endpoint. Do not reject it just because `/user/tokens/verify` says `Invalid API Token`; account tokens should be checked with the account token endpoint:
+
+```bash
+https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/tokens/verify
+```
+
+For normal Cloudflare API calls in this project, pass it as a bearer token:
+
+```bash
+Authorization: Bearer $CLOUDFLARE_SECRET
+```
+
+Wrangler may expect `CLOUDFLARE_API_TOKEN`; when running Wrangler, export or map the existing value for that command only:
+
+```bash
+CLOUDFLARE_API_TOKEN="$CLOUDFLARE_SECRET"
+```
+
+`GH_TOKEN` is the GitHub token used for authenticated GitHub API/Git operations. Prefer a narrowly scoped token when replacing it.
 
 ## Rules for AI Assistants
 
