@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import EmailOptIn from '../components/EmailOptIn.astro';
+
+const guideThemes = [
+  'Meditation',
+  'Ritual',
+  'Tarot',
+  'Reflection',
+  'Embodiment',
+  'Movement',
+  'Journaling',
+  'Sound Baths',
+  'Nourishment',
+];
+---
+<Base title="The Goddess Embodiment Guide | Tarot Flower" description="Enjoy your free Goddess Embodiment Guide.">
+  <main class="container guide-download-page">
+    <section class="guide-download-hero">
+      <div class="guide-download-cover">
+        <img src="/images/goddess-embodiment-guide-cover.jpg" alt="Goddess Embodiment Guide cover" />
+      </div>
+
+      <div class="guide-download-copy">
+        <p class="guide-download-eyebrow">Your Free Gift</p>
+        <h1>The Goddess Embodiment Guide</h1>
+        <p class="guide-download-support">The goddess is a symbol of your own becoming.</p>
+        <p class="guide-download-body">Discover how tarot, ritual, reflection, movement, and embodiment can become tools for self-discovery, healing, and lasting transformation.</p>
+
+        <EmailOptIn
+          leadMagnet="goddess-embodiment-guide"
+          buttonText="Download the Guide"
+          note="Your guide will be delivered instantly to your inbox."
+          showCopy={false}
+        />
+      </div>
+    </section>
+
+    <section class="inside-guide-section" aria-labelledby="inside-guide-title">
+      <h2 id="inside-guide-title">Inside the Guide</h2>
+      <div class="inside-guide-themes">
+        {guideThemes.map(theme => <span>{theme}</span>)}
+      </div>
+    </section>
+  </main>
+</Base>
