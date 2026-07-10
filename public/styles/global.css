@@ -641,6 +641,29 @@ strong { color: #333; }
   font-family: 'Quattrocento', Georgia, serif;
   font-size: 1em;
 }
+.email-optin-form .email-optin-consent {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  align-items: start;
+  gap: 10px;
+}
+.email-optin-form .email-optin-consent input {
+  width: 18px;
+  height: 18px;
+  margin: 1px 0 0;
+  accent-color: #5b2333;
+}
+.email-optin-form .email-optin-consent span {
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 0.9em;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #666;
+}
+.email-optin-turnstile {
+  min-height: 65px;
+}
 .email-optin-form button {
   justify-self: start;
   display: inline-block;
