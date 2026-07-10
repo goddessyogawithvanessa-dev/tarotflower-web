@@ -28,17 +28,26 @@ const sourcePath = Astro.url.pathname;
       <p>{description}</p>
     </div>
   )}
-  <form class="email-optin-form" action="/api/email/subscribe" method="post">
+  <form class="email-optin-form" action="/api/lead-magnet" method="post">
+    <input type="hidden" name="leadMagnetSlug" value={leadMagnet} />
+    <input type="hidden" name="lead_magnet_slug" value={leadMagnet} />
     <input type="hidden" name="lead_magnet" value={leadMagnet} />
+    <input type="hidden" name="sourcePath" value={sourcePath} />
     <input type="hidden" name="source_path" value={sourcePath} />
+    <input type="hidden" name="first_name" data-first-name-alias />
     <label>
       <span>First name</span>
-      <input type="text" name="first_name" autocomplete="given-name" placeholder="Optional" />
+      <input type="text" name="firstName" autocomplete="given-name" placeholder="Optional" />
     </label>
     <label>
       <span>Email address</span>
       <input type="email" name="email" autocomplete="email" required placeholder="you@example.com" />
     </label>
+    <label class="email-optin-consent">
+      <input type="checkbox" name="consent" value="true" required />
+      <span>I agree to receive the guide and Tarot Flower emails.</span>
+    </label>
+    <div class="email-optin-turnstile" data-turnstile-widget></div>
     <button type="submit">{buttonText}</button>
     <p class="email-optin-note">{note}</p>
     <p class="email-optin-status" aria-live="polite"></p>
@@ -46,11 +55,56 @@ const sourcePath = Astro.url.pathname;
 </section>
 
 <script is:inline>
+  const turnstileReady = new Promise((resolve) => {
+    if (window.turnstile) {
+      resolve(window.turnstile);
+      return;
+    }
+
+    const existingScript = document.querySelector('script[data-turnstile-api]');
+    if (existingScript) {
+      existingScript.addEventListener('load', () => resolve(window.turnstile), { once: true });
+      return;
+    }
+
+    const script = document.createElement('script');
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+    script.async = true;
+    script.defer = true;
+    script.dataset.turnstileApi = 'true';
+    script.addEventListener('load', () => resolve(window.turnstile), { once: true });
+    document.head.append(script);
+  });
+
+  async function renderTurnstile(form) {
+    const container = form.querySelector('[data-turnstile-widget]');
+    if (!container || container.dataset.rendered === 'true') return;
+
+    try {
+      const response = await fetch('/api/contact/config', { headers: { Accept: 'application/json' } });
+      if (!response.ok) throw new Error('Turnstile configuration unavailable.');
+      const config = await response.json();
+      const sitekey = config.turnstileSiteKey || config.siteKey || config.turnstile_site_key;
+      if (!sitekey) throw new Error('Turnstile site key unavailable.');
+      const turnstile = await turnstileReady;
+      turnstile.render(container, { sitekey });
+      container.dataset.rendered = 'true';
+    } catch (error) {
+      const status = form.querySelector('.email-optin-status');
+      if (status) status.textContent = 'Please refresh and try again in a moment.';
+    }
+  }
+
   document.querySelectorAll('[data-email-optin] form').forEach((form) => {
+    renderTurnstile(form);
+
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
       const status = form.querySelector('.email-optin-status');
       const submit = form.querySelector('button[type="submit"]');
+      const firstName = form.querySelector('input[name="firstName"]');
+      const firstNameAlias = form.querySelector('[data-first-name-alias]');
+      if (firstName && firstNameAlias) firstNameAlias.value = firstName.value;
       const formData = new FormData(form);
 
       status.textContent = 'Sending...';
@@ -62,9 +116,10 @@ const sourcePath = Astro.url.pathname;
           body: formData,
           headers: { Accept: 'application/json' },
         });
-        const result = await response.json();
+        const text = await response.text();
+        const result = text ? JSON.parse(text) : {};
         if (!response.ok) throw new Error(result.error || 'Something went wrong.');
-        status.textContent = result.message || 'Check your inbox to confirm your email.';
+        status.textContent = result.message || 'Check your inbox for your guide.';
         form.reset();
       } catch (error) {
         status.textContent = error.message || 'Please try again in a moment.';
