@@ -37,11 +37,9 @@ const suits = [
   { name: 'Cups', slug: 'cups-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
 ];
 
-const homepageSlots = [
-  { id: 'homepage-goddess-embodiment-guide', content: [] },
-  { id: 'homepage-sacred-becoming-coaching', content: [] },
-  { id: 'homepage-sacred-becoming-oracle-deck', content: [] },
-];
+const goddessEmbodimentGuideContent = [];
+const sacredBecomingCoachingContent = [];
+const sacredBecomingOracleDeckContent = [];
 
 function cardSlug(rank: string, suit: string) {
   return `${rank.toLowerCase()}-of-${suit.toLowerCase()}-tarot`;
@@ -68,13 +66,23 @@ function cardSlug(rank: string, suit: string) {
       </details>
     </section>
 
-    {homepageSlots.map(slot => (
-      slot.content.length > 0 && (
-        <section id={slot.id}>
-          {slot.content}
-        </section>
-      )
-    ))}
+    {goddessEmbodimentGuideContent.length > 0 && (
+      <section id="homepage-goddess-embodiment-guide">
+        {goddessEmbodimentGuideContent}
+      </section>
+    )}
+
+    {sacredBecomingCoachingContent.length > 0 && (
+      <section id="homepage-sacred-becoming-coaching">
+        {sacredBecomingCoachingContent}
+      </section>
+    )}
+
+    {sacredBecomingOracleDeckContent.length > 0 && (
+      <section id="homepage-sacred-becoming-oracle-deck">
+        {sacredBecomingOracleDeckContent}
+      </section>
+    )}
 
     <section id="homepage-tarot-library" class="tarot-library">
       <section class="arcana-section">
