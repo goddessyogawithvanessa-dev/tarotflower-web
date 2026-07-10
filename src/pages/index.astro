@@ -51,7 +51,12 @@ const sacredBecomingCoachingContent = [
     portraitAlt: 'Vanessa Hylande for Sacred Becoming coaching',
   },
 ];
-const sacredBecomingOracleDeckContent = [];
+const sacredBecomingOracleDeckContent = [
+  {
+    artwork: '/images/homepage/07_creation.png.png',
+    artworkAlt: 'Creation card artwork from The Sacred Becoming Oracle',
+  },
+];
 
 function cardSlug(rank: string, suit: string) {
   return `${rank.toLowerCase()}-of-${suit.toLowerCase()}-tarot`;
@@ -120,8 +125,21 @@ function cardSlug(rank: string, suit: string) {
     )}
 
     {sacredBecomingOracleDeckContent.length > 0 && (
-      <section id="homepage-sacred-becoming-oracle-deck">
-        {sacredBecomingOracleDeckContent}
+      <section id="homepage-sacred-becoming-oracle" class="sacred-oracle-section">
+        {sacredBecomingOracleDeckContent.map(({ artwork, artworkAlt }) => (
+          <div class="sacred-oracle">
+            <div class="sacred-oracle-art">
+              <img src={artwork} alt={artworkAlt} loading="lazy" />
+            </div>
+            <div class="sacred-oracle-copy">
+              <p class="sacred-oracle-eyebrow">COMING SOON</p>
+              <h2>The Sacred Becoming Oracle</h2>
+              <p>I created this oracle deck while walking my own path of becoming. It was my companion. Now it's my gift to you.</p>
+              <p>A companion for reflection, ritual, intuition, and the quiet conversations that continue long after the cards are put away.</p>
+              <a class="sacred-oracle-cta" href="#" aria-disabled="true">Join the Waitlist</a>
+            </div>
+          </div>
+        ))}
       </section>
     )}
 
