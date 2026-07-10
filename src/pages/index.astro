@@ -37,6 +37,12 @@ const suits = [
   { name: 'Cups', slug: 'cups-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
 ];
 
+const homepageSlots = [
+  { id: 'homepage-goddess-embodiment-guide', content: [] },
+  { id: 'homepage-sacred-becoming-coaching', content: [] },
+  { id: 'homepage-sacred-becoming-oracle-deck', content: [] },
+];
+
 function cardSlug(rank: string, suit: string) {
   return `${rank.toLowerCase()}-of-${suit.toLowerCase()}-tarot`;
 }
@@ -62,41 +68,51 @@ function cardSlug(rank: string, suit: string) {
       </details>
     </section>
 
-    <section class="arcana-section">
-      <h2>The Major Arcana</h2>
-      <h3 class="arcana-subtitle">The great archetypes of the Tarot</h3>
-      <div class="arcana-layout">
-        <div class="arcana-left">
-          <a href="/major-arcana-2" class="suit-img-link">
-            <img src="/images/2021/01/Major-Arcana-e1610542977417.jpg" alt="The Major Arcana tarot cards" />
-          </a>
+    {homepageSlots.map(slot => (
+      slot.content.length > 0 && (
+        <section id={slot.id}>
+          {slot.content}
+        </section>
+      )
+    ))}
+
+    <section id="homepage-tarot-library" class="tarot-library">
+      <section class="arcana-section">
+        <h2>The Major Arcana</h2>
+        <h3 class="arcana-subtitle">The great archetypes of the Tarot</h3>
+        <div class="arcana-layout">
+          <div class="arcana-left">
+            <a href="/major-arcana-2" class="suit-img-link">
+              <img src="/images/2021/01/Major-Arcana-e1610542977417.jpg" alt="The Major Arcana tarot cards" />
+            </a>
+          </div>
+          <div class="arcana-right">
+            {majorArcana.map(card => (
+              <a href={`/${card.slug}`}>{card.name}</a>
+            ))}
+          </div>
         </div>
-        <div class="arcana-right">
-          {majorArcana.map(card => (
-            <a href={`/${card.slug}`}>{card.name}</a>
+      </section>
+
+      <section class="arcana-section">
+        <h2>The Minor Arcana</h2>
+        <h3 class="arcana-subtitle">The four suits of the Tarot</h3>
+        <div class="suits-grid">
+          {suits.map(suit => (
+            <div class="suit-col">
+              <h3 class="suit-title"><a href={`/${suit.slug}`}>{suit.name}</a></h3>
+              <a href={`/${suit.slug}`} class="suit-img-link">
+                <img src={suit.img} alt={`${suit.name} tarot cards`} loading="lazy" />
+              </a>
+              <div class="suit-cards">
+                {suit.cards.map(rank => (
+                  <a href={`/${cardSlug(rank, suit.name)}`}>{rank} of {suit.name}</a>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
-      </div>
-    </section>
-
-    <section class="arcana-section">
-      <h2>The Minor Arcana</h2>
-      <h3 class="arcana-subtitle">The four suits of the Tarot</h3>
-      <div class="suits-grid">
-        {suits.map(suit => (
-          <div class="suit-col">
-            <h3 class="suit-title"><a href={`/${suit.slug}`}>{suit.name}</a></h3>
-            <a href={`/${suit.slug}`} class="suit-img-link">
-              <img src={suit.img} alt={`${suit.name} tarot cards`} loading="lazy" />
-            </a>
-            <div class="suit-cards">
-              {suit.cards.map(rank => (
-                <a href={`/${cardSlug(rank, suit.name)}`}>{rank} of {suit.name}</a>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
+      </section>
     </section>
 
   </div>
