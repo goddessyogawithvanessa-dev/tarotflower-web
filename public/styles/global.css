@@ -445,6 +445,109 @@ strong { color: #333; }
   text-decoration: none;
 }
 
+.sacred-oracle-section {
+  margin: 5em 0;
+}
+.sacred-oracle {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(250px, 0.95fr) minmax(0, 1.05fr);
+  gap: clamp(26px, 4vw, 52px);
+  align-items: center;
+  padding: clamp(28px, 5vw, 56px);
+  background: #fbf6ed;
+  border: 1px solid rgba(190, 154, 78, 0.48);
+  border-radius: 8px;
+  box-shadow: 0 18px 48px rgba(91, 35, 51, 0.1);
+  overflow: hidden;
+}
+.sacred-oracle::before,
+.sacred-oracle::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  border: 1px solid rgba(190, 154, 78, 0.16);
+}
+.sacred-oracle::before {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  top: 30px;
+  right: 36px;
+}
+.sacred-oracle::after {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  left: 34px;
+  bottom: 30px;
+}
+.sacred-oracle-art {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-14px);
+}
+.sacred-oracle-art img {
+  display: block;
+  width: min(100%, 430px);
+  height: auto;
+  margin: 0;
+  border-radius: 6px;
+  box-shadow: 0 20px 42px rgba(45, 24, 20, 0.22);
+  transform: rotate(-2.5deg);
+}
+.sacred-oracle-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 500px;
+}
+.sacred-oracle-eyebrow {
+  font-family: 'Aboreto', serif;
+  font-size: 0.76em;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #9b7a36;
+  margin-bottom: 1em;
+}
+.sacred-oracle-copy h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.65em;
+  font-weight: 300;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #333;
+  clear: none;
+  margin: 0 0 0.55em;
+}
+.sacred-oracle-copy p:not(.sacred-oracle-eyebrow) {
+  font-size: 1.05em;
+  line-height: 1.85;
+}
+.sacred-oracle-copy p:last-of-type {
+  margin-bottom: 2em;
+}
+.sacred-oracle-cta {
+  display: inline-block;
+  padding: 13px 30px;
+  border: 1px solid #5b2333;
+  color: #5b2333;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 1em;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.sacred-oracle-cta:hover {
+  background: #5b2333;
+  color: #fff;
+  text-decoration: none;
+}
+
 .arcana-section {
   margin: 3em 0;
 }
@@ -1177,6 +1280,12 @@ footer {
   .sacred-becoming-copy { max-width: none; }
   .sacred-becoming-kicker { font-size: 2.7em; }
   .sacred-becoming-copy h2 { font-size: 2.1em; }
+  .sacred-oracle-section { margin: 3.5em 0; }
+  .sacred-oracle { grid-template-columns: 1fr; padding: 24px; gap: 28px; }
+  .sacred-oracle-art { justify-content: flex-start; transform: translateY(0); }
+  .sacred-oracle-art img { width: min(96%, 360px); }
+  .sacred-oracle-copy { max-width: none; }
+  .sacred-oracle-copy h2 { font-size: 2.1em; }
   .arcana-layout { grid-template-columns: 1fr; }
   .arcana-right { grid-template-columns: 1fr; }
   .suits-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
