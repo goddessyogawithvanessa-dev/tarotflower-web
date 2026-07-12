@@ -33,11 +33,6 @@
       "bucket_name": "tarotflower-guides-dev"
     }
   ],
-  "send_email": [
-    {
-      "name": "EMAIL"
-    }
-  ],
   "triggers": {
     "crons": [
       "* * * * *"
