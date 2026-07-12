@@ -1,3 +1,5 @@
+import { connect } from "cloudflare:sockets";
+
 var __defProp = Object.defineProperty;
 var __name = (target, value) => __defProp(target, "name", { value, configurable: true });
 
@@ -857,9 +859,7 @@ async function sendContactEmail(env, submission, request) {
     console.log("Contact dry run", submission);
     return;
   }
-  if (!env.EMAIL || typeof env.EMAIL.send !== "function") {
-    throw new Error("Missing EMAIL send_email binding");
-  }
+  assertSmtpConfigured(env);
   const from = env.CONTACT_FROM || DEFAULT_FROM;
   const subject = `Tarot Flower contact form: ${submission.name}`;
   const ip = request.headers.get("CF-Connecting-IP") || "unknown";
@@ -877,7 +877,7 @@ async function sendContactEmail(env, submission, request) {
     "Message:",
     submission.message
   ].join("\n");
-  await env.EMAIL.send({
+  await sendSmtpEmail(env, {
     to: RECIPIENT,
     from,
     replyTo: submission.email,
@@ -959,9 +959,7 @@ async function claimCampaignDelivery(env, deliveryId) {
 }
 __name(claimCampaignDelivery, "claimCampaignDelivery");
 async function sendCampaignStepEmail(request, env, delivery) {
-  if (!env.EMAIL || typeof env.EMAIL.send !== "function") {
-    throw new Error("Missing EMAIL send_email binding");
-  }
+  assertSmtpConfigured(env);
   if (!delivery.subject || !delivery.html_template || !delivery.text_template) {
     throw new HttpError("Campaign step is missing email content.", 500);
   }
@@ -986,7 +984,7 @@ async function sendCampaignStepEmail(request, env, delivery) {
   const text = renderTemplate(delivery.text_template, context);
   const now = (/* @__PURE__ */ new Date()).toISOString();
   try {
-    await env.EMAIL.send({
+    await sendSmtpEmail(env, {
       to: delivery.email,
       from: env.CAMPAIGN_FROM || env.CONTACT_FROM || DEFAULT_FROM,
       replyTo: env.CAMPAIGN_REPLY_TO || env.CONTACT_FROM || DEFAULT_FROM,
@@ -1031,6 +1029,201 @@ async function sendCampaignStepEmail(request, env, delivery) {
   }
 }
 __name(sendCampaignStepEmail, "sendCampaignStepEmail");
+function assertSmtpConfigured(env) {
+  if (!env.SMTP_USERNAME) {
+    throw new Error("Missing SMTP_USERNAME secret");
+  }
+  if (!env.SMTP_APP_PASSWORD) {
+    throw new Error("Missing SMTP_APP_PASSWORD secret");
+  }
+}
+__name(assertSmtpConfigured, "assertSmtpConfigured");
+async function sendSmtpEmail(env, message) {
+  assertSmtpConfigured(env);
+  const socket = connect(
+    { hostname: "smtp.gmail.com", port: 465 },
+    { secureTransport: "on" }
+  );
+  const reader = socket.readable.getReader();
+  const writer = socket.writable.getWriter();
+  const smtp = createSmtpReader(reader);
+  try {
+    await withSmtpTimeout(socket.opened, "connect");
+    await expectSmtp(smtp, [220], "greeting");
+    await writeSmtp(writer, "EHLO tarotflower.com\r\n");
+    await expectSmtp(smtp, [250], "EHLO");
+    await writeSmtp(writer, "AUTH LOGIN\r\n");
+    await expectSmtp(smtp, [334], "AUTH LOGIN");
+    await writeSmtp(writer, `${btoa(env.SMTP_USERNAME)}\r\n`);
+    await expectSmtp(smtp, [334], "SMTP username");
+    await writeSmtp(writer, `${btoa(env.SMTP_APP_PASSWORD)}\r\n`);
+    await expectSmtp(smtp, [235], "SMTP authentication");
+    const envelopeFrom = smtpAddress(message.from, "from");
+    const envelopeTo = smtpAddress(message.to, "to");
+    await writeSmtp(writer, `MAIL FROM:<${envelopeFrom}>\r\n`);
+    await expectSmtp(smtp, [250], "MAIL FROM");
+    await writeSmtp(writer, `RCPT TO:<${envelopeTo}>\r\n`);
+    await expectSmtp(smtp, [250, 251], "RCPT TO");
+    await writeSmtp(writer, "DATA\r\n");
+    await expectSmtp(smtp, [354], "DATA");
+    await writeSmtp(writer, `${dotStuff(buildMimeMessage(message))}\r\n.\r\n`);
+    const accepted = await expectSmtp(smtp, [250], "message delivery");
+    await writeSmtp(writer, "QUIT\r\n");
+    await expectSmtp(smtp, [221], "QUIT");
+    return { messageId: smtpMessageId(accepted.text) };
+  } catch (error) {
+    throw new Error(`Google Workspace SMTP failed: ${errorMessage(error)}`);
+  } finally {
+    try {
+      reader.releaseLock();
+      writer.releaseLock();
+      await socket.close();
+    } catch {
+    }
+  }
+}
+__name(sendSmtpEmail, "sendSmtpEmail");
+function createSmtpReader(reader) {
+  const decoder = new TextDecoder();
+  let buffer = "";
+  async function readLine() {
+    while (!buffer.includes("\n")) {
+      const result = await withSmtpTimeout(reader.read(), "SMTP response");
+      if (result.done) {
+        throw new Error("SMTP connection closed unexpectedly");
+      }
+      buffer += decoder.decode(result.value, { stream: true });
+    }
+    const newline = buffer.indexOf("\n");
+    const line = buffer.slice(0, newline).replace(/\r$/, "");
+    buffer = buffer.slice(newline + 1);
+    return line;
+  }
+  return { readLine };
+}
+__name(createSmtpReader, "createSmtpReader");
+async function expectSmtp(smtp, allowedCodes, stage) {
+  const lines = [];
+  let code = 0;
+  while (true) {
+    const line = await smtp.readLine();
+    lines.push(line);
+    const match = /^(\d{3})([ -])/.exec(line);
+    if (!match) {
+      throw new Error(`SMTP ${stage} returned malformed response: ${lines.join(" | ")}`);
+    }
+    code = Number(match[1]);
+    if (match[2] === " ") {
+      break;
+    }
+  }
+  const text = lines.join(" | ");
+  if (!allowedCodes.includes(code)) {
+    throw new Error(`SMTP ${stage} returned ${code}: ${text}`);
+  }
+  return { code, text };
+}
+__name(expectSmtp, "expectSmtp");
+async function writeSmtp(writer, value) {
+  await withSmtpTimeout(writer.write(new TextEncoder().encode(value)), "SMTP write");
+}
+__name(writeSmtp, "writeSmtp");
+async function withSmtpTimeout(promise, stage) {
+  let timeout;
+  try {
+    return await Promise.race([
+      promise,
+      new Promise((_, reject) => {
+        timeout = setTimeout(() => reject(new Error(`SMTP ${stage} timed out`)), 15e3);
+      })
+    ]);
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+__name(withSmtpTimeout, "withSmtpTimeout");
+function smtpAddress(value, field) {
+  const raw = typeof value === "string" ? value : value?.email;
+  const match = /<([^<>]+)>/.exec(raw || "");
+  const email = (match ? match[1] : raw || "").trim();
+  if (!/^[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+$/.test(email)) {
+    throw new Error(`Invalid SMTP ${field} address`);
+  }
+  return email;
+}
+__name(smtpAddress, "smtpAddress");
+function buildMimeMessage(message) {
+  const boundary = `tarotflower-${crypto.randomUUID()}`;
+  const headers = [
+    `From: ${safeHeader(message.from)}`,
+    `To: ${safeHeader(message.to)}`,
+    message.replyTo ? `Reply-To: ${safeHeader(message.replyTo)}` : "",
+    `Subject: ${mimeHeader(message.subject)}`,
+    `Date: ${(/* @__PURE__ */ new Date()).toUTCString()}`,
+    `Message-ID: <${crypto.randomUUID()}@tarotflower.com>`,
+    "MIME-Version: 1.0"
+  ].filter(Boolean);
+  if (message.html) {
+    headers.push(`Content-Type: multipart/alternative; boundary="${boundary}"`);
+    return [
+      ...headers,
+      "",
+      `--${boundary}`,
+      'Content-Type: text/plain; charset="UTF-8"',
+      "Content-Transfer-Encoding: base64",
+      "",
+      wrapBase64(message.text || ""),
+      `--${boundary}`,
+      'Content-Type: text/html; charset="UTF-8"',
+      "Content-Transfer-Encoding: base64",
+      "",
+      wrapBase64(message.html),
+      `--${boundary}--`
+    ].join("\r\n");
+  }
+  headers.push('Content-Type: text/plain; charset="UTF-8"');
+  headers.push("Content-Transfer-Encoding: base64");
+  return [...headers, "", wrapBase64(message.text || "")].join("\r\n");
+}
+__name(buildMimeMessage, "buildMimeMessage");
+function safeHeader(value) {
+  const text = typeof value === "string" ? value : value?.email;
+  if (!text || /[\r\n]/.test(text)) {
+    throw new Error("Invalid SMTP header value");
+  }
+  return text;
+}
+__name(safeHeader, "safeHeader");
+function mimeHeader(value) {
+  const text = safeHeader(String(value || ""));
+  if (/^[\x20-\x7E]*$/.test(text)) {
+    return text;
+  }
+  return `=?UTF-8?B?${utf8Base64(text)}?=`;
+}
+__name(mimeHeader, "mimeHeader");
+function utf8Base64(value) {
+  const bytes = new TextEncoder().encode(String(value));
+  let binary = "";
+  for (const byte of bytes) {
+    binary += String.fromCharCode(byte);
+  }
+  return btoa(binary);
+}
+__name(utf8Base64, "utf8Base64");
+function wrapBase64(value) {
+  return utf8Base64(value).replace(/.{1,76}/g, "$&\r\n").replace(/\r\n$/, "");
+}
+__name(wrapBase64, "wrapBase64");
+function dotStuff(value) {
+  return value.replace(/(^|\r\n)\./g, "$1..");
+}
+__name(dotStuff, "dotStuff");
+function smtpMessageId(responseText) {
+  const match = /\bOK\s+([A-Za-z0-9_-]+)\b/i.exec(responseText);
+  return match?.[1] || responseText;
+}
+__name(smtpMessageId, "smtpMessageId");
 async function ensureSubscriberUnsubscribeToken(env, subscriberId) {
   const token = createOpaqueToken();
   await env.DB.prepare(`
