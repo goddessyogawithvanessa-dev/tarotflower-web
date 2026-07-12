@@ -927,7 +927,7 @@ async function findPendingCampaignDelivery(env, { deliveryId, email, subscriberI
       d.status AS delivery_status,
       d.attempts AS attempts,
       s.id AS subscriber_id,
-      s.email AS email,
+      s.email AS recipient_email,
       s.first_name AS first_name,
       s.unsubscribe_token AS unsubscribe_token,
       seq.id AS sequence_id,
@@ -975,7 +975,7 @@ async function sendCampaignStepEmail(request, env, delivery) {
   });
   const unsubscribeUrl = createUnsubscribeUrl(request, unsubscribeToken);
   const context = {
-    email: delivery.email,
+    email: delivery.recipient_email,
     first_name: delivery.first_name || "there",
     guide_download_url: guideDownloadUrl,
     unsubscribe_url: unsubscribeUrl
@@ -985,7 +985,7 @@ async function sendCampaignStepEmail(request, env, delivery) {
   const now = (/* @__PURE__ */ new Date()).toISOString();
   try {
     await sendSmtpEmail(env, {
-      to: delivery.email,
+      to: delivery.recipient_email,
       from: env.CAMPAIGN_FROM || env.CONTACT_FROM || DEFAULT_FROM,
       replyTo: env.CAMPAIGN_REPLY_TO || env.CONTACT_FROM || DEFAULT_FROM,
       subject: delivery.subject,
@@ -1040,6 +1040,8 @@ function assertSmtpConfigured(env) {
 __name(assertSmtpConfigured, "assertSmtpConfigured");
 async function sendSmtpEmail(env, message) {
   assertSmtpConfigured(env);
+  const smtpUsername = env.SMTP_USERNAME.trim();
+  const smtpPassword = env.SMTP_APP_PASSWORD.replace(/\s+/g, "");
   const socket = connect(
     { hostname: "smtp.gmail.com", port: 465 },
     { secureTransport: "on" }
@@ -1054,9 +1056,9 @@ async function sendSmtpEmail(env, message) {
     await expectSmtp(smtp, [250], "EHLO");
     await writeSmtp(writer, "AUTH LOGIN\r\n");
     await expectSmtp(smtp, [334], "AUTH LOGIN");
-    await writeSmtp(writer, `${btoa(env.SMTP_USERNAME)}\r\n`);
+    await writeSmtp(writer, `${btoa(smtpUsername)}\r\n`);
     await expectSmtp(smtp, [334], "SMTP username");
-    await writeSmtp(writer, `${btoa(env.SMTP_APP_PASSWORD)}\r\n`);
+    await writeSmtp(writer, `${btoa(smtpPassword)}\r\n`);
     await expectSmtp(smtp, [235], "SMTP authentication");
     const envelopeFrom = smtpAddress(message.from, "from");
     const envelopeTo = smtpAddress(message.to, "to");
