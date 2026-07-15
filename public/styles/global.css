@@ -920,28 +920,57 @@ strong { color: #333; }
   padding: 0 24px 20px;
 }
 
-/* Contact page */
-.contact-title {
-  font-family: 'Tangerine', cursive;
-  font-size: 4em;
+/* Sacred Becoming mentoring page */
+/* Sacred Becoming page foundation */
+.becoming-page {
+  --becoming-ink: #3f493b;
+  --becoming-sage: #7a8b6f;
+  color: var(--becoming-ink);
+  overflow-x: clip;
+}
+.becoming-hero,
+.becoming-presence,
+.becoming-section { max-width: 800px; text-align: center; }
+.becoming-section { padding-top: 5.5em; padding-bottom: 5.5em; }
+.becoming-mark { display: none; }
+.becoming-hero h1 {
+  max-width: 860px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.4em, 6vw, 5.5em);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: 0;
   text-align: center;
-  margin-bottom: 0.3em;
 }
-.contact-quote {
-  text-align: center;
-  border-left: 4px solid #7c3aed;
-  padding: 1em 2em;
-  margin: 0 auto 3em;
-  max-width: 700px;
+.becoming-lead { max-width: 720px; font-size: 1.1em; line-height: 1.8; }
+.becoming-intro { max-width: 720px; margin: 0 auto; padding: 0; position: static; text-align: center; }
+.becoming-statement { max-width: 720px; margin: 0 auto !important; font: inherit; line-height: 1.8; }
+.becoming-page h2,
+.becoming-page h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 400;
+  color: var(--becoming-ink);
 }
-.contact-quote p {
-  color: #555;
-  font-size: 1.05em;
-  line-height: 1.8;
-  margin-bottom: 0.3em;
-}
+.doorways-opening { max-width: 720px; margin: 0 auto 3.5em; }
+.doorways-opening p { margin: 0.65em 0; }
+.voice-path { max-width: 720px; margin: 0 auto; position: static; }
+.voice-path::before { content: none; }
+.doorways-closing { max-width: 720px; margin: 3.5em auto 0 !important; font: inherit; line-height: inherit; }
+.session-list { margin: 1.5em auto 5.5em; list-style: none; text-align: center; }
+.session-list li::before { content: none; }
+.becoming-practices { max-width: 720px; margin: 5.5em auto 0; text-align: center; }
+.becoming-practices p { margin: 1.15em 0; }
+.becoming-practices p:nth-last-child(-n+2) { font: inherit; }
+.becoming-extras { display: block; max-width: 720px; margin: 5.5em auto 0; }
+.becoming-extras p { margin: 1.15em 0; padding-top: 0; border-top: 0; font: inherit; line-height: inherit; }
+.becoming-begin { max-width: 800px; margin-left: auto; margin-right: auto; text-align: center; }
+.becoming-begin p { margin: 0.65em 0; }
+.becoming-invitation { padding: 6em 0; }
+.invitation-copy { margin-bottom: 4em; text-align: center; }
+.invitation-copy h2 { margin-bottom: 0.5em; text-align: center; }
+.invitation-copy p { max-width: 720px; margin-left: auto; margin-right: auto; text-align: center; }
 .contact-form {
-  max-width: 900px;
+  max-width: 820px;
   margin: 0 auto;
 }
 .contact-row {
@@ -952,8 +981,8 @@ strong { color: #333; }
 .contact-row input {
   flex: 1;
   padding: 16px 20px;
-  border: none;
-  background: #f0f0f0;
+  border: 1px solid rgba(122, 139, 111, 0.35);
+  background: rgba(255,255,255,0.72);
   font-family: 'Quattrocento', Georgia, serif;
   font-size: 1em;
   color: #333;
@@ -965,8 +994,8 @@ strong { color: #333; }
 .contact-form textarea {
   width: 100%;
   padding: 16px 20px;
-  border: none;
-  background: #f0f0f0;
+  border: 1px solid rgba(122, 139, 111, 0.35);
+  background: rgba(255,255,255,0.72);
   font-family: 'Quattrocento', Georgia, serif;
   font-size: 1em;
   color: #333;
@@ -990,24 +1019,24 @@ strong { color: #333; }
 .contact-captcha input {
   width: 60px;
   padding: 8px 12px;
-  border: none;
-  background: #f0f0f0;
+  border: 1px solid rgba(122, 139, 111, 0.35);
+  background: rgba(255,255,255,0.72);
   font-family: 'Quattrocento', Georgia, serif;
   font-size: 1em;
   text-align: center;
 }
 .contact-btn {
   padding: 14px 30px;
-  border: 2px solid #7c3aed;
+  border: 1px solid #7a8b6f;
   background: transparent;
-  color: #7c3aed;
+  color: #596553;
   font-family: 'Quattrocento', Georgia, serif;
   font-size: 1em;
   cursor: pointer;
   letter-spacing: 0.5px;
 }
 .contact-btn:hover {
-  background: #7c3aed;
+  background: #7a8b6f;
   color: #fff;
 }
 
@@ -1470,10 +1499,1069 @@ footer {
   .guide-download-copy h1 { font-size: 2.1em; }
   .guide-download-support { font-size: 2.15em; }
   .inside-guide-section { margin: 2.8em auto 3.5em; }
+  .contact-row { flex-direction: column; }
+  .contact-bottom { align-items: flex-end; justify-content: space-between; }
   .arcana-layout { grid-template-columns: 1fr; }
   .arcana-right { grid-template-columns: 1fr; }
   .suits-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .banner { height: 200px; }
   .footer-inner { grid-template-columns: 1fr; gap: 24px; padding: 0 18px; }
   .posts-grid { grid-template-columns: 1fr; }
+}
+
+/* Sacred Becoming: hero / portrait / Our Work Together refinement */
+.becoming-hero {
+  min-height: 460px;
+  padding-top: 4.5em;
+  padding-bottom: 3.5em;
+}
+
+.becoming-presence {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: calc(100% - 36px);
+  max-width: 1180px;
+  min-height: 480px;
+  padding-top: 3em;
+  padding-bottom: 3.5em;
+  overflow: visible;
+}
+
+.presence-image {
+  position: absolute;
+  z-index: 0;
+  top: -5.5em;
+  left: -12vw;
+  width: min(94%, 980px);
+  max-width: none;
+  height: calc(100% + 760px);
+  margin: 0;
+  pointer-events: none;
+}
+
+.presence-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left top;
+  opacity: 0.24;
+  filter: brightness(1.28) contrast(0.72) saturate(0.72);
+  -webkit-mask-image:
+    linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.2) 8%, #000 20%, #000 68%, rgba(0, 0, 0, 0.4) 84%, transparent 100%),
+    linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.2) 10%, #000 21%, #000 40%, rgba(0, 0, 0, 0.42) 52%, rgba(0, 0, 0, 0.12) 61%, transparent 66%);
+  -webkit-mask-composite: source-in;
+  -webkit-mask-repeat: no-repeat;
+  mask-image:
+    linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.2) 8%, #000 20%, #000 68%, rgba(0, 0, 0, 0.4) 84%, transparent 100%),
+    linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.2) 10%, #000 21%, #000 40%, rgba(0, 0, 0, 0.42) 52%, rgba(0, 0, 0, 0.12) 61%, transparent 66%);
+  mask-composite: intersect;
+  mask-repeat: no-repeat;
+}
+
+.becoming-intro {
+  position: relative;
+  z-index: 1;
+  width: 54%;
+  max-width: 590px;
+  margin: 0 3% 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.becoming-intro > h2 {
+  margin-bottom: 0.65em !important;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3em, 4.6vw, 4.25em);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--becoming-ink);
+}
+
+.becoming-statement {
+  max-width: 470px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.becoming-voice {
+  position: relative;
+  z-index: 1;
+  padding-top: 4em;
+  background: transparent;
+}
+
+.becoming-voice h2 {
+  font-size: clamp(3.1em, 4.9vw, 4.5em);
+  text-align: center;
+}
+
+.doorways-opening,
+.doorways-closing {
+  max-width: 650px;
+}
+
+.doorways-opening {
+  text-align: center;
+}
+
+.voice-path {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5em;
+  background: #fff;
+}
+
+.voice-path > div,
+.voice-path > div:nth-child(even),
+.voice-path > div:nth-child(odd) {
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: static;
+  text-align: center;
+  transform: none;
+}
+
+.voice-path p:first-child {
+  margin-bottom: 0.45em;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.95em, 3.1vw, 2.4em);
+  font-weight: 500;
+  line-height: 1.22;
+  color: #30362e;
+}
+
+.voice-path p:last-child {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.92em;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #737870;
+}
+
+.doorways-closing {
+  margin-top: 5.5em !important;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.45em, 2.15vw, 1.8em);
+  font-weight: 500;
+  line-height: 1.45;
+  color: #454d42;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .becoming-hero {
+    min-height: 0;
+    padding-top: 3.75em;
+    padding-bottom: 3.25em;
+  }
+
+  .becoming-presence {
+    display: flex;
+    align-items: flex-start;
+    min-height: 340px;
+    padding-top: 2.75em;
+    padding-bottom: 2.5em;
+  }
+
+  .presence-image {
+    position: absolute;
+    top: -1.5em;
+    left: -42%;
+    width: 154%;
+    height: calc(100% + 740px);
+    margin: 0;
+  }
+
+  .presence-image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.22;
+    filter: brightness(1.32) contrast(0.68) saturate(0.68);
+  }
+
+  .becoming-intro {
+    width: 88%;
+    max-width: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .becoming-intro > h2 {
+    font-size: 3.15em;
+  }
+
+  .becoming-voice {
+    padding-top: 3.5em;
+  }
+
+  .voice-path > div,
+  .voice-path > div:nth-child(even),
+  .voice-path > div:nth-child(odd) {
+    padding: 0;
+  }
+
+  .voice-path p:first-child {
+    font-size: 2em;
+  }
+
+  .voice-path p:last-child {
+    max-width: 32em;
+    font-size: 0.92em;
+    line-height: 1.6;
+  }
+
+  .voice-path {
+    gap: 4em;
+  }
+
+  .doorways-closing {
+    margin-top: 5em !important;
+    font-size: 1.55em;
+  }
+}
+
+/* Sacred Becoming: Where this work comes from */
+.becoming-origin {
+  max-width: 820px;
+  padding-top: 9em;
+  padding-bottom: 9.5em;
+  text-align: center;
+}
+
+.becoming-origin > h2 {
+  margin: 0 0 1.75em !important;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.1em, 4.8vw, 4.4em);
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--becoming-ink);
+}
+
+.becoming-origin > p:nth-of-type(1),
+.becoming-origin > p:nth-of-type(2) {
+  max-width: 780px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.1em, 5.1vw, 4.8em);
+  font-weight: 400;
+  line-height: 1.08;
+  color: #30362e;
+}
+
+.becoming-origin > p:nth-of-type(1) {
+  margin-top: 0 !important;
+  margin-bottom: 0.65em !important;
+}
+
+.becoming-origin > p:nth-of-type(2) {
+  margin-top: 0 !important;
+  margin-bottom: 1.8em !important;
+}
+
+.becoming-origin > p:nth-of-type(3) {
+  max-width: 560px;
+  margin: 0 auto !important;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 0.96em;
+  font-weight: 400;
+  line-height: 1.85;
+  color: #747a72;
+}
+
+@media (max-width: 768px) {
+  .becoming-origin {
+    padding-top: 8em;
+    padding-bottom: 8.5em;
+  }
+
+  .becoming-origin > h2 {
+    font-size: 3em;
+  }
+
+  .becoming-origin > p:nth-of-type(1),
+  .becoming-origin > p:nth-of-type(2) {
+    font-size: 3.05em;
+  }
+
+  .becoming-origin > p:nth-of-type(3) {
+    max-width: 32em;
+    font-size: 0.92em;
+  }
+}
+
+/* Sacred Becoming: What You'll Always Receive */
+.becoming-included {
+  max-width: 800px;
+  padding-top: 7.5em;
+  padding-bottom: 7em;
+  text-align: center;
+}
+
+.becoming-included > h2 {
+  margin: 0 0 0.55em !important;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.2em, 5.1vw, 4.65em);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--becoming-ink);
+}
+
+.becoming-included > h2 + p {
+  max-width: 560px;
+  margin: 0 auto !important;
+  font-size: 1em;
+  line-height: 1.7;
+  color: #737970;
+}
+
+.becoming-included .session-count {
+  max-width: 780px;
+  margin: 0.9em auto 0 !important;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.6em, 6.4vw, 5.65em);
+  font-weight: 400;
+  line-height: 1.02;
+  color: #30362e;
+}
+
+.becoming-included .session-count span {
+  display: block;
+  margin-top: 0.7em;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 0.22em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #7a8078;
+}
+
+.becoming-included .session-list {
+  margin: 2.5em auto 8em;
+  padding: 0;
+  font-size: 1.08em;
+  line-height: 1.6;
+  color: #50574e;
+}
+
+.becoming-included .session-list li {
+  margin: 0.55em 0;
+}
+
+.becoming-included .sacred-exchange {
+  max-width: 720px;
+  margin: 0 auto 8em;
+  text-align: center;
+}
+
+.becoming-included .sacred-exchange h2,
+.becoming-included .threshold-intro h2 {
+  margin-bottom: 0.45em;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3em, 4.8vw, 4.25em);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--becoming-ink);
+}
+
+.becoming-included .exchange-placeholder {
+  display: none;
+}
+
+.becoming-included .threshold-intro {
+  max-width: 680px;
+  margin: 0 auto 5em;
+  text-align: center;
+}
+
+.becoming-included .threshold-intro p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #697067;
+}
+
+@media (max-width: 768px) {
+  .becoming-included {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+
+  .becoming-included > h2 {
+    font-size: 3.15em;
+  }
+
+  .becoming-included .session-count {
+    font-size: 3.7em;
+  }
+
+  .becoming-included .session-count span {
+    font-size: 0.26em;
+  }
+
+  .becoming-included .session-list {
+    margin-bottom: 6.5em;
+  }
+
+  .becoming-included .sacred-exchange {
+    margin-bottom: 6.5em;
+  }
+
+  .becoming-included .sacred-exchange h2,
+  .becoming-included .threshold-intro h2 {
+    font-size: 3.05em;
+  }
+
+  .becoming-included .threshold-intro {
+    margin-bottom: 4.5em;
+  }
+}
+
+/* Sacred Becoming: Your journey is as unique as you are */
+.becoming-unique {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7.5em;
+  padding-bottom: 8.5em;
+  text-align: center;
+}
+
+.becoming-unique h2 {
+  max-width: 780px;
+  margin: 0 auto 1.1em;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.4em, 5.6vw, 5.15em);
+  font-weight: 400;
+  line-height: 1.06;
+  color: var(--becoming-ink);
+}
+
+.becoming-unique > p:nth-of-type(1),
+.becoming-unique > p:nth-of-type(2) {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.15em, 3.5vw, 3.25em);
+  font-weight: 400;
+  line-height: 1.14;
+  color: #353b33;
+}
+
+.becoming-unique > p:nth-of-type(1) {
+  margin-top: 0;
+  margin-bottom: 0.55em;
+}
+
+.becoming-unique > p:nth-of-type(2) {
+  margin-top: 0;
+  margin-bottom: 1.8em;
+}
+
+.becoming-unique > p:nth-of-type(3) {
+  max-width: 630px;
+  margin: 0 auto;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 1.08em;
+  font-weight: 400;
+  line-height: 1.85;
+  color: #656b63;
+}
+
+@media (max-width: 768px) {
+  .becoming-unique {
+    padding-top: 6.5em;
+    padding-bottom: 7.5em;
+  }
+
+  .becoming-unique h2 {
+    font-size: 3.45em;
+  }
+
+  .becoming-unique > p:nth-of-type(1),
+  .becoming-unique > p:nth-of-type(2) {
+    font-size: 2.3em;
+  }
+
+  .becoming-unique > p:nth-of-type(3) {
+    max-width: 34em;
+    font-size: 1em;
+  }
+}
+
+/* Sacred Becoming: Eight Thresholds journey */
+.becoming-included .thresholds {
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.becoming-included .thresholds li,
+.becoming-included .thresholds li:nth-child(even) {
+  display: block;
+  margin: 0 0 7.75em;
+  padding: 0;
+  position: static;
+  text-align: center;
+  transform: none;
+}
+
+.becoming-included .thresholds li:last-child {
+  margin-bottom: 0;
+}
+
+.becoming-included .threshold-number {
+  display: block;
+  margin: 0 0 1.65em;
+  position: static;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 0;
+  font-weight: 400;
+  font-style: normal;
+  color: #b6bbb4;
+}
+
+.becoming-included .threshold-number::before {
+  display: block;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  color: #b9beb7;
+}
+
+.becoming-included .thresholds li:nth-child(1) .threshold-number::before { content: 'I'; }
+.becoming-included .thresholds li:nth-child(2) .threshold-number::before { content: 'II'; }
+.becoming-included .thresholds li:nth-child(3) .threshold-number::before { content: 'III'; }
+.becoming-included .thresholds li:nth-child(4) .threshold-number::before { content: 'IV'; }
+.becoming-included .thresholds li:nth-child(5) .threshold-number::before { content: 'V'; }
+.becoming-included .thresholds li:nth-child(6) .threshold-number::before { content: 'VI'; }
+.becoming-included .thresholds li:nth-child(7) .threshold-number::before { content: 'VII'; }
+.becoming-included .thresholds li:nth-child(8) .threshold-number::before { content: 'VIII'; }
+
+.becoming-included .thresholds h3 {
+  margin: 0 0 0.42em;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.1em, 4.8vw, 4.3em);
+  font-weight: 400;
+  line-height: 1.08;
+  color: #343a32;
+}
+
+.becoming-included .thresholds p {
+  max-width: 560px;
+  margin: 0 auto;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 0.92em;
+  font-weight: 400;
+  line-height: 1.85;
+  color: #6f756d;
+}
+
+@media (max-width: 768px) {
+  .becoming-included .thresholds li,
+  .becoming-included .thresholds li:nth-child(even) {
+    margin-bottom: 6.5em;
+    padding: 0;
+  }
+
+  .becoming-included .threshold-number {
+    margin-bottom: 1.5em;
+  }
+
+  .becoming-included .thresholds h3 {
+    font-size: 3.05em;
+  }
+
+  .becoming-included .thresholds p {
+    max-width: 34em;
+    font-size: 0.92em;
+    line-height: 1.75;
+  }
+}
+
+/* Sacred Becoming: unified editorial type scale */
+.becoming-page {
+  --type-hero: clamp(3.5rem, 6.8vw, 5rem);
+  --type-section: clamp(2.7rem, 4.4vw, 3.55rem);
+  --type-secondary: clamp(2.25rem, 3.6vw, 2.9rem);
+  --type-statement: clamp(2.2rem, 3.55vw, 2.85rem);
+  --type-question: clamp(1.75rem, 2.7vw, 2.15rem);
+  --type-threshold: clamp(2.25rem, 3.5vw, 2.85rem);
+  --type-body: 1.04rem;
+  --type-supporting: 0.94rem;
+}
+
+.becoming-page .becoming-hero h1 {
+  font-size: var(--type-hero);
+  line-height: 1.06;
+}
+
+.becoming-page .becoming-intro > h2,
+.becoming-page .becoming-voice > h2,
+.becoming-page .becoming-origin > h2,
+.becoming-page .becoming-unique > h2,
+.becoming-page .becoming-included > h2,
+.becoming-page .becoming-begin > h2,
+.becoming-page .invitation-copy h2 {
+  font-size: var(--type-section);
+  line-height: 1.1;
+}
+
+.becoming-page .becoming-begin > h2 {
+  margin: 0 0 0.7em;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 400;
+  color: var(--becoming-ink);
+  text-align: center;
+}
+
+.becoming-page .sacred-exchange h2,
+.becoming-page .threshold-intro h2 {
+  font-size: var(--type-secondary);
+  line-height: 1.12;
+}
+
+.becoming-page .becoming-origin > p:nth-of-type(1),
+.becoming-page .becoming-origin > p:nth-of-type(2),
+.becoming-page .becoming-unique > p:nth-of-type(1),
+.becoming-page .becoming-unique > p:nth-of-type(2),
+.becoming-page .session-count {
+  font-size: var(--type-statement);
+  line-height: 1.12;
+}
+
+.becoming-page .session-count {
+  font-size: clamp(2.9rem, 4.8vw, 3.4rem);
+  line-height: 1.08;
+}
+
+.becoming-page .voice-path p:first-child {
+  font-size: var(--type-question);
+  line-height: 1.28;
+}
+
+.becoming-page .thresholds h3 {
+  font-size: var(--type-threshold);
+  line-height: 1.12;
+}
+
+.becoming-page .becoming-lead,
+.becoming-page .becoming-statement,
+.becoming-page .doorways-opening p,
+.becoming-page .voice-path p:last-child,
+.becoming-page .threshold-intro p,
+.becoming-page .thresholds p,
+.becoming-page .becoming-practices p,
+.becoming-page .becoming-extras p,
+.becoming-page .becoming-begin > p,
+.becoming-page .invitation-copy p {
+  font-size: var(--type-body);
+  line-height: 1.72;
+}
+
+.becoming-page .doorways-closing {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.becoming-page .becoming-origin > p:nth-of-type(3),
+.becoming-page .becoming-unique > p:nth-of-type(3),
+.becoming-page .becoming-included > h2 + p,
+.becoming-page .session-count span {
+  font-size: var(--type-supporting);
+  line-height: 1.7;
+}
+
+.becoming-page .session-list {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.becoming-page .threshold-number::before {
+  font-size: 0.72rem;
+  line-height: 1;
+}
+
+/* Sacred Becoming: full-page chapter rhythm */
+.becoming-page {
+  --chapter-reflective: #fbf9f4;
+  --chapter-practical: #f8f5ee;
+}
+
+.becoming-origin,
+.becoming-unique,
+.becoming-begin {
+  position: relative;
+  isolation: isolate;
+}
+
+.becoming-origin::before,
+.becoming-unique::before,
+.becoming-begin::before {
+  content: '';
+  position: absolute;
+  inset: 0 calc(50% - 50vw);
+  z-index: -1;
+  background: var(--chapter-reflective);
+}
+
+.becoming-begin::before,
+.becoming-invitation {
+  background: var(--chapter-practical);
+}
+
+/* Sacred Becoming: shared story-to-reader image bridge */
+.becoming-story-bridge {
+  position: relative;
+  isolation: isolate;
+  background-color: var(--chapter-reflective);
+  background-image:
+    linear-gradient(to right,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0.42) 20%,
+      rgba(255, 255, 255, 0.62) 38%,
+      rgba(255, 255, 255, 0.62) 62%,
+      rgba(255, 255, 255, 0.42) 80%,
+      rgba(255, 255, 255, 0.12) 100%),
+    url('/images/sacred-becoming-mermaid.png');
+  background-repeat: no-repeat;
+  background-position: center, 15% center;
+  background-size: cover;
+}
+
+.becoming-story-bridge .becoming-origin::before,
+.becoming-story-bridge .becoming-unique::before {
+  content: none;
+}
+
+.becoming-story-bridge .becoming-origin,
+.becoming-story-bridge .becoming-unique {
+  max-width: 820px;
+  text-align: left;
+}
+
+.becoming-story-bridge .becoming-origin {
+  padding-top: 5em;
+  padding-bottom: 3.25em;
+}
+
+.becoming-story-bridge .becoming-unique {
+  padding-top: 3.25em;
+  padding-bottom: 5em;
+}
+
+.becoming-story-bridge .becoming-origin > h2,
+.becoming-story-bridge .becoming-origin > p,
+.becoming-story-bridge .becoming-unique > h2,
+.becoming-story-bridge .becoming-unique > p {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  text-align: left;
+}
+
+.becoming-story-bridge .becoming-origin > h2 {
+  margin-bottom: 0.8em !important;
+}
+
+.becoming-story-bridge .becoming-origin > p:nth-of-type(1),
+.becoming-story-bridge .becoming-unique > p:nth-of-type(1) {
+  margin-bottom: 0.35em !important;
+}
+
+.becoming-story-bridge .becoming-origin > p:nth-of-type(2),
+.becoming-story-bridge .becoming-unique > p:nth-of-type(2) {
+  margin-bottom: 1.1em !important;
+}
+
+.becoming-story-bridge .becoming-unique > h2 {
+  margin-bottom: 0.75em;
+}
+
+.becoming-page .becoming-story-bridge .becoming-origin > p:nth-of-type(3),
+.becoming-page .becoming-story-bridge .becoming-unique > p:nth-of-type(3) {
+  font-size: 1.16rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 768px) {
+  .becoming-story-bridge {
+    background-image:
+      linear-gradient(to right,
+        rgba(255, 255, 255, 0.45),
+        rgba(255, 255, 255, 0.58) 50%,
+        rgba(255, 255, 255, 0.45)),
+      url('/images/sacred-becoming-mermaid.png');
+    background-position: center, 48% center;
+  }
+
+  .becoming-story-bridge .becoming-origin {
+    padding-top: 4em;
+    padding-bottom: 2.75em;
+  }
+
+  .becoming-story-bridge .becoming-unique {
+    padding-top: 2.75em;
+    padding-bottom: 4em;
+  }
+}
+
+.becoming-voice {
+  padding-bottom: 5.25em;
+}
+
+.voice-path {
+  gap: 4em;
+}
+
+.doorways-closing {
+  margin-top: 4.75em !important;
+}
+
+.becoming-origin {
+  padding-top: 7em;
+  padding-bottom: 4.75em;
+}
+
+.becoming-origin > h2 {
+  margin-bottom: 1.25em !important;
+}
+
+.becoming-unique {
+  padding-top: 4.75em;
+  padding-bottom: 7em;
+}
+
+.becoming-included {
+  padding-top: 7em;
+  padding-bottom: 6.5em;
+}
+
+.becoming-included .session-list {
+  margin-bottom: 7em;
+}
+
+.becoming-included .sacred-exchange {
+  margin-bottom: 7em;
+}
+
+.becoming-included .threshold-intro {
+  margin-bottom: 4.5em;
+}
+
+.becoming-included .thresholds li,
+.becoming-included .thresholds li:nth-child(even) {
+  margin-bottom: 6.5em;
+}
+
+.becoming-practices,
+.becoming-extras {
+  margin-top: 4.75em;
+}
+
+.becoming-begin {
+  padding-top: 6.5em;
+  padding-bottom: 3.25em;
+}
+
+.becoming-invitation {
+  padding-top: 3.75em;
+  padding-bottom: 6em;
+}
+
+@media (max-width: 768px) {
+  .becoming-voice {
+    padding-bottom: 4.75em;
+  }
+
+  .voice-path {
+    gap: 3.5em;
+  }
+
+  .doorways-closing {
+    margin-top: 4.25em !important;
+  }
+
+  .becoming-origin {
+    padding-top: 6em;
+    padding-bottom: 4em;
+  }
+
+  .becoming-unique {
+    padding-top: 4em;
+    padding-bottom: 6em;
+  }
+
+  .becoming-included {
+    padding-top: 5.75em;
+    padding-bottom: 5.5em;
+  }
+
+  .becoming-included .session-list,
+  .becoming-included .sacred-exchange {
+    margin-bottom: 5.75em;
+  }
+
+  .becoming-included .threshold-intro {
+    margin-bottom: 4em;
+  }
+
+  .becoming-included .thresholds li,
+  .becoming-included .thresholds li:nth-child(even) {
+    margin-bottom: 5.25em;
+  }
+
+  .becoming-practices,
+  .becoming-extras {
+    margin-top: 4em;
+  }
+
+  .becoming-begin {
+    padding-top: 5.5em;
+    padding-bottom: 2.75em;
+  }
+
+  .becoming-invitation {
+    padding-top: 3.5em;
+    padding-bottom: 5em;
+  }
+}
+
+/* Sacred Becoming: Different Doorways pentagram composition */
+.becoming-voice .voice-path {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(190px, auto));
+  gap: 1.25em 0;
+  min-height: 720px;
+  position: relative;
+  align-items: center;
+  background: #fff;
+}
+
+.becoming-voice .voice-path::before {
+  content: '';
+  position: absolute;
+  inset: 2% 0 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 5 L75 88 L10 36 L90 36 L25 88 Z' fill='none' stroke='%23ad8f4e' stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 92% 92%;
+}
+
+.becoming-voice .voice-path > div,
+.becoming-voice .voice-path > div:nth-child(even),
+.becoming-voice .voice-path > div:nth-child(odd) {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  align-self: center;
+  text-align: center;
+}
+
+.becoming-voice .voice-path > div:nth-child(5) {
+  grid-column: 3 / 9;
+  grid-row: 1;
+}
+
+.becoming-voice .voice-path > div:nth-child(2) {
+  grid-column: 1 / 5;
+  grid-row: 2;
+}
+
+.becoming-voice .voice-path > div:nth-child(3) {
+  grid-column: 7 / 11;
+  grid-row: 2;
+}
+
+.becoming-voice .voice-path > div:nth-child(1) {
+  grid-column: 1 / 5;
+  grid-row: 3;
+}
+
+.becoming-voice .voice-path > div:nth-child(4) {
+  grid-column: 7 / 11;
+  grid-row: 3;
+}
+
+.becoming-voice .voice-path p:last-child {
+  max-width: 21em;
+}
+
+@media (max-width: 768px) {
+  .becoming-voice .voice-path {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto auto auto;
+    gap: 3.5em 1.25em;
+    min-height: 860px;
+    padding: 1.5em 0;
+  }
+
+  .becoming-voice .voice-path::before {
+    inset: 3% -7% 0;
+    opacity: 0.04;
+    background-size: 108% 86%;
+  }
+
+  .becoming-voice .voice-path > div:nth-child(5) {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .becoming-voice .voice-path > div:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .becoming-voice .voice-path > div:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .becoming-voice .voice-path > div:nth-child(1) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .becoming-voice .voice-path > div:nth-child(4) {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .becoming-page .becoming-voice .voice-path p:first-child {
+    font-size: 1.5rem;
+    line-height: 1.24;
+  }
+
+  .becoming-page .becoming-voice .voice-path p:last-child {
+    max-width: 18em;
+    font-size: 0.96rem;
+    line-height: 1.6;
+  }
 }
