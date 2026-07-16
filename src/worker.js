@@ -877,12 +877,16 @@ async function sendContactEmail(env, submission, request) {
     "Message:",
     submission.message
   ].join("\n");
-  await sendSmtpEmail(env, {
+  const delivery = await sendSmtpEmail(env, {
     to: RECIPIENT,
     from,
     replyTo: submission.email,
     subject,
     text
+  });
+  console.log("Contact email accepted by Google Workspace SMTP", {
+    recipient: RECIPIENT,
+    messageId: delivery.messageId
   });
 }
 __name(sendContactEmail, "sendContactEmail");
