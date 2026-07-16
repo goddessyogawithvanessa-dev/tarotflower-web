@@ -1,0 +1,109 @@
+---
+import Base from '../layouts/Base.astro';
+
+const productURL = 'https://goddess-yoga-retreat.com/product/step-into-the-fire-a-digital-ritual-for-courage-confidence/';
+const imageBase = '/images/digital-rituals/step-into-the-fire';
+---
+<Base
+  title="Step Into the Fire | Tarot Flower"
+  description="A digital ritual for courage and confidence. Burn through self-doubt, reclaim your fierce inner truth, and awaken the flame within."
+  image={`${imageBase}/elemental-rituals-header.jpg`}
+>
+  <main class="digital-ritual-page">
+    <div
+      class="digital-ritual-banner"
+      role="img"
+      aria-label="Fire goddess beneath a golden moon, surrounded by flames and flowers"
+      style={`background-image: url('${imageBase}/elemental-rituals-header.jpg')`}
+    ></div>
+
+    <section class="digital-ritual-introduction">
+      <div class="digital-ritual-row">
+        <h1>Step Into the Fire</h1>
+        <h2>A digital ritual for courage &amp; confidence</h2>
+        <a class="digital-ritual-button" href={productURL}>Ignite</a>
+      </div>
+      <div class="digital-ritual-row digital-ritual-opening">
+        <p>
+          This ritual is a sacred ignition — a call to burn through self-doubt and reclaim your fierce inner truth. Fire is the element of transformation, courage, and embodied confidence. Through breath, movement, and intention, you’ll awaken the flame within and summon the energy to take bold action in your life.<br />
+          <strong>This is your moment to rise, radiant and unapologetic.</strong>
+        </p>
+      </div>
+    </section>
+
+    <section class="digital-ritual-content">
+      <div class="digital-ritual-row">
+        <p class="digital-ritual-ornament" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+      </div>
+
+      <div class="digital-ritual-row digital-ritual-columns">
+        <div class="digital-ritual-column">
+          <img
+            src={`${imageBase}/fire-goddess-front-flipped.jpg`}
+            width="1050"
+            height="1500"
+            alt="Fire goddess artwork with red hair, floral crown, and flames — symbolic digital illustration for courage, confidence, and feminine empowerment rituals. AI artwork by Vanessa Hylande"
+            title="fire goddess front flipped"
+          />
+          <div class="digital-ritual-copy">
+            <h2>What’s Included</h2>
+            <p>
+              𖤓 Guided PDF ritual with affirmations + prompts<br />
+              𖤓 Powerful HIIT yoga &amp; dance video to awaken your fire<br />
+              𖤓 Original Warrior Goddess mp3 download<br />
+              𖤓 A Fire Goddess oracle card printable<br />
+              𖤓 Journaling prompts + personal reflection guide<br />
+              𖤓 Altar set-up suggestions
+            </p>
+            <p class="digital-ritual-symbols" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+          </div>
+        </div>
+
+        <div class="digital-ritual-column">
+          <img
+            src={`${imageBase}/burn-oracle-back.jpg`}
+            width="525"
+            height="750"
+            alt="Burn oracle card with floral fire and cosmic background — symbolizing purification, transformation, and creative rebirth in divine feminine rituals. AI art by Vanessa Hylande"
+            title="Burn Oracle back"
+          />
+          <div class="digital-ritual-copy">
+            <h2>Who It’s For</h2>
+            <p>
+              ☽ Women craving a spark of confidence and action<br />
+              ☽ Creatives ready to ignite a new project or direction<br />
+              ☽ Seekers shedding self-doubt and stepping into power<br />
+              ☽ Anyone feeling stuck, heavy, or disconnected from purpose
+            </p>
+            <p class="digital-ritual-symbols" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-audio">
+          <div
+            class="digital-ritual-audio-cover"
+            role="img"
+            aria-label="Warrior Goddess album artwork"
+            style={`background-image: url('${imageBase}/fire-goddess-music.jpeg')`}
+          ></div>
+          <div class="digital-ritual-audio-content">
+            <h2>Warrior Goddess</h2>
+            <p>by <strong>Vanessa Hylande</strong></p>
+            <audio controls preload="none">
+              <source src="/audio/digital-rituals/warrior-goddess-snippet.mp3" type="audio/mpeg" />
+              <a href="/audio/digital-rituals/warrior-goddess-snippet.mp3">Listen to Warrior Goddess</a>
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="digital-ritual-row digital-ritual-closing">
+        <h2><strong>Light your inner flame. Move forward boldly.</strong></h2>
+        <p>Begin your ritual today and let the fire guide you.</p>
+        <a class="digital-ritual-button" href={productURL}>Ignite</a>
+      </div>
+    </section>
+  </main>
+</Base>
