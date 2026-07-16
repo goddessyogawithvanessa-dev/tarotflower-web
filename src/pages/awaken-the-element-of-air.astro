@@ -1,0 +1,122 @@
+---
+import Base from '../layouts/Base.astro';
+
+const productURL = 'https://goddess-yoga-retreat.com/product/breathe-into-clarity-a-digital-ritual-for-vision-voice/';
+const imageBase = '/images/digital-rituals/awaken-the-element-of-air';
+---
+<Base
+  title="Awaken the Element of Air | Tarot Flower"
+  description="A digital ritual for clarity and intuition. Clear mental fog, connect to your intuition, and realign with your inner truth."
+  image={`${imageBase}/air-goddess-header-web.jpg`}
+>
+  <main class="digital-ritual-page digital-ritual-page--elemental">
+    <div
+      class="digital-ritual-banner"
+      role="img"
+      aria-label="Air goddess with luminous wings beneath a golden sky"
+      style={`background-image: url('${imageBase}/air-goddess-header-web.jpg')`}
+    ></div>
+
+    <section class="digital-ritual-introduction">
+      <div class="digital-ritual-row">
+        <h1>Awaken the Element of Air</h1>
+        <h2>A DIGITAL RITUAL FOR CLARITY &amp; INTUITION</h2>
+        <a class="digital-ritual-button" href={productURL}>Breathe</a>
+      </div>
+      <div class="digital-ritual-row digital-ritual-opening">
+        <p>
+          This ritual is a breath of fresh air — an invitation to clear mental fog, connect to your intuition, and realign with your inner truth.<br />
+          Air is the element of thought, vision, and perspective. Through sound, breath, and gentle awareness, you’ll find clarity in the chaos and space to receive your next insight.<br />
+          Let the wind carry away what no longer serves. The answers are already within you.
+        </p>
+      </div>
+    </section>
+
+    <section class="digital-ritual-content">
+      <div class="digital-ritual-row">
+        <p class="digital-ritual-ornament" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+      </div>
+
+      <div class="digital-ritual-row digital-ritual-columns">
+        <div class="digital-ritual-column">
+          <img
+            src={`${imageBase}/air-goddess-oracle-front.jpg`}
+            width="525"
+            height="750"
+            alt="Artistic profile of an Air goddess with ethereal wings and golden floral adornments, symbolizing clarity, insight, and breath; dreamy oracle card back design for goddess embodiment practices. AI art by Vanessa Hylande"
+            title="Air Goddess Oracle front"
+          />
+          <div class="digital-ritual-copy">
+            <h2 class="digital-ritual-heading-24">✧ What’s Included</h2>
+            <p>
+              𖤓 Guided PDF ritual with affirmations + prompts<br />
+              𖤓 Soothing breathwork + sound meditation video<br />
+              𖤓 Original sound bath mp3: <em>“Whispers of the Wind”</em><br />
+              𖤓 An Air Goddess oracle card printable<br />
+              𖤓 Journaling prompts + personal reflection guide<br />
+              𖤓 Altar set-up suggestions
+            </p>
+            <p class="digital-ritual-symbols" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+          </div>
+        </div>
+
+        <div class="digital-ritual-column">
+          <img
+            src={`${imageBase}/air-goddess-oracle-back.jpg`}
+            width="525"
+            height="750"
+            alt="Illustrated oracle card with radiant golden wings and the word “SPEAK” above keywords “Mind, Clarity, Honesty”; symbolic of the Air element’s truth, communication, and spiritual clarity. AI art by Vanessa Hylande"
+            title="Air goddess oracle back"
+          />
+          <div class="digital-ritual-copy">
+            <h2 class="digital-ritual-heading-24">✧ Who It’s For</h2>
+            <p>
+              𓇢 Women seeking clarity or intuitive direction<br />
+              𓇢 Creatives stuck in overthinking or perfectionism<br />
+              𓇢 Empaths overwhelmed by external energy<br />
+              𓇢 Anyone longing to feel calm, clear, and open again
+            </p>
+            <p class="digital-ritual-symbols" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-divider digital-ritual-divider--amber"></div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-audio">
+          <div
+            class="digital-ritual-audio-cover"
+            role="img"
+            aria-label="Goddess Truth album artwork"
+            style={`background-image: url('${imageBase}/goddess-truth-song-image.jpeg')`}
+          ></div>
+          <div class="digital-ritual-audio-content">
+            <h2>Goddess Truth</h2>
+            <p>by <strong>Vanessa Hylande</strong></p>
+            <audio controls preload="none">
+              <source src="/audio/digital-rituals/goddess-truth-snippet.mp3" type="audio/mpeg" />
+              <a href="/audio/digital-rituals/goddess-truth-snippet.mp3">Listen to Goddess Truth</a>
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-divider digital-ritual-divider--amber"></div>
+      </div>
+
+      <div class="digital-ritual-row digital-ritual-closing">
+        <h2><strong>LISTEN TO YOUR INNER VOICE. LET THE WIND GUIDE YOU.</strong></h2>
+        <p><br />Begin your ritual today and return to your inner knowing.</p>
+        <a class="digital-ritual-button" href={productURL}>Breathe</a>
+      </div>
+
+      <div class="digital-ritual-row">
+        <p class="digital-ritual-ornament" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+      </div>
+    </section>
+  </main>
+</Base>

@@ -2641,6 +2641,14 @@ footer {
   line-height: 1.3;
 }
 
+.digital-ritual-page--elemental .digital-ritual-introduction h1 {
+  font-size: 66px;
+}
+
+.digital-ritual-page--elemental .digital-ritual-introduction h2 {
+  font-size: 19px;
+}
+
 .digital-ritual-introduction h2 {
   margin: 0;
   padding-bottom: 10px;
@@ -2712,6 +2720,11 @@ footer {
   line-height: 1.3;
 }
 
+.digital-ritual-copy h2.digital-ritual-heading-24,
+.digital-ritual-closing h2.digital-ritual-heading-24 {
+  font-size: 24px;
+}
+
 .digital-ritual-copy p,
 .digital-ritual-closing p {
   margin: 0;
@@ -2726,6 +2739,20 @@ footer {
 .digital-ritual-audio {
   position: relative;
   min-height: 220px;
+}
+
+.digital-ritual-divider {
+  width: 100%;
+  margin-bottom: 30px;
+  border-top: 1px solid;
+}
+
+.digital-ritual-divider--gold {
+  border-top-color: #d4af37;
+}
+
+.digital-ritual-divider--amber {
+  border-top-color: #e09900;
 }
 
 .digital-ritual-audio-cover {
@@ -2766,6 +2793,11 @@ footer {
 
 .digital-ritual-closing {
   text-align: center;
+}
+
+.digital-ritual-closing-ornament {
+  margin-top: 2.75%;
+  color: #d6b87a;
 }
 
 @media (max-width: 980px) {
@@ -2828,5 +2860,9 @@ footer {
 
   .digital-ritual-audio-content h2 {
     font-size: 20px;
+  }
+
+  .digital-ritual-audio-cover {
+    height: 210px;
   }
 }

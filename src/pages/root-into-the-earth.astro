@@ -1,0 +1,118 @@
+---
+import Base from '../layouts/Base.astro';
+
+const productURL = 'https://goddess-yoga-retreat.com/product/come-back-to-center-a-digital-ritual-for-grounding-belonging/';
+const imageBase = '/images/digital-rituals/root-into-the-earth';
+---
+<Base
+  title="Root Into the Earth | Tarot Flower"
+  description="A digital ritual for stability and belonging. Ground into your body and remember your place in the sacred web of life."
+  image={`${imageBase}/earth-goddess-banner.jpg`}
+>
+  <main class="digital-ritual-page digital-ritual-page--elemental">
+    <div
+      class="digital-ritual-banner"
+      role="img"
+      aria-label="Earth goddess beneath the moon in a dark enchanted forest"
+      style={`background-image: url('${imageBase}/earth-goddess-banner.jpg')`}
+    ></div>
+
+    <section class="digital-ritual-introduction">
+      <div class="digital-ritual-row">
+        <h1>Root into the Earth</h1>
+        <h2>A DIGITAL RITUAL FOR Stability &amp; Belonging</h2>
+        <a class="digital-ritual-button" href={productURL}>Ground Yourself</a>
+      </div>
+      <div class="digital-ritual-row digital-ritual-opening">
+        <p>This ritual is an invitation to ground into your body and remember your place in the sacred web of life. The Earth element holds space for stability, nourishment, and deep remembering. Through staillness, breath, and embodied presence, you’ll reconnect with your foundation and plant new seeds of intention. Come back to center. Come back to yourself.</p>
+      </div>
+    </section>
+
+    <section class="digital-ritual-content">
+      <div class="digital-ritual-row">
+        <p class="digital-ritual-ornament" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+      </div>
+
+      <div class="digital-ritual-row digital-ritual-columns">
+        <div class="digital-ritual-column">
+          <img
+            src={`${imageBase}/earth-goddess-oracle-front.jpg`}
+            width="525"
+            height="750"
+            alt="Divine Earth Goddess Oracle artwork – serene feminine face with floral crown, cosmic tattoos, and golden crescent moons, representing nurturing, fertility, and rooted intuition. AI art by Vanessa Hylande"
+            title="Earth goddess oracle front"
+          />
+          <div class="digital-ritual-copy">
+            <h2>𖤓 WHAT’S INCLUDED</h2>
+            <p>
+              𖤓 Guided PDF ritual with affirmations + earthy prompts<br />
+              𖤓 Gentle grounding yoga &amp; movement video<br />
+              𖤓 Original <em>Mother Earth</em> mp3 download<br />
+              𖤓 An Earth Goddess oracle card printable<br />
+              𖤓 Journaling prompts + personal reflection guide<br />
+              𖤓 Altar set-up suggestions using nature-based elements
+            </p>
+            <p class="digital-ritual-symbols" aria-hidden="true">☽⋆.ೃ࿔*:･☾</p>
+          </div>
+        </div>
+
+        <div class="digital-ritual-column">
+          <img
+            src={`${imageBase}/earth-goddess-oracle-back.jpg`}
+            width="525"
+            height="750"
+            alt="Earth Element Oracle Card – “GROW” with symbolism of growth, creativity, and grounded vision. Tree of life under moonlight with golden roots and blooming flowers representing the themes: Allow, Dream, Make. AI art by Vanessa Hylande"
+            title="earth goddes oracle back"
+          />
+          <div class="digital-ritual-copy">
+            <h2 class="digital-ritual-heading-24">𖤓 WHO IT’S FOR</h2>
+            <p>
+              𖤓 Women feeling unrooted, scattered, or anxious<br />
+              𖤓 Seekers longing for home—within themselves and the world<br />
+              𖤓 Creatives needing clarity, boundaries, and support<br />
+              𖤓 Anyone who craves stillness, ritual, and reconnection with the Earth
+            </p>
+            <p class="digital-ritual-symbols" aria-hidden="true">☽⋆.ೃ࿔*:･☾</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-divider digital-ritual-divider--amber"></div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-audio">
+          <div
+            class="digital-ritual-audio-cover"
+            role="img"
+            aria-label="Mother Earth album artwork"
+            style={`background-image: url('${imageBase}/mother-earth-music-image.jpeg')`}
+          ></div>
+          <div class="digital-ritual-audio-content">
+            <h2>Mother Earth</h2>
+            <p>by <strong>Vanessa Hylande</strong></p>
+            <audio controls preload="none">
+              <source src="/audio/digital-rituals/earth-goddess-snippet.mp3" type="audio/mpeg" />
+              <a href="/audio/digital-rituals/earth-goddess-snippet.mp3">Listen to Mother Earth</a>
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-divider digital-ritual-divider--amber"></div>
+      </div>
+
+      <div class="digital-ritual-row digital-ritual-closing">
+        <h2 class="digital-ritual-heading-24"><strong>Root Into Your Power. Grow With Grace.</strong></h2>
+        <p>
+          <strong>Let the Earth hold you. Let your dreams take root.</strong><br />
+          Begin your ritual now and remember your place in the great unfolding.
+        </p>
+        <a class="digital-ritual-button" href={productURL}>Ready to Ground</a>
+        <p class="digital-ritual-ornament digital-ritual-closing-ornament" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+      </div>
+    </section>
+  </main>
+</Base>

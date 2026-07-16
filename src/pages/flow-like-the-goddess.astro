@@ -1,0 +1,118 @@
+---
+import Base from '../layouts/Base.astro';
+
+const productURL = 'https://goddess-yoga-retreat.com/product/begin-the-flow-a-digital-ritual-for-healing-surrender/';
+const imageBase = '/images/digital-rituals/flow-like-the-goddess';
+---
+<Base
+  title="Flow with the Goddess | Tarot Flower"
+  description="A digital ritual for healing, sensuality, and emotional release. Soften fully and surrender to the wisdom of your inner tides."
+  image={`${imageBase}/water-goddess-banner-ritual.jpg`}
+>
+  <main class="digital-ritual-page digital-ritual-page--elemental">
+    <div
+      class="digital-ritual-banner"
+      role="img"
+      aria-label="Water goddess flowing beneath the moon among golden flowers and fish"
+      style={`background-image: url('${imageBase}/water-goddess-banner-ritual.jpg')`}
+    ></div>
+
+    <section class="digital-ritual-introduction">
+      <div class="digital-ritual-row">
+        <h1>Flow with the Goddess</h1>
+        <h2>A digital ritual for healing, sensuality &amp; emotional release</h2>
+        <a class="digital-ritual-button" href={productURL}>Begin the Flow</a>
+      </div>
+      <div class="digital-ritual-row digital-ritual-opening">
+        <p>This ritual is a gentle invitation to come home to yourself — to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow.</p>
+      </div>
+    </section>
+
+    <section class="digital-ritual-content">
+      <div class="digital-ritual-row">
+        <p class="digital-ritual-ornament" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+      </div>
+
+      <div class="digital-ritual-row digital-ritual-columns">
+        <div class="digital-ritual-column">
+          <img
+            src={`${imageBase}/water-goddess-oracle-front-flipped.jpg`}
+            width="1050"
+            height="1500"
+            alt="Water Element Oracle Card Front – Mystical Water Goddess swimming gracefully among golden peonies and fish in a deep teal ocean. Embodies fluidity, healing, femininity, and emotional surrender. AI art by Vanessa Hylande"
+            title="water goddess oracle front flipped"
+          />
+          <div class="digital-ritual-copy">
+            <h2>WHAT’S INCLUDED</h2>
+            <p>
+              𓆝 Guided PDF ritual with affirmations + prompts<br />
+              𓆝 Gentle flow yoga &amp; sensual movement video<br />
+              𓆝 Original <em>Surrender</em> mp3 music download<br />
+              𓆝 A Water Goddess oracle card printable<br />
+              𓆝 Journaling prompts + personal reflection guide<br />
+              𓆝 Altar set-up suggestions for emotional release
+            </p>
+            <p class="digital-ritual-symbols" aria-hidden="true">☽⋆˚𖤓˚⋆☾</p>
+          </div>
+        </div>
+
+        <div class="digital-ritual-column">
+          <img
+            src={`${imageBase}/water-goddess-oracle-back.jpg`}
+            width="525"
+            height="750"
+            alt="Water Element Oracle Card Back – Discover Theme. Features ethereal lotus flowers, golden koi fish, and flowing underwater flora in dreamy blue and gold hues. Keywords: Feel, Heal, Surrender. Spiritual symbolism of emotional depth and release. AI art by Vanessa Hylande"
+            title="water goddess oracle back"
+          />
+          <div class="digital-ritual-copy">
+            <h2><strong>WHO IT’S FOR</strong></h2>
+            <p>
+              ☾ Women longing to reconnect with their sensuality<br />
+              ☾ Empaths, artists &amp; feelers ready to flow again<br />
+              ☾ Seekers holding grief, overwhelm, or emotional tension<br />
+              ☾ Anyone desiring softness, beauty, and soul renewal
+            </p>
+            <p class="digital-ritual-symbols" aria-hidden="true">☽⋆˚𖤓˚⋆☾</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <p class="digital-ritual-ornament" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-divider digital-ritual-divider--gold"></div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-audio">
+          <div
+            class="digital-ritual-audio-cover"
+            role="img"
+            aria-label="Surrender album artwork"
+            style={`background-image: url('${imageBase}/surrender-music-image.jpeg')`}
+          ></div>
+          <div class="digital-ritual-audio-content">
+            <h2>Surrender</h2>
+            <p>by <strong>Vanessa Hylande</strong></p>
+            <audio controls preload="none">
+              <source src="/audio/digital-rituals/surrender-snippet.mp3" type="audio/mpeg" />
+              <a href="/audio/digital-rituals/surrender-snippet.mp3">Listen to Surrender</a>
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="digital-ritual-row">
+        <div class="digital-ritual-divider digital-ritual-divider--gold"></div>
+      </div>
+
+      <div class="digital-ritual-row digital-ritual-closing">
+        <h2><strong>LET THE WATERS HOLD YOU. RETURN TO YOUR FLOW.</strong></h2>
+        <p>Begin your ritual today and let the currents guide you.</p>
+        <a class="digital-ritual-button" href={productURL}>Begin the Flow</a>
+      </div>
+    </section>
+  </main>
+</Base>
