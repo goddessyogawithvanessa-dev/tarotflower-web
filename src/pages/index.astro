@@ -57,6 +57,7 @@ const sacredBecomingOracleDeckContent = [
     artworkAlt: 'Creation card artwork from The Sacred Becoming Oracle',
   },
 ];
+const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
 
 function cardSlug(rank: string, suit: string) {
   return `${rank.toLowerCase()}-of-${suit.toLowerCase()}-tarot`;
@@ -136,7 +137,32 @@ function cardSlug(rank: string, suit: string) {
               <h2>The Sacred Becoming Oracle</h2>
               <p>I created this oracle deck while walking my own path of becoming. It was my companion. Now it's my gift to you.</p>
               <p>A companion for reflection, ritual, intuition, and the quiet conversations that continue long after the cards are put away.</p>
-              <a class="sacred-oracle-cta" href="#" aria-disabled="true">Join the Waitlist</a>
+              <details class="oracle-waitlist" data-oracle-waitlist>
+                <summary class="sacred-oracle-cta">Join the Waitlist</summary>
+                <div class="oracle-waitlist-panel">
+                  <p>Be the first to hear when The Sacred Becoming Oracle is ready.</p>
+                  <form class="oracle-waitlist-form" action={`${contactApiBase}/api/contact`} method="POST" data-oracle-waitlist-form>
+                    <input type="text" name="website" tabindex="-1" autocomplete="off" hidden />
+                    <input type="hidden" name="message" value="Sacred Becoming Oracle waitlist signup. Please add me to the Oracle launch waitlist." />
+                    <label>
+                      <span>Name</span>
+                      <input type="text" name="name" autocomplete="name" required />
+                    </label>
+                    <label>
+                      <span>Email address</span>
+                      <input type="email" name="email" autocomplete="email" required />
+                    </label>
+                    <label class="oracle-waitlist-consent">
+                      <input type="checkbox" name="consent" value="true" required />
+                      <span>I agree to receive Sacred Becoming Oracle launch updates by email.</span>
+                    </label>
+                    <div class="contact-turnstile" data-turnstile-widget></div>
+                    <button type="submit">Join the Oracle Waitlist</button>
+                    <p class="oracle-waitlist-note">No spam. Just Sacred Becoming Oracle news and launch updates.</p>
+                    <p class="oracle-waitlist-status" aria-live="polite"></p>
+                  </form>
+                </div>
+              </details>
             </div>
           </div>
         ))}
@@ -183,4 +209,88 @@ function cardSlug(rank: string, suit: string) {
     </section>
 
   </div>
+
+  <script is:inline>
+    const oracleWaitlistApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
+
+    const oracleTurnstileReady = new Promise((resolve) => {
+      if (window.turnstile) {
+        resolve(window.turnstile);
+        return;
+      }
+
+      const existingScript = document.querySelector('script[data-turnstile-api]');
+      if (existingScript) {
+        existingScript.addEventListener('load', () => resolve(window.turnstile), { once: true });
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+      script.async = true;
+      script.defer = true;
+      script.dataset.turnstileApi = 'true';
+      script.addEventListener('load', () => resolve(window.turnstile), { once: true });
+      document.head.append(script);
+    });
+
+    async function connectOracleWaitlist(form) {
+      if (form.dataset.connected === 'true') return;
+      form.dataset.connected = 'true';
+
+      const status = form.querySelector('.oracle-waitlist-status');
+      const submit = form.querySelector('button[type="submit"]');
+      const container = form.querySelector('[data-turnstile-widget]');
+      let widgetId;
+
+      try {
+        const response = await fetch(`${oracleWaitlistApiBase}/api/contact/config`, {
+          headers: { Accept: 'application/json' },
+        });
+        if (!response.ok) throw new Error('Verification configuration unavailable.');
+        const config = await response.json();
+        const sitekey = config.turnstileSiteKey || config.siteKey || config.turnstile_site_key;
+        if (!sitekey) throw new Error('Verification site key unavailable.');
+        const turnstile = await oracleTurnstileReady;
+        widgetId = turnstile.render(container, { sitekey, action: 'contact' });
+      } catch (error) {
+        status.textContent = 'Please refresh and try again in a moment.';
+        submit.disabled = true;
+        return;
+      }
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        status.textContent = 'Joining...';
+        submit.disabled = true;
+
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { Accept: 'application/json' },
+          });
+          const text = await response.text();
+          const result = text ? JSON.parse(text) : {};
+          if (!response.ok) throw new Error(result.error || 'The signup could not be sent.');
+          status.textContent = "You're on the Sacred Becoming Oracle waitlist. Thank you.";
+          form.reset();
+          window.turnstile.reset(widgetId);
+        } catch (error) {
+          status.textContent = error.message || 'Please try again in a moment.';
+          window.turnstile.reset(widgetId);
+        } finally {
+          submit.disabled = false;
+        }
+      });
+    }
+
+    document.querySelectorAll('[data-oracle-waitlist]').forEach((waitlist) => {
+      waitlist.addEventListener('toggle', () => {
+        if (!waitlist.open) return;
+        const form = waitlist.querySelector('[data-oracle-waitlist-form]');
+        if (form) connectOracleWaitlist(form);
+      });
+    });
+  </script>
 </Base>
