@@ -251,21 +251,98 @@ strong { color: #333; }
 }
 
 /* Homepage */
-.homepage .hero {
+.container.homepage {
+  padding-top: 18px;
+}
+.homepage-title {
+  margin: 0 0 1em;
   text-align: center;
-  margin: 0 auto 2em;
 }
-.homepage .hero h2 {
-  font-style: normal;
-  font-weight: 400;
+.homepage-title h1 {
+  margin: 0 0 0.12em;
+}
+.homepage-title p {
+  margin: 0;
   color: #999;
-  margin-top: 0;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-family: 'Aboreto', serif;
   font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
-.homepage .hero p {
+.homepage-introduction {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(320px, 1.08fr);
+  gap: clamp(42px, 7vw, 86px);
+  align-items: center;
+  margin: 0 0 5em;
+  padding: clamp(16px, 2.2vw, 28px) clamp(12px, 3vw, 34px);
+}
+.homepage-introduction-copy {
+  position: relative;
+  padding-top: 3.2em;
+}
+.homepage-introduction-quote {
+  position: absolute;
+  top: -0.18em;
+  left: -0.08em;
+  color: #d6b87a;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(6.5em, 11vw, 9em);
+  font-weight: 400;
+  line-height: 1;
+  opacity: 0.78;
+}
+.homepage-introduction-copy > p:not(.homepage-introduction-signature) {
+  margin: 0 0 0.85em;
+  color: #4a2857;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.45em, 2vw, 1.82em);
+  font-weight: 300;
+  line-height: 1.5;
   text-align: left;
+}
+.homepage-introduction-signature {
+  margin: 0.25em 0 0;
+  color: #b88a3d;
+  font-family: 'Tangerine', cursive;
+  font-size: clamp(2.55em, 4.4vw, 3.4em);
+  line-height: 1;
+  text-align: right;
+}
+.homepage-introduction-photo {
+  overflow: hidden;
+}
+.homepage-introduction-photo img {
+  display: block;
+  width: 100%;
+  height: clamp(440px, 48vw, 570px);
+  margin: 0;
+  object-fit: cover;
+  object-position: 50% 44%;
+}
+
+@media (max-width: 768px) {
+  .homepage-introduction {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    margin: 0 0 3.5em;
+    padding: 12px 0 0;
+  }
+  .homepage-introduction-copy {
+    padding-top: 3.8em;
+  }
+  .homepage-introduction-copy > p:not(.homepage-introduction-signature) {
+    font-size: 1.45em;
+  }
+  .homepage-introduction-signature {
+    margin-top: 0.35em;
+  }
+  .homepage-introduction-photo img {
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
 }
 
 .goddess-guide-section {
