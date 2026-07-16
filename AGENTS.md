@@ -61,8 +61,6 @@ astro-site/
 │   │   └── config.yml          # CMS collection definitions
 │   ├── _redirects              # Cloudflare Pages redirects (old WP paths → new)
 │   └── favicon.ico / .jpg / .svg
-├── plugins/
-│   └── rehype-youtube.mjs      # YouTube embed transformer (unused, can be removed)
 ├── astro.config.mjs            # Minimal: site URL + sitemap plugin
 └── package.json
 ```
@@ -245,7 +243,6 @@ This is what has been done during the migration from WordPress. Use this as cont
 ## Remaining / Known Issues
 
 - 219 images have empty/missing alt text (content task, not code)
-- `plugins/rehype-youtube.mjs` is unused and can be removed
 - Contact form backend (`functions/api/contact.js`) needs to be created at DNS cutover time
 - Product Stripe links are placeholders — need real links from Vanessa
 - Decap CMS GitHub OAuth app needs to be registered for production use
