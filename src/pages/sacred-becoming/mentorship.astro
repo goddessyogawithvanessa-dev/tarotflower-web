@@ -1,0 +1,228 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const thresholds = [
+  ['Deconstruct', 'Gently uncover what you no longer need to carry.'],
+  ['Discover', "Reconnect with who you've always been beneath the expectations, labels, and stories that no longer serve you."],
+  ['Reclaim', 'Remember your voice, your truth, and your inner authority.'],
+  ['Align', "Bring your choices, relationships, and daily life into harmony with who you're becoming."],
+  ['Create', 'Begin consciously shaping a life that reflects your authentic self.'],
+  ['Manifest', 'Put your intentions into practice through aligned action.'],
+  ['Integrate', "Embody what you've discovered so it becomes part of how you live, not simply something you understand."],
+  ['Become', "Step fully into the person you've always been meant to be."],
+];
+
+const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
+
+---
+<Base
+  title="Sacred Becoming Mentorship | Tarot Flower"
+  description="Sacred Becoming is Vanessa Hylande's private one-on-one mentorship journey for reconnecting with your authentic voice and creating a life that truly feels like yours."
+>
+  <main class="becoming-page">
+    <section class="becoming-hero container">
+      <p class="becoming-mark" aria-hidden="true">✦</p>
+      <h1>Become who you've always been meant to be.</h1>
+      <p class="becoming-lead">Together, we'll gently uncover what you no longer need to carry, reconnect with your authentic voice, and embody a life that truly feels like yours.</p>
+    </section>
+
+    <section class="becoming-presence container">
+      <div class="presence-image" aria-hidden="true">
+        <img src="/images/mentoring/vanessa-hylande-mentorship.png" alt="" />
+      </div>
+      <div class="becoming-intro">
+        <h2>Our Work Together</h2>
+        <p class="becoming-statement">This is a space to slow down, listen deeply, and reconnect with yourself.</p>
+        <p class="becoming-statement">Together, we'll gently uncover what no longer belongs to you, rediscover the wisdom that's already within you, and create a path that feels authentic, grounded, and uniquely yours.</p>
+        <p class="becoming-statement">We'll draw on conversation, embodiment, movement, meditation, reflection, intuitive guidance, and whatever practices best support your journey.</p>
+      </div>
+    </section>
+
+    <section class="becoming-section becoming-voice container">
+      <h2>Different Doorways</h2>
+      <div class="doorways-opening">
+        <p>No two journeys begin in the same place.</p>
+        <p>Some people arrive through the body.</p>
+        <p>Others through the heart, the mind, creativity, or the spirit.</p>
+        <p>Together, we'll discover where your journey begins and draw on the practices that best support your becoming.</p>
+      </div>
+      <div class="voice-path">
+        <div><p>Want to fully reclaim your body?</p><p>Let's throw some kettlebells, roll out a yoga mat, and reconnect with your body through dance and creative movement. Together, we'll build strength, confidence, flexibility, and rediscover physical freedom.</p></div>
+        <div><p>Is your heart flowing over or shut down?</p><p>We will create a sacred space for you to feel, heal, and remember what truly brings you joy and serenity. Through deep talks, compassionate reflection, and heart chakra healing practices, you'll rediscover your self-love and inspiration again.</p></div>
+        <div><p>Is your overthinking taking over?</p><p>Let's quiet the noise through breathwork, meditation, journaling, and reflection, transforming mental chatter into your authentic voice. Together we'll separate the labels, shoulds, and expectations of others from what you truly believe.</p></div>
+        <div><p>Ready to create the life that feels like yours?</p><p>Tap back into your deepest power and walk the steps of creation confidently. With a strong body, open heart, and clear, focused mind, turn those dreams into concrete steps, lighting the fire behind your creations.</p></div>
+        <div><p>Longing to deepen your spiritual connection?</p><p>Whether through tarot, ritual, symbolism, intuition, dreams, or other sacred practices, together, we'll gently uncover whatever is blocking your connection to guidance and open up your own inner knowing.</p></div>
+      </div>
+      <p class="doorways-closing">There is no right doorway. Together, we'll discover where your journey begins.</p>
+    </section>
+
+    <div class="becoming-story-bridge">
+      <section class="becoming-section becoming-unique container">
+        <h2>Your journey is as unique as you are.</h2>
+        <p>There is no script.</p>
+        <p>No one-size-fits-all solution.</p>
+        <p>Together, we'll create the path that best supports your body, mind, and spirit.</p>
+      </section>
+    </div>
+
+    <section class="becoming-section becoming-included container">
+      <h2>What You'll Always Receive</h2>
+      <p>Every Sacred Becoming journey includes:</p>
+      <p class="session-count">9 live one-on-one video sessions <span>(minimum 60 minutes each)</span></p>
+      <ul class="session-list">
+        <li>Welcome &amp; Orientation</li>
+        <li>Eight Threshold Sessions</li>
+      </ul>
+
+      <div class="threshold-intro">
+        <h2>The Eight Thresholds</h2>
+        <p>Every journey is unique, but together we'll explore these essential thresholds of transformation:</p>
+      </div>
+
+      <ol class="thresholds">
+        {thresholds.map(([name, description], index) => (
+          <li>
+            <span class="threshold-number">{String(index + 1).padStart(2, '0')}</span>
+            <div><h3>{name}</h3><p>{description}</p></div>
+          </li>
+        ))}
+      </ol>
+
+      <section class="walking-beside-you">
+        <div class="walking-portrait">
+          <img src="/images/sacred-becoming/walking-beside-you.jpg" alt="Vanessa Hylande" loading="lazy" />
+        </div>
+
+        <div class="walking-copy">
+          <h2>Walking Beside You</h2>
+
+          <p>I didn't invent Sacred Becoming.</p>
+
+          <p>I discovered it by living it.</p>
+
+          <p>For years, I searched for answers through movement, music, psychology, spirituality, creativity, leadership, and lived experience. Along the way, I realized that lasting transformation doesn't come from becoming someone else. It comes from gently uncovering who we've been beneath the expectations, labels, and stories we've carried for too long.</p>
+
+          <p>Everything I share with you has first become part of my own life.</p>
+
+          <p>I bring together decades of experience as a professional ballet dancer with the Metropolitan Opera in New York, a 500-hour Yoga Alliance teacher, strength and HIIT coach, tarot reader, energy healer, musician, writer, entrepreneur, and lifelong student of symbolism, mythology, psychology, and the human experience.</p>
+
+          <p>Some of my greatest teachers weren't found in studios, classrooms, or books.</p>
+
+          <p>They came through grief, rebuilding, motherhood, surviving narcissistic abuse, beginning again, and learning—again and again—to trust my own voice.</p>
+
+          <p>Sacred Becoming was born from weaving those experiences together into a path that helps others reconnect with their own.</p>
+
+          <p>My role isn't to tell you who to become.</p>
+
+          <p>It's to walk beside you while you discover it for yourself.</p>
+
+          <a href="#">Read more about my journey →</a>
+        </div>
+      </section>
+
+      <div class="sacred-exchange">
+        <h2>The Sacred Exchange</h2>
+        <p class="exchange-intro">A reciprocal investment in your becoming.</p>
+        <p class="exchange-price">$2,500 USD</p>
+      </div>
+    </section>
+
+    <section class="becoming-invitation" id="contact">
+      <div class="container">
+        <header class="invitation-copy">
+          <h2>Contact Me</h2>
+          <p>If this journey resonates with you, send me a message below. We'll arrange a time to talk, answer any questions you may have, and explore whether Sacred Becoming is the right next step for you.</p>
+        </header>
+
+        <form class="contact-form" action={`${contactApiBase}/api/contact`} method="POST" data-contact-form>
+          <input type="text" name="website" tabindex="-1" autocomplete="off" hidden />
+          <div class="contact-row">
+            <input type="text" name="name" placeholder="Name" aria-label="Name" autocomplete="name" required />
+            <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" autocomplete="email" required />
+          </div>
+          <textarea name="message" placeholder="Message" aria-label="Message" rows="8" required></textarea>
+          <div class="contact-bottom">
+            <div class="contact-turnstile" data-turnstile-widget></div>
+            <button type="submit" class="contact-btn">Send Message</button>
+          </div>
+          <p class="contact-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script is:inline>
+    const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
+
+    const turnstileReady = new Promise((resolve) => {
+      if (window.turnstile) {
+        resolve(window.turnstile);
+        return;
+      }
+
+      const existingScript = document.querySelector('script[data-turnstile-api]');
+      if (existingScript) {
+        existingScript.addEventListener('load', () => resolve(window.turnstile), { once: true });
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+      script.async = true;
+      script.defer = true;
+      script.dataset.turnstileApi = 'true';
+      script.addEventListener('load', () => resolve(window.turnstile), { once: true });
+      document.head.append(script);
+    });
+
+    async function connectContactForm(form) {
+      const status = form.querySelector('.contact-status');
+      const submit = form.querySelector('button[type="submit"]');
+      const container = form.querySelector('[data-turnstile-widget]');
+      let widgetId;
+
+      try {
+        const response = await fetch(`${contactApiBase}/api/contact/config`, {
+          headers: { Accept: 'application/json' },
+        });
+        if (!response.ok) throw new Error('Verification configuration unavailable.');
+        const config = await response.json();
+        const sitekey = config.turnstileSiteKey || config.siteKey || config.turnstile_site_key;
+        if (!sitekey) throw new Error('Verification site key unavailable.');
+        const turnstile = await turnstileReady;
+        widgetId = turnstile.render(container, { sitekey, action: 'contact' });
+      } catch (error) {
+        status.textContent = 'Please refresh and try again in a moment.';
+        submit.disabled = true;
+        return;
+      }
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        status.textContent = 'Sending...';
+        submit.disabled = true;
+
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { Accept: 'application/json' },
+          });
+          const text = await response.text();
+          const result = text ? JSON.parse(text) : {};
+          if (!response.ok) throw new Error(result.error || 'The message could not be sent.');
+          status.textContent = result.message || 'Thank you. Your message has been sent.';
+          form.reset();
+          window.turnstile.reset(widgetId);
+        } catch (error) {
+          status.textContent = error.message || 'Please try again in a moment.';
+          window.turnstile.reset(widgetId);
+        } finally {
+          submit.disabled = false;
+        }
+      });
+    }
+
+    document.querySelectorAll('[data-contact-form]').forEach(connectContactForm);
+  </script>
+</Base>

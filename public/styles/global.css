@@ -958,13 +958,6 @@ strong { color: #333; }
 .doorways-closing { max-width: 720px; margin: 3.5em auto 0 !important; font: inherit; line-height: inherit; }
 .session-list { margin: 1.5em auto 5.5em; list-style: none; text-align: center; }
 .session-list li::before { content: none; }
-.becoming-practices { max-width: 720px; margin: 5.5em auto 0; text-align: center; }
-.becoming-practices p { margin: 1.15em 0; }
-.becoming-practices p:nth-last-child(-n+2) { font: inherit; }
-.becoming-extras { display: block; max-width: 720px; margin: 5.5em auto 0; }
-.becoming-extras p { margin: 1.15em 0; padding-top: 0; border-top: 0; font: inherit; line-height: inherit; }
-.becoming-begin { max-width: 800px; margin-left: auto; margin-right: auto; text-align: center; }
-.becoming-begin p { margin: 0.65em 0; }
 .becoming-invitation { padding: 6em 0; }
 .invitation-copy { margin-bottom: 4em; text-align: center; }
 .invitation-copy h2 { margin-bottom: 0.5em; text-align: center; }
@@ -1008,6 +1001,15 @@ strong { color: #333; }
   align-items: center;
   gap: 20px;
   margin-top: 20px;
+}
+.contact-turnstile {
+  min-height: 65px;
+}
+.contact-status {
+  min-height: 1.5em;
+  margin: 1em 0 0;
+  text-align: right;
+  color: #596553;
 }
 .contact-captcha {
   display: flex;
@@ -1805,10 +1807,6 @@ footer {
   color: var(--becoming-ink);
 }
 
-.becoming-included .exchange-placeholder {
-  display: none;
-}
-
 .becoming-included .threshold-intro {
   max-width: 680px;
   margin: 0 auto 5em;
@@ -2046,24 +2044,34 @@ footer {
 .becoming-page .becoming-voice > h2,
 .becoming-page .becoming-unique > h2,
 .becoming-page .becoming-included > h2,
-.becoming-page .becoming-begin > h2,
 .becoming-page .invitation-copy h2 {
   font-size: var(--type-section);
   line-height: 1.1;
 }
 
-.becoming-page .becoming-begin > h2 {
-  margin: 0 0 0.7em;
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-weight: 400;
-  color: var(--becoming-ink);
-  text-align: center;
-}
-
-.becoming-page .sacred-exchange h2,
-.becoming-page .threshold-intro h2 {
+.becoming-page .sacred-exchange h2 {
   font-size: var(--type-secondary);
   line-height: 1.12;
+}
+
+.becoming-page .sacred-exchange .exchange-intro {
+  margin: 0 auto 1.1em;
+  font-size: var(--type-body);
+  line-height: 1.72;
+}
+
+.becoming-page .sacred-exchange .exchange-price {
+  margin: 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: var(--type-statement);
+  font-weight: 400;
+  line-height: 1.12;
+  color: var(--becoming-ink);
+}
+
+.becoming-page .threshold-intro h2 {
+  font-size: clamp(2.75rem, 4.3vw, 3.35rem);
+  line-height: 1.1;
 }
 
 .becoming-page .becoming-unique > p:nth-of-type(1),
@@ -2074,7 +2082,7 @@ footer {
 }
 
 .becoming-page .session-count {
-  font-size: clamp(2.9rem, 4.8vw, 3.4rem);
+  font-size: clamp(2.5rem, 3.8vw, 3rem);
   line-height: 1.08;
 }
 
@@ -2094,9 +2102,6 @@ footer {
 .becoming-page .voice-path p:last-child,
 .becoming-page .threshold-intro p,
 .becoming-page .thresholds p,
-.becoming-page .becoming-practices p,
-.becoming-page .becoming-extras p,
-.becoming-page .becoming-begin > p,
 .becoming-page .invitation-copy p {
   font-size: var(--type-body);
   line-height: 1.72;
@@ -2107,15 +2112,23 @@ footer {
   line-height: 1.5;
 }
 
-.becoming-page .becoming-unique > p:nth-of-type(3),
-.becoming-page .becoming-included > h2 + p,
-.becoming-page .session-count span {
+.becoming-page .becoming-unique > p:nth-of-type(3) {
   font-size: var(--type-supporting);
   line-height: 1.7;
 }
 
+.becoming-page .becoming-included > h2 + p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.becoming-page .session-count span {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
 .becoming-page .session-list {
-  font-size: 1rem;
+  font-size: 1.12rem;
   line-height: 1.65;
 }
 
@@ -2130,14 +2143,12 @@ footer {
   --chapter-practical: #f8f5ee;
 }
 
-.becoming-unique,
-.becoming-begin {
+.becoming-unique {
   position: relative;
   isolation: isolate;
 }
 
-.becoming-unique::before,
-.becoming-begin::before {
+.becoming-unique::before {
   content: '';
   position: absolute;
   inset: 0 calc(50% - 50vw);
@@ -2145,7 +2156,6 @@ footer {
   background: var(--chapter-reflective);
 }
 
-.becoming-begin::before,
 .becoming-invitation {
   background: var(--chapter-practical);
 }
@@ -2265,7 +2275,78 @@ footer {
 }
 
 .becoming-included .sacred-exchange {
+  margin-top: 7em;
   margin-bottom: 7em;
+}
+
+.becoming-included .walking-beside-you {
+  margin: 7em auto 0;
+  display: grid;
+  grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(2.75em, 4.5vw, 5em);
+  align-items: stretch;
+  text-align: left;
+}
+
+.becoming-included .walking-portrait {
+  min-height: 100%;
+}
+
+.becoming-included .walking-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 920px;
+  object-fit: cover;
+  object-position: 36% 48%;
+}
+
+.becoming-included .walking-copy {
+  align-self: center;
+  padding: 1em 0;
+}
+
+.becoming-page .walking-beside-you h2 {
+  margin: 0 0 0.75em;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: var(--type-section);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--becoming-ink);
+}
+
+.becoming-page .walking-beside-you p {
+  margin: 0 0 1.35em;
+  font-size: var(--type-body);
+  line-height: 1.72;
+}
+
+.becoming-page .walking-beside-you a {
+  display: inline-block;
+  margin-top: 0.75em;
+  font-size: var(--type-body);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .becoming-included .walking-beside-you {
+    grid-template-columns: 1fr;
+    gap: 2.75em;
+  }
+
+  .becoming-included .walking-portrait {
+    height: min(640px, 82vw);
+    min-height: 0;
+  }
+
+  .becoming-included .walking-portrait img {
+    min-height: 0;
+    object-position: 40% 42%;
+  }
+
+  .becoming-included .walking-copy {
+    padding: 0;
+  }
 }
 
 .becoming-included .threshold-intro {
@@ -2275,16 +2356,6 @@ footer {
 .becoming-included .thresholds li,
 .becoming-included .thresholds li:nth-child(even) {
   margin-bottom: 6.5em;
-}
-
-.becoming-practices,
-.becoming-extras {
-  margin-top: 4.75em;
-}
-
-.becoming-begin {
-  padding-top: 6.5em;
-  padding-bottom: 3.25em;
 }
 
 .becoming-invitation {
@@ -2320,6 +2391,14 @@ footer {
     margin-bottom: 5.75em;
   }
 
+  .becoming-included .sacred-exchange {
+    margin-top: 5.75em;
+  }
+
+  .becoming-included .walking-beside-you {
+    margin-top: 5.75em;
+  }
+
   .becoming-included .threshold-intro {
     margin-bottom: 4em;
   }
@@ -2327,16 +2406,6 @@ footer {
   .becoming-included .thresholds li,
   .becoming-included .thresholds li:nth-child(even) {
     margin-bottom: 5.25em;
-  }
-
-  .becoming-practices,
-  .becoming-extras {
-    margin-top: 4em;
-  }
-
-  .becoming-begin {
-    padding-top: 5.5em;
-    padding-bottom: 2.75em;
   }
 
   .becoming-invitation {
@@ -2464,5 +2533,38 @@ footer {
     max-width: 18em;
     font-size: 0.96rem;
     line-height: 1.6;
+  }
+}
+
+/* Sacred Becoming: continuous ornamental current around the Eight Thresholds */
+.becoming-included .thresholds {
+  position: relative;
+  isolation: isolate;
+}
+
+.becoming-included .thresholds::before {
+  content: '';
+  position: absolute;
+  inset: -12em calc(50% - 50vw) -3em;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.12;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 2400' preserveAspectRatio='none'%3E%3Cg fill='none' stroke='%23ad8f4e' stroke-width='1.35' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M126 -60 C315 120 42 300 172 508 C305 720 58 842 188 1060 C320 1282 48 1435 190 1668 C332 1898 70 2050 158 2460'/%3E%3Cpath d='M34 162 C214 244 292 378 142 558 C-8 740 258 916 112 1126 C-34 1338 274 1518 104 1740 C-46 1938 224 2148 76 2420'/%3E%3Cpath d='M166 454 C252 488 286 552 204 632 C126 706 96 774 154 858 M176 1026 C276 1080 292 1160 198 1242 C112 1316 92 1390 156 1470 M178 1640 C278 1698 292 1772 206 1852 C128 1924 104 1996 158 2072'/%3E%3Cpath d='M1074 -60 C885 120 1158 300 1028 508 C895 720 1142 842 1012 1060 C880 1282 1152 1435 1010 1668 C868 1898 1130 2050 1042 2460'/%3E%3Cpath d='M1166 162 C986 244 908 378 1058 558 C1208 740 942 916 1088 1126 C1234 1338 926 1518 1096 1740 C1246 1938 976 2148 1124 2420'/%3E%3Cpath d='M1034 454 C948 488 914 552 996 632 C1074 706 1104 774 1046 858 M1024 1026 C924 1080 908 1160 1002 1242 C1088 1316 1108 1390 1044 1470 M1022 1640 C922 1698 908 1772 994 1852 C1072 1924 1096 1996 1042 2072'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.becoming-included .thresholds li,
+.becoming-included .thresholds li:nth-child(even) {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .becoming-included .thresholds::before {
+    inset: -10em -18px -2.5em;
+    opacity: 0.09;
+    background-size: 145% 100%;
   }
 }

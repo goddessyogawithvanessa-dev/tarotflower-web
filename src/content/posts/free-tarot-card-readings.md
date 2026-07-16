@@ -42,4 +42,4 @@ Welcome to the craft.
 Welcome to the journey.  
 Welcome home.
 
-✨ Browse by Theme:- 🌕 [Full Moon](/tag/full-moon/)- 💘 [Love & Twin Flames](/tag/love/)- 🔮 [Oracle Spreads](/tag/oracle/)- 🪞 [Shadow Work](/tag/shadow-work/)- 🌸 [Divine Feminine](/tag/divine-feminine/)Want something more personal? [Send me your question](/contact/) or [join a retreat](/goddess-yoga-retreats/) for deeper connection and divine guidance 🌸
+✨ Browse by Theme:- 🌕 [Full Moon](/tag/full-moon/)- 💘 [Love & Twin Flames](/tag/love/)- 🔮 [Oracle Spreads](/tag/oracle/)- 🪞 [Shadow Work](/tag/shadow-work/)- 🌸 [Divine Feminine](/tag/divine-feminine/)Want something more personal? [Send me your question](/sacred-becoming/mentorship#contact) or [join a retreat](/goddess-yoga-retreats/) for deeper connection and divine guidance 🌸
