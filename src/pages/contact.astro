@@ -1,0 +1,110 @@
+---
+import Base from '../layouts/Base.astro';
+
+const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
+---
+<Base
+  title="Contact | Tarot Flower"
+  description="Have a question about tarot, retreats, or mystical collaborations? Get in touch with Vanessa Hylande at Tarot Flower."
+>
+  <main>
+    <section class="becoming-invitation">
+      <div class="container">
+        <header class="invitation-copy">
+          <h1>Get in Touch</h1>
+          <p>Have a question about tarot, retreats, or mystical collaborations? I'm always happy to hear from kindred spirits.</p>
+          <p>Send a message below, and I'll respond as soon as I can.</p>
+        </header>
+
+        <form class="contact-form" action={`${contactApiBase}/api/contact`} method="POST" data-contact-form>
+          <input type="text" name="website" tabindex="-1" autocomplete="off" hidden />
+          <div class="contact-row">
+            <input type="text" name="name" placeholder="Name" aria-label="Name" autocomplete="name" required />
+            <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" autocomplete="email" required />
+          </div>
+          <textarea name="message" placeholder="Message" aria-label="Message" rows="8" required></textarea>
+          <div class="contact-bottom">
+            <div class="contact-turnstile" data-turnstile-widget></div>
+            <button type="submit" class="contact-btn">Send Message</button>
+          </div>
+          <p class="contact-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script is:inline>
+    const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
+
+    const turnstileReady = new Promise((resolve) => {
+      if (window.turnstile) {
+        resolve(window.turnstile);
+        return;
+      }
+
+      const existingScript = document.querySelector('script[data-turnstile-api]');
+      if (existingScript) {
+        existingScript.addEventListener('load', () => resolve(window.turnstile), { once: true });
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+      script.async = true;
+      script.defer = true;
+      script.dataset.turnstileApi = 'true';
+      script.addEventListener('load', () => resolve(window.turnstile), { once: true });
+      document.head.append(script);
+    });
+
+    async function connectContactForm(form) {
+      const status = form.querySelector('.contact-status');
+      const submit = form.querySelector('button[type="submit"]');
+      const container = form.querySelector('[data-turnstile-widget]');
+      let widgetId;
+
+      try {
+        const response = await fetch(`${contactApiBase}/api/contact/config`, {
+          headers: { Accept: 'application/json' },
+        });
+        if (!response.ok) throw new Error('Verification configuration unavailable.');
+        const config = await response.json();
+        const sitekey = config.turnstileSiteKey || config.siteKey || config.turnstile_site_key;
+        if (!sitekey) throw new Error('Verification site key unavailable.');
+        const turnstile = await turnstileReady;
+        widgetId = turnstile.render(container, { sitekey, action: 'contact' });
+      } catch (error) {
+        status.textContent = 'Please refresh and try again in a moment.';
+        submit.disabled = true;
+        return;
+      }
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        status.textContent = 'Sending...';
+        submit.disabled = true;
+
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { Accept: 'application/json' },
+          });
+          const text = await response.text();
+          const result = text ? JSON.parse(text) : {};
+          if (!response.ok) throw new Error(result.error || 'The message could not be sent.');
+          status.textContent = result.message || 'Thank you. Your message has been sent.';
+          form.reset();
+          window.turnstile.reset(widgetId);
+        } catch (error) {
+          status.textContent = error.message || 'Please try again in a moment.';
+          window.turnstile.reset(widgetId);
+        } finally {
+          submit.disabled = false;
+        }
+      });
+    }
+
+    document.querySelectorAll('[data-contact-form]').forEach(connectContactForm);
+  </script>
+</Base>
