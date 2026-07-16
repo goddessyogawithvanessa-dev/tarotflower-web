@@ -3,9 +3,10 @@ interface Props {
   title: string;
   description?: string;
   image?: string;
+  showBanner?: boolean;
 }
 
-const { title, description = '', image = '' } = Astro.props;
+const { title, description = '', image = '', showBanner = true } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const socialImageURL = image ? new URL(image, Astro.site) : null;
 ---
@@ -37,9 +38,11 @@ const socialImageURL = image ? new URL(image, Astro.site) : null;
   <link rel="stylesheet" href="/styles/global.css" />
 </head>
 <body>
-  <div class="banner">
-    <a href="/"><img src="/images/2024/03/TF-Header-2024-Dandelion.jpeg" alt="Tarot Flower" /></a>
-  </div>
+  {showBanner && (
+    <div class="banner">
+      <a href="/"><img src="/images/2024/03/TF-Header-2024-Dandelion.jpeg" alt="Tarot Flower" /></a>
+    </div>
+  )}
   <nav id="mobile-nav">
     <ul>
       <li><a href="/">Home</a></li>
