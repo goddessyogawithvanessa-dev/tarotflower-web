@@ -158,7 +158,15 @@ const socialImageURL = image ? new URL(image, Astro.site) : null;
           </li>
         </ul>
       </li>
-      <li><a href="/moon-magic-spells">Spells &amp; Rituals</a></li>
+      <li><a href="/moon-magic-spells">Spells &amp; Rituals</a>
+        <ul>
+          <li><a href="/moon-magic-spells">Spells &amp; Rituals</a></li>
+          <li><a href="/step-into-the-fire">Step Into the Fire</a></li>
+          <li><a href="/flow-like-the-goddess">Flow Like the Goddess</a></li>
+          <li><a href="/awaken-the-element-of-air">Awaken the Element of Air</a></li>
+          <li><a href="/root-into-the-earth">Root Into the Earth</a></li>
+        </ul>
+      </li>
       <li><a href="/astrology">Astrology &amp; Zodiac</a></li>
       <li><a href="/daily-tarot">Witch's Journal</a></li>
       <li><a href="/shop">Shop</a></li>
@@ -297,7 +305,16 @@ const socialImageURL = image ? new URL(image, Astro.site) : null;
           </div>
         </div>
       </div>
-      <a href="/moon-magic-spells">Spells &amp; Rituals</a>
+      <div class="nav-dropdown">
+        <a href="/moon-magic-spells">Spells &amp; Rituals <span class="caret">&#9662;</span></a>
+        <div class="dropdown-menu">
+          <a href="/moon-magic-spells">Spells &amp; Rituals</a>
+          <a href="/step-into-the-fire">Step Into the Fire</a>
+          <a href="/flow-like-the-goddess">Flow Like the Goddess</a>
+          <a href="/awaken-the-element-of-air">Awaken the Element of Air</a>
+          <a href="/root-into-the-earth">Root Into the Earth</a>
+        </div>
+      </div>
       <a href="/astrology">Astrology &amp; Zodiac</a>
       <a href="/daily-tarot">Witch's Journal</a>
       <a href="/shop">Shop</a>
