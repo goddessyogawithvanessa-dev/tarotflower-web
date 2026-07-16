@@ -40,6 +40,44 @@ const goddessEmbodimentGuideContent = [
     coverAlt: 'Goddess Embodiment Ten Steps To Embody the Goddess guide cover',
   },
 ];
+const digitalRituals = [
+  {
+    title: 'Ignite Your Inner Fire',
+    support: 'A digital ritual for courage & confidence',
+    image: '/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg',
+    imageAlt: 'Fire goddess beneath a golden moon, surrounded by flames and flowers',
+    href: '/step-into-the-fire',
+    cta: 'Ignite',
+    crop: 'fire',
+  },
+  {
+    title: 'Flow with the Goddess',
+    support: 'A digital ritual for healing & sensuality',
+    image: '/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg',
+    imageAlt: 'Water goddess flowing beneath the moon among golden flowers and fish',
+    href: '/flow-like-the-goddess',
+    cta: 'Flow',
+    crop: 'water',
+  },
+  {
+    title: 'Awaken the Element of Air',
+    support: 'A digital ritual for clarity & intuition',
+    image: '/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg',
+    imageAlt: 'Air goddess with luminous wings beneath a golden sky',
+    href: '/awaken-the-element-of-air',
+    cta: 'Breathe',
+    crop: 'air',
+  },
+  {
+    title: 'Root Into the Earth',
+    support: 'A digital ritual for stability & belonging',
+    image: '/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg',
+    imageAlt: 'Earth goddess beneath the moon in a dark enchanted forest',
+    href: '/root-into-the-earth',
+    cta: 'Ground',
+    crop: 'earth',
+  },
+];
 const sacredBecomingCoachingContent = [
   {
     portrait: '/images/homepage/vanessa-hylande-sacred-becoming-960.png',
@@ -102,6 +140,48 @@ function cardSlug(rank: string, suit: string) {
         ))}
       </section>
     )}
+
+    <section id="homepage-digital-rituals" class="homepage-digital-rituals">
+      <div class="homepage-digital-rituals-intro">
+        <h2>Digital Rituals</h2>
+        <p class="homepage-digital-rituals-subheading">Elemental practices for your becoming</p>
+        <p>A collection of digital rituals for courage, healing, clarity, and grounding.</p>
+        <p class="homepage-digital-rituals-invitation">Choose the element that calls to you.</p>
+        <p class="homepage-digital-rituals-ornament" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+      </div>
+
+      <div class="homepage-digital-ritual-features" aria-label="Every Digital Ritual includes">
+        <div>
+          <i class="fa-solid fa-person-praying" aria-hidden="true"></i>
+          <span>Guided Practices</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-music" aria-hidden="true"></i>
+          <span>Original Music</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          <span>Meditation</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-seedling" aria-hidden="true"></i>
+          <span>Deep Inner Work</span>
+        </div>
+      </div>
+
+      <div class="homepage-digital-ritual-grid">
+        {digitalRituals.map(({ title, support, image, imageAlt, href, cta, crop }) => (
+          <article class={`homepage-digital-ritual homepage-digital-ritual--${crop}`}>
+            <a class="homepage-digital-ritual-image" href={href}>
+              <img src={image} alt={imageAlt} loading="lazy" />
+            </a>
+            <h3><a href={href}>{title}</a></h3>
+            <p>{support}</p>
+            <a class="digital-ritual-button" href={href}>{cta}</a>
+          </article>
+        ))}
+      </div>
+    </section>
 
     {sacredBecomingCoachingContent.length > 0 && (
       <section id="homepage-sacred-becoming-coaching" class="sacred-becoming-section">
