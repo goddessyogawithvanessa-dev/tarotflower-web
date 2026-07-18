@@ -419,6 +419,108 @@ strong { color: #333; }
   letter-spacing: 1px;
 }
 
+/* Tarot Card Readings landing page */
+.tarot-readings-landing {
+  color: #5d5360;
+}
+.tarot-readings-introduction {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 0 clamp(54px, 8vw, 88px);
+  text-align: center;
+}
+.tarot-readings-introduction p {
+  margin: 0 0 0.8em;
+  font-size: clamp(1.12em, 1.7vw, 1.28em);
+  line-height: 1.75;
+}
+.tarot-readings-introduction p:first-of-type {
+  color: #4a2857;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.55em, 2.5vw, 2em);
+  font-weight: 300;
+  line-height: 1.45;
+}
+.tarot-reading-paths {
+  border-bottom: 1px solid rgba(166, 124, 82, 0.28);
+}
+.tarot-reading-path {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(42px, 7vw, 84px);
+  align-items: center;
+  padding: clamp(58px, 8vw, 96px) 0;
+  border-top: 1px solid rgba(166, 124, 82, 0.28);
+}
+.tarot-reading-path-image {
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  background: #f7f1e8;
+}
+.tarot-reading-path-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+}
+.tarot-reading-path-image--vanessa img {
+  object-position: 50% 42%;
+}
+.tarot-reading-path-image--melissa img {
+  object-position: 50% 34%;
+}
+.tarot-reading-path-copy h2,
+.tarot-readings-closing h2 {
+  color: #4a2857;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.2em, 4vw, 3.15em);
+  font-weight: 400;
+  line-height: 1.1;
+}
+.tarot-reading-path-copy h2 {
+  margin: 0 0 0.75em;
+  text-align: left;
+}
+.tarot-reading-path-copy p {
+  margin: 0 0 1em;
+  font-size: 1.06em;
+  line-height: 1.9;
+}
+.tarot-reading-path-copy .readings-button {
+  margin-top: 0.6em;
+}
+.tarot-reading-path-booking .tarot-reading-format {
+  margin-top: 1.8em;
+  margin-bottom: 0.15em;
+  color: #4a2857;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.45em;
+  line-height: 1.4;
+}
+.tarot-reading-path-booking .tarot-reading-price {
+  margin-bottom: 1.1em;
+  color: #8b623d;
+  font-family: 'Aboreto', serif;
+  font-size: 1.05em;
+  letter-spacing: 1px;
+}
+.tarot-readings-closing {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: clamp(72px, 10vw, 118px) 0;
+  text-align: center;
+}
+.tarot-readings-closing h2 {
+  margin: 0 0 0.55em;
+  text-align: center;
+}
+.tarot-readings-closing p {
+  margin: 0 0 0.7em;
+  font-size: 1.08em;
+  line-height: 1.8;
+}
+
 @media (max-width: 768px) {
   .homepage-reading-button {
     float: none;
@@ -445,6 +547,27 @@ strong { color: #333; }
   .readings-image--portrait,
   .readings-image--landscape {
     aspect-ratio: 4 / 5;
+  }
+  .tarot-readings-introduction {
+    padding-bottom: 44px;
+  }
+  .tarot-reading-path {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 52px 0;
+  }
+  .tarot-reading-path--reverse .tarot-reading-path-copy {
+    order: 2;
+  }
+  .tarot-reading-path--reverse .tarot-reading-path-image {
+    order: 1;
+  }
+  .tarot-reading-path-copy h2,
+  .tarot-readings-closing h2 {
+    font-size: 2.35em;
+  }
+  .tarot-readings-closing {
+    padding: 64px 0 72px;
   }
 }
 .homepage-introduction-photo img {
