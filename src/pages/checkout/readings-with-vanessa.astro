@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const stripePaymentLink = import.meta.env.PUBLIC_STRIPE_READINGS_PAYMENT_LINK;
+const stripeConfigured = typeof stripePaymentLink === 'string' && stripePaymentLink.startsWith('https://');
+---
+
+<Base
+  title="Secure Checkout | Readings with Vanessa | Tarot Flower"
+  description="Continue to Stripe's secure test checkout for a 60-minute online tarot reading with Vanessa."
+  image="/images/readings-with-vanessa/vanessa-holding-empress-card.png"
+>
+  <main class="checkout-page">
+    <header class="readings-hero container">
+      <h1>Book Your Reading</h1>
+      <p>Continue to Stripe’s secure checkout to reserve your 60-minute online reading.</p>
+    </header>
+
+    <section class="checkout-card container" aria-labelledby="reading-checkout-title">
+      <div class="checkout-card-image">
+        <img
+          src="/images/readings-with-vanessa/vanessa-holding-empress-card.png"
+          alt="Vanessa smiling while holding the Empress tarot card"
+        />
+      </div>
+      <div class="checkout-card-copy">
+        <p class="checkout-mode">Stripe test mode</p>
+        <h2 id="reading-checkout-title">Readings with Vanessa</h2>
+        <p>A personal one-on-one tarot reading designed around your questions, your life, and the moment you are navigating.</p>
+        <p class="shop-format">60-minute online reading</p>
+        <p class="shop-price">$100 USD</p>
+        {stripeConfigured ? (
+          <a class="shop-button checkout-button" href={stripePaymentLink}>Continue to Secure Checkout</a>
+        ) : (
+          <>
+            <span class="shop-button checkout-button checkout-button--disabled" aria-disabled="true">Continue to Secure Checkout</span>
+            <p class="checkout-notice">The Stripe test Payment Link has not been added to the local environment yet.</p>
+          </>
+        )}
+        <p class="checkout-security">Payment and email collection are handled securely by Stripe. Tarot Flower never receives or stores your card details.</p>
+        <a class="checkout-return" href="/checkout/reading-cancelled/">Cancel and return</a>
+      </div>
+    </section>
+  </main>
+</Base>

@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base
+  title="Checkout Cancelled | Tarot Flower"
+  description="Your Tarot Flower checkout was cancelled and no payment was made."
+>
+  <main class="checkout-page checkout-result-page">
+    <section class="checkout-result container" aria-labelledby="checkout-cancelled-title">
+      <p class="checkout-result-kicker">Checkout cancelled</p>
+      <h1 id="checkout-cancelled-title">No Payment Was Made</h1>
+      <p>Your reading has not been booked, and your card has not been charged.</p>
+      <p>You can return to the reading whenever the moment feels right.</p>
+      <div class="checkout-result-actions">
+        <a class="shop-button" href="/readings-with-vanessa/">Return to Readings</a>
+        <a class="checkout-return" href="/shop/">Return to the Shop</a>
+      </div>
+    </section>
+  </main>
+</Base>
