@@ -51,12 +51,12 @@ function formatCategories(cats: string[]): string {
   title={page?.data.seo_title || 'Moon Magic – Ritual and Practice'}
   description={page?.data.seo_description || ''}
 >
-  <div class="container">
-    <div class="content clearfix">
+  <div class="container moon-magic-landing">
+    <div class="content clearfix moon-magic-content">
       {PageContent && <PageContent />}
     </div>
 
-    <section class="zodiac-grid">
+    <section class="zodiac-grid moon-magic-articles" aria-label="Moon Magic articles">
       {cardPosts.map(post => {
         const img = fallbackImages[post!.data.slug] || extractImage(post!.body || '');
         const excerpt = extractExcerpt(post!.body || '');
@@ -74,28 +74,85 @@ function formatCategories(cats: string[]): string {
         );
       })}
     </section>
+
+    <details class="moon-magic-accordion">
+      <summary>Explore Moon Magic</summary>
+      <div class="moon-magic-accordion-shell">
+        <div class="moon-magic-longform content clearfix"></div>
+      </div>
+    </details>
+
+    <section class="ritual-collection" aria-labelledby="digital-rituals-title">
+      <div class="ritual-collection-intro">
+        <h2 id="digital-rituals-title">Digital Rituals</h2>
+        <p class="ritual-collection-lead">Some rituals are meant to be read.</p>
+        <p class="ritual-collection-lead">Others are meant to be lived.</p>
+        <p>Digital Rituals are immersive guided experiences designed to help you slow down, reconnect with yourself, and embody the wisdom of each element. Through movement, meditation, music, reflection, ritual, and intentional practice, each journey invites you to experience transformation rather than simply read about it.</p>
+        <p class="ritual-collection-invitation">Choose the element calling you today.</p>
+      </div>
+
+      <div class="ritual-collection-grid">
+        <article class="ritual-collection-item ritual-collection-item--fire">
+          <a class="ritual-collection-image" href="/step-into-the-fire">
+            <img src="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg" alt="Fire goddess beneath a golden moon, surrounded by flames and flowers" loading="lazy" />
+          </a>
+          <div class="ritual-collection-copy">
+            <h3>Step Into the Fire</h3>
+            <p>Awaken your courage, reclaim your strength, and ignite the spark that has always lived within you.</p>
+            <a class="digital-ritual-button" href="/step-into-the-fire">Ignite</a>
+          </div>
+        </article>
+
+        <article class="ritual-collection-item ritual-collection-item--water ritual-collection-item--text-first">
+          <a class="ritual-collection-image" href="/flow-like-the-goddess">
+            <img src="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg" alt="Water goddess flowing beneath the moon among golden flowers and fish" loading="lazy" />
+          </a>
+          <div class="ritual-collection-copy">
+            <h3>Flow with the Goddess</h3>
+            <p>A gentle invitation to soften, receive, heal, and return to the wisdom of your heart.</p>
+            <a class="digital-ritual-button" href="/flow-like-the-goddess">Flow</a>
+          </div>
+        </article>
+
+        <article class="ritual-collection-item ritual-collection-item--air ritual-collection-item--text-first">
+          <a class="ritual-collection-image" href="/awaken-the-element-of-air">
+            <img src="/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg" alt="Air goddess with luminous wings beneath a golden sky" loading="lazy" />
+          </a>
+          <div class="ritual-collection-copy">
+            <h3>Awaken the Element of Air</h3>
+            <p>Create space for clarity, reconnect with your authentic voice, and deepen your connection to your intuition.</p>
+            <a class="digital-ritual-button" href="/awaken-the-element-of-air">Breathe</a>
+          </div>
+        </article>
+
+        <article class="ritual-collection-item ritual-collection-item--earth">
+          <a class="ritual-collection-image" href="/root-into-the-earth">
+            <img src="/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg" alt="Earth goddess beneath the moon in a dark enchanted forest" loading="lazy" />
+          </a>
+          <div class="ritual-collection-copy">
+            <h3>Root Into the Earth</h3>
+            <p>Slow down, ground your energy, and remember the steady foundation that supports your becoming.</p>
+            <a class="digital-ritual-button" href="/root-into-the-earth">Ground</a>
+          </div>
+        </article>
+      </div>
+    </section>
   </div>
   <script>
-    const content = document.querySelector('.content.clearfix');
-    const grid = document.querySelector('.zodiac-grid');
-    if (content && grid) {
+    const content = document.querySelector('.moon-magic-content');
+    const longform = document.querySelector('.moon-magic-longform');
+    if (content && longform) {
       const paragraphs = content.querySelectorAll('p');
       for (const p of paragraphs) {
         if (p.textContent?.includes('spiritual healing and inner growth')) {
-          const afterNodes: Node[] = [];
-          let found = false;
-          for (const child of Array.from(content.childNodes)) {
-            if (found) afterNodes.push(child);
-            if (child === p || child.contains?.(p)) found = true;
-          }
-          if (afterNodes.length > 0) {
-            const afterDiv = document.createElement('div');
-            afterDiv.className = 'content clearfix';
-            for (const node of afterNodes) afterDiv.appendChild(node);
-            content.parentNode?.insertBefore(grid, content.nextSibling);
-            grid.parentNode?.insertBefore(afterDiv, grid.nextSibling);
-          } else {
-            content.parentNode?.insertBefore(grid, content.nextSibling);
+          const boundary = Array.from(content.children).find(child => child === p || child.contains(p));
+          if (boundary) {
+            let node = boundary.nextSibling;
+            while (node) {
+              const next = node.nextSibling;
+              longform.appendChild(node);
+              node = next;
+            }
           }
           break;
         }
