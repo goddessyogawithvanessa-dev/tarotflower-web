@@ -1828,6 +1828,102 @@ footer {
   margin: 0;
 }
 
+/* Tarot Card Meanings landing page */
+.tarot-meanings-intro {
+  margin-bottom: 4em;
+}
+
+.tarot-meanings-intro h2,
+.tarot-meanings-section-heading h2 {
+  margin-bottom: 0.35em;
+}
+
+.tarot-meanings-section {
+  padding: 3.5em 0 1em;
+  border-top: 1px solid #e8e8e8;
+}
+
+.tarot-meanings-section-heading {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.tarot-meanings-section-heading p {
+  margin: 0;
+  color: #7a8b6f;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.tarot-major-grid {
+  margin-top: 0;
+}
+
+.tarot-major-grid .zodiac-info {
+  text-align: center;
+}
+
+.tarot-major-grid .zodiac-info h3 {
+  margin: 0;
+  color: #7a2740;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+.tarot-suits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 3em;
+}
+
+.tarot-suit-card .tarot-suit-image {
+  aspect-ratio: 4 / 3;
+}
+
+.tarot-suit-card .zodiac-info {
+  text-align: center;
+}
+
+.tarot-suit-card .zodiac-info h3 {
+  margin-bottom: 0.35em;
+  color: #7a2740;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+.tarot-suit-card .zodiac-info p {
+  margin: 0 0 1em;
+  color: #666;
+}
+
+.tarot-suit-card .zodiac-info span {
+  display: inline-block;
+  padding-top: 0.75em;
+  border-top: 1px solid #d8c9b9;
+  color: #7a8b6f;
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.8em;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 768px) {
+  .tarot-meanings-intro {
+    margin-bottom: 3em;
+  }
+
+  .tarot-meanings-section {
+    padding-top: 2.5em;
+  }
+
+  .tarot-suits-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Products */
 .product-price {
   font-family: 'Aboreto', serif;

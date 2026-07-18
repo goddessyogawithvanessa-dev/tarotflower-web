@@ -1,0 +1,124 @@
+---
+import Base from '../layouts/Base.astro';
+
+const majorArcana = [
+  { name: 'The Fool', slug: 'the-fool-tarot', image: '/images/2023/05/AI-Square.jpg' },
+  { name: 'The Magician', slug: 'the-magician-tarot', image: '/images/2021/01/magician-2-1.jpg' },
+  { name: 'The High Priestess', slug: 'the-high-priestess-tarot', image: '/images/2021/01/high-priestess-3.jpg' },
+  { name: 'The Empress', slug: 'the-empress-tarot', image: '/images/2021/01/empress-4.jpg' },
+  { name: 'The Emperor', slug: 'the-emperor-tarot', image: '/images/2021/01/the-emperor.jpg' },
+  { name: 'The Hierophant', slug: 'the-hierophant-tarot', image: '/images/2021/02/hierophant-3.jpg' },
+  { name: 'The Lovers', slug: 'the-lovers-tarot', image: '/images/2021/02/lovers.jpg' },
+  { name: 'The Chariot', slug: 'the-chariot-tarot', image: '/images/2022/02/chariot-df4.jpg' },
+  { name: 'Strength', slug: 'strength-tarot', image: '/images/2023/05/strength-white-lady-and-lion-3.jpg' },
+  { name: 'The Hermit', slug: 'the-hermit-tarot', image: '/images/2022/04/hermit-df-3.jpg' },
+  { name: 'The Wheel of Fortune', slug: 'the-wheel-of-fortune-tarot', image: '/images/2021/01/fates-3.jpg' },
+  { name: 'Justice', slug: 'justice-tarot', image: '/images/2022/04/Justice-6.jpg' },
+  { name: 'The Hanged Man', slug: 'the-hanged-man-tarot', image: '/images/2023/05/hanged-3.jpg' },
+  { name: 'Death', slug: 'death-tarot', image: '/images/2022/02/vanessahylande_a_gorgeous_woman_with_black_hair_with_piercing_b_abeda71f-a1c1-4fba-98c1-d781e0c52686.jpg' },
+  { name: 'Temperance', slug: 'temperance-tarot', image: '/images/2022/02/vanessahylande_a_beautiful_woman_an_angel_holding_a_cup_of_wate_b8398230-e18c-4296-b105-535ee032aeb3.jpg' },
+  { name: 'The Devil', slug: 'the-devil-tarot', image: '/images/2022/04/devil-9.jpg' },
+  { name: 'The Tower', slug: 'the-tower-tarot', image: '/images/2022/04/tower-4.jpg' },
+  { name: 'The Star', slug: 'the-star-tarot', image: '/images/2022/02/the-star-df-9.jpg' },
+  { name: 'The Moon', slug: 'the-moon-tarot', image: '/images/2022/02/owl-8.jpg' },
+  { name: 'The Sun', slug: 'the-sun-tarot', image: '/images/2022/02/the-sun-1.jpg' },
+  { name: 'Judgement', slug: 'judgement-tarot', image: '/images/2022/04/jusdg-2.jpg' },
+  { name: 'The World', slug: 'the-world-tarot', image: '/images/2022/12/world-10.jpg' },
+];
+
+const suits = [
+  {
+    name: 'Cups',
+    slug: 'cups-tarot',
+    image: '/images/2020/12/IMG_20201215_122606-scaled.jpg',
+    alt: 'Cups tarot cards spread',
+    element: 'Water, emotions, love, and intuition',
+  },
+  {
+    name: 'Pentacles',
+    slug: 'pentacles-tarot',
+    image: '/images/2020/12/IMG_20201215_123548-scaled.jpg',
+    alt: 'Pentacles tarot cards spread',
+    element: 'Earth, abundance, security, and the physical world',
+  },
+  {
+    name: 'Swords',
+    slug: 'swords-tarot',
+    image: '/images/2021/01/swords-e1610542966242.jpg',
+    alt: 'Swords tarot cards',
+    element: 'Air, thought, communication, and decisions',
+  },
+  {
+    name: 'Wands',
+    slug: 'wands-tarot',
+    image: '/images/2021/01/wands-e1610542935860.jpg',
+    alt: 'Wands tarot cards',
+    element: 'Fire, creativity, passion, and inspiration',
+  },
+];
+---
+
+<Base
+  title="Tarot Card Meanings – A Guide to the Major & Minor Arcana"
+  description="Explore all 78 tarot card meanings with Tarot Flower. Learn the wisdom of the Major and Minor Arcana and deepen your spiritual tarot practice."
+>
+  <main class="container tarot-meanings-page">
+    <h1>Tarot Card Meanings</h1>
+
+    <section class="tarot-meanings-intro" aria-labelledby="major-minor-heading">
+      <h2 id="major-minor-heading">The Major and Minor Arcana</h2>
+
+      <p>Tarot cards are a divination tool used for gaining insight into the past, present, and future. There are 78 cards in a typical tarot deck, divided into two groups: the <a href="/major-arcana-2">major arcana</a> and the <a href="/minor-arcana">minor arcana</a>. The major arcana consists of 22 cards, each with a unique symbolic image that represents a universal theme or archetype. These cards typically represent significant life events or lessons, and are often associated with spiritual growth and transformation.</p>
+
+      <p>The minor arcana consists of the remaining 56 cards, which are divided into four suits: cups, pentacles, swords, and wands. Each suit represents a different element and has its own set of meanings. <a href="/cups-tarot">Cups</a> represent water and emotions, <a href="/pentacles-tarot">pentacles</a> represent earth and material possessions, <a href="/swords-tarot">swords</a> represent air and the mind, and <a href="/wands-tarot">wands</a> represent fire and creativity.</p>
+
+      <p>Within each suit of the minor arcana, there are ten numbered cards and four court cards: the Page, Knight, Queen, and King. The numbered cards indicate different levels of development or progression in the suit's theme. For example, the <a href="/ace-of-cups-tarot">Ace of Cups</a> represents a new emotional beginning, while the <a href="/ten-of-cups-tarot">Ten of Cups</a> represents emotional fulfillment and happiness.</p>
+
+      <p>The court cards, on the other hand, often represent specific people or personality traits. The Page is associated with youth and new beginnings, the Knight with action and movement, the Queen with nurturing and compassion, and the King with leadership and authority. In a tarot card reading, these cards can indicate the influence of a particular person or energy in the querent's life.</p>
+
+      <p>Overall, tarot cards can provide deep insights into various aspects of our lives, including our emotions, thoughts, and physical circumstances. The major arcana cards often indicate significant events or life lessons, while the minor arcana cards provide more detailed information and guidance on specific aspects of our lives.</p>
+    </section>
+
+    <section class="tarot-meanings-section" aria-labelledby="major-arcana-heading">
+      <header class="tarot-meanings-section-heading">
+        <h2 id="major-arcana-heading">The Major Arcana</h2>
+        <p>The Great Archetypes of the Tarot</p>
+      </header>
+
+      <div class="zodiac-grid tarot-major-grid">
+        {majorArcana.map(card => (
+          <a href={`/${card.slug}`} class="zodiac-card">
+            <div class="zodiac-img">
+              <img src={card.image} alt={`${card.name} tarot card meaning`} loading="lazy" />
+            </div>
+            <div class="zodiac-info">
+              <h3>{card.name}</h3>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="tarot-meanings-section tarot-minor-section" aria-labelledby="minor-arcana-heading">
+      <header class="tarot-meanings-section-heading">
+        <h2 id="minor-arcana-heading">The Minor Arcana</h2>
+        <p>The Four Suits of the Tarot</p>
+      </header>
+
+      <div class="tarot-suits-grid">
+        {suits.map(suit => (
+          <a href={`/${suit.slug}`} class="zodiac-card tarot-suit-card">
+            <div class="zodiac-img tarot-suit-image">
+              <img src={suit.image} alt={suit.alt} loading="lazy" />
+            </div>
+            <div class="zodiac-info">
+              <h3>{suit.name}</h3>
+              <p>{suit.element}</p>
+              <span>Explore {suit.name}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+</Base>

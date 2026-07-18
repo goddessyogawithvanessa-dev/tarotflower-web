@@ -6,14 +6,14 @@ date: 2020-12-15
 modified: 2025-05-31
 content_type: page
 categories: []
-seo_title: "Tarot Card Meanings – A Guide to the Major &amp; Minor Arcana"
+seo_title: "Tarot Card Meanings – A Guide to the Major & Minor Arcana"
 seo_description: "Explore all 78 tarot card meanings with Tarot Flower. Learn the wisdom of the Major and Minor Arcana and deepen your spiritual tarot practice.
 "
 ---
 
 ## The Major and Minor Arcana
 
-Tarot cards are a divination tool used for gaining insight into the past, present, and future. There are 78 cards in a typical tarot deck, divided into two groups: the [major arcana](https:/tarotflower.com/major-arcana-2/) and the [minor arcana](/minor-arcana). The major arcana consists of 22 cards, each with a unique symbolic image that represents a universal theme or archetype. These cards typically represent significant life events or lessons, and are often associated with spiritual growth and transformation.
+Tarot cards are a divination tool used for gaining insight into the past, present, and future. There are 78 cards in a typical tarot deck, divided into two groups: the [major arcana](/major-arcana-2) and the [minor arcana](/minor-arcana). The major arcana consists of 22 cards, each with a unique symbolic image that represents a universal theme or archetype. These cards typically represent significant life events or lessons, and are often associated with spiritual growth and transformation.
 
 The minor arcana consists of the remaining 56 cards, which are divided into four suits: cups, pentacles, swords, and wands. Each suit represents a different element and has its own set of meanings. [Cups](/cups-tarot) represent water and emotions, [pentacles](/pentacles-tarot) represent earth and material possessions, [swords](/swords-tarot) represent air and the mind, and [wands](/wands-tarot) represent fire and creativity.
 
@@ -63,7 +63,7 @@ Overall, tarot cards can provide deep insights into various aspects of our lives
 
 [The Sun](the-sun-tarot)
 
-[Judgment](judgment-tarot)
+[Judgement](/judgement-tarot)
 
 [The World](/the-world-tarot)
 
@@ -71,9 +71,9 @@ Overall, tarot cards can provide deep insights into various aspects of our lives
 
 ### The great archetypes of the Tarot
 
-## THE Minor Arcana
+## The Minor Arcana
 
-## The four suits of the Tarot
+## The Four Suits of the Tarot
 
 ### Pentacles
 
