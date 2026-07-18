@@ -1815,6 +1815,99 @@ footer {
   margin: 0 0 0.5em;
   letter-spacing: 0;
 }
+
+/* Shared Minor Arcana landing-page layout */
+.minor-arcana-page > h1 {
+  margin-bottom: 0.35em;
+}
+.minor-arcana-page .minor-overview-intro,
+.minor-arcana-page .minor-suit-feature,
+.minor-arcana-page .minor-suit-story {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
+  gap: clamp(32px, 5vw, 62px);
+  align-items: center;
+}
+.minor-arcana-page .minor-overview-intro {
+  margin: 2.5em 0 3em;
+}
+.minor-arcana-page .minor-copy h2,
+.minor-arcana-page .minor-copy h3 {
+  clear: none;
+  margin-top: 0;
+}
+.minor-arcana-page .minor-copy p:last-child {
+  margin-bottom: 0;
+}
+.minor-arcana-page .minor-overview-intro > img,
+.minor-arcana-page .minor-suit-feature > img,
+.minor-arcana-page .minor-story-image,
+.minor-arcana-page .minor-story-image img {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+.minor-arcana-page .minor-overview-intro > img,
+.minor-arcana-page .minor-suit-feature > img,
+.minor-arcana-page .minor-story-image img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.minor-arcana-page .minor-overview-copy {
+  margin: 0 0 2.6em;
+}
+.minor-arcana-page .minor-wide-image {
+  margin: 0 0 2em;
+}
+.minor-arcana-page .minor-wide-image img {
+  display: block;
+  width: 100%;
+  max-height: 620px;
+  object-fit: cover;
+  margin: 0;
+}
+.minor-arcana-page .minor-overview-conclusion {
+  margin-bottom: 3.25em;
+}
+.minor-arcana-page .minor-suit-stories,
+.minor-arcana-page .minor-suit-feature-list {
+  display: grid;
+  gap: 0;
+}
+.minor-arcana-page .minor-suit-story,
+.minor-arcana-page .minor-suit-feature {
+  padding: 3.25em 0;
+  border-top: 1px solid #e8e8e8;
+}
+.minor-arcana-page .minor-suit-story:nth-child(even) .minor-story-image,
+.minor-arcana-page .minor-suit-feature:nth-child(even) > img {
+  order: -1;
+}
+.minor-arcana-page .minor-suit-story h3 {
+  font-size: 1.3em;
+}
+.minor-arcana-page .minor-suit-story h3 a {
+  color: #333;
+}
+.minor-arcana-page .minor-suit-story h3 a:hover {
+  color: #881291;
+  text-decoration: none;
+}
+.minor-arcana-page .content > h2 {
+  margin-top: 2.4em;
+}
+.minor-arcana-page .zodiac-grid {
+  align-items: start;
+  margin-top: 2em;
+}
+.minor-arcana-page .zodiac-card:not(:has(.zodiac-img)) {
+  align-self: start;
+  min-height: 112px;
+  justify-content: center;
+}
+.minor-arcana-page .zodiac-info h3 {
+  padding: 0;
+}
 .zodiac-meta {
   display: block;
   font-size: 0.8em;
@@ -2086,6 +2179,29 @@ footer {
   }
 
   .zodiac-grid { grid-template-columns: 1fr; }
+  .minor-arcana-page .minor-overview-intro,
+  .minor-arcana-page .minor-suit-feature,
+  .minor-arcana-page .minor-suit-story {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .minor-arcana-page .minor-overview-intro {
+    margin: 1.5em 0 2.5em;
+  }
+  .minor-arcana-page .minor-suit-story,
+  .minor-arcana-page .minor-suit-feature {
+    padding: 2.5em 0;
+  }
+  .minor-arcana-page .minor-suit-story:nth-child(even) .minor-story-image,
+  .minor-arcana-page .minor-suit-feature:nth-child(even) > img {
+    order: initial;
+  }
+  .minor-arcana-page .minor-wide-image img {
+    max-height: none;
+  }
+  .minor-arcana-page .zodiac-card:not(:has(.zodiac-img)) {
+    min-height: 0;
+  }
   .goddess-guide-section { margin: 3.5em 0; }
   .goddess-guide { grid-template-columns: 1fr; padding: 24px; gap: 28px; }
   .goddess-guide-cover { justify-content: flex-start; }

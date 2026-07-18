@@ -1,12 +1,14 @@
 ---
 import Base from './Base.astro';
 
-const { title, date, categories = [], original_url, seo_title, seo_description } = Astro.props;
+const { title, slug, date, categories = [], original_url, seo_title, seo_description } = Astro.props;
 const pageTitle = seo_title || title;
 const metaDesc = seo_description || '';
+const minorArcanaPages = ['minor-arcana', 'cups-tarot', 'pentacles-tarot', 'swords-tarot', 'wands-tarot'];
+const isMinorArcanaPage = minorArcanaPages.includes(slug);
 ---
 <Base title={pageTitle} description={metaDesc}>
-  <div class="container">
+  <div class:list={['container', { 'minor-arcana-page': isMinorArcanaPage }]}>
     <h1>{title}</h1>
     <div class="content clearfix">
       <slot />
