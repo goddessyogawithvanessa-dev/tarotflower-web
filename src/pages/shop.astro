@@ -1,34 +1,157 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import OracleWaitlist from '../components/OracleWaitlist.astro';
 
-const products = await getCollection('products');
-const sorted = products.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+const digitalRituals = [
+  {
+    title: 'Step Into the Fire',
+    description: 'A digital ritual for courage and confidence.',
+    image: '/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg',
+    imageAlt: 'Fire goddess beneath a golden moon, surrounded by flames and flowers',
+    href: '/step-into-the-fire/',
+    crop: 'fire',
+  },
+  {
+    title: 'Flow Like the Goddess',
+    description: 'A digital ritual for healing and sensuality.',
+    image: '/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg',
+    imageAlt: 'Water goddess flowing beneath the moon among golden flowers and fish',
+    href: '/flow-like-the-goddess/',
+    crop: 'water',
+  },
+  {
+    title: 'Awaken the Element of Air',
+    description: 'A digital ritual for clarity and intuition.',
+    image: '/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg',
+    imageAlt: 'Air goddess with luminous wings beneath a golden sky',
+    href: '/awaken-the-element-of-air/',
+    crop: 'air',
+  },
+  {
+    title: 'Root Into the Earth',
+    description: 'A digital ritual for stability and belonging.',
+    image: '/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg',
+    imageAlt: 'Earth goddess beneath the moon in a dark enchanted forest',
+    href: '/root-into-the-earth/',
+    crop: 'earth',
+  },
+];
 ---
-<Base title="Shop | Tarot Flower" description="Tarot readings, retreats, and spiritual services from Tarot Flower.">
-  <div class="container">
-    <h1>Shop</h1>
-    <div class="product-grid">
-      {sorted.map(product => (
-        <a href={`/product/${product.data.slug}`} class="product-card">
-          {product.data.image ? (
-            <img src={product.data.image} alt={product.data.title} class="product-card-img" />
-          ) : (
-            <div class="product-card-placeholder">
-              <i class="fa-solid fa-sun"></i>
-            </div>
-          )}
-          <div class="product-card-body">
-            <h2>{product.data.title}</h2>
-            {product.data.seo_description && (
-              <p>{product.data.seo_description}</p>
-            )}
-            {product.data.price && (
-              <span class="product-card-price">${product.data.price}</span>
-            )}
+<Base
+  title="Shop | Tarot Flower"
+  description="Explore Tarot Flower offerings for reflection, embodiment, ritual, intuitive guidance, and becoming."
+>
+  <main class="shop-landing">
+    <header class="readings-hero container">
+      <h1>Shop</h1>
+      <p>Thoughtfully created offerings to support your journey of reflection, embodiment, and becoming.</p>
+    </header>
+
+    <div class="shop-sections container">
+      <section class="shop-section" aria-labelledby="shop-begin-title">
+        <header class="shop-section-heading">
+          <h2 id="shop-begin-title">Begin Your Journey</h2>
+        </header>
+
+        <article class="shop-feature shop-feature--guide">
+          <div class="shop-feature-image shop-feature-image--guide">
+            <img
+              src="/images/goddess-embodiment-guide-cover.jpg"
+              alt="Goddess Embodiment Guide cover"
+            />
           </div>
-        </a>
-      ))}
+          <div class="shop-feature-copy">
+            <p class="shop-product-label">Free</p>
+            <h3>Goddess Embodiment Guide</h3>
+            <p>A beautiful introduction to the Tarot Flower approach through reflection, embodiment, and self-discovery.</p>
+            <a class="shop-button" href="/10-steps-to-embody-the-goddess-free-download/">Download Free Guide</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="shop-section shop-rituals-section" aria-labelledby="shop-rituals-title">
+        <header class="shop-section-heading">
+          <h2 id="shop-rituals-title">Digital Rituals</h2>
+        </header>
+
+        <div class="shop-ritual-grid">
+          {digitalRituals.map(({ title, description, image, imageAlt, href, crop }) => (
+            <article class={`shop-ritual shop-ritual--${crop}`}>
+              <a class="shop-ritual-image" href={href}>
+                <img src={image} alt={imageAlt} loading="lazy" />
+              </a>
+              <div class="shop-ritual-copy">
+                <h3><a href={href}>{title}</a></h3>
+                <p>{description}</p>
+                <p class="shop-price-placeholder">Price coming soon</p>
+                <a class="shop-button" href={href}>View Ritual</a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section class="shop-section" aria-labelledby="shop-guidance-title">
+        <header class="shop-section-heading">
+          <h2 id="shop-guidance-title">Personal Guidance</h2>
+        </header>
+
+        <div class="shop-guidance-paths">
+          <article class="shop-feature">
+            <div class="shop-feature-image shop-feature-image--portrait">
+              <img
+                src="/images/readings-with-vanessa/vanessa-holding-empress-card.png"
+                alt="Vanessa smiling while holding the Empress tarot card"
+                loading="lazy"
+              />
+            </div>
+            <div class="shop-feature-copy">
+              <h3>Readings with Vanessa</h3>
+              <p>A personal one-on-one tarot reading designed around your questions, your life, and the moment you are navigating.</p>
+              <p class="shop-format">60-minute online reading</p>
+              <p class="shop-price">$100 USD</p>
+              <a class="shop-button" href="/readings-with-vanessa/">Book a Reading</a>
+            </div>
+          </article>
+
+          <article class="shop-feature shop-feature--reverse">
+            <div class="shop-feature-image shop-feature-image--portrait">
+              <img
+                src="/images/homepage/vanessa-hylande-sacred-becoming-960.png"
+                alt="Vanessa Hylande for Sacred Becoming mentorship"
+                loading="lazy"
+              />
+            </div>
+            <div class="shop-feature-copy">
+              <h3>Sacred Becoming Mentorship</h3>
+              <p>A deeply personal one-on-one mentoring journey combining embodiment, reflection, movement, ritual, tarot, and intuitive guidance.</p>
+              <a class="shop-button" href="/sacred-becoming/mentorship/">Discover the Mentorship</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shop-section" aria-labelledby="shop-coming-soon-title">
+        <header class="shop-section-heading">
+          <h2 id="shop-coming-soon-title">Coming Soon</h2>
+        </header>
+
+        <article class="shop-oracle">
+          <div class="shop-oracle-art">
+            <img
+              src="/images/homepage/07_creation.png.png"
+              alt="Creation card artwork from The Sacred Becoming Oracle"
+              loading="lazy"
+            />
+          </div>
+          <div class="shop-oracle-copy">
+            <p class="shop-product-label">Coming Soon</p>
+            <h3>Sacred Becoming Oracle</h3>
+            <p>An oracle deck created as a companion for reflection, ritual, intuition, and the quiet conversations that continue long after the cards are put away.</p>
+            <OracleWaitlist />
+          </div>
+        </article>
+      </section>
     </div>
-  </div>
+  </main>
 </Base>
