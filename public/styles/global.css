@@ -1908,6 +1908,102 @@ footer {
 .minor-arcana-page .zodiac-info h3 {
   padding: 0;
 }
+
+/* Tantric Tarot by Melissa */
+.melissa-tarot-page {
+  max-width: 1080px;
+}
+.melissa-tarot-page > h1 {
+  margin-bottom: 0.05em;
+}
+.melissa-byline {
+  margin: 0 0 2.75em;
+  color: #999;
+  text-align: center;
+  font-size: 0.9em;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.melissa-byline span {
+  display: block;
+  margin-top: 0.05em;
+  color: #881291;
+  font-family: 'Tangerine', cursive;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.melissa-profile {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1.22fr);
+  gap: clamp(38px, 6vw, 72px);
+  align-items: start;
+}
+.melissa-profile > img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-radius: 6px;
+}
+.melissa-profile-copy {
+  padding-top: 0.35em;
+}
+.melissa-profile-copy p {
+  margin-bottom: 1.35em;
+}
+.melissa-profile-copy p:last-child {
+  margin-bottom: 0;
+}
+.melissa-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 2.5vw, 28px);
+  margin: 4.5em 0;
+  padding: 2.25em 0;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+.melissa-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 6px;
+}
+.melissa-contact {
+  max-width: 760px;
+  margin: 0 auto 1.5em;
+  padding: clamp(2.5em, 5vw, 4.25em);
+  border: 1px solid #e1d3bc;
+  background: #fbf8f3;
+  text-align: center;
+}
+.melissa-contact h2 {
+  margin: 0 0 0.7em;
+}
+.melissa-contact p {
+  margin-bottom: 1.5em;
+}
+.melissa-contact-button {
+  display: inline-block;
+  min-width: 190px;
+  padding: 12px 30px;
+  border: 1px solid #881291;
+  color: #881291;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: color 0.2s, background 0.2s;
+}
+.melissa-contact-button:hover {
+  color: #fff;
+  background: #881291;
+  text-decoration: none;
+}
 .zodiac-meta {
   display: block;
   font-size: 0.8em;
@@ -2201,6 +2297,28 @@ footer {
   }
   .minor-arcana-page .zodiac-card:not(:has(.zodiac-img)) {
     min-height: 0;
+  }
+  .melissa-byline {
+    margin-bottom: 2em;
+  }
+  .melissa-profile {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .melissa-profile > img {
+    width: min(100%, 460px);
+    margin: 0 auto;
+  }
+  .melissa-profile-copy {
+    padding-top: 0;
+  }
+  .melissa-gallery {
+    margin: 3.25em 0;
+    padding: 1.5em 0;
+    gap: 10px;
+  }
+  .melissa-contact {
+    padding: 2.25em 1.5em;
   }
   .goddess-guide-section { margin: 3.5em 0; }
   .goddess-guide { grid-template-columns: 1fr; padding: 24px; gap: 28px; }
