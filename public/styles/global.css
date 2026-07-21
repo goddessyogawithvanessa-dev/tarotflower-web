@@ -4308,3 +4308,262 @@ footer {
     padding: 58px 22px;
   }
 }
+/* Major Arcana editorial journey: embodiment, featured experience, free resource, navigation */
+.card-featured-experience,
+.card-free-resource,
+.card-mentorship-invitation,
+.card-continue-journey {
+  clear: both;
+}
+
+.card-featured-experience {
+  margin: 4em 0;
+  overflow: hidden;
+  border: 1px solid rgba(166, 124, 82, 0.34);
+  background: #fbf7ef;
+  box-shadow: 0 18px 45px rgba(73, 55, 47, 0.09);
+}
+
+.content .card-featured-experience > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  float: none;
+}
+
+.card-featured-copy {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: clamp(34px, 6vw, 64px) clamp(24px, 7vw, 74px);
+  text-align: center;
+}
+
+.card-editorial-kicker {
+  margin: 0 0 1em !important;
+  color: #9a815f;
+  font-family: 'Aboreto', serif;
+  font-size: 0.72em !important;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.card-featured-copy h2,
+.card-continue-journey h2 {
+  margin: 0 0 0.35em;
+  color: #5b2333;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+  line-height: 1;
+}
+
+.card-featured-subtitle {
+  margin: 0 0 1em !important;
+  color: #7f5647;
+  font-family: 'Aboreto', serif;
+  font-size: 0.92em !important;
+  letter-spacing: 0.04em;
+}
+
+.card-featured-copy > p:not(.card-editorial-kicker):not(.card-featured-subtitle) {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.8;
+}
+
+.card-featured-button {
+  display: inline-block;
+  margin-top: 0.75em;
+  padding: 13px 32px;
+  border: 1px solid #6d3142;
+  color: #6d3142;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.card-featured-button:hover {
+  background: #6d3142;
+  color: #fff;
+}
+
+.card-free-resource {
+  margin: 4em 0;
+  padding: clamp(30px, 5vw, 54px);
+  border: 1px solid rgba(122, 139, 111, 0.32);
+  background: #f7f8f3;
+}
+
+.card-free-resource-layout {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.55fr) minmax(0, 1.45fr);
+  gap: clamp(30px, 5vw, 58px);
+  align-items: center;
+}
+
+.card-free-resource-artwork img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  float: none;
+  box-shadow: 0 16px 34px rgba(73, 55, 47, 0.16);
+}
+
+.card-free-resource .email-optin {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(280px, 1.15fr);
+  gap: clamp(26px, 4vw, 46px);
+  align-items: center;
+}
+
+.card-free-resource .email-optin-copy h2 {
+  margin: 0 0 0.5em;
+  color: #5b2333;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.2rem, 4vw, 3.25rem);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.card-free-resource .email-optin-kicker {
+  margin: 0 0 1em;
+  color: #7a8b6f;
+  font-family: 'Aboreto', serif;
+  font-size: 0.72em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.card-mentorship-invitation {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(34px, 6vw, 72px);
+  align-items: center;
+  max-width: 900px;
+  margin: 4.5em auto;
+  padding: clamp(34px, 5vw, 54px) 0;
+  border-top: 1px solid rgba(122, 139, 111, 0.3);
+  border-bottom: 1px solid rgba(122, 139, 111, 0.3);
+}
+
+.card-mentorship-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  float: none;
+}
+
+.card-mentorship-copy {
+  text-align: left;
+}
+
+.card-mentorship-copy h2 {
+  margin: 0 0 0.5em;
+  color: #5b2333;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.1rem, 4vw, 3.25rem);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.card-mentorship-copy > p:not(.card-editorial-kicker) {
+  max-width: 620px;
+  line-height: 1.8;
+}
+
+.card-mentorship-copy > a {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: #5b2333;
+  text-underline-offset: 0.28em;
+}
+
+.card-continue-journey {
+  margin: 4.5em 0 1em;
+  padding-top: 3.5em;
+  border-top: 1px solid rgba(122, 139, 111, 0.3);
+  text-align: center;
+}
+
+.card-continue-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 2.5em;
+  text-align: left;
+}
+
+.card-continue-links a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  min-height: 132px;
+  padding: 24px;
+  border: 1px solid rgba(122, 139, 111, 0.28);
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.card-continue-links a:hover {
+  transform: translateY(-2px);
+  border-color: #7a8b6f;
+}
+
+.card-continue-links strong {
+  color: #5b2333;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.45em;
+  font-weight: 500;
+}
+
+.card-continue-links span {
+  color: #666;
+  font-size: 0.94em;
+  line-height: 1.55;
+}
+
+@media (max-width: 980px) {
+  .card-free-resource-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .card-free-resource-artwork {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-free-resource-layout,
+  .card-free-resource .email-optin,
+  .card-mentorship-invitation,
+  .card-continue-links {
+    grid-template-columns: 1fr;
+  }
+
+  .card-mentorship-image {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .card-mentorship-copy {
+    text-align: center;
+  }
+
+  .card-featured-experience,
+  .card-free-resource,
+  .card-mentorship-invitation,
+  .card-continue-journey {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .card-continue-links a {
+    min-height: 0;
+  }
+}

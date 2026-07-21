@@ -13,6 +13,10 @@ const posts = defineCollection({
     categories: z.array(z.string()).default([]),
     seo_title: z.string().optional(),
     seo_description: z.string().optional(),
+    seo_image: z.string().optional(),
+    seo_image_alt: z.string().optional(),
+    seo_image_width: z.coerce.number().optional(),
+    seo_image_height: z.coerce.number().optional(),
   }),
 });
 

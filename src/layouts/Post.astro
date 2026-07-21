@@ -1,18 +1,448 @@
 ---
 import Base from './Base.astro';
+import CardEditorialJourney from '../components/CardEditorialJourney.astro';
 
-const { title, slug, date, categories = [], original_url, seo_title, seo_description } = Astro.props;
+const { title, slug, date, categories = [], original_url, seo_title, seo_description, seo_image, seo_image_alt, seo_image_width, seo_image_height } = Astro.props;
 const pageTitle = seo_title || title;
 const metaDesc = seo_description || '';
 const minorArcanaPages = ['minor-arcana', 'cups-tarot', 'pentacles-tarot', 'swords-tarot', 'wands-tarot'];
 const isMinorArcanaPage = minorArcanaPages.includes(slug);
 const isMelissaPage = slug === 'melissa-warwood-tantric-tarot';
+const isFoolPage = slug === 'the-fool-tarot';
+const isMagicianPage = slug === 'the-magician-tarot';
+const isHighPriestessPage = slug === 'the-high-priestess-tarot';
+const isEmpressPage = slug === 'the-empress-tarot';
+const isEmperorPage = slug === 'the-emperor-tarot';
+const isHierophantPage = slug === 'the-hierophant-tarot';
+const isLoversPage = slug === 'the-lovers-tarot';
+const isChariotPage = slug === 'the-chariot-tarot';
+const isStrengthPage = slug === 'strength-tarot';
+const isHermitPage = slug === 'the-hermit-tarot';
+const isWheelOfFortunePage = slug === 'the-wheel-of-fortune-tarot';
+const isJusticePage = slug === 'justice-tarot';
+const isHangedManPage = slug === 'the-hanged-man-tarot';
+const isDeathPage = slug === 'death-tarot';
+const isTemperancePage = slug === 'temperance-tarot';
+const isDevilPage = slug === 'the-devil-tarot';
+const isTowerPage = slug === 'the-tower-tarot';
+const isStarPage = slug === 'the-star-tarot';
+const isMoonPage = slug === 'the-moon-tarot';
+const isSunPage = slug === 'the-sun-tarot';
+const isJudgementPage = slug === 'judgement-tarot';
+const isWorldPage = slug === 'the-world-tarot';
 ---
-<Base title={pageTitle} description={metaDesc}>
+<Base
+  title={pageTitle}
+  description={metaDesc}
+  image={seo_image}
+  imageAlt={seo_image_alt}
+  imageWidth={seo_image_width}
+  imageHeight={seo_image_height}
+>
   <div class:list={['container', { 'minor-arcana-page': isMinorArcanaPage, 'melissa-tarot-page': isMelissaPage }]}>
     <h1>{title}</h1>
     <div class="content clearfix">
       <slot />
+      {isFoolPage && (
+        <CardEditorialJourney
+          featuredTitle="Step Into the Fire"
+          featuredSubtitle="A Digital Ritual for courage and confidence"
+          featuredDescription="This ritual is a sacred ignition—a call to burn through self-doubt and reclaim your fierce inner truth. Through breath, movement, and intention, you’ll awaken the flame within and summon the energy to take bold action in your life."
+          featuredHref="/step-into-the-fire"
+          featuredButtonText="Ignite"
+          featuredImage="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg"
+          featuredImageAlt="Fire goddess beneath a golden moon, surrounded by flames and flowers"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="The Magician"
+          nextCardHref="/the-magician-tarot"
+          nextCardDescription="Move from open possibility into intention, focus, and creation."
+        />
+      )}
+      {isMagicianPage && (
+        <CardEditorialJourney
+          featuredTitle="Awaken the Element of Air"
+          featuredSubtitle="A Digital Ritual for Clarity & Intuition"
+          featuredDescription="This ritual is a breath of fresh air—an invitation to clear mental fog, connect to your intuition, and realign with your inner truth. Air is the element of thought, vision, and perspective. The answers are already within you."
+          featuredHref="/awaken-the-element-of-air"
+          featuredButtonText="Breathe"
+          featuredImage="/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg"
+          featuredImageAlt="Air goddess with luminous wings beneath a golden sky"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're ready to move beyond understanding your potential and begin consciously creating lasting transformation, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The High Priestess"
+          nextCardHref="/the-high-priestess-tarot"
+          nextCardDescription="Continue into intuition, inner wisdom, and spiritual exploration."
+        />
+      )}
+      {isHighPriestessPage && (
+        <CardEditorialJourney
+          featuredTitle="Flow Like the Goddess"
+          featuredSubtitle="A Digital Ritual for Healing, Sensuality & Emotional Release"
+          featuredDescription="This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow."
+          featuredHref="/flow-like-the-goddess"
+          featuredButtonText="Begin the Flow"
+          featuredImage="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          featuredImageAlt="Water goddess flowing beneath the moon among golden flowers and fish"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're ready to strengthen your intuition, deepen your connection with yourself, and consciously cultivate your inner wisdom, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The Empress"
+          nextCardHref="/the-empress-tarot"
+          nextCardDescription="Continue from inner knowing into creativity, abundance, and embodied expression."
+        />
+      )}
+      {isEmpressPage && (
+        <CardEditorialJourney
+          featuredTitle="Flow Like the Goddess"
+          featuredSubtitle="A Digital Ritual for Healing, Sensuality & Emotional Release"
+          featuredDescription="This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow."
+          featuredHref="/flow-like-the-goddess"
+          featuredButtonText="Begin the Flow"
+          featuredImage="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          featuredImageAlt="Water goddess flowing beneath the moon among golden flowers and fish"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're ready to nurture what is emerging, deepen your relationship with yourself, and bring a more creative and abundant life into form, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The Emperor"
+          nextCardHref="/the-emperor-tarot"
+          nextCardDescription="Move from abundance and embodied creation into structure, stewardship, and grounded authority."
+        />
+      )}
+      {isEmperorPage && (
+        <CardEditorialJourney
+          featuredTitle="Root Into the Earth"
+          featuredSubtitle="A Digital Ritual for Stability & Belonging"
+          featuredDescription="This ritual is an invitation to ground into your body and remember your place in the sacred web of life. The Earth element holds space for stability, nourishment, and deep remembering. Through stillness, breath, and embodied presence, you’ll reconnect with your foundation and plant new seeds of intention. Come back to center. Come back to yourself."
+          featuredHref="/root-into-the-earth"
+          featuredButtonText="Ground Yourself"
+          featuredImage="/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg"
+          featuredImageAlt="Earth goddess beneath the moon in a dark enchanted forest"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="The Hierophant"
+          nextCardHref="/the-hierophant-tarot"
+          nextCardDescription="Continue from personal authority into spiritual wisdom, tradition, and shared meaning."
+        />
+      )}
+      {isHierophantPage && (
+        <CardEditorialJourney
+          featuredTitle="Root Into the Earth"
+          featuredSubtitle="A Digital Ritual for Stability & Belonging"
+          featuredDescription="This ritual is an invitation to ground into your body and remember your place in the sacred web of life. The Earth element holds space for stability, nourishment, and deep remembering. Through stillness, breath, and embodied presence, you’ll reconnect with your foundation and plant new seeds of intention. Come back to center. Come back to yourself."
+          featuredHref="/root-into-the-earth"
+          featuredButtonText="Ground Yourself"
+          featuredImage="/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg"
+          featuredImageAlt="Earth goddess beneath the moon in a dark enchanted forest"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're ready to deepen your spiritual practice, integrate the wisdom that resonates with you, and walk your path with trusted support, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The Lovers"
+          nextCardHref="/the-lovers-tarot"
+          nextCardDescription="Move from inherited wisdom into conscious choice, authentic relationship, and union."
+        />
+      )}
+      {isLoversPage && (
+        <CardEditorialJourney
+          featuredTitle="Flow Like the Goddess"
+          featuredSubtitle="A Digital Ritual for Healing, Sensuality & Emotional Release"
+          featuredDescription="This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow."
+          featuredHref="/flow-like-the-goddess"
+          featuredButtonText="Begin the Flow"
+          featuredImage="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          featuredImageAlt="Water goddess flowing beneath the moon among golden flowers and fish"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="The Chariot"
+          nextCardHref="/the-chariot-tarot"
+          nextCardDescription="Carry the heart’s choice forward with direction, determination, and aligned action."
+        />
+      )}
+      {isChariotPage && (
+        <CardEditorialJourney
+          featuredTitle="Step Into the Fire"
+          featuredSubtitle="A Digital Ritual for courage and confidence"
+          featuredDescription="This ritual is a sacred ignition—a call to burn through self-doubt and reclaim your fierce inner truth. Through breath, movement, and intention, you’ll awaken the flame within and summon the energy to take bold action in your life."
+          featuredHref="/step-into-the-fire"
+          featuredButtonText="Ignite"
+          featuredImage="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg"
+          featuredImageAlt="Fire goddess beneath a golden moon, surrounded by flames and flowers"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="Strength"
+          nextCardHref="/strength-tarot"
+          nextCardDescription="Carry determined action inward, discovering the quiet courage of compassion and self-mastery."
+        />
+      )}
+      {isStrengthPage && (
+        <CardEditorialJourney
+          featuredTitle="Flow Like the Goddess"
+          featuredSubtitle="A Digital Ritual for Healing, Sensuality & Emotional Release"
+          featuredDescription="This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow."
+          featuredHref="/flow-like-the-goddess"
+          featuredButtonText="Begin the Flow"
+          featuredImage="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          featuredImageAlt="Water goddess flowing beneath the moon among golden flowers and fish"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're ready to meet yourself with deeper compassion, transform old patterns without force, and embody a steadier kind of courage, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The Hermit"
+          nextCardHref="/the-hermit-tarot"
+          nextCardDescription="Let quiet strength lead you inward toward reflection, discernment, and your own inner light."
+        />
+      )}
+      {isHermitPage && (
+        <CardEditorialJourney
+          featuredTitle="Awaken the Element of Air"
+          featuredSubtitle="A Digital Ritual for Clarity & Intuition"
+          featuredDescription="This ritual is a breath of fresh air—an invitation to clear mental fog, connect to your intuition, and realign with your inner truth. Air is the element of thought, vision, and perspective. The answers are already within you."
+          featuredHref="/awaken-the-element-of-air"
+          featuredButtonText="Breathe"
+          featuredImage="/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg"
+          featuredImageAlt="Air goddess with luminous wings beneath a golden sky"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="Wheel of Fortune"
+          nextCardHref="/the-wheel-of-fortune-tarot"
+          nextCardDescription="Bring the wisdom found within back to life’s turning cycles, changing circumstances, and new possibilities."
+        />
+      )}
+      {isWheelOfFortunePage && (
+        <CardEditorialJourney
+          featuredTitle="Flow Like the Goddess"
+          featuredSubtitle="A Digital Ritual for Healing, Sensuality & Emotional Release"
+          featuredDescription="This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow."
+          featuredHref="/flow-like-the-goddess"
+          featuredButtonText="Begin the Flow"
+          featuredImage="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          featuredImageAlt="Water goddess flowing beneath the moon among golden flowers and fish"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're moving through meaningful change and want support releasing what no longer fits, trusting what is unfolding, and meeting the next chapter as yourself, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="Justice"
+          nextCardHref="/justice-tarot"
+          nextCardDescription="Continue from change and surrender into truth, accountability, and conscious choice."
+        />
+      )}
+      {isJusticePage && (
+        <CardEditorialJourney
+          featuredTitle="Awaken the Element of Air"
+          featuredSubtitle="A Digital Ritual for Clarity & Intuition"
+          featuredDescription="This ritual is a breath of fresh air—an invitation to clear mental fog, connect to your intuition, and realign with your inner truth. Air is the element of thought, vision, and perspective. The answers are already within you."
+          featuredHref="/awaken-the-element-of-air"
+          featuredButtonText="Breathe"
+          featuredImage="/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg"
+          featuredImageAlt="Air goddess with luminous wings beneath a golden sky"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're ready to make choices from a place of deeper truth, take responsibility for what is yours, and bring your life into greater alignment, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The Hanged Man"
+          nextCardHref="/the-hanged-man-tarot"
+          nextCardDescription="Move from discernment and accountability into surrender, stillness, and a new perspective."
+        />
+      )}
+      {isHangedManPage && (
+        <CardEditorialJourney
+          featuredTitle="Awaken the Element of Air"
+          featuredSubtitle="A Digital Ritual for Clarity & Intuition"
+          featuredDescription="This ritual is a breath of fresh air—an invitation to clear mental fog, connect to your intuition, and realign with your inner truth. Air is the element of thought, vision, and perspective. The answers are already within you."
+          featuredHref="/awaken-the-element-of-air"
+          featuredButtonText="Breathe"
+          featuredImage="/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg"
+          featuredImageAlt="Air goddess with luminous wings beneath a golden sky"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="Death"
+          nextCardHref="/death-tarot"
+          nextCardDescription="Let a changed perspective prepare you to release what is complete and cross into transformation."
+        />
+      )}
+      {isDeathPage && (
+        <CardEditorialJourney
+          featuredTitle="Step Into the Fire"
+          featuredSubtitle="A Digital Ritual for courage and confidence"
+          featuredDescription="This ritual is a sacred ignition—a call to burn through self-doubt and reclaim your fierce inner truth. Through breath, movement, and intention, you’ll awaken the flame within and summon the energy to take bold action in your life."
+          featuredHref="/step-into-the-fire"
+          featuredButtonText="Ignite"
+          featuredImage="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg"
+          featuredImageAlt="Fire goddess beneath a golden moon, surrounded by flames and flowers"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're ready to release an identity or chapter that no longer fits and meet what is emerging with courage, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="Temperance"
+          nextCardHref="/temperance-tarot"
+          nextCardDescription="Carry transformation into integration, patience, and the healing art of balance."
+        />
+      )}
+      {isTemperancePage && (
+        <CardEditorialJourney
+          featuredTitle="Flow Like the Goddess"
+          featuredSubtitle="A Digital Ritual for Healing, Sensuality & Emotional Release"
+          featuredDescription="This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow."
+          featuredHref="/flow-like-the-goddess"
+          featuredButtonText="Begin the Flow"
+          featuredImage="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          featuredImageAlt="Water goddess flowing beneath the moon among golden flowers and fish"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="The Devil"
+          nextCardHref="/the-devil-tarot"
+          nextCardDescription="From balance and integration, meet the attachments and patterns that ask to be seen clearly."
+        />
+      )}
+      {isDevilPage && (
+        <CardEditorialJourney
+          featuredTitle="Step Into the Fire"
+          featuredSubtitle="A Digital Ritual for courage and confidence"
+          featuredDescription="This ritual is a sacred ignition—a call to burn through self-doubt and reclaim your fierce inner truth. Through breath, movement, and intention, you’ll awaken the flame within and summon the energy to take bold action in your life."
+          featuredHref="/step-into-the-fire"
+          featuredButtonText="Ignite"
+          featuredImage="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg"
+          featuredImageAlt="Fire goddess beneath a golden moon, surrounded by flames and flowers"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're ready to loosen the grip of old patterns, reclaim your agency, and choose what genuinely nourishes you, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The Tower"
+          nextCardHref="/the-tower-tarot"
+          nextCardDescription="Continue from conscious liberation into the radical clearing of structures that can no longer stand."
+        />
+      )}
+      {isTowerPage && (
+        <CardEditorialJourney
+          featuredTitle="Root Into the Earth"
+          featuredSubtitle="A Digital Ritual for Stability & Belonging"
+          featuredDescription="This ritual is an invitation to ground into your body and remember your place in the sacred web of life. The Earth element holds space for stability, nourishment, and deep remembering. Through stillness, breath, and embodied presence, you’ll reconnect with your foundation and plant new seeds of intention. Come back to center. Come back to yourself."
+          featuredHref="/root-into-the-earth"
+          featuredButtonText="Ground Yourself"
+          featuredImage="/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg"
+          featuredImageAlt="Earth goddess beneath the moon in a dark enchanted forest"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If familiar structures are falling away and you want grounded support rebuilding from what is true, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The Star"
+          nextCardHref="/the-star-tarot"
+          nextCardDescription="After upheaval, follow the quiet return of hope, healing, and renewed trust."
+        />
+      )}
+      {isStarPage && (
+        <CardEditorialJourney
+          featuredTitle="Flow Like the Goddess"
+          featuredSubtitle="A Digital Ritual for Healing, Sensuality & Emotional Release"
+          featuredDescription="This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow."
+          featuredHref="/flow-like-the-goddess"
+          featuredButtonText="Begin the Flow"
+          featuredImage="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          featuredImageAlt="Water goddess flowing beneath the moon among golden flowers and fish"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="The Moon"
+          nextCardHref="/the-moon-tarot"
+          nextCardDescription="Let renewed hope guide you toward mystery, intuition, and the wisdom held in shadow."
+        />
+      )}
+      {isMoonPage && (
+        <CardEditorialJourney
+          featuredTitle="Flow Like the Goddess"
+          featuredSubtitle="A Digital Ritual for Healing, Sensuality & Emotional Release"
+          featuredDescription="This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow."
+          featuredHref="/flow-like-the-goddess"
+          featuredButtonText="Begin the Flow"
+          featuredImage="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          featuredImageAlt="Water goddess flowing beneath the moon among golden flowers and fish"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're moving through uncertainty, meeting hidden emotions, or learning to trust your inner knowing, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The Sun"
+          nextCardHref="/the-sun-tarot"
+          nextCardDescription="Carry what the shadows revealed into warmth, vitality, clarity, and joyful self-expression."
+        />
+      )}
+      {isSunPage && (
+        <CardEditorialJourney
+          featuredTitle="Step Into the Fire"
+          featuredSubtitle="A Digital Ritual for courage and confidence"
+          featuredDescription="This ritual is a sacred ignition—a call to burn through self-doubt and reclaim your fierce inner truth. Through breath, movement, and intention, you’ll awaken the flame within and summon the energy to take bold action in your life."
+          featuredHref="/step-into-the-fire"
+          featuredButtonText="Ignite"
+          featuredImage="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg"
+          featuredImageAlt="Fire goddess beneath a golden moon, surrounded by flames and flowers"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="Judgement"
+          nextCardHref="/judgement-tarot"
+          nextCardDescription="Let joy and self-expression open into awakening, honest reflection, and the call to rise."
+        />
+      )}
+      {isJudgementPage && (
+        <CardEditorialJourney
+          featuredTitle="Awaken the Element of Air"
+          featuredSubtitle="A Digital Ritual for Clarity & Intuition"
+          featuredDescription="This ritual is a breath of fresh air—an invitation to clear mental fog, connect to your intuition, and realign with your inner truth. Air is the element of thought, vision, and perspective. The answers are already within you."
+          featuredHref="/awaken-the-element-of-air"
+          featuredButtonText="Breathe"
+          featuredImage="/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg"
+          featuredImageAlt="Air goddess with luminous wings beneath a golden sky"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          mentorshipTitle="Sacred Becoming Mentorship"
+          mentorshipDescription="If you're hearing a call to live more honestly, make peace with the past, and step into a more authentic chapter, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
+          mentorshipHref="/sacred-becoming/mentorship"
+          mentorshipButtonText="Discover Sacred Becoming"
+          nextCardTitle="The World"
+          nextCardHref="/the-world-tarot"
+          nextCardDescription="Bring awakening into completion, integration, and a fuller sense of belonging within the whole."
+        />
+      )}
+      {isWorldPage && (
+        <CardEditorialJourney
+          featuredTitle="Root Into the Earth"
+          featuredSubtitle="A Digital Ritual for Stability & Belonging"
+          featuredDescription="This ritual is an invitation to ground into your body and remember your place in the sacred web of life. The Earth element holds space for stability, nourishment, and deep remembering. Through stillness, breath, and embodied presence, you’ll reconnect with your foundation and plant new seeds of intention. Come back to center. Come back to yourself."
+          featuredHref="/root-into-the-earth"
+          featuredButtonText="Ground Yourself"
+          featuredImage="/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg"
+          featuredImageAlt="Earth goddess beneath the moon in a dark enchanted forest"
+          featuredImageWidth={1600}
+          featuredImageHeight={500}
+          nextCardTitle="The Fool"
+          nextCardHref="/the-fool-tarot"
+          nextCardDescription="Honor completion, then return to the beginning with renewed freedom, trust, and possibility."
+        />
+      )}
     </div>
   </div>
 </Base>

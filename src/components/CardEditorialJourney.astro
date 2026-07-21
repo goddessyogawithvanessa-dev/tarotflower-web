@@ -1,0 +1,124 @@
+---
+import EmailOptIn from './EmailOptIn.astro';
+
+interface Props {
+  featuredTitle: string;
+  featuredSubtitle: string;
+  featuredDescription: string;
+  featuredHref: string;
+  featuredButtonText: string;
+  featuredImage: string;
+  featuredImageAlt: string;
+  featuredImageWidth: number;
+  featuredImageHeight: number;
+  nextCardTitle: string;
+  nextCardHref: string;
+  nextCardDescription: string;
+  mentorshipTitle?: string;
+  mentorshipDescription?: string;
+  mentorshipHref?: string;
+  mentorshipButtonText?: string;
+}
+
+const {
+  featuredTitle,
+  featuredSubtitle,
+  featuredDescription,
+  featuredHref,
+  featuredButtonText,
+  featuredImage,
+  featuredImageAlt,
+  featuredImageWidth,
+  featuredImageHeight,
+  nextCardTitle,
+  nextCardHref,
+  nextCardDescription,
+  mentorshipTitle,
+  mentorshipDescription,
+  mentorshipHref,
+  mentorshipButtonText,
+} = Astro.props;
+---
+
+<section class="card-featured-experience" aria-labelledby="card-featured-title">
+  <img
+    src={featuredImage}
+    alt={featuredImageAlt}
+    width={featuredImageWidth}
+    height={featuredImageHeight}
+    loading="lazy"
+    decoding="async"
+  />
+  <div class="card-featured-copy">
+    <p class="card-editorial-kicker">Featured Experience</p>
+    <h2 id="card-featured-title">{featuredTitle}</h2>
+    <p class="card-featured-subtitle">{featuredSubtitle}</p>
+    <p>{featuredDescription}</p>
+    <a class="card-featured-button" href={featuredHref} aria-label={`${featuredButtonText}: ${featuredTitle}`}>{featuredButtonText}</a>
+  </div>
+</section>
+
+<div class="card-free-resource">
+  <div class="card-free-resource-layout">
+    <div class="card-free-resource-artwork">
+      <img
+        src="/images/goddess-embodiment-guide-cover.jpg"
+        alt="Goddess Embodiment Guide cover"
+        width="1414"
+        height="2000"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+    <EmailOptIn
+      leadMagnet="goddess-embodiment-guide"
+      kicker="Your Free Gift"
+      title="The Goddess Embodiment Guide"
+      description="Discover how tarot, ritual, reflection, movement, and embodiment can become tools for self-discovery, healing, and lasting transformation."
+      buttonText="Download the Guide"
+      note="Your guide will be delivered instantly to your inbox."
+    />
+  </div>
+</div>
+
+{mentorshipTitle && mentorshipDescription && mentorshipHref && mentorshipButtonText && (
+  <aside class="card-mentorship-invitation" aria-labelledby="card-mentorship-title">
+    <div class="card-mentorship-image">
+      <img
+        src="/images/homepage/vanessa-hylande-sacred-becoming-960.png"
+        srcset="/images/homepage/vanessa-hylande-sacred-becoming-480.png 480w, /images/homepage/vanessa-hylande-sacred-becoming-720.png 720w, /images/homepage/vanessa-hylande-sacred-becoming-960.png 960w, /images/homepage/vanessa-hylande-sacred-becoming-1324.png 1324w"
+        sizes="(max-width: 768px) min(420px, 100vw), min(32vw, 330px)"
+        alt="Vanessa Hylande smiling at the camera"
+        width="960"
+        height="861"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+    <div class="card-mentorship-copy">
+      <p class="card-editorial-kicker">A Deeper Step</p>
+      <h2 id="card-mentorship-title">{mentorshipTitle}</h2>
+      <p>{mentorshipDescription}</p>
+      <a href={mentorshipHref}>{mentorshipButtonText}</a>
+    </div>
+  </aside>
+)}
+
+<nav class="card-continue-journey" aria-labelledby="card-continue-title">
+  <p class="card-editorial-kicker">Continue Your Journey</p>
+  <h2 id="card-continue-title">Where will the path lead next?</h2>
+  <div class="card-continue-links">
+    <a href={nextCardHref}>
+      <strong>{nextCardTitle}</strong>
+      <span>{nextCardDescription}</span>
+    </a>
+    <a href="/major-arcana-2">
+      <strong>Major Arcana Guide</strong>
+      <span>Explore all 22 archetypes of the Tarot’s greater journey.</span>
+    </a>
+    <a href="/readings-with-vanessa">
+      <strong>Tarot Readings with Vanessa</strong>
+      <span>Receive personal reflection for the threshold you are standing at now.</span>
+    </a>
+  </div>
+</nav>
