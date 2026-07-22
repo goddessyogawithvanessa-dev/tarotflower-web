@@ -7,10 +7,16 @@ modified: 2023-05-16
 content_type: post
 categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Three of Cups Tarot Card Meaning | Tarot Flower"
-seo_description: "The Three of Cups tarot card is a card of celebration and community. It represents coming together with like-minded individuals and being connected and..."
+seo_description: "Explore the Three of Cups tarot card meaning for celebration, friendship, love, the reversed position, and embodied community."
+seo_image: /images/tarot/cups/three-of-cups.png
+seo_image_alt: "Three women in floral dresses raising cups in celebration"
+seo_image_width: 1024
+seo_image_height: 1024
 ---
 
 The Three of Cups tarot card is a card of celebration and community. It represents coming together with like-minded individuals and being connected and supported by them. This card is a reminder that we are not alone in our struggles and successes and that having a supportive group of people around us can be very empowering.
+
+<img src="/images/tarot/cups/three-of-cups.png" alt="Three women in floral dresses raising cups in celebration" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Three of Cups tarot card is a card of joy, creativity, and cooperation. It signifies coming together with friends to celebrate a special occasion or milestone and to share in each other’s joy. It can also signify the creation of new and exciting projects, relationships, or ideas, as well as a feeling of connectedness and support between people.
 
@@ -23,3 +29,11 @@ The Three of Cups tarot card is a reminder to be open to new experiences and to 
 ## The three of cups love
 
 The Three of Cups is an incredibly positive card in the realm of love reading. It is a sign of celebration, joy, and happiness. It indicates that you will experience a meaningful connection with another person, and that a beautiful experience awaits you. This card can also indicate a new social circle, and a sense of belonging with those around you. This card is a reminder that you are worthy of love, and that you can find it in many different forms.
+
+## The Three of Cups Reversed
+
+The Three of Cups reversed can reveal loneliness, social tension, gossip, or a celebration that no longer feels inclusive. It may also appear when constant socializing has become a way to avoid your deeper feelings. Consider whether the people around you genuinely support your growth and whether you are making enough room for rest, sincerity, and one-to-one connection.
+
+## How to Embody the Three of Cups
+
+Celebrate something real, even if it seems small. Gather with people who let you be fully yourself, offer encouragement without comparison, and receive their support in return. Embodying this card can be as simple as sharing a meal, dancing together, or telling a friend why their presence matters to you.

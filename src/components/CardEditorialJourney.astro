@@ -14,6 +14,9 @@ interface Props {
   nextCardTitle: string;
   nextCardHref: string;
   nextCardDescription: string;
+  guideTitle?: string;
+  guideHref?: string;
+  guideDescription?: string;
   mentorshipTitle?: string;
   mentorshipDescription?: string;
   mentorshipHref?: string;
@@ -33,6 +36,9 @@ const {
   nextCardTitle,
   nextCardHref,
   nextCardDescription,
+  guideTitle = 'Major Arcana Guide',
+  guideHref = '/major-arcana-2',
+  guideDescription = 'Explore all 22 archetypes of the Tarot’s greater journey.',
   mentorshipTitle,
   mentorshipDescription,
   mentorshipHref,
@@ -112,9 +118,9 @@ const {
       <strong>{nextCardTitle}</strong>
       <span>{nextCardDescription}</span>
     </a>
-    <a href="/major-arcana-2">
-      <strong>Major Arcana Guide</strong>
-      <span>Explore all 22 archetypes of the Tarot’s greater journey.</span>
+    <a href={guideHref}>
+      <strong>{guideTitle}</strong>
+      <span>{guideDescription}</span>
     </a>
     <a href="/readings-with-vanessa">
       <strong>Tarot Readings with Vanessa</strong>
