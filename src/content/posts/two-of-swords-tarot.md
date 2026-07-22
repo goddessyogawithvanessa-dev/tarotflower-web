@@ -7,10 +7,14 @@ modified: 2023-05-16
 content_type: post
 categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Two of Swords Tarot Card Meaning | Tarot Flower"
-seo_description: "Are you unable to make up your mind? Are you faced with a difficult decision? The Two of Swords Tarot card is one of indecision and duality. It is a..."
+seo_description: "Explore the Two of Swords tarot card meaning for indecision, inner conflict, intuition, love, and finding clarity at a difficult crossroads."
+seo_image: /images/tarot/swords/two-of-swords.png
+seo_image_alt: "Blindfolded woman holding two crossed swords among flowers and butterflies"
+seo_image_width: 1024
+seo_image_height: 1024
 ---
 
-![two of swords tarot card meaning midjourney art Vanessa Hylande](/images/2022/12/vanessahylande_two-of-swords.jpg)
+<img src="/images/tarot/swords/two-of-swords.png" alt="Blindfolded woman holding two crossed swords among flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 Are you unable to make up your mind? Are you faced with a difficult decision? The Two of Swords Tarot card is one of indecision and duality. It is a card of inner conflict and struggle, and symbolizes that there are two opposing forces at work.
 
@@ -26,9 +30,7 @@ The Two of Swords also highlights the importance of communication and seeking di
 
 ## 2 of Swords in the Rider Waite
 
-![two of swords tarot card meaning rider waite](/images/2021/01/14.jpg)
-
-In the traditional [Rider-Waite tarot deck](https://amzn.to/42AXJz7), the imagery of the Two of Swords card is of two swords crossed in the middle, with a blindfolded figure in the center. The blindfold symbolizes that the querent is unable to see the full picture, and therefore must rely on their intuition and inner guidance to make the best decision. The crossed swords symbolize the opposing forces at work, and the struggle between them.
+In the traditional Rider-Waite tarot deck, the imagery of the Two of Swords card is of two swords crossed in the middle, with a blindfolded figure in the center. The blindfold symbolizes that the querent is unable to see the full picture, and therefore must rely on their intuition and inner guidance to make the best decision. The crossed swords symbolize the opposing forces at work, and the struggle between them.
 
 ## Two of Swords love
 
@@ -38,11 +40,9 @@ In a love tarot reading, the 2 of swords advises you to examine your own needs a
 
 ## Embody the Tarot: The lessons of the 2 of swords
 
-![heart chakra mandala embody the tarot midjourney art vanessa hylande](/images/2022/12/heart-chakra-mandala.jpg)
-
 The Two of Swords is a reminder that difficult choices are sometimes necessary, and it is important to move forward with them in order to find balance. It is a call to make decisions based on logic and reason, rather than just emotion. In the end, the querent must be willing to make a difficult decision in order to find the best outcome. This is how you can embody the tarot - the lessons of the 2 of swords:
 
 1. Create a safe space for yourself
 2. Write a list of the pros and cons of each possible choice you face
-3. Engage in a [heart chakra opening meditation](https://goddess-yoga-retreat.com/the-best-heart-chakra-yoga-poses-activating-opening-and-balancing-your-anahata-chakra/) to connect with your true desires
+3. Engage in a heart-opening meditation to connect with your true desires
 4. Channel the divine feminine to see which option, given the pros and cons, resonates most deeply with you: What *feels* right?
