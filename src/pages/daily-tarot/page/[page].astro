@@ -1,0 +1,40 @@
+---
+import Base from '../../../layouts/Base.astro';
+import JournalIndex from '../../../components/JournalIndex.astro';
+import { getCollection } from 'astro:content';
+import { createJournalEntries, JOURNAL_PAGE_SIZE } from '../../../lib/journal';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const entries = createJournalEntries(posts);
+  const totalPages = Math.ceil(entries.length / JOURNAL_PAGE_SIZE);
+
+  return Array.from({ length: Math.max(totalPages - 1, 0) }, (_, index) => ({
+    params: { page: String(index + 2) },
+  }));
+}
+
+const currentPage = Number(Astro.params.page);
+const posts = await getCollection('posts');
+const entries = createJournalEntries(posts);
+---
+
+<Base
+  title={`The Witch's Journal Index — Shelf ${currentPage}`}
+  description={`Browse shelf ${currentPage} of the complete Witch's Journal, Tarot Flower's living library of stories, rituals, mythology and wisdom.`}
+  image="/images/2023/10/raven.jpg"
+  imageAlt="A raven beside a flower-crowned woman in mystical Tarot Flower artwork"
+  imageWidth={1024}
+  imageHeight={1024}
+>
+  <main class="journal-page journal-archive-page">
+    <header class="journal-archive-header">
+      <p class="journal-eyebrow">The Complete Index</p>
+      <h1>The Witch's Journal</h1>
+      <p>Continue through every volume in Tarot Flower's living library.</p>
+      <a href="/daily-tarot">Return to the Journal rooms <span aria-hidden="true">→</span></a>
+    </header>
+
+    <JournalIndex entries={entries} currentPage={currentPage} />
+  </main>
+</Base>

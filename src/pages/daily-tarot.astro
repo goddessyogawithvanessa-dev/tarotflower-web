@@ -1,198 +1,245 @@
 ---
 import Base from '../layouts/Base.astro';
+import JournalIndex from '../components/JournalIndex.astro';
 import { getCollection } from 'astro:content';
+import {
+  createJournalEntries,
+  getCategoryEntries,
+  getJournalCategory,
+  getShelfEntries,
+  journalCategories,
+  type JournalCategorySlug,
+} from '../lib/journal';
 
 const posts = await getCollection('posts');
-const page = posts.find(p => p.data.slug === 'daily-tarot');
+const page = posts.find((post) => post.data.slug === 'daily-tarot');
+const entries = createJournalEntries(posts);
+const featuredEntries = entries
+  .filter((entry) => entry.featured)
+  .sort((a, b) => a.featureOrder - b.featureOrder);
 
-const cardSlugs = [
-  'divine-feminine-affirmations-for-kundalini-awakening-and-goddess-embodiment',
-  'goddess-yoga-2024-step-into-the-spotlight-with-classes-retreats-and-the-mystic-mansion',
-  'i-am-the-fool',
-  'on-love-trust-sacrifice-and-devotion',
-  'daring-to-hope-in-times-of-darkness',
-  'surrender-at-the-lions-gate',
-  'dream-dancing',
-  'adorn-your-soul',
-  'windows-to-the-soul',
-  'sound-bath-meditation-12-12-portal-and-the-sagittarius-new-moon',
-  'embodying-artemis-goddess-of-the-hunt-1212-portal-and-new-moon-in-sagittarius-2023',
-  'gemini-full-moon-2023-invoking-the-goddess-artemis',
-  'the-four-brothers-open-letter-to-my-four-beautiful-sons',
-  'my-voice-for-a-new-world',
-  'embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga',
-  'the-best-heart-chakra-yoga-poses-activating-opening-and-balancing-your-anahata-chakra',
-  'goddess-yoga-wellness-retreat-making-magical-moments',
-  'types-of-yoga-finding-your-inner-goddess-in-different-yoga-styles',
-  'yemaya-goddess-of-the-seven-seas',
-  'best-yoga-wellness-retreat-for-women-2024',
-  'goddess-embodiment-when-the-raven-spoke-to-me',
-  'what-is-a-twin-flame-how-to-know-if-youve-met-your-mirror-soul',
-  'sound-bath-meditation-for-embodying-the-goddess-yemaya',
-  'how-to-survive-the-twin-flame-separation',
-  'twin-flame-signs-how-to-know-youve-met-your-twin-flame',
-  'kundalini-awakening-twin-flame-sex',
-  'goddess-aphrodite',
-  'yemaya',
-  'goddess-of-spring-flora',
-  'the-goddess-kali-unleashing-your-sacred-sexuality',
-  'goddess-flora-the-goddess-of-spring',
-  'the-love-psychic-reading-guide-finding-the-best-psychic',
-  'twin-flame-sex-becoming-the-goddess-kali-in-the-bedroom',
-  'capricorn-dates-traits-persistent-ambition',
-  'sagittarius-dates-traits-the-spirited-adventurer',
-  'the-divine-feminine-calling-unveiling-your-sacred-dreamscape',
-  'scorpio-dates-traits-the-phoenix-rising',
-  'aquarius-dates-traits-the-new-age-thinker',
-  'libra-dates-traits-the-charming-diplomat',
-  'virgo-dates-traits-harvest-and-abundance',
-  'leo-dates-traits-the-shining-sun',
-  'cancer-dates-traits-the-sensitive-intuitive',
-  'gemini-dates-traits-the-clever-twins',
-  'taurus-dates-traits-the-loyal-dependable-romantic',
-  'white-sage-tarot-deck-in-a-tin-travel-with-inspiration',
-  'goddess-yourself-with-tarot-dance-yoga-ritual',
-  'what-is-goddess-yoga-unleashing-your-divine-feminine',
-  'what-is-divine-feminine-tarot-empowering-your-inner-goddess',
-  'spring-equinox-2023-free-tarot-card-reading-the-world-needs-your-vision',
-  'music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023',
-  'twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing',
-  'aries-dates-traits-the-fearless-ram',
-  'twin-flame-union-blesse-by-the-full-moon-in-leo-2023',
-  'pisces-dates-traits-the-mystical-dreaming-fish',
-  'moon-magic-love-spells-for-your-twin-flame-soul-mate-and-lover',
-  'spiritual-wellness-retreat-with-tarot-card-readings',
-  'best-yoga-retreat-europe-2023-the-perfect-european-vacation-in-italy',
-  'feel-like-the-empress',
-  'lago-dorta-italy-dragons-in-the-dolomites',
-  'how-to-make-a-moon-magic-altar-for-rituals',
-  'lunar-eclipse-rituals-for-the-divine-feminine',
+const shelfSlugs: JournalCategorySlug[] = [
+  'embodiment',
+  'embodying-tarot',
   'moon-magic',
-  'balance-your-7-chakras-to-reset-your-nervous-system',
-  'dancing-the-major-arcana',
-  'glow-up-with-goddess-yoga',
-  'the-magic-to-activate-your-divine-feminine',
-  'affirmations-for-self-love-that-work',
-  'affirmations-for-confidence',
-  'goddess-artemis-greek-goddess-of-the-hunt',
-  'goddess-dance-embodiment-celebrate-spring',
-  'the-magician-tarot-card-says-dream-big',
-  '5-tips-affirmations-to-manifest-abundance',
-  'discover-goddess-yoga-through-embodiment-dance',
-  'self-love-affirmations-and-how-to-use-them',
-  'aphrodite-goddess-of-love',
-  'goddess-embodiment-your-divine-feminine',
-  'embodiment-course',
-  'feminine-embodiment-practices-to-shine',
-  'how-to-be-a-goddess-of-dance',
-  'embodied-learning-a-holistic-approach',
-  'holistic-living-with-embodiment-through-the-arts',
-  'embodiment-through-the-arts',
-  'how-to-self-heal-through-embodiment-practices',
-  'why-dance-is-the-best-embodiment-practice',
-  'self-care-practices-to-make-you-feel-happier',
-  'what-is-an-embodied-goddess',
-  'slow-down-to-find-your-souls-purpose',
-  'how-to-be-more-beautiful',
-  'embody-the-goddess-within',
-  'an-embodied-goddess-always-finds-herself',
-  'dare-to-dream-dare-to-manifest',
-  'you-are-your-own-beacon-of-light',
-  'you-are-the-creator-of-your-own-life',
-  'allow-your-inner-goddess-to-bloom',
-  'isis-goddess-of-the-divine-feminine',
-  'affirmation-for-confidence-warrior-woman',
-  'affirmation-for-abundance-i-celebrate-my-creations',
-  'affirmation-for-manifestation-i-am-infinite-possibility',
-  'affirmation-for-strength-i-lead-with-compassion-and-confidence',
-  'the-wisdom-of-the-shaman',
-  'affirmation-for-happiness-i-take-action-toward-my-dreams',
-  'a-powerful-trio-of-opportunity',
-  'divide-and-conquer',
+  'cosmic-weather',
+  'twin-flames',
+  'affirmations',
+  'mythology',
 ];
+const shelves = shelfSlugs.map((slug) => ({
+  category: getJournalCategory(slug),
+  entries: getShelfEntries(entries, slug, 3),
+}));
 
-const fallbackImages: Record<string, string> = {
-  'divine-feminine-affirmations-for-kundalini-awakening-and-goddess-embodiment': '/images/2024/02/Divine-Feminine-Affirmations-blog-art.jpeg',
-  'sound-bath-meditation-12-12-portal-and-the-sagittarius-new-moon': '/images/2023/12/Screen-Shot-2023-12-13-at-10.18.52-AM-400x250.jpg',
-  'music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023': '/images/2023/03/Screen-Shot-2023-03-06-at-3.43.13-PM-400x250.jpg',
-};
+const personalEntries = getCategoryEntries(entries, 'vanessas-grimoire')
+  .sort((a, b) => {
+    if (a.featured !== b.featured) return a.featured ? -1 : 1;
+    return b.wordCount - a.wordCount || a.title.localeCompare(b.title);
+  })
+  .slice(0, 5);
 
-const cardPosts = cardSlugs
-  .map(slug => posts.find(p => p.data.slug === slug))
-  .filter(Boolean);
-
-function extractImage(body: string): string {
-  const match = body.match(/!\[([^\]]*)\]\((\/[^)]+)\)/);
-  return match ? match[2] : '';
-}
-
-function extractExcerpt(body: string): string {
-  const lines = body.split('\n');
-  for (const line of lines) {
-    const trimmed = line.trim();
-    if (!trimmed || trimmed.startsWith('#') || trimmed.startsWith('!') || trimmed.startsWith('*') && trimmed.length < 30) continue;
-    const clean = trimmed.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1').replace(/\*([^*]+)\*/g, '$1');
-    if (clean.length > 30) return clean.length > 120 ? clean.slice(0, 117) + '...' : clean;
-  }
-  return '';
-}
-
-function formatCategories(cats: string[]): string {
-  return cats
-    .filter(c => c !== 'daily-tarot')
-    .map(c => c.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '))
-    .join(', ');
-}
+const gatewayCount = (slug: JournalCategorySlug) => getCategoryEntries(entries, slug).length;
+const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug);
 ---
+
 <Base
   title={page?.data.seo_title || "The Witch's Journal – Tarot, Rituals & Reflections"}
-  description={page?.data.seo_description || ''}
+  description={page?.data.seo_description || 'Enter the living library of Tarot Flower: stories, rituals, mythology, embodiment and spiritual wisdom.'}
+  image="/images/2023/10/raven.jpg"
+  imageAlt="A raven beside a flower-crowned woman in mystical Tarot Flower artwork"
+  imageWidth={1024}
+  imageHeight={1024}
 >
-  <div class="container">
-    <div class="content clearfix">
-      <h1>The Witch's Journal</h1>
-
-      <p><strong>Welcome to the Witch's Journal</strong></p>
-
-      <p>This is more than a blog — it's a living archive of magic, memory, and transformation. The Witch's Journal is where raw reflections meet ritual, where the tarot becomes a mirror, and where lunar cycles guide the rhythm of life. Every post you'll find here was born from practice, prayer, insight, or experience — woven from moonlight and mystery into words that resonate with seekers like you.</p>
-
-      <details class="read-more-toggle">
-        <summary>Read More</summary>
-        <div class="read-more-content">
-          <p>You won't find perfection here. You'll find presence. The kind that only comes from walking the path day by day, from reading the cards not just to predict, but to <em>remember</em>. This is a place for the sacred in-between: the moments before the spell is cast, the silence after the tarot is pulled, the whispers you only hear when you slow down enough to listen.</p>
-          <p>Most of the entries you'll discover in this space are reflections on the current energy — seasonal shifts, new and full moon rituals, channeled tarot spreads, astrology insights, and twin flame musings. It's where I share what I've learned, what I'm still learning, and what Spirit keeps teaching me. You may find old entries that feel eerily relevant — that's the beauty of a spiral path. We return again and again, but with deeper awareness each time.</p>
-          <p>Whether you're new to your path or well into your witchy renaissance, this journal is for you. Not to copy — but to <em>awaken</em> your own magic. The entries here are invitations. Read a ritual, try a spread, light a candle, and see what comes through. Then, take what resonates and leave the rest. There are no rules in the Witch's Journal — only rhythm and intention.</p>
-          <p>So where to begin? Start where you're drawn. If you're in the mood for lunar magic, explore the moon rituals. Feeling the ache of the twin flame journey? Those entries may be calling you. Curious about psychic abilities, energetic hygiene, or spellwork? It's all in here — layered, honest, and unfolding in real time.</p>
-          <p>This is also where my voice becomes more personal. While Tarot Flower is a sacred library for learning the craft, the Witch's Journal is where you meet me — the woman behind the altar, the mystic at the piano, the mother, the teacher, the traveler, the vessel. You'll see the connections between the rituals and the retreats, between the Moonlight Circle and the cards, between healing and embodiment.</p>
-          <p>If something you read sparks something inside you — follow it. That spark is your inner flame. And if you feel the call to go deeper, to practice in community, or to awaken your inner goddess, then I invite you to step beyond the page and into sacred space with me.</p>
-          <p>The Witch's Journal is only the beginning.</p>
+  <main class="journal-page">
+    <section class="journal-hero">
+      <div class="journal-hero-copy">
+        <p class="journal-eyebrow">A Living Library</p>
+        <h1>The Witch's Journal</h1>
+        <p class="journal-hero-lede">Stories, rituals, mythology and wisdom for the path between knowing and becoming.</p>
+        <div class="journal-hero-introduction">
+          <p>The Witch's Journal is a living library of magic, memory and transformation. Here, personal stories rest beside lunar rituals, ancient goddesses speak through modern lives, and the wisdom of the body meets the language of the stars.</p>
+          <p>You do not need to begin at the beginning. Follow what catches your eye, open the door that calls to you, and allow one idea to lead unexpectedly into another.</p>
         </div>
-      </details>
-    </div>
-
-    <section class="zodiac-grid">
-      {cardPosts.map(post => {
-        const img = fallbackImages[post!.data.slug] || extractImage(post!.body || '');
-        const excerpt = extractExcerpt(post!.body || '');
-        const displayDate = new Date(post!.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-        const cats = post!.data.categories || [];
-        return (
-          <a href={`/${post!.data.slug}`} class="zodiac-card">
-            {img && <div class="zodiac-img"><img src={img} alt={post!.data.title} loading="lazy" /></div>}
-            <div class="zodiac-info">
-              <h3>{post!.data.title}</h3>
-              <span class="zodiac-meta">by Vanessa Hylande | {displayDate} | {formatCategories(cats)}</span>
-              {excerpt && <p class="zodiac-excerpt">{excerpt}</p>}
-            </div>
-          </a>
-        );
-      })}
+      </div>
+      <figure class="journal-hero-art">
+        <img
+          src="/images/2023/10/raven.jpg"
+          alt="A raven beside a flower-crowned woman in mystical Tarot Flower artwork"
+          width="1024"
+          height="1024"
+          decoding="async"
+        />
+      </figure>
     </section>
 
-    <div class="content clearfix">
-      <p>At Daily Tarot we love to talk about the current energies and bring you sage advice and inspiration through our free tarot card readings. These readings are general, but will always offer some beautiful and inspirational messages from the major arcana, minor arcana and oracle cards. We always consider the current astrology to give you the most complete assessment of the energetic landscape we are currently in.</p>
-      <p>Our Tarot Flower Daily Tarot blog will not only discuss traditional tarot, but will also explore ways that you can embody the tarot. This will enable you to begin manifesting abundance and flow in your life, by putting the lessons of the tarot into practice. It's not always enough to understand things with the mind. Sometimes we need guidance on how to put our spirituality into practice.</p>
-      <p>If you'd like to learn more about embodiment, join us at our beautiful <a href="https://goddess-yoga-retreat.com/glow-up-with-goddess-yoga/">Goddess Yoga Retreats</a>. Especially if you are an artist and prefer to learn in a holistic way, you have come to the right place. So, if you are ready to move beyond simply learning the <a href="/tarot-card-meanings">tarot card meanings</a>, read on! Enjoy!</p>
-    </div>
-  </div>
+    <section class="journal-doorways" aria-labelledby="journal-doorways-title">
+      <div class="journal-section-heading journal-doorways-heading">
+        <p class="journal-eyebrow">Choose a room</p>
+        <h2 id="journal-doorways-title">Where would you like to wonder today?</h2>
+        <p>Choose a doorway, or follow the one that is choosing you.</p>
+      </div>
+
+      <div class="journal-doorway-grid">
+        {journalCategories.map((category, index) => (
+          <a
+            class:list={['journal-doorway', `journal-doorway-${category.tone}`, { 'journal-doorway-large': index === 0 || index === 2 }]}
+            href={`/daily-tarot?room=${category.slug}#complete-index`}
+            data-journal-room-link={category.slug}
+          >
+            <img
+              src={category.image}
+              alt={category.imageAlt}
+              width={category.imageWidth}
+              height={category.imageHeight}
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="journal-doorway-shade" aria-hidden="true"></span>
+            <span class="journal-doorway-copy">
+              <small>{category.eyebrow}</small>
+              <strong>{category.label}</strong>
+              <span><b>{category.question}</b>{category.description}</span>
+              <em>{gatewayCount(category.slug)} writings · Enter this room</em>
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="journal-begin" aria-labelledby="journal-begin-title">
+      <div class="journal-section-heading">
+        <p class="journal-eyebrow">Begin with a Doorway</p>
+        <h2 id="journal-begin-title">Some stories find us first</h2>
+        <p>Five enduring paths into the questions that live throughout the Journal.</p>
+      </div>
+
+      <div class="journal-feature-layout">
+        {featuredEntries.map((entry, index) => {
+          const category = featuredCategory(entry.category);
+          const artwork = entry.featureImage || {
+            src: category.image,
+            alt: category.imageAlt,
+            width: category.imageWidth,
+            height: category.imageHeight,
+          };
+          return (
+            <article class:list={['journal-feature', { 'journal-feature-primary': index === 0 }]}>
+              <a href={`/${entry.slug}`} class="journal-feature-image">
+                <img
+                  src={artwork.src}
+                  alt={artwork.alt}
+                  width={artwork.width}
+                  height={artwork.height}
+                  loading={index === 0 ? 'eager' : 'lazy'}
+                  decoding="async"
+                />
+              </a>
+              <div class="journal-feature-copy">
+                <p>{entry.categoryLabel}</p>
+                <h3><a href={`/${entry.slug}`}>{entry.title}</a></h3>
+                <p>{entry.excerpt}</p>
+                <a href={`/${entry.slug}`}>Open this volume <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="journal-shelves" aria-labelledby="journal-shelves-title">
+      <div class="journal-section-heading">
+        <p class="journal-eyebrow">Shelves of Living Wisdom</p>
+        <h2 id="journal-shelves-title">Follow the thread that glimmers</h2>
+        <p>Each shelf holds a different way of listening—to the body, the sky, the heart and the unseen.</p>
+      </div>
+
+      <div class="journal-shelf-list">
+        {shelves.map(({ category, entries: shelfEntries }, shelfIndex) => (
+          <section class:list={['journal-shelf', { 'journal-shelf-reverse': shelfIndex % 2 === 1 }]} id={`shelf-${category.slug}`}>
+            <div class="journal-shelf-art">
+              <img
+                src={category.image}
+                alt={category.imageAlt}
+                width={category.imageWidth}
+                height={category.imageHeight}
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="journal-shelf-content">
+              <p class="journal-eyebrow">{category.eyebrow}</p>
+              <h3>{category.label}</h3>
+              <p><strong>{category.question}</strong> {category.description}</p>
+              <ol>
+                {shelfEntries.map((entry) => (
+                  <li>
+                    <a href={`/${entry.slug}`}>
+                      <span>{entry.title}</span>
+                      <small>{entry.excerpt}</small>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+              <a
+                class="journal-room-link"
+                href={`/daily-tarot?room=${category.slug}#complete-index`}
+                data-journal-room-link={category.slug}
+              >Browse the complete room <span aria-hidden="true">→</span></a>
+            </div>
+          </section>
+        ))}
+      </div>
+    </section>
+
+    <section class="journal-personal" aria-labelledby="journal-personal-title">
+      <div class="journal-personal-intro">
+        <p class="journal-eyebrow">A temporary title</p>
+        <h2 id="journal-personal-title">Vanessa's Grimoire</h2>
+        <p>Stories written from the places where life, symbol and spirit meet. This is the intimate room of the library: personal essays, poems, visions and remembered thresholds.</p>
+      </div>
+      <div class="journal-personal-layout">
+        {personalEntries.map((entry, index) => (
+          <article class:list={['journal-personal-entry', { 'journal-personal-feature': index === 0 }]}>
+            {index === 0 && (
+              <img
+                src="/images/2023/10/raven.jpg"
+                alt="A raven beside a flower-crowned woman in mystical Tarot Flower artwork"
+                width="1024"
+                height="1024"
+                loading="lazy"
+                decoding="async"
+              />
+            )}
+            <div>
+              <p>{index === 0 ? 'From Vanessa’s desk' : 'A personal writing'}</p>
+              <h3><a href={`/${entry.slug}`}>{entry.title}</a></h3>
+              <p>{entry.excerpt}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+      <a
+        class="journal-room-link journal-personal-link"
+        href="/daily-tarot?room=vanessas-grimoire#complete-index"
+        data-journal-room-link="vanessas-grimoire"
+      >Enter the complete grimoire <span aria-hidden="true">→</span></a>
+    </section>
+
+    <section class="journal-tarot-bridge" aria-labelledby="journal-tarot-title">
+      <div class="journal-tarot-copy">
+        <p class="journal-eyebrow">A neighboring wing</p>
+        <h2 id="journal-tarot-title">When you are ready for the cards</h2>
+        <p>The Witch's Journal follows living questions wherever they lead. The Tarot Library offers a more structured path through the cards, archetypes and meanings.</p>
+      </div>
+      <nav class="journal-tarot-links" aria-label="Continue into the Tarot Library">
+        <a href="/tarot-card-meanings"><span>Begin the study</span><strong>Tarot Card Meanings</strong></a>
+        <a href="/major-arcana-2"><span>Walk the archetypal path</span><strong>Major Arcana</strong></a>
+        <a href="/minor-arcana"><span>Meet the everyday mysteries</span><strong>Minor Arcana</strong></a>
+        <a href="/readings-with-vanessa"><span>Receive personal reflection</span><strong>Tarot Readings with Vanessa</strong></a>
+      </nav>
+    </section>
+
+    <JournalIndex entries={entries} currentPage={1} />
+  </main>
 </Base>

@@ -6,6 +6,9 @@ date: 2022-05-18
 modified: 2022-05-18
 content_type: post
 categories: [affirmations]
+journal_category: affirmations
+journal_featured: true
+journal_feature_order: 4
 seo_title: "Affirmations for Self Love That Actually Work | Tarot Flower"
 seo_description: "Everyone is talking about self love affirmations, but how do you know they will actually work? Positive affirmations for self love are easy enough to..."
 ---

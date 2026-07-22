@@ -6,6 +6,9 @@ date: 2023-07-15
 modified: 2023-07-15
 content_type: post
 categories: [twin-flame]
+journal_category: twin-flames
+journal_featured: true
+journal_feature_order: 2
 seo_title: "What is a Twin Flame? How to Know if You've Met Your Mirror Soul | Tarot Flower"
 seo_description: "Have you met someone that you feel so incredibly connected to? Like you have known each other for lifetimes even if you just met? Is the chemistry and..."
 ---

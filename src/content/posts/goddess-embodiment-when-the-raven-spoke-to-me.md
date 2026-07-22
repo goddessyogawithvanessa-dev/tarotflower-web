@@ -6,6 +6,9 @@ date: 2023-10-07
 modified: 2023-10-09
 content_type: post
 categories: [daily-tarot]
+journal_category: vanessas-grimoire
+journal_featured: true
+journal_feature_order: 5
 seo_title: "Goddess Embodiment: When the Raven Spoke to Me | Tarot Flower"
 seo_description: "One morning, in that lucid dream state somewhere between dreaming and wakefulness, I heard a fierce tapping on my window. My body couldn’t move and my..."
 ---

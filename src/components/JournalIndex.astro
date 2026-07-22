@@ -1,0 +1,221 @@
+---
+import {
+  JOURNAL_PAGE_SIZE,
+  journalCategories,
+  type JournalEntry,
+} from '../lib/journal';
+
+interface Props {
+  entries: JournalEntry[];
+  currentPage?: number;
+}
+
+const { entries, currentPage = 1 } = Astro.props;
+const totalPages = Math.ceil(entries.length / JOURNAL_PAGE_SIZE);
+const start = (currentPage - 1) * JOURNAL_PAGE_SIZE;
+const pageEntries = entries.slice(start, start + JOURNAL_PAGE_SIZE);
+const searchData = JSON.stringify(entries.map((entry) => ({
+  slug: entry.slug,
+  title: entry.title,
+  excerpt: entry.excerpt,
+  category: entry.category,
+  categoryLabel: entry.categoryLabel,
+  relatedPathways: entry.relatedPathways,
+}))).replace(/</g, '\\u003c');
+
+const categoryLabels = Object.fromEntries(journalCategories.map((category) => [category.slug, category.label]));
+const unshelvedCount = entries.filter((entry) => entry.category === 'unshelved').length;
+
+const pageHref = (page: number) => page === 1 ? '/daily-tarot' : `/daily-tarot/page/${page}`;
+---
+
+<section class="journal-index" id="complete-index" data-journal-index>
+  <div class="journal-section-heading journal-index-heading">
+    <p class="journal-eyebrow">The Complete Index</p>
+    <h2>Search the shelves</h2>
+    <p>Every text in the living library, arranged for curiosity rather than chronology.</p>
+  </div>
+
+  <form class="journal-index-tools" data-journal-tools>
+    <label class="journal-search-field">
+      <span>Search the library</span>
+      <input type="search" name="journal-search" placeholder="A goddess, a ritual, a question…" autocomplete="off" data-journal-search />
+    </label>
+    <label class="journal-filter-field">
+      <span>Choose a room</span>
+      <select name="journal-room" data-journal-filter>
+        <option value="all">All rooms</option>
+        {journalCategories.map((category) => (
+          <option value={category.slug}>{category.label}</option>
+        ))}
+        {unshelvedCount > 0 && <option value="unshelved">Unshelved cart</option>}
+      </select>
+    </label>
+    <button type="button" class="journal-clear-filter" data-journal-clear>Clear</button>
+  </form>
+
+  <p class="journal-result-count" aria-live="polite" data-journal-count>
+    Showing {start + 1}–{Math.min(start + JOURNAL_PAGE_SIZE, entries.length)} of {entries.length} writings
+  </p>
+
+  <div class="journal-index-grid" data-journal-results>
+    {pageEntries.map((entry) => (
+      <article class="journal-index-entry">
+        <p>{entry.categoryLabel}</p>
+        <h3><a href={`/${entry.slug}`}>{entry.title}</a></h3>
+        <p>{entry.excerpt}</p>
+        {entry.relatedPathways.length > 0 && (
+          <div class="journal-related-pathways" aria-label="Related pathways">
+            <span>Related pathways</span>
+            {entry.relatedPathways.map((pathway) => (
+              <a href={`/daily-tarot?room=${pathway}#complete-index`} data-journal-room-link={pathway}>{categoryLabels[pathway]}</a>
+            ))}
+          </div>
+        )}
+      </article>
+    ))}
+  </div>
+
+  <button type="button" class="journal-load-more" hidden data-journal-more>Open more volumes</button>
+
+  {totalPages > 1 && (
+    <nav class="journal-pagination" aria-label="Witch's Journal archive pages" data-journal-pagination>
+      {currentPage > 1 && <a href={pageHref(currentPage - 1)} rel="prev">Previous shelf</a>}
+      <div>
+        {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
+          page === currentPage
+            ? <span aria-current="page">{page}</span>
+            : <a href={pageHref(page)}>{page}</a>
+        ))}
+      </div>
+      {currentPage < totalPages && <a href={pageHref(currentPage + 1)} rel="next">Next shelf</a>}
+    </nav>
+  )}
+
+  {unshelvedCount > 0 && (
+    <aside class="journal-unshelved-note">
+      <p class="journal-eyebrow">Near the librarian's desk</p>
+      <h3>The unshelved cart</h3>
+      <p>A small number of writings are resting here until a future collection gives them their natural home.</p>
+      <a href="/daily-tarot?room=unshelved#complete-index" data-journal-room-link="unshelved">View the {unshelvedCount} waiting volumes</a>
+    </aside>
+  )}
+
+  <script type="application/json" data-journal-search-data set:html={searchData}></script>
+</section>
+
+<script>
+  const escapeJournalText = (value: string) => value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
+
+  const setupJournalIndex = () => {
+    const index = document.querySelector<HTMLElement>('[data-journal-index]');
+    if (!index || index.dataset.enhanced === 'true') return;
+    index.dataset.enhanced = 'true';
+
+    const dataElement = index.querySelector<HTMLScriptElement>('[data-journal-search-data]');
+    const results = index.querySelector<HTMLElement>('[data-journal-results]');
+    const search = index.querySelector<HTMLInputElement>('[data-journal-search]');
+    const filter = index.querySelector<HTMLSelectElement>('[data-journal-filter]');
+    const clear = index.querySelector<HTMLButtonElement>('[data-journal-clear]');
+    const count = index.querySelector<HTMLElement>('[data-journal-count]');
+    const more = index.querySelector<HTMLButtonElement>('[data-journal-more]');
+    const pagination = index.querySelector<HTMLElement>('[data-journal-pagination]');
+    if (!dataElement || !results || !search || !filter || !clear || !count || !more) return;
+
+    const library = JSON.parse(dataElement.textContent || '[]') as Array<{
+      slug: string;
+      title: string;
+      excerpt: string;
+      category: string;
+      categoryLabel: string;
+      relatedPathways: string[];
+    }>;
+    let visible = 24;
+
+    const getMatches = () => {
+      const query = search.value.trim().toLocaleLowerCase();
+      const room = filter.value;
+      return library.filter((entry) => {
+        const matchesRoom = room === 'all' || entry.category === room;
+        const haystack = `${entry.title} ${entry.excerpt} ${entry.categoryLabel}`.toLocaleLowerCase();
+        return matchesRoom && (!query || haystack.includes(query));
+      });
+    };
+
+    const render = () => {
+      const matches = getMatches();
+      const shown = matches.slice(0, visible);
+      results.innerHTML = shown.map((entry) => `
+        <article class="journal-index-entry">
+          <p>${escapeJournalText(entry.categoryLabel)}</p>
+          <h3><a href="/${encodeURIComponent(entry.slug)}">${escapeJournalText(entry.title)}</a></h3>
+          <p>${escapeJournalText(entry.excerpt)}</p>
+          ${entry.relatedPathways.length ? `<div class="journal-related-pathways" aria-label="Related pathways"><span>Related pathways</span>${entry.relatedPathways.map((pathway) => {
+            const option = [...filter.options].find((item) => item.value === pathway);
+            return `<a href="/daily-tarot?room=${encodeURIComponent(pathway)}#complete-index" data-journal-room-link="${escapeJournalText(pathway)}">${escapeJournalText(option?.textContent || pathway)}</a>`;
+          }).join('')}</div>` : ''}
+        </article>
+      `).join('');
+      count.textContent = matches.length === 1
+        ? 'One writing is waiting on this shelf'
+        : `Showing ${Math.min(shown.length, matches.length)} of ${matches.length} writings`;
+      more.hidden = shown.length >= matches.length;
+      if (pagination) pagination.hidden = search.value.length > 0 || filter.value !== 'all';
+    };
+
+    const chooseRoom = (room: string, shouldScroll = true) => {
+      if (![...filter.options].some((option) => option.value === room)) return;
+      filter.value = room;
+      search.value = '';
+      visible = 24;
+      render();
+      const url = new URL(window.location.href);
+      url.searchParams.set('room', room);
+      url.hash = 'complete-index';
+      window.history.replaceState({}, '', url);
+      if (shouldScroll) index.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    document.addEventListener('click', (event) => {
+      const link = (event.target as HTMLElement).closest<HTMLAnchorElement>('[data-journal-room-link]');
+      const room = link?.dataset.journalRoomLink;
+      if (!link || !room) return;
+      event.preventDefault();
+      chooseRoom(room);
+    });
+
+    search.addEventListener('input', () => {
+      visible = 24;
+      render();
+    });
+    filter.addEventListener('change', () => {
+      visible = 24;
+      render();
+    });
+    clear.addEventListener('click', () => {
+      search.value = '';
+      filter.value = 'all';
+      visible = 24;
+      const url = new URL(window.location.href);
+      url.searchParams.delete('room');
+      window.history.replaceState({}, '', `${url.pathname}${url.search}`);
+      render();
+      search.focus();
+    });
+    more.addEventListener('click', () => {
+      visible += 24;
+      render();
+    });
+
+    const requestedRoom = new URLSearchParams(window.location.search).get('room');
+    if (requestedRoom) chooseRoom(requestedRoom, false);
+  };
+
+  setupJournalIndex();
+  document.addEventListener('astro:page-load', setupJournalIndex);
+</script>

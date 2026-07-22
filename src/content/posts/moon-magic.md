@@ -6,6 +6,9 @@ date: 2022-12-19
 modified: 2023-01-16
 content_type: post
 categories: [moonmagic]
+journal_category: moon-magic
+journal_featured: true
+journal_feature_order: 3
 seo_title: "Moon Magic for Manifestation and Abundance | Tarot Flower"
 seo_description: "Are you looking to tap into your inner power and manifest your dreams with the help of the moon? If so, you may be interested in learning more about..."
 ---
