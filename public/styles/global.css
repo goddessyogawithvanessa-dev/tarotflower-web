@@ -1761,6 +1761,196 @@ strong { color: #333; }
   color: #fff;
 }
 
+/* Homepage journey doorways */
+.homepage-doorways {
+  margin: clamp(5.5em, 10vw, 8em) 0;
+}
+.homepage-doorways-intro {
+  max-width: 700px;
+  margin: 0 auto clamp(2.6em, 5vw, 4em);
+  text-align: center;
+}
+.homepage-doorways-eyebrow,
+.homepage-readings-eyebrow {
+  margin: 0 0 0.9em;
+  color: #9b7a36;
+  font-family: 'Aboreto', serif;
+  font-size: 0.76em;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.homepage-doorways-intro h2 {
+  margin: 0 0 0.3em;
+  color: #4a2857;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.7em, 5vw, 4.2em);
+  font-weight: 300;
+  line-height: 1.05;
+}
+.homepage-doorways-intro > p:last-child {
+  margin: 0;
+  color: #765f79;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.35em, 2.3vw, 1.75em);
+  font-weight: 300;
+}
+.homepage-doorways-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(16px, 2.6vw, 30px);
+}
+.homepage-doorway {
+  position: relative;
+  min-height: clamp(390px, 43vw, 520px);
+  overflow: hidden;
+  color: #fff;
+  background: #39263f;
+  text-decoration: none;
+}
+.homepage-doorway img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  transition: transform 700ms ease;
+}
+.homepage-doorway--tarot img {
+  object-position: 50% 38%;
+}
+.homepage-doorway--rituals img {
+  object-position: 50% 50%;
+}
+.homepage-doorway--becoming img {
+  object-position: 50% 28%;
+}
+.homepage-doorway:hover img {
+  transform: scale(1.035);
+}
+.homepage-doorway-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(28, 17, 31, 0.04) 22%, rgba(28, 17, 31, 0.88) 100%);
+}
+.homepage-doorway-copy {
+  position: absolute;
+  inset: auto 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: clamp(24px, 4vw, 42px);
+}
+.homepage-doorway-copy small {
+  margin-bottom: 0.7em;
+  color: #ead6a5;
+  font-family: 'Aboreto', serif;
+  font-size: 0.68em;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.homepage-doorway-copy strong {
+  margin-bottom: 0.25em;
+  color: #fff;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2em, 3.4vw, 3em);
+  font-weight: 400;
+  line-height: 1.05;
+}
+.homepage-doorway-copy > span {
+  max-width: 500px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1em;
+  line-height: 1.55;
+}
+.homepage-doorway-copy em {
+  margin-top: 1.15em;
+  color: #fff;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 0.9em;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+/* Homepage readings chapter */
+.homepage-readings {
+  display: grid;
+  grid-template-columns: minmax(270px, 0.82fr) minmax(0, 1.18fr);
+  gap: clamp(38px, 7vw, 86px);
+  align-items: center;
+  margin: clamp(6em, 11vw, 9em) 0;
+  padding: clamp(28px, 5vw, 58px);
+  background: #f7f1e8;
+  border: 1px solid rgba(166, 124, 82, 0.25);
+}
+.homepage-readings-image {
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+}
+.homepage-readings-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  object-position: 50% 38%;
+}
+.homepage-readings-copy h2 {
+  margin: 0 0 0.35em;
+  color: #4a2857;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.6em, 4.8vw, 4em);
+  font-weight: 300;
+  line-height: 1.05;
+  text-align: left;
+}
+.homepage-readings-copy > p:not(.homepage-readings-eyebrow):not(.homepage-readings-support) {
+  margin: 0 0 0.9em;
+  font-size: 1.04em;
+  line-height: 1.8;
+}
+.homepage-readings-support {
+  margin: 0 0 0.8em;
+  color: #8b623d;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.45em, 2.4vw, 1.9em);
+  font-weight: 300;
+  line-height: 1.35;
+}
+.homepage-readings .homepage-reading-button {
+  float: none;
+  margin-top: 0.8em;
+}
+
+@media (max-width: 768px) {
+  .homepage-doorways {
+    margin: 4.5em 0;
+  }
+  .homepage-doorways-grid {
+    grid-template-columns: 1fr;
+  }
+  .homepage-doorway {
+    min-height: 430px;
+  }
+  .homepage-doorway-copy strong {
+    font-size: 2.5em;
+  }
+  .homepage-readings {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 4.8em 0;
+    padding: 22px;
+  }
+  .homepage-readings-image {
+    aspect-ratio: 1 / 1;
+  }
+  .homepage-readings-copy h2 {
+    font-size: 2.65em;
+  }
+}
+
 .homepage-digital-rituals {
   margin: 5em 0;
   padding: clamp(34px, 5vw, 58px) clamp(22px, 4vw, 46px);

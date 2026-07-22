@@ -2,89 +2,60 @@
 import Base from '../layouts/Base.astro';
 import OracleWaitlist from '../components/OracleWaitlist.astro';
 
-const majorArcana = [
-  { name: 'The Fool', slug: 'the-fool-tarot' },
-  { name: 'The Magician', slug: 'the-magician-tarot' },
-  { name: 'The High Priestess', slug: 'the-high-priestess-tarot' },
-  { name: 'The Empress', slug: 'the-empress-tarot' },
-  { name: 'The Emperor', slug: 'the-emperor-tarot' },
-  { name: 'The Hierophant', slug: 'the-hierophant-tarot' },
-  { name: 'The Lovers', slug: 'the-lovers-tarot' },
-  { name: 'The Chariot', slug: 'the-chariot-tarot' },
-  { name: 'Strength', slug: 'strength-tarot' },
-  { name: 'The Hermit', slug: 'the-hermit-tarot' },
-  { name: 'The Wheel of Fortune', slug: 'the-wheel-of-fortune-tarot' },
-  { name: 'Justice', slug: 'justice-tarot' },
-  { name: 'The Hanged Man', slug: 'the-hanged-man-tarot' },
-  { name: 'Death', slug: 'death-tarot' },
-  { name: 'Temperance', slug: 'temperance-tarot' },
-  { name: 'The Devil', slug: 'the-devil-tarot' },
-  { name: 'The Tower', slug: 'the-tower-tarot' },
-  { name: 'The Star', slug: 'the-star-tarot' },
-  { name: 'The Moon', slug: 'the-moon-tarot' },
-  { name: 'The Sun', slug: 'the-sun-tarot' },
-  { name: 'Judgement', slug: 'judgement-tarot' },
-  { name: 'The World', slug: 'the-world-tarot' },
-];
-
-const suitImg = '/images/2020/12/IMG_20201215_123548-scaled.jpg';
-const suits = [
-  { name: 'Pentacles', slug: 'pentacles-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
-  { name: 'Wands', slug: 'wands-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
-  { name: 'Swords', slug: 'swords-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
-  { name: 'Cups', slug: 'cups-tarot', img: suitImg, cards: ['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King'] },
-];
-
 const goddessEmbodimentGuideContent = [
   {
     cover: '/images/goddess-embodiment-guide-cover.jpg',
     coverAlt: 'Goddess Embodiment Ten Steps To Embody the Goddess guide cover',
   },
 ];
-const digitalRituals = [
+const homepageDoorways = [
   {
-    title: 'Ignite Your Inner Fire',
-    support: 'A digital ritual for courage & confidence',
+    title: "The Witch's Journal",
+    eyebrow: 'A Living Library',
+    invitation: 'Come wonder',
+    description: 'Stories, rituals, mythology and wisdom for the path between knowing and becoming.',
+    image: '/images/2023/10/raven.jpg',
+    imageAlt: 'A raven beside a flower-crowned woman in mystical Tarot Flower artwork',
+    width: 1024,
+    height: 1024,
+    href: '/daily-tarot',
+    tone: 'journal',
+  },
+  {
+    title: 'The Tarot Library',
+    eyebrow: 'The great archetypes of the Tarot',
+    invitation: 'Come learn',
+    description: 'Explore the Major Arcana and the four suits of the Tarot.',
+    image: '/images/2021/01/Major-Arcana-e1610542977417.jpg',
+    imageAlt: 'The Major Arcana tarot cards',
+    width: 1200,
+    height: 1294,
+    href: '/tarot-card-meanings',
+    tone: 'tarot',
+  },
+  {
+    title: 'Digital Rituals',
+    eyebrow: 'Elemental practices for your becoming',
+    invitation: 'Come experience',
+    description: 'A collection of digital rituals for courage, healing, clarity, and grounding.',
     image: '/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg',
     imageAlt: 'Fire goddess beneath a golden moon, surrounded by flames and flowers',
-    href: '/step-into-the-fire',
-    cta: 'Ignite',
-    crop: 'fire',
+    width: 1600,
+    height: 500,
+    href: '/shop',
+    tone: 'rituals',
   },
   {
-    title: 'Flow with the Goddess',
-    support: 'A digital ritual for healing & sensuality',
-    image: '/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg',
-    imageAlt: 'Water goddess flowing beneath the moon among golden flowers and fish',
-    href: '/flow-like-the-goddess',
-    cta: 'Flow',
-    crop: 'water',
-  },
-  {
-    title: 'Awaken the Element of Air',
-    support: 'A digital ritual for clarity & intuition',
-    image: '/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg',
-    imageAlt: 'Air goddess with luminous wings beneath a golden sky',
-    href: '/awaken-the-element-of-air',
-    cta: 'Breathe',
-    crop: 'air',
-  },
-  {
-    title: 'Root Into the Earth',
-    support: 'A digital ritual for stability & belonging',
-    image: '/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg',
-    imageAlt: 'Earth goddess beneath the moon in a dark enchanted forest',
-    href: '/root-into-the-earth',
-    cta: 'Ground',
-    crop: 'earth',
-  },
-];
-const sacredBecomingCoachingContent = [
-  {
-    portrait: '/images/homepage/vanessa-hylande-sacred-becoming-960.png',
-    portraitSrcset: '/images/homepage/vanessa-hylande-sacred-becoming-480.png 480w, /images/homepage/vanessa-hylande-sacred-becoming-720.png 720w, /images/homepage/vanessa-hylande-sacred-becoming-960.png 960w, /images/homepage/vanessa-hylande-sacred-becoming-1324.png 1324w',
-    portraitSizes: '(max-width: 768px) calc(100vw - 36px), min(43vw, 493px)',
-    portraitAlt: 'Vanessa Hylande for Sacred Becoming coaching',
+    title: 'Sacred Becoming',
+    eyebrow: 'Embodiment · Integration · Creation · Together',
+    invitation: 'Come transform',
+    description: "Walk beside me, and together we'll build the practices that support the life you want to create.",
+    image: '/images/homepage/vanessa-hylande-sacred-becoming-960.png',
+    imageAlt: 'Vanessa Hylande for Sacred Becoming mentorship',
+    width: 960,
+    height: 861,
+    href: '/sacred-becoming/mentorship',
+    tone: 'becoming',
   },
 ];
 const sacredBecomingOracleDeckContent = [
@@ -93,9 +64,6 @@ const sacredBecomingOracleDeckContent = [
     artworkAlt: 'Creation card artwork from The Sacred Becoming Oracle',
   },
 ];
-function cardSlug(rank: string, suit: string) {
-  return `${rank.toLowerCase()}-of-${suit.toLowerCase()}-tarot`;
-}
 ---
 <Base title="Tarot Flower – Learn Tarot Online with Meaningful Insight" description="A modern guide to learn tarot online! Discover intuitive card meanings, spreads, rituals, and spiritual wisdom through the sacred art of tarot.">
   <div class="container homepage">
@@ -110,10 +78,9 @@ function cardSlug(rank: string, suit: string) {
         <p>Welcome, beautiful soul. ✨ You’ve arrived at Tarot Flower — a sanctuary for seekers, mystics, and modern goddesses who are ready to deepen their connection with tarot, astrology, and spiritual ritual.</p>
         <p>Whether you’re just starting your journey or you’ve been walking the path for years, I created this space for you.</p>
         <p class="homepage-introduction-signature">— Vanessa</p>
-        <a class="homepage-reading-button" href="/readings-with-vanessa/">Book a Reading with Vanessa</a>
       </div>
       <div class="homepage-introduction-photo">
-        <img src="/images/homepage/vanessa-hooded-tarot.png" alt="Vanessa Hylande holding a tarot card" />
+        <img src="/images/homepage/vanessa-hooded-tarot.png" alt="Vanessa Hylande holding a tarot card" width="1254" height="1254" />
       </div>
     </section>
 
@@ -122,7 +89,7 @@ function cardSlug(rank: string, suit: string) {
         {goddessEmbodimentGuideContent.map(({ cover, coverAlt }) => (
           <div class="goddess-guide">
             <div class="goddess-guide-cover">
-              <img src={cover} alt={coverAlt} loading="lazy" />
+              <img src={cover} alt={coverAlt} width="1414" height="2000" loading="lazy" decoding="async" />
             </div>
             <div class="goddess-guide-copy">
               <p class="goddess-guide-eyebrow">Your Free Gift</p>
@@ -139,73 +106,56 @@ function cardSlug(rank: string, suit: string) {
       </section>
     )}
 
-    <section id="homepage-digital-rituals" class="homepage-digital-rituals">
-      <div class="homepage-digital-rituals-intro">
-        <h2>Digital Rituals</h2>
-        <p class="homepage-digital-rituals-subheading">Elemental practices for your becoming</p>
-        <p>A collection of digital rituals for courage, healing, clarity, and grounding.</p>
-        <p class="homepage-digital-rituals-invitation">Choose the element that calls to you.</p>
-        <p class="homepage-digital-rituals-ornament" aria-hidden="true">☽⋆˚｡𖤓｡˚⋆☾</p>
+    <section class="homepage-doorways" aria-labelledby="homepage-doorways-title">
+      <div class="homepage-doorways-intro">
+        <p class="homepage-doorways-eyebrow">Tarot Flower</p>
+        <h2 id="homepage-doorways-title">Choose your doorway</h2>
+        <p>Which room are you walking into?</p>
       </div>
 
-      <div class="homepage-digital-ritual-features" aria-label="Every Digital Ritual includes">
-        <div>
-          <i class="fa-solid fa-person-praying" aria-hidden="true"></i>
-          <span>Guided Practices</span>
-        </div>
-        <div>
-          <i class="fa-solid fa-music" aria-hidden="true"></i>
-          <span>Original Music</span>
-        </div>
-        <div>
-          <i class="fa-solid fa-moon" aria-hidden="true"></i>
-          <span>Meditation</span>
-        </div>
-        <div>
-          <i class="fa-solid fa-seedling" aria-hidden="true"></i>
-          <span>Deep Inner Work</span>
-        </div>
-      </div>
-
-      <div class="homepage-digital-ritual-grid">
-        {digitalRituals.map(({ title, support, image, imageAlt, href, cta, crop }) => (
-          <article class={`homepage-digital-ritual homepage-digital-ritual--${crop}`}>
-            <a class="homepage-digital-ritual-image" href={href}>
-              <img src={image} alt={imageAlt} loading="lazy" />
-            </a>
-            <h3><a href={href}>{title}</a></h3>
-            <p>{support}</p>
-            <a class="digital-ritual-button" href={href}>{cta}</a>
-          </article>
+      <div class="homepage-doorways-grid">
+        {homepageDoorways.map(({ title, eyebrow, invitation, description, image, imageAlt, width, height, href, tone }) => (
+          <a class={`homepage-doorway homepage-doorway--${tone}`} href={href}>
+            <img src={image} alt={imageAlt} width={width} height={height} loading="lazy" decoding="async" />
+            <span class="homepage-doorway-shade" aria-hidden="true"></span>
+            <span class="homepage-doorway-copy">
+              <small>{eyebrow}</small>
+              <strong>{title}</strong>
+              <span>{description}</span>
+              <em>{invitation} <span aria-hidden="true">→</span></em>
+            </span>
+          </a>
         ))}
       </div>
     </section>
 
-    {sacredBecomingCoachingContent.length > 0 && (
-      <section id="homepage-sacred-becoming-coaching" class="sacred-becoming-section">
-        {sacredBecomingCoachingContent.map(({ portrait, portraitSrcset, portraitSizes, portraitAlt }) => (
-          <div class="sacred-becoming">
-            <div class="sacred-becoming-portrait">
-              <img src={portrait} srcset={portraitSrcset} sizes={portraitSizes} alt={portraitAlt} loading="lazy" />
-            </div>
-            <div class="sacred-becoming-copy">
-              <p class="sacred-becoming-kicker">Sacred Becoming</p>
-              <h2>Are you <em>becoming</em>... or are you stuck?</h2>
-              <p class="sacred-becoming-body">Walk beside me, and together we'll build the practices that support the life you want to create.</p>
-              <p class="sacred-becoming-pillars">Embodiment &bull; Integration &bull; Creation &bull; Together</p>
-              <a class="sacred-becoming-cta" href="/sacred-becoming/mentorship">Discover Sacred Becoming</a>
-            </div>
-          </div>
-        ))}
-      </section>
-    )}
+    <section class="homepage-readings" aria-labelledby="homepage-readings-title">
+      <div class="homepage-readings-image">
+        <img
+          src="/images/readings-with-vanessa/vanessa-shuffling-teal-tarot-cards.png"
+          alt="Vanessa smiling while shuffling teal tarot cards"
+          width="947"
+          height="1661"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="homepage-readings-copy">
+        <p class="homepage-readings-eyebrow">Tarot Readings</p>
+        <h2 id="homepage-readings-title">Readings with Vanessa</h2>
+        <p class="homepage-readings-support">Personal tarot readings for clarity, reflection, and guidance.</p>
+        <p>A tarot reading is a space to pause, look more deeply, and listen to what is asking for your attention.</p>
+        <p>Together, we'll explore the cards, the patterns unfolding around you, and the possibilities available to you now.</p>
+        <a class="homepage-reading-button" href="/readings-with-vanessa/">Book a Reading with Vanessa</a>
+      </div>
+    </section>
 
     {sacredBecomingOracleDeckContent.length > 0 && (
       <section id="homepage-sacred-becoming-oracle" class="sacred-oracle-section">
         {sacredBecomingOracleDeckContent.map(({ artwork, artworkAlt }) => (
           <div class="sacred-oracle">
             <div class="sacred-oracle-art">
-              <img src={artwork} alt={artworkAlt} loading="lazy" />
+              <img src={artwork} alt={artworkAlt} width="1085" height="1535" loading="lazy" decoding="async" />
             </div>
             <div class="sacred-oracle-copy">
               <p class="sacred-oracle-eyebrow">COMING SOON</p>
@@ -218,45 +168,6 @@ function cardSlug(rank: string, suit: string) {
         ))}
       </section>
     )}
-
-    <section id="homepage-tarot-library" class="tarot-library">
-      <section class="arcana-section">
-        <h2>The Major Arcana</h2>
-        <h3 class="arcana-subtitle">The great archetypes of the Tarot</h3>
-        <div class="arcana-layout">
-          <div class="arcana-left">
-            <a href="/major-arcana-2" class="suit-img-link">
-              <img src="/images/2021/01/Major-Arcana-e1610542977417.jpg" alt="The Major Arcana tarot cards" />
-            </a>
-          </div>
-          <div class="arcana-right">
-            {majorArcana.map(card => (
-              <a href={`/${card.slug}`}>{card.name}</a>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section class="arcana-section">
-        <h2>The Minor Arcana</h2>
-        <h3 class="arcana-subtitle">The four suits of the Tarot</h3>
-        <div class="suits-grid">
-          {suits.map(suit => (
-            <div class="suit-col">
-              <h3 class="suit-title"><a href={`/${suit.slug}`}>{suit.name}</a></h3>
-              <a href={`/${suit.slug}`} class="suit-img-link">
-                <img src={suit.img} alt={`${suit.name} tarot cards`} loading="lazy" />
-              </a>
-              <div class="suit-cards">
-                {suit.cards.map(rank => (
-                  <a href={`/${cardSlug(rank, suit.name)}`}>{rank} of {suit.name}</a>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-    </section>
 
   </div>
 
