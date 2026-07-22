@@ -18,7 +18,7 @@ If you're still reading, you must realize that you're stressed and that you need
 
 ## How is a Dance Embodiment Practice Different?
 
-The Goddess Yoga embodiment yoga and dance retreats will spark joy in your life through the **arts** and **playfulness**. I'm sure you've noticed that when you are presented with things that bring you joy and happiness, you usually don’t need motivation or discipline. And that is how our method differs from the other embodiment courses out there.
+Dance embodiment can spark joy in your life through the **arts** and **playfulness**. I'm sure you've noticed that when you are presented with things that bring you joy and happiness, you usually don’t need motivation or discipline. And that is how this method differs from other embodiment practices.
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/11/jpg_20211111_184422_0000-1024x1024.jpg)
 
@@ -34,20 +34,6 @@ Dance is the best method of achieving embodiment, because it engages so many fac
 
 Using dance as your embodiment practice will allow you to balance and interconnect the voice of the mind, the messages of your heart and emotional world, along with your rational mind and your **intuition**. It is the most holistic practice there is, and will positively impact every aspect of your life.
 
-Make your life a living work of art so that you can bring joy and beauty everywhere you go. Our embodiment yoga and dance retreats will take you through each chakra with spiritual and inspirational music, guided visual meditations, journaling exercises, inspirational Goddess stories, and most importantly original choreography that we have crafted to bring your whole beautiful self into alignment physically, emotionally, mentally and spiritually.
-
-## Discover the Embodied Goddesses Method at Goddess Yoga Retreats
-
 The Embodied Goddesses method begins with a daily practice warm up designed to strengthen and stretch your entire body. Then, each module focuses on healing, liberating and nourishing one particular chakra with original dance choreography. The movements are inspired by the spirit animals associated with each chakra, and every chakra dance includes a “free dance” section at the end, where you can express yourself freely in any way that feels good and joyful to you. This is similar to ecstatic dance, but much more refined in its objective.
 
 Each module of the embodiment dance method is inspired by a Goddess and her archetypal wisdom and complemented by a selection of chakra healing crystals, flowers, supportive essential oils, incenses and candles. By dancing, meditating and journaling inside each of the beautiful Goddess Circles, you can learn to bring all five elements of your existence into loving harmony.
-
-## Sharing the Joy of Dance With the World
-
-Want to experience embodiment dance, yoga and somatics live in beautiful Lago d'Orta, Italy this summer? Early bird registration is now open!
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
-
-*Live events coming soon to: Huntington Beach, La Jolla, and the greater Los Angeles Area, California, 92648, 92037, 90035, 90209, 90210, 90211, 90212, 90213*

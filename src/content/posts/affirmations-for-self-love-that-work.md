@@ -40,15 +40,9 @@ When we say affirmations, they only exist on the conscious level. The mind can�
 
 The affirmations and the ways in which you can implement them in your everyday life have been carefully curated by us to correspond with, enhance and support each of the positive energies from our meditations, journaling exercises and dance sessions. Think of it like an anchor - especially if you find yourself in a challenging energy, just think back on your affirmation and bring the positive energies back into your energetic field.
 
-When affirmations don’t work, it's because we aren't invested enough in our process. It is a journey of self discovery that won't happen overnight. At Goddess Yoga retreats, we will be using affirmations to reinforce and support all of the inner work we are doing! You will discover a trove of beautiful, spiritual self love affirmations that will allow your heart chakra to blossom over time.
-
-Ready to learn what manifestation is and how you can manifest love and abundance in your life? We will also use affirmations for confidence and abundance in our embodiment retreats!
+When affirmations don’t work, it's because we aren't invested enough in our process. It is a journey of self discovery that won't happen overnight.
 
 ## How to Manifest Love and Abundance
-
-Are you ready to glow up through yoga, dance and embodiment practices? Join us at our mystical yoga, dance and somatics retreats and become a goddess of dance. Delve into **chakra dances**, **guided meditations for anxiety**, tools to **manifest love** and abundance, worksheets for you to practice **journaling online**, and even **healthy recipes to help you lose weight** and feel beautiful.
-
-Our Goddess Yoga retreats are one of a kind because they are also a spiritual experience that will teach you how to master **the law of attraction**, **manifestation affirmations** and how to use them, and how to **embody the goddess** in your everyday life. You will receive lots of quotes on **intuition**, lessons on what intuition means, and how to listen to your gut intuition so that you can live a more elevated and joyful life.
 
 Ready to learn what manifestation is and how to create abundance through dance and feminine embodiment practices? Together we will show you how to create the sacred space with energetic clearing, beautifying everything around you, so that you can begin a journey of self discovery.
 

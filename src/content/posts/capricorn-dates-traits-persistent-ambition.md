@@ -16,8 +16,6 @@ Capricorn is an Earth sign that falls between **December 22 and January 19.** Pe
 
 Capricorns are known for their determined and ambitious personality. They are highly organized, reliable, and focused on their long-term plans. They possess a natural ability to strategize and make practical decisions. Capricorns are responsible and dedicated individuals who value tradition and respect authority. They have a strong sense of duty and often take on leadership roles. While they can be serious and reserved, Capricorns also have a dry sense of humor and can surprise others with their wit. They value stability and security, both in their personal and professional lives, and are willing to put in the necessary effort to achieve it.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Capricorn Dates & Traits Quick Facts
 
 * **Dates:** December 22 - January 19
@@ -174,16 +172,6 @@ However, the association between Capricorn and the Devil card also highlights th
 Ultimately, the connection between Capricorn and the Devil card highlights the importance of self-mastery and the need for Capricorns to navigate the temptations and constraints of the material world while staying true to their higher values and spiritual growth. By embracing their inner wisdom and using their ambition and discipline for positive purposes, Capricorns can transcend the limitations represented by the Devil card and achieve their goals with integrity and authenticity.
 
 ## Want to Learn How to Embody Astrology and Tarot?
-
-Join us at our [Mystical Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) and learn how to embody the Tarot as you journey into your divine feminine.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
 
 *aries and capricorn compatibility  
 taurus and capricorn compatibility  

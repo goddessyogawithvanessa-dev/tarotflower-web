@@ -20,7 +20,7 @@ Gently walk with your heart and **authenticity**, your truth, and really own it 
 
 ## Aphrodite the Goddess of Love
 
-As the Greek Goddess of love, Aphrodite will teach you how to listen to the whispers of your heart. In our Goddess Yoga live retreats, we will teach you how to find your own inner heart whisper. Then, as you reconnect with your heart chakra and your own **self-love and love for others**, the Goddess Aphrodite will become embodied in you.
+As the Greek Goddess of love, Aphrodite will teach you how to listen to the whispers of your heart. As you reconnect with your heart chakra and your own **self-love and love for others**, the Goddess Aphrodite will become embodied in you.
 
 ![Aphrodite goddess of love](http://embodiedgoddesses.com/wp-content/uploads/2022/01/92-1024x1024.jpg)
 
@@ -30,7 +30,7 @@ But as we grow up and we learn things - and we are conditioned - we start to que
 
 ## Why We Should Listen to the Voice of the Heart
 
-So, why is it important to listen to the voice of the heart? It is the **first step to aligning to your identity**, the first step to **manifestation,** your first step to **alignment**, to finding your **desires**, your **truths**. That is why it is so critical to come into that heart space and really connect to that loving place, so that we become the observers of our thoughts, our past, our conditioning, and our programming. It is the a fundamental part of [Goddess embodiment - connecting to your inner divine feminine](https://goddess-yoga-retreat.com/goddess-embodiment-your-divine-feminine/).
+So, why is it important to listen to the voice of the heart? It is the **first step to aligning to your identity**, the first step to **manifestation,** your first step to **alignment**, to finding your **desires**, your **truths**. That is why it is so critical to come into that heart space and really connect to that loving place, so that we become the observers of our thoughts, our past, our conditioning, and our programming. It is a fundamental part of [Goddess embodiment—connecting to your inner divine feminine](/goddess-embodiment-your-divine-feminine).
 
 ## Goddess of the Heart Chakra
 
@@ -45,8 +45,6 @@ We must always hold ourselves in the beauty and love of the radiant heart in ord
 ## Journey to Your Blossoming Heart
 
 ![heart chakra blossoming heart embodied goddesses](http://embodiedgoddesses.com/wp-content/uploads/2021/07/1.png)
-
-In the Goddess Yoga live retreats, we will journey through each chakra as we heal, liberate and nurture our inner landscape. As we explore our Blossoming Heart, we will reconnect you with your inner light and love as you practice **embodiment dance**, **guided meditations, heart chakra affirmations** and more. Based on the Embodied Goddesses method, the journey will:
 
 > "The focus of this module is finding our inner light, our true identity, through our love, what we love, and what makes us feel love through giving love. It is really important to do this because our heart center is going to be our anchor, our safe place that we can always come back to, especially when we start doing some deeper shadow work later on. Then we always know that we can return to this place. That is going to make us feel very safe and secure as we move forward in this course."
 >
@@ -90,7 +88,7 @@ Music by Vanessa Hylande, Narrated by Jessica Angileri
 
 How would you make your **Aphrodite Goddess circle**? What would you use to create a sacred space that represents and invites the elements of the Goddess of love?
 
-In the Goddess Yoga live retreats, we will share with you the **flowers, crystals, essential oils, incenses, and the Goddess water recipes** that you can use to create your beautiful love sanctuary.
+Consider the **flowers, crystals, essential oils, incenses, and Goddess water recipes** you might use to create your beautiful love sanctuary.
 
 We will also teach you how to make a beautiful Goddess circle in honor of the Goddess Aphrodite, so that you can dance and manifest love and abundance within its boundaries. Is there one right way to do this? No, of course not. But we will share our favorites with you that you can use for inspiration and experimentation.
 
@@ -116,14 +114,8 @@ When you do affirmations you are consciously taking the time to choose words to 
 
 When we say affirmations, they only exist on the conscious level. The mind can’t hold all of the answers. You only believe your words if they come from your really feeling them. This is why we will support this notion throughout the course with embodiment practices to really reinforce the dialogue within the body. To then have a deep cellular knowing that you are enough or you are love. Your “deep knowing” lies in the feeling that is within the body.
 
-If we want to radiate self love and beauty the way that the Goddess Aphrodite does, then we need to learn how to embody these heart chakra affirmations. In the Blossoming Heart module, we will teach you exactly how to do this, so that you can liberate all of the love in your heart.
+If we want to radiate self love and beauty the way that the Goddess Aphrodite does, then we need to learn how to embody these heart chakra affirmations.
 
 ## Aphrodite Goddess Embodiment
 
 We are all human, and sometimes we inadvertently use our heart or our emotions in a negative way for validation or to seek love. But that is because we are not checking in with our **authenticity**. We haven’t been given the tools and we don’t know how. But that is why we are here! We are going to **give you those tools**. Are you ready? We are! Are you ready to really check in with your heart space and let your inner child come through?
-
-Goddess Yourself with our beautiful live Goddess Yoga retreats, based on the Embodied Goddesses method. Join us in using embodiment dance to achieve goddess embodiment for all of our beautiful students. Enjoy guided visual meditations, chakra healing dances, journaling exercises and worksheets, affirmations, recipes for healthy living and so much more! Learn how to **manifest a life of abundance and joy** the divine feminine way!
-
-**Join us for your Glow Up at our live mystical yoga, dance and somatics wellness retreat for women in Italy this summer! U****nleash your inner divine goddess at this all-inclusive magical event!**
-
-*Live events coming soon to*: *The Greater Dallas Area, Texas, 75205, 75209, 75219, 75283, 75284, 75391*

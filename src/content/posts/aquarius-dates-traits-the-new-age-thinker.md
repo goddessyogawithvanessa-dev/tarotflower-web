@@ -30,8 +30,6 @@ Overall, Aquarius individuals bring a fresh perspective and a sense of forward-t
 * Tarot Card: The Star, The Fool
 * Personality Traits: Independent, Innovative, Intellectual, Open-minded, Humanitarian
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Aquarius Personality at a Glance
 
 ![the fool tarot card meaning major arcana , aquarius zodiac, Midjourney art by Vanessa Hylande](/images/2021/01/fool-6.jpg)
@@ -192,15 +190,3 @@ The Star card is a symbol of renewal and optimism. It signifies a period of heal
 In the context of the Fool card in the Rider-Waite deck, the symbolism is closely related to the journey of the Fool, who is represented as a carefree wanderer setting off on a new adventure. The Fool represents the pure potential and innocence of a new beginning. Similarly, the Star card carries a sense of fresh starts and unlimited possibilities. It encourages us to embrace our authenticity, follow our intuition, and take risks with a sense of trust and optimism.
 
 The Fool and the Star both invite us to embrace our unique path and venture into the unknown with a sense of curiosity and open-mindedness. They remind us to be guided by our inner wisdom and to have faith in our journey, even when faced with uncertainty. Both cards hold a message of hope and remind us that the universe supports us as we navigate our personal growth and spiritual evolution.
-
-## Want to Learn More about Astrology and Tarot?
-
-Join us at our [Mystical Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) and learn how to embody the Tarot as you journey into your divine feminine.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!

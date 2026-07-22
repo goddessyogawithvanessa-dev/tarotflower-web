@@ -26,8 +26,6 @@ As the Mother Goddess, Yemaya nurtures and protects all living beings, just as s
 
 Yemaya also represents the power of emotions and intuition. She guides us to explore the depths of our own emotions and to trust our inner knowing. By honoring our feelings and allowing them to flow, we can gain valuable insights and connect with our true selves. Yemaya reminds us that vulnerability is not a weakness but a strength that allows us to grow and evolve.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 In the presence of Yemaya, we are encouraged to dive deep into the well of our own souls and uncover our hidden treasures. She invites us to explore our dreams, desires, and passions, and to express ourselves authentically. By embracing our uniqueness and listening to the whispers of our hearts, we align with the creative energy of Yemaya and discover the power within us to manifest our dreams.
 
 Ultimately, Yemaya's archetype inspires us to embrace our own divine femininity, to nurture ourselves and others, and to trust in the cycles of life. She teaches us that by honoring our emotions, embracing change, and staying connected to our intuition, we can find harmony and balance in all aspects of our lives. Let the guiding light of Yemaya illuminate your path as you navigate the vast ocean of existence, knowing that you are supported, loved, and protected on your journey.
@@ -67,27 +65,3 @@ Yemaya encourages self-expression and creativity. Engage in activities that allo
 Yemaya's energy is deeply connected to motherhood and nurturing. Cultivate relationships that allow you to embody these qualities, whether by nurturing your own children, supporting loved ones, or volunteering in your community. Embrace acts of kindness and compassion, and let the love and care you offer ripple out into the world.
 
 By embracing these practices, you can align yourself with the energy of the goddess Yemaya and awaken the nurturing and intuitive aspects of your being. Remember, embodying a goddess is a personal and unique journey, so trust your intuition and allow Yemaya's loving guidance to lead you on your path of self-discovery and empowerment.
-
-## Channel Yemaya at Goddess Yoga Retreats
-
-Join us for [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/) in beautiful Lago d’Orta, Italy where we will embody the Goddess Yemaya and other inspirational Goddesses.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
-
-*goddess tarot  
-goddess oracle  
-goddess card  
-goddess oracle cards  
-goddess oracle deck  
-yemaya  
-goddess yemaya  
-goddess tarot deck  
-the goddess tarot  
-goddess tarot cards  
-yemaya story*

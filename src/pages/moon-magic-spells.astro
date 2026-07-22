@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import EvergreenEditorialJourney from '../components/EvergreenEditorialJourney.astro';
 import { getCollection, render } from 'astro:content';
 
 const posts = await getCollection('posts');
@@ -137,6 +138,8 @@ function formatCategories(cats: string[]): string {
         </article>
       </div>
     </section>
+
+    <EvergreenEditorialJourney ritual="flow" showFeatured={false} />
   </div>
   <script>
     const content = document.querySelector('.moon-magic-content');

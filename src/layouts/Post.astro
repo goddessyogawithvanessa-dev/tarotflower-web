@@ -1,6 +1,8 @@
 ---
 import Base from './Base.astro';
 import CardEditorialJourney from '../components/CardEditorialJourney.astro';
+import EvergreenEditorialJourney from '../components/EvergreenEditorialJourney.astro';
+import { evergreenJourneyBySlug } from '../data/evergreenJourneys';
 
 const { title, slug, date, categories = [], original_url, seo_title, seo_description, seo_image, seo_image_alt, seo_image_width, seo_image_height } = Astro.props;
 const pageTitle = seo_title || title;
@@ -114,6 +116,7 @@ const wandsJourneyBySlug: Record<string, {
   'king-of-wands-tarot': { featuredTitle: 'Step Into the Fire', featuredSubtitle: 'A Digital Ritual for courage and confidence', featuredDescription: 'Bring creative fire into mature leadership. This ritual supports the courage to set a direction, inhabit your values, and make room for others to contribute.', featuredHref: '/step-into-the-fire', featuredButtonText: 'Ignite', featuredImage: '/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg', featuredImageAlt: 'Fire goddess beneath a golden moon, surrounded by flames and flowers', nextCardTitle: 'Ace of Wands', nextCardHref: '/ace-of-wands-tarot', nextCardDescription: 'Complete the suit, then return to the first spark with deeper wisdom about how creative fire is tended.' }
 };
 const wandsJourney = wandsJourneyBySlug[slug];
+const evergreenJourney = evergreenJourneyBySlug[slug];
 ---
 <Base
   title={pageTitle}
@@ -566,6 +569,9 @@ const wandsJourney = wandsJourneyBySlug[slug];
           guideHref="/wands-tarot"
           guideDescription="Explore all 14 Wands cards and the suit’s journey through inspiration, courage, action, and creative power."
         />
+      )}
+      {evergreenJourney && !cupsJourney && !pentaclesJourney && !swordsJourney && !wandsJourney && (
+        <EvergreenEditorialJourney {...evergreenJourney} />
       )}
     </div>
   </div>

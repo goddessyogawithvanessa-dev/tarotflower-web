@@ -37,11 +37,3 @@ Lunar eclipses can be a powerful time to tap into your divine feminine energy an
 4. Practice Gratitude: Gratitude is an important part of any spiritual practice. During a lunar eclipse, take time to pause and give thanks for the blessings in your life. Focus on the positive and be thankful for the good things you have.
 
 5. Connect with the Moon: Spend some time connecting with the energy of the moon during the eclipse and practice your [moon magic](https://tarotflower.com/spellcasting/moon-magic/). Gaze at the moon and feel her energy. Listen to her song and let her light fill your body with peace and renewal. These are just a few ideas for lunar eclipse rituals to awaken your divine feminine energy. Make sure to give yourself plenty of time to relax and connect with the divine before and after the eclipse. Enjoy the journey and let the lunar eclipse remind you of the goddess within.
-
-## Join Us for Live Lunar Eclipse Rituals
-
-![goddess yoga retreat awaken your divine feminine](/images/2022/12/Goddess-Yoga-1.jpg)
-
-Interested in experiencing a lunar eclipse ritual with other fellow goddesses? We will offer full moon rituals, lunar eclipse rituals, goddess circles, tarot yoga and goddess embodiment dance at our upcoming Goddess Yoga retreat in Lago d'Orta Italy, summer 2023.
-
-Join us to awaken your divine feminine as we meditate, practice daily goddess yoga, embodiment dance, women's circles, body work, ritual and more!

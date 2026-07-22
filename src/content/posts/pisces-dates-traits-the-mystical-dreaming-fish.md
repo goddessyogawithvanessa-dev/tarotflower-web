@@ -29,8 +29,6 @@ Overall, Pisces is a water sign that brings depth, empathy, and creativity to th
 * **Planet associated with Pisces:** [Neptune](https://spaceplace.nasa.gov/all-about-neptune/en/)
 * **Traits of Pisces:** • Compassionate and empathetic • Highly creative and imaginative • Intuitive and wise • Adaptable and open-minded • Caring and understanding • Sensitive and romantic
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Pisces personality quick facts
 
 ![pisces dates and traits astrology zodiac sign Midjourney art by Vanessa Hylande](/images/2023/04/pisces-3.jpg)
@@ -193,28 +191,3 @@ The Tarot is a powerful system of symbols and archetypes, and the zodiac sign Pi
 The Moon card is an invitation to explore the depths of the soul. It is a reminder that we must be willing to venture into the unknown and trust our intuition. As we look into the depths of ourselves, we can uncover the hidden mysteries and depths of our being.
 
 Pisces is a sign of compassion, creativity, and transformation. When this sign is represented in the Tarot, it is a sign to tap into the creative energy that lies within, and to trust in our inner knowing. The Moon card speaks to the power of the subconscious, and how we can use it to access deeper levels of knowledge and understanding.
-
-## Embody the Tarot and Mystical Pisces at Goddess Yoga Retreats!
-
-Discover the magic of [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/), where we explore the mystical arts of tarot, astrology, goddess invocation, yoga, dance, meditation and do much more.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/Sbbi6Nvb4TU" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
-
-*aries and pisces compatibility  
-leo and pisces compatibility  
-libra and pisces compatibility  
-virgo and pisces compatibility  
-pisces and cancer compatibility  
-gemini and pisces compatibility  
-taurus and pisces compatibility  
-scorpio and pisces compatibility*
-
-*sagittarius and pisces  
-capricorn and pisces  
-aquarius and pisces*

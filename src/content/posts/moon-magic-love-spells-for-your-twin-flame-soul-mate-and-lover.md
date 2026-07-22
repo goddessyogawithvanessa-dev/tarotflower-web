@@ -16,8 +16,6 @@ Feeling a little stuck in love lately? Give these moon magic love spells a shot 
 
 But don't worry - a love spell might be the answer for you! It's not dangerous or risky if you do it the right way. What’s more, it can really turn things around when there's something blocking you from finding the one you're meant to be with. So why not give it a shot - you never know what could happen! So, if you think you could use a little extra fire in your love life, check out our beautiful free love spells!
 
-**Enjoy spell casting and more at our live mystical yoga, dance and wellness retreat for women in Italy this summer!**
-
 ## What are love spells actually? Are they real?
 
 ![moon magic love spells twin flame soul mate](/images/2023/02/44.jpg)
@@ -254,11 +252,5 @@ Generally, the more complicated a spell is, the longer it will take to manifest.
 **I’m not sure which kind of love spell to cast. How do I choose?**
 
 First determine what kind of magic you are comfortable with and how risky you are willing to be, keeping in mind the law of threefold return. And do your homework! Different spells are better for different situations.
-
-Need some support and guidance on your twin flame or soul mate journey? Join us in Lago d'Orta, Italy this summer for our mystical yoga and embodiment dance retreat. We will explore the tarot, practice rituals for abundance of all kinds, and pamper ourselves with body work, daily yoga, dance and great food.
-
-**Embody the sexy, alluring and abundant Empress at our live mystical yoga, dance and somatics wellness retreat for women in Italy this summer! U****nleash your inner divine goddess at this all-inclusive magical event!**
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *spiritual twin, twin flame, twin flame connection, twin flame is, twin flame love, twin flame meaning, twin flame relationship, twin flame signs, twin flame soulmate, twin flames meaning, twin soul, twin flame connection, white magic spells, witchcraft spells, love spells that really work, how to cast, love spells, free love spells, free spells, full moon spells*

@@ -44,14 +44,6 @@ I created the Goddess Yoga and Embodiment methods to heal myself, and have been 
 
 I’m a **RYT200 certified yoga instructor**, former ballet dancer at the **Metropolitan Opera in NYC** and also a professional, **classically trained opera singer**. But most of all, I am a woman, a mother of four, who has experienced the deepest betrayal and grief, but found my way back to a life of joy, friendship, community and unconditional love.
 
-So, are you ready to unleash your badass self and embody your inner sexy, strong, beautiful, powerful goddess?!!!
-
-I’m so, so excited to finally bring this beautiful Goddess Embodiment method online for you! I know that for a lot of you it’s not easy to get away for a week-long retreat in another part of the world. Plus, I’ve also heard over and over from my students that one-on-one support and connection is what they need the most during their toughest challenges. With this online program, I can give you that personalized attention that you won’t find in a group setting.
-
-Together we will create the perfect yoga and dance inspired fitness routine just for you that you can take with you forever. We will practice together (every day if you want) so that I can share my years of wisdom and experience regarding the body, movement, elegance and grace. We will connect with the goddess together to discover the channeled messages that are waiting to reach you. I am also a medium and am able to connect with passed on loved ones if you are grieving a loss. I will support you through your own **self-healing journey** as you begin your shadow work, with original, **personalized sound bath meditations**, **journaling exercises** and one-on-one sessions where we can talk about your discoveries and dreams. And most importantly, I will open the door to you to join the most beautiful community of like minded women who are on the same path of ascension.
-
-Obviously, I can only take a limited number of students per month, so sign up for your free consultation now before spaces fill up! We will talk about your dreams, challenges and pull some tarot cards to see what we can do together to unleash the goddess within you!
-
 ## What is goddess embodiment?
 
 ![Vanessa Hylande Goddess Yoga and Embodiment coach](/images/2023/09/3-1-724x1024.jpg)
@@ -61,22 +53,6 @@ When we embody the goddess, we allow the divine feminine archetype of the goddes
 ## How can goddess embodiment help me?
 
 Connecting to the Goddess will help you to shine along your path no matter what you’re struggling with in life. Whether your goals are to get your body back in shape and feel beautiful, navigating a challenging twin flame relationship, finding love, or getting your career on track, goddess embodiment practices will help you to find your direction with confidence and a deep sense of inner peace and knowing.
-
-## The goddess embodiment online program
-
-The Goddess Embodiment online program is a one-on-one journey, where I will inspire you to discover your power and confidence, **body, mind and spirit**. Together we will:
-
-![Vanessa Hylande Goddess Yoga and Embodiment coach](/images/2023/10/1.jpg)
-
-* **Empower your physical body:** We will create a **personalized fitness program** for you that includes goddess yoga, dance and body conditioning based on your experience level and time availability. We will practice together so I can show you how to move with grace, practice healthfully without injury, and give you a deep understanding of the goddess yoga and dance method. No matter your level of experience, at the end, you will feel energized, rejuvenated and empowered to continue your goddess yoga practices on your own.
-
-* **Free yourself from the trappings of your mind:** Together we will gently begin **shadow work** and **inner child healing** with personalized sound bath meditations, journaling exercises and self-empowerment strategies that will empower you to break the chains that are holding you back. Whether its a negative inner dialogue, or unconscious beliefs, we will guide your inner child to freedom and self-love.
-
-* **Connect to Spirit:** Together we will channel your personalized messages from the Goddess through **intuitive tarot card readings**, **manifestation practices,  moon rituals**, and more. We will work together to make your manifestations as powerful as they can be. And in the end, you will have the tools you need to continue and develop your own spiritual, intuitive practices.
-
-* **Join the community:** I will joyfully welcome you into the community of other beautiful souls walking the path of the Goddess, where you can enjoy free live group events such as full moon gatherings, sign up for additional online or in-person classes and retreats in gorgeous places around the world.
-
-Choose from single Goddess Yoga classes, in person or online, private tarot card readings, personalized soundbath meditations, or join me for the full Goddess Embodiment package that also includes everything!
 
 ## About Goddess Embodiment Practices
 
@@ -96,7 +72,3 @@ Goddess embodiment practices can offer a range of benefits for individuals, both
 * **Ritual and Ceremony:** Goddess embodiment practices often involve rituals and ceremonies that can provide structure and meaning to your life. These rituals can be grounding and help you create a sense of order and purpose.
 
 It's important to note that goddess embodiment practices vary widely depending on the tradition or path you follow. Some people may engage in elaborate rituals, while others may incorporate these practices into their daily lives through meditation, journaling, or other personal rituals. Ultimately, the benefits you derive from goddess embodiment practices will depend on your personal beliefs, intentions, and commitment to the practice.
-
-## Join Me Now for Your Personalized Goddess Embodiment Journey!
-
-**Curious to know how I can help you? Register now and we'll set up a phone or video chat to talk about your goals, challenges** **Love & Light!**

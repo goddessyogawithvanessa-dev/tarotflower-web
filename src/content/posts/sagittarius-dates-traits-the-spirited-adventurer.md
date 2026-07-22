@@ -20,8 +20,6 @@ In the realm of Tarot, the Sagittarius sign is closely associated with the [Temp
 
 So, as we embark on this exploration of the captivating Sagittarius sign, we invite you to join us on a thrilling adventure into the heart and soul of this dynamic zodiac energy. Together, we will uncover the depths of Sagittarian optimism, discover their insatiable quest for knowledge, and explore the transformative power of their fiery spirit. Buckle up and get ready for an exhilarating ride through the expansive world of Sagittarius!
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Sagittarius Dates & Traits Quick Facts
 
 * **Planet:** Jupiter
@@ -186,16 +184,6 @@ The sun symbol on the angel's forehead represents Sagittarius' ruling planet, em
 Overall, the Temperance card associated with Sagittarius invites individuals born under this sign to embrace their natural inclination towards balance, moderation, and spiritual growth. It serves as a reminder to find harmony in all aspects of life, blending different elements to create a fulfilling and purposeful existence.
 
 ## Want to Learn How to Embody Astrology and Tarot?
-
-Join us at our [Mystical Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) and learn how to embody the Tarot as you journey into your divine feminine.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
 
 *aries and sagittarius compatibility  
 taurus and sagittarius  

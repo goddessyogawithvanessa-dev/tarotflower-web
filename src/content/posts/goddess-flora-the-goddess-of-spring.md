@@ -88,21 +88,9 @@ Infuse your interactions and experiences with joy and love. Let your heart radia
 
 Flora teaches us the importance of nurturing ourselves, just as she nurtures the plants and flowers. Take time for self-care and self-reflection. Listen to the needs of your body, mind, and spirit, and honor them with love and compassion. Prioritize activities that bring you joy and recharge your energy. By practicing self-love, you cultivate a strong foundation from which your inner beauty can flourish.
 
-## Embody the Goddess Flora Card at Goddess Yoga Retreats
-
 By embodying the essence of the Goddess Flora, you infuse your life with the energy of new beginnings, blooming creations, self-love, and the celebration of beauty. Allow Flora's spirit to guide you on a journey of self-discovery and embrace the magic and abundance that life has to offer. Remember, you are a divine embodiment of beauty and grace, ready to bloom and inspire the world around you.
 
-Back in ancient times, people celebrated Flora with grand festivals called the Floralia. These were extravagant parties filled with flower decorations, delightful sacrifices, and all-around merriment. It was their way of saying, "Thank you, Flora, for the wonders of spring and the happiness you bring." Join us for [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/) in beautiful Lago d'Orta, Italy where we will embody the Goddess Flora.
-
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
+Back in ancient times, people celebrated Flora with grand festivals called the Floralia. These were extravagant parties filled with flower decorations, delightful sacrifices, and all-around merriment. It was their way of saying, "Thank you, Flora, for the wonders of spring and the happiness you bring."
 
 *goddess of spring  
 goddess tarot  

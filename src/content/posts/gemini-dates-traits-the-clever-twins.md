@@ -29,8 +29,6 @@ As for compatibility, Geminis are most compatible with other air signs, such as 
 * Lucky Numbers: 5, 7, 14, 23
 * Dates: May 21 - June 20
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Gemini zodiac personality at a glance
 
 ![](/images/2023/04/gemini-v2-2.jpg)
@@ -183,17 +181,3 @@ In Tarot, Gemini is represented by [The Lovers](/the-lovers-tarot) card. This ca
 As an air sign, Gemini is also associated with the [suit of swords](/swords-tarot) in the Tarot. The suit of swords represents the mind, thoughts, and communication, which are all traits that align with Gemini's personality. In Tarot readings, swords are often associated with conflict and challenges, but they also represent the power of the mind to overcome obstacles.
 
 Overall, the Gemini zodiac sign in Tarot represents the power of choice and the importance of balancing opposing forces. It highlights the intellectual and communicative nature of Gemini, and their ability to use their minds to navigate through difficult situations. The Lovers card is a powerful reminder of the importance of making choices that align with our values and beliefs, and finding balance in our relationships and personal lives.
-
-## Want to Learn More about the Tarot and Astrology?
-
-Join us at our [Mystical Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) and learn how to embody the Tarot as you journey into your divine feminine.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
-
-*gemini dates, gemini horoscope, gemini sign, gemini zodiac sign, gemini personality, gemini traits, gemini compatibility, gemini zodiac, gemini month, aries and gemini compatibility, gemini and cancer compatibility, leo and gemini compatibility, virgo and gemini compatibility, taurus and gemini compatibility, gemini characteristics, gemini and scorpio compatibility, libra and gemini compatibility, gemini and pisces compatibility, gemini and capricorn compatibility, gemini and aquarius compatibility, gemini and sagittarius, compatibility, sagittarius and gemini*

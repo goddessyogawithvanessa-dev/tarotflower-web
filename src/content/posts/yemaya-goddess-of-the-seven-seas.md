@@ -47,9 +47,3 @@ Embodying the goddess Yemaya is a beautiful and transformative experience that c
 5. **Intuitive Practices:** Trust your intuition and let it guide you in honoring Yemaya. Listen to the whispers of your heart and soul. Journal your thoughts, emotions, and insights that arise during your practices. Connect with her through oracle or tarot cards, allowing her messages to flow through you.
 
 Remember, the key to embodying Yemaya is to cultivate a deep connection and reverence for her energy. Open your heart, surrender to her guidance, and allow her essence to flow through every aspect of your being. Embracing the goddess within is a journey of self-discovery and empowerment. May your exploration of Yemaya's energy bring you profound healing, love, and transformation.
-
-## Embody the Goddess Yemaya at Goddess Yoga Retreats
-
-Immerse yourself in the sacred space of Goddess Yoga Retreats in Lago d'Orta, Italy, where you can join a community of extraordinary women on a profound journey of embodying the goddess Yemaya. Together, we create a sanctuary where the divine feminine thrives. Surrounded by the natural beauty of Lago d'Orta, we gather to honor and embrace the essence of Yemaya through yoga, meditation, dance, and a variety of transformative practices. In this supportive and nurturing environment, we celebrate the nurturing and flowing energy of Yemaya, allowing it to awaken and empower us. Here, you will find a sisterhood of like-minded souls, ready to embark on a collective exploration of divine feminine energy. Join us in this magical setting, where the synergy of our intentions and shared experiences magnifies the transformative power of embodying the goddess Yemaya.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

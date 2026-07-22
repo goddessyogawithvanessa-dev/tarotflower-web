@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import EvergreenEditorialJourney from '../components/EvergreenEditorialJourney.astro';
 import { getCollection } from 'astro:content';
 
 const posts = await getCollection('posts');
@@ -68,7 +69,6 @@ function formatCategories(cats: string[]): string {
           <p>This is part of the practice. This is part of the path.</p>
           <p>You can use these free tarot card readings as daily rituals, journaling prompts, full moon reflections, or meditations for the week ahead. Light a candle. Pull your own card after reading. See what themes overlap or diverge. Let your inner priestess guide the process.</p>
           <p>Over time, you may begin to notice patterns — both in the cards and in your life. That's when the magic really begins to unfold. Tarot is not about answers. It's about <em>relationship</em>. And the more time you spend in communion with the cards, the more fluent the conversation becomes.</p>
-          <p>&#128140; If you're longing for more personal guidance, you're always welcome to reach out or join one of our live moon circles. These gatherings offer a deeper layer of connection — a space to be seen, to speak, to receive, and to remember your own divine rhythm.</p>
           <p>Because at the heart of all of this — the tarot, the ritual, the words on these pages — is a deeper invitation:<br />To awaken. To transform. To return to your essence.<br />And ultimately, to join the circle.</p>
           <p>Welcome to the craft.<br />Welcome to the journey.<br />Welcome home.</p>
         </div>
@@ -96,6 +96,6 @@ function formatCategories(cats: string[]): string {
       })}
     </section>
 
-    <p>Want something more personal? <a href="/contact/">Send me your question</a> or <a href="/goddess-yoga-retreats/">join a retreat</a> for deeper connection and divine guidance &#127800;</p>
+    <EvergreenEditorialJourney ritual="air" />
   </div>
 </Base>

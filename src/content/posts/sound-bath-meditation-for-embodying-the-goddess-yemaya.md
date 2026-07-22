@@ -16,7 +16,7 @@ Sound bath meditations help to create a deep sense of relaxation and tranquility
 
 ### Activate the chakras with sound bath meditation
 
-Sound bath meditations can help to activate and [balance the chakras](https://goddess-yoga-retreat.com/balance-your-7-chakras-to-reset-your-nervous-system/), the energy centers within the body. The vibrational frequencies emitted by the music gently penetrate and realign the chakras, promoting energetic harmony and flow. This balance of energy is crucial for embodying the goddess Yemaya, as it supports the awakening and integration of your divine feminine essence.
+Sound bath meditations can help to activate and [balance the chakras](/balance-your-7-chakras-to-reset-your-nervous-system), the energy centers within the body. The vibrational frequencies emitted by the music gently penetrate and realign the chakras, promoting energetic harmony and flow. This balance of energy is crucial for embodying the goddess Yemaya, as it supports the awakening and integration of your divine feminine essence.
 
 ### Sound bath mediations to clear energetic blockages
 

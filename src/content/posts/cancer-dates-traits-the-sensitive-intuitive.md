@@ -26,8 +26,6 @@ In astrology, Cancer is ruled by the Moon, which is associated with emotions and
 * Associated Tarot Card: The Chariot
 * Traits: Emotional, nurturing, intuitive, sensitive, loyal, protective.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Cancer Personality at a Glance
 
 ![cancer zodiac sign cancer dates and traits midjourney arts Vanessa Hylande](/images/2023/04/cancer-4.jpg)
@@ -165,37 +163,3 @@ However, conflicts may arise due to their shared tendency towards moodiness and 
 The tarot card that represents the zodiac sign Cancer is [The Chariot](/the-chariot-tarot). In the Rider-Waite Tarot deck, The Chariot symbolizes Cancer's traits of emotional depth, intuition, and protective nature. The card depicts a figure in a chariot, symbolizing the Cancerian's ability to navigate through life's challenges with determination and control.
 
 The Chariot tarot card represents the Cancerian's inner strength and their ability to harness their emotions for personal growth and success. It signifies the Cancerian's journey of self-discovery, finding balance between their inner world and the external realm. The Chariot tarot card encourages Cancers to trust their instincts, take the reins of their lives, and move forward with confidence and purpose.
-
-## Want to Learn More about Astrology and Tarot?
-
-Join us at our [Mystical Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) and learn how to embody the Tarot as you journey into your divine feminine.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
-
-*aries and cancer compatibility  
-leo and cancer compatibility  
-libra and cancer compatibility  
-gemini and cancer compatibility  
-virgo and cancer compatibility  
-taurus and cancer compatibility  
-cancer and scorpio compatibility  
-cancer and capricorn compatibility  
-cancer and sagittarius compatibility  
-cancer and aquarius compatibility  
-pisces and cancer compatibility  
-aquarius and cancer  
-cancer zodiac  
-the dates of the zodiac signs  
-cancerian horoscopes  
-cancer compatibility  
-cancer personality  
-cancer zodiac sign  
-cancer zodiac dates  
-zodiac sign months  
-cancer traits*

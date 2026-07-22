@@ -42,10 +42,6 @@ And that is why dance is the best embodiment practice. For to dance is to dream,
 
 And when we allow embodied learning to teach us how to live an embodied life, life becomes a dance for which we write the music.
 
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
-
-*Live events coming soon to*: *The Greater Dallas Area, Texas, 75205, 75209, 75219, 75283, 75284, 75391*
-
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-13-576x1024.jpg)
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-11-576x1024.jpg)

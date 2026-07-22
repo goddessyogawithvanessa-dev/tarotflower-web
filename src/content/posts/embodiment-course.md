@@ -12,7 +12,7 @@ seo_description: "What makes for the best embodiment course and how do you find 
 
 ![embodied goddesses online alignment program](http://embodiedgoddesses.com/wp-content/uploads/2022/01/84-1024x1024.jpg)
 
-What makes for the best **embodiment course** and how do you find one? One really important thing to consider is whether the environment is inspirational and if the people are supportive and nurturing. Are there qualified teachers? Are you in a safe and healthy environment? Can you share moments and feelings together in sacred sister circles and really share your energy with others? At a live embodiment retreat, you will be able to share, support, laugh and play as you go inward. on your healing journey.
+What makes for the best **embodiment course** and how do you find one? One really important thing to consider is whether the environment is inspirational and if the people are supportive and nurturing. Are there qualified teachers? Are you in a safe and healthy environment?
 
 ## What is Embodiment?
 
@@ -34,8 +34,6 @@ An embodiment course will guide you toward the liberation of your physical self.
 
 We must achieve a flow state where all aspects, all **five elements** of the universe and ourselves, are in **constant balance**. And this is process that does not happen instantly. In fact, an embodiment course should give you the tools over time, to live your life in an embodied way, because we are forever changing and adapting.
 
-And what better place to do your inner work than in a live intensive embodiment yoga, dance and somatic retreat with other like-minded women in search of creating beauty and abundance in their lives?
-
 ## Why Dance is the Best Vehicle for Your Embodiment Course
 
 ![holistic flower circle](http://embodiedgoddesses.com/wp-content/uploads/2021/11/20211114_161249_0000.jpg)
@@ -46,9 +44,9 @@ In the Embodied Goddesses online Goddess Yourself magazine, Jessica and Vanessa 
 
 **(Jessica:)** “For embodiment, dance is super important for us. So, why not incorporate all of the beautiful elements of the **goddesses** into our body? Really dropping in and to start living in our knowing body, in our wisdom body. This is where your power is and this is where your **divine feminine** glows. Your gifts are that kaleidoscope that lives within you. We want to bring all of that out through the **embodiment practices** that we provide you with.”
 
-## Goddess Yoga Retreats with an Embodiment Course
+## Embodied Goddesses and the Embodiment Course
 
-At Goddess Yoga Retreats, we will incorporate the Embodied Goddesses method. We will use dance and **gentle movement practices** - along with all of the other tools - to compliment all of your learnings. We will integrate all of the different aspects of ourselves, in order to “come home,” to just ‘be’. And that ‘be-ing’ is in the body.
+The Embodied Goddesses method uses dance and **gentle movement practices** - along with all of the other tools - to compliment all of your learnings. We integrate all of the different aspects of ourselves, in order to “come home,” to just ‘be’. And that ‘be-ing’ is in the body.
 
 You will use the dances to open yourself up to receiving **inspiration from the Goddesses**, and that will continue to support your healing journey. This is what we call Goddess embodiment. As you are guided by music that enhances all of your felt senses, you will bring balance and harmony to the energy points of the body, the chakras, as you move through all the dances.
 
@@ -66,7 +64,7 @@ This is where the feminine aspect of ourselves - which is the body - becomes imp
 
 ### An Embodiment Course for Stress Relief
 
-At Goddess Yoga Retreats, we are in **reclamation of the body**. We provide a safe environment where we guide you back into your feeling body. We move away from what has been honored in our society and culture, namely, operating purely from the limited mind, rationalizing, thinking, and examining.
+This work is a **reclamation of the body**. We move away from what has been honored in our society and culture, namely, operating purely from the limited mind, rationalizing, thinking, and examining.
 
 ![goddess embodiment aromatherapy ](http://embodiedgoddesses.com/wp-content/uploads/2021/07/1.jpg)
 
@@ -94,7 +92,7 @@ It is you reclaiming your essence in your fullest self. This new language will a
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/30.jpg)
 
-But... don't worry, you're not alone in  this. At Goddess Yoga Retreats we will work together as a sisterhood to share, support and experience together.
+But... don't worry, you're not alone in  this.
 
 So, beloveds, we  encourage you to enjoy each **chakra dance**, to be present in your softness and flow, to be present in your wildness and chaos, and to let your inner child run and dance free, like no one is watching. Embrace everything that you are in your divineness.
 
@@ -102,7 +100,7 @@ All we want for you to do is to just be, so you can lead from a place of love, p
 
 ## How to Find the Best Embodiment Course
 
-As we mentioned previously, there are three important factors to consider when choosing an embodiment course. The first one is **accessibility**. At Goddess Yoga, we offer retreats in many different parts of the world throughout the year.
+As we mentioned previously, there are three important factors to consider when choosing an embodiment course. The first one is **accessibility**.
 
 Second, you need to consider who your teachers are. Psychologists and authors may know a lot *about* embodiment, but are they truly masters of their feeling body? Do they have years of experience exploring the inner world of the physical body? Do they have physical training to make them masters of their bodies?
 
@@ -113,7 +111,3 @@ True inner knowing of the body requires not only a profound understanding of **k
 And last but not least, your embodiment course should be fun! Enough with this analysis of trauma and obsessing over what is wrong with us. We don't need people to fix us. We don't need to suffer in order to heal.
 
 That doesn't mean that your inner work won't at times be challenging and uncomfortable, but make sure that the overarching energy of the embodiment course is **uplifting and liberating**!
-
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for the divine feminine.*
-
-*Live events coming soon to*: *The Greater Dallas Area, Texas, 75205, 75209, 75219, 75283, 75284, 75391*

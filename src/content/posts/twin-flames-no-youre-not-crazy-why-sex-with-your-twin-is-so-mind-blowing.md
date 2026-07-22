@@ -20,9 +20,7 @@ Twin flames are destined to be together, and will often experience intense emoti
 
 ### Struggling to Survive Your Twin Flame Separation?
 
-Twin flame separation is one of the most painful and confusing things out there, but it's the perfect opportunity to self-care, self-love and grow body, mind and soul. Join us at [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/), where we come together as women in a sacred space to [Embody the Divine Feminine](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/). As you ascend, you will heal your heart, relieve the pain, and move forward through the process of twin flame separation toward twin fame union.
-
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
+Twin flame separation is one of the most painful and confusing things out there, but it's the perfect opportunity to self-care, self-love and grow body, mind and soul.
 
 ## Twin flame meaning
 
@@ -92,11 +90,7 @@ The truth is that both parties have to evolve, and it can’t be done from withi
 
 ![](/images/2022/02/6.jpg)
 
-If you’re struggling with a twin flame connection that is in separation, you may find support in [affirmations](/affirmations) for gratitude or courses and programs that will help you to [embody your inner goddess](https://goddess-yoga-retreat.com/goddess-embodiment-your-divine-feminine/) and find your badass self!
-
-Check out our [Goddess Yoga retreats](https://goddess-yoga-retreat.com/), where you can safely explore and awaken your divine feminine, and harness the power of your kundalini awakening.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+If you’re struggling with a twin flame connection that is in separation, you may find support in [affirmations](/affirmations) for gratitude or practices that will help you to [embody your inner goddess](/goddess-embodiment-your-divine-feminine) and find your badass self!
 
 ## Why your ‘mirror soul’ is your greatest teacher
 
@@ -121,11 +115,5 @@ A false flame is a relationship that mimics the connection and chemistry of a tw
 ![twin flame is sacred union](/images/2023/01/sacred-union.jpeg)
 
 Stay tuned to Tarot Flower's Daily Tarot! I will be posting free tarot card readings regularly, for all of us beautiful divine feminine Goddesses on this most challenging and mind-blowing journey of the twin flame union. We will be taking a look at both the divine feminine and divine masculine energies, messages from the divine about separation and union, challenges and most importantly, sage advice to help you move forward in joy on your path to union.
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
 
 *twin flame sex, twin flame, twin flame meaning, twin flame v soulmate, twin flame soulmate, twin flame separation, twin flames meaning, twin flame signs, twin flame connection, twin flame love, twin flame relationship, twin soul, kundalini awakening, kundalini energy, kundalini awakening symptoms, kundalini rising, kundalini awakening physical symptoms*

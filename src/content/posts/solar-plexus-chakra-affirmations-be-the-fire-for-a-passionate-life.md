@@ -22,22 +22,8 @@ Are there passion projects and things that you love that have been setting on th
 
 Like [The Empress](/the-empress-tarot) of the [Major Arcana](https://en.wikipedia.org/wiki/Major_Arcana), go and put your energy into the things that you love. Put some fire into your creative ideas and passion projects. It will light up the rest of your life too! Get out of the hum drums by breaking up the monotony. We all need a life spice in our lives!
 
-So, take the pet project off of the shelf today and dust it off! Paint, dance, write, sing - whatever it is that excites you. Just like a real fire, your passion needs fuel to burn. Keep your inner fire element burning bright by feeding it with your attention today, and go be the fire! And if you want some inspiration on this front, check out the Embodied Goddesses online experience. We will share our joyful method with you so that you can dance your way to happiness and abundance too!
+So, take the pet project off of the shelf today and dust it off! Paint, dance, write, sing - whatever it is that excites you. Just like a real fire, your passion needs fuel to burn. Keep your inner fire element burning bright by feeding it with your attention today, and go be the fire!
 
 Love,
 
 ![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
-
-*Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
-
-*Through* ***meditation****,* ***chakra work, music, embodiment dance*** *and other* ***spiritual practices****, this nine-module online course will teach you how to* ***embody the gifts and lessons of the tarot****.*
-
-## Tarot Decks
-
-Love our tarot decks? You can order your own online!
-
-## Beautiful Oracle
-
- 
-
-Love our affirmations and images? Check out our beautiful boards on Pinterest! Discover other **positive affirmations**, **inspirational quotes,** beautiful **tarot and oracle cards** and more! Join the [Tarot Flower Pinterest](https://www.pinterest.com/embodiedgoddesses/tarot-flower/) following - it's like candy for your eyes and inspiration for your soul!

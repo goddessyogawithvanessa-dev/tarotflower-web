@@ -24,11 +24,6 @@ Therefore, it is time to go deep. Release everything that no longer serves you s
 
 ![embodied goddesses online alignment program](/images/2021/01/embody-your-inner-goddess-1024x1024.png)
 
-*Want to learn more about embodying the tarot? Check out the*[*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
-
-*Through* ***meditation****,* ***chakra work, music, dance*** *and other* ***spiritual practices****, this nine-module experience will teach you how to* ***embody the gifts and lessons of the tarot****.*
-
-*Visit our* [*website*](https://embodiedgoddesses.com/) *today, and subscribe to our mailing list so you'll be the first to know about our launch and* ***special offers****!*
 
 Love our affirmations and images? Check out our beautiful boards on [Pinterest](https://www.pinterest.com/embodiedgoddesses/_created/)! Discover other **positive affirmations**, **inspirational quotes,** beautiful **tarot and oracle cards** and more! Join the Tarot Flower Pinterest following - it's like candy for your eyes and inspiration for your soul!
 

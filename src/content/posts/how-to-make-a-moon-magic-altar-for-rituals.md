@@ -35,5 +35,3 @@ Connecting to the moon’s energy is the most important part of creating an alta
 Now that your moon magic altar is set up and you’ve connected to the energy of the moon, you’re ready to perform rituals. This can be anything from a simple full moon meditation to a more complex ritual honoring the moon. You can also use your altar to write down intentions and prayers.
 
 Creating an altar for moon magic rituals is a great way to honor the powerful energy of the moon. With a few simple steps, you can create a sacred space to connect to the moon and practice rituals.
-
-Want to learn more? Join us for monthly [moon magic circles](#moonmagiccircle) and rituals and mystical yoga retreats? Contact us for dates, times and locations!

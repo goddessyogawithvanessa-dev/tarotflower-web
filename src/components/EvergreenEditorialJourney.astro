@@ -1,0 +1,138 @@
+---
+import EmailOptIn from './EmailOptIn.astro';
+import type { RitualKey } from '../data/evergreenJourneys';
+
+interface Props {
+  ritual: RitualKey;
+  mentorship?: boolean;
+  showFeatured?: boolean;
+}
+
+const { ritual, mentorship = false, showFeatured = true } = Astro.props;
+
+const rituals = {
+  fire: {
+    title: 'Step Into the Fire',
+    subtitle: 'A Digital Ritual for courage and confidence',
+    description: 'This ritual is a sacred ignition—a call to burn through self-doubt and reclaim your fierce inner truth. Through breath, movement, and intention, you’ll awaken the flame within and summon the energy to take bold action in your life.',
+    href: '/step-into-the-fire',
+    buttonText: 'Ignite',
+    image: '/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg',
+    imageAlt: 'Fire goddess beneath a golden moon, surrounded by flames and flowers',
+  },
+  flow: {
+    title: 'Flow Like the Goddess',
+    subtitle: 'A Digital Ritual for Healing, Sensuality & Emotional Release',
+    description: 'This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Through fluid movement, breath, and reflection, you’ll begin to release tension and remember what it feels like to truly flow.',
+    href: '/flow-like-the-goddess',
+    buttonText: 'Begin the Flow',
+    image: '/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg',
+    imageAlt: 'Water goddess flowing beneath the moon among golden flowers and fish',
+  },
+  air: {
+    title: 'Awaken the Element of Air',
+    subtitle: 'A Digital Ritual for Clarity & Intuition',
+    description: 'This ritual is a breath of fresh air—an invitation to clear mental fog, connect to your intuition, and realign with your inner truth. The answers are already within you.',
+    href: '/awaken-the-element-of-air',
+    buttonText: 'Breathe',
+    image: '/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg',
+    imageAlt: 'Air goddess with luminous wings beneath a golden sky',
+  },
+  earth: {
+    title: 'Root Into the Earth',
+    subtitle: 'A Digital Ritual for Stability & Belonging',
+    description: 'This ritual is an invitation to ground into your body and remember your place in the sacred web of life. Through stillness, breath, and embodied presence, you’ll reconnect with your foundation and plant new seeds of intention.',
+    href: '/root-into-the-earth',
+    buttonText: 'Ground Yourself',
+    image: '/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg',
+    imageAlt: 'Earth goddess beneath the moon in a dark enchanted forest',
+  },
+} as const;
+
+const featured = rituals[ritual];
+---
+
+{showFeatured && (
+  <section class="card-featured-experience" aria-labelledby="evergreen-featured-title">
+    <img
+      src={featured.image}
+      alt={featured.imageAlt}
+      width="1600"
+      height="500"
+      loading="lazy"
+      decoding="async"
+    />
+    <div class="card-featured-copy">
+      <p class="card-editorial-kicker">Featured Experience</p>
+      <h2 id="evergreen-featured-title">{featured.title}</h2>
+      <p class="card-featured-subtitle">{featured.subtitle}</p>
+      <p>{featured.description}</p>
+      <a class="card-featured-button" href={featured.href} aria-label={`${featured.buttonText}: ${featured.title}`}>{featured.buttonText}</a>
+    </div>
+  </section>
+)}
+
+<div class="card-free-resource">
+  <div class="card-free-resource-layout">
+    <div class="card-free-resource-artwork">
+      <img
+        src="/images/goddess-embodiment-guide-cover.jpg"
+        alt="Goddess Embodiment Guide cover"
+        width="1414"
+        height="2000"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+    <EmailOptIn
+      leadMagnet="goddess-embodiment-guide"
+      kicker="Your Free Gift"
+      title="The Goddess Embodiment Guide"
+      description="Discover how tarot, ritual, reflection, movement, and embodiment can become tools for self-discovery, healing, and lasting transformation."
+      buttonText="Download the Guide"
+      note="Your guide will be delivered instantly to your inbox."
+    />
+  </div>
+</div>
+
+{mentorship && (
+  <aside class="card-mentorship-invitation" aria-labelledby="evergreen-mentorship-title">
+    <div class="card-mentorship-image">
+      <img
+        src="/images/homepage/vanessa-hylande-sacred-becoming-960.png"
+        srcset="/images/homepage/vanessa-hylande-sacred-becoming-480.png 480w, /images/homepage/vanessa-hylande-sacred-becoming-720.png 720w, /images/homepage/vanessa-hylande-sacred-becoming-960.png 960w, /images/homepage/vanessa-hylande-sacred-becoming-1324.png 1324w"
+        sizes="(max-width: 768px) min(420px, 100vw), min(32vw, 330px)"
+        alt="Vanessa Hylande smiling at the camera"
+        width="960"
+        height="861"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+    <div class="card-mentorship-copy">
+      <p class="card-editorial-kicker">A Deeper Step</p>
+      <h2 id="evergreen-mentorship-title">Sacred Becoming Mentorship</h2>
+      <p>If you are ready to move beyond reflection and receive personal support as you bring what you are learning into your life, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours.</p>
+      <a href="/sacred-becoming/mentorship">Discover Sacred Becoming</a>
+    </div>
+  </aside>
+)}
+
+<nav class="card-continue-journey" aria-labelledby="evergreen-continue-title">
+  <p class="card-editorial-kicker">Continue Exploring</p>
+  <h2 id="evergreen-continue-title">Follow the path that calls to you</h2>
+  <div class="card-continue-links">
+    <a href="/tarot-card-meanings">
+      <strong>Tarot Card Meanings</strong>
+      <span>Explore the complete Tarot Flower library and its archetypal wisdom.</span>
+    </a>
+    <a href="/major-arcana-2">
+      <strong>Major Arcana Guide</strong>
+      <span>Journey through all 22 archetypes of transformation and becoming.</span>
+    </a>
+    <a href="/readings-with-vanessa">
+      <strong>Tarot Readings with Vanessa</strong>
+      <span>Receive personal reflection for the threshold you are standing at now.</span>
+    </a>
+  </div>
+</nav>

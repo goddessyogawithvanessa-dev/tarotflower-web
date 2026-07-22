@@ -32,8 +32,6 @@ In summary, Leos are passionate, charismatic, and confident individuals who have
 * Tarot Card: Strength
 * Traits: Charismatic, confident, passionate, creative, natural leaders
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Leo Personality at a Glance
 
 ![Leo dates and traits, Leo zodiac sign. Leo personality, Leo compatibility, astrology midjourney art by Vanessa Hylande](/images/2023/04/Leo-1.jpg)
@@ -182,16 +180,6 @@ The Strength card is also linked to the element of fire, which perfectly aligns 
 In a tarot reading, the Leo card signifies a time of personal empowerment and self-discovery. It invites individuals to embrace their authenticity and shine their light brightly. It encourages them to step into leadership roles, express their creativity, and take charge of their destiny. The Leo tarot card reminds individuals to be courageous in pursuing their dreams and to use their strength and passion to make a positive impact in the world.
 
 ## Learn to Embody the Leo Tarot Card!
-
-Join us at our [Mystical Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) and learn how to embody the Tarot as you journey into your divine feminine.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
 
 *leo traits  
 leo zodiac  

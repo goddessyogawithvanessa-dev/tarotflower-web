@@ -7,12 +7,12 @@ modified: 2021-11-13
 content_type: post
 categories: [embodiment]
 seo_title: "How to Self Heal Through Embodiment Practices | Tarot Flower"
-seo_description: "Do you want to know who your best teacher, healer, mentor and guide is? Well, its you! And at our Goddess Yoga retreats, we will show you how to..."
+seo_description: "Do you want to know who your best teacher, healer, mentor and guide is? Well, it is you. Learn how embodiment practices can support self-healing."
 ---
 
 ![self heal through embodiment practice](http://embodiedgoddesses.com/wp-content/uploads/2021/11/20211113_141704_0000.jpg)
 
-Do you want to know who your best teacher, healer, mentor and guide is? Well, its you! And at our Goddess Yoga retreats, we will show you how to self-heal through embodiment practices.
+Do you want to know who your best teacher, healer, mentor and guide is? Well, its you!
 
 Your body and your intuition have powerful messages for you when you learn to understand them. And these messages will help you to balance the voice of the mind and the feelings of the heart.
 
@@ -32,7 +32,7 @@ Embodiment practices are becoming popular now and therefore it's a relatively ne
 
 If you are looking for an embodiment synonym think about other words for the verb to "[embody](https://www.merriam-webster.com/dictionary/embodiment)." Words such as "incarnate" or "personify" come close. However as a practice, embodiment is closest to a kind of dance therapy, with aspects of psychology and spiritual practice. Read the works of [Carl Jung](https://en.wikipedia.org/wiki/Carl_Jung) to get a sense of the psychological and spiritual aspects of embodiment practice. And [Eckhart Tolle](https://eckharttolle.com/) has many wonderful talks on **mindfulness** and being in the **present moment**. These are fundamental aspects of authentic embodiment practices, but embodiment goes much, much further.
 
-For example, there are many embodiment yoga practices popping up that incorporate elements of embodiment practices. In fact, yoga already inherently and naturally incorporates aspects of embodiment practice. But, there is a reason [why dance is the best embodiment practice](https://goddess-yoga-retreat.com/why-dance-is-the-best-embodiment-practice/).
+For example, there are many embodiment yoga practices popping up that incorporate elements of embodiment practices. In fact, yoga already inherently and naturally incorporates aspects of embodiment practice. But, there is a reason [why dance is the best embodiment practice](/why-dance-is-the-best-embodiment-practice).
 
 ## How is Self Healing With Embodiment Practices Different?
 
@@ -55,14 +55,6 @@ Divine feminine embodiment focuses on the blessings of the great Mother. The sel
 ![nurture goddess within self heal embodiment practice](http://embodiedgoddesses.com/wp-content/uploads/2021/11/20211113_141641_0000.jpg)
 
 The Goddess within is the nurturer, the loving, compassionate healer. And when you reconnect with her in your heart space, she will guide you on your path to self-love. Your own inner Goddess will be your divine teacher, healer and mentor. Everyone's path to healing and abundance is unique. Everyone's wounds are different, therefore everyone's medicine is different. And nobody knows what is healing for you better that you do.
-
-Join us on this wonderful, magical journey to Goddess embodiment and allow your inner Goddess to bloom. At our beautiful Goddess Yoga retreats we will walk with you every step of the way on your path to self love and ascension. Let us show you how to embody the Goddess to receive all of her healing, wisdom and love.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
-
-*Live events coming soon to*: *The Greater Dallas Area, Texas, 75205, 75209, 75219, 75283, 75284, 75391*
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-4-576x1024.jpg)
 

@@ -28,8 +28,6 @@ Overall, Virgos are characterized by their practicality, attention to detail, an
 * Tarot Card: The Hermit
 * Traits: Analytical, meticulous, practical, organized, detail-oriented, responsible, methodical, introspective, seeking self-improvement.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Virgo Personality at a Glance
 
 ![Virgo dates & traits, virgo zodiac sign, astrology, Virgo compatibility, Midjourney art by Vanessa Hylande](/images/2023/05/virgo-6.jpg)
@@ -168,34 +166,3 @@ The tarot card most often associated with Virgo is [The Hermit](/the-hermit-taro
 Just like the Hermit, Virgos have a natural inclination to seek knowledge, understanding, and perfection. This tarot card reflects Virgo's meticulous and analytical nature, as well as their desire for self-improvement and personal growth. It reminds Virgo to trust their inner wisdom and intuition, even when navigating through challenging situations or making important decisions.
 
 Another tarot card often associated with Virgo is the [Knight of Pentacles](/knight-of-pentacles-tarot). This card embodies the Virgoan traits of practicality, reliability, and a strong work ethic. The Knight of Pentacles represents the hardworking and disciplined nature of Virgo, as well as their attention to detail and commitment to achieving their goals. This card reminds Virgo to stay focused and dedicated in their pursuits, to take practical and measured steps towards their ambitions, and to have patience and perseverance in the face of challenges. It signifies the value Virgo places on stability, organization, and the diligent pursuit of their endeavors. The Knight of Pentacles encourages Virgo to embrace their practical nature and channel their energy into tangible and meaningful accomplishments.
-
-## Want to Learn More about Astrology and Tarot?
-
-Join us at our [Mystical Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) and learn how to embody the Tarot as you journey into your divine feminine.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
-
-*virgo dates  
-virgo horoscope  
-virgo sign  
-virgos  
-virgo personality  
-virgo traits  
-virgo zodiac sign  
-aries and virgo compatibility  
-taurus and virgo compatibility  
-virgo and gemini compatibility  
-virgo and cancer compatibility  
-leo and virgo compatibility  
-virgo and libra compatibility  
-virgo and scorpio compatibility  
-virgo and sagittarius compatibility  
-virgo and capricorn compatibility  
-virgo and aquarius compatibility  
-virgo and pisces compatibility*

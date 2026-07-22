@@ -29,17 +29,3 @@ So, step forward with the carefree happiness of [The Fool](/the-fool-tarot) and 
 Love,
 
 ![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
-
-*Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
-
-*Through* ***meditation****,* ***chakra work, music, embodiment dance*** *and other* ***spiritual practices****, this nine-module online course will teach you how to* ***embody the gifts and lessons of the tarot****.*
-
-## Tarot Decks
-
-Love our tarot decks? You can order your own online!
-
-## Beautiful Oracle
-
- 
-
-Love our affirmations and images? Check out our beautiful boards on Pinterest! Discover other **positive affirmations**, **inspirational quotes,** beautiful **tarot and oracle cards** and more! Join the [Tarot Flower Pinterest](https://www.pinterest.com/embodiedgoddesses/tarot-flower/) following - it's like candy for your eyes and inspiration for your soul!

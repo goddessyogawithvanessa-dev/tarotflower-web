@@ -124,37 +124,27 @@ By nurturing ourselves we create abundance within, which will begin to manifest 
 
 We can add wonderful skin care practices to our self-care routine directly from our own kitchens and gardens. When you know what kind of skin you have, you can create your own perfect goddess products for glowing skin. Facial oils can clean and rejuvenate your skin, reduce wrinkles, and improve elasticity without harsh chemicals.
 
-When you find your perfect recipe, the combination that works perfectly with your skin, you can take your beauty care back into your own hands! In our beautiful goddess yoga and embodiment retreats, we will help guide you to discover your perfect goddess beauty care products. We will teach you recipes and instructions so that you can gently try out a few different combinations and see what works best for you!
+When you find your perfect recipe, the combination that works perfectly with your skin, you can take your beauty care back into your own hands!
 
 ### Healthy Eating Tips
 
-The first step to healthy eating is learning what works best for YOUR body. We are not all the same, and we don't all respond to foods in the same way. In our goddess yoga and embodiment retreats, we offer you some general tips you can follow. We also offer you journaling exercises to help you discover how different foods and eating practices affect your body, mood, and energy level.
+The first step to healthy eating is learning what works best for YOUR body. We are not all the same, and we don't all respond to foods in the same way.
 
 ## Explore Each Chakra Goddess with Goddess Embodiment
 
 ![7 chakras goddess embodiment](http://embodiedgoddesses.com/wp-content/uploads/2022/01/20220309_112323_0000.jpg)
 
-We explore each chakra when we embody the goddess throughout the our Goddess Yoga retreats. Beginning with a **third eye chakra goddess**, the **Goddess Theia,** we connect to our intuition to create sacred space, both internally and in our physical space. Then, once we are in our sanctuary, we delve into the **heart chakra goddess, the Goddess Aphrodite**. With her love, we guide you to connect with your inner child. Then, by embodying the **throat chakra goddess,** the **Goddess Amunet**, we explore our deepest beliefs, thoughts and labels and learn how to speak our own goddess truth.
+We explore each chakra when we embody the goddess. Beginning with a **third eye chakra goddess**, the **Goddess Theia,** we connect to our intuition to create sacred space, both internally and in our physical space. Then, once we are in our sanctuary, we delve into the **heart chakra goddess, the Goddess Aphrodite**. With her love, we guide you to connect with your inner child. Then, by embodying the **throat chakra goddess,** the **Goddess Amunet**, we explore our deepest beliefs, thoughts and labels and learn how to speak our own goddess truth.
 
 Thereafter, we continue with the **solar** **plexus** **goddess**, the warrior **Goddess Artemis**, to find our inner power and confidence. We liberate our **sacred sexuality** with the **sacral chakra goddess Lilith**, and we explore the **triple moon goddess** as archetypes of the **maiden, mother and crone**. Finally, we embody the **root chakra goddess, Gaia**, Mother Earth. And guess who the **crown chakra goddess** is? Yes, that's right, **it's you!** As your embodied goddess self, you will be in alignment with all of your chakras, embodying all of the wisdom and love of each of the goddesses.
 
 ## Become A Goddess of Love With Goddess Embodiment
 
-Like, Aphrodite, the Goddess of love, you can become your own love goddess. By embodying the archetypal qualities of **Goddess** **Aphrodite**, you will begin to radiate self love, which will attract love into your life. When we self love, we live on a high vibrational level. Then, as the **Law of Attraction** tells us, we attract others who are also healthy with self love. And it is only from a place of self love that we can give real love to others. You too will become empowered, liberated and confident with the goddess through the online "Goddess Yourself" dance embodiment program.
+Like, Aphrodite, the Goddess of love, you can become your own love goddess. By embodying the archetypal qualities of **Goddess** **Aphrodite**, you will begin to radiate self love, which will attract love into your life. When we self love, we live on a high vibrational level. Then, as the **Law of Attraction** tells us, we attract others who are also healthy with self love. And it is only from a place of self love that we can give real love to others.
 
 ### Ready to Learn How to Embody the Divine Feminine?
 
 So, which Goddess do you want to embody? Are you looking to better protect yourself and those around you with the embodiment of Goddess Athena Goddess of War? The archetype of Goddess Athena has many inspirational lessons and words of wisdom in her mythical story. You can even invoke her as a protector and guide through a Goddess circle ritual. Or maybe you would like to attract love and passion into your life with the embodiment of Goddess Aphrodite Goddess of Love. Goddess Aphrodite can teach us how to radiate self-love and love for others, which through the Law of Attraction, will bring love and passion into your life.
-
-Our Goddess Yoga retreats are an experience that you will take with you forever, because its not just a yoga experience, but a way of life. You will take all of these beautiful lessons and tools into the world with you, and the more you use them, the more liberated and joyful you will become! It’s time to invest in yourself, sister. Go ahead and **manifest abundance**in your life today. We can't wait to see you there!
-
-**Join us to get your Glow Up on at our live mystical yoga, dance and somatics wellness retreat for women in Italy this summer! U****nleash your inner divine goddess at this all-inclusive magical event!**
-
-*Live events coming soon to*: *The Greater Dallas Area, Texas, 75205, 75209, 75219, 75283, 75284, 75391*
-
-*Tulum, Quintana Roo, Mexico*
-
-*Nice, France*
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-16-576x1024.jpg)
 

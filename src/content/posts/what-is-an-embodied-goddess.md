@@ -22,7 +22,7 @@ When we reclaim the divine feminine, we unlock a power deep within us that allow
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/10/blog-post-images-1.jpg)
 
-So, how do we embrace the divine feminine within? How do we [embody the goddess](https://goddess-yoga-retreat.com/embody-the-goddess-within/)? An Embodied Goddess is a woman who is connected to her divine feminine power and is aware of the beauty and strength within her. She knows that being in touch with her feminine energy means being true to herself and honoring her natural state.
+So, how do we embrace the divine feminine within? How do we [embody the goddess](/embody-the-goddess-within)? An Embodied Goddess is a woman who is connected to her divine feminine power and is aware of the beauty and strength within her. She knows that being in touch with her feminine energy means being true to herself and honoring her natural state.
 
 It is not about being more feminine, sexy, soft, or beautiful. It is about being authentically you. It is about allowing yourself to be free from any expectations and just be. The Embodied Goddess is a woman of openness, love, and compassion. She is in touch with her heart and opens it up to the joys of life. A woman in this state of embodiment is not afraid to express her feelings and knows that she has the right to love and be loved. When she is connected to her inner goddess, she is able to embrace her beauty and strength with confidence and grace.
 
@@ -60,15 +60,9 @@ The Embodied Goddess lives her life with creativity, grace and courage. She know
 
 ## How do you embrace all of these wonderful qualities of the divine feminine?
 
-The Goddess is always within us, just waiting to be discovered. At our beautiful [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/), we will learn to access the divine feminine energy and connect to our deepest spirit. This unlocks a whole new level of healing and grounding, as we learn to move beyond the limitations of the mind and awaken our inner power. By becoming aware of the Goddess within us, we can begin to make choices that bring us closer to our true purpose and find joy in our lives. We tap into a universal source of light and love, which gives us the strength to manifest our heart's desires.
+The Goddess is always within us, just waiting to be discovered. By becoming aware of the Goddess within us, we can begin to make choices that bring us closer to our true purpose and find joy in our lives. We tap into a universal source of light and love, which gives us the strength to manifest our heart's desires.
 
-With the right tools and practices, we can start to live a life full of happiness and fulfilment. Our beautiful Goddess yOga retreats provide the perfect opportunity to reawaken the Goddess energy within you. You will be encouraged to trust your intuition, courageously explore your inner depths, and experience true liberation. With the support of the program, you can start to live in alignment with your highest truth and embrace an unshakeable sense of worth and joy.
-
-Check out our [Goddess Yoga Retreats,](https://goddess-yoga-retreat.com/retreats/) where you will discover your inner goddess through chakra healing dances, guided visual meditations, healing music, journaling, healthy recipes, natural beauty care and so much more.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-*Looking for****tarot card readings****,****astrology****and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com/)*where you will find everything tarot for blossoming souls.*
+With the right tools and practices, we can start to live a life full of happiness and fulfilment.
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/10/pinterest-for-blogs-576x1024.jpg)
 

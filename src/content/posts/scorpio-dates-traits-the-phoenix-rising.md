@@ -16,8 +16,6 @@ Scorpio is a dynamic and intense zodiac sign known for its transformative energy
 
 What sets Scorpio apart is its connection to three (or 5 depending on the interpretation) spirit animals that represent different stages of evolution. The Scorpion signifies the initial stage, representing the intense and protective nature of Scorpios. The second stage is represented by the Eagle, symbolizing their ability to rise above challenges and gain a broader perspective. The Phoenix represents the third stage, embodying the transformative aspect of Scorpio as they rise from the ashes, letting go of the past and experiencing rebirth.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Scorpio Dates & Traits Quick Facts
 
 * **Dates:** October 23 - November 21
@@ -212,16 +210,6 @@ In a tarot reading, the Scorpio card often signifies the need to release attachm
 The Scorpio tarot card serves as a reminder that transformation and growth are essential parts of life's journey. It encourages you to face your fears, embrace change, and allow yourself to be reborn in a more authentic and empowered state. By embracing the transformative energy of the Scorpio card, you can tap into your inner strength, resilience, and capacity for personal evolution.
 
 ## Want to Learn How to Embody Astrology and Tarot?
-
-Join us at our [Mystical Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) and learn how to embody the Tarot as you journey into your divine feminine.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
 
 *aries and scorpio compatibility  
 taurus and scorpio compatibility  

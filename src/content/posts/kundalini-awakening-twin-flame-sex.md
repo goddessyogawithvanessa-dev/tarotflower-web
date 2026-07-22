@@ -20,7 +20,7 @@ If you've met your twin flame, you've certainly spent time [thinking you're craz
 
 Kundalini energy refers to a powerful spiritual force that resides within every individual. It is often described as a coiled, dormant energy located at the base of the spine, specifically in the area of the sacrum. The word "Kundalini" is derived from Sanskrit and translates to "coiled snake" or "serpent power."
 
-Kundalini energy is the primal life force or cosmic energy that exists within us. It represents our untapped spiritual potential, creativity, and higher consciousness. When awakened, this dormant energy begins to ascend through the central energy channel of the body, known as the Sushumna, and activates the various energy centers or [chakras](https://goddess-yoga-retreat.com/balance-your-7-chakras-to-reset-your-nervous-system/) along its path.
+Kundalini energy is the primal life force or cosmic energy that exists within us. It represents our untapped spiritual potential, creativity, and higher consciousness. When awakened, this dormant energy begins to ascend through the central energy channel of the body, known as the Sushumna, and activates the various energy centers or [chakras](/balance-your-7-chakras-to-reset-your-nervous-system) along its path.
 
 The awakening of Kundalini energy initiates a profound spiritual transformation and expansion of consciousness. It can bring about heightened states of awareness, increased intuition, spiritual insights, and a deep sense of connection to the divine. It is also associated with intense energy surges, physical sensations, and emotional releases.
 
@@ -125,8 +125,6 @@ Through the practice of goddess yoga, you awaken and balance the energy centers 
 ![womens wellness retreat, goddess yoga, twin flame journey, divine feminine](https://i.postimg.cc/ZqKZh7tX/womens-wellness-retreat.png)
 
 Ultimately, a Kundalini awakening is a sacred and transformative journey, which can also be intense and frightening. It holds the potential for profound spiritual awakening, self-realization, and a deep connection to the divine within yourself. It's a path of self-discovery and inner transformation that can bring about profound shifts in your perception, consciousness, and way of living in the world. That's why it is really important to have a trusted spiritual guide you can rely on, to help you navigate the powerful transformative energies. So, embrace this journey with kindness and trust, and know that we are here to support you on your path toward your twin flame. May your kundalini awakening and twin flame journey lead you to profound growth and fulfillment.
-
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
 
 *kundalini awakening symptoms  
 twin flame meaning  

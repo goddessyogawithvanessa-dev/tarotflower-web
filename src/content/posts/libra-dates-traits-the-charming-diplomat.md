@@ -29,8 +29,6 @@ In summary, Libra is an air sign guided by the principles of balance, harmony, a
 * Element: Air
 * Numerology: 6
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Libra Personality at a Glance
 
 ![Libra compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/libra-4.jpg)
@@ -194,33 +192,3 @@ The scales held by Justice represent the need for balance and equilibrium. Libra
 Additionally, Justice represents the principles of karma and cause and effect. It suggests that Libra individuals will be rewarded for their just actions and will face the consequences of their unjust ones. This card serves as a reminder for Libra to stay true to their values, uphold justice, and create harmony within themselves and in their relationships.
 
 Overall, the Justice card associated with Libra signifies the importance of fairness, balance, and truth. It serves as a guiding light for Libra individuals to navigate life's challenges with integrity, make just decisions, and seek harmony and balance in their interactions with others.
-
-## Want to Learn More about Astrology and Tarot?
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
-
-*libra dates  
-libra horoscope  
-libra zodiac  
-libra personality  
-libratraits  
-libra zodiac sign  
-libra sign  
-libra compatibility  
-aries and libra compatibility  
-taurus and libra compatibility  
-libra and gemini compatibility  
-libra and cancer compatibility  
-leo and libra compatibility  
-virgo and libra compatibility  
-libra and scorpio compatibility  
-libra and sagittarius compatibility  
-libra and capricorn compatibility  
-libra and aquarius compatibility  
-libra and pisces compatibility*

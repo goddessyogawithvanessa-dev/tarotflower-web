@@ -29,8 +29,6 @@ Overall, having an Aries in your life means being in the company of a dynamic an
 * Planet associated with Aries: **Mars**
 * Traits of Aries: • **Courageous and daring • Optimistic and confident • Independent and strong-willed • Generous and enthusiastic • Leader and ambitious • Competitive and passionate**
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Aries Personality at a Glance
 
 ![Aries dates and traits zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/aries-1.jpg)
@@ -187,46 +185,3 @@ Aries in the Tarot is associated with [The Emperor](/the-emperor-tarot) card and
 Similarly, this energetic and enthusiastic sign is often associated with ambition, strength, and leadership. Aries is often thought of as a trailblazer, a go-getter, and someone who is willing to take risks in order to get what they want. This sign is also closely associated with the element of Fire, which symbolizes passion and enthusiasm.
 
 The Emperor is also a reminder that we must make our own decisions and not rely on others to decide for us. It encourages us to take responsibility for our own actions and to make decisions that will help us reach our goals. Aries’ energy is often associated with ambition, independence, and assertiveness, so this card is a reminder to take charge of our lives and use our strength and determination to reach our goals.
-
-## Learn to Embody the Fiery Energy of Aries at Goddess Yoga Retreats
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/Sbbi6Nvb4TU" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
-
-*aries and cancer compatibility  
-aries and scorpio compatibility  
-aries and gemini compatibility  
-aries and taurus compatibility  
-aries and virgo compatibility  
-aries and libra compatibility  
-aries and leo compatibility  
-aries and aquarius compatibility  
-aries and capricorn compatibility  
-aries and pisces compatibility  
-aries and sagittarius compatibility  
-aries compatibility*
-
-*aries and cancer compatibility  
-aries and scorpio compatibility  
-aries and gemini compatibility  
-aries and taurus compatibility  
-aries and virgo compatibility  
-aries and libra compatibility  
-aries and leo compatibility  
-aries and aquarius compatibility  
-aries and capricorn compatibility  
-aries and pisces compatibility  
-aries and sagittarius compatibility  
-aries zodiac  
-aries sign  
-aries astrology  
-aries personality  
-aries dates  
-aries traits  
-aries zodiac sign  
-aries star sign*

@@ -31,8 +31,6 @@ If you have a Taurus birthday coming up, expect to be celebrated by your loved o
 * Lucky Numbers: 2, 6, 9, 12, 24
 * Dates: April 20 - May 20
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Taurus Personality At a Glance
 
 ![taurus earth zodiac sign artwork by Vanessa Hylande](/images/2023/04/taurus-2.jpg)
@@ -175,15 +173,5 @@ In the traditional [Rider-Waite](https://amzn.to/430oVaA) deck, [The Hierophant]
 As Taureans are grounded in practicality and realism, they can relate to the Hierophant's values of tradition and order. The Hierophant also symbolizes the Taurus' deep sense of responsibility and their desire for financial stability, as they often seek guidance and security from established institutions such as banks, corporations, or religious organizations. Overall, the Hierophant tarot card embodies the Taurus zodiac sign's values of practicality, responsibility, and respect for tradition.
 
 ## Learn to Embody Astrology and Tarot
-
-Join us at our [Mystical Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) and learn how to embody the Tarot as you journey into your divine feminine.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
 
 *taurus personality, taurus dates, taurus astrological sign, taurus astrology, taurus zodiac sign, taurus sign, taurus traits, taurus compatibility, taurus star sign, taurus zodiac, taurus birthday*, *aries and taurus compatibility, taurus and cancer compatibility, taurus and leo compatibility, taurus and libra compatibility, taurus and gemini compatibility, taurus and virgo compatibility, taurus and scorpio compatibility, taurus and pisces compatibility, taurus and capricorn compatibility, taurus and aquarius compatibility, Saggitarius and taurus compatibility*

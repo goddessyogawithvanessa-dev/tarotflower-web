@@ -101,7 +101,3 @@ It's time to stop making excuses. Listen to your body. Listen to your heart. Get
 Part of being confident is knowing that the authentic voice of your heart is necessary, intelligent and worthy of respect. That means what you desire is worthy of your consideration. That means your dreams are worthy of your time, attention and care.
 
 So, give yourself permission to go inward and listen to your heart. Give yourself permission to take action on those dreams and then work hard every day to make them happen. And do all of this with confidence, because you are your own goddess of love. So, be confident in the decisions you make from this day forward, and follow those dreams from beginning to end!
-
-**Want some guidance on using these beautiful affirmations for confidence? Join** for our "Embodying the Divine Feminine" mystical yoga, dance and somatics retreat this summer and boost your confidence in a supportive environment.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

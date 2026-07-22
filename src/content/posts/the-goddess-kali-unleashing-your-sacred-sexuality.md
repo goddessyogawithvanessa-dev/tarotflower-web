@@ -18,8 +18,6 @@ The name "Kali" itself holds significant meaning, derived from the Sanskrit word
 
 Kali's iconography is rich with symbolism. Her dark complexion represents the vastness of the universe, while her nudity signifies her liberation from societal norms and attachments. The garland of severed heads symbolizes the transcendence of ego and the conquest over ignorance. In her hands, she holds weapons that signify the power to overcome obstacles and annihilate negativity.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ### The Spiritual Significance of the Goddess Kali
 
 Beyond her fierce appearance, Kali carries profound spiritual significance. She is a symbol of **empowerment** and **liberation**, encouraging individuals to confront their fears, embrace their shadow selves, and rise above limitations. Kali embodies the courage to face the darkest aspects of ourselves and transform them into sources of strength and growth.
@@ -49,10 +47,6 @@ Kali's symbolic portrayal as a powerful and fierce deity resonates with the twin
 ### Twin Flame Separation and Reunion
 
 Furthermore, Kali's association with time and death mirrors the transformative nature of the twin flame connection. The journey often involves cycles of separation and reunion, testing the souls' commitment and perseverance. Just as Kali represents the eternal cycle of creation and destruction, the twin flames experience the ebb and flow of their connection, ultimately leading to profound spiritual growth and union.
-
-On a twin flame journey? Ready to level-up your divine feminine game? Join us at our mystical [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/), where we embody the goddess through yoga, dance, ritual, music and more.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ### Kali Teaches Us Surrender
 
@@ -91,9 +85,3 @@ Embodying Kali means liberating yourself from societal expectations and limiting
 Kali's energy encompasses fierce love and compassion for oneself. Prioritize self-care practices that honor your physical, emotional, and spiritual well-being. Engage in activities that nourish and rejuvenate you, such as meditation, yoga, or creative expression. Cultivate a loving relationship with yourself, celebrating your strengths and embracing your imperfections.
 
 By embodying the essence of the Goddess Kali in the realms of sexual exploration, liberation, and releasing old relationship patterns, you tap into her transformative power. Embrace your sexuality, release attachments that no longer serve you, and embark on a journey of self-discovery and empowerment. Allow Kali's energy to guide you in embracing your authenticity, liberation, and the embodiment of your truest self.
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!

@@ -97,21 +97,3 @@ Embodying the goddess Aphrodite is a beautiful journey of self-discovery, self-l
 7. **Explore your passions:** Discover and pursue activities that ignite your passion and creativity. Engage in artistic endeavors, explore your hobbies, or dive into projects that bring you fulfillment. Allow your passions to flow freely and embrace the joy that comes from following your heart's desires.
 
 Remember, embodying the goddess Aphrodite is a personal and individual journey. Trust your intuition and embrace the qualities and expressions of femininity that resonate most deeply with you. By honoring and embracing your true self, you embody the essence of Aphrodite and radiate love, beauty, and feminine power into the world.
-
-## Channel the Goddess Aphrodite at Goddess Yoga Retreats
-
-Join us for [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/) in beautiful Lago d’Orta, Italy where we will embody the Goddess Yemaya and other inspirational Goddesses.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-*aphrodite  
-goddess aphrodite  
-goddess venus  
-greek goddess of love  
-aphrodite god of war  
-aphrodite meaning  
-goddess of love and beauty  
-roman goddess of love  
-venus goddess of love  
-venus roman goddess  
-venus aphrodite*

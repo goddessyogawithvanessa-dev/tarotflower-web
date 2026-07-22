@@ -53,5 +53,3 @@ This chakra healing practice will be supported by **sound bath music** in the co
 ## Practice Yoga with Crystals for Healing & Aromatherapy
 
 In the heart chakra opening class, for example, I will incorporate **crystals** for the heart chakra, a guided meditation for heart chakra healing and **essential oils** for love, friendship, peace and compassion. We will be inspired by Aphrodite the Goddess of love, or one of her sister goddesses. We will allow her to fill our hearts and souls during our practice as we use crystals to support, heal and nourish the heart chakra and allow the intention of the day’s practice to **manifest love** in our lives.
-
-Ready to go on a journey to your inner Goddess where you can heal your inner divine feminine and liberate your beautiful soul, min, body and spirit? Check our our beautiful upcoming [Goddess Yoga retreats!](https://goddessyogaescapes.com/retreats/)

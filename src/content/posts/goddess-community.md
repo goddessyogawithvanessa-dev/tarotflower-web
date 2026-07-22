@@ -7,16 +7,8 @@ modified: 2023-11-27
 content_type: page
 categories: []
 seo_title: "Goddess Community | Tarot Flower"
-seo_description: "Throughout the year we gather for amazing divine feminine retreats with Tarot, yoga, dance, ritual and more! And when we can't travel to get together,..."
+seo_description: "Explore the Tarot Flower Goddess Community and memories from past gatherings centered on Tarot, yoga, dance and ritual."
 ---
-
-## Live Events for Body, Mind & Spirit
-
-## Divine Feminine Retreats, Workshops, Online Circles and More!
-
-Throughout the year we gather for amazing divine feminine retreats with Tarot, yoga, dance, ritual and more! And when we can't travel to get together, we join in online circles and other community events.
-
-Get unstuck, make great friends and explore the beauty of the world. Join us in coming together body, mind and spirit.
 
 ## The OG Goddesses
 
@@ -27,5 +19,3 @@ Get unstuck, make great friends and explore the beauty of the world. Join us in 
 In summer 2023, we spent three separate weeks doing yoga, Tarot, dance and exploration in beautiful Lago d'Orta, Italy. Nestled in the beautiful Italian alps, we explored historic sites, went swimming, eating, dancing and more.
 
 Our fellow goddesses were from all over the world, and it was amazing to share this time with such amazing women. We made friends for life and supported eachother to heal, grow, laugh and love.
-
-Stay tuned for our next retreats in this magical land of the dragons.

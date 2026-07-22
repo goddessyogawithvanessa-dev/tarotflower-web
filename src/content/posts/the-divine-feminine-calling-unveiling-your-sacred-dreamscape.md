@@ -16,8 +16,6 @@ Welcome, beautiful souls, to a transformative week of **deep inner exploration**
 
 Expect to receive powerful messages from the depths of your being. Embrace this divine invitation to transmute the shadows into light, as you embark on a path of self-discovery, self-healing, and self-love.
 
-**Discover the magic of Divine Feminine Tarot at our live mystical yoga, dance and somatics wellness retreats! U****nleash your inner divine goddess at our all-inclusive magical events!**
-
 ## Unveiling the Messages in Your Dreams
 
 ![divine feminine tarot card reading, Universal Love Oracle, twin flame, goddess circles](/images/2023/05/DF-Reading-May-21-2023-2-1024x1019.jpeg)
@@ -73,25 +71,3 @@ You, as a divine feminine, are being called to action, to fully embody the light
 Take this time to prioritize self-healing, self-discovery, and nurturing the divine feminine energy within you. Pursue your passions and your creative projects. Work steadfastly toward the goals that bring you joy and light.
 
 Embrace the journey before you, knowing that your twin flame union is divinely guided. By honoring your own path and embodying the light, you are creating a strong foundation for an even more profound and harmonious union in the future. Have faith in the divine timing of your connection, and know that as you progress on your ascension journey, you are magnetically drawing your twin flame closer, ready to meet at the perfect moment.
-
-## Embody the Tarot at Goddess Yoga Retreats
-
-Ready to delve into the mysteries of the Tarot and embody the goddess and your highest self? Join us at [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/) where we will share mystical practices, ritual, yoga, dance and more in gorgeous locations around the world!
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
-##### Divine Feminine
-
-### The Tarot Flower Boutique
-
-Love Tarot and Oracle decks, candles, incense, crystals and more? Check out our divine feminine Tarot Flower Boutique!
-
-*divine feminine, divine feminine calling, judgement tarot, dreams, transmutation, earth angel, twin flame union,*
-
-*twin flame  
-twin flame meaning  
-twin flame love  
-twin flame journey  
-twin flame separation  
-twin flame connection  
-twin flame relationship*
