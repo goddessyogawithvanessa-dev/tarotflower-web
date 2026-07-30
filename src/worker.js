@@ -1,4 +1,5 @@
 import { connect } from "cloudflare:sockets";
+import { WorkerEntrypoint } from "cloudflare:workers";
 
 var __defProp = Object.defineProperty;
 var __name = (target, value) => __defProp(target, "name", { value, configurable: true });
@@ -58,6 +59,71 @@ var worker_default = {
     ctx.waitUntil(processDueCampaignDeliveries(env));
   }
 };
+class LibraryEmailService extends WorkerEntrypoint {
+  async fetch(request) {
+    const url = new URL(request.url);
+    if (url.pathname !== "/api/library-magic-link") {
+      return new Response("Not found", { status: 404 });
+    }
+    if (request.method !== "POST") {
+      return new Response("Method not allowed", { status: 405 });
+    }
+    return handleLibraryMagicLink(request, this.env);
+  }
+}
+async function handleLibraryMagicLink(request, env) {
+  try {
+    const length = Number(request.headers.get("content-length") || "0");
+    if (length > MAX_BODY_BYTES) {
+      return new Response("Request too large", { status: 413 });
+    }
+    const body = await request.json();
+    const to = clean(body.to).toLowerCase();
+    const subject = clean(body.subject);
+    const magicLink = clean(body.magicLink);
+    const expiresInMinutes = Number(body.expiresInMinutes);
+    if (!isValidEmail(to) || containsHeaderInjection(to)) {
+      return new Response("Invalid recipient", { status: 400 });
+    }
+    if (!subject || subject.length > 160 || containsHeaderInjection(subject)) {
+      return new Response("Invalid subject", { status: 400 });
+    }
+    let parsedLink;
+    try {
+      parsedLink = new URL(magicLink);
+    } catch {
+      return new Response("Invalid magic link", { status: 400 });
+    }
+    if (
+      parsedLink.protocol !== "https:" ||
+      !["tarotflower.com", "www.tarotflower.com"].includes(parsedLink.hostname) ||
+      parsedLink.pathname !== "/library/auth" ||
+      !parsedLink.searchParams.get("token")
+    ) {
+      return new Response("Invalid magic link", { status: 400 });
+    }
+    if (!Number.isInteger(expiresInMinutes) || expiresInMinutes < 1 || expiresInMinutes > 60) {
+      return new Response("Invalid expiry", { status: 400 });
+    }
+    const safeLink = escapeHtml(magicLink);
+    await sendSmtpEmail(env, {
+      to,
+      from: env.CONTACT_FROM || DEFAULT_FROM,
+      replyTo: env.CONTACT_FROM || DEFAULT_FROM,
+      subject,
+      html: `<p>Use this secure, single-use link to open your Tarot Flower ritual library:</p><p><a href="${safeLink}">Open My Ritual Library</a></p><p>This link expires in ${expiresInMinutes} minutes.</p>`,
+      text: `Use this secure, single-use link to open your Tarot Flower ritual library:\n\n${magicLink}\n\nThis link expires in ${expiresInMinutes} minutes.`
+    });
+    return new Response(JSON.stringify({ ok: true }), {
+      status: 200,
+      headers: { "content-type": "application/json; charset=utf-8" }
+    });
+  } catch (error) {
+    console.error("Library magic-link email failed", error);
+    return new Response("The email could not be sent", { status: 500 });
+  }
+}
+__name(handleLibraryMagicLink, "handleLibraryMagicLink");
 async function handleContact(request, env) {
   if (request.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: securityHeaders() });
@@ -1635,6 +1701,7 @@ function escapeHtml(value) {
 }
 __name(escapeHtml, "escapeHtml");
 export {
+  LibraryEmailService,
   worker_default as default
 };
 //# sourceMappingURL=worker.js.map
