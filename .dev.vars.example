@@ -1,0 +1,10 @@
+# Local-only values for `npm run library:dev`.
+# Copy this file to `.dev.vars`; never commit the resulting file.
+APP_ORIGIN=http://127.0.0.1:8787
+LIBRARY_TEST_MODE=true
+STRIPE_SECRET_KEY=sk_test_replace_with_test_key
+STRIPE_WEBHOOK_SECRET=whsec_local_prototype
+TURNSTILE_SITE_KEY=1x00000000000000000000AA
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+TURNSTILE_EXPECTED_HOSTNAME=127.0.0.1
+TOKEN_PEPPER=replace_with_at_least_32_random_characters

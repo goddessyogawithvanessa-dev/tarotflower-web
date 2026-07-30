@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "tarotflower-web",
+  "main": "./worker/index.js",
+  "compatibility_date": "2026-07-18",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*",
+      "/library/auth*",
+      "/library/claim*",
+      "/library/rituals/*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "LIBRARY_DB",
+      "database_name": "tarotflower-library",
+      "database_id": "63c59d36-ead1-473d-a947-3a3ede083e11"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "LIBRARY_ASSETS",
+      "bucket_name": "tarotflower-digital-rituals"
+    }
+  ],
+  "services": [
+    {
+      "binding": "EMAIL_SERVICE",
+      "service": "tarotflower-web-dev",
+      "entrypoint": "LibraryEmailService"
+    }
+  ],
+  "vars": {
+    "APP_ORIGIN": "https://tarotflower.com",
+    "LIBRARY_TEST_MODE": "false",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAADxdJSQWBM1O2yZl",
+    "TURNSTILE_EXPECTED_HOSTNAME": "tarotflower.com"
+  }
+}

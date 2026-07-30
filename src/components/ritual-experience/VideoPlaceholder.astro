@@ -1,0 +1,40 @@
+---
+interface Props {
+  label: string;
+  cinematic?: boolean;
+  quiet?: boolean;
+  image?: string;
+  src?: string;
+}
+
+const { label, cinematic = false, quiet = false, image = '', src = '' } = Astro.props;
+---
+{
+  src ? (
+    <video
+      class:list={['ceremonial-video-player', { 'is-cinematic': cinematic, 'is-quiet': quiet }]}
+      controls
+      controlslist="nodownload noremoteplayback"
+      preload="metadata"
+      playsinline
+      aria-label={label}
+    >
+      <source src={src} type="video/mp4" />
+      Your browser does not support this ritual video.
+    </video>
+  ) : (
+    <div
+      class:list={[
+        'ceremonial-video-placeholder',
+        { 'is-cinematic': cinematic, 'is-quiet': quiet, 'has-image': Boolean(image) },
+      ]}
+      style={image ? `--placeholder-image: url('${image}')` : undefined}
+      role="img"
+      aria-label={`${label} placeholder`}
+    >
+      <span class="ceremonial-play-mark" aria-hidden="true"></span>
+      <p>{label}</p>
+      <small>Video placeholder</small>
+    </div>
+  )
+}

@@ -1,0 +1,36 @@
+INSERT INTO products (
+  id,
+  slug,
+  title,
+  description,
+  image_path,
+  experience_path,
+  stripe_price_id,
+  stripe_payment_link_id,
+  assets_json,
+  active,
+  created_at,
+  updated_at
+) VALUES (
+  'ritual-step-into-the-fire-test',
+  'step-into-the-fire-test',
+  'Step Into the Fire',
+  'A digital ritual for courage and confidence.',
+  '/images/digital-rituals/step-into-the-fire/fire-goddess-front-flipped.jpg',
+  '/library/rituals/step-into-the-fire-test/',
+  'price_1Tyt6bHxP7ZQh1un7maRbGC4',
+  'plink_1Tyt6kHxP7ZQh1unSsgzOV8w',
+  '[{"id":"guide","label":"Ritual Guide","kind":"pdf","key":"test/step-into-the-fire/ritual-guide.pdf","filename":"step-into-the-fire-test-guide.pdf","contentType":"application/pdf"},{"id":"music","label":"Original Music","kind":"audio","key":"test/step-into-the-fire/original-music.mp3","filename":"step-into-the-fire-test-music.mp3","contentType":"audio/mpeg"},{"id":"movement","label":"Guided Movement Practice","kind":"video","key":"test/step-into-the-fire/movement-practice.mp4","filename":"step-into-the-fire-test-movement.mp4","contentType":"video/mp4"},{"id":"video-initiation","label":"Initiation Ritual","kind":"video","key":"test/step-into-the-fire/videos/initiation.mp4","filename":"fire-ritual-initiation.mp4","contentType":"video/mp4"},{"id":"video-destruction","label":"Destruction Ritual","kind":"video","key":"test/step-into-the-fire/videos/destruction.mp4","filename":"fire-ritual-destruction.mp4","contentType":"video/mp4"},{"id":"video-guardian","label":"Guardian Embodiment Ritual","kind":"video","key":"test/step-into-the-fire/videos/guardian-embodiment.mp4","filename":"fire-ritual-guardian-embodiment.mp4","contentType":"video/mp4"},{"id":"video-freedom","label":"Freedom Sound Bath","kind":"video","key":"test/step-into-the-fire/videos/freedom-sound-bath.mp4","filename":"fire-ritual-freedom-sound-bath.mp4","contentType":"video/mp4"}]',
+  1,
+  unixepoch(),
+  unixepoch()
+) ON CONFLICT(id) DO UPDATE SET
+  title = excluded.title,
+  description = excluded.description,
+  image_path = excluded.image_path,
+  experience_path = excluded.experience_path,
+  stripe_price_id = excluded.stripe_price_id,
+  stripe_payment_link_id = excluded.stripe_payment_link_id,
+  assets_json = excluded.assets_json,
+  active = excluded.active,
+  updated_at = unixepoch();

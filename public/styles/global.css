@@ -364,6 +364,11 @@ body {
   box-shadow: 0 0 10px currentColor;
 }
 
+.ceremonial-progress {
+  min-width: 3.2em;
+  text-align: left;
+}
+
 .ceremonial-step {
   position: relative;
   width: 100%;
@@ -754,6 +759,15 @@ body {
   font-size: 1.35rem;
 }
 
+.ceremonial-threshold-copy .ceremonial-invocation {
+  margin: -12px 0 16px;
+  color: #d5ad72;
+  font-family: 'Aboreto', serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
 .ceremonial-oracle-placeholder {
   position: relative;
   display: grid;
@@ -780,6 +794,16 @@ body {
   border: 1px solid rgba(229, 200, 149, 0.28);
   background: rgba(255, 255, 255, 0.035);
   text-align: center;
+}
+
+.ceremonial-video-player {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 34px 0 0;
+  border: 1px solid rgba(229, 200, 149, 0.28);
+  background: #090609;
+  object-fit: contain;
 }
 
 .ceremonial-video-placeholder::before {
@@ -907,11 +931,28 @@ body {
 
 .ceremonial-blessing {
   max-width: 560px;
-  min-height: 110px;
-  margin: 0 auto;
+  margin: 0 auto 34px;
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(1.35rem, 2.4vw, 1.9rem);
   font-weight: 300;
+}
+
+.ceremonial-journal-invitation,
+.ceremonial-circle-guidance {
+  max-width: 620px;
+  margin: 0 auto 34px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.18rem, 2vw, 1.55rem);
+  line-height: 1.65;
+}
+
+.ceremonial-circle-guidance {
+  padding-top: 30px;
+  border-top: 1px solid rgba(143, 120, 99, 0.22);
+}
+
+.ceremonial-circle-guidance .ceremonial-eyebrow {
+  margin-bottom: 12px;
 }
 
 .ceremonial-companions-placeholder {
@@ -935,11 +976,19 @@ body {
   text-transform: uppercase;
 }
 
-.ceremonial-companions-placeholder span {
+.ceremonial-companions-placeholder span,
+.ceremonial-companions-placeholder a {
   padding: 7px 12px;
   border: 1px solid rgba(143, 120, 99, 0.28);
   color: #87766a;
   font-size: 0.83rem;
+  text-decoration: none;
+}
+
+.ceremonial-companions-placeholder a:hover,
+.ceremonial-companions-placeholder a:focus-visible {
+  border-color: #8f7863;
+  color: #4d4142;
 }
 
 .ceremonial-access-error h1 {

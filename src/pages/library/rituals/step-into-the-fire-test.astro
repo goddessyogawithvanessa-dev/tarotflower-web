@@ -1,0 +1,144 @@
+---
+import RitualExperience from '../../../layouts/RitualExperience.astro';
+import RitualStep from '../../../components/ritual-experience/RitualStep.astro';
+import VideoPlaceholder from '../../../components/ritual-experience/VideoPlaceholder.astro';
+---
+
+<RitualExperience
+  title="Step Into the Fire | My Ritual Library"
+  description="A private ceremonial journey within the Tarot Flower Digital Ritual Library."
+  image="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg"
+>
+  <main class="ceremonial-journey" data-ritual-experience data-product-slug="step-into-the-fire-test">
+    <div class="ceremonial-loading" data-ritual-loading>
+      <span class="ceremonial-ember" aria-hidden="true"></span>
+      <p>Opening the ritual…</p>
+    </div>
+
+    <div class="ceremonial-book" data-ritual-content hidden>
+      <div class="ceremonial-masthead" aria-hidden="true">
+        <span>Step Into the Fire</span>
+        <i></i>
+        <span class="ceremonial-progress" data-ritual-progress>1 / 6</span>
+      </div>
+
+      <RitualStep id="opening" tone="dark" className="ceremonial-opening">
+        <img
+          class="ceremonial-full-bleed-image"
+          src="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg"
+          alt="Fire goddess artwork opening the Step Into the Fire ritual"
+        />
+        <div class="ceremonial-overlay"></div>
+        <a class="ceremonial-library-link" href="/library/">My Ritual Library</a>
+        <div class="ceremonial-opening-copy">
+          <p class="ceremonial-eyebrow">Welcome</p>
+          <h1>Step Into the Fire</h1>
+          <p class="ceremonial-question">Are you ready to ignite your fire?</p>
+          <p class="ceremonial-placeholder-copy">[Short opening introduction will live here.]</p>
+          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Begin</button>
+        </div>
+      </RitualStep>
+
+      <RitualStep id="initiation" tone="dark" className="ceremonial-threshold-page">
+        <div class="ceremonial-threshold-art">
+          <img src="/images/digital-rituals/step-into-the-fire/fire-goddess-front-flipped.jpg" alt="Fire goddess oracle artwork" />
+        </div>
+        <div class="ceremonial-threshold-copy">
+          <p class="ceremonial-eyebrow">Initiation</p>
+          <h2>Initiation</h2>
+          <p class="ceremonial-invocation">I Choose</p>
+          <p>Enter the ritual and choose the intention you are ready to carry forward.</p>
+          <VideoPlaceholder
+            label="Initiation ritual"
+            src="/api/library/files/step-into-the-fire-test/video-initiation"
+          />
+          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Move into Destruction</button>
+        </div>
+      </RitualStep>
+
+      <RitualStep id="destruction" tone="dark" className="ceremonial-threshold-page ceremonial-threshold-reverse">
+        <div class="ceremonial-threshold-art">
+          <img src="/images/digital-rituals/step-into-the-fire/burn-oracle-card-crisp.png" alt="Burn oracle card" />
+        </div>
+        <div class="ceremonial-threshold-copy">
+          <p class="ceremonial-eyebrow">Destruction</p>
+          <h2>Destruction</h2>
+          <p class="ceremonial-invocation">I Release</p>
+          <p>Meet what is ready to be released and offer it to the fire.</p>
+          <VideoPlaceholder
+            label="Destruction ritual"
+            src="/api/library/files/step-into-the-fire-test/video-destruction"
+          />
+          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Begin the Embodiment</button>
+        </div>
+      </RitualStep>
+
+      <RitualStep id="guardian" tone="dark" className="ceremonial-threshold-page">
+        <div class="ceremonial-threshold-art">
+          <img src="/images/digital-rituals/step-into-the-fire/guardian-oracle-card.png" alt="Guardian oracle card" />
+        </div>
+        <div class="ceremonial-threshold-copy">
+          <p class="ceremonial-eyebrow">Guardian</p>
+          <h2>Guardian</h2>
+          <p class="ceremonial-invocation">I Embody</p>
+          <p>Rise into the body and embody the energy you are ready to claim.</p>
+          <VideoPlaceholder
+            label="Guardian embodiment ritual"
+            src="/api/library/files/step-into-the-fire-test/video-guardian"
+          />
+          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Receive</button>
+        </div>
+      </RitualStep>
+
+      <RitualStep id="freedom" tone="dark" className="ceremonial-threshold-page ceremonial-threshold-reverse">
+        <div class="ceremonial-threshold-art">
+          <img src="/images/digital-rituals/step-into-the-fire/freedom-oracle-card.png" alt="Freedom oracle card" />
+        </div>
+        <div class="ceremonial-threshold-copy">
+          <p class="ceremonial-eyebrow">Freedom</p>
+          <h2>Freedom</h2>
+          <p class="ceremonial-invocation">I Receive</p>
+          <p>Become still and receive the sound bath.</p>
+          <VideoPlaceholder
+            label="Freedom sound bath"
+            quiet={true}
+            src="/api/library/files/step-into-the-fire-test/video-freedom"
+          />
+          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Receive the Closing Blessing</button>
+        </div>
+      </RitualStep>
+
+      <RitualStep id="closing" tone="light" className="ceremonial-closing-page">
+        <div class="ceremonial-closing-copy">
+          <p class="ceremonial-eyebrow">Closing Blessing</p>
+          <h2>Blessing</h2>
+          <p class="ceremonial-journal-invitation">Take a few quiet moments to journal what you chose, released, embodied, and received.</p>
+          <p class="ceremonial-blessing">May the fire you have awakened continue to illuminate your path. May you carry your courage, clarity, and embodied truth with you as you return.</p>
+          <div class="ceremonial-circle-guidance">
+            <p class="ceremonial-eyebrow">Open the Circle</p>
+            <p>When you are ready, slowly walk the circle three times in reverse, opening the sacred space and returning its energy to the world.</p>
+          </div>
+          <div class="ceremonial-companions-placeholder" aria-label="Companion downloads">
+            <p>Companion Downloads</p>
+            <a href="/api/library/files/step-into-the-fire-test/guide?download=1">Ritual Guide</a>
+            <a href="/api/library/files/step-into-the-fire-test/music?download=1">Original Music</a>
+            <a href="/api/library/files/step-into-the-fire-test/movement?download=1">Movement Practice</a>
+          </div>
+          <a class="ceremonial-button" href="/library/">Return to My Rituals</a>
+        </div>
+      </RitualStep>
+
+      <button class="ceremonial-previous" type="button" data-ritual-previous hidden aria-label="Return to the previous ritual page">
+        <span aria-hidden="true">←</span> Return
+      </button>
+    </div>
+
+    <section class="ceremonial-access-error" hidden data-ritual-error>
+      <p class="ceremonial-eyebrow">Private ritual</p>
+      <h1>This ritual isn’t available in the current library session.</h1>
+      <a class="ceremonial-button" href="/library/login/">Email My Magic Link</a>
+    </section>
+  </main>
+
+  <script src="/scripts/ritual-library.js" is:inline></script>
+</RitualExperience>

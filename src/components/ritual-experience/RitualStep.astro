@@ -1,0 +1,17 @@
+---
+interface Props {
+  id: string;
+  tone?: 'light' | 'dark' | 'ember' | 'quiet';
+  className?: string;
+}
+
+const { id, tone = 'light', className = '' } = Astro.props;
+---
+<section
+  class:list={['ceremonial-step', `ceremonial-step-${tone}`, className]}
+  data-ritual-step={id}
+  aria-hidden="true"
+  hidden
+>
+  <slot />
+</section>

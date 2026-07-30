@@ -10,6 +10,7 @@ const digitalRituals = [
     imageAlt: 'Fire goddess beneath a golden moon, surrounded by flames and flowers',
     href: '/step-into-the-fire/',
     crop: 'fire',
+    price: '$33 USD',
   },
   {
     title: 'Flow Like the Goddess',
@@ -75,7 +76,7 @@ const digitalRituals = [
         </header>
 
         <div class="shop-ritual-grid">
-          {digitalRituals.map(({ title, description, image, imageAlt, href, crop }) => (
+          {digitalRituals.map(({ title, description, image, imageAlt, href, crop, price }) => (
             <article class={`shop-ritual shop-ritual--${crop}`}>
               <a class="shop-ritual-image" href={href}>
                 <img src={image} alt={imageAlt} loading="lazy" />
@@ -83,7 +84,11 @@ const digitalRituals = [
               <div class="shop-ritual-copy">
                 <h3><a href={href}>{title}</a></h3>
                 <p>{description}</p>
-                <p class="shop-price-placeholder">Price coming soon</p>
+                {price ? (
+                  <p class="shop-price">{price}</p>
+                ) : (
+                  <p class="shop-price-placeholder">Price coming soon</p>
+                )}
                 <a class="shop-button" href={href}>View Ritual</a>
               </div>
             </article>
