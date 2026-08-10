@@ -5,7 +5,9 @@ export default defineConfig({
   site: 'https://tarotflower.com',
   integrations: [
     sitemap({
-      filter: (page) => page !== 'https://tarotflower.com/home/',
+      filter: (page) =>
+        page !== 'https://tarotflower.com/home/' &&
+        !page.startsWith('https://tarotflower.com/library/'),
     }),
   ],
 });
