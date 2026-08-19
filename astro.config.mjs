@@ -7,7 +7,8 @@ export default defineConfig({
     sitemap({
       filter: (page) =>
         page !== 'https://tarotflower.com/home/' &&
-        !page.startsWith('https://tarotflower.com/library/'),
+        !page.startsWith('https://tarotflower.com/library/') &&
+        !page.startsWith('https://tarotflower.com/checkout/'),
     }),
   ],
 });
