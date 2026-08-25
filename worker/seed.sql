@@ -13,18 +13,19 @@ INSERT INTO products (
   updated_at
 ) VALUES (
   'ritual-step-into-the-fire-test',
-  'step-into-the-fire-test',
-  'Step Into the Fire',
-  'A digital ritual for courage and confidence.',
+  'step-into-your-fire',
+  'Step Into Your Fire',
+  'A ritual for courage and confidence.',
   '/images/digital-rituals/step-into-the-fire/fire-goddess-front-flipped.jpg',
-  '/library/rituals/step-into-the-fire-test/',
+  '/library/rituals/step-into-your-fire/',
   'price_1Tyt6bHxP7ZQh1un7maRbGC4',
   'plink_1Tyt6kHxP7ZQh1unSsgzOV8w',
-  '[{"id":"guide","label":"Ritual Guide","kind":"pdf","key":"test/step-into-the-fire/ritual-guide.pdf","filename":"step-into-the-fire-test-guide.pdf","contentType":"application/pdf"},{"id":"music","label":"Original Music","kind":"audio","key":"test/step-into-the-fire/original-music.mp3","filename":"step-into-the-fire-test-music.mp3","contentType":"audio/mpeg"},{"id":"movement","label":"Guided Movement Practice","kind":"video","key":"test/step-into-the-fire/movement-practice.mp4","filename":"step-into-the-fire-test-movement.mp4","contentType":"video/mp4"},{"id":"video-initiation","label":"Initiation Ritual","kind":"video","key":"test/step-into-the-fire/videos/initiation.mp4","filename":"fire-ritual-initiation.mp4","contentType":"video/mp4"},{"id":"video-destruction","label":"Destruction Ritual","kind":"video","key":"test/step-into-the-fire/videos/destruction.mp4","filename":"fire-ritual-destruction.mp4","contentType":"video/mp4"},{"id":"video-guardian","label":"Guardian Embodiment Ritual","kind":"video","key":"test/step-into-the-fire/videos/guardian-embodiment.mp4","filename":"fire-ritual-guardian-embodiment.mp4","contentType":"video/mp4"},{"id":"video-freedom","label":"Freedom Sound Bath","kind":"video","key":"test/step-into-the-fire/videos/freedom-sound-bath.mp4","filename":"fire-ritual-freedom-sound-bath.mp4","contentType":"video/mp4"}]',
+  '[{"id":"guide","label":"Ritual Guide","kind":"pdf","key":"test/step-into-the-fire/ritual-guide.pdf","filename":"step-into-your-fire-guide.pdf","contentType":"application/pdf"},{"id":"music","label":"Original Music","kind":"audio","key":"test/step-into-the-fire/original-music.mp3","filename":"step-into-your-fire-music.mp3","contentType":"audio/mpeg"},{"id":"movement","label":"Guided Movement Practice","kind":"video","key":"test/step-into-the-fire/movement-practice.mp4","filename":"step-into-your-fire-movement.mp4","contentType":"video/mp4"},{"id":"video-initiation","label":"Initiation Ritual","kind":"video","key":"test/step-into-the-fire/videos/initiation.mp4","filename":"fire-ritual-initiation.mp4","contentType":"video/mp4"},{"id":"video-destruction","label":"Destruction Ritual","kind":"video","key":"test/step-into-the-fire/videos/destruction.mp4","filename":"fire-ritual-destruction.mp4","contentType":"video/mp4"},{"id":"video-guardian","label":"Guardian Embodiment Ritual","kind":"video","key":"test/step-into-the-fire/videos/guardian-embodiment.mp4","filename":"fire-ritual-guardian-embodiment.mp4","contentType":"video/mp4"},{"id":"video-freedom","label":"Freedom Sound Bath","kind":"video","key":"test/step-into-the-fire/videos/freedom-sound-bath.mp4","filename":"fire-ritual-freedom-sound-bath.mp4","contentType":"video/mp4"}]',
   1,
   unixepoch(),
   unixepoch()
 ) ON CONFLICT(id) DO UPDATE SET
+  slug = excluded.slug,
   title = excluded.title,
   description = excluded.description,
   image_path = excluded.image_path,

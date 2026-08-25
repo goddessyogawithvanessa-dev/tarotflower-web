@@ -30,7 +30,7 @@ await upload('test/step-into-the-fire/ritual-guide.pdf', pdfPath, 'application/p
 await upload('test/step-into-the-fire/original-music.mp3', mp3Path, 'audio/mpeg');
 await upload('test/step-into-the-fire/movement-practice.mp4', videoPath, 'video/mp4');
 
-console.log('Local Digital Ritual library resources are ready.');
+console.log('Local Ritual library resources are ready.');
 
 async function ensureDevVars() {
   try {
@@ -96,7 +96,7 @@ async function runWrangler(args) {
 }
 
 function createTestPdf() {
-  const stream = 'BT /F1 24 Tf 72 720 Td (Tarot Flower Digital Ritual Test Guide) Tj 0 -42 Td /F1 13 Tf (Private delivery system prototype - not a finished product.) Tj ET';
+  const stream = 'BT /F1 24 Tf 72 720 Td (Tarot Flower Ritual Test Guide) Tj 0 -42 Td /F1 13 Tf (Private delivery system prototype - not a finished product.) Tj ET';
   const objects = [
     '<< /Type /Catalog /Pages 2 0 R >>',
     '<< /Type /Pages /Kids [3 0 R] /Count 1 >>',

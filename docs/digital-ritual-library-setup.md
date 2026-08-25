@@ -1,6 +1,6 @@
-# Digital Ritual Library
+# Ritual Library
 
-Step Into the Fire uses the production Stripe, Cloudflare Worker, D1, private R2,
+Step Into Your Fire uses the production Stripe, Cloudflare Worker, D1, private R2,
 Turnstile, and Google Workspace SMTP infrastructure described below.
 
 ## Cloudflare resources

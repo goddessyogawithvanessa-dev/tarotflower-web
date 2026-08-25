@@ -5,6 +5,11 @@ const RATE_LIMIT_WINDOW_SECONDS = 15 * 60;
 const RATE_LIMIT_ATTEMPTS = 5;
 const STRIPE_SIGNATURE_TOLERANCE_SECONDS = 5 * 60;
 const GENERIC_LOGIN_MESSAGE = 'If that email is connected to a purchase, a secure sign-in link is on its way.';
+const STEP_INTO_YOUR_FIRE_PRODUCT_ID = 'ritual-step-into-the-fire-test';
+const STEP_INTO_YOUR_FIRE_SLUG = 'step-into-your-fire';
+const LEGACY_STEP_INTO_FIRE_SLUG = 'step-into-the-fire-test';
+const LEGACY_STEP_INTO_FIRE_PATH = '/library/rituals/step-into-the-fire-test/';
+const PURCHASE_EMAIL_CLAIM_TTL_SECONDS = 5 * 60;
 
 export default {
   async fetch(request, env, ctx) {
@@ -197,6 +202,24 @@ async function serveProtectedExperience(request, env) {
   }
 
   const url = new URL(request.url);
+  if (url.pathname === LEGACY_STEP_INTO_FIRE_PATH) {
+    const legacyEntitlement = await env.LIBRARY_DB.prepare(
+      `SELECT p.experience_path
+       FROM products p
+       JOIN entitlements e ON e.product_id = p.id
+       WHERE p.id = ?1
+         AND e.customer_email = ?2
+         AND e.revoked_at IS NULL
+         AND p.active = 1
+       LIMIT 1`,
+    ).bind(STEP_INTO_YOUR_FIRE_PRODUCT_ID, session.email).first();
+
+    if (!legacyEntitlement) {
+      return noStoreRedirect(new URL('/library/', appOrigin(env)), 302);
+    }
+    return noStoreRedirect(new URL(legacyEntitlement.experience_path, appOrigin(env)), 302);
+  }
+
   const product = await env.LIBRARY_DB.prepare(
     `SELECT 1
      FROM products p
@@ -258,7 +281,10 @@ async function serveProtectedFile(request, env) {
   const url = new URL(request.url);
   const parts = url.pathname.split('/').filter(Boolean);
   if (parts.length !== 5) return new Response('Not found', { status: 404 });
-  const productSlug = decodeURIComponent(parts[3]);
+  const requestedProductSlug = decodeURIComponent(parts[3]);
+  const productSlug = requestedProductSlug === LEGACY_STEP_INTO_FIRE_SLUG
+    ? STEP_INTO_YOUR_FIRE_SLUG
+    : requestedProductSlug;
   const assetId = decodeURIComponent(parts[4]);
 
   const product = await env.LIBRARY_DB.prepare(
@@ -331,10 +357,19 @@ async function handleStripeWebhook(request, env) {
   const existing = await env.LIBRARY_DB.prepare(
     'SELECT event_id FROM processed_stripe_events WHERE event_id = ?1',
   ).bind(event.id).first();
-  if (existing) return json({ received: true, duplicate: true });
-
   const supported = event.type === 'checkout.session.completed'
     || event.type === 'checkout.session.async_payment_succeeded';
+  if (existing) {
+    if (supported) {
+      let duplicateSession = event.data?.object;
+      if (duplicateSession?.id && !duplicateSession.line_items?.data?.length) {
+        duplicateSession = await retrieveStripeSession(duplicateSession.id, env);
+      }
+      if (duplicateSession?.id) await fulfillStripeSession(duplicateSession, event, env);
+    }
+    return json({ received: true, duplicate: true });
+  }
+
   if (!supported) {
     await env.LIBRARY_DB.prepare(
       `INSERT OR IGNORE INTO processed_stripe_events (event_id, event_type, processed_at)
@@ -357,7 +392,7 @@ async function fulfillStripeSession(session, event, env) {
   if (!email || !priceId) return { granted: false };
 
   const product = await env.LIBRARY_DB.prepare(
-    `SELECT id, experience_path FROM products
+    `SELECT id, title, experience_path FROM products
      WHERE stripe_price_id = ?1 AND active = 1`,
   ).bind(priceId).first();
   if (!product) return { granted: false };
@@ -403,7 +438,46 @@ async function fulfillStripeSession(session, event, env) {
     ).bind(email, product.id, session.id, now),
   ]);
 
+  await ensurePurchaseAccessEmail(session.id, email, product.title, env);
+
   return { granted: true, email, experiencePath: product.experience_path };
+}
+
+async function ensurePurchaseAccessEmail(checkoutSessionId, email, productTitle, env) {
+  const now = unixTime();
+  await env.LIBRARY_DB.prepare(
+    `INSERT OR IGNORE INTO purchase_access_emails
+      (stripe_checkout_session_id, customer_email, created_at, claimed_at, sent_at,
+       failed_at, attempts, last_error)
+     VALUES (?1, ?2, ?3, NULL, NULL, NULL, 0, NULL)`,
+  ).bind(checkoutSessionId, email, now).run();
+
+  const claimed = await env.LIBRARY_DB.prepare(
+    `UPDATE purchase_access_emails
+     SET claimed_at = ?2, attempts = attempts + 1, last_error = NULL
+     WHERE stripe_checkout_session_id = ?1
+       AND sent_at IS NULL
+       AND (claimed_at IS NULL OR claimed_at < ?3)`,
+  ).bind(checkoutSessionId, now, now - PURCHASE_EMAIL_CLAIM_TTL_SECONDS).run();
+
+  if (Number(claimed.meta?.changes || 0) !== 1) return;
+
+  try {
+    await sendPurchaseAccessEmail(email, productTitle, env);
+    await env.LIBRARY_DB.prepare(
+      `UPDATE purchase_access_emails
+       SET sent_at = ?2, claimed_at = NULL, failed_at = NULL, last_error = NULL
+       WHERE stripe_checkout_session_id = ?1`,
+    ).bind(checkoutSessionId, unixTime()).run();
+  } catch (error) {
+    const message = String(error?.message || error || 'Unknown email error').slice(0, 500);
+    await env.LIBRARY_DB.prepare(
+      `UPDATE purchase_access_emails
+       SET claimed_at = NULL, failed_at = ?2, last_error = ?3
+       WHERE stripe_checkout_session_id = ?1`,
+    ).bind(checkoutSessionId, unixTime(), message).run();
+    console.error('Purchase-access email failed', error);
+  }
 }
 
 async function retrieveStripeSession(sessionId, env) {
@@ -507,6 +581,21 @@ async function sendMagicLink(email, link, env) {
   if (!response.ok) throw new Error(`Email service rejected the message (${response.status})`);
 }
 
+async function sendPurchaseAccessEmail(email, productTitle, env) {
+  if (!env.EMAIL_SERVICE?.fetch) throw new Error('EMAIL_SERVICE binding is not configured');
+  const response = await env.EMAIL_SERVICE.fetch('https://email.internal/api/library-purchase-access', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      to: email,
+      subject: 'Your Step Into Your Fire ritual is ready',
+      productTitle,
+      libraryUrl: `${appOrigin(env)}/library/login/`,
+    }),
+  });
+  if (!response.ok) throw new Error(`Email service rejected the message (${response.status})`);
+}
+
 async function cleanupExpiredRecords(env) {
   const now = unixTime();
   await env.LIBRARY_DB.batch([
@@ -546,7 +635,6 @@ function publicProduct(product) {
     downloadUrl: `/api/library/files/${encodeURIComponent(product.slug)}/${encodeURIComponent(id)}?download=1`,
   }));
   return {
-    id: product.id,
     slug: product.slug,
     title: product.title,
     description: product.description,

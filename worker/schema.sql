@@ -38,6 +38,22 @@ CREATE TABLE IF NOT EXISTS purchases (
 CREATE INDEX IF NOT EXISTS purchases_customer_email_idx
   ON purchases(customer_email);
 
+CREATE TABLE IF NOT EXISTS purchase_access_emails (
+  stripe_checkout_session_id TEXT PRIMARY KEY,
+  customer_email TEXT NOT NULL COLLATE NOCASE,
+  created_at INTEGER NOT NULL,
+  claimed_at INTEGER,
+  sent_at INTEGER,
+  failed_at INTEGER,
+  attempts INTEGER NOT NULL DEFAULT 0,
+  last_error TEXT,
+  FOREIGN KEY (stripe_checkout_session_id) REFERENCES purchases(stripe_checkout_session_id),
+  FOREIGN KEY (customer_email) REFERENCES customers(email)
+);
+
+CREATE INDEX IF NOT EXISTS purchase_access_emails_unsent_idx
+  ON purchase_access_emails(sent_at, claimed_at);
+
 CREATE TABLE IF NOT EXISTS entitlements (
   customer_email TEXT NOT NULL COLLATE NOCASE,
   product_id TEXT NOT NULL,

@@ -12,7 +12,7 @@
     "astro": "astro",
     "library:setup": "node scripts/setup-library-local.mjs",
     "library:dev": "wrangler dev --port 8787",
-    "test:library": "node --test tests/library.test.mjs"
+    "test:library": "node --test tests/library*.test.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

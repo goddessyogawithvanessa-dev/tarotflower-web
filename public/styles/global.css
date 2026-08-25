@@ -8,7 +8,7 @@ body {
   font-size: 16px;
 }
 
-/* Permanent Digital Ritual library */
+/* Permanent Ritual library */
 .library-page {
   padding-bottom: 90px;
   background: #fffdfb;
@@ -272,7 +272,7 @@ body {
   }
 }
 
-/* Immersive Digital Ritual experience */
+/* Immersive Ritual experience */
 .ceremonial-body {
   min-height: 100vh;
   overflow-x: hidden;
@@ -583,6 +583,22 @@ body {
   margin: 12px auto 0;
   color: rgba(255, 255, 255, 0.68);
   font-size: 0.95rem;
+}
+
+.ceremonial-opening-introduction {
+  max-width: 620px;
+  margin: 24px auto 0;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.ceremonial-opening-introduction p {
+  margin: 0 0 14px;
+}
+
+.ceremonial-opening-introduction strong {
+  color: #fff;
 }
 
 .ceremonial-centered-page {
@@ -1786,7 +1802,11 @@ strong { color: #333; }
   line-height: 1.85;
 }
 .goddess-guide-closing {
-  color: #333;
+  color: #5b2333;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 1.45;
   margin-bottom: 1.6em;
 }
 .goddess-guide-form {
@@ -5213,7 +5233,7 @@ footer {
   }
 }
 
-/* Digital Ritual template — faithfully preserves the original Divi rhythm. */
+/* Ritual template — faithfully preserves the original Divi rhythm. */
 .digital-ritual-page {
   color: #2b2b2b;
   font-size: 18px;
