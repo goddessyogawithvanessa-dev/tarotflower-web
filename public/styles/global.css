@@ -5480,6 +5480,950 @@ footer {
   }
 }
 
+/* Step Into Your Fire — long-form editorial sales page. */
+.digital-ritual-page--fire {
+  --fire-ink: #151416;
+  --fire-cream: #FAF9F6;
+  --fire-gold: #C6A15B;
+  --fire-rust: #9f3f24;
+  --fire-night: #151416;
+  overflow: hidden;
+  background: #FFFFFF;
+  color: var(--fire-ink);
+}
+
+.fire-hero {
+  position: relative;
+  display: block;
+  height: clamp(260px, 36vw, 520px);
+  min-height: 0;
+  overflow: hidden;
+  background: #151416;
+}
+
+.fire-hero::after {
+  content: none;
+}
+
+.fire-hero > img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: 50% 18%;
+}
+
+.fire-product-title {
+  padding: clamp(64px, 8vw, 104px) 0 clamp(70px, 9vw, 116px);
+  background: var(--fire-night);
+  color: #FAF9F6;
+  text-align: center;
+}
+
+.fire-product-identifier {
+  margin: 0;
+  color: #C6A15B;
+  font-family: 'Aboreto', serif;
+  font-size: clamp(0.8rem, 1.4vw, 1rem);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.5;
+}
+
+.fire-product-title h1 {
+  margin: clamp(22px, 3vw, 34px) 0 0;
+  color: #FAF9F6;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(3.2rem, 6.5vw, 5.25rem);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 0.98;
+}
+
+.fire-product-subtitle {
+  margin: clamp(26px, 3vw, 38px) 0 0;
+  color: #FAF9F6;
+  font-family: 'Aboreto', serif;
+  font-size: clamp(1.35rem, 3vw, 1.95rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+}
+
+.fire-offer-icons {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: clamp(8px, 1.5vw, 16px);
+  width: min(100%, 520px);
+  margin: clamp(22px, 3vw, 32px) auto 0;
+  align-items: start;
+  justify-content: center;
+  justify-items: center;
+}
+
+.fire-offer-icons figure {
+  display: flex;
+  height: auto;
+  min-width: 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: clamp(8px, 1.2vw, 12px);
+}
+
+.fire-offer-icons img {
+  display: block;
+  width: clamp(34px, 7vw, 76px);
+  height: auto;
+  margin: 0;
+}
+
+.fire-offer-icons figcaption {
+  color: #C6A15B;
+  font-family: 'Aboreto', serif;
+  font-size: clamp(0.56rem, 0.9vw, 0.7rem);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.fire-offer-plus {
+  margin-top: clamp(8px, 2vw, 22px);
+  align-self: start;
+  color: #C6A15B;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.4rem, 3.6vw, 2.5rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.fire-section {
+  position: relative;
+  padding: clamp(72px, 10vw, 132px) 0;
+}
+
+.digital-ritual-page--fire .digital-ritual-row {
+  padding: 0;
+}
+
+.fire-editorial-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.88fr) minmax(0, 1.12fr);
+  gap: clamp(42px, 7vw, 92px);
+  align-items: center;
+}
+
+.fire-oracle-feature {
+  margin: 0;
+  position: relative;
+}
+
+.fire-oracle-feature::before {
+  content: '';
+  position: absolute;
+  inset: -14px;
+  z-index: 0;
+  border: 1px solid rgba(159, 63, 36, 0.28);
+}
+
+.fire-oracle-feature img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fire-prose h2,
+.fire-closing h2 {
+  margin: 0 0 24px;
+  color: var(--fire-ink);
+  font-family: 'Aboreto', serif;
+  font-size: clamp(1.35rem, 2.1vw, 1.85rem);
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.fire-prose p {
+  margin: 0 0 1.25em;
+  color: var(--fire-ink);
+}
+
+.fire-prose p:last-child {
+  margin-bottom: 0;
+}
+
+.fire-lede {
+  font-family: 'Quattrocento', serif;
+  font-size: clamp(1.75rem, 3vw, 2.45rem);
+  font-weight: 700;
+  line-height: 1.32;
+}
+
+.fire-prose .fire-major-statement {
+  margin: 0 0 1.25em;
+  color: var(--fire-ink);
+  font-family: 'Quattrocento', serif;
+  font-size: clamp(1.75rem, 3vw, 2.45rem);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.32;
+  text-transform: none;
+}
+
+.fire-prose blockquote {
+  margin: 34px 0;
+  padding: 6px 0 6px 26px;
+  border-left: 1px solid var(--fire-gold);
+  color: var(--fire-rust);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.55rem, 2.8vw, 2.2rem);
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.fire-section--ember,
+.fire-closing {
+  background: #FAF9F6;
+}
+
+.fire-prose--light,
+.fire-prose--light h2,
+.fire-closing,
+.fire-closing h2 {
+  color: var(--fire-ink);
+}
+
+.fire-prose--light blockquote {
+  color: var(--fire-rust);
+}
+
+.fire-story-section {
+  padding: clamp(64px, 8vw, 100px) 0;
+}
+
+.fire-dance-still {
+  position: relative;
+  margin: 0;
+  aspect-ratio: 4 / 7;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.fire-dance-still::after {
+  content: none;
+}
+
+.fire-dance-still img {
+  display: block;
+  width: 100%;
+  height: calc(100% + 12px);
+  object-fit: cover;
+  object-position: 50% top;
+  transform: translateY(-2px);
+}
+
+.fire-power-grid {
+  grid-template-columns: minmax(340px, 0.95fr) minmax(0, 1.05fr);
+  gap: clamp(40px, 5vw, 72px);
+  align-items: stretch;
+}
+
+.fire-guardian-section {
+  background: #FAF9F6;
+}
+
+.fire-guardian-section .digital-ritual-row {
+  width: 88%;
+  max-width: 1320px;
+}
+
+.fire-power-grid .fire-oracle-feature {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  align-self: center;
+  overflow: hidden;
+  box-shadow: 0 26px 64px rgba(21, 20, 22, 0.16);
+}
+
+.fire-power-grid .fire-oracle-feature::before {
+  content: none;
+}
+
+.fire-power-grid .fire-oracle-feature img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  object-position: 15% 50%;
+}
+
+.fire-power-questions {
+  display: flex;
+  min-height: 0;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: clamp(30px, 3vw, 40px);
+  padding-block: 0;
+}
+
+.fire-prose.fire-power-questions .fire-major-statement {
+  margin: 0;
+  color: var(--fire-ink);
+}
+
+.fire-power-questions h2 strong {
+  color: inherit;
+  font-weight: 700;
+}
+
+.fire-prose.fire-power-questions p {
+  margin: 0;
+  color: var(--fire-ink);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.15rem, 3.9vw, 3.1rem);
+  font-weight: 700;
+  line-height: 1.22;
+}
+
+.fire-prose.fire-power-questions p:last-child {
+  color: var(--fire-rust);
+  font-size: clamp(2.8rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.fire-question-section {
+  padding: clamp(58px, 7vw, 84px) 0;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.fire-ritual-climax-section {
+  padding: clamp(96px, 11vw, 148px) 0;
+  background: #FFFFFF;
+}
+
+.fire-closing {
+  overflow: hidden;
+  padding: clamp(72px, 9vw, 110px) 0;
+  border-top: 1px solid #C6A15B;
+  background: #151416;
+  color: #FAF9F6;
+  text-align: left;
+}
+
+.fire-closing::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #151416;
+  pointer-events: none;
+}
+
+.fire-closing-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(340px, 1.18fr);
+  gap: clamp(34px, 6vw, 78px);
+  align-items: center;
+}
+
+.fire-closing-copy {
+  position: relative;
+  z-index: 2;
+}
+
+.fire-closing-copy p {
+  color: #FAF9F6;
+  font-size: clamp(1.05rem, 1.7vw, 1.18rem);
+  line-height: 1.6;
+}
+
+.fire-closing h2 {
+  color: #FAF9F6;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.35rem, 4.2vw, 3.65rem);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.08;
+}
+
+.fire-closing-copy .fire-closing-magic {
+  margin: clamp(30px, 4vw, 42px) 0 0;
+  color: #C6A15B;
+  font-family: 'Tangerine', cursive;
+  font-size: clamp(2.9rem, 5.1vw, 4.25rem);
+  font-weight: 700;
+  line-height: 0.95;
+}
+
+.fire-closing-art {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.fire-closing-art::after {
+  content: none;
+}
+
+.fire-closing-art img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  height: auto;
+  object-fit: cover;
+}
+
+.fire-price {
+  margin: 34px 0 28px !important;
+  color: #FAF9F6 !important;
+}
+
+.fire-price strong {
+  color: #C6A15B;
+  font-family: 'Quattrocento', serif;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  font-weight: 600;
+}
+
+.digital-ritual-page--fire .fire-closing .digital-ritual-button {
+  display: inline-flex;
+  width: 252px;
+  height: 59px;
+  min-width: 240px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 1.1em 2.8em;
+  border-color: #A33220;
+  background: #A33220;
+  box-shadow: 0 14px 34px rgba(21, 20, 22, 0.22);
+  color: #FFFFFF;
+  font-family: 'Quattrocento', serif;
+  font-size: 1.06rem;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  white-space: nowrap;
+}
+
+.digital-ritual-page--fire .fire-closing .digital-ritual-button:hover,
+.digital-ritual-page--fire .fire-closing .digital-ritual-button:focus-visible {
+  border-color: #A33220;
+  background: #A33220;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.fire-testimonial-section {
+  background: #FAF9F6;
+}
+
+.digital-ritual-page--fire .fire-testimonial {
+  max-width: 900px;
+}
+
+.fire-testimonial blockquote {
+  margin: 0;
+  text-align: center;
+}
+
+.fire-testimonial blockquote p {
+  margin: 0;
+  color: var(--fire-ink);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.5rem, 2.55vw, 2.05rem);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.42;
+}
+
+.fire-testimonial blockquote footer {
+  margin-top: clamp(24px, 3vw, 34px);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--fire-rust);
+  font-family: 'Aboreto', serif;
+  font-size: clamp(0.72rem, 1.1vw, 0.84rem);
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+}
+
+.fire-testimonial blockquote footer strong {
+  color: inherit;
+  font-weight: 700;
+}
+
+.fire-faq-section {
+  background: #FFFFFF;
+}
+
+.digital-ritual-page--fire .fire-faq {
+  max-width: 900px;
+}
+
+.fire-faq h2 {
+  margin: 0 0 clamp(38px, 5vw, 58px);
+  color: var(--fire-ink);
+  font-family: 'Quattrocento', serif;
+  font-size: clamp(2rem, 3.7vw, 3rem);
+  font-weight: 700;
+  line-height: 1.22;
+}
+
+.fire-faq-list {
+  margin: 0;
+}
+
+.fire-faq-item {
+  border-top: 1px solid rgba(159, 63, 36, 0.22);
+}
+
+.fire-faq-item:last-child {
+  border-bottom: 1px solid rgba(159, 63, 36, 0.22);
+}
+
+.fire-faq-item dt {
+  padding: 26px 0 12px;
+  color: var(--fire-ink);
+  font-family: 'Quattrocento', serif;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.fire-faq-item dd {
+  margin: 0;
+  padding: 0 0 26px;
+  color: var(--fire-ink);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.digital-ritual-page--fire .digital-ritual-button {
+  padding: 0.65em 1.8em;
+  border-color: var(--fire-rust);
+  color: var(--fire-rust);
+  font-family: 'Aboreto', serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.digital-ritual-page--fire .digital-ritual-button:hover,
+.digital-ritual-page--fire .digital-ritual-button:focus-visible {
+  background: var(--fire-rust);
+  color: #FFFFFF;
+}
+.fire-story-opening--centered {
+  padding-bottom: 0;
+  background: #FFFFFF;
+}
+
+.fire-centered-story {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.fire-opening-copy,
+.fire-ember-copy {
+  padding-inline: clamp(0px, 7vw, 76px);
+}
+
+.fire-opening-copy .fire-major-statement,
+.fire-ember-copy .fire-major-statement {
+  margin-bottom: clamp(42px, 6vw, 68px);
+  text-align: center;
+}
+
+.fire-opening-copy > p:not(.fire-major-statement):not(.fire-erasure),
+.fire-ember-copy p {
+  font-size: clamp(1.08rem, 1.65vw, 1.25rem);
+  line-height: 1.72;
+}
+
+.fire-armed-guards {
+  color: var(--fire-rust);
+  font-weight: 700;
+}
+
+.fire-threats {
+  color: var(--fire-ink);
+  font-weight: 700;
+}
+
+.fire-prose .fire-erasure {
+  max-width: 900px;
+  margin: clamp(60px, 8vw, 92px) auto;
+  color: var(--fire-rust);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.65rem, 7.2vw, 6.3rem);
+  font-weight: 700;
+  line-height: 0.92;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.fire-darkness-beat {
+  margin: clamp(62px, 8vw, 94px) 0 0;
+  padding-inline: clamp(0px, 4vw, 44px);
+  text-align: center;
+}
+
+.fire-prose .fire-darkness-beat p {
+  margin: 0;
+  color: var(--fire-ink);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.65rem, 3.2vw, 2.45rem);
+  font-weight: 600;
+  line-height: 1.32;
+}
+
+.fire-prose .fire-darkness-beat p + p {
+  margin-top: clamp(28px, 4vw, 42px);
+}
+
+.fire-kali-vision {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  margin: clamp(58px, 8vw, 96px) 0 0;
+  overflow: hidden;
+  background: #151416;
+}
+
+.fire-kali-vision img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  object-position: center 48%;
+}
+
+.fire-kali-turning-point {
+  padding: clamp(58px, 8vw, 92px) clamp(0px, 7vw, 76px) clamp(78px, 10vw, 118px);
+  background: var(--fire-night);
+  text-align: center;
+}
+
+.fire-prose.fire-kali-turning-point h2 {
+  margin: 0;
+  color: #FAF9F6;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4.2vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1.22;
+  text-transform: none;
+}
+
+.fire-kali-turning-point h2 span {
+  display: block;
+  margin-top: 20px;
+  color: #C6A15B;
+  font-size: 1.18em;
+  font-weight: 700;
+}
+
+.fire-prose.fire-kali-turning-point p {
+  margin: clamp(42px, 5vw, 58px) 0 0;
+  color: #FAF9F6;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.55rem, 2.7vw, 2.15rem);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.fire-kali-turning-point .fire-ritual-thread span,
+.fire-kali-turning-point .fire-ritual-thread strong {
+  display: block;
+}
+
+.fire-kali-turning-point .fire-ritual-thread strong {
+  margin-top: clamp(10px, 1.5vw, 18px);
+  color: var(--fire-rust);
+  font-size: clamp(2.5rem, 6vw, 5.25rem);
+  font-weight: 700;
+  line-height: 0.95;
+}
+
+.fire-ember-story {
+  gap: clamp(54px, 8vw, 92px);
+}
+
+.fire-ember-copy {
+  text-align: center;
+}
+
+.fire-prose.fire-ember-copy .fire-major-statement {
+  color: var(--fire-rust);
+}
+
+.fire-prose .fire-sky-cry {
+  margin: clamp(36px, 5vw, 54px) 0;
+  padding: 0;
+  border: 0;
+  color: var(--fire-rust);
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 600;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.fire-ember-beat {
+  color: var(--fire-rust);
+  font-weight: 700;
+}
+
+.fire-prose .fire-ember-discovery {
+  margin-top: clamp(42px, 6vw, 68px);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+  font-weight: 500;
+  line-height: 1.38;
+}
+
+.fire-ember-story .fire-dance-still {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 0;
+}
+
+.fire-ember-story .fire-dance-still img {
+  height: 100%;
+  object-position: center;
+  transform: none;
+}
+
+.fire-practice-transition {
+  padding-inline: clamp(0px, 7vw, 76px);
+  text-align: center;
+}
+
+.fire-prose.fire-practice-transition h2 {
+  max-width: 720px;
+  margin: 0 auto clamp(10px, 1.4vw, 16px);
+  color: var(--fire-rust);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.5rem, 5vw, 4.2rem);
+  font-weight: 700;
+  line-height: 1.05;
+  text-transform: none;
+  text-wrap: balance;
+}
+
+.fire-prose.fire-practice-transition h2 span {
+  display: block;
+  white-space: nowrap;
+}
+
+.fire-practice-transition > p {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: clamp(1.18rem, 2vw, 1.45rem);
+  line-height: 1.45;
+}
+
+.fire-principles {
+  margin: clamp(12px, 1.8vw, 18px) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fire-principles li {
+  position: relative;
+  padding: clamp(18px, 2.5vw, 26px) clamp(10px, 3vw, 30px) clamp(28px, 4vw, 42px);
+  color: var(--fire-ink);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.55rem, 2.8vw, 2.15rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.fire-principles li::before {
+  content: '';
+  display: block;
+  width: min(34%, 420px);
+  aspect-ratio: 420 / 48;
+  margin: 0 auto clamp(24px, 3.5vw, 36px);
+  background: url('/images/digital-rituals/step-into-the-fire/fire-flourish.svg') center / contain no-repeat;
+}
+
+.fire-principles li:first-child::before {
+  width: min(40%, 480px);
+  aspect-ratio: 480 / 56;
+  background-image: url('/images/digital-rituals/step-into-the-fire/fire-flourish-intro.svg');
+}
+
+.fire-guided-ritual-section {
+  padding: clamp(92px, 12vw, 150px) 0;
+  background: #4A0F18;
+}
+
+.digital-ritual-page--fire .fire-guided-ritual {
+  color: #FAF9F6;
+  text-align: center;
+}
+
+.fire-prose .fire-guardian-answer {
+  margin: 0 0 clamp(24px, 4vw, 42px);
+  color: #C6A15B;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(3.2rem, 7vw, 5.8rem);
+  font-weight: 700;
+  line-height: 0.95;
+}
+
+.fire-prose.fire-guided-ritual h2 {
+  margin: 0;
+  color: #FAF9F6;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.3rem, 5vw, 4.25rem);
+  font-weight: 600;
+  line-height: 1.12;
+  text-transform: none;
+}
+
+.fire-prose .fire-guided-ritual-intro {
+  margin: clamp(46px, 6vw, 70px) 0 0;
+  color: #FAF9F6;
+  font-size: clamp(1.25rem, 2.2vw, 1.65rem);
+  line-height: 1.5;
+}
+
+.fire-guided-ritual-intro strong {
+  color: #C6A15B;
+  font-weight: 700;
+}
+
+.fire-ritual-stages {
+  margin: clamp(44px, 6vw, 70px) 0 0;
+  padding: 0;
+  border-bottom: 1px solid rgba(239, 181, 110, 0.35);
+  list-style: none;
+  counter-reset: ritual-stage;
+}
+
+.fire-ritual-stages li {
+  display: grid;
+  grid-template-columns: clamp(58px, 8vw, 90px) 1fr;
+  gap: clamp(18px, 4vw, 42px);
+  align-items: center;
+  padding: clamp(28px, 4vw, 42px) clamp(6px, 2vw, 22px);
+  border-top: 1px solid rgba(239, 181, 110, 0.35);
+  color: #FAF9F6;
+  counter-increment: ritual-stage;
+  text-align: left;
+}
+
+.fire-ritual-stages li::before {
+  content: '0' counter(ritual-stage);
+  color: #C6A15B;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 600;
+  line-height: 1;
+}
+
+.fire-ritual-stages li span {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.45rem, 2.8vw, 2.1rem);
+  font-weight: 500;
+  line-height: 1.28;
+}
+
+.fire-prose .fire-journey-begins {
+  margin: clamp(66px, 8vw, 96px) 0 0;
+  color: #C6A15B;
+  font-family: 'Aboreto', serif;
+  font-size: clamp(0.9rem, 1.8vw, 1.2rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+}
+
+.fire-prose .fire-threshold-call {
+  margin: clamp(26px, 4vw, 42px) 0 0;
+  color: #FAF9F6;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
+  font-weight: 600;
+  line-height: 1.16;
+}
+
+@media (max-width: 900px) {
+  .fire-editorial-grid,
+  .fire-closing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fire-closing-art {
+    grid-row: 1;
+  }
+
+  .fire-oracle-feature {
+    width: 78%;
+    margin: 0 auto;
+  }
+
+  .fire-power-questions {
+    min-height: 0;
+    gap: 28px;
+    padding-block: 0;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .fire-hero {
+    height: clamp(210px, 58vw, 300px);
+    min-height: 0;
+  }
+
+  .fire-hero > img {
+    width: 100%;
+    object-position: 57% 34%;
+    transform: scale(1.7);
+    transform-origin: 57% 22%;
+  }
+
+  .fire-product-title {
+    padding: 56px 0 68px;
+  }
+
+  .fire-section {
+    padding: 72px 0;
+  }
+
+  .fire-oracle-feature {
+    width: 100%;
+  }
+
+  .fire-ritual-stages li {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding-inline: 24px;
+    text-align: center;
+  }
+
+  .fire-kali-vision {
+    aspect-ratio: 5 / 4;
+  }
+
+}
+
 /* Stripe-hosted checkout handoff and result pages */
 .checkout-page {
   padding-bottom: 100px;
