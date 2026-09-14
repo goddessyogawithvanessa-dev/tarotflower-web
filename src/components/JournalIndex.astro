@@ -92,15 +92,6 @@ const pageHref = (page: number) => page === 1 ? '/daily-tarot' : `/daily-tarot/p
     </nav>
   )}
 
-  {unshelvedCount > 0 && (
-    <aside class="journal-unshelved-note">
-      <p class="journal-eyebrow">Near the librarian's desk</p>
-      <h3>The unshelved cart</h3>
-      <p>A small number of writings are resting here until a future collection gives them their natural home.</p>
-      <a href="/daily-tarot?room=unshelved#complete-index" data-journal-room-link="unshelved">View the {unshelvedCount} waiting volumes</a>
-    </aside>
-  )}
-
   <script type="application/json" data-journal-search-data set:html={searchData}></script>
 </section>
 

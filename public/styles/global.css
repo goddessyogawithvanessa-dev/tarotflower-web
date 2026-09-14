@@ -7681,33 +7681,6 @@ footer {
   border-color: rgba(91, 35, 51, 0.55);
 }
 
-.journal-unshelved-note {
-  max-width: 680px;
-  margin: 70px auto 0;
-  padding: 30px 34px;
-  border: 1px solid rgba(91, 35, 51, 0.18);
-  text-align: center;
-  background: rgba(246, 241, 235, 0.75);
-}
-
-.journal-unshelved-note h3 {
-  margin: 0.25rem 0 0.6rem;
-  color: var(--journal-plum);
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 2rem;
-}
-
-.journal-unshelved-note > p:not(.journal-eyebrow) {
-  color: #6d6668;
-  line-height: 1.6;
-}
-
-.journal-unshelved-note a {
-  color: var(--journal-plum);
-  font-weight: 700;
-  text-decoration: none;
-}
-
 .journal-load-more {
   display: block;
   margin: 35px auto 0;
