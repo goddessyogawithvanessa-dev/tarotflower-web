@@ -1392,64 +1392,124 @@ strong { color: #333; }
 
 /* Homepage */
 .container.homepage {
-  padding-top: 18px;
+  padding-top: 0;
 }
 .homepage-title {
-  margin: 0 0 1em;
+  position: relative;
+  margin: 0 0 clamp(30px, 4vw, 48px);
+  padding: clamp(40px, 5vw, 64px) clamp(18px, 4vw, 54px) clamp(34px, 4vw, 48px);
   text-align: center;
 }
+.homepage-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: min(180px, 38vw);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(184, 138, 61, 0.72), transparent);
+  transform: translateX(-50%);
+}
 .homepage-title h1 {
-  margin: 0 0 0.12em;
+  margin: 0 0 0.05em;
+  color: #4a2857;
+  font-size: clamp(4.6em, 8vw, 6.6em);
+  line-height: 0.9;
 }
 .homepage-title p {
   margin: 0;
-  color: #999;
+}
+.homepage-title .homepage-title-lede {
+  color: #6e436d;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.65em, 3vw, 2.3em);
+  font-weight: 300;
+  line-height: 1.3;
+}
+.homepage-title .homepage-title-paths {
+  margin-top: 1.6em;
+  color: #9a753b;
   font-family: 'Aboreto', serif;
-  font-size: 1em;
+  font-size: clamp(0.7em, 1.25vw, 0.9em);
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 2px;
+  line-height: 1.7;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
+}
+.homepage-title .homepage-title-invitation {
+  max-width: 660px;
+  margin: 1.35em auto 0;
+  color: #5d5360;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: clamp(1.04em, 1.6vw, 1.2em);
+  font-style: italic;
+  line-height: 1.6;
 }
 .homepage-introduction {
   display: grid;
-  grid-template-columns: minmax(0, 0.92fr) minmax(320px, 1.08fr);
-  gap: clamp(42px, 7vw, 86px);
+  grid-template-columns: minmax(0, 1fr) minmax(380px, 1fr);
+  gap: clamp(30px, 3.5vw, 44px);
   align-items: center;
-  margin: 0 0 5em;
-  padding: clamp(16px, 2.2vw, 28px) clamp(12px, 3vw, 34px);
+  margin: 0 0 clamp(72px, 9vw, 112px);
+  padding: clamp(38px, 5vw, 58px) clamp(22px, 3vw, 42px) clamp(42px, 5vw, 60px);
+  background: linear-gradient(145deg, rgba(251, 246, 237, 0.82), rgba(255, 255, 255, 0.96));
+  border: 1px solid rgba(190, 154, 78, 0.3);
 }
 .homepage-introduction-copy {
   position: relative;
-  padding-top: 3.2em;
+  padding: 3.4em 0 0;
 }
 .homepage-introduction-quote {
   position: absolute;
-  top: -0.18em;
-  left: -0.08em;
+  top: -0.16em;
+  left: -0.04em;
   color: #d6b87a;
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(6.5em, 11vw, 9em);
+  font-size: clamp(6em, 9vw, 8em);
   font-weight: 400;
   line-height: 1;
-  opacity: 0.78;
+  opacity: 0.66;
 }
 .homepage-introduction-copy > p:not(.homepage-introduction-signature) {
-  margin: 0 0 0.85em;
-  color: #4a2857;
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(1.45em, 2vw, 1.82em);
-  font-weight: 300;
-  line-height: 1.5;
+  margin: 0 0 1.15em;
+  color: #4f4651;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: clamp(1.04em, 1.35vw, 1.13em);
+  font-weight: 400;
+  line-height: 1.82;
   text-align: left;
 }
+.homepage-introduction-copy > .homepage-introduction-greeting {
+  color: #4a2857;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.65em, 2.5vw, 2.05em);
+  font-weight: 400;
+  line-height: 1.35;
+}
+.homepage-introduction-copy > .homepage-introduction-circle {
+  margin: 1.45em 0;
+  padding: 0.15em 0 0.15em 0.8em;
+  border-left: 1px solid rgba(184, 138, 61, 0.58);
+  color: #4a2857;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.35em, 2vw, 1.62em);
+  font-style: italic;
+  line-height: 1.5;
+}
+.homepage-introduction-copy > .homepage-introduction-closing {
+  margin-bottom: 0.35em;
+  color: #6e436d;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.35em, 2vw, 1.62em);
+  line-height: 1.4;
+}
 .homepage-introduction-signature {
-  margin: 0.25em 0 0;
+  margin: 0.1em 0 0;
   color: #b88a3d;
   font-family: 'Tangerine', cursive;
   font-size: clamp(2.55em, 4.4vw, 3.4em);
   line-height: 1;
-  text-align: right;
+  text-align: left;
 }
 .homepage-reading-button,
 .readings-button {
@@ -1475,7 +1535,13 @@ strong { color: #333; }
   background: #a67c52;
 }
 .homepage-introduction-photo {
+  position: static;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: 0 18px 42px rgba(74, 40, 87, 0.14);
 }
 
 /* Readings with Vanessa */
@@ -1713,27 +1779,63 @@ strong { color: #333; }
 .homepage-introduction-photo img {
   display: block;
   width: 100%;
-  height: clamp(440px, 48vw, 570px);
+  height: auto;
+  aspect-ratio: 1 / 1;
   margin: 0;
   object-fit: cover;
   object-position: 50% 44%;
 }
 
 @media (max-width: 768px) {
+  .homepage-title {
+    margin-bottom: 30px;
+    padding: 34px 0 36px;
+  }
+  .homepage-title h1 {
+    font-size: clamp(4.2em, 24vw, 5.4em);
+  }
+  .homepage-title .homepage-title-lede {
+    font-size: 1.65em;
+  }
+  .homepage-title .homepage-title-paths {
+    max-width: 330px;
+    margin: 1.7em auto 0;
+    font-size: 0.68em;
+    line-height: 1.9;
+  }
+  .homepage-title .homepage-title-invitation {
+    max-width: 320px;
+    margin-top: 1.5em;
+    font-size: 1.03em;
+  }
   .homepage-introduction {
     grid-template-columns: 1fr;
-    gap: 34px;
-    margin: 0 0 3.5em;
-    padding: 12px 0 0;
+    gap: 0;
+    margin: 0 0 4em;
+    padding: 40px 22px 48px;
   }
   .homepage-introduction-copy {
-    padding-top: 3.8em;
+    padding-top: 3.6em;
   }
   .homepage-introduction-copy > p:not(.homepage-introduction-signature) {
-    font-size: 1.45em;
+    font-size: 1.04em;
+    line-height: 1.75;
+  }
+  .homepage-introduction-copy > .homepage-introduction-greeting {
+    font-size: 1.65em;
+  }
+  .homepage-introduction-copy > .homepage-introduction-circle,
+  .homepage-introduction-copy > .homepage-introduction-closing {
+    font-size: 1.4em;
   }
   .homepage-introduction-signature {
     margin-top: 0.35em;
+  }
+  .homepage-introduction-photo {
+    position: static;
+    order: -1;
+    width: min(100%, 430px);
+    margin: 34px auto 0;
   }
   .homepage-introduction-photo img {
     height: auto;
@@ -1771,15 +1873,6 @@ strong { color: #333; }
 .goddess-guide-copy {
   max-width: 500px;
 }
-.goddess-guide-eyebrow {
-  font-family: 'Aboreto', serif;
-  font-size: 0.76em;
-  line-height: 1.5;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #9b7a36;
-  margin-bottom: 1em;
-}
 .goddess-guide-copy h2 {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: 2.65em;
@@ -1797,17 +1890,21 @@ strong { color: #333; }
   color: #5b2333;
   margin-bottom: 0.45em;
 }
-.goddess-guide-copy > p:not(.goddess-guide-eyebrow):not(.goddess-guide-support):not(.goddess-guide-closing) {
-  font-size: 1.05em;
-  line-height: 1.85;
+.goddess-guide-invitation {
+  margin: 0 0 1.15em;
+  color: #4a2857;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.28em;
+  font-style: italic;
+  line-height: 1.5;
 }
 .goddess-guide-closing {
   color: #5b2333;
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 1.25em;
-  font-weight: 600;
-  line-height: 1.45;
-  margin-bottom: 1.6em;
+  font-size: 1.18em;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 1.75em;
 }
 .goddess-guide-form {
   margin: 0;
@@ -1892,7 +1989,9 @@ strong { color: #333; }
   object-position: 50% 50%;
 }
 .homepage-doorway--becoming img {
-  object-position: 50% 28%;
+  position: absolute;
+  inset: 0;
+  object-position: 50% 34%;
 }
 .homepage-doorway:hover img {
   transform: scale(1.035);
