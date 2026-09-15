@@ -2,12 +2,13 @@
 import RitualExperience from '../../../layouts/RitualExperience.astro';
 import RitualStep from '../../../components/ritual-experience/RitualStep.astro';
 import VideoPlaceholder from '../../../components/ritual-experience/VideoPlaceholder.astro';
+import { ritualExperiences } from '../../../data/ritualExperiences';
 ---
 
 <RitualExperience
   title="Step Into Your Fire | My Ritual Library"
   description="A private ceremonial journey within the Tarot Flower Ritual Library."
-  image="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg"
+  image={ritualExperiences.fire.image}
 >
   <main class="ceremonial-journey" data-ritual-experience data-product-slug="step-into-your-fire">
     <div class="ceremonial-loading" data-ritual-loading>
@@ -25,8 +26,8 @@ import VideoPlaceholder from '../../../components/ritual-experience/VideoPlaceho
       <RitualStep id="opening" tone="dark" className="ceremonial-opening">
         <img
           class="ceremonial-full-bleed-image"
-          src="/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg"
-          alt="Fire goddess artwork opening the Step Into Your Fire ritual"
+          src={ritualExperiences.fire.image}
+          alt={ritualExperiences.fire.imageAlt}
         />
         <div class="ceremonial-overlay"></div>
         <a class="ceremonial-library-link" href="/library/">My Ritual Library</a>

@@ -1,0 +1,64 @@
+---
+import Base from '../layouts/Base.astro';
+import { ritualExperienceList } from '../data/ritualExperiences';
+
+const fireRitual = ritualExperienceList.find(ritual => ritual.key === 'fire')!;
+const comingSoonRituals = ritualExperienceList.filter(ritual => ritual.key !== 'fire');
+---
+
+<Base
+  title="Rituals | Tarot Flower"
+  description="Guided elemental rituals for courage, healing, clarity, grounding, and becoming."
+  image={fireRitual.image}
+  imageAlt={fireRitual.imageAlt}
+  imageWidth={fireRitual.width}
+  imageHeight={fireRitual.height}
+>
+  <main class="rituals-page">
+    <header class="rituals-page-header container">
+      <h1>Rituals</h1>
+      <p>A little magic, practiced.</p>
+    </header>
+
+    <section class="rituals-showcase container" aria-labelledby="rituals-showcase-title">
+      <h2 id="rituals-showcase-title">Choose your element</h2>
+
+      <a class="rituals-featured-card" href={fireRitual.href}>
+        <img
+          src={fireRitual.image}
+          alt={fireRitual.imageAlt}
+          width={fireRitual.width}
+          height={fireRitual.height}
+        />
+        <span class="rituals-card-shade" aria-hidden="true"></span>
+        <span class="rituals-featured-copy">
+          <strong>{fireRitual.title}</strong>
+          <span>{fireRitual.themes}</span>
+          <em>{fireRitual.availability} · {fireRitual.price} <span aria-hidden="true">→</span></em>
+        </span>
+      </a>
+
+      <div class="rituals-coming-grid">
+        {comingSoonRituals.map(ritual => (
+          <article class={`rituals-coming-card rituals-coming-card--${ritual.key}`}>
+            <div class="rituals-coming-image">
+              <img
+                src={ritual.image}
+                alt={ritual.imageAlt}
+                width={ritual.width}
+                height={ritual.height}
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="rituals-coming-copy">
+              <h3>{ritual.title}</h3>
+              <p>{ritual.themes}</p>
+              <span>{ritual.availability}</span>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </main>
+</Base>

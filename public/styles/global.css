@@ -1183,6 +1183,25 @@ nav a {
 }
 nav a:hover,
 nav a:focus-visible { color: #4a2857; }
+.nav-parent-trigger {
+  appearance: none;
+  margin: 0 16px;
+  padding: 0;
+  color: #333;
+  background: transparent;
+  border: 0;
+  font: inherit;
+  letter-spacing: 0.5px;
+  cursor: default;
+}
+.nav-parent-trigger:hover,
+.nav-parent-trigger:focus-visible {
+  color: #4a2857;
+}
+.nav-parent-trigger:focus-visible {
+  outline: 2px solid #881291;
+  outline-offset: 5px;
+}
 .caret {
   font-size: 0.65em;
   vertical-align: middle;
@@ -1199,7 +1218,8 @@ a.hamburger { display: none; }
   position: relative;
   display: inline-block;
 }
-.nav-dropdown > a {
+.nav-dropdown > a,
+.nav-dropdown > .nav-parent-trigger {
   cursor: pointer;
 }
 .dropdown-menu {
@@ -1217,7 +1237,8 @@ a.hamburger { display: none; }
   text-align: left;
   flex-direction: column;
 }
-.nav-dropdown:hover .dropdown-menu {
+.nav-dropdown:hover .dropdown-menu,
+.nav-dropdown:focus-within .dropdown-menu {
   display: flex;
 }
 .dropdown-menu a {
@@ -1239,7 +1260,8 @@ a.hamburger { display: none; }
   left: 0;
   transform: none;
 }
-.nav-dropdown:hover .dropdown-mega {
+.nav-dropdown:hover .dropdown-mega,
+.nav-dropdown:focus-within .dropdown-mega {
   display: flex;
 }
 .mega-categories {
@@ -1260,6 +1282,19 @@ a.hamburger { display: none; }
   color: #999;
   white-space: nowrap;
   margin: 0;
+}
+.mega-categories > .mega-overview-link {
+  display: block;
+  margin: 0;
+  padding: 10px 20px;
+  color: #333;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.mega-categories > .mega-overview-link:hover,
+.mega-categories > .mega-overview-link:focus-visible {
+  color: #4a2857;
+  background: #f9f9f9;
 }
 .mega-cat a:hover,
 .mega-cat.active a {
@@ -1408,8 +1443,8 @@ strong { color: #333; }
 }
 .homepage-title {
   position: relative;
-  margin: 0 0 clamp(30px, 4vw, 48px);
-  padding: clamp(40px, 5vw, 64px) clamp(18px, 4vw, 54px) clamp(34px, 4vw, 48px);
+  margin: 0 0 clamp(20px, 2.5vw, 30px);
+  padding: clamp(22px, 3vw, 34px) clamp(18px, 4vw, 54px) clamp(24px, 3vw, 36px);
   text-align: center;
 }
 .homepage-title::after {
@@ -1439,7 +1474,7 @@ strong { color: #333; }
   line-height: 1.3;
 }
 .homepage-title .homepage-title-paths {
-  margin-top: 1.6em;
+  margin-top: 1.1em;
   color: #9a753b;
   font-family: 'Aboreto', serif;
   font-size: clamp(0.7em, 1.25vw, 0.9em);
@@ -1448,39 +1483,34 @@ strong { color: #333; }
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
-.homepage-title .homepage-title-invitation {
-  max-width: 660px;
-  margin: 1.35em auto 0;
-  color: #5d5360;
-  font-family: 'Quattrocento', Georgia, serif;
-  font-size: clamp(1.04em, 1.6vw, 1.2em);
-  font-style: italic;
-  line-height: 1.6;
-}
 .homepage-introduction {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(380px, 1fr);
-  gap: clamp(30px, 3.5vw, 44px);
-  align-items: center;
+  grid-template-columns: minmax(320px, 0.43fr) minmax(0, 0.57fr);
+  grid-template-areas: 'photo copy';
+  gap: 0;
+  align-items: stretch;
+  overflow: hidden;
   margin: 0 0 clamp(72px, 9vw, 112px);
-  padding: clamp(38px, 5vw, 58px) clamp(22px, 3vw, 42px) clamp(42px, 5vw, 60px);
-  background: linear-gradient(145deg, rgba(251, 246, 237, 0.82), rgba(255, 255, 255, 0.96));
-  border: 1px solid rgba(190, 154, 78, 0.3);
+  padding: 0;
+  background: linear-gradient(145deg, rgba(248, 239, 225, 0.92), rgba(255, 255, 255, 0.98));
+  border: 0;
 }
 .homepage-introduction-copy {
   position: relative;
-  padding: 3.4em 0 0;
+  grid-area: copy;
+  align-self: center;
+  padding: clamp(52px, 5.5vw, 74px) clamp(36px, 5vw, 68px);
 }
 .homepage-introduction-quote {
   position: absolute;
-  top: -0.16em;
-  left: -0.04em;
+  top: 0.08em;
+  left: 0.18em;
   color: #d6b87a;
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: clamp(6em, 9vw, 8em);
   font-weight: 400;
   line-height: 1;
-  opacity: 0.66;
+  opacity: 0.4;
 }
 .homepage-introduction-copy > p:not(.homepage-introduction-signature) {
   margin: 0 0 1.15em;
@@ -1547,13 +1577,15 @@ strong { color: #333; }
   background: #a67c52;
 }
 .homepage-introduction-photo {
-  position: static;
+  position: relative;
+  grid-area: photo;
   overflow: hidden;
+  min-height: clamp(590px, 50vw, 710px);
   margin: 0;
   padding: 0;
-  background: transparent;
+  background: #231b2d;
   border: 0;
-  box-shadow: 0 18px 42px rgba(74, 40, 87, 0.14);
+  box-shadow: none;
 }
 
 /* Readings with Vanessa */
@@ -1791,17 +1823,19 @@ strong { color: #333; }
 .homepage-introduction-photo img {
   display: block;
   width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
+  height: 100%;
+  min-height: 100%;
+  aspect-ratio: auto;
   margin: 0;
+  border-radius: 0;
   object-fit: cover;
-  object-position: 50% 44%;
+  object-position: 48% 44%;
 }
 
 @media (max-width: 768px) {
   .homepage-title {
-    margin-bottom: 30px;
-    padding: 34px 0 36px;
+    margin-bottom: 22px;
+    padding: 24px 0 28px;
   }
   .homepage-title h1 {
     font-size: clamp(4.2em, 24vw, 5.4em);
@@ -1811,23 +1845,21 @@ strong { color: #333; }
   }
   .homepage-title .homepage-title-paths {
     max-width: 330px;
-    margin: 1.7em auto 0;
+    margin: 1.2em auto 0;
     font-size: 0.68em;
     line-height: 1.9;
   }
-  .homepage-title .homepage-title-invitation {
-    max-width: 320px;
-    margin-top: 1.5em;
-    font-size: 1.03em;
-  }
   .homepage-introduction {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      'photo'
+      'copy';
     gap: 0;
     margin: 0 0 4em;
-    padding: 40px 22px 48px;
+    padding: 0;
   }
   .homepage-introduction-copy {
-    padding-top: 3.6em;
+    padding: 3.75rem 1.4rem 3.9rem;
   }
   .homepage-introduction-copy > p:not(.homepage-introduction-signature) {
     font-size: 1.04em;
@@ -1844,14 +1876,15 @@ strong { color: #333; }
     margin-top: 0.35em;
   }
   .homepage-introduction-photo {
-    position: static;
-    order: -1;
-    width: min(100%, 430px);
-    margin: 34px auto 0;
+    position: relative;
+    width: 100%;
+    min-height: min(116vw, 500px);
+    margin: 0;
   }
   .homepage-introduction-photo img {
-    height: auto;
-    aspect-ratio: 1 / 1;
+    height: 100%;
+    aspect-ratio: auto;
+    object-position: 48% 43%;
   }
 }
 
@@ -2003,15 +2036,35 @@ strong { color: #333; }
 .homepage-doorway--becoming img {
   position: absolute;
   inset: 0;
-  object-position: 50% 34%;
+  object-position: left 30%;
+  transform: scale(1.5);
+  transform-origin: left 12%;
 }
 .homepage-doorway:hover img {
   transform: scale(1.035);
+}
+.homepage-doorway--becoming:hover img {
+  transform: scale(1.54);
 }
 .homepage-doorway-shade {
   position: absolute;
   inset: 0;
   background: linear-gradient(180deg, rgba(28, 17, 31, 0.04) 22%, rgba(28, 17, 31, 0.88) 100%);
+}
+.homepage-doorway--becoming .homepage-doorway-shade {
+  background: radial-gradient(
+    ellipse 86% 66% at 24% 88%,
+    rgba(18, 7, 25, 0.76) 0%,
+    rgba(18, 7, 25, 0.5) 42%,
+    rgba(18, 7, 25, 0.16) 70%,
+    transparent 100%
+  );
+}
+.homepage-doorway--becoming .homepage-doorway-copy {
+  text-shadow: 0 2px 18px rgba(8, 3, 12, 0.92);
+}
+.homepage-doorway--becoming .homepage-doorway-copy > span {
+  white-space: pre-line;
 }
 .homepage-doorway-copy {
   position: absolute;
@@ -3231,6 +3284,248 @@ footer {
   padding: 0.5em 1.5em 2em;
 }
 
+/* Dedicated guided Rituals collection */
+.rituals-page {
+  padding-bottom: clamp(72px, 9vw, 112px);
+  background: linear-gradient(180deg, #fff 0%, #fffdf9 38%, #fbf6ed 100%);
+}
+
+.rituals-page-header {
+  padding-top: clamp(38px, 5vw, 62px);
+  padding-bottom: clamp(38px, 5vw, 58px);
+  text-align: center;
+}
+
+.rituals-page-header h1 {
+  margin: 0 0 0.04em;
+  color: #4a2857;
+}
+
+.rituals-page-header p {
+  margin: 0;
+  color: #6e436d;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.55em, 2.5vw, 2em);
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.rituals-showcase > h2 {
+  margin: 0 0 1.4em;
+  color: #9b7a36;
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: clamp(1.2em, 2vw, 1.55em);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rituals-featured-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgba(214, 184, 122, 0.48);
+  background: #2b1918;
+  box-shadow: 0 24px 54px rgba(43, 25, 24, 0.2);
+  color: #fff;
+  text-decoration: none;
+}
+
+.rituals-featured-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1672 / 941;
+  margin: 0;
+  border-radius: 0;
+  object-fit: cover;
+  transition: transform 450ms ease;
+}
+
+.rituals-card-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(31, 13, 16, 0.88) 0%, rgba(31, 13, 16, 0.5) 39%, rgba(31, 13, 16, 0.08) 72%);
+}
+
+.rituals-featured-copy {
+  position: absolute;
+  bottom: clamp(26px, 4vw, 52px);
+  left: clamp(24px, 5vw, 60px);
+  display: grid;
+  gap: 0.45em;
+  max-width: min(520px, 48%);
+}
+
+.rituals-featured-copy strong {
+  color: #fff;
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: clamp(1.35em, 2.7vw, 2.35em);
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.rituals-featured-copy > span {
+  color: #f5ebe2;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.15em, 1.8vw, 1.5em);
+  line-height: 1.35;
+}
+
+.rituals-featured-copy em {
+  margin-top: 0.45em;
+  color: #d6b87a;
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: clamp(0.68em, 1vw, 0.82em);
+  font-style: normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.rituals-featured-card:hover,
+.rituals-featured-card:focus-visible {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rituals-featured-card:hover img,
+.rituals-featured-card:focus-visible img {
+  transform: scale(1.015);
+}
+
+.rituals-coming-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(18px, 2.5vw, 30px);
+  margin-top: clamp(28px, 4vw, 44px);
+}
+
+.rituals-coming-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  background: rgba(255, 253, 249, 0.96);
+  border: 1px solid rgba(166, 124, 82, 0.3);
+  box-shadow: 0 14px 34px rgba(74, 40, 87, 0.09);
+}
+
+.rituals-coming-image {
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: #2b1918;
+}
+
+.rituals-coming-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  filter: saturate(0.72) brightness(0.9);
+  object-fit: cover;
+}
+
+.rituals-coming-card--water .rituals-coming-image img {
+  object-position: 50% center;
+}
+
+.rituals-coming-card--air .rituals-coming-image img {
+  object-position: 44% center;
+}
+
+.rituals-coming-card--earth .rituals-coming-image img {
+  object-position: 48% center;
+}
+
+.rituals-coming-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: clamp(20px, 2.4vw, 28px);
+}
+
+.rituals-coming-copy h3 {
+  min-height: 2.8em;
+  margin: 0 0 0.65em;
+  color: #4a2857;
+  font-size: clamp(0.9em, 1.4vw, 1.08em);
+  line-height: 1.4;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.rituals-coming-copy p {
+  margin: 0 0 1.2em;
+  color: #5d5360;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.15em, 1.55vw, 1.35em);
+  line-height: 1.45;
+}
+
+.rituals-coming-copy > span {
+  margin-top: auto;
+  padding-top: 1em;
+  border-top: 1px solid rgba(166, 124, 82, 0.26);
+  color: #9b7a36;
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.72em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 860px) {
+  .rituals-coming-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rituals-coming-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  }
+
+  .rituals-coming-copy h3 {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .rituals-page-header {
+    padding-top: 24px;
+    padding-bottom: 34px;
+  }
+
+  .rituals-showcase > h2 {
+    margin-bottom: 1em;
+    font-size: 1em;
+  }
+
+  .rituals-featured-card img {
+    aspect-ratio: 4 / 5;
+    object-position: center;
+  }
+
+  .rituals-card-shade {
+    background: linear-gradient(0deg, rgba(31, 13, 16, 0.94) 0%, rgba(31, 13, 16, 0.55) 39%, rgba(31, 13, 16, 0.06) 70%);
+  }
+
+  .rituals-featured-copy {
+    right: 22px;
+    bottom: 26px;
+    left: 22px;
+    max-width: none;
+  }
+
+  .rituals-coming-card {
+    display: flex;
+  }
+
+  .rituals-coming-copy {
+    padding: 20px;
+  }
+}
+
 .ritual-collection {
   margin: 0 calc(50% - 50vw) 4em;
   padding: 4.5em max(5vw, calc((100vw - 1120px) / 2)) 5em;
@@ -3752,6 +4047,139 @@ footer {
   font-weight: 600;
 }
 
+.understanding-tarot-page > h1 {
+  margin-bottom: 0.16em;
+}
+
+.understanding-tarot-intro {
+  margin-bottom: 0.8em;
+  color: #514851;
+}
+
+.understanding-opening {
+  padding: 0 0 clamp(20px, 2.5vw, 30px);
+  border-bottom: 1px solid rgba(155, 122, 54, 0.32);
+}
+
+.understanding-opening > p {
+  margin: 0 0 0.8em;
+  color: #514851;
+  font-size: 1.04em;
+  line-height: 1.7;
+}
+
+.understanding-opening > p:last-child {
+  margin-bottom: 0;
+}
+
+.understanding-opening .understanding-lede {
+  margin-bottom: 0.65em;
+  color: #7a2740;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.55em, 2.5vw, 2.05em);
+  font-style: italic;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.understanding-families {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(18px, 2.5vw, 28px);
+  margin: clamp(22px, 3vw, 34px) 0;
+}
+
+.understanding-family {
+  padding: clamp(22px, 3vw, 32px);
+  border-top: 2px solid rgba(155, 122, 54, 0.62);
+  background: linear-gradient(150deg, #fcfaf6, #f7f1ea);
+}
+
+.understanding-family h2,
+.understanding-pattern h2 {
+  margin: 0 0 0.8em;
+  color: #6b273b;
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: clamp(0.9em, 1.25vw, 1.06em);
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 1px;
+}
+
+.understanding-family p,
+.understanding-pattern p,
+.understanding-closing p {
+  color: #5b525a;
+  line-height: 1.68;
+}
+
+.understanding-family p {
+  margin-bottom: 0.8em;
+}
+
+.understanding-family p:last-child {
+  margin-bottom: 0;
+}
+
+.understanding-elements {
+  margin: 0.9em 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.understanding-elements li {
+  margin: 0 0 0.62em;
+  padding-left: 0.9em;
+  color: #5b525a;
+  border-left: 2px solid rgba(155, 122, 54, 0.48);
+  line-height: 1.5;
+}
+
+.understanding-elements li:last-child {
+  margin-bottom: 0;
+}
+
+.understanding-elements a {
+  font-weight: 700;
+}
+
+.understanding-pattern {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.5fr);
+  gap: clamp(24px, 4vw, 48px);
+  align-items: center;
+  margin: 0;
+  padding: clamp(22px, 3vw, 32px) clamp(20px, 3vw, 34px);
+  border-top: 1px solid rgba(122, 39, 64, 0.28);
+  border-bottom: 1px solid rgba(122, 39, 64, 0.28);
+  background: linear-gradient(90deg, rgba(122, 39, 64, 0.055), rgba(155, 122, 54, 0.07));
+}
+
+.understanding-pattern h2,
+.understanding-pattern p {
+  margin: 0;
+}
+
+.understanding-closing {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(250px, 0.7fr);
+  gap: clamp(24px, 4vw, 48px);
+  align-items: center;
+  padding: clamp(24px, 3vw, 34px) 0 0;
+}
+
+.understanding-closing p {
+  margin: 0;
+}
+
+.understanding-closing .tarot-meanings-invitation {
+  padding-left: clamp(18px, 2.5vw, 28px);
+  border-left: 1px solid rgba(155, 122, 54, 0.58);
+  color: #7a2740;
+  font-size: clamp(1.2em, 1.8vw, 1.48em);
+  line-height: 1.42;
+}
+
 .tarot-meanings-section-heading h2 {
   margin-bottom: 0.35em;
 }
@@ -3853,6 +4281,48 @@ footer {
     margin-bottom: 1.25em;
   }
 
+  .understanding-opening {
+    padding-bottom: 20px;
+  }
+
+  .understanding-opening .understanding-lede {
+    font-size: 1.55em;
+    text-align: left;
+  }
+
+  .understanding-families,
+  .understanding-pattern,
+  .understanding-closing {
+    grid-template-columns: 1fr;
+  }
+
+  .understanding-families {
+    gap: 18px;
+    margin: 22px 0;
+  }
+
+  .understanding-family {
+    padding: 21px 19px;
+  }
+
+  .understanding-pattern {
+    gap: 8px;
+    padding: 21px 18px;
+  }
+
+  .understanding-pattern h2 {
+    margin-bottom: 0;
+  }
+
+  .understanding-closing {
+    gap: 18px;
+    padding-top: 22px;
+  }
+
+  .understanding-closing .tarot-meanings-invitation {
+    padding: 0 0 0 18px;
+  }
+
   .tarot-suits-grid {
     grid-template-columns: 1fr;
   }
@@ -3863,105 +4333,62 @@ footer {
   color: #5d5360;
 }
 
-.shop-sections {
+.shop-landing .shop-hero {
+  padding-top: clamp(18px, 2.2vw, 28px);
+  padding-bottom: clamp(18px, 2.1vw, 26px);
+  text-align: center;
+}
+
+.shop-hero h1 {
+  margin: 0 0 0.08em;
+  font-size: clamp(2.7em, 4.2vw, 3.55em);
+  line-height: 1;
+}
+
+.shop-hero-question {
+  margin: 0 0 0.35em;
+  color: #5b2333;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.55em, 2.5vw, 2.05em);
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.shop-hero-description {
+  max-width: 620px;
+  margin: 0 auto;
+  color: #5d5360;
+  font-size: 1.04em;
+  line-height: 1.65;
+}
+
+.shop-landing .shop-sections {
   padding-top: 0;
-  padding-bottom: clamp(80px, 10vw, 120px);
+  padding-bottom: clamp(64px, 8vw, 100px);
 }
 
 .shop-section {
-  padding: clamp(64px, 9vw, 104px) 0;
+  padding: clamp(56px, 7vw, 84px) 0;
   border-top: 1px solid rgba(166, 124, 82, 0.28);
 }
 
 .shop-section-heading {
-  margin: 0 auto clamp(38px, 5vw, 58px);
-  text-align: center;
+  margin: 0 0 clamp(20px, 2.5vw, 28px);
+  text-align: left;
 }
 
 .shop-section-heading h2 {
   margin: 0;
   color: #5b2333;
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(2.5em, 4.8vw, 3.7em);
-  font-weight: 300;
-  line-height: 1.08;
-  letter-spacing: 0.5px;
-}
-
-.shop-feature {
-  display: grid;
-  grid-template-columns: minmax(260px, 0.95fr) minmax(0, 1.05fr);
-  gap: clamp(38px, 7vw, 84px);
-  align-items: center;
-}
-
-.shop-feature--guide {
-  padding: clamp(28px, 5vw, 58px);
-  background: #fbf6ed;
-  border: 1px solid rgba(190, 154, 78, 0.42);
-  box-shadow: 0 18px 48px rgba(91, 35, 51, 0.08);
-}
-
-.shop-feature--reverse .shop-feature-image {
-  order: 2;
-}
-
-.shop-feature--reverse .shop-feature-copy {
-  order: 1;
-}
-
-.shop-feature-image {
-  overflow: hidden;
-}
-
-.shop-feature-image img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  margin: 0;
-  object-fit: cover;
-}
-
-.shop-feature-image--guide {
-  display: flex;
-  justify-content: center;
-}
-
-.shop-feature-image--guide img {
-  width: min(100%, 390px);
-  height: auto;
-  aspect-ratio: auto;
-  object-fit: contain;
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.16);
-}
-
-.shop-feature-image--portrait img {
-  object-position: center top;
-}
-
-.shop-feature-copy {
-  max-width: 520px;
-}
-
-.shop-feature-copy h3,
-.shop-oracle-copy h3 {
-  margin: 0 0 0.45em;
-  color: #333;
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(2.15em, 3.5vw, 3em);
-  font-weight: 300;
-  line-height: 1.12;
-  letter-spacing: 0.4px;
-}
-
-.shop-feature-copy > p:not(.shop-product-label):not(.shop-format):not(.shop-price),
-.shop-oracle-copy > p:not(.shop-product-label) {
-  font-size: 1.06em;
-  line-height: 1.85;
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.78em;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .shop-product-label,
-.shop-price-placeholder,
 .shop-format {
   color: #9b7a36;
   font-family: 'Aboreto', serif;
@@ -3972,15 +4399,15 @@ footer {
 }
 
 .shop-product-label {
-  margin-bottom: 1em;
+  margin: 0 0 1em;
 }
 
 .shop-format {
-  margin: 1.7em 0 0.45em;
+  margin: 1.5em 0 0.45em;
 }
 
 .shop-price {
-  margin: 0 0 1.45em;
+  margin: 0 0 1.35em;
   color: #5b2333;
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: 1.7em;
@@ -4001,100 +4428,216 @@ footer {
   transition: background 0.2s, color 0.2s;
 }
 
-.shop-button:hover {
+.shop-button:hover,
+.shop-button:focus-visible {
   background: #5b2333;
   color: #fff;
   text-decoration: none;
 }
 
 .shop-rituals-section {
-  margin-right: calc(50% - 50vw);
-  margin-left: calc(50% - 50vw);
-  padding-right: max(4vw, calc((100vw - 1140px) / 2));
-  padding-left: max(4vw, calc((100vw - 1140px) / 2));
-  background: #fbf6ed;
-  border-bottom: 1px solid rgba(166, 124, 82, 0.28);
+  padding-top: clamp(14px, 2vw, 24px);
+  background: transparent;
+  border-top: 0;
 }
 
-.shop-ritual-grid {
+.shop-rituals-section .shop-section-heading {
+  margin-bottom: clamp(14px, 1.6vw, 20px);
+}
+
+.shop-ritual-featured {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: clamp(18px, 2.4vw, 32px);
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  align-items: center;
+  background: #fff;
+  border: 1px solid rgba(190, 154, 78, 0.42);
+  box-shadow: 0 18px 46px rgba(91, 35, 51, 0.1);
+  overflow: hidden;
 }
 
-.shop-ritual {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.shop-ritual-image {
+.shop-ritual-featured-image {
+  align-self: stretch;
   display: block;
   overflow: hidden;
 }
 
-.shop-ritual-image img {
+.shop-ritual-featured-image img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: 100%;
+  min-height: 430px;
   margin: 0;
   object-fit: cover;
   object-position: center;
   transition: transform 300ms ease;
 }
 
-.shop-ritual--fire .shop-ritual-image img { object-position: 48.5% center; }
-.shop-ritual--water .shop-ritual-image img { object-position: 47% center; }
-.shop-ritual--air .shop-ritual-image img { object-position: 44% center; }
-.shop-ritual--earth .shop-ritual-image img { object-position: 47% center; }
-
-.shop-ritual-image:hover img {
-  transform: scale(1.02);
+.shop-ritual-featured-image:hover img {
+  transform: scale(1.015);
 }
 
-.shop-ritual-copy {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 1.35em;
+.shop-ritual-featured-copy {
+  padding: clamp(30px, 4.5vw, 52px);
 }
 
-.shop-ritual-copy h3 {
-  min-height: 2.2em;
-  margin: 0 0 0.5em;
-  color: #5b2333;
+.shop-ritual-featured-copy h3,
+.shop-guidance-copy h3,
+.shop-oracle-copy h3 {
+  margin: 0 0 0.45em;
+  color: #333;
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(1.55em, 2.15vw, 2.15em);
-  font-weight: 400;
-  line-height: 1.08;
+  font-size: clamp(2.15em, 3.5vw, 3em);
+  font-weight: 300;
+  line-height: 1.12;
+  letter-spacing: 0.4px;
 }
 
-.shop-ritual-copy h3 a {
+.shop-ritual-featured-copy h3 a {
   color: inherit;
   text-decoration: none;
 }
 
-.shop-ritual-copy > p:not(.shop-price-placeholder) {
-  flex: 1;
+.shop-ritual-featured-copy h3 a:hover,
+.shop-ritual-featured-copy h3 a:focus-visible {
+  color: #5b2333;
+}
+
+.shop-product-themes {
+  margin: 0 0 1.4em;
+  color: #9b7a36;
+  font-family: 'Aboreto', serif;
+  font-size: 0.72em;
+  line-height: 1.65;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.shop-coming-ritual-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(18px, 2.5vw, 30px);
+  margin-top: clamp(26px, 3.5vw, 40px);
+}
+
+.shop-coming-ritual {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: rgba(255, 255, 255, 0.66);
+  border: 1px solid rgba(166, 124, 82, 0.26);
+}
+
+.shop-coming-ritual-image {
+  overflow: hidden;
+}
+
+.shop-coming-ritual-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   margin: 0;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(0.78) contrast(0.94);
+  opacity: 0.88;
+}
+
+.shop-coming-ritual--water .shop-coming-ritual-image img { object-position: 47% center; }
+.shop-coming-ritual--air .shop-coming-ritual-image img { object-position: 44% center; }
+.shop-coming-ritual--earth .shop-coming-ritual-image img { object-position: 47% center; }
+
+.shop-coming-ritual-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.shop-coming-ritual-copy h3 {
+  min-height: 2.35em;
+  margin: 0 0 0.65em;
+  color: #5b2333;
+  font-family: 'Aboreto', serif;
+  font-size: clamp(0.86em, 1.15vw, 1em);
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.shop-coming-ritual-copy p {
+  flex: 1;
+  margin: 0 0 1.5em;
   color: #5d5360;
   font-size: 0.98em;
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
-.shop-price-placeholder {
-  margin: 1.2em 0 1.35em;
+.shop-coming-ritual-copy span {
+  padding-top: 1.1em;
+  border-top: 1px solid rgba(166, 124, 82, 0.25);
+  color: #9b7a36;
+  font-family: 'Aboreto', serif;
+  font-size: 0.68em;
+  line-height: 1.4;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
 }
 
-.shop-guidance-paths {
+.shop-guidance-grid {
   display: grid;
-  gap: clamp(72px, 10vw, 120px);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(24px, 4vw, 44px);
 }
 
-.shop-guidance-paths .shop-feature + .shop-feature {
-  padding-top: clamp(64px, 8vw, 92px);
-  border-top: 1px solid rgba(166, 124, 82, 0.22);
+.shop-guidance-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid rgba(166, 124, 82, 0.3);
+  box-shadow: 0 14px 34px rgba(91, 35, 51, 0.07);
+  overflow: hidden;
+}
+
+.shop-guidance-image {
+  overflow: hidden;
+}
+
+.shop-guidance-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  margin: 0;
+  object-fit: cover;
+}
+
+.shop-guidance-image--reading img {
+  object-position: center 22%;
+}
+
+.shop-guidance-image--mentorship img {
+  object-position: left 30%;
+  transform: scale(1.5);
+  transform-origin: left 12%;
+}
+
+.shop-guidance-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: clamp(26px, 3.5vw, 38px);
+}
+
+.shop-guidance-copy > p:not(.shop-format):not(.shop-price) {
+  flex: 1;
+  font-size: 1.04em;
+  line-height: 1.75;
+}
+
+.shop-guidance-copy .shop-button {
+  margin-top: auto;
 }
 
 .shop-oracle {
@@ -4129,67 +4672,80 @@ footer {
 }
 
 .shop-oracle-copy > p:not(.shop-product-label) {
-  margin-bottom: 1.8em;
+  margin-bottom: 1.05em;
 }
 
 @media (max-width: 980px) {
-  .shop-ritual-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    row-gap: 3.5em;
+  .shop-ritual-featured {
+    grid-template-columns: minmax(0, 1.05fr) minmax(270px, 0.95fr);
   }
 
-  .shop-ritual-copy h3 {
-    min-height: 0;
+  .shop-coming-ritual-grid {
+    gap: 18px;
+  }
+
+  .shop-coming-ritual-copy {
+    padding: 20px;
   }
 }
 
 @media (max-width: 800px) {
-  .shop-feature,
+  .shop-ritual-featured,
+  .shop-guidance-grid,
   .shop-oracle {
     grid-template-columns: 1fr;
-    gap: 32px;
   }
 
-  .shop-feature--reverse .shop-feature-image,
-  .shop-feature--reverse .shop-feature-copy {
-    order: initial;
+  .shop-ritual-featured-image img {
+    min-height: 0;
+    aspect-ratio: 16 / 10;
   }
 
-  .shop-feature-image--portrait img {
-    max-height: 680px;
+  .shop-guidance-grid {
+    gap: 28px;
   }
 
-  .shop-feature-copy,
   .shop-oracle-copy {
     max-width: none;
   }
 }
 
 @media (max-width: 600px) {
+  .shop-landing .shop-hero {
+    padding-top: 18px;
+    padding-bottom: 20px;
+  }
+
   .shop-section {
-    padding: 58px 0;
+    padding: 50px 0;
   }
 
   .shop-section-heading {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
   }
 
-  .shop-feature--guide,
   .shop-oracle {
     padding: 24px;
   }
 
   .shop-rituals-section {
-    padding-right: 22px;
-    padding-left: 22px;
+    padding-top: 14px;
   }
 
-  .shop-ritual-grid {
+  .shop-ritual-featured-image img {
+    aspect-ratio: 4 / 5;
+  }
+
+  .shop-ritual-featured-copy {
+    padding: 28px 24px 32px;
+  }
+
+  .shop-coming-ritual-grid {
     grid-template-columns: 1fr;
   }
 
-  .shop-ritual-copy h3 {
-    font-size: 2em;
+  .shop-coming-ritual-copy h3 {
+    min-height: 0;
   }
 }
 
@@ -5395,6 +5951,40 @@ footer {
   line-height: 1.8;
 }
 
+.ritual-preview-status {
+  padding: 17px 20px 16px;
+  background: linear-gradient(135deg, #211925, #121418);
+  border-bottom: 1px solid rgba(214, 184, 122, 0.62);
+  color: #f8f3e9;
+  text-align: center;
+}
+
+.ritual-preview-status p {
+  margin: 0;
+}
+
+.ritual-preview-title {
+  color: #f8f3e9;
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: clamp(0.82rem, 1.2vw, 1rem);
+  line-height: 1.45;
+  letter-spacing: 0.14em;
+}
+
+.ritual-preview-label {
+  margin-top: 3px !important;
+  color: #d6b87a;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: clamp(0.72rem, 0.9vw, 0.82rem);
+  line-height: 1.4;
+  letter-spacing: 0.16em;
+}
+
+.ritual-preview-label strong {
+  color: inherit;
+  font-weight: 700;
+}
+
 .digital-ritual-banner {
   width: 100%;
   min-height: 450px;
@@ -5640,6 +6230,20 @@ footer {
 @media (max-width: 479px) {
   .digital-ritual-page {
     font-size: 17px;
+  }
+
+  .ritual-preview-status {
+    padding: 14px 14px 13px;
+  }
+
+  .ritual-preview-title {
+    font-size: 0.72rem;
+    letter-spacing: 0.11em;
+  }
+
+  .ritual-preview-label {
+    font-size: 0.68rem;
+    letter-spacing: 0.13em;
   }
 
   .digital-ritual-row {
@@ -6037,6 +6641,19 @@ footer {
   font-size: clamp(2.9rem, 5.1vw, 4.25rem);
   font-weight: 700;
   line-height: 0.95;
+}
+
+.fire-closing-copy .fire-format-clarification {
+  margin: 1.75rem 0 0;
+  padding: 0.85rem 0;
+  color: #EAD6A5;
+  border-top: 1px solid rgba(198, 161, 91, 0.42);
+  border-bottom: 1px solid rgba(198, 161, 91, 0.42);
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: clamp(0.98rem, 1.35vw, 1.08rem);
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
 }
 
 .fire-closing-art {
@@ -6821,6 +7438,104 @@ footer {
   color: #fff;
 }
 
+/* Compact canonical FIRE product invitation used throughout editorial content. */
+.card-featured-experience--fire {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  min-height: 350px;
+  border-color: rgba(198, 161, 91, 0.52);
+  background:
+    radial-gradient(circle at 82% 18%, rgba(159, 63, 36, 0.2), transparent 34%),
+    #151416;
+  box-shadow: 0 20px 50px rgba(31, 18, 16, 0.2);
+  color: #faf9f6;
+}
+
+.content .card-featured-experience--fire .card-fire-artwork {
+  min-height: 350px;
+  overflow: hidden;
+  background: #151416;
+}
+
+.content .card-featured-experience--fire .card-fire-artwork img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  float: none;
+  object-fit: cover;
+  object-position: 50% 22%;
+}
+
+.card-featured-experience--fire .card-fire-copy {
+  display: flex;
+  max-width: none;
+  margin: 0;
+  padding: clamp(28px, 4vw, 48px);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+.card-featured-experience--fire .card-editorial-kicker {
+  margin-bottom: 0.75rem !important;
+  color: #c6a15b;
+  font-size: 0.72rem !important;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+.card-featured-experience--fire .card-fire-copy h2 {
+  margin-bottom: 0.42em;
+  color: #faf9f6;
+  font-size: clamp(2.35rem, 4.2vw, 3.65rem);
+  line-height: 0.98;
+}
+
+.card-featured-copy .card-fire-description {
+  max-width: 36rem;
+  margin: 0 0 1rem;
+  color: #f3e9db;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.12rem, 1.8vw, 1.35rem) !important;
+  line-height: 1.4 !important;
+}
+
+.card-featured-copy .card-fire-format {
+  margin: 0 0 0.45rem !important;
+  color: #decaa0;
+  font-size: 0.82rem !important;
+  font-weight: 600;
+  letter-spacing: 0.035em;
+  line-height: 1.45 !important;
+}
+
+.card-featured-copy .card-fire-price {
+  margin: 0 0 1rem !important;
+  color: #faf9f6;
+  font-family: 'Aboreto', serif;
+  font-size: 0.94rem !important;
+  letter-spacing: 0.08em;
+  line-height: 1.35 !important;
+}
+
+.card-featured-experience--fire .card-featured-button {
+  margin-top: 0.15rem;
+  padding: 11px 22px;
+  border-color: #c6a15b;
+  background: #c6a15b;
+  color: #151416;
+  font-weight: 700;
+}
+
+.card-featured-experience--fire .card-featured-button:hover,
+.card-featured-experience--fire .card-featured-button:focus-visible {
+  border-color: #faf9f6;
+  background: #faf9f6;
+  color: #151416;
+}
+
 .card-free-resource {
   margin: 4em 0;
   padding: clamp(30px, 5vw, 54px);
@@ -6998,6 +7713,24 @@ footer {
 
   .card-continue-links a {
     min-height: 0;
+  }
+
+  .card-featured-experience--fire {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .content .card-featured-experience--fire .card-fire-artwork {
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+  }
+
+  .card-featured-experience--fire .card-fire-copy {
+    padding: 26px 24px 30px;
+  }
+
+  .card-featured-experience--fire .card-fire-copy h2 {
+    font-size: clamp(2.15rem, 11vw, 3rem);
   }
 }
 
@@ -8029,5 +8762,3467 @@ footer {
 
   .journal-archive-header {
     padding-top: 65px;
+  }
+}
+
+/* Sacred Becoming local flagship design exploration */
+.becoming-temple {
+  --temple-night: #170a20;
+  --temple-plum-deep: #260d33;
+  --temple-plum: #41134e;
+  --temple-purple: #66246f;
+  --temple-mauve: #a46e98;
+  --temple-gold: #d7b261;
+  --temple-gold-pale: #f1d998;
+  --temple-ivory: #fbf6e9;
+  --temple-ivory-deep: #efe3cf;
+  --temple-ink: #2b1830;
+  --temple-muted: #6e5a6c;
+  --becoming-ink: var(--temple-ink);
+  color: var(--temple-ivory);
+  background: var(--temple-night);
+  overflow: hidden;
+}
+
+.becoming-temple h1,
+.becoming-temple h2,
+.becoming-temple h3,
+.becoming-temple p {
+  position: relative;
+}
+
+.becoming-temple .becoming-hero {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+  gap: clamp(3rem, 7vw, 7rem);
+  align-items: center;
+  width: 80%;
+  max-width: 1080px;
+  min-height: 720px;
+  padding-top: clamp(5rem, 8vw, 8rem);
+  padding-bottom: clamp(5rem, 8vw, 8rem);
+  text-align: left;
+}
+
+.becoming-temple .becoming-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0 calc(50% - 50vw);
+  z-index: -2;
+  background:
+    radial-gradient(circle at 76% 45%, rgba(215, 178, 97, 0.2), transparent 23%),
+    radial-gradient(circle at 86% 18%, rgba(126, 51, 134, 0.4), transparent 31%),
+    linear-gradient(145deg, #120719 0%, #260d33 47%, #42124d 100%);
+}
+
+.becoming-temple .becoming-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0 calc(50% - 50vw);
+  z-index: -1;
+  opacity: 0.18;
+  background-image:
+    linear-gradient(115deg, transparent 0 47%, rgba(240, 215, 152, 0.14) 47.2%, transparent 47.6%),
+    repeating-linear-gradient(90deg, transparent 0 89px, rgba(255, 255, 255, 0.035) 90px);
+  pointer-events: none;
+}
+
+.becoming-temple .becoming-hero-copy {
+  position: relative;
+  z-index: 2;
+}
+
+.becoming-temple .becoming-kicker {
+  margin: 0 0 2rem;
+  color: var(--temple-gold);
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+.becoming-temple .becoming-mark {
+  display: block;
+  width: 2.5rem;
+  margin: 0 0 1.6rem;
+  color: var(--temple-gold-pale);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.becoming-temple .becoming-mark::before,
+.becoming-temple .becoming-mark::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 2.75rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--temple-gold));
+}
+
+.becoming-temple .becoming-mark::before { right: calc(100% + 0.5rem); }
+.becoming-temple .becoming-mark::after { left: calc(100% + 0.5rem); transform: rotate(180deg); }
+
+.becoming-temple .becoming-hero h1 {
+  max-width: 680px;
+  margin: 0 0 0.45em;
+  color: #fff9ed;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(4rem, 6.2vw, 5.8rem);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  text-align: left;
+}
+
+.becoming-temple .becoming-lead {
+  max-width: 610px;
+  margin: 0;
+  color: #d8c9da;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.becoming-pentacle {
+  position: relative;
+  width: min(100%, 450px);
+  aspect-ratio: 1;
+  justify-self: center;
+  color: var(--temple-gold-pale);
+  filter: drop-shadow(0 0 30px rgba(215, 178, 97, 0.16));
+}
+
+.becoming-pentacle svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.becoming-pentacle svg circle,
+.becoming-pentacle svg path {
+  fill: none;
+  stroke: var(--temple-gold);
+  stroke-width: 1.2;
+}
+
+.becoming-pentacle svg circle:first-child { stroke-width: 2; }
+.becoming-pentacle svg .pentacle-core { fill: rgba(215, 178, 97, 0.14); stroke: var(--temple-gold-pale); }
+.becoming-pentacle svg .pentacle-node { fill: var(--temple-gold-pale); stroke: none; }
+
+.becoming-pentacle span {
+  position: absolute;
+  color: var(--temple-gold-pale);
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.becoming-pentacle .element-aether { top: -1.8rem; left: 50%; transform: translateX(-50%); }
+.becoming-pentacle .element-air { top: 35%; right: -2.3rem; }
+.becoming-pentacle .element-fire { right: 8%; bottom: 0.5rem; }
+.becoming-pentacle .element-earth { bottom: 0.5rem; left: 8%; }
+.becoming-pentacle .element-water { top: 35%; left: -2.8rem; }
+
+.becoming-temple .becoming-presence {
+  position: relative;
+  isolation: isolate;
+  display: block;
+  width: 80%;
+  max-width: 1080px;
+  min-height: 0;
+  padding-top: clamp(7rem, 11vw, 11rem);
+  padding-bottom: clamp(7rem, 11vw, 11rem);
+  color: var(--temple-ivory);
+}
+
+.becoming-temple .becoming-presence::before {
+  content: '';
+  position: absolute;
+  inset: 0 calc(50% - 50vw);
+  z-index: -1;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(169, 91, 159, 0.2), transparent 38%),
+    linear-gradient(180deg, #210b2d, #2d0f39 64%, #260d32);
+}
+
+.becoming-temple .becoming-intro {
+  width: auto;
+  max-width: 790px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.becoming-temple .becoming-intro > h2,
+.becoming-temple .becoming-voice > h2,
+.becoming-temple .becoming-unique > h2,
+.becoming-temple .becoming-included > h2,
+.becoming-temple .invitation-copy h2 {
+  color: var(--temple-ivory);
+  font-size: clamp(3.3rem, 5vw, 4.7rem);
+  font-weight: 400;
+  line-height: 1.02;
+}
+
+.becoming-temple .becoming-intro > h2 {
+  margin: 0 0 1.2em !important;
+}
+
+.becoming-temple .becoming-statement {
+  max-width: 720px;
+  margin: 0 auto 1.5em !important;
+  color: #d5c5d5;
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+
+.becoming-temple .becoming-statement:first-of-type {
+  max-width: 680px;
+  margin-bottom: 1.3em !important;
+  color: #f4e8da;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.7rem, 2.8vw, 2.25rem);
+  line-height: 1.35;
+}
+
+.becoming-temple .becoming-voice {
+  position: relative;
+  isolation: isolate;
+  width: 80%;
+  max-width: 1080px;
+  padding-top: clamp(7rem, 10vw, 10rem);
+  padding-bottom: clamp(8rem, 12vw, 12rem);
+  color: var(--temple-ivory);
+  background: transparent;
+}
+
+.becoming-temple .becoming-voice::before {
+  content: '';
+  position: absolute;
+  inset: 0 calc(50% - 50vw);
+  z-index: -2;
+  background:
+    radial-gradient(circle at center 58%, rgba(132, 50, 139, 0.2), transparent 34%),
+    linear-gradient(180deg, #260d32 0%, #1a0a24 100%);
+}
+
+.becoming-temple .becoming-voice > h2 {
+  margin: 0 0 0.65em;
+  text-align: center;
+}
+
+.becoming-temple .doorways-opening {
+  max-width: 680px;
+  margin: 0 auto 5.5rem;
+  color: #cdbdce;
+  text-align: center;
+}
+
+.becoming-temple .doorways-opening p {
+  margin: 0.5em 0;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.becoming-temple .becoming-voice .voice-path {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(220px, auto));
+  gap: 2.25rem 0;
+  width: 100%;
+  max-width: none;
+  min-height: 820px;
+  margin: 0;
+  background: transparent;
+}
+
+.becoming-temple .becoming-voice .voice-path::before {
+  content: '';
+  position: absolute;
+  inset: 6% 22% 3%;
+  z-index: -1;
+  opacity: 0.42;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Cg fill='none' stroke='%23d7b261' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='250' cy='250' r='205' stroke-width='1.4'/%3E%3Ccircle cx='250' cy='250' r='181' stroke-width='.7'/%3E%3Cpath d='M250 54 L296 195 L444 195 L324 282 L370 423 L250 336 L130 423 L176 282 L56 195 L204 195 Z' stroke-width='1.4'/%3E%3Ccircle cx='250' cy='250' r='15' stroke-width='.8'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: drop-shadow(0 0 28px rgba(215, 178, 97, 0.22));
+}
+
+.becoming-temple .becoming-voice .voice-path > div,
+.becoming-temple .becoming-voice .voice-path > div:nth-child(even),
+.becoming-temple .becoming-voice .voice-path > div:nth-child(odd) {
+  position: relative;
+  z-index: 1;
+  align-self: center;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 1.7rem 1.6rem;
+  background: rgba(30, 11, 40, 0.74);
+  border-top: 1px solid rgba(215, 178, 97, 0.55);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.14);
+  text-align: center;
+  transform: none;
+}
+
+.becoming-temple .becoming-voice .voice-path > div:nth-child(5) { grid-column: 5 / 9; grid-row: 1; }
+.becoming-temple .becoming-voice .voice-path > div:nth-child(2) { grid-column: 1 / 5; grid-row: 2; }
+.becoming-temple .becoming-voice .voice-path > div:nth-child(3) { grid-column: 9 / 13; grid-row: 2; }
+.becoming-temple .becoming-voice .voice-path > div:nth-child(1) { grid-column: 1 / 5; grid-row: 3; }
+.becoming-temple .becoming-voice .voice-path > div:nth-child(4) { grid-column: 9 / 13; grid-row: 3; }
+
+.becoming-temple .doorway-element {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--temple-gold);
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.63rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.becoming-temple .becoming-voice .voice-path p:first-of-type {
+  margin: 0 0 0.6em;
+  color: #fff8ec;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.6rem, 2.4vw, 2rem);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.becoming-temple .becoming-voice .voice-path p:last-child {
+  max-width: 22em;
+  margin: 0 auto;
+  color: #cabdcb;
+  font-size: 0.9rem;
+  line-height: 1.62;
+}
+
+.becoming-temple .doorways-closing {
+  max-width: 680px;
+  margin: 6rem auto 0 !important;
+  padding: 2rem 2.5rem;
+  color: var(--temple-gold-pale);
+  border-top: 1px solid rgba(215, 178, 97, 0.55);
+  border-bottom: 1px solid rgba(215, 178, 97, 0.28);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.55rem;
+  font-weight: 400;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.becoming-temple .becoming-story-bridge {
+  position: relative;
+  isolation: isolate;
+  color: var(--temple-ink);
+  background:
+    radial-gradient(circle at 78% 25%, rgba(255, 246, 221, 0.72), transparent 25%),
+    linear-gradient(145deg, #70406f 0%, #ad789e 48%, #e8d7c7 100%);
+}
+
+.becoming-temple .becoming-story-bridge::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.16;
+  background-image: repeating-linear-gradient(120deg, transparent 0 84px, rgba(255,255,255,0.18) 85px);
+}
+
+.becoming-temple .becoming-story-bridge .becoming-unique {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  max-width: 1080px;
+  min-height: 660px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.becoming-temple .becoming-story-bridge .becoming-unique::before {
+  content: none;
+}
+
+.becoming-temple .becoming-story-bridge .becoming-unique > h2,
+.becoming-temple .becoming-story-bridge .becoming-unique > p {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+}
+
+.becoming-temple .becoming-story-bridge .becoming-unique > h2 {
+  max-width: 720px;
+  margin-bottom: 0.8em;
+  color: #fff9ed;
+  text-shadow: 0 2px 20px rgba(38, 13, 51, 0.2);
+}
+
+.becoming-temple .becoming-story-bridge .becoming-unique > p:nth-of-type(1),
+.becoming-temple .becoming-story-bridge .becoming-unique > p:nth-of-type(2) {
+  max-width: 760px;
+  color: #fff9ed;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  line-height: 1.08;
+}
+
+.becoming-temple .becoming-story-bridge .becoming-unique > p:nth-of-type(3) {
+  max-width: 650px;
+  margin-top: 2rem !important;
+  color: #3f2742;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.becoming-temple .becoming-included {
+  position: relative;
+  isolation: isolate;
+  width: 80%;
+  max-width: 1080px;
+  padding-top: clamp(7rem, 10vw, 10rem);
+  padding-bottom: clamp(6rem, 9vw, 9rem);
+  color: var(--temple-ink);
+  background: transparent;
+  text-align: center;
+}
+
+.becoming-temple .becoming-included::before {
+  content: '';
+  position: absolute;
+  inset: 0 calc(50% - 50vw);
+  z-index: -2;
+  background:
+    radial-gradient(circle at 50% 8%, rgba(215, 178, 97, 0.18), transparent 24%),
+    var(--temple-ivory);
+}
+
+.becoming-temple .becoming-included > h2 {
+  margin: 0 0 0.45em !important;
+  color: var(--temple-plum-deep);
+}
+
+.becoming-temple .becoming-included > h2 + p {
+  color: var(--temple-muted);
+}
+
+.becoming-temple .session-count {
+  max-width: 780px;
+  margin: 1.2em auto 0 !important;
+  color: var(--temple-plum);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.8rem, 4.5vw, 4rem);
+  line-height: 1.08;
+}
+
+.becoming-temple .session-count span {
+  display: block;
+  margin-top: 0.8em;
+  color: #7c6678;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.becoming-temple .session-list {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2.5rem auto 8rem;
+  padding: 1.5rem 0;
+  color: var(--temple-muted);
+  border-top: 1px solid rgba(102, 36, 111, 0.18);
+  border-bottom: 1px solid rgba(102, 36, 111, 0.18);
+  list-style: none;
+}
+
+.becoming-temple .session-list li {
+  margin: 0;
+}
+
+.becoming-temple .threshold-chamber {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  background: linear-gradient(180deg, #180a22 0%, #2a0e37 30%, #55215d 58%, #ad7ca3 79%, #f3e7d5 100%);
+  border: 1px solid rgba(215, 178, 97, 0.5);
+  box-shadow: 0 35px 90px rgba(39, 13, 50, 0.16);
+}
+
+.becoming-temple .threshold-chamber::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.12;
+  background-image:
+    radial-gradient(circle at center, rgba(255,255,255,0.55) 0 1px, transparent 1.5px),
+    linear-gradient(120deg, transparent 49.8%, rgba(215,178,97,0.18) 50%, transparent 50.2%);
+  background-size: 42px 42px, 100% 100%;
+  pointer-events: none;
+}
+
+.becoming-temple .threshold-intro {
+  position: relative;
+  z-index: 2;
+  max-width: 720px;
+  margin: 0 auto !important;
+  padding: 7rem 2rem 5rem;
+  color: var(--temple-ivory);
+}
+
+.becoming-temple .threshold-intro h2 {
+  margin: 0 0 0.5em;
+  color: #fff8eb;
+  font-size: clamp(3.5rem, 5.5vw, 5rem);
+  line-height: 1;
+}
+
+.becoming-temple .threshold-intro p {
+  max-width: 570px;
+  margin: 0 auto;
+  color: #cdbdce;
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.becoming-temple .becoming-included .thresholds {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: auto;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 4.5rem 8rem;
+  background: transparent;
+  list-style: none;
+}
+
+.becoming-temple .becoming-included .thresholds::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 7rem 50%;
+  z-index: 0;
+  width: 1px;
+  opacity: 1;
+  background: linear-gradient(180deg, transparent, var(--temple-gold) 7%, var(--temple-gold-pale) 88%, transparent);
+}
+
+.becoming-temple .becoming-included .thresholds::after {
+  content: none;
+}
+
+.becoming-temple .becoming-included .thresholds li,
+.becoming-temple .becoming-included .thresholds li:nth-child(even),
+.becoming-temple .becoming-included .thresholds li:nth-child(odd) {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(50% - 3rem);
+  min-height: 180px;
+  margin: 0 0 2rem;
+  padding: 2rem 2.25rem;
+  color: #fff8ed;
+  background: rgba(19, 7, 27, 0.2);
+  border-top: 1px solid rgba(215, 178, 97, 0.58);
+  box-sizing: border-box;
+  transform: none;
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(odd) {
+  margin-right: auto;
+  text-align: right;
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(even) {
+  margin-left: auto;
+  text-align: left;
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(6),
+.becoming-temple .becoming-included .thresholds li:nth-child(7),
+.becoming-temple .becoming-included .thresholds li:nth-child(8) {
+  color: var(--temple-ink);
+  background: rgba(255, 249, 237, 0.38);
+}
+
+.becoming-temple .becoming-included .thresholds li::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  background: var(--temple-gold-pale);
+  border: 1px solid var(--temple-gold);
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(215, 178, 97, 0.12), 0 0 22px rgba(241, 217, 152, 0.55);
+  transform: translateY(-50%);
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(odd)::after { right: -3.35rem; }
+.becoming-temple .becoming-included .thresholds li:nth-child(even)::after { left: -3.35rem; }
+
+.becoming-temple .threshold-number {
+  display: block;
+  margin: 0 0 0.6em;
+  color: var(--temple-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.becoming-temple .threshold-number::before {
+  content: none !important;
+}
+
+.becoming-temple .becoming-included .thresholds h3 {
+  margin: 0 0 0.35em;
+  color: inherit;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.2rem, 3.2vw, 2.8rem);
+  font-weight: 400;
+  line-height: 1.04;
+}
+
+.becoming-temple .becoming-included .thresholds p {
+  max-width: 27em;
+  margin: 0;
+  color: inherit;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  opacity: 0.84;
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(odd) p {
+  margin-left: auto;
+}
+
+.becoming-temple .walking-beside-you {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(3rem, 6vw, 6rem);
+  align-items: stretch;
+  margin: 0 auto;
+  padding: clamp(8rem, 11vw, 11rem) 0;
+  text-align: left;
+}
+
+.becoming-temple .walking-portrait {
+  position: relative;
+  min-height: 100%;
+}
+
+.becoming-temple .walking-portrait::before {
+  content: '';
+  position: absolute;
+  inset: -1rem 1rem 1rem -1rem;
+  border: 1px solid rgba(102, 36, 111, 0.35);
+  pointer-events: none;
+}
+
+.becoming-temple .walking-portrait img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 920px;
+  margin: 0;
+  object-fit: cover;
+  object-position: 36% 48%;
+  filter: saturate(0.86) contrast(1.04);
+  box-shadow: 0 28px 65px rgba(47, 20, 50, 0.18);
+}
+
+.becoming-temple .walking-copy {
+  align-self: center;
+  padding: 1rem 0;
+}
+
+.becoming-temple .walking-beside-you h2 {
+  margin: 0 0 0.75em;
+  color: var(--temple-plum-deep);
+  font-size: clamp(3rem, 4.7vw, 4.35rem);
+  line-height: 1;
+}
+
+.becoming-temple .walking-beside-you p {
+  margin: 0 0 1.25em;
+  color: #5e4c5b;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.becoming-temple .walking-beside-you a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--temple-purple);
+  border-bottom: 1px solid var(--temple-gold);
+  font-size: 1rem;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.becoming-temple .walking-beside-you a:hover,
+.becoming-temple .walking-beside-you a:focus-visible {
+  color: var(--temple-plum-deep);
+  border-bottom-color: var(--temple-plum-deep);
+}
+
+.becoming-temple .sacred-exchange {
+  position: relative;
+  overflow: hidden;
+  max-width: none;
+  margin: 0 auto !important;
+  padding: clamp(4.5rem, 7vw, 7rem) 2rem;
+  color: var(--temple-ivory);
+  background:
+    radial-gradient(circle at center, rgba(139, 61, 142, 0.48), transparent 38%),
+    linear-gradient(135deg, #210b2d, #4a1755);
+  border: 1px solid rgba(215, 178, 97, 0.58);
+  box-shadow: 0 30px 75px rgba(42, 13, 51, 0.18);
+  text-align: center;
+}
+
+.becoming-temple .sacred-exchange::before,
+.becoming-temple .sacred-exchange::after {
+  content: '✦';
+  position: absolute;
+  top: 50%;
+  color: rgba(241, 217, 152, 0.5);
+  font-size: 1rem;
+  transform: translateY(-50%);
+}
+
+.becoming-temple .sacred-exchange::before { left: 8%; }
+.becoming-temple .sacred-exchange::after { right: 8%; }
+
+.becoming-temple .sacred-exchange h2 {
+  margin: 0 0 0.45em;
+  color: #fff8eb;
+  font-size: clamp(2.8rem, 4.5vw, 4rem);
+}
+
+.becoming-temple .sacred-exchange .exchange-intro {
+  margin: 0 auto 1.4em;
+  color: #d4c4d4;
+}
+
+.becoming-temple .sacred-exchange .exchange-price {
+  margin: 0;
+  color: var(--temple-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 400;
+  line-height: 1;
+}
+
+.becoming-temple .becoming-invitation {
+  position: relative;
+  padding-top: clamp(6rem, 9vw, 9rem);
+  padding-bottom: clamp(6rem, 9vw, 9rem);
+  color: var(--temple-ink);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255,255,255,0.65), transparent 32%),
+    linear-gradient(180deg, #ead9bd, #f7efe0);
+}
+
+.becoming-temple .becoming-invitation .container {
+  width: 80%;
+  max-width: 1080px;
+  padding: 0;
+}
+
+.becoming-temple .invitation-copy {
+  margin-bottom: 3.5rem;
+}
+
+.becoming-temple .invitation-copy h2 {
+  margin: 0 0 0.5em;
+  color: var(--temple-plum-deep);
+}
+
+.becoming-temple .invitation-copy p {
+  max-width: 690px;
+  color: #665363;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.becoming-temple .contact-form {
+  max-width: 820px;
+  padding: clamp(2rem, 4vw, 3.5rem);
+  background: rgba(255, 251, 242, 0.68);
+  border: 1px solid rgba(102, 36, 111, 0.22);
+  box-shadow: 0 22px 55px rgba(56, 27, 50, 0.1);
+}
+
+.becoming-temple .contact-row input,
+.becoming-temple .contact-form textarea {
+  color: var(--temple-ink);
+  background: rgba(255,255,255,0.68);
+  border-color: rgba(102, 36, 111, 0.27);
+}
+
+.becoming-temple .contact-row input:focus,
+.becoming-temple .contact-form textarea:focus {
+  border-color: var(--temple-purple);
+  outline: 1px solid rgba(102, 36, 111, 0.18);
+}
+
+.becoming-temple .contact-btn {
+  padding: 0.85rem 2.3rem;
+  color: #fff8ed;
+  background: var(--temple-plum);
+  border: 1px solid var(--temple-plum);
+}
+
+.becoming-temple .contact-btn:hover,
+.becoming-temple .contact-btn:focus-visible {
+  color: var(--temple-plum-deep);
+  background: var(--temple-gold-pale);
+  border-color: var(--temple-gold);
+}
+
+@media (max-width: 900px) {
+  .becoming-temple .becoming-hero {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+    text-align: center;
+  }
+
+  .becoming-temple .becoming-hero h1,
+  .becoming-temple .becoming-lead {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .becoming-temple .becoming-kicker,
+  .becoming-temple .becoming-mark {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .becoming-pentacle {
+    width: min(80vw, 420px);
+  }
+
+  .becoming-temple .walking-beside-you {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .becoming-temple .walking-portrait {
+    height: min(680px, 90vw);
+    min-height: 0;
+  }
+
+  .becoming-temple .walking-portrait img {
+    min-height: 0;
+    object-position: 40% 42%;
+  }
+}
+
+@media (max-width: 768px) {
+  .becoming-temple .becoming-hero,
+  .becoming-temple .becoming-presence,
+  .becoming-temple .becoming-voice,
+  .becoming-temple .becoming-story-bridge .becoming-unique,
+  .becoming-temple .becoming-included {
+    width: auto;
+    max-width: none;
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  .becoming-temple .becoming-hero {
+    min-height: 0;
+    padding-top: 5.25rem;
+    padding-bottom: 6rem;
+  }
+
+  .becoming-temple .becoming-hero h1 {
+    font-size: clamp(3.4rem, 15vw, 4.5rem);
+  }
+
+  .becoming-temple .becoming-lead {
+    font-size: 1rem;
+    line-height: 1.72;
+  }
+
+  .becoming-pentacle {
+    width: min(78vw, 350px);
+  }
+
+  .becoming-pentacle .element-air { right: -1.4rem; }
+  .becoming-pentacle .element-water { left: -1.8rem; }
+
+  .becoming-temple .becoming-presence {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .becoming-temple .becoming-intro {
+    width: auto;
+    max-width: none;
+  }
+
+  .becoming-temple .becoming-intro > h2,
+  .becoming-temple .becoming-voice > h2,
+  .becoming-temple .becoming-unique > h2,
+  .becoming-temple .becoming-included > h2,
+  .becoming-temple .invitation-copy h2 {
+    font-size: 3.15rem;
+  }
+
+  .becoming-temple .becoming-statement:first-of-type {
+    font-size: 1.75rem;
+  }
+
+  .becoming-temple .becoming-voice {
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+  }
+
+  .becoming-temple .doorways-opening {
+    margin-bottom: 4rem;
+  }
+
+  .becoming-temple .becoming-voice .voice-path {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: 0;
+    padding: 1.5rem 0;
+  }
+
+  .becoming-temple .becoming-voice .voice-path::before {
+    position: absolute;
+    inset: 12% -16% 10%;
+    opacity: 0.18;
+    background-position: center 42%;
+    background-size: 118% auto;
+  }
+
+  .becoming-temple .becoming-voice .voice-path > div,
+  .becoming-temple .becoming-voice .voice-path > div:nth-child(even),
+  .becoming-temple .becoming-voice .voice-path > div:nth-child(odd) {
+    width: auto;
+    margin: 0;
+    padding: 1.8rem 1.45rem;
+  }
+
+  .becoming-temple .becoming-voice .voice-path p:first-of-type {
+    font-size: 1.75rem;
+  }
+
+  .becoming-temple .becoming-voice .voice-path p:last-child {
+    max-width: 28em;
+    font-size: 0.92rem;
+  }
+
+  .becoming-temple .doorways-closing {
+    margin-top: 4rem !important;
+    padding: 1.75rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  .becoming-temple .becoming-story-bridge .becoming-unique {
+    min-height: 600px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .becoming-temple .becoming-story-bridge .becoming-unique > p:nth-of-type(1),
+  .becoming-temple .becoming-story-bridge .becoming-unique > p:nth-of-type(2) {
+    font-size: 2.35rem;
+  }
+
+  .becoming-temple .becoming-included {
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+  }
+
+  .becoming-temple .session-count {
+    font-size: 2.8rem;
+  }
+
+  .becoming-temple .session-list {
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-bottom: 6rem;
+  }
+
+  .becoming-temple .threshold-chamber {
+    margin-right: -22px;
+    margin-left: -22px;
+  }
+
+  .becoming-temple .threshold-intro {
+    padding: 5.5rem 1.6rem 4rem;
+  }
+
+  .becoming-temple .threshold-intro h2 {
+    font-size: 3.5rem;
+  }
+
+  .becoming-temple .becoming-included .thresholds {
+    padding: 0 24px 6rem 58px;
+  }
+
+  .becoming-temple .becoming-included .thresholds::before {
+    inset: 0 auto 5rem 29px;
+  }
+
+  .becoming-temple .becoming-included .thresholds li,
+  .becoming-temple .becoming-included .thresholds li:nth-child(even),
+  .becoming-temple .becoming-included .thresholds li:nth-child(odd) {
+    width: auto;
+    min-height: 0;
+    margin: 0 0 1.4rem;
+    padding: 1.8rem 1.45rem;
+    text-align: left;
+  }
+
+  .becoming-temple .becoming-included .thresholds li:nth-child(odd) p {
+    margin-left: 0;
+  }
+
+  .becoming-temple .becoming-included .thresholds li:nth-child(odd)::after,
+  .becoming-temple .becoming-included .thresholds li:nth-child(even)::after {
+    top: 2.45rem;
+    right: auto;
+    left: -2.1rem;
+  }
+
+  .becoming-temple .threshold-number {
+    font-size: 2rem;
+  }
+
+  .becoming-temple .becoming-included .thresholds h3 {
+    font-size: 2.35rem;
+  }
+
+  .becoming-temple .walking-beside-you {
+    gap: 3.5rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .becoming-temple .walking-portrait {
+    height: min(620px, 118vw);
+  }
+
+  .becoming-temple .walking-portrait::before {
+    inset: -0.65rem 0.65rem 0.65rem -0.65rem;
+  }
+
+  .becoming-temple .walking-beside-you h2 {
+    font-size: 3.15rem;
+  }
+
+  .becoming-temple .sacred-exchange {
+    padding: 4.5rem 1.25rem;
+  }
+
+  .becoming-temple .sacred-exchange::before,
+  .becoming-temple .sacred-exchange::after {
+    display: none;
+  }
+
+  .becoming-temple .becoming-invitation {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .becoming-temple .becoming-invitation .container {
+    width: auto;
+    max-width: none;
+    padding: 0 18px;
+  }
+
+  .becoming-temple .contact-form {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .becoming-temple .becoming-hero,
+  .becoming-temple .becoming-presence,
+  .becoming-temple .becoming-voice,
+  .becoming-temple .becoming-story-bridge .becoming-unique,
+  .becoming-temple .becoming-included {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .becoming-pentacle span { font-size: 0.55rem; }
+  .becoming-pentacle .element-air { right: -1rem; }
+  .becoming-pentacle .element-water { left: -1.25rem; }
+
+  .becoming-temple .threshold-chamber {
+    margin-right: -18px;
+    margin-left: -18px;
+  }
+
+  .becoming-temple .threshold-intro h2 { font-size: 3.1rem; }
+  .becoming-temple .becoming-included .thresholds h3 { font-size: 2.1rem; }
+}
+
+/* Sacred Becoming exact-copy composition */
+.becoming-temple .becoming-lead + .becoming-lead {
+  margin-top: 1.8rem;
+}
+
+.becoming-temple .becoming-lead-emphasis {
+  color: var(--temple-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.55rem, 2.4vw, 2rem);
+  line-height: 1.35;
+}
+
+.becoming-temple .becoming-opening-questions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.becoming-temple .becoming-opening-questions p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 9rem;
+  margin: 0;
+  padding: 1.5rem;
+  color: #f7eadb;
+  border-top: 1px solid rgba(215, 178, 97, 0.58);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.3;
+}
+
+.becoming-temple .becoming-threshold-callout {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(8rem, 12vw, 12rem) 0;
+  color: #fff9ed;
+  background:
+    radial-gradient(circle at 78% 25%, rgba(255, 246, 221, 0.72), transparent 25%),
+    linear-gradient(145deg, #70406f 0%, #ad789e 48%, #e8d7c7 100%);
+}
+
+.becoming-temple .becoming-threshold-callout::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.16;
+  background-image: repeating-linear-gradient(120deg, transparent 0 84px, rgba(255,255,255,0.18) 85px);
+}
+
+.becoming-temple .becoming-threshold-callout .container {
+  width: 80%;
+  max-width: 1080px;
+  padding: 0;
+  text-align: center;
+}
+
+.becoming-temple .becoming-threshold-callout h2 {
+  max-width: 850px;
+  margin: 0 auto 1.1em;
+  color: #fff9ed;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.1rem, 5.2vw, 4.8rem);
+  font-weight: 400;
+  line-height: 1.03;
+}
+
+.becoming-temple .becoming-threshold-callout p {
+  max-width: 710px;
+  margin: 0 auto 1.5em;
+  color: #4b304b;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.becoming-temple .becoming-threshold-callout .becoming-possibility {
+  max-width: 720px;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  color: #fff9ed;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.15rem, 3.6vw, 3rem);
+  line-height: 1.2;
+}
+
+.becoming-temple .becoming-work {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  max-width: 1080px;
+  min-height: 620px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.becoming-temple .becoming-work::before {
+  content: '';
+  position: absolute;
+  inset: 0 calc(50% - 50vw);
+  z-index: -1;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(113, 39, 122, 0.24), transparent 35%),
+    linear-gradient(180deg, #260d32, #180a22);
+}
+
+.becoming-temple .becoming-work h2 {
+  margin: 0 0 0.8em;
+  color: #fff8eb;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.3rem, 5vw, 4.7rem);
+  font-weight: 400;
+  line-height: 1.02;
+}
+
+.becoming-temple .becoming-work p {
+  max-width: 750px;
+  margin: 0 auto;
+  color: #d2c2d3;
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+
+.becoming-temple .becoming-thresholds-section {
+  padding-top: clamp(7rem, 10vw, 10rem);
+}
+
+.becoming-temple .threshold-intro {
+  padding-bottom: 4rem;
+}
+
+.becoming-temple .threshold-intro h2 {
+  margin-bottom: 0;
+}
+
+.becoming-temple .becoming-included .thresholds h3 {
+  display: flex;
+  gap: 0.35em;
+  align-items: baseline;
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(odd) h3 {
+  justify-content: flex-end;
+}
+
+.becoming-temple .threshold-number {
+  display: inline;
+  margin: 0;
+  color: var(--temple-gold-pale);
+  font-size: 1em;
+  line-height: inherit;
+}
+
+.becoming-temple .threshold-dash {
+  color: var(--temple-gold);
+}
+
+.becoming-temple .becoming-included .thresholds .threshold-question {
+  max-width: 24em;
+  margin: 0 0 0.75em;
+  color: inherit;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.25rem, 1.9vw, 1.5rem);
+  font-style: italic;
+  line-height: 1.35;
+  opacity: 1;
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(odd) .threshold-question {
+  margin-left: auto;
+}
+
+.becoming-temple .walking-beside-you {
+  position: relative;
+  isolation: isolate;
+}
+
+.becoming-temple .walking-beside-you::before {
+  content: '';
+  position: absolute;
+  inset: 0 calc(50% - 50vw);
+  z-index: -1;
+  background: var(--temple-ivory);
+}
+
+.becoming-temple .becoming-receive-section {
+  padding: clamp(7rem, 10vw, 10rem) 0;
+  color: var(--temple-ink);
+  background:
+    radial-gradient(circle at 50% 10%, rgba(255,255,255,0.78), transparent 32%),
+    linear-gradient(180deg, #f3e7d5, #ead8c2);
+  text-align: center;
+}
+
+.becoming-temple .becoming-receive-section .container {
+  width: 80%;
+  max-width: 1080px;
+  padding: 0;
+}
+
+.becoming-temple .becoming-receive-section h2 {
+  margin: 0 0 0.65em;
+  color: var(--temple-plum-deep);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.3rem, 5vw, 4.7rem);
+  font-weight: 400;
+  line-height: 1.02;
+}
+
+.becoming-temple .becoming-receive-section .session-list {
+  margin-bottom: 0;
+}
+
+.becoming-temple .becoming-exchange-section {
+  padding: clamp(6rem, 9vw, 9rem) 0;
+  background: var(--temple-ivory);
+}
+
+.becoming-temple .becoming-exchange-section .sacred-exchange {
+  width: 80%;
+  max-width: 1080px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .becoming-temple .becoming-lead-emphasis {
+    font-size: 1.6rem;
+  }
+
+  .becoming-temple .becoming-opening-questions {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 3.5rem;
+  }
+
+  .becoming-temple .becoming-opening-questions p {
+    min-height: 0;
+    padding: 1.4rem 0.75rem;
+    font-size: 1.55rem;
+  }
+
+  .becoming-temple .becoming-threshold-callout {
+    padding: 7rem 0;
+  }
+
+  .becoming-temple .becoming-threshold-callout .container,
+  .becoming-temple .becoming-receive-section .container {
+    width: auto;
+    max-width: none;
+    padding: 0 22px;
+  }
+
+  .becoming-temple .becoming-threshold-callout h2,
+  .becoming-temple .becoming-work h2,
+  .becoming-temple .becoming-receive-section h2 {
+    font-size: 3.15rem;
+  }
+
+  .becoming-temple .becoming-threshold-callout p,
+  .becoming-temple .becoming-work p {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .becoming-temple .becoming-threshold-callout .becoming-possibility {
+    font-size: 2.25rem;
+  }
+
+  .becoming-temple .becoming-work {
+    width: auto;
+    max-width: none;
+    min-height: 580px;
+    padding: 6.5rem 22px;
+  }
+
+  .becoming-temple .becoming-thresholds-section {
+    padding-top: 6rem;
+  }
+
+  .becoming-temple .threshold-intro {
+    padding-bottom: 3.5rem;
+  }
+
+  .becoming-temple .becoming-included .thresholds h3,
+  .becoming-temple .becoming-included .thresholds li:nth-child(odd) h3 {
+    gap: 0.25em;
+    justify-content: flex-start;
+    font-size: 1.8rem;
+    white-space: nowrap;
+  }
+
+  .becoming-temple .becoming-included .thresholds li:nth-child(odd) .threshold-question {
+    margin-left: 0;
+  }
+
+  .becoming-temple .becoming-included .thresholds .threshold-question {
+    font-size: 1.35rem;
+  }
+
+  .becoming-temple .becoming-receive-section {
+    padding: 7rem 0;
+  }
+
+  .becoming-temple .becoming-exchange-section {
+    padding: 6rem 18px;
+  }
+
+  .becoming-temple .becoming-exchange-section .sacred-exchange {
+    width: auto;
+    max-width: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .becoming-temple .becoming-threshold-callout .container,
+  .becoming-temple .becoming-receive-section .container {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .becoming-temple .becoming-work {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+}
+
+/* Sacred Becoming candidate raven hero */
+.becoming-temple .becoming-hero {
+  grid-template-columns: minmax(0, 1fr) minmax(390px, 0.88fr);
+}
+
+.becoming-temple .becoming-hero::before {
+  background: linear-gradient(145deg, #120719, #260d33 58%, #42124d);
+}
+
+.becoming-temple .becoming-hero::after {
+  z-index: 0;
+  opacity: 0.2;
+}
+
+.becoming-temple .becoming-hero-art {
+  position: absolute;
+  inset: 0 calc(50% - 50vw);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.becoming-temple .becoming-hero-art::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(18, 7, 25, 0.04) 0%, rgba(18, 7, 25, 0.08) 40%, rgba(23, 10, 32, 0.74) 66%, #170a20 100%),
+    linear-gradient(180deg, rgba(15, 7, 20, 0.04), transparent 62%, rgba(23, 10, 32, 0.48));
+  pointer-events: none;
+}
+
+.becoming-temple .becoming-hero-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  object-position: center 40%;
+  filter: saturate(0.92) contrast(1.03);
+}
+
+.becoming-temple .becoming-hero-copy {
+  grid-column: 2;
+  max-width: 500px;
+}
+
+.becoming-temple .becoming-presence .becoming-pentacle {
+  width: min(52vw, 370px);
+  margin: 4.5rem auto;
+}
+
+@media (max-width: 768px) {
+  .becoming-temple .becoming-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 0;
+    padding-bottom: 6rem;
+  }
+
+  .becoming-temple .becoming-hero-art {
+    position: relative;
+    inset: auto;
+    z-index: 1;
+    width: calc(100% + 44px);
+    height: min(118vw, 500px);
+    margin: 0 -22px 4.75rem;
+  }
+
+  .becoming-temple .becoming-hero-art::after {
+    background: linear-gradient(180deg, rgba(18, 7, 25, 0.04) 45%, rgba(23, 10, 32, 0.86) 100%);
+  }
+
+  .becoming-temple .becoming-hero-art img {
+    object-position: 29% center;
+  }
+
+  .becoming-temple .becoming-hero-copy {
+    grid-column: auto;
+    max-width: 580px;
+  }
+
+  .becoming-temple .becoming-presence .becoming-pentacle {
+    width: min(74vw, 330px);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .becoming-temple .becoming-hero-art {
+    width: calc(100% + 36px);
+    margin-right: -18px;
+    margin-left: -18px;
+  }
+}
+
+/* Sacred Becoming immersive hero and story structure */
+.becoming-temple .becoming-hero-nav {
+  position: absolute;
+  top: 1.75rem;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  font-family: 'Aboreto', Georgia, serif;
+}
+
+.becoming-temple .becoming-hero-nav a {
+  margin: 0;
+  color: rgba(251, 246, 233, 0.82);
+  border-bottom: 1px solid transparent;
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  line-height: 1.5;
+  text-shadow: 0 1px 10px rgba(12, 4, 17, 0.95);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.becoming-temple .becoming-hero-nav .becoming-hero-brand {
+  color: var(--temple-gold-pale);
+  letter-spacing: 0.24em;
+}
+
+.becoming-temple .becoming-hero-nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(1.35rem, 2.7vw, 2.75rem);
+}
+
+.becoming-temple .becoming-hero-nav a:hover,
+.becoming-temple .becoming-hero-nav a:focus-visible {
+  color: #fff9ed;
+  border-bottom-color: var(--temple-gold-pale);
+}
+
+.becoming-temple .becoming-hero {
+  grid-template-columns: minmax(0, 1.45fr) minmax(390px, 0.75fr);
+  gap: clamp(2rem, 4vw, 4rem);
+  width: 90%;
+  max-width: 1280px;
+  min-height: min(86svh, 820px);
+  padding-top: clamp(5rem, 8vw, 8rem);
+  padding-bottom: clamp(5rem, 8vw, 8rem);
+}
+
+.becoming-temple .becoming-hero-art::after {
+  background:
+    linear-gradient(90deg, rgba(18, 7, 25, 0.02) 0%, rgba(18, 7, 25, 0.04) 48%, rgba(23, 10, 32, 0.82) 70%, #170a20 100%),
+    linear-gradient(180deg, rgba(15, 7, 20, 0.03), transparent 58%, rgba(23, 10, 32, 0.58));
+}
+
+.becoming-temple .becoming-hero-art img {
+  object-fit: contain;
+  object-position: left center;
+}
+
+.becoming-temple .becoming-hero-copy {
+  grid-column: 2;
+  justify-self: end;
+  width: 100%;
+  max-width: 440px;
+}
+
+.becoming-temple .becoming-hero h1 {
+  max-width: 440px;
+  margin-bottom: 0.45em;
+  color: #fff9ed;
+  font-size: clamp(3.5rem, 5.2vw, 5rem);
+  line-height: 0.94;
+  letter-spacing: -0.02em;
+}
+
+.becoming-temple .becoming-hero-statement {
+  max-width: 430px;
+  margin: 0;
+  color: #ded0d8;
+  font-size: clamp(1.05rem, 1.35vw, 1.2rem);
+  line-height: 1.62;
+}
+
+.becoming-temple .becoming-hero-highlights {
+  display: grid;
+  gap: 0.1em;
+  margin: 0 0 1.1rem;
+  color: var(--temple-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.75rem, 2.5vw, 2.15rem);
+  line-height: 1.12;
+}
+
+.becoming-temple .becoming-hero-highlights span {
+  display: block;
+}
+
+.becoming-temple .becoming-origin-story {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(7rem, 11vw, 11rem) 0;
+  color: var(--temple-ivory);
+  text-align: center;
+  background:
+    radial-gradient(circle at 50% 8%, rgba(164, 110, 152, 0.18), transparent 36%),
+    linear-gradient(180deg, #180920 0%, #260d33 58%, #2d0f39 100%);
+}
+
+.becoming-temple .becoming-origin-story::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: min(58vw, 620px);
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgba(215, 178, 97, 0.72), transparent);
+}
+
+.becoming-temple .becoming-origin-story .container {
+  width: 80%;
+  max-width: 760px;
+  padding: 0;
+}
+
+.becoming-temple .becoming-origin-story h2 {
+  margin: 0 0 0.55em;
+  color: #fff9ed;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.8rem, 6vw, 5.6rem);
+  font-weight: 400;
+  line-height: 0.98;
+}
+
+.becoming-temple .becoming-origin-story p {
+  max-width: 690px;
+  margin: 0 auto;
+  color: #d9cad8;
+  font-size: 1.12rem;
+  line-height: 1.85;
+}
+
+.becoming-temple .becoming-origin-story .becoming-story-emphasis {
+  max-width: 640px;
+  margin-top: 2.4rem;
+  color: var(--temple-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2rem, 3.2vw, 2.75rem);
+  line-height: 1.25;
+}
+
+.becoming-temple .becoming-presence {
+  padding-top: clamp(6.5rem, 9vw, 9rem);
+}
+
+.becoming-temple .becoming-presence .becoming-pentacle {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .becoming-temple .becoming-hero-nav {
+    top: 1rem;
+    left: 18px;
+    right: 18px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.65rem;
+    padding: 0 0 0.8rem;
+  }
+
+  .becoming-temple .becoming-hero-nav a {
+    font-size: 0.56rem;
+    letter-spacing: 0.1em;
+  }
+
+  .becoming-temple .becoming-hero-nav .becoming-hero-brand {
+    letter-spacing: 0.22em;
+  }
+
+  .becoming-temple .becoming-hero-nav-links {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0.35rem;
+  }
+
+  .becoming-temple .becoming-hero {
+    width: auto;
+    max-width: none;
+    min-height: 0;
+    padding-top: 0;
+    padding-bottom: 5.5rem;
+  }
+
+  .becoming-temple .becoming-hero-art {
+    height: min(105vw, 460px);
+    margin-bottom: 3.9rem;
+  }
+
+  .becoming-temple .becoming-hero-art img {
+    object-fit: cover;
+    object-position: 30% center;
+  }
+
+  .becoming-temple .becoming-hero-copy {
+    width: auto;
+    max-width: none;
+    align-self: stretch;
+  }
+
+  .becoming-temple .becoming-hero h1 {
+    max-width: 620px;
+    font-size: clamp(3.15rem, 14vw, 4.45rem);
+    line-height: 0.95;
+    text-align: center;
+  }
+
+  .becoming-temple .becoming-hero-statement {
+    max-width: 580px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.05rem;
+    line-height: 1.62;
+    text-align: center;
+  }
+
+  .becoming-temple .becoming-hero-highlights {
+    gap: 0.05em;
+    margin-bottom: 1.15rem;
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .becoming-temple .becoming-origin-story {
+    padding: 7rem 0;
+  }
+
+  .becoming-temple .becoming-origin-story .container {
+    width: auto;
+    max-width: none;
+    padding: 0 22px;
+  }
+
+  .becoming-temple .becoming-origin-story h2 {
+    font-size: 3.7rem;
+  }
+
+  .becoming-temple .becoming-origin-story p {
+    font-size: 1rem;
+    line-height: 1.78;
+  }
+
+  .becoming-temple .becoming-origin-story .becoming-story-emphasis {
+    margin-top: 2rem;
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .becoming-temple .becoming-presence {
+    padding-top: 6rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .becoming-temple .becoming-hero-nav a {
+    font-size: 0.58rem;
+    letter-spacing: 0.04em;
+  }
+
+  .becoming-temple .becoming-origin-story .container {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+}
+
+/* Sacred Becoming hero correction: full-bleed image beneath the global navigation */
+.becoming-temple .becoming-hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: none;
+  min-height: clamp(620px, 56.25vw, 820px);
+  margin: 0;
+  padding: clamp(4rem, 7vw, 7rem) clamp(2rem, 7vw, 7rem);
+  overflow: hidden;
+  text-align: left;
+  background: #100813;
+}
+
+.becoming-temple .becoming-hero::before,
+.becoming-temple .becoming-hero::after {
+  display: none;
+}
+
+.becoming-temple .becoming-hero-art {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #100813;
+}
+
+.becoming-temple .becoming-hero-art picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.becoming-temple .becoming-hero-art::after {
+  display: block;
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(16, 8, 19, 0.02) 0%, rgba(16, 8, 19, 0.03) 43%, rgba(23, 10, 32, 0.34) 63%, rgba(17, 7, 23, 0.72) 100%),
+    linear-gradient(180deg, rgba(11, 5, 15, 0.03), transparent 64%, rgba(13, 6, 17, 0.38));
+  pointer-events: none;
+}
+
+.becoming-temple .becoming-hero-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  object-position: center center;
+  filter: saturate(0.94) contrast(1.03);
+}
+
+.becoming-temple .becoming-hero-copy {
+  position: relative;
+  z-index: 2;
+  width: min(39vw, 500px);
+  max-width: 500px;
+  margin: 0;
+  padding: 0;
+  background: none;
+  text-shadow: 0 2px 22px rgba(8, 3, 11, 0.72);
+}
+
+.becoming-temple .becoming-hero-copy::before {
+  content: '';
+  position: absolute;
+  inset: -4rem -7rem;
+  z-index: -1;
+  background: radial-gradient(
+    ellipse at 58% 50%,
+    rgba(13, 5, 17, 0.84) 0%,
+    rgba(24, 8, 31, 0.68) 40%,
+    rgba(24, 8, 31, 0.3) 64%,
+    transparent 80%
+  );
+  filter: blur(8px);
+  pointer-events: none;
+}
+
+.becoming-temple .becoming-hero h1 {
+  max-width: 500px;
+  margin: 0 0 0.48em;
+  font-size: clamp(3.5rem, 5.2vw, 5.3rem);
+  text-align: left;
+}
+
+.becoming-temple .becoming-hero-highlights,
+.becoming-temple .becoming-hero-statement {
+  margin-right: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .becoming-temple .becoming-hero {
+    align-items: flex-end;
+    justify-content: flex-end;
+    min-height: clamp(850px, 218vw, 1050px);
+    padding: 2rem 22px 4rem;
+  }
+
+  .becoming-temple .becoming-hero-art picture {
+    height: auto;
+  }
+
+  .becoming-temple .becoming-hero-art img {
+    height: auto;
+    object-fit: contain;
+    object-position: left top;
+  }
+
+  .becoming-temple .becoming-hero-art::after {
+    background:
+      linear-gradient(180deg, rgba(13, 6, 17, 0.02) 0%, rgba(13, 6, 17, 0.04) 42%, rgba(18, 7, 24, 0.54) 64%, rgba(15, 6, 20, 0.9) 100%),
+      linear-gradient(90deg, rgba(12, 5, 16, 0.03), rgba(18, 7, 24, 0.18));
+  }
+
+  .becoming-temple .becoming-hero-copy {
+    width: min(100%, 560px);
+    max-width: 560px;
+    text-align: center;
+  }
+
+  .becoming-temple .becoming-hero-copy::before {
+    inset: -3.5rem -2.5rem;
+    background: radial-gradient(
+      ellipse at 50% 55%,
+      rgba(13, 5, 17, 0.88) 0%,
+      rgba(24, 8, 31, 0.7) 44%,
+      rgba(24, 8, 31, 0.3) 68%,
+      transparent 84%
+    );
+  }
+
+  .becoming-temple .becoming-hero h1 {
+    max-width: 560px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(3.15rem, 14vw, 4.4rem);
+    text-align: center;
+  }
+
+  .becoming-temple .becoming-hero-highlights,
+  .becoming-temple .becoming-hero-statement {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .becoming-temple .becoming-hero-statement {
+    max-width: 34em;
+    color: #f0e5ec;
+  }
+}
+
+@media (max-width: 420px) {
+  .becoming-temple .becoming-hero {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+}
+
+/* Sacred Becoming design compression pass */
+.becoming-temple .becoming-hero {
+  min-height: clamp(560px, 44vw, 650px);
+  padding-top: clamp(3rem, 5vw, 5rem);
+  padding-bottom: clamp(3rem, 5vw, 5rem);
+}
+
+.becoming-temple .becoming-hero-art img {
+  object-position: center top;
+}
+
+.becoming-temple .becoming-hero-statement {
+  max-width: 470px;
+  color: #f1e6ed;
+  font-size: clamp(1.15rem, 1.45vw, 1.32rem);
+  line-height: 1.55;
+}
+
+.becoming-temple .becoming-origin-story {
+  padding: clamp(4.25rem, 6vw, 5.75rem) 0;
+}
+
+.becoming-temple .becoming-origin-story h2 {
+  margin-bottom: 0.42em;
+}
+
+.becoming-temple .becoming-origin-story p:not(.becoming-story-emphasis) {
+  max-width: 760px;
+  color: #f1e5ee;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.35rem, 1.9vw, 1.65rem);
+  line-height: 1.5;
+}
+
+.becoming-temple .becoming-origin-story .becoming-story-emphasis {
+  margin-top: 1.65rem;
+}
+
+.becoming-temple .becoming-presence {
+  padding-top: clamp(4.5rem, 6.5vw, 6rem);
+  padding-bottom: clamp(4.75rem, 6.5vw, 6.25rem);
+}
+
+.becoming-temple .becoming-presence .becoming-pentacle {
+  width: min(42vw, 320px);
+  margin: 0 auto;
+}
+
+.becoming-temple .becoming-intro,
+.becoming-temple .becoming-opening-questions {
+  position: relative;
+}
+
+.becoming-temple .becoming-opening-questions {
+  gap: 1.35rem;
+  margin-top: 3rem;
+}
+
+.becoming-temple .becoming-opening-questions::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 1px;
+  height: 3rem;
+  background: linear-gradient(180deg, rgba(215, 178, 97, 0.16), rgba(215, 178, 97, 0.72));
+}
+
+.becoming-temple .becoming-opening-questions::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  background: var(--temple-gold-pale);
+  border: 1px solid var(--temple-gold);
+  border-radius: 50%;
+  box-shadow: 0 0 16px rgba(241, 217, 152, 0.5);
+  transform: translate(-50%, -50%);
+}
+
+.becoming-temple .becoming-opening-questions p {
+  min-height: 7.25rem;
+  padding: 1.25rem;
+}
+
+.becoming-temple .becoming-threshold-callout {
+  padding: clamp(5rem, 7.5vw, 7rem) 0;
+}
+
+.becoming-temple .becoming-threshold-callout h2 {
+  margin-bottom: 0.7em;
+  font-size: clamp(3rem, 4.6vw, 4.2rem);
+}
+
+.becoming-temple .becoming-threshold-callout p {
+  margin-bottom: 1.15em;
+  font-size: clamp(1.15rem, 1.45vw, 1.28rem);
+  line-height: 1.68;
+}
+
+.becoming-temple .becoming-threshold-callout .becoming-possibility {
+  margin-top: 1.75rem;
+  font-size: clamp(2.1rem, 3.2vw, 2.75rem);
+}
+
+.becoming-temple .becoming-work {
+  min-height: 0;
+  padding-top: clamp(4rem, 5.5vw, 5.25rem);
+  padding-bottom: clamp(4rem, 5.5vw, 5.25rem);
+}
+
+.becoming-temple .becoming-work h2 {
+  margin-bottom: 0.55em;
+  font-size: clamp(3rem, 4.3vw, 4rem);
+}
+
+.becoming-temple .becoming-work p {
+  font-size: 1.13rem;
+  line-height: 1.7;
+}
+
+.becoming-temple .becoming-thresholds-section {
+  padding-top: clamp(4.5rem, 6vw, 5.5rem);
+  padding-bottom: 0;
+}
+
+.becoming-temple .threshold-chamber {
+  background: linear-gradient(180deg, #180a22 0%, #2a0e37 30%, #55215d 58%, #744078 79%, #a8739b 100%);
+}
+
+.becoming-temple .threshold-intro {
+  padding: 5rem 2rem 3.25rem;
+}
+
+.becoming-temple .becoming-included .thresholds {
+  padding-bottom: 5.5rem;
+}
+
+.becoming-temple .becoming-included .thresholds::before {
+  bottom: 4.5rem;
+}
+
+.becoming-temple .becoming-included .thresholds li,
+.becoming-temple .becoming-included .thresholds li:nth-child(even),
+.becoming-temple .becoming-included .thresholds li:nth-child(odd) {
+  min-height: 165px;
+  margin-bottom: 1.5rem;
+  padding: 1.65rem 2rem;
+  background: rgba(19, 7, 27, 0.28);
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(6) {
+  color: #fff8ed;
+  background: rgba(55, 20, 65, 0.62);
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(7) {
+  color: #fff8ed;
+  background: rgba(70, 27, 74, 0.6);
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(8) {
+  color: #fff8ed;
+  background: rgba(82, 31, 78, 0.62);
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(n+6) h3 {
+  gap: 0.24em;
+  font-size: clamp(1.9rem, 2.45vw, 2.2rem);
+}
+
+.becoming-temple .becoming-included .thresholds li:nth-child(n+6) .threshold-number {
+  color: var(--temple-gold-pale);
+}
+
+.becoming-temple .walking-beside-you {
+  margin-top: 0;
+  padding-top: clamp(4rem, 5.5vw, 5rem);
+  padding-bottom: clamp(5rem, 7vw, 6.5rem);
+}
+
+.becoming-temple .becoming-receive-section {
+  padding: clamp(4.25rem, 6vw, 5.5rem) 0;
+}
+
+.becoming-temple .becoming-receive-section h2 {
+  margin-bottom: 0.5em;
+  font-size: clamp(2.6rem, 3.8vw, 3.5rem);
+}
+
+.becoming-temple .becoming-receive-section .session-count {
+  margin-top: 0.8em !important;
+  font-size: clamp(2.35rem, 3.4vw, 3.15rem);
+}
+
+.becoming-temple .becoming-receive-section .session-count span {
+  margin-top: 0.55em;
+}
+
+.becoming-temple .becoming-receive-section .session-list {
+  gap: 2.5rem;
+  margin-top: 1.75rem;
+  padding: 1.15rem 0;
+}
+
+@media (max-width: 768px) {
+  .becoming-temple .becoming-hero {
+    min-height: clamp(760px, 200vw, 950px);
+    padding-top: 1.5rem;
+    padding-bottom: 3.25rem;
+  }
+
+  .becoming-temple .becoming-hero-statement {
+    font-size: 1.08rem;
+    line-height: 1.55;
+  }
+
+  .becoming-temple .becoming-origin-story {
+    padding: 4.75rem 0;
+  }
+
+  .becoming-temple .becoming-origin-story h2 {
+    font-size: 3.35rem;
+  }
+
+  .becoming-temple .becoming-origin-story p:not(.becoming-story-emphasis) {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .becoming-temple .becoming-origin-story .becoming-story-emphasis {
+    margin-top: 1.6rem;
+    font-size: 1.95rem;
+  }
+
+  .becoming-temple .becoming-presence {
+    padding-top: 3.75rem;
+    padding-bottom: 4rem;
+  }
+
+  .becoming-temple .becoming-presence .becoming-pentacle {
+    width: min(63vw, 255px);
+  }
+
+  .becoming-temple .becoming-opening-questions {
+    margin-top: 2.2rem;
+  }
+
+  .becoming-temple .becoming-opening-questions::before {
+    height: 2.2rem;
+  }
+
+  .becoming-temple .becoming-opening-questions p {
+    padding: 0.9rem 0.75rem;
+    font-size: 1.45rem;
+  }
+
+  .becoming-temple .becoming-threshold-callout {
+    padding: 4.75rem 0;
+  }
+
+  .becoming-temple .becoming-threshold-callout h2 {
+    margin-bottom: 0.65em;
+    font-size: 2.8rem;
+  }
+
+  .becoming-temple .becoming-threshold-callout p {
+    font-size: 1.08rem;
+    line-height: 1.65;
+  }
+
+  .becoming-temple .becoming-threshold-callout .becoming-possibility {
+    margin-top: 1.6rem;
+    font-size: 2.05rem;
+  }
+
+  .becoming-temple .becoming-work {
+    min-height: 0;
+    padding: 4rem 22px;
+  }
+
+  .becoming-temple .becoming-work h2 {
+    font-size: 2.9rem;
+  }
+
+  .becoming-temple .becoming-work p {
+    font-size: 1.05rem;
+    line-height: 1.66;
+  }
+
+  .becoming-temple .becoming-thresholds-section {
+    padding-top: 4.25rem;
+    padding-bottom: 0;
+  }
+
+  .becoming-temple .threshold-intro {
+    padding: 4.25rem 1.5rem 3.25rem;
+  }
+
+  .becoming-temple .becoming-included .thresholds {
+    padding-bottom: 4.5rem;
+  }
+
+  .becoming-temple .becoming-included .thresholds::before {
+    bottom: 4rem;
+  }
+
+  .becoming-temple .becoming-included .thresholds li,
+  .becoming-temple .becoming-included .thresholds li:nth-child(even),
+  .becoming-temple .becoming-included .thresholds li:nth-child(odd) {
+    min-height: 0;
+    margin-bottom: 1.1rem;
+    padding: 1.55rem 1.35rem;
+  }
+
+  .becoming-temple .becoming-included .thresholds li:nth-child(n+6) h3 {
+    gap: 0.2em;
+    font-size: 1.75rem;
+    white-space: normal;
+  }
+
+  .becoming-temple .walking-beside-you {
+    gap: 2.75rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+
+  .becoming-temple .becoming-receive-section {
+    padding: 4.5rem 0;
+  }
+
+  .becoming-temple .becoming-receive-section h2 {
+    font-size: 2.7rem;
+  }
+
+  .becoming-temple .becoming-receive-section .session-count {
+    font-size: 2.25rem;
+  }
+
+  .becoming-temple .becoming-receive-section .session-list {
+    gap: 0.6rem;
+    margin: 1.6rem auto 0;
+    padding: 1rem 0;
+  }
+}
+
+/* Sacred Becoming copy and hierarchy update */
+.becoming-temple .becoming-hero-highlights {
+  gap: 0.16em;
+  margin-bottom: 0;
+  font-size: clamp(1.75rem, 2.3vw, 2.1rem);
+  line-height: 1.12;
+}
+
+.becoming-temple .becoming-hero-highlights span:last-child {
+  margin-top: 0.2em;
+  color: #fff8ed;
+}
+
+.becoming-temple .becoming-origin-story .becoming-story-opening {
+  max-width: 850px;
+  margin: 0 auto;
+  color: #fff8ed;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.8rem, 2.8vw, 2.4rem);
+  line-height: 1.3;
+}
+
+.becoming-temple .becoming-origin-story h2 {
+  margin: 0.75em 0 0.25em;
+  color: #e6d7e4;
+  font-size: clamp(2.35rem, 3.5vw, 3.15rem);
+  line-height: 1.05;
+}
+
+.becoming-temple .becoming-origin-story .becoming-story-solitude {
+  margin: 0 auto;
+  color: #d9c9d8;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 1.12rem;
+  line-height: 1.55;
+}
+
+.becoming-temple .becoming-origin-story .becoming-story-emphasis {
+  margin-top: 1rem;
+  color: var(--temple-gold-pale);
+  font-size: clamp(2.5rem, 3.8vw, 3.3rem);
+  line-height: 1.08;
+}
+
+.becoming-temple .becoming-work {
+  padding-top: clamp(3.75rem, 4.8vw, 4.5rem);
+  padding-bottom: clamp(3.75rem, 4.8vw, 4.5rem);
+}
+
+.becoming-temple .becoming-work h2 {
+  margin-bottom: 0.28em;
+  font-size: clamp(2.9rem, 4vw, 3.7rem);
+}
+
+.becoming-temple .becoming-work .becoming-work-personalization {
+  margin: 0;
+  color: var(--temple-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.85rem, 2.7vw, 2.25rem);
+  line-height: 1.2;
+}
+
+.becoming-temple .becoming-work-pillars {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+  width: 100%;
+  margin: 2rem 0 1.75rem;
+}
+
+.becoming-temple .becoming-work-pillars article {
+  padding: 1.25rem 1rem 1.1rem;
+  background: rgba(70, 24, 80, 0.16);
+  border-top: 1px solid rgba(215, 178, 97, 0.58);
+}
+
+.becoming-temple .becoming-work-pillars h3 {
+  margin: 0 0 0.45em;
+  color: var(--temple-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.becoming-temple .becoming-work .becoming-work-pillars p {
+  margin: 0;
+  color: #d9cbd9;
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.becoming-temple .becoming-work .becoming-work-closing {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #f1e5ee;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.becoming-temple .becoming-receive-section .session-count {
+  max-width: 980px;
+  font-size: clamp(2.3rem, 3.1vw, 2.85rem);
+  line-height: 1.12;
+}
+
+.becoming-temple .becoming-receive-section .session-count span {
+  margin-top: 0.7em;
+  color: #654f62;
+  font-size: 1.12rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 900px) {
+  .becoming-temple .becoming-work-pillars {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .becoming-temple .becoming-hero-highlights {
+    gap: 0.12em;
+    font-size: 1.78rem;
+  }
+
+  .becoming-temple .becoming-origin-story {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+  }
+
+  .becoming-temple .becoming-origin-story .becoming-story-opening {
+    font-size: 1.62rem;
+    line-height: 1.38;
+  }
+
+  .becoming-temple .becoming-origin-story h2 {
+    margin-top: 0.7em;
+    font-size: 2.35rem;
+  }
+
+  .becoming-temple .becoming-origin-story .becoming-story-solitude {
+    font-size: 1.05rem;
+  }
+
+  .becoming-temple .becoming-origin-story .becoming-story-emphasis {
+    margin-top: 0.9rem;
+    font-size: 2.25rem;
+  }
+
+  .becoming-temple .becoming-work {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+
+  .becoming-temple .becoming-work h2 {
+    font-size: 2.7rem;
+  }
+
+  .becoming-temple .becoming-work .becoming-work-personalization {
+    font-size: 1.9rem;
+  }
+
+  .becoming-temple .becoming-work-pillars {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin: 1.75rem 0 1.5rem;
+  }
+
+  .becoming-temple .becoming-work-pillars article {
+    display: grid;
+    grid-template-columns: 6.25rem minmax(0, 1fr);
+    gap: 0.8rem;
+    align-items: start;
+    padding: 1.05rem 0;
+    background: transparent;
+  }
+
+  .becoming-temple .becoming-work-pillars h3 {
+    margin: 0;
+    font-size: 1.42rem;
+  }
+
+  .becoming-temple .becoming-work .becoming-work-pillars p {
+    font-size: 0.96rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .becoming-temple .becoming-work .becoming-work-closing {
+    font-size: 1.02rem;
+    line-height: 1.58;
+  }
+
+  .becoming-temple .becoming-receive-section .session-count {
+    font-size: 2.05rem;
+    line-height: 1.18;
+  }
+
+  .becoming-temple .becoming-receive-section .session-count span {
+    font-size: 1.08rem;
+  }
+}
+
+/* Sacred Becoming invitation hierarchy and final response */
+.becoming-temple .becoming-receive-section {
+  padding: clamp(3.5rem, 5vw, 4.75rem) 0;
+}
+
+.becoming-temple .becoming-receive-section h2 {
+  margin-bottom: 0.5em;
+  font-size: clamp(2.8rem, 4vw, 3.7rem);
+}
+
+.becoming-temple .becoming-receive-section .session-count {
+  font-size: clamp(2.05rem, 2.8vw, 2.55rem);
+}
+
+.becoming-temple .becoming-receive-section .session-count span {
+  margin-top: 0.55em;
+}
+
+.becoming-temple .becoming-receive-section .session-list {
+  margin-top: 1.25rem;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+
+.becoming-temple .becoming-threshold-callout {
+  padding-top: clamp(4.5rem, 6.5vw, 6.25rem);
+  padding-bottom: clamp(4.5rem, 6.5vw, 6.25rem);
+}
+
+.becoming-temple .becoming-threshold-callout h2 {
+  margin-bottom: 0.55em;
+}
+
+.becoming-temple .becoming-threshold-callout .threshold-feeling {
+  max-width: 820px;
+  margin-bottom: 0.75em;
+  color: #210c27;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.75rem, 2.5vw, 2.15rem);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.becoming-temple .becoming-threshold-callout .threshold-questions {
+  max-width: 800px;
+  margin-bottom: 0;
+  color: #2c1232;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.35rem, 1.9vw, 1.62rem);
+  font-weight: 500;
+  line-height: 1.52;
+}
+
+.becoming-temple .becoming-threshold-callout .becoming-possibility {
+  margin-top: 1.35rem;
+  color: #fffaf0;
+  text-shadow: 0 2px 18px rgba(57, 25, 57, 0.18);
+}
+
+.becoming-temple .becoming-exchange-section {
+  padding-top: clamp(3rem, 4vw, 4rem);
+  padding-bottom: clamp(2.25rem, 3vw, 3rem);
+}
+
+.becoming-temple .sacred-exchange {
+  padding-top: clamp(3.25rem, 4.5vw, 4.25rem);
+  padding-bottom: clamp(3.25rem, 4.5vw, 4.25rem);
+}
+
+.becoming-temple .sacred-exchange h2 {
+  margin: 0 0 1.5rem;
+  color: var(--temple-gold);
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  line-height: 1.5;
+}
+
+.becoming-temple .sacred-exchange .exchange-question {
+  max-width: 820px;
+  margin: 0 auto 0.65em;
+  color: #fff9ed;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.55rem, 4vw, 3.7rem);
+  font-weight: 400;
+  line-height: 1.08;
+}
+
+.becoming-temple .sacred-exchange .exchange-details {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #eadce7;
+  font-size: clamp(1.08rem, 1.45vw, 1.22rem);
+  line-height: 1.58;
+}
+
+.becoming-temple .sacred-exchange .exchange-price {
+  margin: 1.15rem 0 0;
+  font-size: clamp(2.35rem, 3.2vw, 2.95rem);
+}
+
+.becoming-temple .exchange-cta {
+  display: inline-block;
+  margin-top: 1.35rem;
+  padding: 0.95rem 2.75rem;
+  color: var(--temple-plum-deep);
+  background: linear-gradient(135deg, var(--temple-gold-pale), var(--temple-gold));
+  border: 1px solid rgba(255, 245, 213, 0.72);
+  box-shadow: 0 14px 34px rgba(10, 3, 14, 0.24), 0 0 26px rgba(215, 178, 97, 0.16);
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  line-height: 1.4;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.becoming-temple .exchange-cta:hover,
+.becoming-temple .exchange-cta:focus-visible {
+  color: #fff9ed;
+  background: var(--temple-plum);
+  border-color: var(--temple-gold-pale);
+  outline: 2px solid var(--temple-gold-pale);
+  outline-offset: 4px;
+}
+
+.becoming-temple .becoming-faq-section {
+  position: relative;
+  padding: clamp(4.25rem, 6vw, 6rem) 0 clamp(4.75rem, 7vw, 6.75rem);
+  color: var(--temple-ivory);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(122, 45, 132, 0.28), transparent 38%),
+    linear-gradient(180deg, #35103f, #250c31);
+}
+
+.becoming-temple .becoming-faq-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: min(72vw, 760px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(215, 178, 97, 0.72), transparent);
+  transform: translateX(-50%);
+}
+
+.becoming-temple .becoming-faq {
+  width: 80%;
+  max-width: 960px;
+  padding: 0;
+}
+
+.becoming-temple .becoming-faq h2 {
+  margin: 0 0 1.35em;
+  color: var(--temple-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.8rem, 4.5vw, 4rem);
+  font-weight: 400;
+  line-height: 1.05;
+  text-align: center;
+}
+
+.becoming-temple .becoming-faq-list {
+  border-top: 1px solid rgba(215, 178, 97, 0.42);
+}
+
+.becoming-temple .becoming-faq-list details {
+  border-bottom: 1px solid rgba(215, 178, 97, 0.34);
+}
+
+.becoming-temple .becoming-faq-list summary {
+  position: relative;
+  padding: 1.45rem 3.25rem 1.45rem 0;
+  color: #fff8ed;
+  cursor: pointer;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.35rem, 2vw, 1.65rem);
+  font-weight: 500;
+  line-height: 1.3;
+  list-style: none;
+}
+
+.becoming-temple .becoming-faq-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.becoming-temple .becoming-faq-list summary::after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 0.25rem;
+  color: var(--temple-gold);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.85rem;
+  font-weight: 300;
+  line-height: 1;
+  transform: translateY(-50%);
+  transition: transform 180ms ease;
+}
+
+.becoming-temple .becoming-faq-list details[open] summary::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.becoming-temple .becoming-faq-list summary:hover,
+.becoming-temple .becoming-faq-list summary:focus-visible {
+  color: var(--temple-gold-pale);
+}
+
+.becoming-temple .becoming-faq-list summary:focus-visible {
+  outline: 2px solid var(--temple-gold);
+  outline-offset: 4px;
+}
+
+.becoming-temple .becoming-faq-answer {
+  max-width: 860px;
+  padding: 0 3.25rem 1.6rem 0;
+}
+
+.becoming-temple .becoming-faq-answer p {
+  margin: 0 0 1em;
+  color: #e8dce8;
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.becoming-temple .becoming-faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.becoming-temple .becoming-testimonial-section {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(4rem, 6vw, 5.5rem) 0;
+  color: var(--temple-ivory);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(102, 36, 111, 0.3), transparent 42%),
+    linear-gradient(180deg, #260d33, #170a20);
+  text-align: center;
+}
+
+.becoming-temple .becoming-testimonial-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: min(58vw, 620px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(215, 178, 97, 0.78), transparent);
+  transform: translateX(-50%);
+}
+
+.becoming-temple .becoming-testimonial {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+.becoming-temple .becoming-testimonial p {
+  margin: 0;
+  color: #fff8ed;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2rem, 3.25vw, 2.8rem);
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.becoming-temple .becoming-testimonial cite {
+  display: block;
+  margin-top: 2rem;
+  color: var(--temple-gold-pale);
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.72rem;
+  font-style: normal;
+  letter-spacing: 0.18em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.becoming-temple .becoming-testimonial cite strong {
+  color: inherit;
+  font-weight: 400;
+}
+
+.becoming-temple .becoming-final-cta {
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .becoming-temple .becoming-receive-section {
+    padding: 3.25rem 0;
+  }
+
+  .becoming-temple .becoming-receive-section h2 {
+    font-size: 2.4rem;
+  }
+
+  .becoming-temple .becoming-receive-section .session-count {
+    font-size: 1.8rem;
+  }
+
+  .becoming-temple .becoming-receive-section .session-count span {
+    font-size: 1.02rem;
+  }
+
+  .becoming-temple .becoming-receive-section .session-list {
+    margin-top: 1.15rem;
+  }
+
+  .becoming-temple .becoming-threshold-callout {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+  }
+
+  .becoming-temple .becoming-threshold-callout .threshold-feeling {
+    font-size: 1.62rem;
+    line-height: 1.38;
+  }
+
+  .becoming-temple .becoming-threshold-callout .threshold-questions {
+    font-size: 1.28rem;
+    line-height: 1.52;
+  }
+
+  .becoming-temple .becoming-threshold-callout .becoming-possibility {
+    margin-top: 1.25rem;
+  }
+
+  .becoming-temple .becoming-exchange-section {
+    padding: 1.5rem 14px 1.25rem;
+  }
+
+  .becoming-temple .sacred-exchange {
+    padding: 2.7rem 1.15rem 2.6rem;
+  }
+
+  .becoming-temple .sacred-exchange h2 {
+    margin-bottom: 1.2rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.24em;
+  }
+
+  .becoming-temple .sacred-exchange .exchange-question {
+    font-size: 2.05rem;
+    line-height: 1.1;
+  }
+
+  .becoming-temple .sacred-exchange .exchange-details {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .becoming-temple .sacred-exchange .exchange-price {
+    margin-top: 1rem;
+    font-size: 2.3rem;
+  }
+
+  .becoming-temple .exchange-cta {
+    margin-top: 1.2rem;
+    padding: 0.9rem 2.25rem;
+  }
+
+  .becoming-temple .becoming-faq-section {
+    padding: 3.75rem 18px 4.25rem;
+  }
+
+  .becoming-temple .becoming-faq {
+    width: auto;
+    max-width: none;
+    padding: 0;
+  }
+
+  .becoming-temple .becoming-faq h2 {
+    margin-bottom: 1.05em;
+    font-size: 2.35rem;
+  }
+
+  .becoming-temple .becoming-faq-list summary {
+    padding: 1.25rem 2.75rem 1.25rem 0;
+    font-size: 1.23rem;
+    line-height: 1.34;
+  }
+
+  .becoming-temple .becoming-faq-list summary::after {
+    right: 0.15rem;
+    font-size: 1.7rem;
+  }
+
+  .becoming-temple .becoming-faq-answer {
+    padding: 0 0 1.4rem;
+  }
+
+  .becoming-temple .becoming-faq-answer p {
+    font-size: 0.98rem;
+    line-height: 1.68;
+  }
+
+  .becoming-temple .becoming-testimonial-section {
+    padding: 3.75rem 0 4rem;
+  }
+
+  .becoming-temple .becoming-testimonial {
+    width: auto;
+    max-width: none;
+    padding: 0 22px;
+  }
+
+  .becoming-temple .becoming-testimonial p {
+    font-size: 1.68rem;
+    line-height: 1.42;
+  }
+
+  .becoming-temple .becoming-testimonial cite {
+    margin-top: 1.6rem;
+    font-size: 0.65rem;
+  }
+
+  .becoming-temple .becoming-final-cta {
+    margin-top: 2.15rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .becoming-temple .becoming-testimonial {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+}
+
+/* Readings with Vanessa: private live-reading sales page */
+.reading-sales-page {
+  --reading-midnight: #06161b;
+  --reading-midnight-soft: #0a2227;
+  --reading-teal: #0d3b3e;
+  --reading-teal-light: #16565a;
+  --reading-gold: #c6a15b;
+  --reading-gold-pale: #ead9a6;
+  --reading-ivory: #fbf5ea;
+  overflow: hidden;
+  color: var(--reading-ivory);
+  background: var(--reading-midnight);
+}
+
+.reading-sales-page h1,
+.reading-sales-page h2,
+.reading-sales-page p {
+  position: relative;
+}
+
+.reading-sales-hero {
+  display: grid;
+  grid-template-columns: minmax(360px, 0.92fr) minmax(460px, 1.08fr);
+  height: clamp(620px, 48vw, 700px);
+  min-height: 0;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(30, 102, 104, 0.28), transparent 34%),
+    linear-gradient(135deg, var(--reading-midnight-soft), var(--reading-midnight));
+  border-bottom: 1px solid rgba(198, 161, 91, 0.5);
+}
+
+.reading-sales-hero-image {
+  position: relative;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #0a2a2e;
+}
+
+.reading-sales-hero-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, transparent 64%, rgba(6, 22, 27, 0.72) 100%),
+    linear-gradient(180deg, transparent 70%, rgba(6, 22, 27, 0.34));
+  pointer-events: none;
+}
+
+.reading-sales-hero-image img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: 50% 27%;
+  filter: saturate(0.9) contrast(1.04);
+}
+
+.reading-sales-hero-copy {
+  align-self: center;
+  max-width: 720px;
+  padding: clamp(4rem, 6vw, 6.5rem) clamp(3.25rem, 7vw, 8.5rem) clamp(4rem, 6vw, 6.5rem) clamp(3.25rem, 5.5vw, 6.5rem);
+}
+
+.reading-sales-kicker {
+  margin: 0 0 1.5rem;
+  color: var(--reading-gold);
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.25em;
+  line-height: 1.5;
+}
+
+.reading-sales-hero h1 {
+  max-width: 680px;
+  margin: 0 0 0.42em;
+  color: var(--reading-ivory);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(3.5rem, 5.2vw, 5rem);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  text-align: left;
+}
+
+.reading-sales-hero-copy > p:not(.reading-sales-kicker):not(.reading-sales-invitation):not(.reading-sales-format) {
+  max-width: 610px;
+  margin: 0 0 1.15em;
+  color: #e3dcda;
+  font-size: clamp(1.02rem, 1.25vw, 1.12rem);
+  line-height: 1.72;
+}
+
+.reading-sales-invitation {
+  max-width: 610px;
+  margin: 1.3rem 0 1.7rem;
+  color: var(--reading-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.45rem, 2.1vw, 1.8rem);
+  font-weight: 500;
+  line-height: 1.36;
+}
+
+.reading-sales-format {
+  max-width: 610px;
+  margin: 0 0 1.6rem;
+  padding: 0.9rem 0;
+  color: #f7f0e5;
+  border-top: 1px solid rgba(198, 161, 91, 0.44);
+  border-bottom: 1px solid rgba(198, 161, 91, 0.44);
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.reading-sales-button {
+  display: inline-flex;
+  min-width: 225px;
+  min-height: 54px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.8rem;
+  color: #09252a;
+  background: linear-gradient(135deg, var(--reading-gold-pale), var(--reading-gold));
+  border: 1px solid rgba(255, 244, 210, 0.72);
+  box-shadow: 0 14px 34px rgba(1, 10, 13, 0.3), 0 0 24px rgba(198, 161, 91, 0.12);
+  font-family: 'Aboreto', Georgia, serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.reading-sales-button:hover,
+.reading-sales-button:focus-visible {
+  color: var(--reading-ivory);
+  background: var(--reading-teal);
+  border-color: var(--reading-gold-pale);
+  outline: 2px solid var(--reading-gold-pale);
+  outline-offset: 4px;
+  text-decoration: none;
+}
+
+.reading-sales-live {
+  position: relative;
+  padding: clamp(4.25rem, 6vw, 5.75rem) 0;
+  background:
+    radial-gradient(circle at 18% 50%, rgba(31, 105, 107, 0.32), transparent 34%),
+    linear-gradient(135deg, #0a3034, #0b252b);
+}
+
+.reading-sales-live::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: min(66vw, 760px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(198, 161, 91, 0.76), transparent);
+  transform: translateX(-50%);
+}
+
+.reading-sales-live-inner {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
+  gap: clamp(3rem, 7vw, 7rem);
+  align-items: center;
+  width: 80%;
+  max-width: 1080px;
+  padding: 0;
+}
+
+.reading-sales-live h2,
+.reading-sales-how h2 {
+  margin: 0;
+  color: var(--reading-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.8rem, 4.5vw, 4rem);
+  font-weight: 400;
+  line-height: 1.02;
+}
+
+.reading-sales-live-copy {
+  padding-left: clamp(1.5rem, 3vw, 3rem);
+  border-left: 1px solid rgba(198, 161, 91, 0.5);
+}
+
+.reading-sales-live-copy p {
+  margin: 0 0 0.8em;
+  color: #f3ece3;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.45rem, 2.2vw, 1.8rem);
+  line-height: 1.45;
+}
+
+.reading-sales-live-copy p:last-child {
+  margin-bottom: 0;
+  color: #d8cfd0;
+  font-size: clamp(1.22rem, 1.8vw, 1.45rem);
+}
+
+.reading-sales-how {
+  padding: clamp(5rem, 8vw, 7.5rem) 0;
+  background:
+    radial-gradient(circle at 78% 22%, rgba(22, 86, 90, 0.28), transparent 34%),
+    linear-gradient(160deg, #07191e, #0a282d 58%, #07171c);
+}
+
+.reading-sales-how-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(330px, 0.76fr);
+  gap: clamp(3.5rem, 8vw, 8rem);
+  align-items: center;
+  width: 80%;
+  max-width: 1120px;
+  padding: 0;
+}
+
+.reading-sales-how-copy h2 {
+  margin-bottom: 0.6em;
+}
+
+.reading-sales-how-copy > p {
+  max-width: 670px;
+  margin: 0 0 1em;
+  color: #d8d2d0;
+  font-size: clamp(1.02rem, 1.35vw, 1.12rem);
+  line-height: 1.72;
+}
+
+.reading-sales-how-copy .reading-sales-how-lede {
+  margin-bottom: 0.65em;
+  color: var(--reading-ivory);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.9rem, 3vw, 2.55rem);
+  line-height: 1.2;
+}
+
+.reading-sales-how-copy .reading-sales-agency {
+  margin: 1.25rem 0 0;
+  color: var(--reading-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.05rem, 3.2vw, 2.7rem);
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+.reading-sales-how-image {
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+  aspect-ratio: 4 / 5;
+  background: var(--reading-teal);
+}
+
+.reading-sales-how-image::before {
+  content: '';
+  position: absolute;
+  inset: -0.75rem 0.75rem 0.75rem -0.75rem;
+  z-index: -1;
+  border: 1px solid rgba(198, 161, 91, 0.68);
+}
+
+.reading-sales-how-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: 50% 27%;
+  filter: saturate(0.92) contrast(1.03);
+}
+
+.reading-sales-booking {
+  position: relative;
+  padding: clamp(4rem, 6vw, 5.5rem) 0;
+  border-top: 1px solid rgba(198, 161, 91, 0.48);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(34, 116, 116, 0.34), transparent 44%),
+    linear-gradient(180deg, #0c363a, #071c21);
+  text-align: center;
+}
+
+.reading-sales-booking-inner {
+  width: 80%;
+  max-width: 760px;
+  padding: 0;
+}
+
+.reading-sales-booking-format {
+  max-width: 680px;
+  margin: 0 auto;
+  color: var(--reading-ivory);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.75rem, 3vw, 2.45rem);
+  line-height: 1.25;
+}
+
+.reading-sales-booking-price {
+  margin: 1rem 0 1.45rem;
+  color: var(--reading-gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.65rem, 4vw, 3.45rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+@media (max-width: 900px) {
+  .reading-sales-hero {
+    grid-template-columns: minmax(300px, 0.86fr) minmax(390px, 1.14fr);
+  }
+
+  .reading-sales-hero-copy {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  .reading-sales-live-inner,
+  .reading-sales-how-inner {
+    width: auto;
+    max-width: none;
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reading-sales-hero {
+    display: block;
+    height: auto;
+    min-height: 0;
+  }
+
+  .reading-sales-hero-image {
+    min-height: 0;
+    height: min(120vw, 470px);
+  }
+
+  .reading-sales-hero-image::after {
+    background: linear-gradient(180deg, transparent 70%, rgba(6, 22, 27, 0.62));
+  }
+
+  .reading-sales-hero-image img {
+    object-position: 50% 20%;
+  }
+
+  .reading-sales-hero-copy {
+    max-width: none;
+    padding: 3.75rem 22px 4.25rem;
+    text-align: center;
+  }
+
+  .reading-sales-kicker {
+    margin-bottom: 1.25rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.2em;
+  }
+
+  .reading-sales-hero h1 {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(3.25rem, 14vw, 4.25rem);
+    text-align: center;
+  }
+
+  .reading-sales-hero-copy > p:not(.reading-sales-kicker):not(.reading-sales-invitation):not(.reading-sales-format),
+  .reading-sales-invitation,
+  .reading-sales-format {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .reading-sales-invitation {
+    font-size: 1.48rem;
+  }
+
+  .reading-sales-format {
+    font-size: 0.98rem;
+  }
+
+  .reading-sales-live {
+    padding: 4rem 0;
+  }
+
+  .reading-sales-live-inner {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    padding-right: 22px;
+    padding-left: 22px;
+    text-align: center;
+  }
+
+  .reading-sales-live h2,
+  .reading-sales-how h2 {
+    font-size: 2.9rem;
+  }
+
+  .reading-sales-live-copy {
+    padding: 1.5rem 0 0;
+    border-top: 1px solid rgba(198, 161, 91, 0.5);
+    border-left: 0;
+  }
+
+  .reading-sales-live-copy p {
+    font-size: 1.42rem;
+  }
+
+  .reading-sales-live-copy p:last-child {
+    font-size: 1.22rem;
+  }
+
+  .reading-sales-how {
+    padding: 4.5rem 0 5rem;
+  }
+
+  .reading-sales-how-inner {
+    grid-template-columns: 1fr;
+    gap: 3.25rem;
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  .reading-sales-how-copy {
+    text-align: center;
+  }
+
+  .reading-sales-how-copy > p {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .reading-sales-how-copy .reading-sales-how-lede {
+    font-size: 2rem;
+  }
+
+  .reading-sales-how-copy .reading-sales-agency {
+    font-size: 2.25rem;
+  }
+
+  .reading-sales-how-image {
+    width: min(100%, 410px);
+    margin: 0 auto;
+  }
+
+  .reading-sales-booking {
+    padding: 4rem 0 4.5rem;
+  }
+
+  .reading-sales-booking-inner {
+    width: auto;
+    max-width: none;
+    padding: 0 22px;
+  }
+
+  .reading-sales-booking-format {
+    font-size: 1.8rem;
+  }
+
+  .reading-sales-booking-price {
+    font-size: 2.85rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .reading-sales-hero-copy,
+  .reading-sales-live-inner,
+  .reading-sales-how-inner,
+  .reading-sales-booking-inner {
+    padding-right: 18px;
+    padding-left: 18px;
   }
 }

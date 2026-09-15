@@ -4,65 +4,70 @@ import Base from '../layouts/Base.astro';
 
 <Base
   title="Readings with Vanessa | Tarot Flower"
-  description="Personal tarot readings with Vanessa for clarity, reflection, and guidance."
+  description="Book a live, private, one-on-one online tarot reading with Vanessa. 60 minutes, $100 USD."
   image="/images/readings-with-vanessa/vanessa-shuffling-teal-tarot-cards.png"
+  showBanner={false}
 >
-  <main class="readings-with-vanessa">
-    <header class="readings-hero container">
-      <h1>Readings with Vanessa</h1>
-      <p>Personal tarot readings for clarity, reflection, and guidance.</p>
-    </header>
+  <main class="reading-sales-page">
+    <section class="reading-sales-hero" aria-labelledby="reading-sales-title">
+      <div class="reading-sales-hero-image">
+        <img
+          src="/images/readings-with-vanessa/vanessa-shuffling-teal-tarot-cards.png"
+          alt="Vanessa smiling while shuffling teal tarot cards"
+          width="947"
+          height="1661"
+          fetchpriority="high"
+        />
+      </div>
 
-    <div class="readings-sections container">
-      <section class="readings-section">
-        <div class="readings-image readings-image--portrait">
-          <img
-            src="/images/readings-with-vanessa/vanessa-shuffling-teal-tarot-cards.png"
-            alt="Vanessa smiling while shuffling teal tarot cards"
-          />
-        </div>
-        <div class="readings-copy">
-          <h2>A Reading with Vanessa</h2>
-          <p>A tarot reading is a space to pause, look more deeply, and listen to what is asking for your attention.</p>
-          <p>You may arrive with a specific question, a decision you are navigating, or simply the feeling that something in your life is shifting.</p>
-          <p>Together, we'll explore the cards, the patterns unfolding around you, and the possibilities available to you now.</p>
-        </div>
-      </section>
+      <div class="reading-sales-hero-copy">
+        <p class="reading-sales-kicker">READINGS WITH VANESSA</p>
+        <h1 id="reading-sales-title">What do you want to know?</h1>
+        <p>Bring me the question you can't stop thinking about. The decision you keep circling. The relationship you can't quite understand. Or come with no question at all.</p>
+        <p class="reading-sales-invitation">You bring your life. I'll bring the cards. Let's see what they have to say.</p>
+        <p class="reading-sales-format">60-minute private live online tarot reading · $100 USD</p>
+        <a class="reading-sales-button" href="/checkout/readings-with-vanessa/">BOOK YOUR READING</a>
+      </div>
+    </section>
 
-      <section class="readings-section">
-        <div class="readings-copy">
-          <h2>How I Read</h2>
-          <p>I don't use tarot to tell you what your future must be.</p>
-          <p>I use the cards as a language of symbols, intuition, reflection, and possibility.</p>
-          <p>A reading with me is an open conversation. I'll share what I see, ask questions, and help you connect the messages in the cards to your own life, instincts, and experience.</p>
-          <p>The purpose is not to give your authority away. It is to help you hear yourself more clearly.</p>
+    <section class="reading-sales-live">
+      <div class="reading-sales-live-inner container">
+        <h2>LIVE WITH VANESSA</h2>
+        <div class="reading-sales-live-copy">
+          <p>We’ll meet by video, talk about what’s on your mind, and I’ll pull the cards for you in real time.</p>
+          <p>We’ll explore what comes up together and follow the reading wherever it leads.</p>
         </div>
-        <div class="readings-image readings-image--portrait">
+      </div>
+    </section>
+
+    <section class="reading-sales-how">
+      <div class="reading-sales-how-inner container">
+        <div class="reading-sales-how-copy">
+          <h2>HOW I READ</h2>
+          <p class="reading-sales-how-lede">I don't use tarot to predict the future.</p>
+          <p>I read the energetic landscape around you right now—what's opening, what's supporting you, what's standing in your way, and what possibilities are available to you.</p>
+          <p>The cards help us see what's moving beneath the surface so you can make informed choices about what comes next.</p>
+          <p class="reading-sales-agency">Your future is still yours.</p>
+        </div>
+
+        <div class="reading-sales-how-image">
           <img
             src="/images/readings-with-vanessa/vanessa-holding-empress-card.png"
             alt="Vanessa smiling while holding the Empress tarot card"
+            width="947"
+            height="1661"
             loading="lazy"
           />
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="readings-section">
-        <div class="readings-image readings-image--landscape">
-          <img
-            src="/images/readings-with-vanessa/tarot-cards-candlelight-smoke.png"
-            alt="Hands shuffling tarot cards beside candlelight, crystals, and rising smoke"
-            loading="lazy"
-          />
-        </div>
-        <div class="readings-copy readings-booking">
-          <h2>Book a Reading</h2>
-          <p>Bring a question, a crossroads, a relationship, a creative idea, or anything else you would like to explore.</p>
-          <p>You don't need to know anything about tarot, and you don't need to arrive with the perfect question. We'll begin wherever you are.</p>
-          <p class="readings-format">60-minute online reading</p>
-          <p class="readings-price">$100 USD</p>
-          <a class="readings-button" href="/checkout/readings-with-vanessa/">Book a Reading</a>
-        </div>
-      </section>
-    </div>
+    <section class="reading-sales-booking" aria-label="Book a private tarot reading with Vanessa">
+      <div class="reading-sales-booking-inner container">
+        <p class="reading-sales-booking-format">60-minute private live online tarot reading</p>
+        <p class="reading-sales-booking-price">$100 USD</p>
+        <a class="reading-sales-button" href="/checkout/readings-with-vanessa/">BOOK YOUR READING</a>
+      </div>
+    </section>
   </main>
 </Base>

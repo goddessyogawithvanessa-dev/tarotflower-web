@@ -70,6 +70,7 @@ before(async () => {
      WHERE id = 'ritual-step-into-the-fire-test'`,
   ).run();
   await executeSql(await readFile(join(root, 'worker', 'migrations', '0002_step_into_your_fire_access.sql'), 'utf8'));
+  await executeSql(await readFile(join(root, 'worker', 'migrations', '0003_canonical_fire_product_identity.sql'), 'utf8'));
   await bucket.put('test/step-into-the-fire/ritual-guide.pdf', new TextEncoder().encode('%PDF-local-test'));
   await bucket.put('test/step-into-the-fire/original-music.mp3', new Uint8Array(256).fill(7));
   await bucket.put('test/step-into-the-fire/movement-practice.mp4', new Uint8Array(1024).map((_, index) => index % 251));
@@ -219,6 +220,10 @@ test('lists owned products and protects PDF, MP3, video, downloads, and ranges',
   assert.equal(body.products.length, 1);
   assert.equal(body.products[0].slug, 'step-into-your-fire');
   assert.equal(body.products[0].title, 'Step Into Your Fire');
+  assert.equal(
+    body.products[0].imagePath,
+    '/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png',
+  );
   assert.equal(body.products[0].experiencePath, '/library/rituals/step-into-your-fire/');
   assert.equal(body.products[0].assets.length, 7);
   assert.equal(JSON.stringify(body).includes('test/step-into-the-fire'), false);

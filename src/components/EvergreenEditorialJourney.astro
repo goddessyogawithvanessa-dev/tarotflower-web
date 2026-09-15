@@ -1,6 +1,8 @@
 ---
 import EmailOptIn from './EmailOptIn.astro';
+import FireEditorialCTA from './FireEditorialCTA.astro';
 import type { RitualKey } from '../data/evergreenJourneys';
+import { ritualExperiences } from '../data/ritualExperiences';
 
 interface Props {
   ritual: RitualKey;
@@ -13,12 +15,12 @@ const { ritual, mentorship = false, showFeatured = true } = Astro.props;
 const rituals = {
   fire: {
     title: 'Step Into Your Fire',
-    subtitle: 'A Ritual for courage and confidence',
-    description: 'This ritual is a sacred ignition—a call to burn through self-doubt and reclaim your fierce inner truth. Through breath, movement, and intention, you’ll awaken the flame within and summon the energy to take bold action in your life.',
-    href: '/step-into-your-fire',
-    buttonText: 'Ignite',
-    image: '/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg',
-    imageAlt: 'Fire goddess beneath a golden moon, surrounded by flames and flowers',
+    subtitle: 'One-hour guided video ritual · Permanent access',
+    description: 'Girl, you have the power. Download a little magic and make it yours.',
+    href: ritualExperiences.fire.href,
+    buttonText: 'Explore the Ritual',
+    image: ritualExperiences.fire.image,
+    imageAlt: ritualExperiences.fire.imageAlt,
   },
   flow: {
     title: 'Flow Like the Goddess',
@@ -52,7 +54,11 @@ const rituals = {
 const featured = rituals[ritual];
 ---
 
-{showFeatured && (
+{showFeatured && ritual === 'fire' && (
+  <FireEditorialCTA headingId="evergreen-featured-title" />
+)}
+
+{showFeatured && ritual !== 'fire' && (
   <section class="card-featured-experience" aria-labelledby="evergreen-featured-title">
     <img
       src={featured.image}

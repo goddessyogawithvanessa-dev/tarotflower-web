@@ -1,26 +1,28 @@
 ---
 import Base from '../layouts/Base.astro';
+import { ritualExperiences } from '../data/ritualExperiences';
 
-const productURL = 'https://buy.stripe.com/fZu5kDcBq2SDaoTftZcbC01';
+const fireRitual = ritualExperiences.fire;
+const productURL = fireRitual.purchaseHref!;
 const imageBase = '/images/digital-rituals/step-into-the-fire';
 ---
 <Base
-  title="Step Into Your Fire | Tarot Flower"
+  title={`${fireRitual.title} | Tarot Flower`}
   description="A guided fire ritual with candle ceremony, journaling, embodied movement, original music, sound bath meditation, and permanent access."
-  image={`${imageBase}/goddess-kali-warrior-hero-wide.png`}
+  image={fireRitual.image}
   showBanner={false}
 >
   <main class="digital-ritual-page digital-ritual-page--fire">
     <header class="fire-hero">
-      <img src={`${imageBase}/goddess-kali-warrior-hero-wide.png`} width="1672" height="941" alt="Full-body Warrior Goddess Kali standing powerfully among flowers and flames" />
+      <img src={fireRitual.image} width={fireRitual.width} height={fireRitual.height} alt={fireRitual.imageAlt} />
     </header>
 
     <section class="fire-product-title">
       <div class="digital-ritual-row">
-        <p class="fire-product-identifier">STEP INTO YOUR FIRE</p>
+        <p class="fire-product-identifier">{fireRitual.title.toUpperCase()}</p>
         <h1>Become the Warrior Goddess</h1>
         <p class="fire-product-subtitle">A ritual for courage &amp; confidence</p>
-        <div class="fire-offer-icons" aria-label="Included with Step Into Your Fire">
+        <div class="fire-offer-icons" aria-label={`Included with ${fireRitual.title}`}>
           <figure>
             <img src={`${imageBase}/ritual-icon.png`} width="500" height="555" alt="Ornate gold clapperboard and flame icon" />
             <figcaption>RITUAL</figcaption>
@@ -112,7 +114,7 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
       <div class="digital-ritual-row fire-prose fire-guided-ritual">
         <p class="fire-guardian-answer">You can.</p>
         <h2>I will guide you through this sacred reignition of your power every step of the way.</h2>
-        <p class="fire-guided-ritual-intro">In this <strong>one-hour guided ritual</strong> we will:</p>
+        <p class="fire-guided-ritual-intro">In this <strong>one-hour guided video ritual</strong> we will:</p>
         <ol class="fire-ritual-stages">
           <li><span>Open the channel to your sacred becoming</span></li>
           <li><span>Transmute your darkness into light through ancient ritual practices</span></li>
@@ -129,7 +131,8 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
         <div class="fire-prose fire-closing-copy">
           <h2>Leave the Ashes Behind.<br />Rise Up and Shine.</h2>
           <p class="fire-closing-magic">Let’s make some magic together.</p>
-          <p class="fire-price"><strong>$33 USD</strong><br />One-time purchase · Permanent access</p>
+          <p class="fire-format-clarification">One-hour guided video ritual · Yours to experience anytime</p>
+          <p class="fire-price"><strong>{fireRitual.priceLabel}</strong><br />One-time purchase · Permanent access</p>
           <a class="digital-ritual-button" href={productURL}>Begin the Ritual</a>
         </div>
         <figure class="fire-closing-art">

@@ -1,6 +1,20 @@
 ---
 import Base from '../layouts/Base.astro';
 
+interface Props {
+  pageHeading?: string;
+  pageTitle?: string;
+  introVariant?: 'standard' | 'understanding';
+}
+
+const {
+  pageHeading = 'Tarot Card Meanings',
+  pageTitle = 'Tarot Card Meanings – A Guide to the Major & Minor Arcana',
+  introVariant = 'standard',
+} = Astro.props;
+
+const isUnderstandingPage = introVariant === 'understanding';
+
 const majorArcana = [
   { name: 'The Fool', slug: 'the-fool-tarot', image: '/images/2023/05/AI-Square.jpg' },
   { name: 'The Magician', slug: 'the-magician-tarot', image: '/images/2021/01/magician-2-1.jpg' },
@@ -59,19 +73,60 @@ const suits = [
 ---
 
 <Base
-  title="Tarot Card Meanings – A Guide to the Major & Minor Arcana"
+  title={pageTitle}
   description="Explore all 78 tarot card meanings with Tarot Flower. Learn the wisdom of the Major and Minor Arcana and deepen your spiritual tarot practice."
 >
-  <main class="container tarot-meanings-page">
-    <h1>Tarot Card Meanings</h1>
+  <main class:list={['container', 'tarot-meanings-page', { 'understanding-tarot-page': isUnderstandingPage }]}>
+    <h1>{pageHeading}</h1>
 
-    <section class="tarot-meanings-intro">
-      <p>Seventy-eight cards. A whole universe of archetypes, stories, symbols, and possibility. The Tarot is divided into two great families: the <a href="/major-arcana-2">22 cards of the Major Arcana</a> and the <a href="/minor-arcana">56 cards of the Minor Arcana</a>. The Major Arcana holds the great archetypes of the human journey—the Fool stepping into the unknown, the Lovers choosing, Death transforming, the Tower falling, the World becoming whole.</p>
+    {isUnderstandingPage ? (
+      <section class="tarot-meanings-intro understanding-tarot-intro">
+        <div class="understanding-opening">
+          <p class="understanding-lede">Seventy-eight cards. A whole universe of archetypes, stories, symbols, and possibility.</p>
 
-      <p>The Minor Arcana brings the story down into the texture of everyday life. Its four suits move through the elements: <a href="/cups-tarot">Cups</a> · Water · Emotion, <a href="/pentacles-tarot">Pentacles</a> · Earth · The material world, <a href="/swords-tarot">Swords</a> · Air · Mind and thought, and <a href="/wands-tarot">Wands</a> · Fire · Creativity and action. Each suit travels from Ace through Ten and into the Court Cards—Page, Knight, Queen, and King—creating its own unfolding story.</p>
+          <p>The Tarot isn't simply a collection of 78 separate meanings to memorize. It's a system. The cards speak to one another through archetype, number, element, symbol, and story—and once you begin to understand that structure, the deck becomes much easier to read.</p>
 
-      <p>Together, the 78 cards become a language for exploring what is moving through your life, what you may not yet see, and what might be asking for your attention. <span class="tarot-meanings-invitation">Pick a card. Follow your curiosity. See what it has to show you.</span></p>
-    </section>
+          <p>The Tarot is divided into two great families: the <a href="/major-arcana-2">22 cards of the Major Arcana</a> and the <a href="/minor-arcana">56 cards of the Minor Arcana</a>.</p>
+        </div>
+
+        <div class="understanding-families">
+          <article class="understanding-family">
+            <h2>THE MAJOR ARCANA: THE GREAT JOURNEY</h2>
+            <p>The Major Arcana holds the great archetypes and thresholds of human experience—the Fool stepping into the unknown, the Lovers choosing, Death transforming, the Tower falling, the World becoming whole.</p>
+            <p>Read in sequence, the 22 cards tell a story often called the Fool's Journey: an unfolding path through beginnings, discovery, choice, challenge, transformation, wisdom, and completion.</p>
+          </article>
+
+          <article class="understanding-family">
+            <h2>THE MINOR ARCANA: LIFE AS WE LIVE IT</h2>
+            <p>The Minor Arcana brings that great journey down into everyday life. Its four suits move through the elements:</p>
+            <ul class="understanding-elements">
+              <li><a href="/cups-tarot">Cups</a> · Water — emotion, love, intuition, connection</li>
+              <li><a href="/pentacles-tarot">Pentacles</a> · Earth — body, abundance, security, the material world</li>
+              <li><a href="/swords-tarot">Swords</a> · Air — mind, thought, communication, decisions</li>
+              <li><a href="/wands-tarot">Wands</a> · Fire — creativity, passion, inspiration, action</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="understanding-pattern">
+          <h2>THERE'S A PATTERN INSIDE EVERY SUIT.</h2>
+          <p>Each suit moves from Ace through Ten, then into the Page, Knight, Queen, and King. So instead of memorizing 56 unrelated Minor Arcana cards, you can begin to recognize the underlying language: the number tells you something about where you are in the story; the suit tells you what realm of life that story is moving through.</p>
+        </div>
+
+        <div class="understanding-closing">
+          <p>Together, the 78 cards become a language for exploring what is moving through your life, what you may not yet see, and what might be asking for your attention.</p>
+          <p class="tarot-meanings-invitation">Pick a card. Follow your curiosity. See what it has to show you.</p>
+        </div>
+      </section>
+    ) : (
+      <section class="tarot-meanings-intro">
+        <p>Seventy-eight cards. A whole universe of archetypes, stories, symbols, and possibility. The Tarot is divided into two great families: the <a href="/major-arcana-2">22 cards of the Major Arcana</a> and the <a href="/minor-arcana">56 cards of the Minor Arcana</a>. The Major Arcana holds the great archetypes of the human journey—the Fool stepping into the unknown, the Lovers choosing, Death transforming, the Tower falling, the World becoming whole.</p>
+
+        <p>The Minor Arcana brings the story down into the texture of everyday life. Its four suits move through the elements: <a href="/cups-tarot">Cups</a> · Water · Emotion, <a href="/pentacles-tarot">Pentacles</a> · Earth · The material world, <a href="/swords-tarot">Swords</a> · Air · Mind and thought, and <a href="/wands-tarot">Wands</a> · Fire · Creativity and action. Each suit travels from Ace through Ten and into the Court Cards—Page, Knight, Queen, and King—creating its own unfolding story.</p>
+
+        <p>Together, the 78 cards become a language for exploring what is moving through your life, what you may not yet see, and what might be asking for your attention. <span class="tarot-meanings-invitation">Pick a card. Follow your curiosity. See what it has to show you.</span></p>
+      </section>
+    )}
 
     <section class="tarot-meanings-section" aria-labelledby="major-arcana-heading">
       <header class="tarot-meanings-section-heading">

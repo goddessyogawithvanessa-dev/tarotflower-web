@@ -1,95 +1,62 @@
 ---
 import Base from '../layouts/Base.astro';
 import OracleWaitlist from '../components/OracleWaitlist.astro';
+import { ritualExperienceList, ritualExperiences } from '../data/ritualExperiences';
 
-const digitalRituals = [
-  {
-    title: 'Step Into Your Fire',
-    description: 'A ritual for courage and confidence.',
-    image: '/images/digital-rituals/step-into-the-fire/elemental-rituals-header.jpg',
-    imageAlt: 'Fire goddess beneath a golden moon, surrounded by flames and flowers',
-    href: '/step-into-your-fire/',
-    crop: 'fire',
-    price: '$33 USD',
-  },
-  {
-    title: 'Flow Like the Goddess',
-    description: 'A ritual for healing and sensuality.',
-    image: '/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg',
-    imageAlt: 'Water goddess flowing beneath the moon among golden flowers and fish',
-    href: '/flow-like-the-goddess/',
-    crop: 'water',
-  },
-  {
-    title: 'Awaken the Element of Air',
-    description: 'A ritual for clarity and intuition.',
-    image: '/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg',
-    imageAlt: 'Air goddess with luminous wings beneath a golden sky',
-    href: '/awaken-the-element-of-air/',
-    crop: 'air',
-  },
-  {
-    title: 'Root Into the Earth',
-    description: 'A ritual for stability and belonging.',
-    image: '/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg',
-    imageAlt: 'Earth goddess beneath the moon in a dark enchanted forest',
-    href: '/root-into-the-earth/',
-    crop: 'earth',
-  },
-];
+const fireRitual = ritualExperiences.fire;
+const comingSoonRituals = ritualExperienceList.filter(ritual => ritual.key !== 'fire');
 ---
 <Base
   title="Shop | Tarot Flower"
   description="Explore Tarot Flower offerings for reflection, embodiment, ritual, intuitive guidance, and becoming."
 >
   <main class="shop-landing">
-    <header class="readings-hero container">
+    <header class="shop-hero container">
       <h1>Shop</h1>
-      <p>Thoughtfully created offerings to support your journey of reflection, embodiment, and becoming.</p>
+      <p class="shop-hero-question">What are you drawn to today?</p>
     </header>
 
     <div class="shop-sections container">
-      <section class="shop-section" aria-labelledby="shop-begin-title">
-        <header class="shop-section-heading">
-          <h2 id="shop-begin-title">Begin Your Journey</h2>
-        </header>
-
-        <article class="shop-feature shop-feature--guide">
-          <div class="shop-feature-image shop-feature-image--guide">
-            <img
-              src="/images/goddess-embodiment-guide-cover.jpg"
-              alt="Goddess Embodiment Guide cover"
-            />
-          </div>
-          <div class="shop-feature-copy">
-            <p class="shop-product-label">Free</p>
-            <h3>Goddess Embodiment Guide</h3>
-            <p>A beautiful introduction to the Tarot Flower approach through reflection, embodiment, and self-discovery.</p>
-            <a class="shop-button" href="/10-steps-to-embody-the-goddess-free-download/">Download Free Guide</a>
-          </div>
-        </article>
-      </section>
-
       <section class="shop-section shop-rituals-section" aria-labelledby="shop-rituals-title">
         <header class="shop-section-heading">
           <h2 id="shop-rituals-title">Rituals</h2>
         </header>
 
-        <div class="shop-ritual-grid">
-          {digitalRituals.map(({ title, description, image, imageAlt, href, crop, price }) => (
-            <article class={`shop-ritual shop-ritual--${crop}`}>
-              <a class="shop-ritual-image" href={href}>
-                <img src={image} alt={imageAlt} loading="lazy" />
-              </a>
-              <div class="shop-ritual-copy">
-                <h3><a href={href}>{title}</a></h3>
-                <p>{description}</p>
-                {price ? (
-                  <p class="shop-price">{price}</p>
-                ) : (
-                  <p class="shop-price-placeholder">Price coming soon</p>
-                )}
-                <a class="shop-button" href={href}>View Ritual</a>
+        <article class="shop-ritual-featured">
+          <a class="shop-ritual-featured-image" href={fireRitual.href}>
+            <img
+              src={fireRitual.image}
+              alt={fireRitual.imageAlt}
+              width={fireRitual.width}
+              height={fireRitual.height}
+            />
+          </a>
+          <div class="shop-ritual-featured-copy">
+            <p class="shop-product-label">Available now</p>
+            <h3><a href={fireRitual.href}>{fireRitual.title}</a></h3>
+            <p class="shop-product-themes">{fireRitual.themes}</p>
+            <p class="shop-price">{fireRitual.priceLabel}</p>
+            <a class="shop-button" href={fireRitual.href}>View Ritual</a>
+          </div>
+        </article>
+
+        <div class="shop-coming-ritual-grid">
+          {comingSoonRituals.map(ritual => (
+            <article class={`shop-coming-ritual shop-coming-ritual--${ritual.key}`}>
+              <div class="shop-coming-ritual-image">
+                <img
+                  src={ritual.image}
+                  alt={ritual.imageAlt}
+                  width={ritual.width}
+                  height={ritual.height}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="shop-coming-ritual-copy">
+                <h3>{ritual.title}</h3>
+                <p>{ritual.themes}</p>
+                <span>{ritual.availability}</span>
               </div>
             </article>
           ))}
@@ -101,16 +68,16 @@ const digitalRituals = [
           <h2 id="shop-guidance-title">Personal Guidance</h2>
         </header>
 
-        <div class="shop-guidance-paths">
-          <article class="shop-feature">
-            <div class="shop-feature-image shop-feature-image--portrait">
+        <div class="shop-guidance-grid">
+          <article class="shop-guidance-card">
+            <div class="shop-guidance-image shop-guidance-image--reading">
               <img
                 src="/images/readings-with-vanessa/vanessa-holding-empress-card.png"
                 alt="Vanessa smiling while holding the Empress tarot card"
                 loading="lazy"
               />
             </div>
-            <div class="shop-feature-copy">
+            <div class="shop-guidance-copy">
               <h3>Readings with Vanessa</h3>
               <p>A personal one-on-one tarot reading designed around your questions, your life, and the moment you are navigating.</p>
               <p class="shop-format">60-minute online reading</p>
@@ -119,15 +86,15 @@ const digitalRituals = [
             </div>
           </article>
 
-          <article class="shop-feature shop-feature--reverse">
-            <div class="shop-feature-image shop-feature-image--portrait">
+          <article class="shop-guidance-card">
+            <div class="shop-guidance-image shop-guidance-image--mentorship">
               <img
-                src="/images/homepage/vanessa-hylande-sacred-becoming-960.png"
-                alt="Vanessa Hylande for Sacred Becoming mentorship"
+                src="/images/sacred-becoming/walking-beside-you.jpg"
+                alt="Vanessa Hylande wearing red and looking directly at the camera"
                 loading="lazy"
               />
             </div>
-            <div class="shop-feature-copy">
+            <div class="shop-guidance-copy">
               <h3>Sacred Becoming Mentorship</h3>
               <p>A deeply personal one-on-one mentoring journey combining embodiment, reflection, movement, ritual, tarot, and intuitive guidance.</p>
               <a class="shop-button" href="/sacred-becoming/mentorship/">Discover the Mentorship</a>
@@ -152,7 +119,8 @@ const digitalRituals = [
           <div class="shop-oracle-copy">
             <p class="shop-product-label">Coming Soon</p>
             <h3>Sacred Becoming Oracle</h3>
-            <p>An oracle deck created as a companion for reflection, ritual, intuition, and the quiet conversations that continue long after the cards are put away.</p>
+            <p>I created this oracle deck while walking my own path of becoming. It was my companion. Now, I’m bringing it to life as a 36-card deck to accompany you on your own journey.</p>
+            <p>Every card is a mirror. Who are you becoming?</p>
             <OracleWaitlist />
           </div>
         </article>

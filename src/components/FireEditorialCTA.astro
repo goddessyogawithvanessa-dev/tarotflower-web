@@ -1,0 +1,36 @@
+---
+import { ritualExperiences } from '../data/ritualExperiences';
+
+interface Props {
+  description?: string;
+  headingId?: string;
+}
+
+const {
+  description = 'Girl, you have the power. Download a little magic and make it yours.',
+  headingId = 'fire-editorial-title',
+} = Astro.props;
+
+const fireRitual = ritualExperiences.fire;
+---
+
+<section class="card-featured-experience card-featured-experience--fire" aria-labelledby={headingId}>
+  <div class="card-fire-artwork">
+    <img
+      src={fireRitual.image}
+      alt={fireRitual.imageAlt}
+      width={fireRitual.width}
+      height={fireRitual.height}
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+  <div class="card-featured-copy card-fire-copy">
+    <p class="card-editorial-kicker">Guided Video Ritual</p>
+    <h2 id={headingId}>{fireRitual.title}</h2>
+    <p class="card-fire-description">{description}</p>
+    <p class="card-fire-format">One-hour guided video ritual · Permanent access</p>
+    <p class="card-fire-price">{fireRitual.priceLabel}</p>
+    <a class="card-featured-button" href={fireRitual.href}>Explore the Ritual <span aria-hidden="true">→</span></a>
+  </div>
+</section>

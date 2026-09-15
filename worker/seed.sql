@@ -16,7 +16,7 @@ INSERT INTO products (
   'step-into-your-fire',
   'Step Into Your Fire',
   'A ritual for courage and confidence.',
-  '/images/digital-rituals/step-into-the-fire/fire-goddess-front-flipped.jpg',
+  '/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png',
   '/library/rituals/step-into-your-fire/',
   'price_1Tyt6bHxP7ZQh1un7maRbGC4',
   'plink_1Tyt6kHxP7ZQh1unSsgzOV8w',

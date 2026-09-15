@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Post from '../layouts/Post.astro';
 
 export async function getStaticPaths() {
-  const dedicatedPages = ['astrology', 'free-tarot-card-readings', 'tarot-card-readings', 'moon-magic-spells', 'tarot-card-meanings', 'contact', 'daily-tarot', 'shop'];
+  const dedicatedPages = ['astrology', 'free-tarot-card-readings', 'tarot-card-readings', 'moon-magic-spells', 'tarot-card-meanings', 'understanding-the-tarot', 'contact', 'daily-tarot', 'rituals', 'shop'];
   const temporarilyHiddenPages = ['melissa-warwood-tantric-tarot'];
   const posts = await getCollection('posts');
   return posts

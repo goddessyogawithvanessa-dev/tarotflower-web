@@ -7,9 +7,10 @@ interface Props {
   imageWidth?: number;
   imageHeight?: number;
   showBanner?: boolean;
+  showNavigation?: boolean;
 }
 
-const { title, description = '', image = '', imageAlt = '', imageWidth, imageHeight, showBanner = true } = Astro.props;
+const { title, description = '', image = '', imageAlt = '', imageWidth, imageHeight, showBanner = true, showNavigation = true } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const socialImageURL = image ? new URL(image, Astro.site) : null;
 const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >= 1.5 : true;
@@ -51,17 +52,19 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
       <a href="/"><img src="/images/2024/03/TF-Header-2024-Dandelion.jpeg" alt="Tarot Flower" /></a>
     </div>
   )}
+  {showNavigation && (
+  <>
   <nav id="mobile-nav">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/tarot-card-readings">Tarot Card Readings</a>
+      <li><span>Tarot Card Readings</span>
         <ul>
-          <li><a href="/free-tarot-card-readings">Free Tarot Card Readings</a></li>
           <li><a href="/readings-with-vanessa">Readings with Vanessa</a></li>
         </ul>
       </li>
-      <li><a href="/tarot-card-meanings">Tarot Card Meanings</a>
+      <li><span>Tarot Card Meanings</span>
         <ul>
+          <li><a href="/understanding-the-tarot">Understanding the Tarot</a></li>
           <li><a href="/major-arcana-2">Major Arcana</a>
             <ul>
               <li><a href="/the-fool-tarot">The Fool</a></li>
@@ -166,7 +169,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
           </li>
         </ul>
       </li>
-      <li><a href="/moon-magic-spells">Spells &amp; Rituals</a>
+      <li><span>Spells &amp; Rituals</span>
         <ul>
           <li><a href="/step-into-your-fire">Step Into Your Fire</a></li>
           <li><a href="/flow-like-the-goddess">Flow Like the Goddess</a></li>
@@ -179,7 +182,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
       <li><a href="/shop">Shop</a></li>
     </ul>
   </nav>
-  <a href="#mobile-nav" class="hamburger">
+  <a href="#mobile-nav" class="hamburger" aria-label="Open menu">
     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/>
     </svg>
@@ -197,16 +200,16 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
     <div class="nav-inner">
       <a href="/">Home</a>
       <div class="nav-dropdown">
-        <a href="/tarot-card-readings">Tarot Card Readings <span class="caret">&#9662;</span></a>
+        <button type="button" class="nav-parent-trigger" aria-haspopup="true">Tarot Card Readings <span class="caret">&#9662;</span></button>
         <div class="dropdown-menu">
-          <a href="/free-tarot-card-readings">Free Tarot Card Readings</a>
           <a href="/readings-with-vanessa">Readings with Vanessa</a>
         </div>
       </div>
       <div class="nav-dropdown">
-        <a href="/tarot-card-meanings">Tarot Card Meanings <span class="caret">&#9662;</span></a>
+        <button type="button" class="nav-parent-trigger" aria-haspopup="true">Tarot Card Meanings <span class="caret">&#9662;</span></button>
         <div class="dropdown-menu dropdown-mega">
           <div class="mega-categories">
+            <a class="mega-overview-link" href="/understanding-the-tarot">Understanding the Tarot</a>
             <div class="mega-cat" data-panel="major">
               <a href="/major-arcana-2">Major Arcana <span class="caret">&#9662;</span></a>
             </div>
@@ -313,7 +316,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
         </div>
       </div>
       <div class="nav-dropdown">
-        <a href="/moon-magic-spells">Spells &amp; Rituals <span class="caret">&#9662;</span></a>
+        <button type="button" class="nav-parent-trigger" aria-haspopup="true">Spells &amp; Rituals <span class="caret">&#9662;</span></button>
         <div class="dropdown-menu">
           <a href="/step-into-your-fire">Step Into Your Fire</a>
           <a href="/flow-like-the-goddess">Flow Like the Goddess</a>
@@ -326,6 +329,8 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
       <a href="/shop">Shop</a>
     </div>
   </nav><!-- end desktop-nav -->
+  </>
+  )}
 
   <slot />
 
@@ -347,11 +352,11 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
         <h4>EXPLORE</h4>
         <ul>
           <li><a href="/daily-tarot">The Witch’s Journal</a></li>
-          <li><a href="/tarot-card-meanings">Tarot Card Meanings</a></li>
+          <li><a href="/understanding-the-tarot">Tarot Card Meanings</a></li>
           <li><a href="/major-arcana-2">Major Arcana</a></li>
           <li><a href="/minor-arcana">Minor Arcana</a></li>
           <li><a href="/astrology">Astrology &amp; Zodiac</a></li>
-          <li><a href="/shop#shop-rituals-title">Rituals</a></li>
+          <li><a href="/rituals">Rituals</a></li>
           <li><a href="/library/login/">My Ritual Library</a></li>
           <li><a href="/readings-with-vanessa">Tarot Readings with Vanessa</a></li>
           <li><a href="/sacred-becoming/mentorship">Sacred Becoming Mentorship</a></li>
@@ -394,23 +399,26 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
         }
       });
     });
-    document.querySelectorAll('.desktop-nav .dropdown-mega').forEach(menu => {
-      menu.addEventListener('mouseenter', () => {
-        if (!menu.querySelector(':scope > .mega-categories > .mega-cat.active')) {
-          menu.querySelector(':scope > .mega-categories > .mega-cat')?.classList.add('active');
-          menu.querySelector(':scope > .mega-panel')?.classList.add('active');
-        }
-      });
+    document.querySelectorAll('.desktop-nav .mega-overview-link').forEach(link => {
+      const clearNestedPanels = () => {
+        const menu = link.closest('.dropdown-mega');
+        menu?.querySelectorAll('.mega-cat.active, .mega-panel.active').forEach(item => item.classList.remove('active'));
+      };
+      link.addEventListener('mouseenter', clearNestedPanels);
+      link.addEventListener('focus', clearNestedPanels);
     });
 
     // Mobile: mmenu-light
-    var menu = new MmenuLight(document.querySelector('#mobile-nav'), '(max-width: 768px)');
-    var navigator = menu.navigation({ title: 'Tarot Flower', theme: 'light' });
-    var drawer = menu.offcanvas({ position: 'left' });
-    document.querySelector('a.hamburger')?.addEventListener('click', (e) => {
-      e.preventDefault();
-      drawer.open();
-    });
+    var mobileNav = document.querySelector('#mobile-nav');
+    if (mobileNav) {
+      var menu = new MmenuLight(mobileNav, '(max-width: 768px)');
+      var navigator = menu.navigation({ title: 'Tarot Flower', theme: 'light' });
+      var drawer = menu.offcanvas({ position: 'left' });
+      document.querySelector('a.hamburger')?.addEventListener('click', (e) => {
+        e.preventDefault();
+        drawer.open();
+      });
+    }
   </script>
 </body>
 </html>

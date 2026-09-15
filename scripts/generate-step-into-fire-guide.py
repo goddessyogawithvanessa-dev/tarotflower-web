@@ -226,7 +226,7 @@ def generate():
     c.rect(0, 0, PAGE_W, PAGE_H, stroke=0, fill=1)
     draw_image_cover(
         c,
-        IMAGE_DIR / "elemental-rituals-header.jpg",
+        IMAGE_DIR / "goddess-kali-warrior-hero-wide.png",
         0,
         PAGE_H * 0.43,
         PAGE_W,
