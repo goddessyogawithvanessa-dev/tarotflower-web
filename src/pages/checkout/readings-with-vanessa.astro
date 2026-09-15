@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 
-const stripePaymentLink = import.meta.env.PUBLIC_STRIPE_READINGS_PAYMENT_LINK;
+const stripePaymentLink = import.meta.env.PUBLIC_STRIPE_READINGS_PAYMENT_LINK
+  || 'https://buy.stripe.com/6oUaEX58YctddB5a9FcbC00';
 const stripeConfigured = typeof stripePaymentLink === 'string' && stripePaymentLink.startsWith('https://');
 ---
 
