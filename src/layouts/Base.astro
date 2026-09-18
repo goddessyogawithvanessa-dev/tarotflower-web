@@ -57,14 +57,9 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
   <>
   <nav id="mobile-nav">
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><span>Tarot Card Readings</span>
+      <li><span>TAROT</span>
         <ul>
           <li><a href="/readings-with-vanessa">Readings with Vanessa</a></li>
-        </ul>
-      </li>
-      <li><span>Tarot Card Meanings</span>
-        <ul>
           <li><a href="/understanding-the-tarot">Understanding the Tarot</a></li>
           <li><a href="/major-arcana-2">Major Arcana</a>
             <ul>
@@ -168,9 +163,16 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
               </li>
             </ul>
           </li>
+          <li><a href="/astrology">Astrology &amp; Zodiac</a></li>
         </ul>
       </li>
-      <li><span>Spells &amp; Rituals</span>
+      <li><span>SACRED BECOMING</span>
+        <ul>
+          <li><a href="/sacred-becoming/oracle-deck">Sacred Becoming Oracle Deck</a></li>
+          <li><a href="/sacred-becoming/mentorship">Sacred Becoming Mentorship</a></li>
+        </ul>
+      </li>
+      <li><span>RITUALS</span>
         <ul>
           <li><a href="/step-into-your-fire">Step Into Your Fire</a></li>
           <li><a href="/flow-like-the-goddess">Flow Like the Goddess</a></li>
@@ -178,9 +180,8 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
           <li><a href="/root-into-the-earth">Root Into the Earth</a></li>
         </ul>
       </li>
-      <li><a href="/astrology">Astrology &amp; Zodiac</a></li>
-      <li><a href="/daily-tarot">Witch's Journal</a></li>
-      <li><a href="/shop">Shop</a></li>
+      <li><a href="/daily-tarot">WITCH'S JOURNAL</a></li>
+      <li><a href="/shop">SHOP</a></li>
     </ul>
   </nav>
   <a href="#mobile-nav" class="hamburger" aria-label="Open menu">
@@ -199,17 +200,11 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
 
   <nav class="desktop-nav">
     <div class="nav-inner">
-      <a href="/">Home</a>
       <div class="nav-dropdown">
-        <button type="button" class="nav-parent-trigger" aria-haspopup="true">Tarot Card Readings <span class="caret">&#9662;</span></button>
-        <div class="dropdown-menu">
-          <a href="/readings-with-vanessa">Readings with Vanessa</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <button type="button" class="nav-parent-trigger" aria-haspopup="true">Tarot Card Meanings <span class="caret">&#9662;</span></button>
+        <button type="button" class="nav-parent-trigger" aria-haspopup="true">TAROT <span class="caret">&#9662;</span></button>
         <div class="dropdown-menu dropdown-mega">
           <div class="mega-categories">
+            <a class="mega-overview-link" href="/readings-with-vanessa">Readings with Vanessa</a>
             <a class="mega-overview-link" href="/understanding-the-tarot">Understanding the Tarot</a>
             <div class="mega-cat" data-panel="major">
               <a href="/major-arcana-2">Major Arcana <span class="caret">&#9662;</span></a>
@@ -217,6 +212,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
             <div class="mega-cat" data-panel="minor">
               <a href="/minor-arcana">Minor Arcana <span class="caret">&#9662;</span></a>
             </div>
+            <a class="mega-overview-link" href="/astrology">Astrology &amp; Zodiac</a>
           </div>
           <div class="mega-panel" id="panel-major">
             <a href="/the-fool-tarot">The Fool</a>
@@ -317,7 +313,14 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
         </div>
       </div>
       <div class="nav-dropdown">
-        <button type="button" class="nav-parent-trigger" aria-haspopup="true">Spells &amp; Rituals <span class="caret">&#9662;</span></button>
+        <button type="button" class="nav-parent-trigger" aria-haspopup="true">SACRED BECOMING <span class="caret">&#9662;</span></button>
+        <div class="dropdown-menu">
+          <a href="/sacred-becoming/oracle-deck">Sacred Becoming Oracle Deck</a>
+          <a href="/sacred-becoming/mentorship">Sacred Becoming Mentorship</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button type="button" class="nav-parent-trigger" aria-haspopup="true">RITUALS <span class="caret">&#9662;</span></button>
         <div class="dropdown-menu">
           <a href="/step-into-your-fire">Step Into Your Fire</a>
           <a href="/flow-like-the-goddess">Flow Like the Goddess</a>
@@ -325,9 +328,8 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
           <a href="/root-into-the-earth">Root Into the Earth</a>
         </div>
       </div>
-      <a href="/astrology">Astrology &amp; Zodiac</a>
-      <a href="/daily-tarot">Witch's Journal</a>
-      <a href="/shop">Shop</a>
+      <a href="/daily-tarot">WITCH'S JOURNAL</a>
+      <a href="/shop">SHOP</a>
     </div>
   </nav><!-- end desktop-nav -->
   </>
