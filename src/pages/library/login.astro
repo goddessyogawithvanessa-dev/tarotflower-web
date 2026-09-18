@@ -1,33 +1,38 @@
 ---
 import Base from '../../layouts/Base.astro';
+import LibraryHeader from '../../components/LibraryHeader.astro';
 ---
 
 <Base
   title="My Ritual Library Login | Tarot Flower"
   description="Receive a secure passwordless link to access your permanent Tarot Flower ritual library."
+  showBanner={false}
+  showNavigation={false}
+  showFooter={false}
 >
   <main class="library-page library-login-page">
-    <header class="readings-hero container">
-      <h1>My Ritual Library</h1>
-      <p>Your rituals are always here when you are ready to return.</p>
-    </header>
+    <LibraryHeader />
+    <section class="library-doorway" aria-labelledby="library-login-title">
+      <div class="library-doorway-ornament" aria-hidden="true"><span></span></div>
+      <div class="library-login-card">
+        <p class="library-kicker">My Ritual Library</p>
+        <h1 id="library-login-title">Return to your sacred space.</h1>
+        <div class="library-gold-mark" aria-hidden="true"></div>
+        <p class="library-login-intro">Enter the email address you used at checkout and we’ll send you a private access link to your ritual library.</p>
 
-    <section class="library-login-card container" aria-labelledby="library-login-title">
-      <p class="library-kicker">Passwordless access</p>
-      <h2 id="library-login-title">Send Me a Secure Link</h2>
-      <p>Enter the email address you used at checkout. We’ll send you a private, single-use link to your library.</p>
+        <form class="library-login-form" data-library-login-form>
+          <label for="library-email">Email address</label>
+          <input id="library-email" type="email" name="email" autocomplete="email" placeholder="Your email address" required />
+          <div class="library-turnstile" data-library-turnstile></div>
+          <button class="library-primary-button" type="submit">Send My Magic Link <span aria-hidden="true">→</span></button>
+          <p class="library-form-status" aria-live="polite" data-library-status></p>
+          <a class="library-debug-link" href="#" hidden data-library-debug-link>Open the local test magic link</a>
+        </form>
 
-      <form class="library-login-form" data-library-login-form>
-        <label for="library-email">Purchase email</label>
-        <input id="library-email" type="email" name="email" autocomplete="email" required />
-        <div class="library-turnstile" data-library-turnstile></div>
-        <button class="shop-button" type="submit">Email My Magic Link</button>
-        <p class="library-form-status" aria-live="polite" data-library-status></p>
-        <a class="library-debug-link" href="#" hidden data-library-debug-link>Open the local test magic link</a>
-      </form>
-
-      <p class="library-privacy-note">For your privacy, this page never confirms whether an email address has a purchase.</p>
+        <p class="library-privacy-note">A secure, private link will arrive in your email and open the rituals and experiences you’ve purchased.</p>
+      </div>
     </section>
+    <footer class="library-private-footer"><span>Tarot Flower</span><small>Your private sacred space</small></footer>
   </main>
 
   <script src="/scripts/library-login.js" is:inline></script>

@@ -138,7 +138,10 @@ async function handleLibraryPurchaseAccess(request, env) {
     const to = clean(body.to).toLowerCase();
     const subject = clean(body.subject);
     const productTitle = clean(body.productTitle);
+    const ritualAccessUrl = clean(body.ritualAccessUrl);
     const libraryUrl = clean(body.libraryUrl);
+    const downloads = Array.isArray(body.downloads) ? body.downloads : [];
+    const expiresInMinutes = Number(body.expiresInMinutes);
     if (!isValidEmail(to) || containsHeaderInjection(to)) {
       return new Response("Invalid recipient", { status: 400 });
     }
@@ -148,22 +151,63 @@ async function handleLibraryPurchaseAccess(request, env) {
     if (!productTitle || productTitle.length > 160) {
       return new Response("Invalid product title", { status: 400 });
     }
+    let parsedRitualAccessUrl;
     let parsedLibraryUrl;
     try {
+      parsedRitualAccessUrl = new URL(ritualAccessUrl);
       parsedLibraryUrl = new URL(libraryUrl);
     } catch {
-      return new Response("Invalid library URL", { status: 400 });
+      return new Response("Invalid access URL", { status: 400 });
     }
     if (
+      parsedRitualAccessUrl.protocol !== "https:" ||
+      !["tarotflower.com", "www.tarotflower.com"].includes(parsedRitualAccessUrl.hostname) ||
+      parsedRitualAccessUrl.pathname !== "/library/auth" ||
+      !parsedRitualAccessUrl.searchParams.get("token") ||
+      !parsedRitualAccessUrl.searchParams.get("next")?.startsWith("/library/rituals/") ||
+      parsedRitualAccessUrl.hash ||
       parsedLibraryUrl.protocol !== "https:" ||
       !["tarotflower.com", "www.tarotflower.com"].includes(parsedLibraryUrl.hostname) ||
-      parsedLibraryUrl.pathname !== "/library/login/" ||
+      parsedLibraryUrl.pathname !== "/library/" ||
       parsedLibraryUrl.search ||
       parsedLibraryUrl.hash
     ) {
-      return new Response("Invalid library URL", { status: 400 });
+      return new Response("Invalid access URL", { status: 400 });
     }
-    const email = buildLibraryPurchaseAccessEmail({ productTitle, libraryUrl });
+    if (!Number.isInteger(expiresInMinutes) || expiresInMinutes < 1 || expiresInMinutes > 60) {
+      return new Response("Invalid expiry", { status: 400 });
+    }
+    if (downloads.length !== 0 && downloads.length !== 3) {
+      return new Response("Invalid downloads", { status: 400 });
+    }
+    const safeDownloads = [];
+    for (const download of downloads) {
+      const label = clean(download?.label);
+      let parsedDownloadUrl;
+      try {
+        parsedDownloadUrl = new URL(clean(download?.url));
+      } catch {
+        return new Response("Invalid download URL", { status: 400 });
+      }
+      if (
+        !["RITUAL GRIMOIRE", "COMPLETE RITUAL VIDEO", "RITUAL MUSIC"].includes(label) ||
+        parsedDownloadUrl.protocol !== "https:" ||
+        !["tarotflower.com", "www.tarotflower.com"].includes(parsedDownloadUrl.hostname) ||
+        !parsedDownloadUrl.pathname.startsWith("/api/library/files/step-into-your-fire/") ||
+        parsedDownloadUrl.searchParams.get("download") !== "1" ||
+        parsedDownloadUrl.hash
+      ) {
+        return new Response("Invalid download URL", { status: 400 });
+      }
+      safeDownloads.push({ label, url: parsedDownloadUrl.toString() });
+    }
+    const email = buildLibraryPurchaseAccessEmail({
+      productTitle,
+      ritualAccessUrl,
+      libraryUrl,
+      downloads: safeDownloads,
+      expiresInMinutes
+    });
     await sendSmtpEmail(env, {
       to,
       from: env.CONTACT_FROM || DEFAULT_FROM,

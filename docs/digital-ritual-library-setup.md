@@ -3,6 +3,60 @@
 Step Into Your Fire uses the production Stripe, Cloudflare Worker, D1, private R2,
 Turnstile, and Google Workspace SMTP infrastructure described below.
 
+## Future delivery TODO — Step Into Your Fire
+
+Step Into Your Fire will ultimately include three customer-downloadable companion
+assets:
+
+1. Ritual Companion PDF
+2. Complete Unified Ritual Video
+3. Ritual Music Download
+
+The Ritual Music Download is intentionally deferred. Do not implement it during
+the current ritual-page redesign, and do not let it block that work. Preserve it
+in the final download section and delivery-email planning so it is not removed or
+forgotten when the complete delivery experience is finished.
+
+Current priority order:
+
+1. Finalize the ritual webpage.
+2. Finalize the unified video.
+3. Finalize the printable/digital companion.
+4. Add the Ritual Music Download to the final delivery and download experience.
+
+### Ritual Companion redesign gate
+
+Do not begin the Ritual Companion PDF redesign until Vanessa explicitly confirms
+that the Step Into Your Fire ritual webpage is finalized. The latest supplied PDF
+is the authority for companion content, structure, journaling pages, and physical
+ritual functions. The finalized ritual webpage is the authority for design.
+
+When the redesign begins, preserve:
+
+- preparation and orientation content;
+- the four-threshold structure;
+- Initiation / I Choose and Destruction / I Release journal pages;
+- Guardian / I Embody and Freedom / I Receive ceremonial thresholds;
+- generous writing space and the functional I RELEASE tear-away area;
+- the locked Blessing, Open the Circle, and Reflections & Messages;
+- all four reflection questions together as whispers;
+- two additional open journal pages; and
+- the final offerings page.
+
+The result must be an A4, home-printer-optimized, ink-conscious, high-contrast,
+digitally annotatable printable grimoire with generous handwriting space. Use
+only existing project imagery—no AI-generated imagery. Do not preserve the
+current PDF's visual design and do not reduce the companion to a printout of the
+webpage.
+
+### Unified-video interaction
+
+The PRESS PLAY control targets the on-page `complete-ritual-video` region. When
+the final protected video replaces the placeholder, retain the
+`data-unified-video-target` hook on either the `<video>` element or its wrapper.
+The control will then scroll smoothly to the player, focus it, and start playback
+from the customer's click. The final unified video asset is still pending.
+
 ## Cloudflare resources
 
 - Worker: existing `tarotflower-web`

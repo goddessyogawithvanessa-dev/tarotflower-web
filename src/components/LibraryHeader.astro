@@ -1,0 +1,21 @@
+---
+interface Props {
+  authenticated?: boolean;
+}
+
+const { authenticated = false } = Astro.props;
+---
+
+<header class="library-private-nav">
+  <div class="library-private-nav-inner">
+    <a class="library-wordmark" href="/" aria-label="Tarot Flower home">
+      <span>Tarot Flower</span>
+      <small>My Ritual Library</small>
+    </a>
+    <nav class="library-private-links" aria-label="Library navigation">
+      <a href="/">Home</a>
+      <a href="/library/" aria-current="page">My Ritual Library</a>
+      {authenticated && <button type="button" data-library-logout>Sign Out</button>}
+    </nav>
+  </div>
+</header>

@@ -60,10 +60,15 @@
       : (widgetId !== null && window.turnstile ? window.turnstile.getResponse(widgetId) : '');
 
     try {
+      const params = new URLSearchParams(window.location.search);
       const response = await fetch('/api/library/request-link', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ email, turnstileToken }),
+        body: JSON.stringify({
+          email,
+          turnstileToken,
+          destinationPath: params.get('next') || '',
+        }),
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'The request could not be completed.');
@@ -86,5 +91,8 @@
   }
   if (params.get('status') === 'checkout') {
     setStatus('The checkout could not be confirmed. No library access was granted.', true);
+  }
+  if (params.get('status') === 'claim-used') {
+    setStatus('That checkout access link has already been used. Request a new secure link below.', true);
   }
 })();

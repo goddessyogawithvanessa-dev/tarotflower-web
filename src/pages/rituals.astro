@@ -34,7 +34,7 @@ const comingSoonRituals = ritualExperienceList.filter(ritual => ritual.key !== '
         <span class="rituals-featured-copy">
           <strong>{fireRitual.title}</strong>
           <span>{fireRitual.themes}</span>
-          <em>{fireRitual.availability} · {fireRitual.price} <span aria-hidden="true">→</span></em>
+          <em>{fireRitual.availability}{fireRitual.purchasable && <> · {fireRitual.price}</>} <span aria-hidden="true">→</span></em>
         </span>
       </a>
 

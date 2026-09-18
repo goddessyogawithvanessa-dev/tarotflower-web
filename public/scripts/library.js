@@ -13,6 +13,41 @@
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
 
+  const renderProduct = (product) => {
+    const isFire = product.slug === 'step-into-your-fire';
+    if (isFire) {
+      return `
+        <article class="library-experience library-experience--fire" data-experience-type="ritual" data-access-status="permanent">
+          <div class="library-experience-image">
+            <img src="${escapeHtml(product.imagePath)}" alt="Step Into Your Fire ritual artwork" />
+          </div>
+          <div class="library-experience-copy">
+            <p class="library-fire-title">Step Into Your Fire</p>
+            <h2>Become the Warrior Goddess</h2>
+            <p class="library-experience-description">A ritual for courage &amp; confidence</p>
+            <p class="library-experience-status"><span aria-hidden="true">∞</span> Yours <b aria-hidden="true">·</b> Permanent access</p>
+            <a class="library-primary-button" href="${escapeHtml(product.experiencePath)}">Enter the Ritual</a>
+          </div>
+        </article>
+      `;
+    }
+
+    return `
+      <article class="library-experience" data-experience-type="owned" data-access-status="owned">
+        <div class="library-experience-image">
+          <img src="${escapeHtml(product.imagePath)}" alt="Artwork for ${escapeHtml(product.title)}" />
+        </div>
+        <div class="library-experience-copy">
+          <p class="library-experience-eyebrow">Owned experience</p>
+          <h2>${escapeHtml(product.title)}</h2>
+          <p class="library-experience-description">${escapeHtml(product.description)}</p>
+          <p class="library-experience-status">Yours</p>
+          <a class="library-primary-button" href="${escapeHtml(product.experiencePath)}">Open Experience</a>
+        </div>
+      </article>
+    `;
+  };
+
   fetch('/api/library/session', { headers: { Accept: 'application/json' } })
     .then(async (response) => {
       if (response.status === 401) {
@@ -29,17 +64,7 @@
         empty.hidden = false;
         return;
       }
-      grid.innerHTML = result.products.map((product) => `
-        <article class="library-product">
-          <img src="${escapeHtml(product.imagePath)}" alt="Artwork for ${escapeHtml(product.title)}" />
-          <div class="library-product-copy">
-            <p class="library-kicker">Owned ritual</p>
-            <h2>${escapeHtml(product.title)}</h2>
-            <p>${escapeHtml(product.description)}</p>
-            <a class="shop-button" href="${escapeHtml(product.experiencePath)}">Enter the Ritual</a>
-          </div>
-        </article>
-      `).join('');
+      grid.innerHTML = result.products.map(renderProduct).join('');
       grid.hidden = false;
     })
     .catch(() => {

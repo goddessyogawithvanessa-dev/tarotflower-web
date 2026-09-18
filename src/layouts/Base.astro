@@ -8,9 +8,10 @@ interface Props {
   imageHeight?: number;
   showBanner?: boolean;
   showNavigation?: boolean;
+  showFooter?: boolean;
 }
 
-const { title, description = '', image = '', imageAlt = '', imageWidth, imageHeight, showBanner = true, showNavigation = true } = Astro.props;
+const { title, description = '', image = '', imageAlt = '', imageWidth, imageHeight, showBanner = true, showNavigation = true, showFooter = true } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const socialImageURL = image ? new URL(image, Astro.site) : null;
 const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >= 1.5 : true;
@@ -334,7 +335,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
 
   <slot />
 
-  <footer id="site-footer">
+  {showFooter && <footer id="site-footer">
     <div class="footer-inner">
       <div class="footer-col">
         <h4>CONNECT</h4>
@@ -374,7 +375,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
     <div class="footer-bottom">
       <p>&copy; {new Date().getFullYear()} Tarot Flower &middot; All Rights Reserved &middot; <a href="/terms-and-conditions">Privacy Policy</a> &middot; Site by Vanessa Hylande</p>
     </div>
-  </footer>
+  </footer>}
   <script src="/scripts/mmenu-light.js" is:inline></script>
   <script is:inline>
     // Desktop: mega menu hover behavior

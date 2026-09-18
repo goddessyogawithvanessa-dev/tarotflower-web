@@ -11,6 +11,14 @@ const LEGACY_STEP_INTO_FIRE_SLUG = 'step-into-the-fire-test';
 const LEGACY_STEP_INTO_FIRE_PATH = '/library/rituals/step-into-the-fire-test/';
 const PURCHASE_EMAIL_CLAIM_TTL_SECONDS = 5 * 60;
 
+// Activate these only after the final protected files are present in R2 and the
+// matching asset IDs have replaced the legacy test assets in products.assets_json.
+const FIRE_PURCHASE_DOWNLOAD_ASSET_IDS = Object.freeze({
+  grimoire: null,
+  completeVideo: null,
+  ritualMusic: null,
+});
+
 export default {
   async fetch(request, env, ctx) {
     try {
@@ -93,6 +101,8 @@ async function requestMagicLink(request, env, ctx) {
 
   if (!entitlement) return json({ message: GENERIC_LOGIN_MESSAGE }, 202);
 
+  const destination = await resolveRequestedDestination(email, body.destinationPath, env);
+
   const rawToken = randomToken();
   const tokenHash = await sha256(rawToken);
   const ipHash = await keyedHash(`${ip}|${email}`, env.TOKEN_PEPPER);
@@ -100,11 +110,23 @@ async function requestMagicLink(request, env, ctx) {
 
   await env.LIBRARY_DB.prepare(
     `INSERT INTO magic_links
-      (token_hash, customer_email, requested_ip_hash, created_at, expires_at, consumed_at)
-     VALUES (?1, ?2, ?3, ?4, ?5, NULL)`,
-  ).bind(tokenHash, email, ipHash, now, now + MAGIC_LINK_TTL_SECONDS).run();
+      (token_hash, customer_email, product_id, destination_path, requested_ip_hash,
+       created_at, expires_at, consumed_at)
+     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, NULL)`,
+  ).bind(
+    tokenHash,
+    email,
+    destination.productId,
+    destination.path,
+    ipHash,
+    now,
+    now + MAGIC_LINK_TTL_SECONDS,
+  ).run();
 
-  const link = `${appOrigin(env)}/library/auth?token=${encodeURIComponent(rawToken)}`;
+  const linkUrl = new URL('/library/auth', appOrigin(env));
+  linkUrl.searchParams.set('token', rawToken);
+  if (destination.path !== '/library/') linkUrl.searchParams.set('next', destination.path);
+  const link = linkUrl.toString();
   try {
     await sendMagicLink(email, link, env);
   } catch (error) {
@@ -127,11 +149,25 @@ async function consumeMagicLink(request, env) {
   const tokenHash = await sha256(rawToken);
   const now = unixTime();
   const link = await env.LIBRARY_DB.prepare(
-    `SELECT customer_email, expires_at, consumed_at
+    `SELECT customer_email, product_id, destination_path, expires_at, consumed_at
      FROM magic_links WHERE token_hash = ?1`,
   ).bind(tokenHash).first();
 
   if (!link || link.consumed_at !== null || Number(link.expires_at) < now) {
+    const activeSession = link ? await authenticate(request, env, false) : null;
+    const requestedPath = link?.destination_path || url.searchParams.get('next');
+    const recoveryDestination = await resolveRecoveryDestination(requestedPath, env);
+    if (activeSession && link && activeSession.email === link.customer_email) {
+      const destination = await resolveStoredDestination(link, env);
+      if (destination) return noStoreRedirect(new URL(destination, appOrigin(env)), 302);
+    }
+    loginUrl.searchParams.set('status', 'invalid');
+    if (recoveryDestination) loginUrl.searchParams.set('next', recoveryDestination);
+    return noStoreRedirect(loginUrl, 302);
+  }
+
+  const destination = await resolveStoredDestination(link, env);
+  if (!destination) {
     loginUrl.searchParams.set('status', 'invalid');
     return noStoreRedirect(loginUrl, 302);
   }
@@ -154,7 +190,7 @@ async function consumeMagicLink(request, env) {
      VALUES (?1, ?2, ?3, ?4, ?3, NULL)`,
   ).bind(sessionHash, link.customer_email, now, now + SESSION_TTL_SECONDS).run();
 
-  const response = noStoreRedirect(new URL('/library/', appOrigin(env)), 302);
+  const response = noStoreRedirect(new URL(destination, appOrigin(env)), 302);
   response.headers.append('Set-Cookie', sessionCookie(sessionToken, SESSION_TTL_SECONDS));
   return response;
 }
@@ -181,8 +217,24 @@ async function claimCheckoutSession(request, env) {
     return noStoreRedirect(loginUrl, 302);
   }
 
-  const sessionToken = randomToken();
   const now = unixTime();
+  const claimed = await env.LIBRARY_DB.prepare(
+    `UPDATE purchases
+     SET access_claimed_at = ?2
+     WHERE stripe_checkout_session_id = ?1 AND access_claimed_at IS NULL`,
+  ).bind(sessionId, now).run();
+
+  if (Number(claimed.meta?.changes || 0) !== 1) {
+    const activeSession = await authenticate(request, env, false);
+    if (activeSession?.email === fulfillment.email) {
+      return noStoreRedirect(new URL(fulfillment.experiencePath, appOrigin(env)), 302);
+    }
+    loginUrl.searchParams.set('status', 'claim-used');
+    loginUrl.searchParams.set('next', fulfillment.experiencePath);
+    return noStoreRedirect(loginUrl, 302);
+  }
+
+  const sessionToken = randomToken();
   await env.LIBRARY_DB.prepare(
     `INSERT INTO sessions
       (token_hash, customer_email, created_at, expires_at, last_seen_at, revoked_at)
@@ -438,12 +490,19 @@ async function fulfillStripeSession(session, event, env) {
     ).bind(email, product.id, session.id, now),
   ]);
 
-  await ensurePurchaseAccessEmail(session.id, email, product.title, env);
+  await ensurePurchaseAccessEmail(
+    session.id,
+    email,
+    product.id,
+    product.title,
+    product.experience_path,
+    env,
+  );
 
-  return { granted: true, email, experiencePath: product.experience_path };
+  return { granted: true, email, productId: product.id, experiencePath: product.experience_path };
 }
 
-async function ensurePurchaseAccessEmail(checkoutSessionId, email, productTitle, env) {
+async function ensurePurchaseAccessEmail(checkoutSessionId, email, productId, productTitle, experiencePath, env) {
   const now = unixTime();
   await env.LIBRARY_DB.prepare(
     `INSERT OR IGNORE INTO purchase_access_emails
@@ -462,14 +521,38 @@ async function ensurePurchaseAccessEmail(checkoutSessionId, email, productTitle,
 
   if (Number(claimed.meta?.changes || 0) !== 1) return;
 
+  const rawToken = randomToken();
+  const tokenHash = await sha256(rawToken);
+  const nowForLink = unixTime();
+  const requestedIpHash = await keyedHash(`purchase:${checkoutSessionId}`, env.TOKEN_PEPPER);
+  await env.LIBRARY_DB.prepare(
+    `INSERT INTO magic_links
+      (token_hash, customer_email, product_id, destination_path, requested_ip_hash,
+       created_at, expires_at, consumed_at)
+     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, NULL)`,
+  ).bind(
+    tokenHash,
+    email,
+    productId,
+    experiencePath,
+    requestedIpHash,
+    nowForLink,
+    nowForLink + MAGIC_LINK_TTL_SECONDS,
+  ).run();
+
+  const ritualAccessUrl = new URL('/library/auth', appOrigin(env));
+  ritualAccessUrl.searchParams.set('token', rawToken);
+  ritualAccessUrl.searchParams.set('next', experiencePath);
+
   try {
-    await sendPurchaseAccessEmail(email, productTitle, env);
+    await sendPurchaseAccessEmail(email, productTitle, ritualAccessUrl.toString(), env);
     await env.LIBRARY_DB.prepare(
       `UPDATE purchase_access_emails
        SET sent_at = ?2, claimed_at = NULL, failed_at = NULL, last_error = NULL
        WHERE stripe_checkout_session_id = ?1`,
     ).bind(checkoutSessionId, unixTime()).run();
   } catch (error) {
+    await env.LIBRARY_DB.prepare('DELETE FROM magic_links WHERE token_hash = ?1').bind(tokenHash).run();
     const message = String(error?.message || error || 'Unknown email error').slice(0, 500);
     await env.LIBRARY_DB.prepare(
       `UPDATE purchase_access_emails
@@ -581,19 +664,82 @@ async function sendMagicLink(email, link, env) {
   if (!response.ok) throw new Error(`Email service rejected the message (${response.status})`);
 }
 
-async function sendPurchaseAccessEmail(email, productTitle, env) {
+async function sendPurchaseAccessEmail(email, productTitle, ritualAccessUrl, env) {
   if (!env.EMAIL_SERVICE?.fetch) throw new Error('EMAIL_SERVICE binding is not configured');
   const response = await env.EMAIL_SERVICE.fetch('https://email.internal/api/library-purchase-access', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       to: email,
-      subject: 'Your Step Into Your Fire ritual is ready',
+      subject: 'Your FIRE Ritual is waiting 🔥',
       productTitle,
-      libraryUrl: `${appOrigin(env)}/library/login/`,
+      ritualAccessUrl,
+      libraryUrl: `${appOrigin(env)}/library/`,
+      downloads: buildFirePurchaseDownloads(env),
+      expiresInMinutes: MAGIC_LINK_TTL_SECONDS / 60,
     }),
   });
   if (!response.ok) throw new Error(`Email service rejected the message (${response.status})`);
+}
+
+function buildFirePurchaseDownloads(env) {
+  const origin = appOrigin(env);
+  const definitions = [
+    ['RITUAL GRIMOIRE', FIRE_PURCHASE_DOWNLOAD_ASSET_IDS.grimoire],
+    ['COMPLETE RITUAL VIDEO', FIRE_PURCHASE_DOWNLOAD_ASSET_IDS.completeVideo],
+    ['RITUAL MUSIC', FIRE_PURCHASE_DOWNLOAD_ASSET_IDS.ritualMusic],
+  ];
+  return definitions
+    .filter(([, assetId]) => assetId)
+    .map(([label, assetId]) => ({
+      label,
+      url: `${origin}/api/library/files/${STEP_INTO_YOUR_FIRE_SLUG}/${encodeURIComponent(assetId)}?download=1`,
+    }));
+}
+
+async function resolveRequestedDestination(email, requestedPath, env) {
+  if (typeof requestedPath !== 'string' || !requestedPath.startsWith('/library/rituals/')) {
+    return { productId: null, path: '/library/' };
+  }
+  const product = await env.LIBRARY_DB.prepare(
+    `SELECT p.id, p.experience_path
+     FROM products p
+     JOIN entitlements e ON e.product_id = p.id
+     WHERE p.experience_path = ?1
+       AND e.customer_email = ?2
+       AND e.revoked_at IS NULL
+       AND p.active = 1
+     LIMIT 1`,
+  ).bind(requestedPath, email).first();
+  return product
+    ? { productId: product.id, path: product.experience_path }
+    : { productId: null, path: '/library/' };
+}
+
+async function resolveStoredDestination(link, env) {
+  if (!link.product_id) return '/library/';
+  const product = await env.LIBRARY_DB.prepare(
+    `SELECT p.experience_path
+     FROM products p
+     JOIN entitlements e ON e.product_id = p.id
+     WHERE p.id = ?1
+       AND p.experience_path = ?2
+       AND e.customer_email = ?3
+       AND e.revoked_at IS NULL
+       AND p.active = 1
+     LIMIT 1`,
+  ).bind(link.product_id, link.destination_path, link.customer_email).first();
+  return product?.experience_path || null;
+}
+
+async function resolveRecoveryDestination(requestedPath, env) {
+  if (typeof requestedPath !== 'string' || !requestedPath.startsWith('/library/rituals/')) return null;
+  const product = await env.LIBRARY_DB.prepare(
+    `SELECT experience_path FROM products
+     WHERE experience_path = ?1 AND active = 1
+     LIMIT 1`,
+  ).bind(requestedPath).first();
+  return product?.experience_path || null;
 }
 
 async function cleanupExpiredRecords(env) {

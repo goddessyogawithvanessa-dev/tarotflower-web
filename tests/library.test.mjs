@@ -111,13 +111,31 @@ test('grants one permanent entitlement after a successful signed Stripe payment'
   assert.equal(entitlement.revoked_at, null);
   assert.equal(purchaseEmails.length, 1);
   assert.equal(purchaseEmails[0].url, 'https://email.internal/api/library-purchase-access');
-  assert.deepEqual(purchaseEmails[0].body, {
-    to: testEmail,
-    subject: 'Your Step Into Your Fire ritual is ready',
-    productTitle: 'Step Into Your Fire',
-    libraryUrl: 'http://localhost/library/login/',
-  });
-  assert.doesNotMatch(JSON.stringify(purchaseEmails[0].body), /library\/auth|[?&]token=/i);
+  assert.equal(purchaseEmails[0].body.to, testEmail);
+  assert.equal(purchaseEmails[0].body.subject, 'Your FIRE Ritual is waiting 🔥');
+  assert.equal(purchaseEmails[0].body.productTitle, 'Step Into Your Fire');
+  assert.equal(purchaseEmails[0].body.libraryUrl, 'http://localhost/library/');
+  assert.equal(purchaseEmails[0].body.expiresInMinutes, 15);
+  assert.deepEqual(purchaseEmails[0].body.downloads, []);
+  const accessUrl = new URL(purchaseEmails[0].body.ritualAccessUrl);
+  assert.equal(accessUrl.pathname, '/library/auth');
+  assert.ok(accessUrl.searchParams.get('token'));
+  assert.equal(accessUrl.searchParams.get('next'), '/library/rituals/step-into-your-fire/');
+});
+
+test('purchase email authenticates once and redirects directly to the purchased ritual', async () => {
+  const accessUrl = purchaseEmails[0].body.ritualAccessUrl;
+  const response = await mf.dispatchFetch(accessUrl, { redirect: 'manual' });
+  assert.equal(response.status, 302);
+  assert.equal(response.headers.get('location'), 'http://localhost/library/rituals/step-into-your-fire/');
+  assert.match(response.headers.get('set-cookie'), /Max-Age=2592000/);
+
+  const reused = await mf.dispatchFetch(accessUrl, { redirect: 'manual' });
+  assert.equal(reused.status, 302);
+  const recovery = new URL(reused.headers.get('location'));
+  assert.equal(recovery.pathname, '/library/login/');
+  assert.equal(recovery.searchParams.get('status'), 'invalid');
+  assert.equal(recovery.searchParams.get('next'), '/library/rituals/step-into-your-fire/');
 });
 
 test('handles duplicate webhook delivery idempotently', async () => {
@@ -267,6 +285,7 @@ test('logout revokes the current session', async () => {
 });
 
 test('checkout claim grants access immediately and redirects to the private ritual', async () => {
+  const before = await db.prepare('SELECT COUNT(*) AS count FROM sessions').first();
   const response = await mf.dispatchFetch(
     'http://localhost/library/claim?session_id=cs_test_immediate',
     { redirect: 'manual' },
@@ -274,6 +293,30 @@ test('checkout claim grants access immediately and redirects to the private ritu
   assert.equal(response.status, 302);
   assert.equal(response.headers.get('location'), 'http://localhost/library/rituals/step-into-your-fire/');
   assert.match(response.headers.get('set-cookie'), /tf_library_session=/);
+
+  const replay = await mf.dispatchFetch(
+    'http://localhost/library/claim?session_id=cs_test_immediate',
+    { redirect: 'manual' },
+  );
+  assert.equal(replay.status, 302);
+  const recovery = new URL(replay.headers.get('location'));
+  assert.equal(recovery.pathname, '/library/login/');
+  assert.equal(recovery.searchParams.get('status'), 'claim-used');
+  assert.equal(recovery.searchParams.get('next'), '/library/rituals/step-into-your-fire/');
+  const after = await db.prepare('SELECT COUNT(*) AS count FROM sessions').first();
+  assert.equal(Number(after.count), Number(before.count) + 1);
+});
+
+test('recovery magic link preserves an entitled ritual destination', async () => {
+  const result = await requestLink(
+    testEmail,
+    '198.51.100.10',
+    true,
+    '/library/rituals/step-into-your-fire/',
+  );
+  const response = await mf.dispatchFetch(result.debugMagicLink, { redirect: 'manual' });
+  assert.equal(response.status, 302);
+  assert.equal(response.headers.get('location'), 'http://localhost/library/rituals/step-into-your-fire/');
 });
 
 test('preserves entitled legacy links while removing the test slug from the customer journey', async () => {
@@ -351,12 +394,12 @@ test('completes purchase, active-session return, logout, magic-link recovery, an
   assert.equal(emailRow.last_error, null);
 });
 
-async function requestLink(email, ip = '198.51.100.1', resetRateLimit = true) {
+async function requestLink(email, ip = '198.51.100.1', resetRateLimit = true, destinationPath = '') {
   if (resetRateLimit) await db.prepare('DELETE FROM auth_rate_limits').run();
   const response = await mf.dispatchFetch('http://localhost/api/library/request-link', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'CF-Connecting-IP': ip },
-    body: JSON.stringify({ email, turnstileToken: 'test-pass' }),
+    body: JSON.stringify({ email, turnstileToken: 'test-pass', destinationPath }),
   });
   assert.equal(response.status, 202);
   return response.json();

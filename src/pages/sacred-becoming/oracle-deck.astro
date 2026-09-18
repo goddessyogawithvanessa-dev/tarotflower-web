@@ -1,0 +1,224 @@
+---
+import Base from '../../layouts/Base.astro';
+import OracleWaitlist from '../../components/OracleWaitlist.astro';
+
+const imageBase = '/images/sacred-becoming-oracle';
+---
+
+<Base
+  title="The Sacred Becoming Oracle Deck | Tarot Flower"
+  description="The Sacred Becoming is a 36-card oracle spiral of transformation created by Vanessa Hylande. Join the waitlist."
+  image={`${imageBase}/oracle-creation-hero.jpg`}
+  imageAlt="The Creation card and the dark emerald Art Nouveau card back from The Sacred Becoming Oracle Deck"
+  imageWidth={1650}
+  imageHeight={2200}
+  showBanner={false}
+>
+  <main class="oracle-deck-page">
+    <header class="oracle-deck-hero">
+      <div class="oracle-deck-hero-copy">
+        <p class="oracle-deck-eyebrow">The Sacred Becoming</p>
+        <h1>Who are you becoming?</h1>
+        <p class="oracle-deck-subtitle">An Oracle Spiral of Transformation</p>
+        <p class="oracle-deck-availability">36 Cards <span aria-hidden="true">·</span> Coming Soon</p>
+        <div id="oracle-waitlist" class="oracle-deck-waitlist">
+          <OracleWaitlist />
+        </div>
+      </div>
+      <figure class="oracle-deck-hero-image">
+        <img
+          src={`${imageBase}/oracle-creation-hero.jpg`}
+          width="1650"
+          height="2200"
+          alt="The Creation card and the dark emerald Art Nouveau card back from The Sacred Becoming Oracle Deck"
+        />
+      </figure>
+    </header>
+
+    <section class="oracle-deck-section oracle-deck-origin" aria-labelledby="oracle-origin-title">
+      <div class="oracle-deck-origin-grid">
+        <div class="oracle-deck-copy oracle-deck-copy--origin">
+          <p class="oracle-deck-section-label">Origin</p>
+          <h2 id="oracle-origin-title">I created this deck while becoming.</h2>
+          <p class="oracle-deck-origin-opening">During a time when almost everything I understood to be my life had fallen away.</p>
+          <div class="oracle-deck-origin-loss">
+            <p>I lost my children.</p>
+            <p>My home.</p>
+            <p>My life as I knew it.</p>
+            <p>My identity.</p>
+          </div>
+          <p class="oracle-deck-emphasis">I had been erased.</p>
+          <p class="oracle-deck-origin-transition">And somewhere in the ashes, a different question began to emerge.</p>
+          <p class="oracle-deck-origin-question">Who am I becoming?</p>
+        </div>
+        <figure class="oracle-deck-origin-image">
+          <img
+            src={`${imageBase}/cards/emergence.jpg`}
+            width="1100"
+            height="1556"
+            alt="XXI. Emergence from The Sacred Becoming Oracle Deck"
+            loading="lazy"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="oracle-deck-section oracle-deck-spiral" aria-labelledby="oracle-spiral-title">
+      <div class="oracle-deck-spiral-heading">
+        <p class="oracle-deck-section-label">The Spiral</p>
+        <h2 id="oracle-spiral-title">Becoming is not linear.</h2>
+        <div class="oracle-deck-cadence" aria-label="The movement of becoming">
+          <span>We grieve.</span>
+          <span>We grow.</span>
+          <span>We surrender.</span>
+          <span>We create.</span>
+          <span>We rise.</span>
+        </div>
+        <p class="oracle-deck-spiral-return">And sometimes, we find ourselves grieving again.</p>
+      </div>
+      <figure class="oracle-deck-spiral-image">
+        <img
+          src={`${imageBase}/oracle-spiral-spread-textured.jpg`}
+          width="1448"
+          height="1086"
+          alt="Seven Sacred Becoming Oracle cards arranged on a warm, textured cream surface"
+          loading="lazy"
+        />
+      </figure>
+      <div class="oracle-deck-spiral-story">
+        <figure class="oracle-deck-spiral-art" aria-hidden="true">
+          <img
+            src={`${imageBase}/cards/divine_union.jpg`}
+            width="1600"
+            height="2263"
+            alt=""
+            loading="lazy"
+          />
+        </figure>
+        <div class="oracle-deck-spiral-story-content">
+          <p class="oracle-deck-spiral-declaration"><span>We are moving</span> <em>in a spiral.</em></p>
+          <p class="oracle-deck-spiral-question">Who are you becoming now?</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="oracle-deck-section oracle-deck-cards" aria-labelledby="oracle-cards-title">
+      <div class="oracle-deck-cards-intro">
+        <div class="oracle-deck-copy oracle-deck-copy--cards">
+          <p class="oracle-deck-section-label">The Cards</p>
+          <h2 id="oracle-cards-title">Every card is a mirror.</h2>
+        </div>
+      </div>
+      <div class="oracle-deck-archetypes" aria-label="Seven archetypes from The Sacred Becoming Oracle Deck">
+        <figure class="oracle-deck-archetype oracle-deck-archetype--longing">
+          <img src={`${imageBase}/cards/longing.jpg`} width="1100" height="1556" alt="IV. Longing" loading="lazy" />
+        </figure>
+        <figure class="oracle-deck-archetype oracle-deck-archetype--descent">
+          <img src={`${imageBase}/cards/descent.jpg`} width="1100" height="1556" alt="XIV. Descent" loading="lazy" />
+        </figure>
+        <figure class="oracle-deck-archetype oracle-deck-archetype--walking">
+          <img src={`${imageBase}/cards/walking_away.jpg`} width="1100" height="1556" alt="XXVII. Walking Away" loading="lazy" />
+        </figure>
+        <figure class="oracle-deck-archetype oracle-deck-archetype--messenger">
+          <img src={`${imageBase}/cards/messenger.jpg`} width="1100" height="1556" alt="XXXIII. Messenger" loading="lazy" />
+        </figure>
+        <figure class="oracle-deck-archetype oracle-deck-archetype--weaving">
+          <img src={`${imageBase}/cards/weaving.jpg`} width="1100" height="1556" alt="XI. Weaving" loading="lazy" />
+        </figure>
+        <figure class="oracle-deck-archetype oracle-deck-archetype--harmony">
+          <img src={`${imageBase}/cards/harmony.jpg`} width="1100" height="1556" alt="I. Harmony" loading="lazy" />
+        </figure>
+        <figure class="oracle-deck-archetype oracle-deck-archetype--creation">
+          <img src={`${imageBase}/cards/creation.jpg`} width="1100" height="1556" alt="VII. Creation" loading="lazy" />
+        </figure>
+      </div>
+      <div class="oracle-deck-card-threshold">
+        <p>Each archetype opens a threshold.</p>
+        <p>Each threshold asks you to look again,<br />for what is alive in you now.</p>
+      </div>
+    </section>
+
+    <section class="oracle-deck-section oracle-deck-practice" aria-labelledby="oracle-practice-title">
+      <div class="oracle-deck-practice-inner">
+        <div class="oracle-deck-practice-heading">
+          <h2 id="oracle-practice-title">How can I use the deck?</h2>
+        </div>
+        <div class="oracle-deck-practice-body">
+          <div class="oracle-deck-practice-cards" aria-hidden="true">
+            <img src={`${imageBase}/cards/weaving.jpg`} width="1100" height="1556" alt="" loading="lazy" />
+            <img src={`${imageBase}/cards/messenger.jpg`} width="1100" height="1556" alt="" loading="lazy" />
+            <img src={`${imageBase}/cards/longing.jpg`} width="1100" height="1556" alt="" loading="lazy" />
+          </div>
+          <div class="oracle-deck-practice-possibilities">
+            <p>Pull a single card for inspiration.</p>
+            <p>Ask a question and see what arises.</p>
+            <p>Use it on its own, in a spread, or as a clarifier in a tarot or oracle reading.</p>
+            <p>Bring an archetype into meditation, journaling, ritual, movement, or creative practice.</p>
+            <p>Keep a card on your altar. Carry one with you. Return to the cards as your own journey unfolds.</p>
+          </div>
+        </div>
+        <div class="oracle-deck-practice-closing">
+          <p>The cards do not change.</p>
+          <p>You do.</p>
+          <p>And so the spiral continues.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="oracle-deck-section oracle-deck-physical" aria-labelledby="oracle-physical-title">
+      <figure class="oracle-deck-physical-image">
+        <img
+          src={`${imageBase}/oracle-card-back-refined.jpg`}
+          width="1500"
+          height="1880"
+          alt="Sacred Becoming Oracle cards fanned among amethyst, rose quartz and labradorite"
+          loading="lazy"
+        />
+      </figure>
+      <div class="oracle-deck-copy oracle-deck-copy--physical">
+        <p class="oracle-deck-section-label">The Physical Deck</p>
+        <h2 id="oracle-physical-title">A deck born from art, archetype &amp; remembrance.</h2>
+        <p>Thirty-six richly illustrated cards.</p>
+        <p>A dark emerald and antique-gold back inspired by Art Nouveau ornamentation and the luminous decorative worlds of Klimt.</p>
+        <p>A collection of feminine archetypes, thresholds and transformations designed to be held, lived with and returned to.</p>
+        <div class="oracle-deck-signature">
+          <p>The Sacred Becoming</p>
+          <p>An Oracle Spiral of Transformation</p>
+          <p>Created by Vanessa Hylande.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="oracle-deck-section oracle-deck-final" aria-labelledby="oracle-final-title">
+      <figure class="oracle-deck-final-image" aria-hidden="true">
+        <img
+          src={`${imageBase}/oracle-creation-hero.jpg`}
+          width="1650"
+          height="2200"
+          alt=""
+          loading="lazy"
+        />
+      </figure>
+      <div class="oracle-deck-final-copy">
+        <p class="oracle-deck-section-label">Final Invitation</p>
+        <h2 id="oracle-final-title">Who are you becoming?</h2>
+        <p>The physical deck is currently being brought to life.</p>
+        <p>Join the waitlist and be among the first to know when it is ready.</p>
+        <a class="oracle-deck-final-cta" href="#oracle-waitlist" data-oracle-waitlist-link>Join the Waitlist</a>
+        <p class="oracle-deck-final-line">The journey has already begun.</p>
+      </div>
+    </section>
+  </main>
+
+  <script is:inline>
+    document.querySelectorAll('[data-oracle-waitlist-link]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        const waitlist = document.querySelector('#oracle-waitlist [data-oracle-waitlist]');
+        if (!waitlist) return;
+        event.preventDefault();
+        waitlist.open = true;
+        waitlist.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+    });
+  </script>
+</Base>

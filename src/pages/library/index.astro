@@ -1,29 +1,34 @@
 ---
 import Base from '../../layouts/Base.astro';
+import LibraryHeader from '../../components/LibraryHeader.astro';
 ---
 
 <Base
   title="My Ritual Library | Tarot Flower"
   description="Return to the Rituals you own and access your private guides, music, and movement practices."
+  showBanner={false}
+  showNavigation={false}
+  showFooter={false}
 >
   <main class="library-page">
-    <header class="readings-hero container library-header">
-      <div>
-        <h1>My Ritual Library</h1>
-        <p>A private home for every ritual you own.</p>
-      </div>
-      <button class="library-logout" type="button" data-library-logout>Sign Out</button>
+    <LibraryHeader authenticated={true} />
+    <header class="library-welcome">
+      <p class="library-kicker">My Ritual Library</p>
+      <h1>Welcome back.</h1>
+      <p class="library-welcome-declaration">This space is yours.</p>
+      <div class="library-gold-mark" aria-hidden="true"></div>
+      <p class="library-welcome-support">Your sacred space for remembering, becoming, and returning.</p>
     </header>
 
-    <section class="library-shell container" data-library-shell>
+    <section class="library-shell" aria-label="Your purchased experiences" data-library-shell>
       <p class="library-loading" data-library-loading>Opening your library…</p>
       <div class="library-grid" hidden data-library-grid></div>
       <div class="library-empty" hidden data-library-empty>
-        <h2>Your library is ready for its first ritual.</h2>
-        <p>When a Ritual is purchased with this email, it will appear here permanently.</p>
-        <a class="shop-button" href="/shop/">Explore the Shop</a>
+        <h2>No purchased experiences are connected to this email yet.</h2>
+        <p>If you used another email at checkout, sign out and request a new link with that address.</p>
       </div>
     </section>
+    <footer class="library-private-footer"><span>Tarot Flower</span><small>Your private sacred space</small></footer>
   </main>
 
   <script src="/scripts/library.js" is:inline></script>

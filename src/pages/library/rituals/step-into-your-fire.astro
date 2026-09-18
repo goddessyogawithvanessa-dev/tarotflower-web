@@ -1,168 +1,260 @@
 ---
 import RitualExperience from '../../../layouts/RitualExperience.astro';
-import RitualStep from '../../../components/ritual-experience/RitualStep.astro';
-import VideoPlaceholder from '../../../components/ritual-experience/VideoPlaceholder.astro';
 import { ritualExperiences } from '../../../data/ritualExperiences';
+
+const fireRitual = ritualExperiences.fire;
+const imageBase = '/images/digital-rituals/step-into-the-fire';
 ---
 
 <RitualExperience
   title="Step Into Your Fire | My Ritual Library"
   description="A private ceremonial journey within the Tarot Flower Ritual Library."
-  image={ritualExperiences.fire.image}
+  image={fireRitual.image}
 >
-  <main class="ceremonial-journey" data-ritual-experience data-product-slug="step-into-your-fire">
-    <div class="ceremonial-loading" data-ritual-loading>
-      <span class="ceremonial-ember" aria-hidden="true"></span>
+  <main class="fire-ritual-experience digital-ritual-page--fire" data-ritual-experience data-product-slug="step-into-your-fire">
+    <div class="fire-ritual-loading" data-ritual-loading>
+      <span class="fire-ritual-ember" aria-hidden="true"></span>
       <p>Opening the ritual…</p>
     </div>
 
-    <div class="ceremonial-book" data-ritual-content hidden>
-      <div class="ceremonial-masthead" aria-hidden="true">
-        <span>Step Into Your Fire</span>
-        <i></i>
-        <span class="ceremonial-progress" data-ritual-progress>1 / 6</span>
-      </div>
-
-      <RitualStep id="opening" tone="dark" className="ceremonial-opening">
+    <article class="fire-ritual-page" data-ritual-content hidden>
+      <header class="fire-ritual-opening">
         <img
-          class="ceremonial-full-bleed-image"
-          src={ritualExperiences.fire.image}
-          alt={ritualExperiences.fire.imageAlt}
+          class="fire-ritual-opening-image"
+          src={fireRitual.image}
+          width={fireRitual.width}
+          height={fireRitual.height}
+          alt={fireRitual.imageAlt}
         />
-        <div class="ceremonial-overlay"></div>
-        <a class="ceremonial-library-link" href="/library/">My Ritual Library</a>
-        <div class="ceremonial-opening-copy">
-          <p class="ceremonial-eyebrow">Welcome</p>
-          <h1>Step Into Your Fire</h1>
-          <p class="ceremonial-question">Are you ready to ignite your fire?</p>
-          <div class="ceremonial-opening-introduction">
-            <p>You have already made the hardest decision of all: <strong>you chose yourself.</strong> You chose to invest in yourself, to reclaim your own power, and to step into the fire.</p>
-            <p>As we move through this ritual together, remember that there is no right or wrong way to practice a ritual. I'm sharing with you the way I practice my rituals, but you already know how to practice magic. Listen to your own soul. Listen to your intuition. Give yourself permission to dive deep.</p>
-            <p><strong>All feelings are messengers.</strong> The dark, painful, and scary feelings have as much value as the beautiful ones. If shame comes up, acknowledge it. Hold it, respect it, honor it, and release it. If fear comes up, take note. Write it in your journal. Listen to what it has to tell you.</p>
-            <p>Nobody is watching you. <strong>It's just you and me in this room.</strong> You and your Goddess Guide. Your connection to the divine.</p>
-            <p>If you feel inspired to do something completely different, do it. This isn't a formula. This isn't a prescription. Listen to yourself and follow what arises.</p>
-            <p>I'm just sharing my way with you, so that you can find yours.</p>
-            <p><strong>Let's ignite the fire - our inner fire.</strong></p>
+        <div class="fire-ritual-opening-shade" aria-hidden="true"></div>
+        <a class="fire-ritual-library-link" href="/library/">My Ritual Library</a>
+        <div class="fire-ritual-opening-copy">
+          <p class="fire-ritual-eyebrow">STEP INTO YOUR FIRE</p>
+          <h1>Welcome,<br />Warrior Goddess.</h1>
+          <p class="fire-ritual-opening-answer">You answered the call.</p>
+        </div>
+      </header>
+
+      <section class="fire-ritual-section fire-sacred-law" aria-labelledby="sacred-law-title">
+        <div class="fire-ritual-row fire-sacred-law-composition">
+          <p class="fire-ritual-eyebrow">WHITE MAGIC · DO NO HARM</p>
+          <h2 id="sacred-law-title">THE SACRED LAW</h2>
+          <p class="fire-sacred-law-opening">Don't underestimate your magic.</p>
+          <p class="fire-sacred-law-power">Our intentions are powerful.</p>
+          <div class="fire-sacred-law-return">
+            <p>The law of threefold return is simple: whatever energy you put into the world shall come back to you threefold.</p>
+            <p>If you bring love, abundance, mercy, forgiveness, joy, gratitude—it shall come back to you threefold.</p>
           </div>
-          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Begin</button>
-        </div>
-      </RitualStep>
-
-      <RitualStep id="initiation" tone="dark" className="ceremonial-threshold-page">
-        <div class="ceremonial-threshold-art">
-          <img src="/images/digital-rituals/step-into-the-fire/fire-goddess-front-flipped.jpg" alt="Fire goddess oracle artwork" />
-        </div>
-        <div class="ceremonial-threshold-copy">
-          <p class="ceremonial-eyebrow">Initiation</p>
-          <h2>Initiation</h2>
-          <p class="ceremonial-invocation">I Choose</p>
-          <p>Enter the ritual and choose the intention you are ready to carry forward.</p>
-          <VideoPlaceholder
-            label="Initiation ritual"
-            src="/api/library/files/step-into-your-fire/video-initiation"
-          />
-          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Move into Destruction</button>
-        </div>
-      </RitualStep>
-
-      <RitualStep id="destruction" tone="dark" className="ceremonial-threshold-page ceremonial-threshold-reverse">
-        <div class="ceremonial-threshold-art">
-          <img src="/images/digital-rituals/step-into-the-fire/burn-oracle-card-crisp.png" alt="Burn oracle card" />
-        </div>
-        <div class="ceremonial-threshold-copy">
-          <p class="ceremonial-eyebrow">Destruction</p>
-          <h2>Destruction</h2>
-          <p class="ceremonial-invocation">I Release</p>
-          <p>Meet what is ready to be released and offer it to the fire.</p>
-          <VideoPlaceholder
-            label="Destruction ritual"
-            src="/api/library/files/step-into-your-fire/video-destruction"
-          />
-          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Begin the Embodiment</button>
-        </div>
-      </RitualStep>
-
-      <RitualStep id="guardian" tone="dark" className="ceremonial-threshold-page">
-        <div class="ceremonial-threshold-art">
-          <img src="/images/digital-rituals/step-into-the-fire/guardian-oracle-card.png" alt="Guardian oracle card" />
-        </div>
-        <div class="ceremonial-threshold-copy">
-          <p class="ceremonial-eyebrow">Guardian</p>
-          <h2>Guardian</h2>
-          <p class="ceremonial-invocation">I Embody</p>
-          <p>Rise into the body and embody the energy you are ready to claim.</p>
-          <VideoPlaceholder
-            label="Guardian embodiment ritual"
-            src="/api/library/files/step-into-your-fire/video-guardian"
-          />
-          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Receive</button>
-        </div>
-      </RitualStep>
-
-      <RitualStep id="freedom" tone="dark" className="ceremonial-threshold-page ceremonial-threshold-reverse">
-        <div class="ceremonial-threshold-art">
-          <img src="/images/digital-rituals/step-into-the-fire/freedom-oracle-card.png" alt="Freedom oracle card" />
-        </div>
-        <div class="ceremonial-threshold-copy">
-          <p class="ceremonial-eyebrow">Freedom</p>
-          <h2>Freedom</h2>
-          <p class="ceremonial-invocation">I Receive</p>
-          <p>Become still and receive the sound bath.</p>
-          <VideoPlaceholder
-            label="Freedom sound bath"
-            quiet={true}
-            src="/api/library/files/step-into-your-fire/video-freedom"
-          />
-          <button class="ceremonial-button ceremonial-button-light" type="button" data-ritual-next>Receive the Closing Blessing</button>
-        </div>
-      </RitualStep>
-
-      <RitualStep id="closing" tone="light" className="ceremonial-closing-page">
-        <div class="ceremonial-closing-copy">
-          <p class="ceremonial-eyebrow">Closing Blessing</p>
-          <h2>Blessing</h2>
-          <p class="ceremonial-journal-invitation">Take a few quiet moments to journal what you chose, released, embodied, and received.</p>
-          <p class="ceremonial-blessing">
-            I left my shadow behind at the altar of destruction.<br />
-            It burned away to make space for the light.<br />
-            And I grow my fire, my flame, my guardian.<br />
-            I am my guardian.<br />
-            I stand tall, I stand proud.<br />
-            I am, I walk, I fight, I guide, I burn, I bring the light.<br />
-            Charge forward with your light.<br />
-            Leave the ashes behind.<br />
-            Rise up and shine.<br />
-            The ancient remembrance be your guide.<br />
-            You rise.<br />
-            You are between worlds.<br />
-            You walk between worlds.<br />
-            You walk, you fly.
-          </p>
-          <div class="ceremonial-circle-guidance">
-            <p class="ceremonial-eyebrow">Open the Circle</p>
-            <p>When you are ready, slowly walk the circle three times in reverse, opening the sacred space and returning its energy to the world.</p>
+          <div class="fire-sacred-law-shadow">
+            <p>Sometimes we carry anger, resentment, rage, or other negative energies that may be just and righteous. We can bring those shadows to the altar. We can sacrifice them. We can release them.</p>
+            <p class="fire-sacred-law-not-intention">But they are not our intention.</p>
           </div>
-          <div class="ceremonial-companions-placeholder" aria-label="Companion downloads">
-            <p>Companion Downloads</p>
-            <a href="/api/library/files/step-into-your-fire/guide?download=1">Ritual Guide</a>
-            <a href="/api/library/files/step-into-your-fire/music?download=1">Original Music</a>
-            <a href="/api/library/files/step-into-your-fire/movement?download=1">Movement Practice</a>
-          </div>
-          <a class="ceremonial-button" href="/library/">Return to My Rituals</a>
+          <p class="fire-sacred-law-altar">We approach the altar in purity and love.</p>
+          <p class="fire-sacred-law-sacrifice">At the threshold, we offer a sacrifice. But it is a sacrifice of something that we no longer wish to carry. A sacrifice we make for the benefit of ourselves and others.</p>
         </div>
-      </RitualStep>
+      </section>
 
-      <button class="ceremonial-previous" type="button" data-ritual-previous hidden aria-label="Return to the previous ritual page">
-        <span aria-hidden="true">←</span> Return
-      </button>
-    </div>
+      <section class="fire-ritual-section fire-ancient-remembrance" aria-labelledby="ancient-remembrance-title">
+        <div class="fire-ritual-wide-row fire-ancient-grid">
+          <figure class="fire-ritual-art fire-ancient-art">
+            <img src={`${imageBase}/fire-goddess-front-flipped.jpg`} width="1050" height="1500" alt="Fire goddess oracle artwork" loading="lazy" />
+          </figure>
+          <div class="fire-ancient-copy">
+            <h2 id="ancient-remembrance-title">ANCIENT REMEMBRANCE</h2>
+            <p>I'm sharing my practice with you as a guide—to inspire you, awaken what you already know, and help you discover your own.</p>
+            <p>Listen to your soul. Trust your intuition. If you feel inspired to do something differently, follow what arises.</p>
+            <p class="fire-ancient-knowing">You already know how to practice magic.</p>
+            <p class="fire-ancient-yours">Your magic is yours.</p>
+            <p class="fire-ancient-sovereign">YOU ARE SOVEREIGN.</p>
+          </div>
+        </div>
+      </section>
 
-    <section class="ceremonial-access-error" hidden data-ritual-error>
-      <p class="ceremonial-eyebrow">Private ritual</p>
+      <section class="fire-ritual-section fire-radical-honesty" aria-labelledby="radical-honesty-title">
+        <div class="fire-ritual-row fire-radical-composition">
+          <h2 id="radical-honesty-title">RADICAL HONESTY</h2>
+          <p class="fire-radical-surrender">Beautiful Surrender</p>
+          <p class="fire-radical-intro">This ritual asks for radical honesty.</p>
+          <p>Nobody else needs to know what you write. Nobody is watching. This is your sacred space.</p>
+          <p class="fire-radical-depth">Go as deep as you're willing to go.</p>
+          <p class="fire-radical-power">The deeper you go, the more powerful the magic becomes.</p>
+          <p class="fire-radical-command">Be honest with yourself.</p>
+          <p class="fire-radical-release">And then surrender.</p>
+          <p class="fire-radical-closing">We sacrifice what we no longer wish to carry. We release it without trying to control the outcome.</p>
+        </div>
+      </section>
+
+      <section class="fire-ritual-section fire-prepare" aria-labelledby="prepare-ritual-title">
+        <div class="fire-ritual-row fire-prepare-introduction">
+          <h2 id="prepare-ritual-title">PREPARE YOUR RITUAL</h2>
+          <p class="fire-prepare-lede">Set aside at least one uninterrupted hour for yourself.</p>
+          <p>Once we <strong>CREATE THE CIRCLE</strong>, we will move through the complete ritual together before <strong>OPENING IT AGAIN.</strong></p>
+          <p>Give yourself enough time to prepare your space, move through the ritual without rushing, and return gently when it's complete.</p>
+          <p class="fire-prepare-protect">Turn off your phone. Close the door. Protect this time.</p>
+        </div>
+
+        <div class="fire-ritual-wide-row fire-altar-grid">
+          <figure class="fire-ritual-art fire-altar-art">
+            <img src={`${imageBase}/destruction-video-thumbnail.jpg`} width="1920" height="1080" alt="Vanessa's ritual altar with candles and a smoking copalera" loading="lazy" />
+          </figure>
+          <div class="fire-altar-copy">
+            <p class="fire-ritual-eyebrow">THE ALTAR OF YOUR SACRED BECOMING</p>
+            <h3>At the center of your circle, create something beautiful.</h3>
+            <p>This is the sacred center of the ritual: an altar to your sacred becoming, your power, your fire, and the divine feminine within you.</p>
+            <p>When the ritual begins, we will walk the circle three times, cleansing the energy and creating sacred space around the altar.</p>
+          </div>
+        </div>
+
+        <div class="fire-ritual-row fire-materials">
+          <div class="fire-materials-group">
+            <h3>WHAT YOU'LL NEED</h3>
+            <ul>
+              <li>Your ritual companion or journal</li>
+              <li>A pen</li>
+              <li>A candle and something to light it</li>
+              <li>A fireproof bowl, cauldron, copalera, large ashtray, or other appropriate fireproof vessel</li>
+            </ul>
+          </div>
+          <div class="fire-materials-group fire-materials-optional">
+            <h3>OPTIONAL</h3>
+            <ul>
+              <li>Incense</li>
+              <li>Sage</li>
+              <li>Palo Santo</li>
+              <li>Copal</li>
+              <li>Anything else you love for cleansing your circle</li>
+            </ul>
+          </div>
+          <p class="fire-materials-space">You also need enough physical space to move freely during the ritual.</p>
+        </div>
+      </section>
+
+      <section class="fire-ritual-section fire-let-us-begin" aria-labelledby="let-us-begin-title">
+        <div class="fire-threshold-glow" aria-hidden="true"></div>
+        <div class="fire-ritual-row fire-threshold-copy">
+          <h2 id="let-us-begin-title">LET US BEGIN</h2>
+          <div class="fire-threshold-preparation">
+            <p>Choose the space where you will practice.</p>
+            <p>Gather what you need and create your Altar of Sacred Becoming at the center of your circle.</p>
+            <p>Take a moment to become still.</p>
+            <p>Bring your focus inward.</p>
+            <p>Remember your sovereignty and the spirit in which you enter this ritual.</p>
+            <p>Keep your companion or journal and a pen beside you.</p>
+            <p>When I invite you to write, return to it.</p>
+          </div>
+
+          <div class="fire-threshold-map" aria-labelledby="four-thresholds-title">
+            <h3 id="four-thresholds-title">THE FOUR THRESHOLDS</h3>
+            <ol>
+              <li><strong>INITIATION</strong><span>I Choose</span></li>
+              <li><strong>DESTRUCTION</strong><span>I Release</span></li>
+              <li><strong>GUARDIAN</strong><span>I Embody</span></li>
+              <li><strong>FREEDOM</strong><span>I Receive</span></li>
+            </ol>
+          </div>
+
+          <button class="fire-press-play" type="button" data-video-cta aria-controls="complete-ritual-video">
+            <span>WHEN YOU'RE READY,</span>
+            <strong>PRESS PLAY.</strong>
+          </button>
+          <p class="fire-inner-fire">Let's ignite the fire—our inner fire.</p>
+        </div>
+      </section>
+
+      <section class="fire-ritual-video-section" aria-label="Final unified ritual video">
+        <div class="fire-ritual-wide-row">
+          <div id="complete-ritual-video" class="fire-unified-video-placeholder" tabindex="-1" data-unified-video-target>
+            <span class="fire-video-play-mark" aria-hidden="true"></span>
+            <p>FINAL UNIFIED STEP INTO YOUR FIRE RITUAL VIDEO</p>
+            <small>VIDEO PLACEHOLDER</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="fire-ritual-section fire-blessing" aria-labelledby="blessing-title">
+        <div class="fire-ritual-row fire-blessing-composition">
+          <h2 id="blessing-title">YOUR BLESSING</h2>
+          <div class="fire-blessing-text">
+            <p>I left my shadow behind at the altar of destruction.</p>
+            <p>It burned away to make space for the light.</p>
+            <p>And I grow my fire, my flame, my guardian.</p>
+            <p>I am my guardian.</p>
+            <p>I stand tall, I stand proud.</p>
+            <p>I am, I walk, I fight, I guide, I burn, I bring the light.</p>
+            <p>Charge forward with your light.</p>
+            <p>Leave the ashes behind.</p>
+            <p>Rise up and shine.</p>
+            <p>The ancient remembrance be your guide.</p>
+            <p>You rise.</p>
+            <p>You are between worlds.</p>
+            <p>You walk between worlds.</p>
+            <p>You walk, you fly.</p>
+            <p>Carry the fire forward with you.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="fire-ritual-section fire-open-circle" aria-labelledby="open-circle-title">
+        <div class="fire-ritual-row">
+          <h2 id="open-circle-title">OPEN THE CIRCLE</h2>
+          <p>Walk your circle three times in reverse.</p>
+          <p>With each revolution, offer gratitude for what you have released, what you have received, and your own sacred becoming.</p>
+          <p class="fire-circle-open">The circle is open.</p>
+        </div>
+      </section>
+
+      <section class="fire-ritual-section fire-reflections" aria-labelledby="reflections-title">
+        <div class="fire-ritual-row">
+          <h2 id="reflections-title">REFLECTIONS &amp; MESSAGES</h2>
+          <div class="fire-reflections-introduction">
+            <p>Keep this journal beside you.</p>
+            <p>The ritual may continue to speak through dreams, feelings, memories, insights, or messages.</p>
+            <p>When something comes, write it down.</p>
+          </div>
+          <div class="fire-reflection-whispers" aria-label="Reflection questions">
+            <p>What did you see?</p>
+            <p>What did you feel?</p>
+            <p>What did you remember?</p>
+            <p>What did you dream of?</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="fire-ritual-section fire-downloads" aria-labelledby="downloads-title">
+        <div class="fire-ritual-row">
+          <h2 id="downloads-title">DOWNLOADS</h2>
+          <div class="fire-download-links">
+            <a class="fire-download-link" href="/api/library/files/step-into-your-fire/guide?download=1">DOWNLOAD RITUAL COMPANION</a>
+            <span class="fire-download-link is-pending" aria-disabled="true">
+              DOWNLOAD VIDEO
+              <small>FINAL UNIFIED VIDEO PENDING</small>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="fire-ritual-section fire-continuation" aria-labelledby="continuation-title">
+        <div class="fire-ritual-row">
+          <h2 id="continuation-title">CONTINUE THE SACRED BECOMING</h2>
+          <nav class="fire-continuation-links" aria-label="Continue the Sacred Becoming">
+            <a href="/shop/#shop-coming-soon-title">Sacred Becoming Oracle Deck</a>
+            <a href="/rituals/"><strong>Elemental Rituals</strong><span>Fire · Water · Earth · Air · Aether</span></a>
+            <a href="/sacred-becoming/mentorship/">Sacred Becoming Mentorship</a>
+            <a href="/goddess-yoga-retreats/">Goddess Yoga Retreats</a>
+            <a href="/readings-with-vanessa/">Tarot Readings</a>
+            <a href="/goddess-embodiment-practices/">Vanessa Hylande</a>
+          </nav>
+          <a class="fire-return-library" href="/library/">Return to My Ritual Library</a>
+        </div>
+      </section>
+    </article>
+
+    <section class="fire-ritual-access-error" hidden data-ritual-error>
+      <p class="fire-ritual-eyebrow">PRIVATE RITUAL</p>
       <h1>This ritual isn’t available in the current library session.</h1>
-      <a class="ceremonial-button" href="/library/login/">Email My Magic Link</a>
+      <a class="digital-ritual-button" href="/library/login/">Email My Magic Link</a>
     </section>
   </main>
 
-  <script src="/scripts/ritual-library.js" is:inline></script>
+  <script src="/scripts/fire-ritual-page.js" is:inline></script>
 </RitualExperience>

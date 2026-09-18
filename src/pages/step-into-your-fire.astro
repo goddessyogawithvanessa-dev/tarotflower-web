@@ -3,7 +3,6 @@ import Base from '../layouts/Base.astro';
 import { ritualExperiences } from '../data/ritualExperiences';
 
 const fireRitual = ritualExperiences.fire;
-const productURL = fireRitual.purchaseHref!;
 const imageBase = '/images/digital-rituals/step-into-the-fire';
 ---
 <Base
@@ -132,8 +131,14 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
           <h2>Leave the Ashes Behind.<br />Rise Up and Shine.</h2>
           <p class="fire-closing-magic">Let’s make some magic together.</p>
           <p class="fire-format-clarification">One-hour guided video ritual · Yours to experience anytime</p>
-          <p class="fire-price"><strong>{fireRitual.priceLabel}</strong><br />One-time purchase · Permanent access</p>
-          <a class="digital-ritual-button" href={productURL}>Begin the Ritual</a>
+          {fireRitual.purchasable ? (
+            <>
+              <p class="fire-price"><strong>{fireRitual.priceLabel}</strong><br />One-time purchase · Permanent access</p>
+              <a class="digital-ritual-button" href={fireRitual.purchaseHref}>Begin the Ritual</a>
+            </>
+          ) : (
+            <span class="digital-ritual-button digital-ritual-button--disabled" aria-disabled="true">Coming Soon</span>
+          )}
         </div>
         <figure class="fire-closing-art">
           <img src={`${imageBase}/fire-goddess-risen.jpg`} width="1024" height="1024" alt="Luminous Fire Goddess holding flame, radiant and transformed" loading="lazy" />

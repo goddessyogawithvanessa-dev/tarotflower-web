@@ -32,10 +32,10 @@ const comingSoonRituals = ritualExperienceList.filter(ritual => ritual.key !== '
             />
           </a>
           <div class="shop-ritual-featured-copy">
-            <p class="shop-product-label">Available now</p>
+            <p class="shop-product-label">{fireRitual.availability}</p>
             <h3><a href={fireRitual.href}>{fireRitual.title}</a></h3>
             <p class="shop-product-themes">{fireRitual.themes}</p>
-            <p class="shop-price">{fireRitual.priceLabel}</p>
+            {fireRitual.purchasable && <p class="shop-price">{fireRitual.priceLabel}</p>}
             <a class="shop-button" href={fireRitual.href}>View Ritual</a>
           </div>
         </article>
@@ -109,16 +109,16 @@ const comingSoonRituals = ritualExperienceList.filter(ritual => ritual.key !== '
         </header>
 
         <article class="shop-oracle">
-          <div class="shop-oracle-art">
+          <a class="shop-oracle-art" href="/sacred-becoming/oracle-deck/" aria-label="The Sacred Becoming Oracle Deck">
             <img
               src="/images/homepage/07_creation.png.png"
               alt="Creation card artwork from The Sacred Becoming Oracle"
               loading="lazy"
             />
-          </div>
+          </a>
           <div class="shop-oracle-copy">
             <p class="shop-product-label">Coming Soon</p>
-            <h3>Sacred Becoming Oracle</h3>
+            <h3><a href="/sacred-becoming/oracle-deck/">Sacred Becoming Oracle</a></h3>
             <p>I created this oracle deck while walking my own path of becoming. It was my companion. Now, I’m bringing it to life as a 36-card deck to accompany you on your own journey.</p>
             <p>Every card is a mirror. Who are you becoming?</p>
             <OracleWaitlist />

@@ -31,6 +31,7 @@ CREATE TABLE IF NOT EXISTS purchases (
   currency TEXT NOT NULL,
   payment_status TEXT NOT NULL,
   purchased_at INTEGER NOT NULL,
+  access_claimed_at INTEGER,
   FOREIGN KEY (customer_email) REFERENCES customers(email),
   FOREIGN KEY (product_id) REFERENCES products(id)
 );
@@ -72,11 +73,14 @@ CREATE INDEX IF NOT EXISTS entitlements_customer_active_idx
 CREATE TABLE IF NOT EXISTS magic_links (
   token_hash TEXT PRIMARY KEY,
   customer_email TEXT NOT NULL COLLATE NOCASE,
+  product_id TEXT,
+  destination_path TEXT,
   requested_ip_hash TEXT NOT NULL,
   created_at INTEGER NOT NULL,
   expires_at INTEGER NOT NULL,
   consumed_at INTEGER,
-  FOREIGN KEY (customer_email) REFERENCES customers(email)
+  FOREIGN KEY (customer_email) REFERENCES customers(email),
+  FOREIGN KEY (product_id) REFERENCES products(id)
 );
 
 CREATE INDEX IF NOT EXISTS magic_links_customer_created_idx
