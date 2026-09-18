@@ -175,20 +175,20 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
       <li><span>RITUALS</span>
         <ul>
           <li><a href="/step-into-your-fire">Step Into Your Fire</a></li>
-          <li><a href="/flow-like-the-goddess">Flow Like the Goddess</a></li>
-          <li><a href="/awaken-the-element-of-air">Awaken the Element of Air</a></li>
-          <li><a href="/root-into-the-earth">Root Into the Earth</a></li>
         </ul>
       </li>
       <li><a href="/daily-tarot">WITCH'S JOURNAL</a></li>
       <li><a href="/shop">SHOP</a></li>
     </ul>
   </nav>
-  <a href="#mobile-nav" class="hamburger" aria-label="Open menu">
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/>
-    </svg>
-  </a>
+  <div class="mobile-nav-bar">
+    <a class="mobile-nav-wordmark" href="/" aria-label="Tarot Flower Home">TAROT FLOWER</a>
+    <a href="#mobile-nav" class="hamburger" aria-label="Open menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/>
+      </svg>
+    </a>
+  </div>
 
   <svg style="display:none">
     <filter id="btn-glass">
@@ -200,6 +200,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
 
   <nav class="desktop-nav">
     <div class="nav-inner">
+      <a class="nav-wordmark" href="/" aria-label="Tarot Flower Home">TAROT FLOWER</a>
       <div class="nav-dropdown">
         <button type="button" class="nav-parent-trigger" aria-haspopup="true">TAROT <span class="caret">&#9662;</span></button>
         <div class="dropdown-menu dropdown-mega">
@@ -323,9 +324,6 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
         <button type="button" class="nav-parent-trigger" aria-haspopup="true">RITUALS <span class="caret">&#9662;</span></button>
         <div class="dropdown-menu">
           <a href="/step-into-your-fire">Step Into Your Fire</a>
-          <a href="/flow-like-the-goddess">Flow Like the Goddess</a>
-          <a href="/awaken-the-element-of-air">Awaken the Element of Air</a>
-          <a href="/root-into-the-earth">Root Into the Earth</a>
         </div>
       </div>
       <a href="/daily-tarot">WITCH'S JOURNAL</a>
@@ -415,7 +413,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
     var mobileNav = document.querySelector('#mobile-nav');
     if (mobileNav) {
       var menu = new MmenuLight(mobileNav, '(max-width: 768px)');
-      var navigator = menu.navigation({ title: 'Tarot Flower', theme: 'light' });
+      var navigator = menu.navigation({ title: 'Tarot Flower', theme: 'dark' });
       var drawer = menu.offcanvas({ position: 'left' });
       document.querySelector('a.hamburger')?.addEventListener('click', (e) => {
         e.preventDefault();
