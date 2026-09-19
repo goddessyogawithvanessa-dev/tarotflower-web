@@ -6,12 +6,7 @@
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    "run_worker_first": [
-      "/api/*",
-      "/library/auth*",
-      "/library/claim*",
-      "/library/rituals/*"
-    ]
+    "run_worker_first": true
   },
   "d1_databases": [
     {
