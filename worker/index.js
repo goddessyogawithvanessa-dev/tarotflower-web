@@ -36,6 +36,11 @@ export default {
 async function routeRequest(request, env, ctx) {
   const url = new URL(request.url);
 
+  if (url.protocol === 'http:' && (url.hostname === 'tarotflower.com' || url.hostname === 'www.tarotflower.com')) {
+    url.protocol = 'https:';
+    return Response.redirect(url.toString(), 301);
+  }
+
   if (request.method === 'GET' && url.pathname === '/api/library/config') {
     return json({
       turnstileSiteKey: env.TURNSTILE_SITE_KEY || '',
