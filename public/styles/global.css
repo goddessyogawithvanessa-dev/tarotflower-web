@@ -200,7 +200,7 @@ body {
 }
 
 .oracle-deck-threshold-invitation {
-  padding: clamp(64px, 7vw, 96px) 24px clamp(54px, 6vw, 82px);
+  padding: clamp(64px, 7vw, 96px) 24px clamp(28px, 3.2vw, 44px);
   background: var(--oracle-ivory);
 }
 
@@ -289,6 +289,10 @@ body {
 .oracle-deck-origin {
   padding: clamp(88px, 11vw, 170px) max(5vw, 28px);
   background: var(--oracle-ivory);
+}
+
+.oracle-deck-threshold-invitation + .oracle-deck-origin {
+  padding-top: clamp(50px, 6.2vw, 94px);
 }
 
 .oracle-deck-origin-grid {
@@ -984,7 +988,11 @@ body {
   }
 
   .oracle-deck-threshold-invitation {
-    padding: 54px 22px 34px;
+    padding: 54px 22px 18px;
+  }
+
+  .oracle-deck-threshold-invitation + .oracle-deck-origin {
+    padding-top: 42px;
   }
 
   .oracle-deck-threshold-opening {
