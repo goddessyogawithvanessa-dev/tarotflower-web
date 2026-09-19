@@ -59,6 +59,7 @@ if (schemaType === 'Article') {
   pageSchema.author = { '@id': creatorId };
   pageSchema.publisher = { '@id': organizationId };
   pageSchema.mainEntityOfPage = { '@id': webpageId };
+  if (socialImageURL) pageSchema.image = socialImageURL.href;
   if (datePublished) pageSchema.datePublished = toIsoDate(datePublished);
   if (dateModified) pageSchema.dateModified = toIsoDate(dateModified);
 }
