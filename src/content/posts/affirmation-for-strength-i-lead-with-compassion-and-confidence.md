@@ -16,7 +16,7 @@ True strength is not bold, and it doesn't boast. True strength doesn't need to b
 
 Remember this as you meditate on this positive **affirmation for empowerment**. That is the way of [The Emperor](/the-emperor-tarot) of the Major Arcana.
 
-Breathe into that **fire** in your **solar plexus chakra** and [be the fire](/be-the-fire). Allow it to shine. Allow it to grow. And in your **kindness** and in your **compassion**, you can show true leadership.
+Breathe into that **fire** in your **solar plexus chakra** and [be the fire](/solar-plexus-chakra-affirmations-be-the-fire-for-a-passionate-life/). Allow it to shine. Allow it to grow. And in your **kindness** and in your **compassion**, you can show true leadership.
 
 This is the energy that The Emperor of the tarot brings when he is in his benevolent manifestation. And this is what we should focus on when we strive to embody the positive traits of this amazing archetype. Much like the woman and the lion on the Strength tarot card, true power is not brute force.
 

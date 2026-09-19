@@ -10,6 +10,15 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
   description="A guided fire ritual with candle ceremony, journaling, embodied movement, original music, sound bath meditation, and permanent access."
   image={fireRitual.image}
   showBanner={false}
+  additionalSchema={{
+    '@type': 'Product',
+    '@id': 'https://tarotflower.com/step-into-your-fire/#product',
+    name: fireRitual.title,
+    description: 'A guided digital fire ritual for courage, confidence, and transformation.',
+    image: `https://tarotflower.com${fireRitual.image}`,
+    url: 'https://tarotflower.com/step-into-your-fire/',
+    brand: { '@id': 'https://tarotflower.com/#organization' },
+  }}
 >
   <main class="digital-ritual-page digital-ritual-page--fire">
     <header class="fire-hero">

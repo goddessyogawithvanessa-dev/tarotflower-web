@@ -1,0 +1,11 @@
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+
+/api/*
+  X-Robots-Tag: noindex, nofollow
+
+/checkout/*
+  X-Robots-Tag: noindex, nofollow
+
+/library/*
+  X-Robots-Tag: noindex, nofollow

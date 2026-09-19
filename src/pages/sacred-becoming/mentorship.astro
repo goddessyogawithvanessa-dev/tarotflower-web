@@ -18,6 +18,20 @@ const thresholds = [
   title="Sacred Becoming Mentorship | Tarot Flower"
   description="Sacred Becoming is Vanessa Hylande's private one-on-one mentorship journey for reconnecting with your authentic voice and creating a life that truly feels like yours."
   showBanner={false}
+  additionalSchema={{
+    '@type': 'Service',
+    '@id': 'https://tarotflower.com/sacred-becoming/mentorship/#service',
+    name: 'Sacred Becoming private mentorship',
+    url: 'https://tarotflower.com/sacred-becoming/mentorship/',
+    provider: { '@id': 'https://tarotflower.com/#vanessa-hylande' },
+    offers: {
+      '@type': 'Offer',
+      price: '2500',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      url: sacredBecomingCheckoutUrl,
+    },
+  }}
 >
   <main class="becoming-page becoming-temple">
     <section class="becoming-hero container">

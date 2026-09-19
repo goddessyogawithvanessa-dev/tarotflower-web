@@ -5,7 +5,7 @@ import EvergreenEditorialJourney from '../components/EvergreenEditorialJourney.a
 import { evergreenJourneyBySlug } from '../data/evergreenJourneys';
 import { ritualExperiences } from '../data/ritualExperiences';
 
-const { title, slug, date, categories = [], original_url, seo_title, seo_description, seo_image, seo_image_alt, seo_image_width, seo_image_height } = Astro.props;
+const { title, slug, date, modified, content_type, categories = [], original_url, seo_title, seo_description, seo_image, seo_image_alt, seo_image_width, seo_image_height } = Astro.props;
 const pageTitle = seo_title || title;
 const metaDesc = seo_description || '';
 const minorArcanaPages = ['minor-arcana', 'cups-tarot', 'pentacles-tarot', 'swords-tarot', 'wands-tarot'];
@@ -126,6 +126,10 @@ const evergreenJourney = evergreenJourneyBySlug[slug];
   imageAlt={seo_image_alt}
   imageWidth={seo_image_width}
   imageHeight={seo_image_height}
+  schemaType={content_type === 'post' ? 'Article' : 'WebPage'}
+  schemaHeadline={title}
+  datePublished={date}
+  dateModified={modified}
 >
   <div class:list={['container', { 'minor-arcana-page': isMinorArcanaPage, 'melissa-tarot-page': isMelissaPage }]}>
     <h1>{title}</h1>

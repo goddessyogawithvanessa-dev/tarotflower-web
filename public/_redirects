@@ -1,6 +1,38 @@
 /step-into-the-fire /step-into-your-fire/ 301
 /step-into-the-fire/ /step-into-your-fire/ 301
 
+# Post-launch architecture cleanup: clear equivalents for legacy URLs still
+# appearing in Search Console or linked internally after the redesign.
+/the-fool /the-fool-tarot/ 301
+/the-fool/ /the-fool-tarot/ 301
+/the-empress /the-empress-tarot/ 301
+/the-empress/ /the-empress-tarot/ 301
+/daily-tarot/i-celebrate-my-creations /affirmation-for-abundance-i-celebrate-my-creations/ 301
+/daily-tarot/i-celebrate-my-creations/ /affirmation-for-abundance-i-celebrate-my-creations/ 301
+/spellcasting/moon-magic /moon-magic/ 301
+/spellcasting/moon-magic/ /moon-magic/ 301
+/category/astrology /astrology/ 301
+/category/astrology/ /astrology/ 301
+/category/astrology/* /astrology/ 301
+/category/tarot-card-meanings /tarot-card-meanings/ 301
+/category/tarot-card-meanings/ /tarot-card-meanings/ 301
+/category/tarot-card-meanings/* /tarot-card-meanings/ 301
+/category/tarot /understanding-the-tarot/ 301
+/category/tarot/ /understanding-the-tarot/ 301
+/category/tarot/* /understanding-the-tarot/ 301
+/category/twin-flame /tag/love/ 301
+/category/twin-flame/ /tag/love/ 301
+/category/twin-flame/* /tag/love/ 301
+/category/vanessas-musings /daily-tarot/ 301
+/category/vanessas-musings/ /daily-tarot/ 301
+/cart /shop/ 301
+/cart/ /shop/ 301
+/product/multiple-card-tarot-reading /readings-with-vanessa/ 301
+/product/multiple-card-tarot-reading/ /readings-with-vanessa/ 301
+/wp-content/uploads/2023/07/Goddess-Embodiment-Guide-1.pdf /10-steps-to-embody-the-goddess-free-download/ 301
+/tarotflower.com/major-arcana-2 /major-arcana-2/ 301
+/tarotflower.com/major-arcana-2/ /major-arcana-2/ 301
+
 /affirmations/5-tips-affirmations-to-manifest-abundance /5-tips-affirmations-to-manifest-abundance/ 301
 /affirmations/5-tips-affirmations-to-manifest-abundance/ /5-tips-affirmations-to-manifest-abundance/ 301
 /affirmations/affirmations-for-confidence /affirmations-for-confidence/ 301

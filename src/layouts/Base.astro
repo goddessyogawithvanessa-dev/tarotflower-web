@@ -9,12 +9,107 @@ interface Props {
   showBanner?: boolean;
   showNavigation?: boolean;
   showFooter?: boolean;
+  noindex?: boolean;
+  schemaType?: 'WebPage' | 'Article' | 'CollectionPage';
+  schemaHeadline?: string;
+  datePublished?: string | Date;
+  dateModified?: string | Date;
+  additionalSchema?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const { title, description = '', image = '', imageAlt = '', imageWidth, imageHeight, showBanner = true, showNavigation = true, showFooter = true } = Astro.props;
+const {
+  title,
+  description = '',
+  image = '',
+  imageAlt = '',
+  imageWidth,
+  imageHeight,
+  showBanner = true,
+  showNavigation = true,
+  showFooter = true,
+  noindex = false,
+  schemaType = 'WebPage',
+  schemaHeadline,
+  datePublished,
+  dateModified,
+  additionalSchema = [],
+} = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const socialImageURL = image ? new URL(image, Astro.site) : null;
 const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >= 1.5 : true;
+const siteURL = new URL('/', Astro.site).href;
+const organizationId = `${siteURL}#organization`;
+const creatorId = `${siteURL}#vanessa-hylande`;
+const websiteId = `${siteURL}#website`;
+const webpageId = `${canonicalURL.href}#webpage`;
+const toIsoDate = (value?: string | Date) => value ? new Date(value).toISOString() : undefined;
+const pageSchema: Record<string, unknown> = {
+  '@type': schemaType,
+  '@id': webpageId,
+  url: canonicalURL.href,
+  name: title,
+  ...(schemaHeadline ? { headline: schemaHeadline } : {}),
+  ...(description ? { description } : {}),
+  isPartOf: { '@id': websiteId },
+  about: { '@id': organizationId },
+  inLanguage: 'en',
+  ...(socialImageURL ? { primaryImageOfPage: { '@type': 'ImageObject', url: socialImageURL.href } } : {}),
+};
+if (schemaType === 'Article') {
+  pageSchema.author = { '@id': creatorId };
+  pageSchema.publisher = { '@id': organizationId };
+  pageSchema.mainEntityOfPage = { '@id': webpageId };
+  if (datePublished) pageSchema.datePublished = toIsoDate(datePublished);
+  if (dateModified) pageSchema.dateModified = toIsoDate(dateModified);
+}
+const schemaGraph = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': organizationId,
+      name: 'Tarot Flower',
+      url: siteURL,
+      logo: {
+        '@type': 'ImageObject',
+        url: new URL('/favicon-192x192.jpg', Astro.site).href,
+        width: 192,
+        height: 192,
+      },
+      founder: { '@id': creatorId },
+      sameAs: [
+        'https://www.instagram.com/tarotflower.online/',
+        'https://www.pinterest.com/vanessahylande/',
+        'https://www.youtube.com/@vanessahylande',
+        'https://www.tiktok.com/@vanessahylande/',
+        'https://www.facebook.com/goddessyogaretreats',
+      ],
+    },
+    {
+      '@type': 'Person',
+      '@id': creatorId,
+      name: 'Vanessa Hylande',
+      url: siteURL,
+      worksFor: { '@id': organizationId },
+      sameAs: [
+        'https://www.instagram.com/tarotflower.online/',
+        'https://www.pinterest.com/vanessahylande/',
+        'https://www.youtube.com/@vanessahylande',
+        'https://www.tiktok.com/@vanessahylande/',
+      ],
+    },
+    {
+      '@type': 'WebSite',
+      '@id': websiteId,
+      url: siteURL,
+      name: 'Tarot Flower',
+      publisher: { '@id': organizationId },
+      inLanguage: 'en',
+    },
+    pageSchema,
+    ...(Array.isArray(additionalSchema) ? additionalSchema : [additionalSchema]),
+  ],
+};
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +118,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <link rel="canonical" href={canonicalURL.href} />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
   <link rel="icon" type="image/jpeg" sizes="32x32" href="/favicon.jpg" />
   <link rel="icon" type="image/jpeg" sizes="192x192" href="/favicon-192x192.jpg" />
   {description && <meta name="description" content={description} />}
@@ -40,6 +136,7 @@ const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >
   {description && <meta name="twitter:description" content={description} />}
   {socialImageURL && <meta name="twitter:image" content={socialImageURL.href} />}
   {socialImageURL && imageAlt && <meta name="twitter:image:alt" content={imageAlt} />}
+  <script type="application/ld+json" set:html={JSON.stringify(schemaGraph)}></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Aboreto&family=Quattrocento:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet" />

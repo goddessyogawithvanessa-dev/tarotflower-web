@@ -74,7 +74,10 @@ const suits = [
 
 <Base
   title={pageTitle}
-  description="Explore all 78 tarot card meanings with Tarot Flower. Learn the wisdom of the Major and Minor Arcana and deepen your spiritual tarot practice."
+  description={isUnderstandingPage
+    ? 'Understand how the 78 tarot cards connect through archetype, number, element, symbol, and story across the Major and Minor Arcana.'
+    : 'Explore all 78 tarot card meanings with Tarot Flower. Learn the wisdom of the Major and Minor Arcana and deepen your spiritual tarot practice.'}
+  schemaType="CollectionPage"
 >
   <main class:list={['container', 'tarot-meanings-page', { 'understanding-tarot-page': isUnderstandingPage }]}>
     <h1>{pageHeading}</h1>

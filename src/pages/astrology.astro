@@ -49,9 +49,11 @@ function extractExcerpt(body: string): string {
 <Base
   title={astrologyPage?.data.seo_title || 'Astrology – Journey Through the Zodiac Signs'}
   description={astrologyPage?.data.seo_description || ''}
+  schemaType="CollectionPage"
 >
   <div class="container">
     <div class="content clearfix">
+      <h1 class="visually-hidden">Astrology</h1>
       {PageContent && <PageContent />}
     </div>
 
