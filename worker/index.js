@@ -35,8 +35,12 @@ export default {
 
 async function routeRequest(request, env, ctx) {
   const url = new URL(request.url);
+  const visitorScheme = request.headers.get('CF-Visitor') || '';
 
-  if (url.protocol === 'http:' && (url.hostname === 'tarotflower.com' || url.hostname === 'www.tarotflower.com')) {
+  if (
+    (url.protocol === 'http:' || visitorScheme.includes('"scheme":"http"'))
+    && (url.hostname === 'tarotflower.com' || url.hostname === 'www.tarotflower.com')
+  ) {
     url.protocol = 'https:';
     return Response.redirect(url.toString(), 301);
   }
