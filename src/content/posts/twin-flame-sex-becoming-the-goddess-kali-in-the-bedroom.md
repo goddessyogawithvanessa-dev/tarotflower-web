@@ -42,13 +42,13 @@ I felt like I had been a zombie walking the earth until that moment. I remembere
 
 You see, after two sequential, loveless marriages - a 20-year, suffocating holding pattern - I hardly recognized myself anymore. I married when I was 23, just out of college. I had missed the years of being single, dating and exploring my sexuality. And I had never felt safe and loved enough within those two marriages to really explore my deepest desires. I needed to take a walk on the wild side, and I needed to take that walk on my own. We all do.
 
-https://tarotflower.com/twin-flame/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/
+https://tarotflower.com/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/
 
 ## Twin Flame Separation Doesn't Exist
 
 ![divine feminine, goddess embodiment, twin flame journey, twin flame sex, Midjourney art by Vanessa Hylande](/images/2023/05/vanessahylande_a_beautiful_bejeweled_upside_down_woman_with_rop_b53ccba5-a4fd-412c-9b63-cdec68446aed.jpg)
 
-A lot of issues came up during the twin flame separation. A lot of preconceived notions and beliefs surfaced that I didn’t even realize I had. Issues around my worth at my age, my desirability. A feeling of being disconnected from the world, like I had gotten stuck in some past timeline. Was I too broken to be loved? Would I ever find something this beautiful again? Was this rejection? Did it reflect my value? [Was I crazy for thinking this was my twin flame](https://tarotflower.com/twin-flame/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/)? Was it all in my head?
+A lot of issues came up during the twin flame separation. A lot of preconceived notions and beliefs surfaced that I didn’t even realize I had. Issues around my worth at my age, my desirability. A feeling of being disconnected from the world, like I had gotten stuck in some past timeline. Was I too broken to be loved? Would I ever find something this beautiful again? Was this rejection? Did it reflect my value? [Was I crazy for thinking this was my twin flame](/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/)? Was it all in my head?
 
 In a twin flame connection, you have to remember that there is no such thing as being separated from your twin flame. Whether you are in twin flame union or separation, it is the same. This love cannot be destroyed. It can only grow stronger. Through feelings of anger, hurt, frustration and even indifference - the light continues to shine, the flame continues to burn. It cannot be extinguished. You cannot control any of it, except for your daily choices regarding your own soul path.
 

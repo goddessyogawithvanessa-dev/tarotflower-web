@@ -28,7 +28,7 @@ Our products are carefully selected to help you connect with your intuition, cre
 
 Explore our collection of tarot and oracle cards, featuring stunning artwork and powerful messages. Each deck is designed to help you tap into your inner wisdom and intuition, providing guidance and insight on your journey.
 
-Perfect for anyone with smaller hands or on the go, this deck is inspired by ancient healing traditions and features endearing animals in the Court Cards, chakra colors in the Minors, and natural elements throughout. [Read Our Review](https://tarotflower.com/reviews/white-sage-tarot-deck-in-a-tin-travel-with-inspiration/)
+Perfect for anyone with smaller hands or on the go, this deck is inspired by ancient healing traditions and features endearing animals in the Court Cards, chakra colors in the Minors, and natural elements throughout. [Read Our Review](/white-sage-tarot-deck-in-a-tin-travel-with-inspiration/)
 
 This is a must have for anyone beginning their studies of the Tarot. Rider-Waite Tarot has set the standard for hundreds of other tarot decks, which follow the archetypal images created by Pamela Colman Smith in 1909 under the direction of Arthur Edward Waite. 
 
@@ -46,7 +46,7 @@ After Tarot explores what the cards would look like just moments after the usua
 
 Oracle cards are more free-form and can vary greatly in their designs, themes, and interpretations. Unlike tarot decks, oracle decks do not have a standard set of cards or a specific number of cards. Instead, they can have any number of cards and the meanings can vary depending on the deck and the interpretation of the reader. Oracle cards and tarot cards is that oracle cards tend to be more positive and uplifting, with a focus on encouragement and empowerment. They are often seen as a tool for accessing the wisdom and guidance of the divine, the universe, or the higher self.
 
-Mystic Sisters Oracle Deck invites you to join the mystic sisterhood of goddesses and mythological archetypes. [Read Our Review](https://tarotflower.com/shop/mystic-sisters-oracle-cards/)!
+Mystic Sisters Oracle Deck invites you to join the mystic sisterhood of goddesses and mythological archetypes. [Read Our Review](/mystic-sisters-oracle-cards/)!
 
 Amy Brown's Fairy Wisdom Oracle is filled with charming fairies, angels, dragons, elves and other elemental guides, who interconnect with us for mutual development.
 

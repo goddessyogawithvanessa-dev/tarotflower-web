@@ -75,7 +75,7 @@ Welcome home.
 
 [The Sun](the-sun-tarot)
 
-[Judgment](judgment-tarot)
+[Judgment](/judgement-tarot/)
 
 [The World](the-world-tarot/)
 

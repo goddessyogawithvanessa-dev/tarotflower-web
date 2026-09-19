@@ -16,7 +16,7 @@ The ladies from Tarot Flower welcome you!
 
 Welcome to Tarot Flower - you're going to *love* this site! We're here to delight you with **inspirational tarot**, tips for **manifesting abundance**, ways to embody the tarot, and guidance to support you on your **path to high-vibe living**. We know from experience that when you embrace the tarot with an open heart, you will **unleash your most beautiful life**.
 
-So, sit back and enjoy meaningful content and insights on [tarot card meanings](/goddess-embodiment-practices), [astrology](/astrology), [embodiment](https://embodiedgoddesses.com/) and more! We can't wait to share it all with you! Enjoy [affirmations](/affirmations) to inspire you, and [daily card readings](https://tarotflower.com/category/daily-tarot/) from our beautiful [tarot and oracle decks](https://tarotflower.com/tag/reviews/)! Thanks for joining us here at Tarot Flower - where you will find everything tarot for blossoming souls.
+So, sit back and enjoy meaningful content and insights on [tarot card meanings](/goddess-embodiment-practices), [astrology](/astrology), [embodiment](https://embodiedgoddesses.com/) and more! We can't wait to share it all with you! Enjoy [affirmations](/affirmations) to inspire you, and [daily card readings](/daily-tarot/) from our beautiful [tarot and oracle decks](https://tarotflower.com/tag/reviews/)! Thanks for joining us here at Tarot Flower - where you will find everything tarot for blossoming souls.
 
 ## Tarot Flower Daily Tarot
 

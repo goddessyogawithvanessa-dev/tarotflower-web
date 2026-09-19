@@ -28,11 +28,11 @@ But I would rather show you
 
 Because in one kiss you would know
 
-Like this poetry? I love to write about my [twin flame](https://tarotflower.com/twin-flame/what-is-a-twin-flame-how-to-know-if-youve-met-your-mirror-soul/) journey - one of the most difficult yet rewarding experiences of my life. I have also discovered that it's really helpful to share my experiences with other beautiful souls on the challenging twin flame journey. It makes us all feel less crazy when we can support each other. Stay strong in your self love and never judge yourself based on the behavior of your twin flame. Love & Light!
+Like this poetry? I love to write about my [twin flame](/what-is-a-twin-flame-how-to-know-if-youve-met-your-mirror-soul/) journey - one of the most difficult yet rewarding experiences of my life. I have also discovered that it's really helpful to share my experiences with other beautiful souls on the challenging twin flame journey. It makes us all feel less crazy when we can support each other. Stay strong in your self love and never judge yourself based on the behavior of your twin flame. Love & Light!
 
-https://tarotflower.com/twin-flame/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/
+https://tarotflower.com/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/
 
-https://tarotflower.com/twin-flame/how-to-survive-the-twin-flame-separation/
+https://tarotflower.com/how-to-survive-the-twin-flame-separation/
 
 * [The Five of Pentacles Tarot Card Meaning](/five-of-pentacles-tarot)
 * [The King of Swords Tarot Card Meaning](/king-of-swords-tarot)

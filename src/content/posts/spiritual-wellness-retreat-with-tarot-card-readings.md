@@ -66,7 +66,7 @@ If you are looking for a way to **tap into the Universal source of energy, devel
 
 Actually, one of the best ways of embodying the lessons of the tarot, is by taking a movement and dance journey through the archetypes of the [Major Arcana](/major-arcana-2). At this Goddess Yoga retreat, you'll be have the opportunity to experience this spiritual journey. You'll be [dancing the major arcana](https://goddess-yoga-retreat.com/dancing-the-major-arcana/) in a safe and supportive environment with real psychics and spiritual guides.
 
-It's one thing to hear about what [The High Priestess](/the-high-priestess-tarot) and The Empress can teach you in a tarot card reading. However, it's another thing all together to actually channel their divine feminine energy and receive their messages directly yourself. Imagine taking your tarot card reading one step further! Go beyond only hearing the advice and answers to your questions! Learn to actually embody the Empress! You too can learn [how to feel sexy and alluring like The Empress!](https://tarotflower.com/news/feel-like-the-empress/)
+It's one thing to hear about what [The High Priestess](/the-high-priestess-tarot) and The Empress can teach you in a tarot card reading. However, it's another thing all together to actually channel their divine feminine energy and receive their messages directly yourself. Imagine taking your tarot card reading one step further! Go beyond only hearing the advice and answers to your questions! Learn to actually embody the Empress! You too can learn [how to feel sexy and alluring like The Empress!](/feel-like-the-empress/)
 
 ## Why do we dance at a yoga retreat?
 

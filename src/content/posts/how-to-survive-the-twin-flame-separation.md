@@ -12,7 +12,7 @@ seo_description: "Is your twin flame invading your psychic space? Are you feelin
 
 ![twin flame separation, divine feminine healing, twin flame sex, twin flame union](/images/2023/06/twin-flame-separation.jpg)
 
-Is your twin flame invading your psychic space? Are you feeling unwanted connections and emotions that are driving you crazy? Are you in twin flame separation trying to forget your twin, but you just can't seem to cut the cord? Is it obsession? [Is it all in your head?](https://tarotflower.com/twin-flame/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/) Why is this happening and how can you get past it? Here are some helpful tips to navigate, survive and *thrive* a twin flame separation:
+Is your twin flame invading your psychic space? Are you feeling unwanted connections and emotions that are driving you crazy? Are you in twin flame separation trying to forget your twin, but you just can't seem to cut the cord? Is it obsession? [Is it all in your head?](/twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing/) Why is this happening and how can you get past it? Here are some helpful tips to navigate, survive and *thrive* a twin flame separation:
 
 ## Self-care and personal growth
 

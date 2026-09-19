@@ -46,6 +46,6 @@ But all we really have to do is allow the Goddess within us to be free. That's w
 
 * [The High Priestess Tarot Card Meaning: Mystery and Intuition](/the-high-priestess-tarot)
 * [Intuition Quotes: I Seek Answers Within My Stillness](/intuition-quotes-i-seek-answers-within-my-stillness)
-* [Capricorn Kids - Little Mountain Climbers](https://tarotflower.com/tarot-flower-kids/capricorn-kids/)
+* [Capricorn Kids - Little Mountain Climbers](/capricorn-kids/)
 * [The World Tarot Card Meaning: The Portal](/the-world-tarot)
-* [How YOU Can Feel Like The Empress - Sexy, Alluring and Abundant!](https://tarotflower.com/news/feel-like-the-empress/)
+* [How YOU Can Feel Like The Empress - Sexy, Alluring and Abundant!](/feel-like-the-empress/)

@@ -12,7 +12,7 @@ seo_description: "Sound bath meditations help to create a deep sense of relaxati
 
 ![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](/images/2023/06/yemaya-3-1-683x1024.jpg)
 
-Sound bath meditations help to create a deep sense of relaxation and tranquility. The soothing and harmonious sounds facilitate the release of tension and stress, allowing you to enter a state of deep peace and calm. This relaxation is essential for connecting with the goddess energy within, as it opens up space for introspection and inner exploration. So, let's explore the ways in which this beautiful sound bath meditation to embody the goddess [Yemaya](https://tarotflower.com/oracle/yemaya/) will bring you health, peace and tranquility.
+Sound bath meditations help to create a deep sense of relaxation and tranquility. The soothing and harmonious sounds facilitate the release of tension and stress, allowing you to enter a state of deep peace and calm. This relaxation is essential for connecting with the goddess energy within, as it opens up space for introspection and inner exploration. So, let's explore the ways in which this beautiful sound bath meditation to embody the goddess [Yemaya](/yemaya/) will bring you health, peace and tranquility.
 
 ### Activate the chakras with sound bath meditation
 
@@ -24,7 +24,7 @@ Additionally, sound baths can assist in clearing energetic blockages and releasi
 
 ### Create your sacred space with sound bath meditations
 
-Furthermore, sound bath meditations create a [sacred space](https://tarotflower.com/moonmagic/how-to-make-a-moon-magic-altar-for-rituals/) for self-expression and self-connection. As you immerse yourself in the healing sounds, you can connect with the essence of the goddess Yemaya within you, tapping into your innate wisdom, beauty, and power. The sound vibrations serve as a catalyst for deepening your relationship with the goddess energy, enhancing your self-awareness and connection to your authentic self.
+Furthermore, sound bath meditations create a [sacred space](/how-to-make-a-moon-magic-altar-for-rituals/) for self-expression and self-connection. As you immerse yourself in the healing sounds, you can connect with the essence of the goddess Yemaya within you, tapping into your innate wisdom, beauty, and power. The sound vibrations serve as a catalyst for deepening your relationship with the goddess energy, enhancing your self-awareness and connection to your authentic self.
 
 ### Enjoy this free sound bath meditation to embody the goddess Yemaya!
 
