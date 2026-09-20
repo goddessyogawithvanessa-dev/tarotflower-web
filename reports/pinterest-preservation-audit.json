@@ -1,0 +1,481 @@
+{
+  "report": "Tarot Flower Pinterest preservation audit",
+  "generatedAt": "2026-09-21",
+  "mode": "read-only Pinterest audit followed by scoped website-side redirect recovery",
+  "scope": {
+    "damagedArticles": 25,
+    "source": "reports/legacy-media-restoration-diagnostic.json",
+    "websiteRedirectChangesMade": true,
+    "pinterestChangesMade": false
+  },
+  "summary": {
+    "articleBodyPinterestEmbeds": 0,
+    "articleBodyPinUrls": 0,
+    "articleBodyPinIds": 0,
+    "articleBodyPinterestWidgets": 0,
+    "pinterestNamedBrokenImageOccurrences": 27,
+    "pinterestNamedBrokenImageUniqueUrls": 24,
+    "articlesWithPinterestNamedBrokenImages": 13,
+    "publicPinsAudited": 49,
+    "publicPinsLive": 49,
+    "damagedArticlesWithIdentifiablePinPathways": 6,
+    "livePinsMappedToDamagedArticles": 10,
+    "relatedPinsPointingToDistinctCurrentTarotFlowerArticles": 4,
+    "mappedPinsPointingToDeadEmbodiedGoddessesUrls": 10,
+    "mappedPinsPointingToOldTarotFlowerNestedUrls": 4,
+    "knownTrafficClicksOrImpressions": null,
+    "publicPerformanceProxy": "Pinterest JSON-LD exposes Saves only; Saves are not clicks or referral traffic."
+  },
+  "accounts": [
+    {
+      "identity": "Vanessa Hylande",
+      "username": "vanessahylande",
+      "profileUrl": "https://www.pinterest.com/vanessahylande/",
+      "status": "public and live",
+      "evidence": [
+        "Current Tarot Flower footer and JSON-LD use this profile.",
+        "Audited Pin JSON-LD names Vanessa Hylande / vanessahylande as author.",
+        "Public profile contains Tarot Flower and Affirmations for Goddesses boards."
+      ],
+      "boards": [
+        {
+          "name": "Tarot Flower",
+          "url": "https://www.pinterest.com/vanessahylande/tarot-flower/",
+          "reportedPinCount": 74
+        },
+        {
+          "name": "Affirmations for Goddesses",
+          "url": "https://www.pinterest.com/vanessahylande/affirmations-for-goddesses/",
+          "reportedPinCount": 74
+        }
+      ]
+    },
+    {
+      "identity": "Embodied Goddesses historical username",
+      "username": "embodiedgoddesses",
+      "profileUrl": "https://www.pinterest.com/embodiedgoddesses/_created/",
+      "historicalBoardUrl": "https://www.pinterest.com/embodiedgoddesses/tarot-flower/",
+      "status": "no longer publicly resolves as a distinct profile",
+      "likelyRelationship": "Strong evidence that the historical account was renamed or consolidated into vanessahylande; not proven without authenticated account settings."
+    }
+  ],
+  "classificationDefinitions": {
+    "LIVE + RELEVANT - PRESERVE": "The Pin exists and its destination/content remain appropriate.",
+    "LIVE PIN / OLD VISUAL - PRESERVE TRAFFIC PATH": "The Pin remains discoverable, but the old artwork need not remain embedded in the article.",
+    "LIVE BUT WRONG DESTINATION": "The Pin exists but targets an obsolete or dead URL.",
+    "DEAD PIN / OBSOLETE": "No surviving Pin or preservation value was established.",
+    "ACCOUNT ACCESS NEEDED": "Authenticated Analytics or the full private board inventory is needed.",
+    "AMBIGUOUS": "The evidence is insufficient for an exact image-to-Pin match."
+  },
+  "pinInventoryCoverage": {
+    "method": "Public board feeds and individual public Pin JSON-LD",
+    "tarotFlowerBoardLivePinIdsAudited": [
+      "670473463299762844", "670473463299703166", "670473463299741943", "670473463298790450", "670473463305315487",
+      "670473463299197037", "670473463304434674", "670473463304453928", "670473463304429820", "670473463304410979",
+      "670473463304382230", "670473463303904420", "670473463299129971", "670473463303599151", "670473463303598384",
+      "670473463303019674", "670473463303017157", "670473463302522488", "670473463302500032", "670473463302477550",
+      "670473463300373844", "670473463300267943", "670473463300013372", "670473463299808257", "670473463299785407"
+    ],
+    "affirmationsBoardLivePinIdsAudited": [
+      "670473463288442895", "670473463288442893", "670473463288442890", "670473463288442883", "670473463288241424",
+      "670473463288241411", "670473463288241393", "670473463288241385", "670473463288241382", "670473463288241379",
+      "670473463288238240", "670473463288238237", "670473463288238225", "670473463287994421", "670473463287589487",
+      "670473463287447503", "670473463287447499", "670473463287259731", "670473463287259701", "670473463287259695",
+      "670473463287259692", "670473463269363903", "670473463288596750", "670473463287259727"
+    ],
+    "notPubliclyEnumerated": {
+      "tarotFlowerBoard": 49,
+      "affirmationsBoard": 50,
+      "note": "Each board reports 74 Pins, but the logged-out board feed exposed only the listed initial Pins. The remainder requires authenticated board access or manual review."
+    }
+  },
+  "mappedPins": [
+    {
+      "pinId": "670473463288442890",
+      "pinUrl": "https://www.pinterest.com/pin/670473463288442890/",
+      "headline": "You Are the Creator of Your Own Life - Embodied Goddesses",
+      "published": "2022-03-31T11:48:48.000Z",
+      "image": "https://i.pinimg.com/originals/b6/76/47/b67647ce59e17aae5613317a4203dd58.jpg",
+      "destination": "https://embodiedgoddesses.com/you-are-the-creator-of-your-own-life/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/you-are-the-creator-of-your-own-life/",
+      "saves": 1,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "Article match certain; exact match to either of the two broken Pinterest-named source images is plausible but unconfirmed."
+    },
+    {
+      "pinId": "670473463288442883",
+      "pinUrl": "https://www.pinterest.com/pin/670473463288442883/",
+      "headline": "Learn to self care with Embodiment practices",
+      "published": "2022-03-31T11:48:29.000Z",
+      "image": "https://i.pinimg.com/originals/0c/71/d8/0c71d8ce986e48379a216c91523b3609.jpg",
+      "destination": "https://embodiedgoddesses.com/feminine-embodiment-practices/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/feminine-embodiment-practices-to-shine/",
+      "saves": 3,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "The destination maps to the current article; exact match to its one broken Pinterest-named image is not established."
+    },
+    {
+      "pinId": "670473463288241411",
+      "pinUrl": "https://www.pinterest.com/pin/670473463288241411/",
+      "headline": "Feminine Embodiment Practices to Shine",
+      "published": "2022-03-24T17:09:50.000Z",
+      "image": "https://i.pinimg.com/originals/9b/25/88/9b2588f3b0059d07ba09439cc0a9ba7a.png",
+      "destination": "https://embodiedgoddesses.com/feminine-embodiment-practices/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/feminine-embodiment-practices-to-shine/",
+      "saves": 2,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "Pin creative reads 'my feminine is my medicine'; it is probably not the broken source image whose alt text is 'the embodied way of learning'."
+    },
+    {
+      "pinId": "670473463288238240",
+      "pinUrl": "https://www.pinterest.com/pin/670473463288238240/",
+      "headline": "Learn to self care with Embodiment practices",
+      "published": "2022-03-24T14:20:11.000Z",
+      "image": "https://i.pinimg.com/originals/e3/b2/b9/e3b2b9c7895d226b10b2326dafb6f6dd.jpg",
+      "destination": "https://embodiedgoddesses.com/feminine-embodiment-practices/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/feminine-embodiment-practices-to-shine/",
+      "saves": 2,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "Destination-level relationship certain; exact visual relationship ambiguous."
+    },
+    {
+      "pinId": "670473463288238237",
+      "pinUrl": "https://www.pinterest.com/pin/670473463288238237/",
+      "headline": "Learn Self Love with Embodiment practices",
+      "published": "2022-03-24T14:20:03.000Z",
+      "image": "https://i.pinimg.com/originals/94/c8/c0/94c8c047006267794da735a508807951.jpg",
+      "destination": "https://embodiedgoddesses.com/feminine-embodiment-practices/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/feminine-embodiment-practices-to-shine/",
+      "saves": 3,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "Destination-level relationship certain; exact visual relationship ambiguous."
+    },
+    {
+      "pinId": "670473463288241393",
+      "pinUrl": "https://www.pinterest.com/pin/670473463288241393/",
+      "headline": "Allow Your Inner Goddess to Bloom",
+      "published": "2021-09-01T00:00:00.000Z",
+      "image": "https://i.pinimg.com/originals/7c/c3/d9/7cc3d93f06c31140eda50e0363e06289.png",
+      "destination": "https://embodiedgoddesses.com/allow-your-inner-goddess-to-bloom/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/allow-your-inner-goddess-to-bloom/",
+      "saves": 12,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "Strong article-level pathway. The damaged article has no pinterest-for-blogs filename, so the Pin is associated with another broken article image or an external creative."
+    },
+    {
+      "pinId": "670473463288241382",
+      "pinUrl": "https://www.pinterest.com/pin/670473463288241382/",
+      "headline": "How to Be a Goddess of Dance - Embodied Goddesses",
+      "published": "2021-12-10T00:00:00.000Z",
+      "image": "https://i.pinimg.com/originals/f1/e3/ea/f1e3eaac9f70dd810758148cafb71d66.jpg",
+      "destination": "https://embodiedgoddesses.com/how-to-be-a-goddess-of-dance/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/how-to-be-a-goddess-of-dance/",
+      "saves": 1,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "Strong probable match: the Pin and two broken Pinterest-named source graphics belong to the same article and December 2021 publishing period; exact source filename is unconfirmed."
+    },
+    {
+      "pinId": "670473463287259731",
+      "pinUrl": "https://www.pinterest.com/pin/670473463287259731/",
+      "headline": "How to Be a Goddess of Dance - Embodied Goddesses",
+      "published": "2022-02-15T12:56:26.000Z",
+      "image": "https://i.pinimg.com/originals/6d/1a/b5/6d1ab58c59a5a8b5f28831836418c170.jpg",
+      "destination": "https://embodiedgoddesses.com/how-to-be-a-goddess-of-dance/?preview_id=5079&preview_nonce=a8f08a1ab0&preview=true&_thumbnail_id=5337",
+      "currentTarotFlowerArticle": "https://tarotflower.com/how-to-be-a-goddess-of-dance/",
+      "saves": 1,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "Strong probable match to one of the two article graphics; the Pin visibly contains the article title. Its destination is additionally polluted by a WordPress preview query."
+    },
+    {
+      "pinId": "670473463288241379",
+      "pinUrl": "https://www.pinterest.com/pin/670473463288241379/",
+      "headline": "What is an Embodied Goddess? - Embodied Goddesses",
+      "published": "2021-10-06T00:00:00.000Z",
+      "image": "https://i.pinimg.com/originals/4e/b1/5a/4eb15a1f01171866c6eb5131c634731a.jpg",
+      "destination": "https://embodiedgoddesses.com/what-is-an-embodied-goddess/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/what-is-an-embodied-goddess/",
+      "saves": 3,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "Strong temporal/article relationship to the two October 2021 Pinterest-named source graphics; the exact one-to-one image match is unconfirmed."
+    },
+    {
+      "pinId": "670473463287259695",
+      "pinUrl": "https://www.pinterest.com/pin/670473463287259695/",
+      "headline": "Embodied Learning - A Holistic Approach - Embodied Goddesses",
+      "published": "2022-02-15T12:54:26.000Z",
+      "image": "https://i.pinimg.com/originals/0b/5b/48/0b5b48d596849d604e175c432f0c7402.jpg",
+      "destination": "https://embodiedgoddesses.com/embodied-learning-a-holistic-approach/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/embodied-learning-a-holistic-approach/",
+      "saves": 5,
+      "classification": "LIVE BUT WRONG DESTINATION",
+      "imageRelationship": "Article match certain; one of three broken Pinterest-named graphics may be the creative, but no exact match is proven."
+    },
+    {
+      "pinId": "670473463299762844",
+      "pinUrl": "https://www.pinterest.com/pin/670473463299762844/",
+      "headline": "How to Embody the Goddess Flora",
+      "published": "2023-06-14T10:00:05.000Z",
+      "image": "https://i.pinimg.com/originals/10/71/6d/10716d3015bee812319fab324f60809a.jpg",
+      "destination": "https://tarotflower.com/oracle/goddess-flora-the-goddess-of-spring/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/goddess-flora-the-goddess-of-spring/",
+      "saves": 26,
+      "classification": "LIVE + RELEVANT - PRESERVE",
+      "imageRelationship": "Later 2023 AI artwork for a distinct current Tarot Flower article. It is not a pathway to the damaged goddess-of-spring-flora article and is not one of that article's broken 2021 pinterest-for-blogs graphics."
+    },
+    {
+      "pinId": "670473463299703166",
+      "pinUrl": "https://www.pinterest.com/pin/670473463299703166/",
+      "headline": "Goddess Flora: The Goddess of Spring",
+      "published": "2023-06-11T16:12:25.000Z",
+      "image": "https://i.pinimg.com/originals/83/4f/e7/834fe773e8705467c05657760f6ba52c.jpg",
+      "destination": "https://tarotflower.com/oracle/goddess-flora-the-goddess-of-spring/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/goddess-flora-the-goddess-of-spring/",
+      "saves": 103,
+      "classification": "LIVE + RELEVANT - PRESERVE",
+      "imageRelationship": "Later 2023 AI artwork for a distinct current Tarot Flower article. It is not a pathway to the damaged goddess-of-spring-flora article and is not one of that article's broken 2021 pinterest-for-blogs graphics. Highest public save count in the related Pin set."
+    },
+    {
+      "pinId": "670473463299741943",
+      "pinUrl": "https://www.pinterest.com/pin/670473463299741943/",
+      "headline": "The Radiant Spirit of the Goddess Flora",
+      "published": "2023-06-13T10:00:05.000Z",
+      "image": "https://i.pinimg.com/originals/d6/64/90/d66490891bdfe3f34086d1ab76de88b1.jpg",
+      "destination": "https://tarotflower.com/oracle/goddess-flora-the-goddess-of-spring/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/goddess-flora-the-goddess-of-spring/",
+      "saves": 12,
+      "classification": "LIVE + RELEVANT - PRESERVE",
+      "imageRelationship": "Later 2023 AI artwork for a distinct current Tarot Flower article. It is not a pathway to the damaged goddess-of-spring-flora article and is not one of that article's broken 2021 pinterest-for-blogs graphics."
+    },
+    {
+      "pinId": "670473463300267943",
+      "pinUrl": "https://www.pinterest.com/pin/670473463300267943/",
+      "headline": "The Goddess Aphrodite: Embodying Beauty of All Kinds",
+      "published": "2023-07-06T11:14:32.000Z",
+      "image": "https://i.pinimg.com/originals/db/cc/9e/dbcc9eeb5b12c8a71bb3566345fc418d.jpg",
+      "destination": "https://tarotflower.com/oracle/goddess-aphrodite/",
+      "currentTarotFlowerArticle": "https://tarotflower.com/goddess-aphrodite/",
+      "saves": 16,
+      "classification": "LIVE + RELEVANT - PRESERVE",
+      "imageRelationship": "Later Tarot Flower AI artwork for a distinct current Tarot Flower article. It is not a pathway to the damaged aphrodite-goddess-of-love article."
+    }
+  ],
+  "articleMap": [
+    {"title":"5 Tips & Affirmations to Manifest Abundance","url":"https://tarotflower.com/5-tips-affirmations-to-manifest-abundance/","pinterestNamedBrokenImages":1,"mappedLivePins":[],"classification":"AMBIGUOUS"},
+    {"title":"Affirmations for Confidence: Try These 10 Affirmations to Boost Your Self-Esteem","url":"https://tarotflower.com/affirmations-for-confidence/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Aphrodite Goddess of Love","url":"https://tarotflower.com/aphrodite-goddess-of-love/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Goddess of Spring Flora: Rejuvenate Yourself and Shine","url":"https://tarotflower.com/goddess-of-spring-flora/","pinterestNamedBrokenImages":2,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"How to Be a Goddess of Dance","url":"https://tarotflower.com/how-to-be-a-goddess-of-dance/","pinterestNamedBrokenImages":2,"mappedLivePins":["670473463288241382","670473463287259731"],"classification":"LIVE BUT WRONG DESTINATION"},
+    {"title":"Holistic Living With Embodiment Through the Arts","url":"https://tarotflower.com/holistic-living-with-embodiment-through-the-arts/","pinterestNamedBrokenImages":2,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"How to Self Heal Through Embodiment Practices","url":"https://tarotflower.com/how-to-self-heal-through-embodiment-practices/","pinterestNamedBrokenImages":2,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Embodiment Through the Arts, Yoga, Dance and More!","url":"https://tarotflower.com/embodiment-through-the-arts/","pinterestNamedBrokenImages":2,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"What is an Embodied Goddess?","url":"https://tarotflower.com/what-is-an-embodied-goddess/","pinterestNamedBrokenImages":2,"mappedLivePins":["670473463288241379"],"classification":"LIVE BUT WRONG DESTINATION"},
+    {"title":"4 Embodiment Self-Care Practices for Happiness","url":"https://tarotflower.com/self-care-practices-to-make-you-feel-happier/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Embodied Learning - A Holistic Approach to Alignment","url":"https://tarotflower.com/embodied-learning-a-holistic-approach/","pinterestNamedBrokenImages":3,"mappedLivePins":["670473463287259695"],"classification":"LIVE BUT WRONG DESTINATION"},
+    {"title":"An Embodied Goddess Always Finds Herself","url":"https://tarotflower.com/an-embodied-goddess-always-finds-herself/","pinterestNamedBrokenImages":2,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Embody the Goddess Within","url":"https://tarotflower.com/embody-the-goddess-within/","pinterestNamedBrokenImages":2,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Feminine Embodiment Practices to Shine","url":"https://tarotflower.com/feminine-embodiment-practices-to-shine/","pinterestNamedBrokenImages":1,"mappedLivePins":["670473463288442883","670473463288241411","670473463288238240","670473463288238237"],"classification":"LIVE BUT WRONG DESTINATION"},
+    {"title":"Self Love Affirmations and How to Use Them","url":"https://tarotflower.com/self-love-affirmations-and-how-to-use-them/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"You Are Your Own Beacon of Light","url":"https://tarotflower.com/you-are-your-own-beacon-of-light/","pinterestNamedBrokenImages":2,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Slow Down to Find Your Soul's Purpose","url":"https://tarotflower.com/slow-down-to-find-your-souls-purpose/","pinterestNamedBrokenImages":2,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"You Are the Creator of Your Own Life","url":"https://tarotflower.com/you-are-the-creator-of-your-own-life/","pinterestNamedBrokenImages":2,"mappedLivePins":["670473463288442890"],"classification":"LIVE BUT WRONG DESTINATION"},
+    {"title":"Dare to Dream, Dare to Manifest","url":"https://tarotflower.com/dare-to-dream-dare-to-manifest/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Goddess Artemis: Greek Goddess of the Hunt","url":"https://tarotflower.com/goddess-artemis-greek-goddess-of-the-hunt/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"How to Be More Beautiful","url":"https://tarotflower.com/how-to-be-more-beautiful/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Why Dance is the Best Embodiment Practice","url":"https://tarotflower.com/why-dance-is-the-best-embodiment-practice/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Affirmations for Self Love That Actually Work","url":"https://tarotflower.com/affirmations-for-self-love-that-work/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"},
+    {"title":"Allow Your Inner Goddess to Bloom","url":"https://tarotflower.com/allow-your-inner-goddess-to-bloom/","pinterestNamedBrokenImages":0,"mappedLivePins":["670473463288241393"],"classification":"LIVE BUT WRONG DESTINATION"},
+    {"title":"Isis Goddess of the Divine Feminine","url":"https://tarotflower.com/isis-goddess-of-the-divine-feminine/","pinterestNamedBrokenImages":0,"mappedLivePins":[],"classification":"ACCOUNT ACCESS NEEDED"}
+  ],
+  "authenticatedCleanupAudit": {
+    "auditedAt": "2026-09-21",
+    "authenticatedProfile": {
+      "name": "Vanessa Hylande",
+      "username": "vanessahylande",
+      "profileUrl": "https://www.pinterest.com/vanessahylande/",
+      "accountType": "Pinterest business/content creator",
+      "verifiedDomainShownInBusinessHub": "vanessahylande.com",
+      "ownsRelevantHistoricalPins": true,
+      "analyticsAccessible": true
+    },
+    "coverage": {
+      "boardsFullyEnumerated": [
+        {"name":"Tarot Flower","url":"https://www.pinterest.com/vanessahylande/tarot-flower/","pins":74},
+        {"name":"Affirmations for Goddesses","url":"https://www.pinterest.com/vanessahylande/affirmations-for-goddesses/","pins":74}
+      ],
+      "pinsInspected": 148,
+      "pinsWithDestinationObserved": 127,
+      "pinsWithNoExternalDestinationObserved": 21,
+      "destinationHostCounts": {
+        "tarotflower.com": 72,
+        "embodiedgoddesses.com": 46,
+        "malformed www.embodiedgoddesses": 1,
+        "vanessahylande.com": 2,
+        "wordpress.com block editor": 1,
+        "redbubble.com account-management URL": 1,
+        "facebook.com": 1,
+        "youtu.be": 1,
+        "other external editorial sources": 2,
+        "no external destination observed": 21
+      },
+      "classificationCounts": {
+        "clearlyCurrentOrLegitimateDestination": 7,
+        "deadOrClearlyWrongDestination": 49,
+        "legacyOrIndirectTarotFlowerDestination": 69,
+        "ambiguousVanessaHylandeDestination": 2,
+        "noExternalDestinationObserved": 21
+      }
+    },
+    "editability": {
+      "destinationFieldAvailable": false,
+      "testedPinTypes": [
+        "saved/repinned Embodied Goddesses Pin",
+        "older Vanessa Hylande account-owned Tarot Flower Pin"
+      ],
+      "editorFieldsObserved": [
+        "board",
+        "section",
+        "AI disclosure",
+        "comment permissions where applicable",
+        "recommendations where applicable",
+        "ad-only status where applicable"
+      ],
+      "limitation": "Pinterest's current Edit Pin dialog exposes no destination URL field for the tested existing Pins. Direct destination repair is therefore unavailable without recreating the Pin, which was explicitly prohibited when editing is impossible.",
+      "pinsUpdated": 0,
+      "pinsDeleted": 0,
+      "pinsRecreated": 0,
+      "websiteChangesMade": false
+    },
+    "analytics": {
+      "filter": "Organic, all Pin formats, Last 90 Days",
+      "displayedPeriod": "2026-06-22 to 2026-09-20",
+      "metricsUpdated": "1 day before audit",
+      "overall": {
+        "impressions": 24344,
+        "engagements": 661,
+        "outboundClicks": 10,
+        "saves": 79,
+        "totalAudience": 17980,
+        "engagedAudience": 518
+      },
+      "nonzeroOutboundClickPins": [
+        {"pinId":"670473463298768270","title":"I Am Love Heart Chakra Affirmations - Goddess Yoga","outboundClicks":2},
+        {"pinId":"670473463298768399","title":"I Choose Love Heart Chakra Affirmation - Goddess Yoga","outboundClicks":1},
+        {"pinId":"670473463304434674","title":"Goddess Yoga 2024: Step Into the Spotlight with Classes, Retreats and the Mystic Mansion!","outboundClicks":1},
+        {"pinId":"670473463299083818","title":"The Hanged Man in a Twin Flame Reading","outboundClicks":1},
+        {"pinId":"670473463305315487","title":"Divine Feminine Affirmations for Kundalini Awakening and Goddess Embodiment","outboundClicks":1},
+        {"pinId":"670473463299785407","title":"The Goddess Kali and the Twin Flame Journey","outboundClicks":1},
+        {"pinId":"670473463298790450","title":"Taurus Dates & Traits: The Loyal, Dependable Romantic","outboundClicks":1},
+        {"pinId":"670473463299197037","title":"The Temperance Tarot Card in a Twin Flame Reading","outboundClicks":1},
+        {"pinId":"78813062224342995","title":"Cancer Dates & Traits: The Sensitive Intuitive | Tarot Flower","source":"Other Pins","outboundClicks":1}
+      ],
+      "mappedDeadEmbodiedGoddessesPinsWithNonzeroOutboundClicks": 0,
+      "topImpressionPins": [
+        {"pinId":"670473463298768270","title":"I Am Love Heart Chakra Affirmations - Goddess Yoga","impressions":1656},
+        {"pinId":"670473463298790450","title":"Taurus Dates & Traits: The Loyal, Dependable Romantic","impressions":894},
+        {"pinId":"670473463298768399","title":"I Choose Love Heart Chakra Affirmation - Goddess Yoga","impressions":594},
+        {"pinId":"670473463299197037","title":"The Temperance Tarot Card in a Twin Flame Reading","impressions":312},
+        {"pinId":"670473463299703166","title":"Goddess Flora: The Goddess of Spring","impressions":257},
+        {"pinId":"670473463305315487","title":"Divine Feminine Affirmations for Kundalini Awakening and Goddess Embodiment","impressions":246}
+      ],
+      "topBoardsByImpressions": [
+        {"name":"Goddess Yoga","url":"https://www.pinterest.com/vanessahylande/goddess-yoga/","pins":18,"impressions":10170},
+        {"name":"Tarot Flower","url":"https://www.pinterest.com/vanessahylande/tarot-flower/","pins":74,"impressions":7310}
+      ]
+    },
+    "obsoleteDestinationGroups": [
+      {"source":"https://embodiedgoddesses.com/you-are-the-creator-of-your-own-life/","currentAuthority":"https://tarotflower.com/you-are-the-creator-of-your-own-life/","pinIds":["670473463288442890","670473463287242578","670473463287163688"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/feminine-embodiment-practices/","currentAuthority":"https://tarotflower.com/feminine-embodiment-practices-to-shine/","pinIds":["670473463288442883","670473463288241411","670473463288238240","670473463288238237"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/allow-your-inner-goddess-to-bloom/","currentAuthority":"https://tarotflower.com/allow-your-inner-goddess-to-bloom/","pinIds":["670473463288241393"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/how-to-be-a-goddess-of-dance/","currentAuthority":"https://tarotflower.com/how-to-be-a-goddess-of-dance/","pinIds":["670473463288241382","670473463287259731"],"notes":"The second Pin includes a WordPress preview query.","classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/what-is-an-embodied-goddess/","currentAuthority":"https://tarotflower.com/what-is-an-embodied-goddess/","pinIds":["670473463288241379","670473463287242590","670473463287163661"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/embodied-learning-a-holistic-approach/","currentAuthority":"https://tarotflower.com/embodied-learning-a-holistic-approach/","pinIds":["670473463287259695"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/goddess-of-spring-flora/","currentAuthority":"https://tarotflower.com/goddess-of-spring-flora/","pinIds":["670473463287243377","670473463287164108","670473463287164101","670473463287164093"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/how-to-be-more-beautiful/","currentAuthority":"https://tarotflower.com/how-to-be-more-beautiful/","pinIds":["670473463287242854"],"notes":"Pin destination includes a WordPress preview query.","classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/why-embodiment-through-the-arts-is-holistic-living/","currentAuthority":"https://tarotflower.com/holistic-living-with-embodiment-through-the-arts/","pinIds":["670473463287242611","670473463287163933","670473463287163926","670473463287163902"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/aphrodite-goddess-of-love/","currentAuthority":"https://tarotflower.com/aphrodite-goddess-of-love/","pinIds":["670473463287242595","670473463287242574","670473463287162996"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/you-are-your-own-beacon-of-light/","currentAuthority":"https://tarotflower.com/you-are-your-own-beacon-of-light/","pinIds":["670473463287163930","670473463287163755"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/how-to-self-heal-through-embodiment-practice/","currentAuthority":"https://tarotflower.com/how-to-self-heal-through-embodiment-practices/","pinIds":["670473463287163923","670473463287163893"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/embody-the-goddess-within/","currentAuthority":"https://tarotflower.com/embody-the-goddess-within/","pinIds":["670473463287163708"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/goddess-embodiment-your-divine-feminine/","currentAuthority":"https://goddess-yoga-retreats.com/blog/goddess-embodiment-your-divine-feminine/","pinIds":["670473463288442893","670473463288241385","670473463287447499","670473463287164119"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/embodiment-course/","currentAuthority":"https://goddess-yoga-retreats.com/blog/embodiment-course/","pinIds":["670473463288238225","670473463287242602","670473463287242583"],"classification":"LIVE BUT WRONG DESTINATION","repairStatus":"UNEDITABLE_NO_DESTINATION_FIELD"},
+      {"source":"https://embodiedgoddesses.com/embodiment-dance-for-high-vibe-living/","currentAuthority":null,"pinIds":["670473463288442895"],"classification":"AMBIGUOUS","repairStatus":"LEFT_UNCHANGED"},
+      {"source":"https://embodiedgoddesses.com/try-the-goddess-yourself-dance-embodiment-program-for-free/","currentAuthority":null,"pinIds":["670473463288241424"],"classification":"DISCONTINUED_OFFER_NO_EQUIVALENT","repairStatus":"LEFT_UNCHANGED"},
+      {"source":"https://embodiedgoddesses.com/sacred-space-the-embodied-goddesses-ebook-series/","currentAuthority":null,"pinIds":["670473463287994421"],"classification":"DISCONTINUED_OFFER_NO_EQUIVALENT","repairStatus":"LEFT_UNCHANGED"},
+      {"source":"https://embodiedgoddesses.com/goddess-embodiment-connecting-to-your-inner-divine-feminine/","currentAuthority":null,"pinIds":["670473463287589487","670473463287163900"],"classification":"AMBIGUOUS_BETWEEN_TAROT_FLOWER_CONCEPTUAL_SUCCESSOR_AND_GYR_EDITORIAL_SUCCESSOR","repairStatus":"LEFT_UNCHANGED"},
+      {"source":"Embodied Goddesses root or malformed root URL","currentAuthority":null,"pinIds":["670473463287447503","670473463287259701","670473463287259692","670473463287164086"],"classification":"AMBIGUOUS_GENERIC_DESTINATION","repairStatus":"LEFT_UNCHANGED"}
+    ],
+    "legacyTarotFlowerDestinations": {
+      "pinsUsingNestedOrDatedLegacyTarotFlowerUrls": 69,
+      "notes": "These include /2020/... WordPress date URLs, retired category paths such as /daily-tarot/, /oracle/, /twin-flame/, /tarot-card-meanings/, /psychics/, and five /news/goddess-yoga-2024... Pins. Many are covered by current redirects, but the dated WordPress URLs are not all represented in public/_redirects. Existing Pins cannot be changed because the editor has no destination field.",
+      "goddessYoga2024PinIds": ["670473463304382230","670473463304453928","670473463304434674","670473463304429820","670473463304410979"],
+      "goddessYogaCurrentAuthority": "https://goddess-yoga-retreats.com/retreat-memories/"
+    },
+    "noExternalDestinationObservedPinIds": [
+      "670473463298773425","670473463298773159","670473463296846326","670473463296844998","670473463274169068","670473463274169067","670473463267753575","670473463267719200","670473463267709811","670473463299087914","670473463299083818","670473463299067944","670473463299741943","670473463299393585","670473463302477550","670473463287259727","670473463287259720","670473463270024308","670473463269363816","670473463267568594","670473463267405018"
+    ],
+    "additionalRelevantBoard": {
+      "name": "Goddess Yoga",
+      "url": "https://www.pinterest.com/vanessahylande/goddess-yoga/",
+      "pins": 18,
+      "note": "Discovered in authenticated Analytics; it is outside the two-board 148-Pin cleanup scope but currently outperforms Tarot Flower by impressions and contains the two leading outbound-click Pins."
+    }
+  },
+  "websiteSideRecovery": {
+    "implementedAt": "2026-09-21",
+    "scope": "Pinterest destination URLs on domains currently controlled by Vanessa; no Pinterest Pins, images, article content, metadata, or third-party domains changed.",
+    "productionDeploymentStatus": "NOT_DEPLOYED_BY_THIS_PASS",
+    "counts": {
+      "uniqueControlledDestinationsTested": 43,
+      "alreadyHealthyOrLive": 22,
+      "missingExactRedirectsAdded": 19,
+      "redirectChainsFlattened": 0,
+      "incorrectDestinationsCorrected": 0,
+      "ambiguousControlledUrlsLeft404": 2,
+      "directEmbodiedGoddessesPinDestinationsOutsideControl": 47
+    },
+    "redirectsAdded": [
+      {"source":"https://tarotflower.com/tarot-affirmations/","target":"https://tarotflower.com/affirmations/","evidence":"The current Affirmations page is the retained Tarot Flower tarot-affirmation corpus.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/17/knight-of-wands/","target":"https://tarotflower.com/be-your-own-knight-in-shining-armor/","evidence":"Retained article date and Pin description identify the same Knight of Wands article.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/14/celebrate-your-creations/","target":"https://tarotflower.com/celebrate-your-creations/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/13/freeing-the-heart-from-the-mind/","target":"https://tarotflower.com/freeing-your-heart-from-your-mind/","evidence":"Retained article is the grammatical slug successor with matching subject/date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/11/true-strength-shines-in-our-gentlest-moments/","target":"https://tarotflower.com/true-strength-shines-in-our-gentlest-moments/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/10/embodying-harmony/","target":"https://tarotflower.com/embodying-harmony/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/09/choosing-love/","target":"https://tarotflower.com/choosing-love/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/08/relationships-are-the-dance-of-life/","target":"https://tarotflower.com/relationships-are-the-dance-of-life/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/07/the-shape-of-your-dream/","target":"https://tarotflower.com/the-shape-of-your-dreams/","evidence":"Retained article is the pluralized slug successor with matching subject/date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/06/turning-from-loss-to-joy/","target":"https://tarotflower.com/turning-from-loss-to-joy/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/05/dont-fear-the-leap-to-freedom/","target":"https://tarotflower.com/dont-fear-the-leap-to-freedom/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/03/choosing-our-burdens/","target":"https://tarotflower.com/choose-your-burdens/","evidence":"Retained article is the direct title/slug successor with matching date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/02/be-in-service-of-your-dreams/","target":"https://tarotflower.com/be-in-service-of-your-dreams/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/18/riches-grow-from-the-seeds-in-your-heart/","target":"https://tarotflower.com/riches-grow-from-the-seeds-in-your-heart/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/27/the-growing-pains-of-blossoming-dreams/","target":"https://tarotflower.com/the-growing-pains-of-blossoming-dreams/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/07/28/step-forward-with-a-pure-heart/","target":"https://tarotflower.com/step-forward-with-a-pure-heart/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/06/13/the-hanged-man/","target":"https://tarotflower.com/the-hanged-man-tarot/","evidence":"Retained canonical Tarot card article and existing undated legacy mapping agree.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/06/14/the-fool/","target":"https://tarotflower.com/the-fool-tarot/","evidence":"Retained canonical Tarot card article and existing undated legacy mapping agree.","deploymentStatus":"LOCAL_PATCH"},
+      {"source":"https://tarotflower.com/2020/06/15/the-moon-reveals-hidden-truths/","target":"https://tarotflower.com/the-moon-reveals-hidden-truths/","evidence":"Exact retained slug/title and publication date.","deploymentStatus":"LOCAL_PATCH"}
+    ],
+    "deliberatelyUnresolved": [
+      {"source":"https://tarotflower.com/2020/07/15/bringing-promises-to-life/","currentStatus":"404","reason":"No retained current page has a sufficiently exact title, slug, date, or content match; the same-date article is not demonstrably equivalent.","action":"EDITORIAL_DECISION_REQUIRED"},
+      {"source":"https://tarotflower.com/2020/07/12/being-love/","currentStatus":"404","reason":"Possible love-themed successors exist, but none is an unambiguous equivalent.","action":"EDITORIAL_DECISION_REQUIRED"},
+      {"source":"47 direct embodiedgoddesses.com Pin destinations","currentStatus":"OUTSIDE_CONTROL","reason":"The domain is not controlled in this project. Evidence remains in authenticatedCleanupAudit.obsoleteDestinationGroups; no artificial proxy infrastructure was created.","action":"PRESERVE_EVIDENCE_ONLY"}
+    ],
+    "highPerformerVerification": [
+      {"pinId":"670473463298768270","title":"I Am Love Heart Chakra Affirmations - Goddess Yoga","destination":"https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/","status":"200_SELF_CANONICAL_ON_RETAINED_SINGULAR_WORDPRESS_SITE","decision":"No redirect changed: live and relevant, but the exact successor is strategically ambiguous between a retreat destination and editorial article."},
+      {"pinId":"670473463298768399","title":"I Choose Love Heart Chakra Affirmation - Goddess Yoga","destination":"https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/","status":"200_SELF_CANONICAL_ON_RETAINED_SINGULAR_WORDPRESS_SITE","decision":"No redirect changed for the same reason."},
+      {"pinId":"670473463298790450","title":"Taurus Dates & Traits: The Loyal, Dependable Romantic","destination":"https://tarotflower.com/astrology/taurus-dates-traits-the-loyal-dependable-romantic/","final":"https://tarotflower.com/taurus-dates-traits-the-loyal-dependable-romantic/","status":"ONE_DIRECT_301_THEN_200"},
+      {"pinId":"670473463299197037","title":"The Temperance Tarot Card in a Twin Flame Reading","destination":"https://tarotflower.com/tarot-card-meanings/temperance-tarot/","final":"https://tarotflower.com/temperance-tarot/","status":"ONE_DIRECT_301_THEN_200"},
+      {"pinId":"670473463299703166","title":"Goddess Flora: The Goddess of Spring","destination":"https://tarotflower.com/oracle/goddess-flora-the-goddess-of-spring/","final":"https://tarotflower.com/goddess-flora-the-goddess-of-spring/","status":"ONE_DIRECT_301_THEN_200"},
+      {"pinId":"670473463305315487","title":"Divine Feminine Affirmations for Kundalini Awakening and Goddess Embodiment","destination":"https://tarotflower.com/","final":"https://tarotflower.com/","status":"DIRECT_200_BUT_GENERIC","decision":"No site redirect can safely repair a Pin that targets the live homepage; changing the homepage response would be destructive."},
+      {"pinIds":["670473463304382230","670473463304453928","670473463304434674","670473463304429820","670473463304410979"],"title":"Goddess Yoga 2024","destination":"https://tarotflower.com/news/goddess-yoga-2024-step-into-the-spotlight-with-classes-retreats-and-the-mystic-mansion/","final":"https://goddess-yoga-retreats.com/retreat-memories/","status":"ONE_DIRECT_CROSS_DOMAIN_301_THEN_200","evidence":"Revalidated against the completed Tarot Flower/Goddess Yoga Retreats ownership map; the exact promotion is retired and Retreat Memories is the selected current authority."}
+    ]
+  },
+  "preservationRulesForImageCleanup": [
+    "Preserve every current Tarot Flower article URL in articleMap.",
+    "Do not treat the 27 broken pinterest-for-blogs image elements as embeds; they are ordinary image references and can be removed or replaced without deleting Pinterest Pins.",
+    "Preserve the mapped Pin IDs, Pin URLs, original i.pinimg creative URLs and destination evidence in this report.",
+    "Before removing old imagery, retain this audit as the visual provenance record.",
+    "Correcting Pin destinations is a separate Pinterest-account task and was not performed.",
+    "Check authenticated Pinterest Analytics for all mapped Pins, prioritizing Flora Pin 670473463299703166 and the old Embodied Goddesses Pins with identifiable saves.",
+    "Review the 99 board Pins not exposed in the public initial feeds after authenticated access; they may reveal more pathways to the other 17 damaged articles."
+  ]
+}
