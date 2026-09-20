@@ -24,7 +24,7 @@ If you've met your twin flame, you've certainly spent time [thinking you're craz
 
 Kundalini energy refers to a powerful spiritual force that resides within every individual. It is often described as a coiled, dormant energy located at the base of the spine, specifically in the area of the sacrum. The word "Kundalini" is derived from Sanskrit and translates to "coiled snake" or "serpent power."
 
-Kundalini energy is the primal life force or cosmic energy that exists within us. It represents our untapped spiritual potential, creativity, and higher consciousness. When awakened, this dormant energy begins to ascend through the central energy channel of the body, known as the Sushumna, and activates the various energy centers or [chakras](https://goddess-yoga-retreats.com/blog/balance-your-7-chakras-to-reset-your-nervous-system) along its path.
+Kundalini energy is the primal life force or cosmic energy that exists within us. It represents our untapped spiritual potential, creativity, and higher consciousness. When awakened, this dormant energy begins to ascend through the central energy channel of the body, known as the Sushumna, and activates the various energy centers or [chakras](https://goddess-yoga-retreats.com/blog/balance-your-7-chakras-to-reset-your-nervous-system/) along its path.
 
 The awakening of Kundalini energy initiates a profound spiritual transformation and expansion of consciousness. It can bring about heightened states of awareness, increased intuition, spiritual insights, and a deep sense of connection to the divine. It is also associated with intense energy surges, physical sensations, and emotional releases.
 
