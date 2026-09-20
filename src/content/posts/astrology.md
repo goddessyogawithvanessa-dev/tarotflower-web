@@ -7,7 +7,7 @@ modified: 2025-05-31
 content_type: page
 categories: []
 seo_title: "Astrology – Journey Through the Zodiac Signs"
-seo_description: "Explore astrology through the lens of the zodiac sigan. Learn the meaning of each sign and deepen your connection to planetary cycles and archetypal wisdom.
+seo_description: "Explore astrology through the lens of the zodiac sign. Learn the meaning of each sign and deepen your connection to planetary cycles and archetypal wisdom.
 "
 ---
 

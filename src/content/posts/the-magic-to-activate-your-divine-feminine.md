@@ -26,7 +26,7 @@ Regardless of gender or how we identify, every person has elements of the **divi
 
 I created the Goddess Yoga method for myself as a part of my daily practice. I have a love for holistic living through the arts and have always incorporated spirituality and music into my body strengthening practices. The special thing about this divine feminine yoga practice, is that it cultivates and nourishes every aspect of you – your physical body, your loving heart, your deep inner wisdom and your spiritual connection to the divine.
 
-Not only is Goddess Yoga an opportunity to keep your body and mind healthy and strong, but by connecting with the goddess through meditation and practice on a daily basis, you can receive her guidance and wisdom. This beautiful practice will enrich you **body, mind and spirit** as you allow your inner divine feminine to bloom. As we learn to [embody the goddess](https://embodiedgoddesses.com/goddess-embodiment-your-divine-feminine/), we learn to **self heal, self love** and **self liberate**. That is the beauty of this kind of **embodiment yoga**.
+Not only is Goddess Yoga an opportunity to keep your body and mind healthy and strong, but by connecting with the goddess through meditation and practice on a daily basis, you can receive her guidance and wisdom. This beautiful practice will enrich you **body, mind and spirit** as you allow your inner divine feminine to bloom. As we learn to [embody the goddess](/goddess-embodiment-your-divine-feminine/), we learn to **self heal, self love** and **self liberate**. That is the beauty of this kind of **embodiment yoga**.
 
 ## Practice Yoga Within a Goddess Circle
 

@@ -37,14 +37,23 @@ const {
   additionalSchema = [],
 } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const socialImageURL = image ? new URL(image, Astro.site) : null;
-const socialImageIsWide = imageWidth && imageHeight ? imageWidth / imageHeight >= 1.5 : true;
+const fallbackSocialImage = '/images/2024/03/TF-Header-2024-Dandelion.jpeg';
+const resolvedSocialImage = image || fallbackSocialImage;
+const resolvedImageAlt = image ? imageAlt : 'Tarot Flower botanical dandelion artwork';
+const resolvedImageWidth = image ? imageWidth : 1600;
+const resolvedImageHeight = image ? imageHeight : 901;
+const socialImageURL = new URL(resolvedSocialImage, Astro.site);
+const socialImageIsWide = resolvedImageWidth && resolvedImageHeight
+  ? resolvedImageWidth / resolvedImageHeight >= 1.5
+  : true;
 const siteURL = new URL('/', Astro.site).href;
 const organizationId = `${siteURL}#organization`;
 const creatorId = `${siteURL}#vanessa-hylande`;
 const websiteId = `${siteURL}#website`;
 const webpageId = `${canonicalURL.href}#webpage`;
 const toIsoDate = (value?: string | Date) => value ? new Date(value).toISOString() : undefined;
+const additionalSchemaNodes = Array.isArray(additionalSchema) ? additionalSchema : [additionalSchema];
+const mainEntitySchema = additionalSchemaNodes.find((node) => node && typeof node['@id'] === 'string');
 const pageSchema: Record<string, unknown> = {
   '@type': schemaType,
   '@id': webpageId,
@@ -55,13 +64,14 @@ const pageSchema: Record<string, unknown> = {
   isPartOf: { '@id': websiteId },
   about: { '@id': organizationId },
   inLanguage: 'en',
-  ...(socialImageURL ? { primaryImageOfPage: { '@type': 'ImageObject', url: socialImageURL.href } } : {}),
+  primaryImageOfPage: { '@type': 'ImageObject', url: socialImageURL.href },
+  ...(mainEntitySchema ? { mainEntity: { '@id': mainEntitySchema['@id'] } } : {}),
 };
 if (schemaType === 'Article') {
   pageSchema.author = { '@id': creatorId };
   pageSchema.publisher = { '@id': organizationId };
   pageSchema.mainEntityOfPage = { '@id': webpageId };
-  if (socialImageURL) pageSchema.image = socialImageURL.href;
+  pageSchema.image = socialImageURL.href;
   if (datePublished) pageSchema.datePublished = toIsoDate(datePublished);
   if (dateModified) pageSchema.dateModified = toIsoDate(dateModified);
 }
@@ -73,6 +83,7 @@ const schemaGraph = {
       '@id': organizationId,
       name: 'Tarot Flower',
       url: siteURL,
+      description: 'Tarot Flower is Vanessa Hylande’s home for tarot, ritual, astrology, Goddess Embodiment, and Sacred Becoming.',
       logo: {
         '@type': 'ImageObject',
         url: new URL('/favicon-192x192.jpg', Astro.site).href,
@@ -80,6 +91,12 @@ const schemaGraph = {
         height: 192,
       },
       founder: { '@id': creatorId },
+      knowsAbout: [
+        { '@type': 'Thing', name: 'Tarot', url: new URL('/understanding-the-tarot/', Astro.site).href },
+        { '@type': 'Thing', name: 'Rituals', url: new URL('/rituals/', Astro.site).href },
+        { '@type': 'Thing', name: 'Astrology', url: new URL('/astrology/', Astro.site).href },
+        { '@type': 'Thing', name: 'Goddess Embodiment', url: new URL('/goddess-embodiment-practices/', Astro.site).href },
+      ],
       sameAs: [
         'https://www.instagram.com/tarotflower.online/',
         'https://www.pinterest.com/vanessahylande/',
@@ -93,8 +110,10 @@ const schemaGraph = {
       '@id': creatorId,
       name: 'Vanessa Hylande',
       url: siteURL,
+      image: new URL('/images/homepage/vanessa-hooded-tarot.png', Astro.site).href,
       worksFor: { '@id': organizationId },
       sameAs: [
+        'https://vanessahylande.com/',
         'https://www.instagram.com/tarotflower.online/',
         'https://www.pinterest.com/vanessahylande/',
         'https://www.youtube.com/@vanessahylande',
@@ -110,7 +129,7 @@ const schemaGraph = {
       inLanguage: 'en',
     },
     pageSchema,
-    ...(Array.isArray(additionalSchema) ? additionalSchema : [additionalSchema]),
+    ...additionalSchemaNodes,
   ],
 };
 ---
@@ -130,16 +149,16 @@ const schemaGraph = {
   <meta property="og:url" content={canonicalURL.href} />
   <meta property="og:title" content={title} />
   {description && <meta property="og:description" content={description} />}
-  {socialImageURL && <meta property="og:image" content={socialImageURL.href} />}
-  {socialImageURL && imageAlt && <meta property="og:image:alt" content={imageAlt} />}
-  {socialImageURL && imageWidth && <meta property="og:image:width" content={String(imageWidth)} />}
-  {socialImageURL && imageHeight && <meta property="og:image:height" content={String(imageHeight)} />}
+  <meta property="og:image" content={socialImageURL.href} />
+  {resolvedImageAlt && <meta property="og:image:alt" content={resolvedImageAlt} />}
+  {resolvedImageWidth && <meta property="og:image:width" content={String(resolvedImageWidth)} />}
+  {resolvedImageHeight && <meta property="og:image:height" content={String(resolvedImageHeight)} />}
   <meta property="og:site_name" content="Tarot Flower" />
-  <meta name="twitter:card" content={socialImageURL && socialImageIsWide ? 'summary_large_image' : 'summary'} />
+  <meta name="twitter:card" content={socialImageIsWide ? 'summary_large_image' : 'summary'} />
   <meta name="twitter:title" content={title} />
   {description && <meta name="twitter:description" content={description} />}
-  {socialImageURL && <meta name="twitter:image" content={socialImageURL.href} />}
-  {socialImageURL && imageAlt && <meta name="twitter:image:alt" content={imageAlt} />}
+  <meta name="twitter:image" content={socialImageURL.href} />
+  {resolvedImageAlt && <meta name="twitter:image:alt" content={resolvedImageAlt} />}
   <script type="application/ld+json" set:html={JSON.stringify(schemaGraph)}></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -161,6 +180,7 @@ const schemaGraph = {
       <li><span>TAROT</span>
         <ul>
           <li><a href="/readings-with-vanessa">Readings with Vanessa</a></li>
+          <li><a href="/tarot-card-readings">Tarot Card Readings</a></li>
           <li><a href="/understanding-the-tarot">Understanding the Tarot</a></li>
           <li><a href="/major-arcana-2">Major Arcana</a>
             <ul>
@@ -307,6 +327,7 @@ const schemaGraph = {
         <div class="dropdown-menu dropdown-mega">
           <div class="mega-categories">
             <a class="mega-overview-link" href="/readings-with-vanessa">Readings with Vanessa</a>
+            <a class="mega-overview-link" href="/tarot-card-readings">Tarot Card Readings</a>
             <a class="mega-overview-link" href="/understanding-the-tarot">Understanding the Tarot</a>
             <div class="mega-cat" data-panel="major">
               <a href="/major-arcana-2">Major Arcana <span class="caret">&#9662;</span></a>
@@ -461,6 +482,7 @@ const schemaGraph = {
           <li><a href="/rituals">Rituals</a></li>
           <li><a href="/library/login/">My Ritual Library</a></li>
           <li><a href="/readings-with-vanessa">Tarot Readings with Vanessa</a></li>
+          <li><a href="/tarot-card-readings">Tarot Card Readings</a></li>
           <li><a href="/sacred-becoming/mentorship">Sacred Becoming Mentorship</a></li>
         </ul>
       </div>

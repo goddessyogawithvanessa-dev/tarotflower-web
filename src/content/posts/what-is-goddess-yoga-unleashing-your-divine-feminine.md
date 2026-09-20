@@ -20,7 +20,7 @@ Our retreats provide a safe and nurturing space for you to deepen your physical,
 
 Join us and be a part of a supportive community of like-minded individuals who are also on their own journey of self-discovery. [Embrace your divine feminine](https://goddess-yoga-retreat.com/embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga/) power and let your inner goddess shine at our Goddess Yoga Retreats. You deserve to reconnect with your divine essence and step into your true power. Come join us and let's embark on this beautiful adventure together!
 
-![](http://goddess-yoga-retreat.com/wp-content/uploads/2022/12/wedding-24.png)
+![](/images/2023/02/wedding-24.png)
 
 ## Join Us In Beautiful Italy!
 

@@ -120,7 +120,7 @@ Remove energetic and physcial blockages. In person and remote.
 
 ![](/images/2023/09/3-1.jpg)
 
-# The Goddess Embodiment Program
+## The Goddess Embodiment Program
 
 ## Become Your Best Self
 

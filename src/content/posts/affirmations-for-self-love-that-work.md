@@ -13,7 +13,7 @@ seo_title: "Affirmations for Self Love That Actually Work | Tarot Flower"
 seo_description: "Everyone is talking about self love affirmations, but how do you know they will actually work? Positive affirmations for self love are easy enough to..."
 ---
 
-![affirmations for self love embodied goddesses](http://embodiedgoddesses.com/wp-content/uploads/2021/10/tarot-flower-1-1024x1024.jpg)
+![affirmations for self love embodied goddesses](/images/2021/01/tarot-flower-1-1024x1024.jpg)
 
 Everyone is talking about self love affirmations, but how do you know they will actually work? Positive affirmations for self love are easy enough to find, but the trick is knowing how to use them. It's not enough to just repeat them over and over. In fact, affirmations for self love need to be used as tool in a journey of self-discovery.
 

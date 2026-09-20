@@ -85,7 +85,7 @@ Once we are operating from a place of self love and self care, we can begin to s
 
 ![the embodied way of learning](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-14-576x1024.jpg)
 
-"True embodiment requires an integration of body, mind, spirit and heart." [Embodied learning](http://embodiedgoddesses.com/embodied-learning-a-holistic-approach/) is truly a holistic approach. We do not just learn ideas and theories with the mind, we must also experience them. And beyond that, we must integrate the emotions that surround them and connect to our intuition and the divine energy supporting our practice. When we practice embodied learning, we approach our divine feminine embodiment practices from a holistic perspective to arrive at a beautiful synchronization and integration.
+"True embodiment requires an integration of body, mind, spirit and heart." [Embodied learning](/embodied-learning-a-holistic-approach/) is truly a holistic approach. We do not just learn ideas and theories with the mind, we must also experience them. And beyond that, we must integrate the emotions that surround them and connect to our intuition and the divine energy supporting our practice. When we practice embodied learning, we approach our divine feminine embodiment practices from a holistic perspective to arrive at a beautiful synchronization and integration.
 
 ### The 5 Elements and Embodied Learning
 

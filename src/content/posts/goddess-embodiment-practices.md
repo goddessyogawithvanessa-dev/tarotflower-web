@@ -19,9 +19,9 @@ Hi! I'm Vanessa, the soul behind Tarot Flower and the Goddess Yoga Method. Godde
 Together, we will:
 
 **1. Strengthen your physical body through yoga, dance, and body conditioning.**  
-**2. Liberate your mind from negativity with sound bath meditations, shadow work, journaling, and one-on-one support.**  
+**2. Liberate your mind from negativity with [sound bath meditations](/sound-bath-meditations/), shadow work, journaling, and one-on-one support.**  
 **3. Connect to your spirit through intuitive tarot card readings, Goddess channeling, moon magic rituals, and more.**  
-**4. Join a vibrant community of incredible women on their own Goddess path.**
+**4. Join a [vibrant community](/goddess-community/) of incredible women on their own Goddess path.**
 
 I'm a **certified RYT200 yoga instructo**r, a former ballet dancer at the **Metropolitan Opera in NYC**, and a professional opera singer. But above all, I'm a woman and a mother who has journeyed through betrayal and grief to find joy, friendship, community, and unconditional love.
 

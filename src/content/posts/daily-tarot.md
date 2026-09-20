@@ -6,7 +6,7 @@ date: 2022-02-08
 modified: 2025-05-31
 content_type: page
 categories: []
-seo_title: "The Witch’s Journal – Tarot, Rituals &amp; Reflections"
+seo_title: "The Witch’s Journal – Tarot, Rituals & Reflections"
 seo_description: "Welcome to the Witch’s Journal. A space for tarot insights, lunar rituals, personal reflections, and spiritual stories from the path of the divine feminine.
 "
 ---

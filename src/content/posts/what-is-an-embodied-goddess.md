@@ -39,7 +39,7 @@ An Embodied Goddess is intimately connected with nature. She sees herself as par
 
 An Embodied Goddess finds contentment and satisfaction within herself. She recognizes her own greatness, and knows that no external situation, circumstance or person can make her feel more fulfilled. The world is an ever-changing landscape, but no matter where she is or what she is doing, she is always connected to her own inner power and joy.
 
-An Embodied Goddess is also a reminder to us all that we can trust the beauty of life and the path that we are on. She is a source of strength and inspiration, teaching us to find true fulfillment from within, and to stay connected to the natural world around us. [She knows that know matter where she is in the world, she always finds herself.](http://embodiedgoddesses.com/an-embodied-goddess-always-finds-herself/) An embodied goddess is a reminder for us all that we too can always find ourselves, no matter where we are.
+An Embodied Goddess is also a reminder to us all that we can trust the beauty of life and the path that we are on. She is a source of strength and inspiration, teaching us to find true fulfillment from within, and to stay connected to the natural world around us. [She knows that know matter where she is in the world, she always finds herself.](/an-embodied-goddess-always-finds-herself/) An embodied goddess is a reminder for us all that we too can always find ourselves, no matter where we are.
 
 ## An embodied goddess is a healer of hearts
 

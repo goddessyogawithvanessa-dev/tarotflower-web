@@ -30,7 +30,7 @@ Even if it might be hard sometimes, give yourself permission to try. Give yourse
 
 Remember that **infinite possibility** is available to you in everything you do. In every choice, in every feeling and perspective you choose to give energy and attention to.
 
-The world can be as you dream it because you **are** infinite possibility. Go and [embody](https://embodiedgoddesses.com/goddess-embodiment-your-divine-feminine/) this **affirmation for manifest**ation. Be like the dandelion and let your seeds of dreams fly!
+The world can be as you dream it because you **are** infinite possibility. Go and [embody](/goddess-embodiment-your-divine-feminine/) this **affirmation for manifest**ation. Be like the dandelion and let your seeds of dreams fly!
 
 Love,
 
