@@ -1,4 +1,6 @@
 ---
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+
 interface Props {
   title: string;
   description?: string;
@@ -117,6 +119,7 @@ const schemaGraph = {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <GoogleAnalytics />
   <title>{title}</title>
   <link rel="canonical" href={canonicalURL.href} />
   {noindex && <meta name="robots" content="noindex, nofollow" />}
