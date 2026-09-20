@@ -30,7 +30,7 @@ But as we grow up and we learn things - and we are conditioned - we start to que
 
 ## Why We Should Listen to the Voice of the Heart
 
-So, why is it important to listen to the voice of the heart? It is the **first step to aligning to your identity**, the first step to **manifestation,** your first step to **alignment**, to finding your **desires**, your **truths**. That is why it is so critical to come into that heart space and really connect to that loving place, so that we become the observers of our thoughts, our past, our conditioning, and our programming. It is a fundamental part of [Goddess embodiment—connecting to your inner divine feminine](/goddess-embodiment-your-divine-feminine).
+So, why is it important to listen to the voice of the heart? It is the **first step to aligning to your identity**, the first step to **manifestation,** your first step to **alignment**, to finding your **desires**, your **truths**. That is why it is so critical to come into that heart space and really connect to that loving place, so that we become the observers of our thoughts, our past, our conditioning, and our programming. It is a fundamental part of [Goddess embodiment—connecting to your inner divine feminine](/goddess-embodiment-practices/).
 
 ## Goddess of the Heart Chakra
 

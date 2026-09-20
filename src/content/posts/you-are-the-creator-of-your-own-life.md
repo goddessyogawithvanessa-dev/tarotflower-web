@@ -42,8 +42,6 @@ This is when **joy**, **abundance** and **love** can flourish in our every day l
 
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
-*Interested in beautiful* ***goddess oracle cards****,* ***tarot cards****,* ***crystals****,* ***essential oils****,* ***incense****,* ***candles*** *and more? Check out our* *beautiful* [*Goddess* *Yoga retreats*](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/) *around the world and join today!*
-
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out* [*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
 
 ![Do you feel stuck sometimes? Like life is a ride that you're on and you just have to wait for the next stop to get off? It is in these moments that its most important to remember that you are the creator of your own life.](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-1-576x1024.jpg)

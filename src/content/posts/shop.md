@@ -95,4 +95,4 @@ Tarot card and oracle cards are fun, and we're glad you've discovered some wonde
 
 ## Learn tarot embodiment!
 
-What if you could learn to actually embody the lessons of the tarot? What if I told you that you can learn to embody the gorgeous archetypes of [The Empress](the-empress-tarot) through our [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/)? Curious to learn more about embodiment and how it fits together with mystical, spiritual yoga? Check out our beautiful divine feminine yoga retreats around the world!
+What if you could learn to actually embody the lessons of the tarot? What if I told you that you can learn to embody the gorgeous archetypes of [The Empress](the-empress-tarot) through [Goddess Yoga Retreats](https://goddess-yoga-retreats.com/retreats)? Curious to learn more about embodiment and how it fits together with mystical, spiritual yoga? Explore the beautiful divine feminine yoga retreats around the world.

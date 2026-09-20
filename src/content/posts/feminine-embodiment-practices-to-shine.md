@@ -69,7 +69,7 @@ Feminine embodiment practices are a powerful way to learn to love and care for y
 
 ## Learning Self Love with Feminine Embodiment Practices
 
-[![self love heart chakra feminine embodiment practices coasters redbubble store](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96265657-coasters-set-of-4.jpg)](https://www.redbubble.com/i/coasters/Sea-Green-and-Pink-Roses-I-Listen-to-the-Whispers-Embodiment-Affirmation-by-embodiedg/96265657.E5I3N?asc=u)
+![self love heart chakra feminine embodiment practices coasters redbubble store](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96265657-coasters-set-of-4.jpg)
 
 Self care revolves around the things we do, whereas self love revolves around the way we feel.
 
@@ -93,4 +93,4 @@ When we use the 5 elements in our feminine embodiment practice, we ensure that w
 
 ### The 7 Chakras and Embodied Learning
 
-When we use the [7 chakras](https://goddess-yoga-retreat.com/balance-your-7-chakras-to-reset-your-nervous-system/) through our feminine embodiment practice, we also ensure that we will explore the whole range of our existence. From our physical security and our abundance in this world to our connection to the divine, each of the chakras explores a different aspect of our being. When we balance, unblock, nurture and integrate all of our 7 chakras, we achieve an enlightened state of flow and happiness.
+When we use the [7 chakras](https://goddess-yoga-retreats.com/blog/balance-your-7-chakras-to-reset-your-nervous-system/) through our feminine embodiment practice, we also ensure that we will explore the whole range of our existence. From our physical security and our abundance in this world to our connection to the divine, each of the chakras explores a different aspect of our being. When we balance, unblock, nurture and integrate all of our 7 chakras, we achieve an enlightened state of flow and happiness.

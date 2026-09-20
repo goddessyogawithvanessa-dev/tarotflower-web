@@ -40,7 +40,7 @@ The Ace of Cups can also be seen as a sign of emotional balance and harmony. It 
 
 ## The Ace of Cups Love
 
-If you've received the Ace of Cups card in your tarot reading, you may have new love on the horizon! In a love reading, the Ace of Cups Tarot card brings forth a powerful message of emotional fulfillment and new beginnings in matters of the heart. It represents the [opening of the heart chakra](/the-best-heart-chakra-yoga-poses-activating-opening-and-balancing-your-anahata-chakra), allowing for a deep and transformative experience of love.
+If you've received the Ace of Cups card in your tarot reading, you may have new love on the horizon! In a love reading, the Ace of Cups Tarot card brings forth a powerful message of emotional fulfillment and new beginnings in matters of the heart. It represents the [opening of the heart chakra](https://goddess-yoga-retreats.com/blog/the-best-heart-chakra-yoga-poses-activating-opening-and-balancing-your-anahata-chakra/), allowing for a deep and transformative experience of love.
 
 This card signifies the potential for a new romantic connection or the rekindling of passion in an existing relationship. It heralds a time of emotional abundance, where love and affection flow freely. It encourages you to be open to love, to embrace vulnerability, and to trust in the power of your emotions.
 

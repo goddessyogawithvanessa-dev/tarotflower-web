@@ -80,11 +80,11 @@ Tarot is a powerful tool for personal growth and transformation. By using the Ta
 
 ## Embody Divine Feminine Tarot with Goddess Yoga and Dance
 
-Divine feminine embodiment practices such as [goddess yoga](/embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga), [embodiment dance](/goddess-embodiment-your-divine-feminine), and music are wonderful ways to connect with the divine feminine energy within us and awaken our full potential as human beings. These practices help us to embody the archetypal qualities of the goddess, such as intuition, creativity, and wisdom.
+Divine feminine embodiment practices such as [goddess yoga](https://goddess-yoga-retreats.com/blog/embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga/), [embodiment dance](https://goddess-yoga-retreats.com/blog/goddess-embodiment-your-divine-feminine/), and music are wonderful ways to connect with the divine feminine energy within us and awaken our full potential as human beings. These practices help us to embody the archetypal qualities of the goddess, such as intuition, creativity, and wisdom.
 
 ### The magic of goddess yoga
 
-Goddess yoga is a practice that draws inspiration from the qualities of different goddesses from various traditions. Each pose represents a particular quality or aspect of the goddess, and practitioners can tap into these qualities through their practice. For example, practicing the warrior pose can invoke the strength and courage of the goddess Durga, while practicing the tree pose can help us connect with the grounded and nurturing energy of the goddess Gaia. So, if you want to learn how to [embrace your divine feminine](/embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga), Goddess Yoga may be the perfect divine feminine practice for you to explore.
+Goddess yoga is a practice that draws inspiration from the qualities of different goddesses from various traditions. Each pose represents a particular quality or aspect of the goddess, and practitioners can tap into these qualities through their practice. For example, practicing the warrior pose can invoke the strength and courage of the goddess Durga, while practicing the tree pose can help us connect with the grounded and nurturing energy of the goddess Gaia. So, if you want to learn how to [embrace your divine feminine](https://goddess-yoga-retreats.com/blog/embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga/), Goddess Yoga may be the perfect divine feminine practice for you to explore.
 
 ### Unleashing your inner goddess with embodiment dance
 

@@ -82,8 +82,6 @@ Thumbnail Art by Vanessa Hylande on Midjourney :-)
 
 Looking to fully embody the goddess in your daily life through Tarot, yoga, meditations and more?
 
-Check out all of our offerings like [Goddess Yoga Classes](/goddess-yoga) and [Retreats](/goddess-yoga-retreats)!
-
 →EMBODY THE GODDESS←
 
 ✧ Instagram: @vanessa\_goddess\_yoga

@@ -90,7 +90,7 @@ The truth is that both parties have to evolve, and it can’t be done from withi
 
 ![](/images/2022/02/6.jpg)
 
-If you’re struggling with a twin flame connection that is in separation, you may find support in [affirmations](/affirmations) for gratitude or practices that will help you to [embody your inner goddess](/goddess-embodiment-your-divine-feminine) and find your badass self!
+If you’re struggling with a twin flame connection that is in separation, you may find support in [affirmations](/affirmations) for gratitude or practices that will help you to [embody your inner goddess](/goddess-embodiment-practices/) and find your badass self!
 
 ## Why your ‘mirror soul’ is your greatest teacher
 

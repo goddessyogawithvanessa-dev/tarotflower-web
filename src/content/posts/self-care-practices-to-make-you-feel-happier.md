@@ -14,7 +14,7 @@ seo_description: "Are you feeling exhausted? Are you feeling uninspired? Or mayb
 
 Are you feeling exhausted? Are you feeling uninspired? Or maybe you always feel like your body is tense and stressed all the time? Here are four embodiment self-care practices for happiness that you will want to try!
 
-Remember when our minds are constantly active and racing, we can’t hear the subtle messages that our **divine feminine** is sending us. And usually she is asking us to [slow down](https://goddess-yoga-retreat.com/slow-down-to-find-your-souls-purpose/) and offer ourselves some time to practice self care and [recharge our beautiful bodies, minds and souls.](https://goddess-yoga-retreat.com/retreat-and-recharge-mind-body-and-soul/)
+Remember when our minds are constantly active and racing, we can’t hear the subtle messages that our **divine feminine** is sending us. And usually she is asking us to [slow down](/slow-down-to-find-your-souls-purpose/) and offer ourselves some time to practice self care and recharge our beautiful bodies, minds and souls.
 
 There are many wellness and self-care practices that you can do to become **less stressed**, feel like you have more energy and become overall more embodied.
 

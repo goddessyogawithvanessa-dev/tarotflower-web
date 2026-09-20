@@ -52,8 +52,6 @@ Want to learn how to embody the Goddess in your daily life? Check out the Embodi
 
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
-*Interested in beautiful* ***goddess oracle cards****,* ***tarot cards****,* ***crystals****,* ***essential oils****,* ***incense****,* ***candles*** *and more? Check ou*t our beautiful [*Goddess Yoga retreats.*](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/)
-
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
 
 ![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-2-576x1024.png)

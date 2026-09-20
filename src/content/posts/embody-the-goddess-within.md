@@ -48,8 +48,6 @@ Naturally, we must always act from a place of love and compassion for others. Ou
 
 ## Goddess Yourself to Find Abundance and Joy
 
-Ready to discover your inner Goddess and shine like the beautiful, radiant soul you were always meant to be? Check out our [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/), where you will discover your inner goddess through chakra healing dances, music, journaling, healthy recipes, natural beauty care and so much more.
-
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Interested in our tarot and oracle decks? Check out our [shop](/shop/).*

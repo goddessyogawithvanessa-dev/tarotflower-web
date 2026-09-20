@@ -50,8 +50,6 @@ Jess & Ness
 
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/3fWTz5ghk70" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
-*Interested in beautiful* ***goddess oracle cards****,* ***tarot cards****,* ***crystals****,* ***essential oils****,* ***incense****,* ***candles*** *and more? Check out our beautiful [Goddess Yoga retreats](https://goddess-yoga-retreat.com/retreats/embodying-the-divine-feminine/) around the world!*
-
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out* [*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
 
 ![Let's face it, we all feel down sometimes, and there is nothing wrong with that. The important thing is that you know how to pick yourself back up again. So, how do you do that? By remembering and really knowing  that you are your own beacon of light. ](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-2-576x1024.jpg)

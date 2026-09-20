@@ -202,7 +202,7 @@ export function getShelfEntries(entries: JournalEntry[], slug: JournalCategorySl
     const selectedSlugs = [
       'why-dance-is-the-best-embodiment-practice',
       'how-to-self-heal-through-embodiment-practices',
-      'the-magic-to-activate-your-divine-feminine',
+      'embodied-learning-a-holistic-approach',
     ];
     return selectedSlugs
       .map((selectedSlug) => entries.find((entry) => entry.slug === selectedSlug))

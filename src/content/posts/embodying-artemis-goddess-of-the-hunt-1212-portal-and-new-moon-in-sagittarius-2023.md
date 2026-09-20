@@ -45,5 +45,3 @@ Imagine embracing her teachings—cultivating the skills that make you unstoppab
 If you’d like to learn more about embodying the goddess Artemis, join me and other lightworkers in Goddess Yoga classes and Goddess Yoga Retreats around the world, where we hone our intuition with Tarot card readings and rituals to channel the Goddesses, practice yoga and dance to fortify and purify our bodies, and build community with other beautiful human beings on the path of reclaiming the divine feminine.
 
 ## Discover Goddess Yoga Classes Online and Retreats Around the World
-
-Join me for [Goddess Yoga classes](/goddess-yoga) in Vienna, Austria or online. And stay tuned of upcoming retreats in 2024!

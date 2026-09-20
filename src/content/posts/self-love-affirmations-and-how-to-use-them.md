@@ -40,8 +40,6 @@ The voice of the heart, our intuition, speaks softly and is neutral. It doesn't 
 
 ### How do we separate our intuition from our thoughts and emotions?
 
-If you want to learn how to separate the voice of the heart from the mind, join us at our Goddess Yoga retreats to really learn these embodiment practices. With the use of affirmations for self love, embodiment dances, journaling, self-love meditations and more, you will be gently guided to reconnect with your heart center.
-
 ### How will you benefit from separating the voice of the heart from your mind and emotions?
 
 There are so many benefits from learning to separate the voice of the heart from the mind and the emotions. First, you will no longer fear your emotions. You will no longer feel like you are just "along for the ride" on your emotional roller coaster or taken by surprise by them. Additionally, you will find yourself able to sit comfortably in silence, and you will be able to hold space for yourself and others, even when your emotions are stirring up.
@@ -62,7 +60,7 @@ Self love affirmations can guide us on our healing journey and are a fantastic t
 
 ![affirmations for love I choose love](http://embodiedgoddesses.com/wp-content/uploads/2022/02/I-Choose-Love-1024x1024.png)
 
-In the Embodied Goddesses "Goddess Yourself" embodiment dance course, we also spend a lot of time working with affirmations for love - affirmations for attracting love into your life. These affirmations for love are based on the Law of Attraction. We attract what we radiate out into the world. This is why it is critical that we self love. When we radiate love, when we choose love, when we are love, we attract love.
+Affirmations for attracting love are based on the Law of Attraction. We attract what we radiate out into the world. This is why it is critical that we self love. When we radiate love, when we choose love, when we are love, we attract love.
 
 We all have a **love language**. And when we practice affirmations for self love, we learn what our own love language is. Sometimes it may not be what you think. Society has taught us to value certain things, but society's values may not be in alignment with our authentic values. With affirmations love language secrets can be revealed. But you need to spend time with them to discover those secrets.
 

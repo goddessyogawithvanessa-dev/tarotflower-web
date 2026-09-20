@@ -27,7 +27,7 @@ Affirmations are anything that you say and think. They generally form the subcon
 
 ## Affirmations for Self Love Are Powerful Tools
 
-[![heart chakra affirmation coasters redbubble whispers](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96265657-coasters-set-of-4.jpg)](https://www.redbubble.com/i/coasters/Sea-Green-and-Pink-Roses-I-Listen-to-the-Whispers-Embodiment-Affirmation-by-embodiedg/96265657.E5I3N?asc=u)
+![heart chakra affirmation coasters redbubble whispers](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96265657-coasters-set-of-4.jpg)
 
 When used correctly with **patience**, **mindfulness**, **self compassion** and **empathy**, positive affirmations become very powerful. They will release you from negativity, fear, worry, and anxiety. When these affirmations are repeated over and over again, they begin to take charge of your thoughts, slowly changing your pattern of thinking and ultimately changing your life. But you must be invested in learning to believe them. And for that to happen, you must become aware of your internal reactions and where they are coming from.
 

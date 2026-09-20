@@ -90,8 +90,6 @@ Overall, love psychic readings employ various skills and techniques to provide g
 
 ## Learn to Read Tarot, Channel and Connect to Your Own Divine Feminine at Goddess Yoga Retreats!
 
-If you'd like to join a sacred circle of like-minded women to explore and unleash your inner divine feminine, then join us in magical Lago d'Orta, Italy! At [Goddess Yoga Retreats](/goddess-yoga-retreats), we connect to our own inner goddess through ritual, intuitive practices, yoga, dance, meditation, music and more.
-
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ## What About Psychic Websites?

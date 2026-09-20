@@ -110,8 +110,6 @@ As long as you are looking for your twin to fill a hole, whether it’s the desi
 
 So, rejoice and do the work joyfully, and never forget that your twin flame is already with you.
 
-*Everyone's twin flame journey is totally unique*. *If you need support or advice about your twin flame journey, feel free to contact us. We offer divine feminine [Goddess Yoga Retreats](https://goddess-yoga-retreat.com/), online [sacred circles](https://www.facebook.com/groups/875205237071295/), private sessions and tarot card readings.*
-
 Have thoughts and experiences to share? We'd love to hear about your twin flame journey!
 
 ##### Divine Feminine
