@@ -423,7 +423,25 @@
   "websiteSideRecovery": {
     "implementedAt": "2026-09-21",
     "scope": "Pinterest destination URLs on domains currently controlled by Vanessa; no Pinterest Pins, images, article content, metadata, or third-party domains changed.",
-    "productionDeploymentStatus": "NOT_DEPLOYED_BY_THIS_PASS",
+    "productionDeploymentStatus": "DEPLOYED_AND_VERIFIED",
+    "productionDeployment": {
+      "worker": "tarotflower-web",
+      "versionId": "912ca227-016f-4c9d-b84e-6a0603f2a02f",
+      "verifiedAt": "2026-09-21",
+      "verification": {
+        "redirectVariantsTested": 38,
+        "direct301Responses": 38,
+        "finalAuthoritiesReturning200": 19,
+        "finalAuthoritiesWithCorrectSelfCanonical": 19,
+        "redirectLoops": 0,
+        "newRedirectChains": 0,
+        "broadRouteCaptures": 0,
+        "renderedInternalRouteLinksBroken": 0,
+        "ambiguousControlledUrlsConfirmedUnchanged404": 2,
+        "tarotFlowerHomepageHealthy": true,
+        "goddessYogaRetreatsHomepageHealthy": true
+      }
+    },
     "counts": {
       "uniqueControlledDestinationsTested": 43,
       "alreadyHealthyOrLive": 22,
