@@ -18,8 +18,6 @@ Also known as Artemis, goddess of the moon, she speaks to all of us through our 
 
 ## The Embodied Goddesses Goddess Artemis Story
 
-(A part of the Embodied Goddesses "[Goddess Yourself](http://embodiedgoddesses.com/about-course/)" online dance embodiment course.)
-
 [![](http://embodiedgoddesses.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-17-at-10.45.08-AM.png)](https://www.youtube.com/watch?v=Wt0U1WnAKkU&t=44s)
 
 *"Once upon a time in ancient Greece there was a fierce goddess of hunting, the wildness and all the wild animals, the moon and chastity. Goddess Artemis had hair golden and long like the wild itself. She was a patroness to all women. With a steady arm and a focused eye she would walk through the wild lands. Her bow and arrow under the arm were vital and sacred ornaments in her mission for hunting her prey, eliminating any distractions and anything in her way.*

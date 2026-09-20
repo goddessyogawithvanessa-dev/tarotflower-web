@@ -36,7 +36,7 @@ Remember the key to embodying your inner warrior and empowerment is to take acti
 
 When you are feeling called to follow the direction of your heart, have trust and say to yourself, " I am not afraid. I was born to stand in courage and follow my heart. I am a warrior woman." All you have to is listen to the voice that you feel in your heart.
 
-So are you ready warrior woman!? Are you ready to trust and breakthrough your fears, and to answer your calling? Are your ready to [embody your Warrior Woman?](https://embodiedgoddesses.com/)
+So are you ready warrior woman!? Are you ready to trust and breakthrough your fears, and to answer your calling? Are your ready to [embody your Warrior Woman?](/goddess-embodiment-practices/)
 
 No more holding back. It's time to embody this affirmation for confidence! The warrior women behind Tarot Flower have got your back!
 
@@ -51,12 +51,6 @@ Love,
 ---
 
 ![embodied goddesses online alignment program](/images/2021/01/embody-your-inner-goddess-1024x1024.png)
-
-I*f you want to learn more about manifesting courage and abundance in your life, check out the[Embodied Goddesses](https://embodiedgoddesses.com/about-course/) online ascension program, and **dance** your way to embodying the warrior woman.*
-
-*Through meditation, chakra work, music, dance and other spiritual practices, this nine-module course will teach you how to embody the gifts and lessons of the tarot.*
-
-*Visit our*[*website*](https://embodiedgoddesses.com/)*today, and subscribe to our mailing list so you’ll be the first to know about our launch and special offers!*
 
 The beautiful card featured in this post, “Warrior woman” card, is from the [Work Your Light Oracle Cards](https://amzn.to/2LzFmYT) deck. It’s feminine, pastel imagery and spiritual messages are a great compliment to any reading.
 

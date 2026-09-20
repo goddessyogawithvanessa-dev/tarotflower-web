@@ -12,7 +12,7 @@ seo_description: "Ready to brush off those winter blues? The sun is shining and 
 
 ![spring flowers goddess dance embodiment](http://embodiedgoddesses.com/wp-content/uploads/2022/05/EG-Blog-Post-Pics-2.jpg)
 
-Ready to brush off those winter blues? The sun is shining and we can finally enjoy the blossoming flowers and outdoor activities we love so much. Well, goddess [dance embodiment](http://embodiedgoddesses.com/embodiment-dance-for-high-vibe-living/) is the perfect way to celebrate spring this year. Goddess dance embodiment is the new kind of dance therapy, and you can enjoy it at a Goddess Yoga retreat in beautiful Lago d'Orta, Italy or other gorgeous locations around the world.
+Ready to brush off those winter blues? The sun is shining and we can finally enjoy the blossoming flowers and outdoor activities we love so much. Well, goddess dance embodiment is the perfect way to celebrate spring this year. Goddess dance embodiment is the new kind of dance therapy, and you can enjoy it at a Goddess Yoga retreat in beautiful Lago d'Orta, Italy or other gorgeous locations around the world.
 
 Much like we do a spring cleaning of our homes, Spring is a great time to do a spiritual spring cleaning as well! And what does that mean? It means letting go of stress, outdated habits, things that are weighing us down. It also means **reenergizing ourselves** through **healthy exercise, healthy foods** and **uplifting activities**.
 

@@ -38,9 +38,6 @@ Love,
 
 ![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
-*Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
-
-*Through* ***meditation****,* ***chakra work, music, embodiment dance*** *and other* ***spiritual practices****, this nine-module online course will teach you how to* ***embody the gifts and lessons of the tarot****.*
 
 ## Tarot Decks
 

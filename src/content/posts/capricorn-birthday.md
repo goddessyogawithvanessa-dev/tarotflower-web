@@ -50,6 +50,6 @@ Always speak with kindness and honesty, but never be afraid to speak up when som
 
 ## Tarot for Kids Capricorn Tip: Embody Your Dreams
 
-Close your eyes and make a wish. Send your dream out there and then go and make it happen. That second part is what is really important. It's not enough to just wish for something. You have to work towards it in *everything* you do, every day. We call that **["embodiment."](https://embodiedgoddesses.com/)** So, embody your dreams Cappy, and your dreams will come true before you know it!
+Close your eyes and make a wish. Send your dream out there and then go and make it happen. That second part is what is really important. It's not enough to just wish for something. You have to work towards it in *everything* you do, every day. We call that **["embodiment."](/goddess-embodiment-practices/)** So, embody your dreams Cappy, and your dreams will come true before you know it!
 
 Check back for more fun messages at your favorite kids tarot and astrology website!

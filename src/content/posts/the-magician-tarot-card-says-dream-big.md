@@ -30,15 +30,10 @@ It's a great day to pursue that dream job. Don't put it off any longer. Reassess
 
 ![the magician tarot card manifest abundance](/images/2021/01/Magician1-1024x1024.jpg)
 
-If you're looking for some inspiration and guidance on embodying The Magician tarot card, then check out the [Embodied Goddesses](https://embodiedgoddesses.com/) online embodiment through the arts program. Jessica & Vanessa will guide you gently through dance embodiment practices, guided meditations, journaling exercises and best practices for using affirmations and inspirational quotes to manifest abundance in your life. And, abundance can come in all forms - money, love, joy, security. The Magician tarot card is telling you to get started creating the life you love today!
-
 Love,
 
 ![tarot flower](/images/2021/01/tarot-flower-logo-1-e1611221709442.png)
 
-*Want to learn more about embodying the tarot? Check out the* [*Embodied Goddesses*](https://embodiedgoddesses.com/) *online* ***ascension*** *and* ***manifestation*** *experience.*
-
-*Through* ***meditation****,* ***chakra work, music, embodiment dance*** *and other* ***spiritual practices****, this nine-module online course will teach you how to* ***embody the gifts and lessons of the tarot****.*
 
 ## Tarot Decks
 

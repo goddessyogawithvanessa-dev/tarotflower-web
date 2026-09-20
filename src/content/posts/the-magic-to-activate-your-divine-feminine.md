@@ -18,7 +18,7 @@ So many of us are looking for activation and healing of our divine feminine. Whe
 
 Take your yoga practice to the next level when you embody the goddess in your yoga practice. In Goddess Yoga, we use **sound bath** music, **mantras** (kundalini based), **chakra healing asanas**, **guided meditations** for reducing anxiety and stress, chakra healing **crystals**, **aromatherapy** and more in each class.
 
-Based on the [Embodied Goddesses method](https://embodiedgoddesses.com/the-embodied-goddesses-method/), I will invoke the wisdom of one of the goddesses in each class. The Goddess, as an archetype, can be an inspiration to us all, male or female, as she encourages us to connect with our divine feminine powers of love, empathy and creation.
+Based on the [Embodied Goddesses method](/goddess-embodiment-practices/), I will invoke the wisdom of one of the goddesses in each class. The Goddess, as an archetype, can be an inspiration to us all, male or female, as she encourages us to connect with our divine feminine powers of love, empathy and creation.
 
 Regardless of gender or how we identify, every person has elements of the **divine feminine** and the **sacred masculine** within them. Receive the guidance and messages of love from The Goddess as you practice the asanas of yoga. You will reach a new level of peace and harmony as you build **strength and confidence** inside and out.
 

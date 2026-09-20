@@ -103,7 +103,6 @@ const slugsByRitual: Record<RitualKey, readonly string[]> = {
     'pentacles-tarot',
     'riches-grow-from-the-seeds-in-your-heart',
     'self-care-practices-to-make-you-feel-happier',
-    'tarot-flower-kids',
     'taurus-dates-traits-the-loyal-dependable-romantic',
     'the-sacred-temple-creating-sanctuary-within-and-without',
     'virgo-dates-traits-harvest-and-abundance',

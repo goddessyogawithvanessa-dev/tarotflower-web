@@ -28,7 +28,7 @@ Nourish the soil and give the plants plenty of water and sunshine. Give them ple
 
 The Empress celebrates her creations, so celebrate your creations too. Connect with your gratitude, and the rest will follow. Give yourself permission to be joyful.
 
-And every time you choose to allow yourself to do something that brings you joy, say it out loud again: "I celebrate my creations**".** This is how we [embody](https://embodiedgoddesses.com/) the lessons of the tarot. This is how we embody affirmations for abundance.
+And every time you choose to allow yourself to do something that brings you joy, say it out loud again: "I celebrate my creations**".** This is how we [embody](/goddess-embodiment-practices/) the lessons of the tarot. This is how we embody affirmations for abundance.
 
 Love,
 

@@ -18,7 +18,7 @@ Sometimes planning and preparation is no longer needed. Rather we just need a si
 
 [The Fool](/the-fool-tarot) carries a little rucksack and walks gingerly along the path. But what matters is that **he really *is* walking along the path**. He **trusts** in the **universe** and in his **own abilities** to adapt and persevere. Do you?
 
-**Take a chance** on your life. Choose to **take a chance on** **your dreams** - nobody else can do it for you. So embody this positive affirmation for happiness and visualize yourself on the path. Then walk it. That is how we **[embody](https://embodiedgoddesses.com/)** the teachings of The Fool.
+**Take a chance** on your life. Choose to **take a chance on** **your dreams** - nobody else can do it for you. So embody this positive affirmation for happiness and visualize yourself on the path. Then walk it. That is how we **[embody](/goddess-embodiment-practices/)** the teachings of The Fool.
 
 Love,
 

@@ -46,8 +46,6 @@ When we are embodied we can dream up our own soundtrack, and then dance it into 
 
 ## How is Embodiment Dance a New Yoga?
 
-[![free heart meditation new yoga embodied goddesses](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-2-576x1024.png)](http://embodiedgoddesses.com/free-embodiment-dance-course/)
-
 However you choose to interpret it, the common theme is that dance is a magical and beautiful form of self-expression that is a part of something larger and mysterious. It is individual, yet whole. We dance together yet each dance is unique. And everyone’s journey will be their own, yet a part of humanity.
 
 Even the planets and stars have their own dance within the galaxy. In this way, because goddess dance and Goddess Yoga are a complete path to achieve union by transforming ourselves and therewith our environment, we achieve yoga. We embody the authentic definition of yoga.

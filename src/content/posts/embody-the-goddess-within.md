@@ -52,7 +52,7 @@ Ready to discover your inner Goddess and shine like the beautiful, radiant soul 
 
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
-*Interested in beautiful* ***goddess oracle cards****,* ***tarot cards****,* ***crystals****,* ***essential oils****,* ***incense****,* ***candles*** *and more? Check out our*[*shop*](http://embodiedgoddesses.com/shop/) *where you can find everything you need for your*[*Goddess Yourself Experience.*](http://embodiedgoddesses.com/about-course/)
+*Interested in our tarot and oracle decks? Check out our [shop](/shop/).*
 
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
 
