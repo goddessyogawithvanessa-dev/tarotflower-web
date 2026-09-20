@@ -14,7 +14,7 @@ seo_description: "For this beautiful full moon in Gemini, 2023, I will be invoki
 
 For this beautiful full moon in [Gemini](/gemini-dates-traits-the-clever-twins), 2023, I will be invoking the Goddess [Artemis](/goddess-artemis-greek-goddess-of-the-hunt/), as we have just moved into the sun sign of [Sagittarius](/sagittarius-dates-traits-the-spirited-adventurer). The Goddess Artemis hunts in the wild with her fiery bow and arrow. She is driven, adventurous and filled with confidence and prowess. This Greek Goddess was also revered as the goddess of the moon, so it's a perfect time to channel her passionate energy!
 
-Sagittarius season connects us with our dreams, our inner passion, travel and adventure. As a fire sign, Sagittarius season invites us to reconnect with the burning flame within, our sacral chakra. It's a great time to [balance your seven chakras](https://goddess-yoga-retreats.com/blog/balance-your-7-chakras-to-reset-your-nervous-system/) and focus particularly on healing and strengthening the sacral and solar plexus chakras. One represents our passion, and the other our drive to take action. It's a winning combination!
+Sagittarius season connects us with our dreams, our inner passion, travel and adventure. As a fire sign, Sagittarius season invites us to reconnect with the burning flame within, our sacral chakra. It's a great time to [balance your seven chakras](https://goddess-yoga-retreats.com/blog/balance-your-7-chakras-to-reset-your-nervous-system) and focus particularly on healing and strengthening the sacral and solar plexus chakras. One represents our passion, and the other our drive to take action. It's a winning combination!
 
 Try practicing yoga, meditation, sound baths and dance to ignite your inner fire!
 
