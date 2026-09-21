@@ -99,5 +99,3 @@ The Emperor tarot card is represented by the number four even though it is the f
 <p><img src="/images/2021/01/the-emperor-1-1024x1024.jpg" alt="embody the emperor tarot card meanings major arcana" width="1024" height="1024" loading="lazy" decoding="async" /></p>
 
 Activate your **solar plexus chakra**. Have **confidence** in your own wisdom and knowledge. Remember that all of your **struggles, trials and tribulations** **have made you stronger**. It is from the place of experience and wisdom that we can best lead and protect others. But it all starts with leading and **protecting ourselves**.
-
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/Sbbi6Nvb4TU" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

@@ -40,6 +40,4 @@ xoxo,
 
 Jess & Ness
 
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/3fWTz5ghk70" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out* [*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*

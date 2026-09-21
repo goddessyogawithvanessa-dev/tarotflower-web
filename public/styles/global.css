@@ -6537,8 +6537,9 @@ footer {
     z-index: 0;
     overflow: hidden;
     border-radius: 9999px;
-    border: 1px solid rgba(224, 191, 120, 0.68);
-    background-color: rgba(5, 20, 17, 0.36);
+    border: 1px solid rgba(224, 191, 120, 0.92);
+    background-color: rgba(5, 20, 17, 0.82);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.42);
   }
   a.hamburger::after {
     content: '';
@@ -6556,8 +6557,8 @@ footer {
     z-index: 1;
     width: 22px;
     height: 22px;
-    stroke: #fff8e9;
-    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.9));
+    stroke: #fffdf7;
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.95));
   }
   .mm-ocd {
     z-index: 10001;

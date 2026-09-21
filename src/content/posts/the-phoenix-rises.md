@@ -14,7 +14,7 @@ seo_description: "I've decided to use this lunar eclipse in Cancer to manifest s
 
 ### Let's Manifest Something Beautiful Together!
 
-I've decided to use this lunar eclipse in Cancer to manifest something new and amazing, and I thought you might like to join me! I'm going to channel these incredible energies to turbocharge a [**transformation and** **manifestation spell**](https://www.youtube.com/watch?v=Wl-YI0hR6t0). All you have to do is dream your dream with me!
+I've decided to use this lunar eclipse in Cancer to manifest something new and amazing, and I thought you might like to join me! I'm going to channel these incredible energies to turbocharge a **transformation and manifestation spell**. All you have to do is dream your dream with me!
 
 Most of us have already begun this process, but the energies on January 10th will be at their most powerful for this transformation to be *completed*. It will be the final release of everything we have been trying to leave behind and the pivotal moment when we take our first step into the new world. It's the tipping point. The moment of toggling from dark to light.
 
