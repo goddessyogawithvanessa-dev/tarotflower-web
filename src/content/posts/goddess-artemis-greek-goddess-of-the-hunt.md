@@ -10,15 +10,11 @@ seo_title: "Goddess Artemis: Greek Goddess of the Hunt | Tarot Flower"
 seo_description: "Goddess Artemis, the Greek goddess of the hunt, is an inspiration for anyone who wants to embody the power of the feminine, divine, adventurous aspects..."
 ---
 
-![greece goddess Artemis story](http://embodiedgoddesses.com/wp-content/uploads/2022/05/20.jpg)
-
 Goddess Artemis, the Greek goddess of the hunt, is an inspiration for anyone who wants to embody the power of the feminine, divine, adventurous aspects of the Goddess. You can learn to **walk with confidence** and prowess like Artemis herself, when you learn how to **channel her energy** and hear her calling.
 
 Also known as Artemis, goddess of the moon, she speaks to all of us through our **intuition** and we can connect with her by practicing **affirmations for self worth**, **dance embodiment** practices, and using things like **guided meditations** for anxiety. If we just ask, Artemis, goddess of the hunt, will inspire us to chase down our own dreams with confidence.
 
 ## The Embodied Goddesses Goddess Artemis Story
-
-[![](http://embodiedgoddesses.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-17-at-10.45.08-AM.png)](https://www.youtube.com/watch?v=Wt0U1WnAKkU&t=44s)
 
 *"Once upon a time in ancient Greece there was a fierce goddess of hunting, the wildness and all the wild animals, the moon and chastity. Goddess Artemis had hair golden and long like the wild itself. She was a patroness to all women. With a steady arm and a focused eye she would walk through the wild lands. Her bow and arrow under the arm were vital and sacred ornaments in her mission for hunting her prey, eliminating any distractions and anything in her way.*
 
@@ -27,8 +23,6 @@ Also known as Artemis, goddess of the moon, she speaks to all of us through our 
 *With an adventurous spirit, nothing was going to stop her in her path to her desires. Goddess Artemis is always within you to remind you that you innately hold the power and strength to move through the walks of life and to make all of your dreams come true."*
 
 ## All About the Goddess Artemis
-
-![Goddess Artemis stag protector of animals goddess of the hunt](http://embodiedgoddesses.com/wp-content/uploads/2022/05/EG-Blog-Post-Pics-2-1.jpg)
 
 In modern times, Goddess Artemis has been associated with the moon, fertility, childbirth, and hunting. She is an ancient Greek goddess who was worshiped as the protector of women and children. She was also associated with hunting and fertility.
 

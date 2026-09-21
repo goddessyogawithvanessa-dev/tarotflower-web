@@ -10,8 +10,6 @@ seo_title: "Dare to Dream, Dare to Manifest | Tarot Flower"
 seo_description: "Have you ever wished for something and then thought to yourself “that’s silly” or “that could never happen for me?”"
 ---
 
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/marketing-affirmations-3.jpg)
-
 Have you ever wished for something and then thought to yourself “that’s silly” or “that could never happen for me?”
 
 Well, you know what? When we say that to ourselves, we are right. If we tell ourselves that it’s not for us, then it won’t be.
@@ -24,8 +22,6 @@ Dare to dream, dare to manifest. And you might just find that you can accomplish
 
 ## The Universe is Our Reflection
 
-![lotus flower reflection](http://embodiedgoddesses.com/wp-content/uploads/2021/09/17.jpg)
-
 The first step toward manifesting anything in your life is accepting it as a reality. The universe is like a giant mirror. What we put out into the world is reflected back to us.
 
 If we believe negative things about ourselves they will manifest in our daily lives. When we believe we are not worthy, we attract energies that do not value us.
@@ -35,8 +31,6 @@ When we believe that everything will be difficult, then life will most often be 
 If you want to manifest abundance of any kind in your life, you must first recognize and acknowledge the abundance that is all around you. One of the best ways of doing this is by practicing gratitude.
 
 ## Gratitude is the First Step Toward Manifesting Abundance
-
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/Blog-Images-2.jpg)
 
 When we talk about gratitude, it doesn’t mean “things could be worse, so be thankful.” It means putting our focus on the abundance that already exists all around us, no matter how small. And the more energy and attention we give to those small, beautiful things in our lives, the more they will grow.
 

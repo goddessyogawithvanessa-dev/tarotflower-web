@@ -10,8 +10,6 @@ seo_title: "Embody the Goddess Within | Tarot Flower"
 seo_description: "Are you watching others and comparing yourself to them? Are you trying to be something you know doesn't really align with your true self? When you..."
 ---
 
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/marketing-affirmations-2-1.jpg)
-
 Are you watching others and comparing yourself to them? Are you trying to be something you know doesn't really align with your true self? When you embody the Goddess within, you stop feeling the need to compare, fix and prove yourself.
 
 If all of this sounds familiar and you're feeling stressed or down because of it, then embodiment practice can really help.
@@ -24,8 +22,6 @@ But sometimes these expectations become so pervasive, that we lose our individua
 
 ## Who Are You Really?
 
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/24.jpg)
-
 In today's world of selfies and social media, our self-image has been put on display for the world. We are judged at every turn by the number of likes, views and followers we have.
 
 And when we aren't deeply rooted in ourselves, this can become really destructive. It creates an endless cycle of striving to be prettier, more likable, more this, less that.
@@ -35,8 +31,6 @@ Sometimes we spend years striving to achieve certain benchmarks without even ask
 When we live with an inner conflict between what is expected of us and what actually resonates with who we are and what we value, the result is unhappiness, apathy, anxiety and even depression.
 
 ## Embody Your Inner Goddess by Living an Authentic Life
-
-![wedding rings authenticity embodiment](http://embodiedgoddesses.com/wp-content/uploads/2021/09/25.jpg)
 
 In order to embody your inner Goddess, you must live in authenticity. So, what does that mean exactly?
 
@@ -53,7 +47,3 @@ Naturally, we must always act from a place of love and compassion for others. Ou
 *Interested in our tarot and oracle decks? Check out our [shop](/shop/).*
 
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
-
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-1-1-576x1024.png)
-
-![authenticity happiness inner peace self love](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-576x1024.png)

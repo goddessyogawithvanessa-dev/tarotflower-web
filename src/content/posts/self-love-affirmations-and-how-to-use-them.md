@@ -10,8 +10,6 @@ seo_title: "Self Love Affirmations and How to Use Them | Tarot Flower"
 seo_description: "Self love affirmations can help you to find inner calm, set boundaries, attract love and heal emotional wounds, but only if you know how to use them..."
 ---
 
-![affirmations for self love I am beautiful](http://embodiedgoddesses.com/wp-content/uploads/2022/02/affirmations-love-23-1024x1024.png)
-
 **Self love affirmations** can help you to find **inner calm**, set boundaries, **attract love** and heal emotional wounds, but only if you know how to use them properly. We use self love affirmations throughout our Goddess Yoga retreats as a way to self heal and self nurture. And as a part of your embodiment practice self healing journey, these affirmations can have a huge positive impact. Whether you use them in moments when you need some upliftment or as **affirmations of the day**, the benefits of affirmations for self love are far reaching and long lasting.
 
 ## Why Is Self Love Important?
@@ -48,8 +46,6 @@ You will also become aware of the effects that your emotions have on your though
 
 ## Self Love Affirmations and the Heart Chakra
 
-![](http://embodiedgoddesses.com/wp-content/uploads/2022/02/affirmations-love-13-1024x1024.png)
-
 As [Rumi](https://www.goodreads.com/quotes/582645-love-is-the-whole-thing-we-are-only-pieces) says, "Love is the whole thing. We are only pieces." This is why we begin our journey of self healing with the heart chakra. Everything begins and ends with love. Even pain and suffering begins with love because it is the absence of love.
 
 In order to heal our heart chakra, we must practice self love and self nurturing. Self love affirmations are a wonderful tool for learning where our strengths and weaknesses are. When we work with affirmations for self love, we discover discomforts, places where our self love is lacking. We also discover great strength in places where we are confident of our worth.
@@ -58,23 +54,17 @@ Self love affirmations can guide us on our healing journey and are a fantastic t
 
 ## Affirmations for Love and the Law of Attraction
 
-![affirmations for love I choose love](http://embodiedgoddesses.com/wp-content/uploads/2022/02/I-Choose-Love-1024x1024.png)
-
 Affirmations for attracting love are based on the Law of Attraction. We attract what we radiate out into the world. This is why it is critical that we self love. When we radiate love, when we choose love, when we are love, we attract love.
 
 We all have a **love language**. And when we practice affirmations for self love, we learn what our own love language is. Sometimes it may not be what you think. Society has taught us to value certain things, but society's values may not be in alignment with our authentic values. With affirmations love language secrets can be revealed. But you need to spend time with them to discover those secrets.
 
 ## Affirmations for Confidence and the Solar Plexus Chakra
 
-![affirmations for confidence](http://embodiedgoddesses.com/wp-content/uploads/2022/02/affirmations-love-7-1024x1024.png)
-
 There are many different kinds of affirmations that we can incorporate into our embodiment practices. Affirmations for confidence are centered around the energies of the **solar plexus chakra**. This chakra is associated with the sacred masculine, the fire, the power, taking action, and the color yellow.
 
 When you verbalize solar plexus affirmations self confidence can get a boost. And if you feel awkward or insecure speaking affirmations about self worth and courage out loud, then you know you are on the right track. Stick with that affirmation longer - until it feels good! This also applies to affirmations for success or strength. Focus on the fire in your belly, the white light in your solar plexus chakra, and practice them until they come naturally.
 
 ## Affirmations of Gratitude and the Root Chakra
-
-![affirmations of gratitude](http://embodiedgoddesses.com/wp-content/uploads/2022/02/affirmations-love-1-1024x1024.png)
 
 **Affirmations of gratitude** are another beautiful tool for self healing. Associated with the **root chakra**, these affirmations will focus on your sense of **security, abundance** and **connection to nature**. Because the Great Mother is the nurturer of us all, it is important to focus on gratitude for what we have if we want to attract more of something.
 

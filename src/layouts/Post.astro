@@ -118,6 +118,34 @@ const wandsJourneyBySlug: Record<string, {
 };
 const wandsJourney = wandsJourneyBySlug[slug];
 const evergreenJourney = evergreenJourneyBySlug[slug];
+const visualResetPendingSlugs = new Set([
+  'aphrodite-goddess-of-love',
+  'goddess-of-spring-flora',
+  'goddess-artemis-greek-goddess-of-the-hunt',
+  'isis-goddess-of-the-divine-feminine',
+  'what-is-an-embodied-goddess',
+  'embody-the-goddess-within',
+  'an-embodied-goddess-always-finds-herself',
+  'allow-your-inner-goddess-to-bloom',
+  'how-to-be-a-goddess-of-dance',
+  'holistic-living-with-embodiment-through-the-arts',
+  'how-to-self-heal-through-embodiment-practices',
+  'embodiment-through-the-arts',
+  'embodied-learning-a-holistic-approach',
+  'feminine-embodiment-practices-to-shine',
+  'why-dance-is-the-best-embodiment-practice',
+  'self-care-practices-to-make-you-feel-happier',
+  '5-tips-affirmations-to-manifest-abundance',
+  'affirmations-for-confidence',
+  'self-love-affirmations-and-how-to-use-them',
+  'you-are-your-own-beacon-of-light',
+  'slow-down-to-find-your-souls-purpose',
+  'you-are-the-creator-of-your-own-life',
+  'dare-to-dream-dare-to-manifest',
+  'how-to-be-more-beautiful',
+  'affirmations-for-self-love-that-work',
+]);
+const isVisualResetPending = visualResetPendingSlugs.has(slug);
 ---
 <Base
   title={pageTitle}
@@ -575,7 +603,7 @@ const evergreenJourney = evergreenJourneyBySlug[slug];
           guideDescription="Explore all 14 Wands cards and the suit’s journey through inspiration, courage, action, and creative power."
         />
       )}
-      {evergreenJourney && !cupsJourney && !pentaclesJourney && !swordsJourney && !wandsJourney && (
+      {evergreenJourney && !isVisualResetPending && !cupsJourney && !pentaclesJourney && !swordsJourney && !wandsJourney && (
         <EvergreenEditorialJourney {...evergreenJourney} />
       )}
     </div>

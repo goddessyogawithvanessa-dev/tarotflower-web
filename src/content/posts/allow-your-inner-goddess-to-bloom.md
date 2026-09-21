@@ -10,8 +10,6 @@ seo_title: "Allow Your Inner Goddess to Bloom | Tarot Flower"
 seo_description: "In this busy and complicated world, where and how do you find the time to allow your inner goddess to bloom?"
 ---
 
-![tend to your inner garden embodied goddesses](http://embodiedgoddesses.com/wp-content/uploads/2021/09/8.jpg)
-
 In this busy and complicated world, where and how do you find the time to allow your inner goddess to bloom?
 
 As adults, we have many responsibilities that often take most of our focus and attention. Therefore, it can become hard to make enough time for ourselves.
@@ -23,8 +21,6 @@ So, how do we prioritize happiness and joy without disappointing our loved ones 
 Well, Goddess. There is always a way, and it is a beautiful one of self-healing and self-love.
 
 ## Making Space for Your Inner Goddess to Bloom
-
-![I allow my inner goddess to bloom](http://embodiedgoddesses.com/wp-content/uploads/2021/09/marketing-affirmations-1.jpg)
 
 Every living thing needs space to grow. This is why we pull the weeds out of our garden. It gives our flowers more water, oxygen, nutrients and room to flourish.
 

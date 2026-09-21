@@ -10,8 +10,6 @@ seo_title: "Goddess of Spring Flora: Rejuvenate Yourself and Shine | Tarot Flowe
 seo_description: "Flora, the Goddess of Spring, emerges from ancient mythology as a captivating and revered figure who personifies the essence of the blossoming season...."
 ---
 
-![goddess Flora, goddess yoga, embodiment, divine feminine, goddess of spring, Tarot Flower deck, oracle, goddess cards, Midjourney art by Vanessa Hylande](https://goddess-yoga-retreat.com/wp-content/uploads/2022/02/Flora-1-683x1024.jpg)
-
 Flora, the Goddess of Spring, emerges from ancient mythology as a captivating and revered figure who personifies the essence of the blossoming season. In the tapestry of ancient beliefs, Flora represents the embodiment of nature's beauty, abundance, and renewal. As the goddess of flowers, gardens, and fertility, her presence heralds the arrival of spring, igniting the world with a vibrant burst of colors, scents, and new life. With her gentle touch, Flora awakens the slumbering earth, coaxing buds to unfurl and plants to bloom in a captivating display of vitality.
 
 Adorned in flowing robes and crowned with blossoms, Flora captures the imagination with her radiant charm. She presides over lush meadows, where her vibrant garments mirror the vivid petals that blanket the landscapes. Flora's enchanting aura imbues the air with a sense of wonder, as if the very essence of life is being woven through her fingers. The graceful swaying of her step carries the promise of warmth, growth, and the abundance that lies ahead. In ancient rituals and celebrations, people would pay homage to Flora, seeking her blessings for fertile fields, fruitful harvests, and the restoration of nature's beauty after the dormant months of winter.
@@ -19,8 +17,6 @@ Adorned in flowing robes and crowned with blossoms, Flora captures the imaginati
 Flora's significance transcends mere botanical symbolism, extending to the human realm as well. She embodies the spirit of nurturing and growth, reminding us of our interconnectedness with the natural world. In her embrace, Flora encapsulates the cycle of life, the continuous rhythm of birth, growth, and decay. Her presence is a reminder of the resilience of nature and the enduring beauty found in the perpetual cycle of rebirth. Through Flora, we find hope and rejuvenation, a tangible manifestation of the transformative power of spring. As we witness the unfolding of blossoms and the fragrance that fills the air, we are reminded of the eternal beauty and the promise of new beginnings that reside within the realm of the Goddess of Spring, Flora.
 
 ## The History of the Goddess Flora
-
-![goddess Flora, goddess yoga, embodiment, divine feminine, goddess of spring, Tarot Flower deck, oracle, goddess cards, Midjourney art by Vanessa Hylande](https://goddess-yoga-retreat.com/wp-content/uploads/2022/02/Flora-3-683x1024.jpg)
 
 The history of the goddess Flora stretches back to ancient Roman mythology. She was considered the divine embodiment of flowers, gardens, and the arrival of spring. Flora held a prominent place in Roman religious practices and was widely celebrated during the festival of Floralia, dedicated to her worship.
 
@@ -38,8 +34,6 @@ Today, Flora's legacy continues to be honored and celebrated. Her symbolism serv
 
 Embodying the goddess Flora is a delightful and empowering experience that can be infused into your yoga, dance, meditation, and various divine feminine practices. Here are some simple ways to connect with her energy:
 
-![goddess Flora, goddess yoga, embodiment, divine feminine, goddess of spring, Tarot Flower deck, oracle, goddess cards, Midjourney art by Vanessa Hylande](https://goddess-yoga-retreat.com/wp-content/uploads/2022/02/Flora-2-683x1024.jpg)
-
 1. **Yoga:** Begin your practice by setting the intention to embody Flora's essence. Incorporate gentle, flowing movements that mimic the graceful swaying of flowers in the breeze. As you flow through poses, imagine yourself blossoming and blooming, tapping into Flora's vibrant life force.
 2. **Dance:** Engage in a joyful and expressive dance session, allowing your body to move freely and intuitively. Let your movements mimic the growth and blossoming of flowers, embodying Flora's spirit of vitality and beauty. Allow the music to guide you, surrendering to the rhythm and flow of nature.
 3. **Meditation:** Find a peaceful space where you can connect with Flora on a deeper level. Close your eyes and visualize yourself surrounded by a vibrant garden filled with flowers. Breathe in the sweet fragrance of nature, absorbing Flora's nurturing energy. Feel yourself merging with the essence of blossoming and renewal.
@@ -54,8 +48,6 @@ Remember, the key to embodying Flora is to embrace her qualities of growth, vibr
 
 ## Embody the Goddess of Spring Using the Elements
 
-![goddess of spring flora flowers elements](http://embodiedgoddesses.com/wp-content/uploads/2021/07/images-for-website-1.jpg)
-
 Everything in our environment can be organized into five separate categories, or elements: **earth, fire, water, air and spirit**. Everything around us also carries its own energetic frequency.
 
 When we start to pay attention to these little “fingerprints” we can use these energies to help ourselves create the energetic space that is best for us.
@@ -65,8 +57,6 @@ Whether it’s to calm down, increase focus, or strengthen our resolve, we can u
 The Embodied Goddesses method recommends special combinations of elements for each module, so that you can become familiar with how different **flowers, crystals**, and such things affect your energy in a positive way. And before we begin our dance practice, we always create a beautiful Goddess circle with these elements, so that we can dance inside of it. We always have fun with it, and always recommend that you modify our suggestions to what feels right for you.
 
 ## Goddess Flora Flower Circles
-
-![holistic flower circle](http://embodiedgoddesses.com/wp-content/uploads/2021/11/20211114_161249_0000.jpg)
 
 In the Embodied Goddesses online embodiment through the arts program, we make use of flowers by creating gorgeous **Goddess circles**, the same way that the Goddess of Spring Flora would.
 
@@ -82,8 +72,6 @@ Goddess water is purified water that you can charge with the frequencies of your
 
 ## Goddess of Spring Medicinal Healing
 
-![goddess of spring flora beauty care](http://embodiedgoddesses.com/wp-content/uploads/2021/09/31.jpg)
-
 The Goddess of Spring Flora also teaches us many lessons about medicinal **healing and health**. There are so many healing properties in Mother Earth's creations, especially among the fruits, plants and flowers. And our overall physical health is intimately connected to the nourishment we give ourselves.
 
 It is also important to take the time  to express gratitude for all that we have learned and accomplished. One of the best ways of doing this is through **nourishment**!
@@ -91,8 +79,6 @@ It is also important to take the time  to express gratitude for all that we hav
 We will share healthy foods and **recipes** with you that support our learning and healing process. We always encourage each other to take the time to nourish ourselves and support in each other all of the ways in which we embody the Goddess within us.
 
 ## Root Chakra Opening With Goddess Flora
-
-![Embodied Goddesses recipe Sacred Space](http://embodiedgoddesses.com/wp-content/uploads/2021/01/Copy-of-pictures-for-website-3-1024x1024.jpg)
 
 Our **root chakra** represents **abundance**. It is a symbol of the Earth and our connection to it. Our **sense of security** stems directly from the state of our root chakra. Through healthy nourishment, we can also nourish our root chakra.
 
@@ -105,8 +91,6 @@ The Goddess of Spring is just one of the many goddesses that inspires us to **pr
 The Goddess of Spring Flora is associated with the suit of Pentacles as well as [The Empress](/the-empress-tarot/) in the **Tarot**. The coins don't just represent financial wealth, though they can. But abundance reaches across all forms. We can be abundant in health, love, security, happiness and wealth. But the thing that connects all of these together is an abundance mindset.
 
 ## The Goddess Flora and an Abundance Mindset
-
-![manifest your dreams pin](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-10-576x1024.jpg)
 
 We explore **creating abundance** of all forms in your life from the perspective of the **divine feminine**. Abundance can be about anything - it’s the plentiful availability of something.
 
@@ -134,14 +118,6 @@ Nature provides everything that you need, not only with food but with soil, medi
 
 ## The Goddess Flora and the Dancing Body
 
-![dance and feel beautiful like the Goddess of Spring Flora](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-576x1024.png)
-
 When we are embodying the Goddess of Spring Flora and Mother Earth with our dancing, we are focusing on our **feet and legs**. It is an exploration of where we are planted, **gravity, weight**. We will explore how we lower ourselves to the ground, how we shift our weight and how that makes us feel. And we will discover which movements cause us to feel more grounded and connected to the earth.
 
 Our bodies have incredible healing capacity, so when you are needing to reconnect with the earth and ground yourself, practices such as swings, the feeling of falling and **dropping, heaviness and release**, can give us a direct line back to connectedness in the body.
-
-![goddess flora, manifestation, abundance](http://embodiedgoddesses.com/wp-content/uploads/2022/02/47-576x1024.png)
-
-![manifesting beauty, manifesting abundance, goddess ](http://embodiedgoddesses.com/wp-content/uploads/2022/02/48-1-576x1024.png)
-
-![goddess elements, beauty, manifestation, mother earth](http://embodiedgoddesses.com/wp-content/uploads/2022/02/49-576x1024.png)

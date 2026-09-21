@@ -13,8 +13,6 @@ seo_title: "Affirmations for Self Love That Actually Work | Tarot Flower"
 seo_description: "Everyone is talking about self love affirmations, but how do you know they will actually work? Positive affirmations for self love are easy enough to..."
 ---
 
-![affirmations for self love embodied goddesses](/images/2021/01/tarot-flower-1-1024x1024.jpg)
-
 Everyone is talking about self love affirmations, but how do you know they will actually work? Positive affirmations for self love are easy enough to find, but the trick is knowing how to use them. It's not enough to just repeat them over and over. In fact, affirmations for self love need to be used as tool in a journey of self-discovery.
 
 Using self love affirmations is a process and requires dedication to your self-healing. In this way, they become a beautiful part of your self care and self love routine. So, are you ready to learn how to use these positive affirmations for self love in such a way that they will actually work?
@@ -26,8 +24,6 @@ Let's jump in and see how.
 Affirmations are anything that you say and think. They generally form the subconscious mind and when they are positive, they open the door to change. They are the internal dialogue that you have with yourself. Unfortunately, it is the negative thoughts/affirmations that are driving most people’s thinking. These may be habitual thinking patterns learned from childhood. This means that what you really desire may be very different from how you are actually thinking.
 
 ## Affirmations for Self Love Are Powerful Tools
-
-![heart chakra affirmation coasters redbubble whispers](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96265657-coasters-set-of-4.jpg)
 
 When used correctly with **patience**, **mindfulness**, **self compassion** and **empathy**, positive affirmations become very powerful. They will release you from negativity, fear, worry, and anxiety. When these affirmations are repeated over and over again, they begin to take charge of your thoughts, slowly changing your pattern of thinking and ultimately changing your life. But you must be invested in learning to believe them. And for that to happen, you must become aware of your internal reactions and where they are coming from.
 
@@ -50,5 +46,3 @@ When affirmations don’t work, it's because we aren't invested enough in our pr
 Ready to learn what manifestation is and how to create abundance through dance and feminine embodiment practices? Together we will show you how to create the sacred space with energetic clearing, beautifying everything around you, so that you can begin a journey of self discovery.
 
 Let’s pull out our chakra healing crystals, light some candles and incense, and make our beautiful goddess circles so we can dance our way into alignment!
-
-![](http://embodiedgoddesses.com/wp-content/uploads/2022/07/pins-683x1024.jpg)

@@ -10,8 +10,6 @@ seo_title: "You Are Your Own Beacon of Light | Tarot Flower"
 seo_description: "Let's face it, we all feel down sometimes, and there is nothing wrong with that. The important thing is that you know how to pick yourself back up..."
 ---
 
-![I am my own beacon of light](http://embodiedgoddesses.com/wp-content/uploads/2021/09/marketing-affirmations-2.jpg)
-
 Let's face it, we all feel down sometimes, and there is nothing wrong with that. The important thing is that you know how to pick yourself back up again. So, how do you do that? By remembering and really knowing that *you are your own beacon of light.*
 
 Feeling low typically comes from a place of feeling powerless. But are we really powerless? Are there other options that we haven't thought to consider?
@@ -22,9 +20,6 @@ But , who is it that has determined the standard we are holding ourselves to? Di
 
 ## Comparing Yourself to Others Won't Bring Happiness
 
-![Let's face it, we all feel down sometimes, and there is nothing wrong with that. The important thing is that you know how to pick yourself back up again. So, how do you do that? By remembering and really knowing  that you are your own beacon of light. 
-](http://embodiedgoddesses.com/wp-content/uploads/2021/09/12.jpg)
-
 Take social media, for example. Society has set a standard that many of us robotically accept as a desirable goal to achieve.
 
 Many of us have never questioned whether these values actually mirror our own. We simply accept what society is telling us is best, and then often feel like we are "less than" or that we don't fit in.
@@ -32,9 +27,6 @@ Many of us have never questioned whether these values actually mirror our own. W
 When we compare ourselves to others instead of supporting our own unique passions and dreams from within, we wind up with an inner conflict and feeling of lack. Its a big reason why so many people these days feel like there are unreasonable expectations to live up to.
 
 ## We Create Our Own Happiness
-
-![Let's face it, we all feel down sometimes, and there is nothing wrong with that. The important thing is that you know how to pick yourself back up again. So, how do you do that? By remembering and really knowing  that you are your own beacon of light. 
-](http://embodiedgoddesses.com/wp-content/uploads/2021/09/11.jpg)
 
 When we follow our passions from the inside out without seeking approval from others, we begin to realize that we create our own perception. If we know things will go badly, then they will. If we know (not hope) that things will work out in a perfect way, then they will.
 
@@ -51,8 +43,3 @@ Jess & Ness
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/3fWTz5ghk70" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out* [*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
-
-![Let's face it, we all feel down sometimes, and there is nothing wrong with that. The important thing is that you know how to pick yourself back up again. So, how do you do that? By remembering and really knowing  that you are your own beacon of light. ](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-2-576x1024.jpg)
-
-![Let's face it, we all feel down sometimes, and there is nothing wrong with that. The important thing is that you know how to pick yourself back up again. So, how do you do that? By remembering and really knowing  that you are your own beacon of light. 
-](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-4-1-576x1024.jpg)

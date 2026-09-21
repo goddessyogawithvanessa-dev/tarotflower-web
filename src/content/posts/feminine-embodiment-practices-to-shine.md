@@ -10,8 +10,6 @@ seo_title: "Feminine Embodiment Practices to Shine | Tarot Flower"
 seo_description: "Ever notice how some people just light up a room? Whether it's their smile, the way they speak, or simply their energy in general, they brighten the..."
 ---
 
-![feminine embodiment practices to shine, joy, dance, yoga, divine feminine](http://goddess-yoga-retreat.com/wp-content/uploads/2022/12/shine.jpeg)
-
 Ever notice how some people just light up a room? Whether it's their smile, the way they speak, or simply their energy in general, they brighten the environment around and them and also the people they come in contact with. So what is this "shine" actually? And how can you become bright? Well, through feminine embodiment practices, you will learn how to unleash your own inner divine feminine. Then you will begin to radiate your joy and abundance as well. And you will be able to share it with those around you.
 
 ## What is a Feminine Embodiment Practice?
@@ -22,16 +20,11 @@ Feminine embodiment practices use traditional embodiment practices to unleash th
 
 ## What is the Divine Feminine Archetype?
 
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/12/affirmations-course-2-1024x1024.jpg)
-
 The divine feminine archetype represents the creation of life, abundance, the Great Mother, the metaphorical darkness of the womb, the place where the seed is planted and the flowers grow. She is the chaos of which life is born, infinite possibility and also the receiver.
 
 Whereas the sacred masculine energies are focused on action, thought and direction, the divine feminine represents our intuition, emotion, the receiver of information, the stillness, the hearth, the home. That home can be our internal emotional and spiritual state, or it can be our physical body or our physical space. Whichever aspect of the divine feminine we choose to explore, it is the container. She holds and she nurtures whatever is in her realm. Then together with the energies of the sacred masculine, the solar plexus chakra, ideas and thoughts lead to action and implementation through strategy, analysis and passionate drive and effort.
 
 ## What is Embodiment?
-
-![feminine embodiment practices with goddess flora
-](http://embodiedgoddesses.com/wp-content/uploads/2022/02/47-576x1024.png)
 
 In order to delve into feminine embodiment practices, we must first look at embodiment as a practice itself. Embodiment is all about the way you hold yourself, the way you move, the way you might stand, the way you enter a room. It is how you make the soul of yourself, your unique spirit, manifest in the physical world through your physical body. It is exactly what the word suggests:
 
@@ -51,8 +44,6 @@ Naturally none of this happens in a vacuum. We must also engage our masculine en
 
 ## Learning to Self Care With Feminine Embodiment Practices
 
-![feminine embodiment practices affirmation goddess embodiment](http://embodiedgoddesses.com/wp-content/uploads/2021/12/66-1024x1024.png)
-
 When we learn how to self care, we can begin to properly care for others. We must learn to listen to the messages of our body, heart and soul, so that we can properly take care of ourselves ina holistic way.
 
 Feminine embodiment practices are naturally holistic in their nature, because the Great Mother understands that everything is connected. From the cycle of life, to the seasons and the stars in the sky, through feminine embodiment practices, we will learn to perceive the world inside of us and the world around us from a perspective of unity consciousness.
@@ -69,8 +60,6 @@ Feminine embodiment practices are a powerful way to learn to love and care for y
 
 ## Learning Self Love with Feminine Embodiment Practices
 
-![self love heart chakra feminine embodiment practices coasters redbubble store](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96265657-coasters-set-of-4.jpg)
-
 Self care revolves around the things we do, whereas self love revolves around the way we feel.
 
 Feminine embodiment practices will explore our inner world and guide us toward self forgiveness and compassion for our inner child.
@@ -82,8 +71,6 @@ Once we have achieved self respect and self love, we can offer the same empathy 
 Once we are operating from a place of self love and self care, we can begin to self express authentically. Our true nature can finally express itself once we get rid of the blocks we create for ourselves. When you see yourself as a beautiful and perfect in your natural state, you'll be able to express your passions and desires in a confident and loving way. There is no more room for self doubt and shame. And as log as you walk the world with empathy, kindness and love, you will shine brightly. This kind of embodied learning stays with you forever and will only grow if you continue to practice it.
 
 ## What is Embodied Learning?
-
-![the embodied way of learning](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-14-576x1024.jpg)
 
 "True embodiment requires an integration of body, mind, spirit and heart." [Embodied learning](/embodied-learning-a-holistic-approach/) is truly a holistic approach. We do not just learn ideas and theories with the mind, we must also experience them. And beyond that, we must integrate the emotions that surround them and connect to our intuition and the divine energy supporting our practice. When we practice embodied learning, we approach our divine feminine embodiment practices from a holistic perspective to arrive at a beautiful synchronization and integration.
 

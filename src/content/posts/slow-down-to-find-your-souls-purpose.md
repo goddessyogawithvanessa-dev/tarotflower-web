@@ -10,8 +10,6 @@ seo_title: "Slow Down to Find Your Soul's Purpose | Tarot Flower"
 seo_description: "As the world speeds up, we get more and more distracted from what brings true happiness. If we keep on chasing, doing, planning and striving without..."
 ---
 
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/33.jpg)
-
 As the world speeds up, we get more and more distracted from what brings true happiness. If we keep on chasing, doing, planning and striving without listening to the whispers of our intuition, we run the risk of waking up one day and wondering "how the heck did I end up here?" So, slow down to find your soul's true purpose. You have all of the answers within you already.
 
 ## The Whispers of Your Intuition
@@ -19,8 +17,6 @@ As the world speeds up, we get more and more distracted from what brings true ha
 The voice of our intuition is the divine feminine within us all. Her wisdom comes to us from a place of stillness and quiet, not a place of doing. When our minds are constantly active and racing, we can't hear the subtle messages that our divine feminine is sending us.
 
 ## Slow Down to Release Anxiety
-
-![souls path embodied goddesses](http://embodiedgoddesses.com/wp-content/uploads/2021/09/34.jpg)
 
 Your anxiety comes from the mind. When we try to control our environment, we are constantly analyzing and strategizing. And when things don't go according to plan we start to feel overwhelmed.
 
@@ -39,7 +35,3 @@ What would give you peace in this moment? What would fill your heart with joy. Y
 Want to learn how to find serenity and groundedness through embodiment practices and yoga? Join our Goddess Yoga retreats and reconnect with your inner wisdom and joy through music, dance, guided visual meditations, healthy recipes, journaling exercises and so much more!
 
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
-
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-6-576x1024.jpg)
-
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-1-2-576x1024.jpg)

@@ -10,8 +10,6 @@ seo_title: "Aphrodite Goddess of Love | Tarot Flower"
 seo_description: "Aphrodite, the ancient Greek Goddess of love and beauty embodies the essence of the flowering divine feminine. She was birthed out of the Mediterranean..."
 ---
 
-![Aphrodite goddess embodiment mermaid](http://embodiedgoddesses.com/wp-content/uploads/2022/01/91-1024x1024.jpg)
-
 Aphrodite, the ancient Greek Goddess of **love and beauty** embodies the essence of the flowering **divine feminine**. She was birthed out of the Mediterranean sea, surrounded by seashells, and is often depicted with mermaids and flowers. She would gaze into a hand held mirror, brushing her long and luxurious hair next to the waters of the sea.
 
 The Goddess Aphrodite represents the love and beauty within every one of us, and is a Goddess of the **heart chakra**. Learn how to embody this Goddess so that you too can radiate beauty and love. With her love, you will **manifest abundance and joy** all around you as your heart chakra begins to blossom.
@@ -21,8 +19,6 @@ Gently walk with your heart and **authenticity**, your truth, and really own it 
 ## Aphrodite the Goddess of Love
 
 As the Greek Goddess of love, Aphrodite will teach you how to listen to the whispers of your heart. As you reconnect with your heart chakra and your own **self-love and love for others**, the Goddess Aphrodite will become embodied in you.
-
-![Aphrodite goddess of love](http://embodiedgoddesses.com/wp-content/uploads/2022/01/92-1024x1024.jpg)
 
 The voice of the heart has always been there with you, it’s always been your honest, deepest soul self. It is the same voice that you had with you when you were a little child. It hasn’t changed. Your soul hasn’t changed.
 
@@ -34,8 +30,6 @@ So, why is it important to listen to the voice of the heart? It is the **first s
 
 ## Goddess of the Heart Chakra
 
-![aphrodite goddess of love goddess embodiment](http://embodiedgoddesses.com/wp-content/uploads/2022/01/87-1024x1024.jpg)
-
 Working with the inspiration of the Goddess Aphrodite will help you to **heal your heart**. As you embody this goddess of love, you will begin to find your inner light and your true identity. You will not only radiate love, but you will also shine with self-love. And it is by embodying love that we also **attract love** into our own lives from others.
 
 Aphrodite can also help you to learn how to anchor yourself in love before you journey into **shadow work**. It is very important to remain connected to our heart chakra as we explore any energies that might be in shadow resonance. This is important to avoid falling into any victim mentality, self-judgment, or shame.
@@ -44,15 +38,11 @@ We must always hold ourselves in the beauty and love of the radiant heart in ord
 
 ## Journey to Your Blossoming Heart
 
-![heart chakra blossoming heart embodied goddesses](http://embodiedgoddesses.com/wp-content/uploads/2021/07/1.png)
-
 > "The focus of this module is finding our inner light, our true identity, through our love, what we love, and what makes us feel love through giving love. It is really important to do this because our heart center is going to be our anchor, our safe place that we can always come back to, especially when we start doing some deeper shadow work later on. Then we always know that we can return to this place. That is going to make us feel very safe and secure as we move forward in this course."
 >
 > Embodied Goddesses
 
 ## Aphrodite Embodiment Dance
-
-![blossoming heart goddess embodiment dance](http://embodiedgoddesses.com/wp-content/uploads/2022/01/BlossomingGif.png)
 
 Dance your way into love and alignment and move like the beautiful Goddess Aphrodite! With our beautiful embodiment dances, you will experience the heart-warming, heart chakra opening, joyful and beautiful dance of the Goddess Aphrodite.
 
@@ -63,8 +53,6 @@ So, when you are dancing this, you'll really embody all of the beautiful flows a
 The **water element** is a beautiful symbol of our own element to heal everything in our body. So, when we are using the water element in our body or imagining water, you can imagine that energy is moving through you. We are going to release that stagnant, stuck energy - really allowing it to come out through the body. Our heart is like a flower, it is like peeling open the petals - it’s beautiful.
 
 ## Aphrodite Goddess Story
-
-![Aphrodite goddess of love goddess embodiment](http://embodiedgoddesses.com/wp-content/uploads/2022/01/90-1024x1024.jpg)
 
 Aphrodite, Goddess of love, will guide you toward your heart chakra opening. Learn how to embody her beauty and divine feminine essence. Enjoy this beautiful **goddess story** from Embodied Goddesses.
 
@@ -84,8 +72,6 @@ Music by Vanessa Hylande, Narrated by Jessica Angileri
 
 ## Aphrodite Goddess Circle
 
-![aphrodite goddess circle](http://embodiedgoddesses.com/wp-content/uploads/2022/01/Blog-Images-1-1024x1024.jpg)
-
 How would you make your **Aphrodite Goddess circle**? What would you use to create a sacred space that represents and invites the elements of the Goddess of love?
 
 Consider the **flowers, crystals, essential oils, incenses, and Goddess water recipes** you might use to create your beautiful love sanctuary.
@@ -94,8 +80,6 @@ We will also teach you how to make a beautiful Goddess circle in honor of the Go
 
 ## Recipes for the Goddess of Love
 
-![aphrodite goddess recipes](http://embodiedgoddesses.com/wp-content/uploads/2022/01/Blog-Images-1024x1024.jpg)
-
 Did you know that you can heal your heart chakra with nourishing, healthy foods? A really important element of the Goddess Yoga experience is its holistic nature. It's a critical aspect of embodied learning. We need to go beyond trying to fix everything with the mind. Instead, we need to recognize that healing and happiness comes in all forms!
 
 We can heal ourselves with **guided visual meditations**, **embodiment dance**, **journaling** and by using **heart chakra affirmations**. But we can also heal ourselves body, mind and soul through the foodswe put into our bodies. Learn which **heart chakra foods** resonate with the Goddess Aphrodite so that you yourself can become your own healthy and radiant goddess of beauty.
@@ -103,8 +87,6 @@ We can heal ourselves with **guided visual meditations**, **embodiment dance**, 
 When we practice self love, it is important to express gratitude for all that we have learned and accomplished. One of the best ways of doing this is through nourishment! Throughout our course, we will share healthy foods with you that support our learning and healing process. And we will take the time to nourish ourselves and all of the ways in which we embody the Goddess within us. We share some amazing, healthy recipes with you, in this course, so if you're a **health conscious** foodie, you're going to love it, so get ready to enjoy!
 
 ## Aphrodite Heart Chakra Affirmations
-
-![heart chakra affirmation](http://embodiedgoddesses.com/wp-content/uploads/2022/01/affirmations-love-12-1024x1024.png)
 
 What would an Aphrodite embodiment practice be without the use of heart chakra affirmations? The Goddess Aphrodite practiced self love in the same way that we practice self love in the course.
 

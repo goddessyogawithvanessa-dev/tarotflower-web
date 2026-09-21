@@ -10,8 +10,6 @@ seo_title: "An Embodied Goddess Always Finds Herself | Tarot Flower"
 seo_description: "We’ve all felt the need for a change, especially when we feel like we've lost who we are. So, how do we best find ourselves again? An Embodied Goddess..."
 ---
 
-![embodied goddess finds herself affirmation](http://embodiedgoddesses.com/wp-content/uploads/2021/09/marketing-affirmations-1-1.jpg)
-
 We’ve all felt the need for a change, especially when we feel like we've lost who we are. So, how do we best find ourselves again? An Embodied Goddess always finds herself, no matter where she is in the world.
 
 Ready to learn how you can do that too?
@@ -26,8 +24,6 @@ Same issues, different package. Why do problems seem to follow us sometimes, and
 
 ## Happiness Shines from the Inside Out
 
-![embodiment rooted](http://embodiedgoddesses.com/wp-content/uploads/2021/09/22.jpg)
-
 Although our environment certainly affects us, the truth is that our happiness must come from the inside. Outside factors can distract us, but only temporarily.
 
 As soon as things settle, we are haunted by the same old patterns again. The same worries, fears or anxieties.
@@ -37,8 +33,6 @@ So, how do we achieve this balanced state? How do we create that internal anchor
 We achieve this inner glow through the practice of embodiment.
 
 ## Embodiment is the Balance of the Mind, Body, and Spirit
-
-![embodiment balance mind body spirit](http://embodiedgoddesses.com/wp-content/uploads/2021/09/21.jpg)
 
 Through embodiment practices, we can free ourselves from the overactive mind, become grounded and rooted in the body, and connect our spirit with the universal light.
 
@@ -53,7 +47,3 @@ Want to learn how to embody the Goddess in your daily life? Check out the Embodi
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out*[*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
-
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-2-576x1024.png)
-
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-3-576x1024.png)

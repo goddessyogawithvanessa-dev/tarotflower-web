@@ -10,8 +10,6 @@ seo_title: "5 Tips & Affirmations to Manifest Abundance | Tarot Flower"
 seo_description: "Did you know that there is much more to affirmations than the power of positive thinking? It’s true that our perception of the world, and whether it’s..."
 ---
 
-![manifest abundance inspirational quote](http://embodiedgoddesses.com/wp-content/uploads/2021/09/marketing-affirmations-3.jpg)
-
 Did you know that there is much more to affirmations than the power of positive thinking? It’s true that our perception of the world, and whether it’s positive or negative, will influence our experience of it. And keeping a positive attitude is definitely important if you want to manifest abundance. But what if I told you that the practice of using affirmations goes beyond the “**Law of Attraction**?”
 
 Here are **5 tips & affirmations** to **manifest abundance** of all kinds in your life. From **love** to **financial security**, you can learn how to effectively use The Law of Attraction with **embodiment principles** to make that abundance manifest in your life.
@@ -21,8 +19,6 @@ Here are **5 tips & affirmations** to **manifest abundance** of all kinds in you
 When we speak of “The Law of Attraction,” we are referring to the phenomenon that “like attracts like.” On a very simple level, if we walk the world in fear, we will notice scary things around every corner. If we believe at a core level that we will never accomplish something and are doomed to fail - we are right. We will fail.
 
 Positively, if we believe in our ability and our path to success, we will not only notice opportunities at every turn, but we will begin to attract them. But is there more to affirmations than convincing our minds to adopt a more positive view? This is where embodiment practices come in. They are the **key to your success** in manifesting abundance.
-
-![embodiment the new mindfulness](http://embodiedgoddesses.com/wp-content/uploads/2021/11/pinterest-for-blogs-13-576x1024.jpg)
 
 ## Affirmations as Messengers
 
@@ -38,11 +34,7 @@ If we choose to listen, affirmations can become powerful tools for **self-improv
 
 > **"I listen to the whispers of my heart"**
 
-![embodiment heart chakra affirmation redbubble store](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96265657-canvas-print.jpg)
-
 ## What is Lack Mentality?
-
-![embodiment crown chakra affirmation redbubble store manifest abundance](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96280072-canvas-print.jpg)
 
 Lack mentality is when we view the world from a divided perspective of what is missing. Similar to seeing the glass half empty, it originates from an “us and them” viewpoint of the world.
 
@@ -51,8 +43,6 @@ This viewpoint is based on the notion that what you have, I don’t have. It is 
 This inevitably leads to conflict because people respond by trying to exercise control over others and their environment. It is an ego based way of living that has lost sight of the power of community and does not know or understand unconditional love.
 
 ## What is an Abundance Mindset?
-
-![embodiment sacral chakra affirmation redbubble store](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96281105-canvas-print.jpg)
 
 On the contrary, an abundance mindset understands that life is cyclical. The world and our environment is constantly renewing. The simplest way to understand this is with the lifecycle of plants.
 
@@ -64,8 +54,6 @@ When we respect the limits of our needs and also our waste, when we practice “
 
 ### 1. Choose an Abundance Mindset Over Lack Mentality
 
-![embodiment throat chakra affirmation redbubble store](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96274403-photographic-print.jpg)
-
 When we live with an **abundance mindset**, we attract abundance into our lives. This is done in many ways. By expressing **gratitude**, by being **generous** with others, by **thinking collectively** instead of solely for our individual ego, we can start to see the abundance flow.
 
 In this way, we can move from the fear state of the lack mentality into the calm and serene **flow state** of abundance. And it is then that we can really begin to harness the power of affirmations.
@@ -76,11 +64,7 @@ Whether expecting our partners to “make us happy” or seeing only roadblocks 
 
 > **“I already am everything I can imagine”**
 
-![embodiment manifest abundance affirmation redbubble store](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96160376-canvas-print.jpg)
-
 ### 2. Embody Your Dreams with Embodiment Affirmations
-
-![embodiment solar plexus chakra affirmation redbubble store ](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96274998-canvas-print.jpg)
 
 So, what are embodiment affirmations and how are they different from other kinds of affirmations? Embodiment affirmations are an integral part of your embodiment practice. They are similar to affirmations for self-love and affirmations of gratitude and confidence, but they are geared toward action and implementation.
 
@@ -90,11 +74,7 @@ First, we must be in our authenticity. We must discover what we truly desire and
 
 > **“I embody my dreams”**
 
-![I embody my dreams affirmation redbubble store manifest abundance](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96075086-photographic-print.jpg)
-
 ### 3. **Develop Your Embodiment Affirmations into Actions**
-
-![I am the creator of my own life affirmation](http://embodiedgoddesses.com/wp-content/uploads/2021/09/marketing-affirmations-2.png)
 
 It is not enough to say your affirmations for confidence out loud. You must also be committed to your own happiness in your everyday life. You must confidently take charge toward your vision.
 
@@ -110,11 +90,7 @@ But first, we must be confident in our own choices. And when our choices come fr
 
 > **“I am confident with the decisions I make”**
 
-![confidence embodiment affirmation](http://embodiedgoddesses.com/wp-content/uploads/2022/02/affirmations-love-7-1024x1024.png)
-
 ### 4. **Practice Gratitude and Generosity to Manifest Abundance**
-
-![grace and gratitude embodiment affirmation redbubble store](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96267416-canvas-print.jpg)
 
 Some people mistake self-love and self-care as selfishness, but nothing could be further from the truth. Self-love comes from an abundance mindset, where the best outcome is one that is **the highest good for all involved**.
 
@@ -126,11 +102,7 @@ Practicing generosity is equally important and has a similar effect. However, it
 
 > **“I give from my heart, not for my pride”**
 
-![I give from my heart embodiment affirmation redbubble store](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96164218-photographic-print.jpg)
-
 ### 5. Allow Yourself to Receive by Practicing Self-Worth
-
-![embodiment affirmation high vibrational](http://embodiedgoddesses.com/wp-content/uploads/2022/03/affirmations-love-6-1-1024x1024.png)
 
 If we want to receive abundance, we must be capable of receiving it. That might sound obvious and simplistic, but this is where a lot of people get stuck. We must, at our core, believe that we are worthy of receiving love in order to receive it. The same goes for anything else that we want to manifest in our lives.
 
@@ -141,5 +113,3 @@ Ask yourself: “Do I deserve to have what I want? Am I really worthy?” And if
 Nobody is going to enforce your standards for you, we must self-love ourselves. And if we develop resentment or begin to blame others for standing in our way, we are creating toxic energies that we must take responsibility for. We always have a choice. We write our own story. Nobody can force us to adopt their world view. Yes, of course physical obstacles do exist and can be extremely challenging, but we always have the freedom to write the context for our experience. So, if you have trouble standing up for your own needs and desires think of your inner child - perhaps you can do it for them if not for yourself. I kindly accept offerings of love and generosity.
 
 > “I am worthy. I am worthy of abundance. I am worthy of love, kindness and respect.”
-
-![I am worthy embodiment affirmation  solar plexus chakra redbubble store manifest abundance](http://embodiedgoddesses.com/wp-content/uploads/2022/03/work-96275792-canvas-print.jpg)

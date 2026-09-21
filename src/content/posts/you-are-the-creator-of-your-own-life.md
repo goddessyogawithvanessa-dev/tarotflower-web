@@ -10,8 +10,6 @@ seo_title: "You Are the Creator of Your Own Life | Tarot Flower"
 seo_description: "Do you feel stuck sometimes? Like life is a ride that you're on and you just have to wait for the next stop to get off? It is in these moments that its..."
 ---
 
-![I am the creator of my own life affirmation](http://embodiedgoddesses.com/wp-content/uploads/2021/09/marketing-affirmations-2.png)
-
 Do you feel stuck sometimes? Like life is a ride that you're on and you just have to wait for the next stop to get off? It is in these moments that its most important to remember that *you are the creator of your own life*.
 
 When the outside world keeps throwing curveballs at us, we can feel like we are constantly reacting.
@@ -30,8 +28,6 @@ We do this simply because we've been raised to believe that is just how it has t
 
 ## Mindfulness Is a Step Toward Embodiment
 
-![create your own life embodied goddesses](http://embodiedgoddesses.com/wp-content/uploads/2021/09/Blog-Images-1-1.jpg)
-
 Becoming aware of these triggers and reactions - this kind of **mindfulness practice** - is the first step toward **embodiment**. However, embodiment encompasses so much more.
 
 When we are embodied, truly embodied through all of our chakras, we are living in service of our dreams.
@@ -43,7 +39,3 @@ This is when **joy**, **abundance** and **love** can flourish in our every day l
 <div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out* [*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
-
-![Do you feel stuck sometimes? Like life is a ride that you're on and you just have to wait for the next stop to get off? It is in these moments that its most important to remember that you are the creator of your own life.](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-1-576x1024.jpg)
-
-![Do you feel stuck sometimes? Like life is a ride that you're on and you just have to wait for the next stop to get off? It is in these moments that its most important to remember that you are the creator of your own life.](http://embodiedgoddesses.com/wp-content/uploads/2021/09/pinterest-for-blogs-576x1024.jpg)

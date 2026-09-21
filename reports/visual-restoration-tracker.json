@@ -1,0 +1,262 @@
+{
+  "report": "Tarot Flower 25-article visual restoration tracker",
+  "generatedAt": "2026-09-21",
+  "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+  "scope": "Article-body visual reset only. No replacement imagery, article copy, metadata, URL, canonical, schema, redirect, or Pinterest changes.",
+  "summary": {
+    "articles": 25,
+    "articleBodyImagesRemoved": 149,
+    "sharedTemplateImageInstancesSuppressed": 28,
+    "totalRenderedArticleBodyImageInstancesEliminated": 177,
+    "renderedArticleBodyImagesRemaining": 0,
+    "brokenEmbodiedGoddessesReferencesEliminated": 144,
+    "healthyHistoricalImagesIntentionallyRemoved": 5,
+    "captionsOrEditorialTextConverted": 0,
+    "newImageryPending": 25
+  },
+  "productionGroups": [
+    {
+      "batch": "Batch 1",
+      "label": "Goddess / archetype",
+      "articles": [
+        {
+          "title": "Aphrodite Goddess of Love",
+          "url": "https://tarotflower.com/aphrodite-goddess-of-love/",
+          "sourceFile": "src/content/posts/aphrodite-goddess-of-love.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 9,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Goddess of Spring Flora: Rejuvenate Yourself and Shine",
+          "url": "https://tarotflower.com/goddess-of-spring-flora/",
+          "sourceFile": "src/content/posts/goddess-of-spring-flora.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 12,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Goddess Artemis: Greek Goddess of the Hunt",
+          "url": "https://tarotflower.com/goddess-artemis-greek-goddess-of-the-hunt/",
+          "sourceFile": "src/content/posts/goddess-artemis-greek-goddess-of-the-hunt.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 3,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Isis Goddess of the Divine Feminine",
+          "url": "https://tarotflower.com/isis-goddess-of-the-divine-feminine/",
+          "sourceFile": "src/content/posts/isis-goddess-of-the-divine-feminine.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 2,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "What is an Embodied Goddess?",
+          "url": "https://tarotflower.com/what-is-an-embodied-goddess/",
+          "sourceFile": "src/content/posts/what-is-an-embodied-goddess.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 7,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Embody the Goddess Within",
+          "url": "https://tarotflower.com/embody-the-goddess-within/",
+          "sourceFile": "src/content/posts/embody-the-goddess-within.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 5,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "An Embodied Goddess Always Finds Herself",
+          "url": "https://tarotflower.com/an-embodied-goddess-always-finds-herself/",
+          "sourceFile": "src/content/posts/an-embodied-goddess-always-finds-herself.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 5,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Allow Your Inner Goddess to Bloom",
+          "url": "https://tarotflower.com/allow-your-inner-goddess-to-bloom/",
+          "sourceFile": "src/content/posts/allow-your-inner-goddess-to-bloom.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 2,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        }
+      ]
+    },
+    {
+      "batch": "Batch 2",
+      "label": "Embodiment / dance / art",
+      "articles": [
+        {
+          "title": "How to Be a Goddess of Dance",
+          "url": "https://tarotflower.com/how-to-be-a-goddess-of-dance/",
+          "sourceFile": "src/content/posts/how-to-be-a-goddess-of-dance.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 9,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Holistic Living With Embodiment Through the Arts",
+          "url": "https://tarotflower.com/holistic-living-with-embodiment-through-the-arts/",
+          "sourceFile": "src/content/posts/holistic-living-with-embodiment-through-the-arts.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 8,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "How to Self Heal Through Embodiment Practices",
+          "url": "https://tarotflower.com/how-to-self-heal-through-embodiment-practices/",
+          "sourceFile": "src/content/posts/how-to-self-heal-through-embodiment-practices.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 8,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Embodiment Through the Arts, Yoga, Dance and More!",
+          "url": "https://tarotflower.com/embodiment-through-the-arts/",
+          "sourceFile": "src/content/posts/embodiment-through-the-arts.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 7,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Embodied Learning - A Holistic Approach to Alignment",
+          "url": "https://tarotflower.com/embodied-learning-a-holistic-approach/",
+          "sourceFile": "src/content/posts/embodied-learning-a-holistic-approach.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 6,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Feminine Embodiment Practices to Shine",
+          "url": "https://tarotflower.com/feminine-embodiment-practices-to-shine/",
+          "sourceFile": "src/content/posts/feminine-embodiment-practices-to-shine.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 6,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Why Dance is the Best Embodiment Practice",
+          "url": "https://tarotflower.com/why-dance-is-the-best-embodiment-practice/",
+          "sourceFile": "src/content/posts/why-dance-is-the-best-embodiment-practice.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 3,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "4 Embodiment Self-Care Practices for Happiness",
+          "url": "https://tarotflower.com/self-care-practices-to-make-you-feel-happier/",
+          "sourceFile": "src/content/posts/self-care-practices-to-make-you-feel-happier.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 6,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        }
+      ]
+    },
+    {
+      "batch": "Batch 3",
+      "label": "Affirmations / manifestation / inner work",
+      "articles": [
+        {
+          "title": "5 Tips & Affirmations to Manifest Abundance",
+          "url": "https://tarotflower.com/5-tips-affirmations-to-manifest-abundance/",
+          "sourceFile": "src/content/posts/5-tips-affirmations-to-manifest-abundance.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 15,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Affirmations for Confidence: Try These 10 Affirmations to Boost Your Self-Esteem",
+          "url": "https://tarotflower.com/affirmations-for-confidence/",
+          "sourceFile": "src/content/posts/affirmations-for-confidence.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 9,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Self Love Affirmations and How to Use Them",
+          "url": "https://tarotflower.com/self-love-affirmations-and-how-to-use-them/",
+          "sourceFile": "src/content/posts/self-love-affirmations-and-how-to-use-them.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 5,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "You Are Your Own Beacon of Light",
+          "url": "https://tarotflower.com/you-are-your-own-beacon-of-light/",
+          "sourceFile": "src/content/posts/you-are-your-own-beacon-of-light.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 5,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Slow Down to Find Your Soul's Purpose",
+          "url": "https://tarotflower.com/slow-down-to-find-your-souls-purpose/",
+          "sourceFile": "src/content/posts/slow-down-to-find-your-souls-purpose.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 4,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "You Are the Creator of Your Own Life",
+          "url": "https://tarotflower.com/you-are-the-creator-of-your-own-life/",
+          "sourceFile": "src/content/posts/you-are-the-creator-of-your-own-life.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 4,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Dare to Dream, Dare to Manifest",
+          "url": "https://tarotflower.com/dare-to-dream-dare-to-manifest/",
+          "sourceFile": "src/content/posts/dare-to-dream-dare-to-manifest.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 3,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "How to Be More Beautiful",
+          "url": "https://tarotflower.com/how-to-be-more-beautiful/",
+          "sourceFile": "src/content/posts/how-to-be-more-beautiful.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 3,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        },
+        {
+          "title": "Affirmations for Self Love That Actually Work",
+          "url": "https://tarotflower.com/affirmations-for-self-love-that-work/",
+          "sourceFile": "src/content/posts/affirmations-for-self-love-that-work.md",
+          "status": "VISUAL RESET COMPLETE — NEW IMAGERY PENDING",
+          "articleBodyImagesBefore": 3,
+          "articleBodyImagesAfter": 0,
+          "newImageryPending": true
+        }
+      ]
+    }
+  ]
+}

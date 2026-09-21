@@ -10,8 +10,6 @@ seo_title: "How to Be More Beautiful | Tarot Flower"
 seo_description: "Glowing radiant skin, curves in all the right places, a smile that lights up the room. Isn't that what we're all going for? So, how do we achieve that..."
 ---
 
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/31.jpg)
-
 Glowing radiant skin, curves in all the right places, a smile that lights up the room. Isn't that what we're all going for? So, how do we achieve that level of perfection? I'm going to tell you how to be more beautiful, and the answer might surprise you.
 
 ## Beautiful From the Inside Out?
@@ -28,8 +26,6 @@ In my personal experience, from all of the wonderful women I've known on both si
 
 ## Embody Beauty to Shine
 
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/30.jpg)
-
 Mom was partially right. Beauty does shine from the inside out. But there is one step that mom forgot to tell most of us about: we need to *embody* beauty to shine.
 
 Now, that doesn't mean covering up your flaws. It doesn't mean hiding our bad parts. It doesn't mean pretending you're something you're not. It doesn't mean copying that influencer or doing your make up or cosmetic procedures like the people you see on reality TV shows.
@@ -39,8 +35,6 @@ When we embody beauty, we are confident and strong. We radiate our inner Goddess
 Rather than trying to achieve a standard set by others, we set our own standard in a way that is unshakeable. And believe me, people notice. *That* is how you achieve that **effortless beauty**.
 
 ## Ditch the Comparing and Start Self-Caring
-
-![](http://embodiedgoddesses.com/wp-content/uploads/2021/09/29.jpg)
 
 Instead of fixing, striving, comparing and proving ourselves to the world, when we embody the Goddess within, we radiate our most beautiful qualities fearlessly. We nurture and support ourselves as we manage our fears and insecurities with love instead of judgment and shame.
 
