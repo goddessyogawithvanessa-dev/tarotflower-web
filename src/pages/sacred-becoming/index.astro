@@ -1,0 +1,70 @@
+---
+import Base from '../../layouts/Base.astro';
+import SacredBecomingCosmology from '../../components/SacredBecomingCosmology.astro';
+import SacredBecomingPentacle from '../../components/SacredBecomingPentacle.astro';
+---
+
+<Base
+  title="Sacred Becoming | Tarot Flower"
+  description="Enter Sacred Becoming through invocation, cosmology, the five elements, ritual, oracle, mentorship, and the emerging Grimoire."
+  showBanner={false}
+>
+  <main class="sacred-becoming-landscape">
+    <header class="sacred-threshold" aria-labelledby="sacred-threshold-title">
+      <div class="sacred-threshold-ring" aria-hidden="true"></div>
+      <div class="sacred-threshold-inner container">
+        <h1 id="sacred-threshold-title">Sacred Becoming</h1>
+        <p class="sacred-invocation">
+          <span>I walk the circle three times three</span>
+          <span>I grow my garden inside of me</span>
+          <span>This is my sanctuary</span>
+          <span>It’s all around me</span>
+          <span>Because it’s within me</span>
+          <span>I raise my temple of energy</span>
+          <span>Love is my sanctuary</span>
+        </p>
+      </div>
+    </header>
+
+    <section class="sacred-elements sacred-section" aria-labelledby="sacred-elements-title">
+      <div class="container sacred-elements-inner">
+        <h2 id="sacred-elements-title" class="visually-hidden">The Sacred Becoming amulet</h2>
+        <div class="sacred-elements-diagram">
+          <SacredBecomingPentacle />
+        </div>
+        <p class="sacred-elements-whole">Earth <span>·</span> Water <span>·</span> Fire <span>·</span> Air <span>·</span> Aether</p>
+      </div>
+    </section>
+
+    <section class="sacred-cosmology-section sacred-section" aria-labelledby="sacred-cosmology-title">
+      <div class="container">
+        <h2 id="sacred-cosmology-title" class="visually-hidden">The five cosmological forms of Sacred Becoming</h2>
+        <SacredBecomingCosmology />
+      </div>
+    </section>
+
+    <section class="sacred-doorways sacred-section" aria-labelledby="sacred-doorways-title">
+      <div class="container">
+        <div class="sacred-section-heading">
+          <h2 id="sacred-doorways-title">Ways into Sacred Becoming</h2>
+        </div>
+        <div class="sacred-doorways-list">
+          <article class="sacred-doorway">
+            <a href="/rituals/"><h3>Elemental Rituals</h3><span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="sacred-doorway">
+            <a href="/sacred-becoming/oracle-deck/"><h3>Sacred Becoming Oracle Deck</h3><span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="sacred-doorway">
+            <a href="/sacred-becoming/mentorship/"><h3>Sacred Becoming Mentorship</h3><span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="sacred-doorway sacred-doorway--grimoire">
+            <h3>Sacred Becoming Grimoire</h3>
+            <span class="sacred-doorway-forthcoming">Forthcoming</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</Base>

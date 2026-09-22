@@ -15843,3 +15843,328 @@ a.fire-download-link:focus-visible {
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+/* Sacred Becoming landing page */
+.sacred-becoming-landscape {
+  --sb-black: #050506;
+  --sb-ivory: #f4efe5;
+  --sb-muted: #cbc6bf;
+  --sb-gold: #d5b975;
+  --sb-copper: #b67a58;
+  --sb-silver: #bdc3c6;
+  color: var(--sb-ivory);
+  background: var(--sb-black);
+  overflow: hidden;
+}
+main.sacred-becoming-landscape + #site-footer { margin-top: 0; }
+.sacred-becoming-landscape h1,
+.sacred-becoming-landscape h2,
+.sacred-becoming-landscape h3,
+.sacred-becoming-landscape p { color: inherit; }
+.sacred-becoming-landscape h2,
+.sacred-becoming-landscape h3 { clear: none; }
+.sacred-becoming-landscape a:focus-visible { outline: 2px solid var(--sb-gold); outline-offset: 6px; }
+.sacred-becoming-landscape .container { position: relative; z-index: 1; }
+.sacred-section { position: relative; isolation: isolate; }
+.sacred-becoming-landscape h2 {
+  margin: 0;
+  color: var(--sb-ivory);
+  font: 400 clamp(2.9rem, 5vw, 4.75rem)/1.04 'Cormorant Garamond', Georgia, serif;
+  letter-spacing: -0.025em;
+}
+.sacred-becoming-landscape h3 {
+  margin: 0;
+  color: var(--sb-ivory);
+  font: 400 clamp(1.9rem, 2.7vw, 2.7rem)/1.1 'Cormorant Garamond', Georgia, serif;
+  letter-spacing: -0.018em;
+}
+
+.sacred-threshold {
+  position: relative;
+  display: grid;
+  align-items: center;
+  min-height: 100svh;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% 47%, rgba(179,119,57,.12), rgba(119,69,42,.045) 27%, transparent 48%), var(--sb-black);
+}
+.sacred-threshold::before,
+.sacred-threshold::after { position: absolute; inset: 0; content: ''; pointer-events: none; }
+.sacred-threshold::before {
+  opacity: .26;
+  animation: sacred-threshold-points 34s ease-in-out infinite alternate;
+  background:
+    radial-gradient(circle at 20% 26%, rgba(232,210,154,.8) 0 1px, transparent 2px),
+    radial-gradient(circle at 77% 31%, rgba(196,196,194,.7) 0 1px, transparent 2px),
+    radial-gradient(circle at 74% 80%, rgba(181,121,81,.72) 0 1px, transparent 2px),
+    radial-gradient(circle at 28% 77%, rgba(223,186,114,.72) 0 1px, transparent 2px);
+}
+.sacred-threshold::after { background: linear-gradient(180deg, transparent 83%, var(--sb-black)); }
+.sacred-threshold-ring {
+  position: absolute;
+  top: 55%; left: 50%;
+  width: min(72vw, 690px);
+  aspect-ratio: 1;
+  border: 1px solid rgba(218,184,113,.11);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(240,219,173,.15), rgba(207,157,92,.075) 18%, rgba(160,91,48,.025) 38%, transparent 66%);
+  box-shadow: inset 0 0 75px rgba(224,186,112,.05), 0 0 120px 30px rgba(222,163,91,.045);
+  transform: translate(-50%, -50%);
+  animation: sacred-threshold-breathe 27s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+.sacred-threshold-ring::before,
+.sacred-threshold-ring::after { position: absolute; content: ''; border: 1px solid rgba(213,185,117,.045); border-radius: 50%; }
+.sacred-threshold-ring::before { inset: 9%; }
+.sacred-threshold-ring::after { inset: 27%; border-color: rgba(213,185,117,.055); }
+@keyframes sacred-threshold-breathe {
+  from { opacity: .82; transform: translate(-50%, -50%) scale(1); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1.012); }
+}
+@keyframes sacred-threshold-points {
+  from { opacity: .2; }
+  to { opacity: .29; }
+}
+.sacred-threshold-inner { padding-top: clamp(130px, 16svh, 190px); padding-bottom: clamp(40px, 5svh, 70px); text-align: center; }
+.sacred-becoming-landscape .sacred-threshold h1 {
+  margin: 0 0 2.2rem;
+  color: rgba(220,189,124,.76);
+  font: 400 clamp(.72rem, 1vw, .9rem)/1.5 'Aboreto', Georgia, serif;
+  letter-spacing: .31em;
+  text-transform: uppercase;
+}
+.sacred-invocation {
+  margin: 0 auto;
+  color: #d8ba81 !important;
+  font: 300 clamp(1.7rem, 2.55vw, 2.45rem)/2.04 'Quintessential', Georgia, serif;
+  letter-spacing: .012em;
+  -webkit-text-stroke: .9px rgba(5,5,6,.94);
+}
+.sacred-invocation span {
+  display: block;
+  color: #f3d29a;
+  text-shadow: -.55px -.6px 0 rgba(255,243,215,.73), .65px .7px 0 rgba(55,27,19,.7), .25px -.35px .3px rgba(214,118,73,.43), 0 0 16px rgba(239,181,98,.1), 0 0 32px rgba(199,117,66,.04);
+  animation: sacred-inscription-light 33s ease-in-out infinite alternate;
+}
+.sacred-invocation span:nth-child(2),
+.sacred-invocation span:nth-child(5) {
+  color: #f0d6a5;
+  text-shadow: -.55px -.6px 0 rgba(242,249,247,.76), .7px .7px 0 rgba(59,30,24,.7), .25px -.3px .3px rgba(219,139,98,.39), 0 0 16px rgba(228,193,138,.1), 0 0 32px rgba(188,191,184,.04);
+  animation-delay: -12s;
+}
+.sacred-invocation span:nth-child(3),
+.sacred-invocation span:nth-child(6) {
+  color: #f1c694;
+  text-shadow: -.55px -.6px 0 rgba(255,228,215,.72), .7px .7px 0 rgba(61,25,19,.72), .25px -.3px .3px rgba(232,131,92,.44), 0 0 16px rgba(233,158,102,.095), 0 0 32px rgba(192,101,79,.04);
+  animation-delay: -21s;
+}
+.sacred-invocation span:nth-child(4) { color: #edc48b; animation-delay: -8s; }
+.sacred-invocation span:nth-child(7) {
+  color: #f8dcaa;
+  text-shadow: -.55px -.6px 0 rgba(255,251,229,.82), .65px .7px 0 rgba(55,27,19,.7), .25px -.35px .3px rgba(220,132,86,.48), 0 0 16px rgba(239,181,98,.1), 0 0 32px rgba(199,117,66,.04);
+  animation-delay: -17s;
+}
+@keyframes sacred-inscription-light {
+  from { opacity: .96; }
+  to { opacity: 1; }
+}
+
+.sacred-section-heading { margin: 0 auto 2.5rem; text-align: center; }
+
+.sacred-cosmology-section {
+  padding: clamp(2rem, 4vw, 4rem) 0;
+  background: var(--sb-black);
+}
+.sacred-cosmology-forms {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sacred-cosmology-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: clamp(540px, 82svh, 820px);
+  margin: 0;
+  text-align: center;
+  background: radial-gradient(circle at 50% 46%, rgba(200,149,76,.07), transparent 34%);
+}
+.sacred-cosmology-symbol {
+  display: block;
+  width: min(74vw, 400px);
+  height: auto;
+}
+.sacred-cosmology-form--embodiment .sacred-cosmology-symbol { width: min(78vw, 450px); }
+.sacred-cosmology-form--transmutation .sacred-cosmology-symbol { width: min(82vw, 480px); }
+.sacred-cosmology-form--emergence .sacred-cosmology-symbol { width: min(88vw, 575px); }
+.sacred-cosmology-form--union {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  min-height: min(118vw, 1600px);
+  overflow: hidden;
+  justify-content: flex-end;
+  padding-bottom: clamp(3rem, 6svh, 5rem);
+  background: var(--sb-black);
+}
+.sacred-cosmology-form--union .sacred-cosmology-symbol {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  width: min(130vw, 1800px);
+  max-width: none;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+.sacred-cosmology-form--union::before {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  content: '';
+  background:
+    linear-gradient(90deg, var(--sb-black), transparent 7%, transparent 93%, var(--sb-black)),
+    linear-gradient(180deg, var(--sb-black), transparent 10%, transparent 88%, var(--sb-black));
+  pointer-events: none;
+}
+.sacred-cosmology-form--union::after {
+  position: absolute;
+  z-index: 2;
+  top: calc(46% + 2px);
+  left: 50%;
+  width: 3px;
+  height: 3px;
+  content: '';
+  background: #fffdf1;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 1px rgba(255,252,232,.95), 0 0 10px 3px rgba(255,229,172,.54), 0 0 19px 5px rgba(247,197,120,.15);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.sacred-cosmology-form--union h3 { position: relative; z-index: 3; }
+.sacred-becoming-landscape .sacred-cosmology-form h3 {
+  margin: .25rem 0 0;
+  color: var(--sb-gold);
+  font: 400 clamp(.96rem, 1.5vw, 1.18rem)/1.4 'Aboreto', Georgia, serif;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.sacred-elements {
+  padding: clamp(2.5rem, 5vw, 5rem) 0 clamp(4rem, 7vw, 7rem);
+  background: radial-gradient(ellipse at 50% 56%, rgba(156,116,63,.13), transparent 55%);
+}
+.sacred-elements-inner { text-align: center; }
+.sacred-elements-diagram { position: relative; width: min(100%, 650px); margin: 0 auto; }
+.sacred-elements-diagram::before { position: absolute; inset: 12%; content: ''; border-radius: 50%; background: radial-gradient(circle, rgba(222,183,107,.14), transparent 68%); filter: blur(25px); }
+.sacred-elements-pentacle { position: relative; display: block; width: 100%; height: auto; filter: drop-shadow(0 0 27px rgba(213,185,117,.16)); }
+.sacred-elements-whole { margin: .25rem 0 0; color: var(--sb-silver) !important; font: 400 clamp(.7rem,1vw,.87rem)/1.6 'Aboreto', Georgia, serif; letter-spacing: .1em; text-transform: uppercase; }
+.sacred-elements-whole span { padding: 0 .6em; color: var(--sb-gold); }
+
+.sacred-doorways { padding: clamp(4rem,7vw,6.5rem) 0; }
+.sacred-doorways .sacred-section-heading { margin-bottom: 2.5rem; }
+.sacred-doorways .sacred-section-heading h2 {
+  color: #e0e2df;
+  font-size: clamp(2.2rem,3.6vw,3.3rem);
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: .01em;
+  text-shadow: -.55px -.55px 0 rgba(250,251,244,.67), .65px .65px .45px rgba(68,52,47,.67), .25px -.25px 1px rgba(218,179,143,.46), 0 0 18px rgba(225,228,223,.35), 0 0 36px rgba(177,185,185,.14);
+}
+.sacred-doorways-list { border-top: 1px solid transparent; border-image: linear-gradient(90deg, rgba(249,221,164,.94), rgba(225,174,93,.75) 18%, rgba(196,112,76,.58) 49%, rgba(223,231,227,.52) 70%, rgba(156,107,65,.06)) 1; }
+.sacred-doorway {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0,1fr) auto;
+  align-items: center;
+  min-height: 100px;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(90deg, rgba(249,224,168,.92), rgba(225,167,91,.73) 18%, rgba(190,106,72,.55) 49%, rgba(216,226,222,.47) 70%, rgba(146,102,68,.05)) 1;
+}
+.sacred-doorway::before {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  content: '';
+  background: radial-gradient(circle at 35% 30%, #fff9df, #e5b66e 55%, #a76a48);
+  border-radius: 50%;
+  box-shadow: 0 0 5px 2px rgba(255,233,181,.66), 0 0 17px 4px rgba(225,163,91,.35), 0 0 33px rgba(217,122,78,.18);
+  transition: box-shadow .32s ease, filter .32s ease;
+}
+.sacred-doorway::after {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  height: 1px;
+  content: '';
+  background: linear-gradient(90deg, rgba(255,242,207,.97), rgba(243,193,119,.86) 22%, rgba(212,126,91,.76) 55%, rgba(229,238,235,.63) 74%, transparent);
+  filter: drop-shadow(0 0 4px rgba(240,193,127,.65));
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .85s ease .1s, opacity .25s ease .1s;
+  pointer-events: none;
+}
+.sacred-doorway a { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; width: 100%; padding: 1.35rem 0; color: inherit; text-decoration: none; }
+.sacred-doorway a:hover { text-decoration: none; }
+.sacred-doorway h3 {
+  color: #eac58d;
+  font-size: clamp(1.75rem,2.55vw,2.4rem);
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: .016em;
+  text-shadow: -.5px -.55px 0 rgba(255,239,207,.58), .65px .7px .45px rgba(62,30,22,.7), .2px -.3px 1px rgba(207,108,70,.5), 0 0 15px rgba(237,171,97,.28), 0 0 30px rgba(191,106,71,.11);
+  transition: color .36s ease .17s, text-shadow .36s ease .17s;
+}
+.sacred-doorway:nth-child(2) h3 { color: #e6b793; }
+.sacred-doorway:nth-child(3) h3 { color: #e9c28f; }
+.sacred-doorway:not(.sacred-doorway--grimoire):is(:hover, :focus-within)::before { filter: brightness(1.34); box-shadow: 0 0 6px 3px rgba(255,243,200,.85), 0 0 22px 5px rgba(239,181,105,.49), 0 0 42px rgba(216,116,75,.25); }
+.sacred-doorway:not(.sacred-doorway--grimoire):is(:hover, :focus-within)::after { opacity: 1; transform: scaleX(1); }
+.sacred-doorway:not(.sacred-doorway--grimoire):is(:hover, :focus-within) h3 { color: #f6d8a4; text-shadow: -.55px -.55px 0 rgba(255,246,222,.78), .65px .7px .45px rgba(67,31,21,.74), .2px -.3px 1px rgba(224,127,85,.63), 0 0 18px rgba(246,190,111,.43), 0 0 35px rgba(218,131,83,.2); }
+.sacred-doorway a span { color: #c6a574; font: 300 1.3rem/1 'Cormorant Garamond', Georgia, serif; opacity: .65; transition: color .35s ease .27s, opacity .35s ease .27s, text-shadow .35s ease .27s; }
+.sacred-doorway:not(.sacred-doorway--grimoire):is(:hover, :focus-within) a span { color: #f5dfb7; opacity: 1; text-shadow: 0 0 12px rgba(247,211,151,.63); }
+.sacred-doorway-forthcoming { color: #d4d9d6; font: 400 .7rem/1.5 'Aboreto', Georgia, serif; letter-spacing: .08em; text-transform: uppercase; text-shadow: -.3px -.3px 0 rgba(248,251,246,.47), .4px .4px .4px rgba(66,67,66,.65), 0 0 13px rgba(192,205,205,.22); }
+.sacred-doorway--grimoire { padding: 1.35rem 0; }
+.sacred-doorway--grimoire h3 { color: #dec29d; }
+.sacred-doorway--grimoire::before { background: radial-gradient(circle at 35% 30%, #f1f3eb, #bdc5c2 55%, #866f62); box-shadow: 0 0 6px 2px rgba(219,229,226,.43), 0 0 19px rgba(183,197,197,.2); }
+
+@media (max-width: 900px) {
+  .sacred-elements-diagram { width: min(100%,560px); }
+}
+@media (max-width: 768px) {
+  .sacred-threshold-inner { padding-top: clamp(110px, 14svh, 150px); padding-bottom: 38px; }
+  .sacred-threshold-ring { width: min(120vw,570px); }
+  .sacred-becoming-landscape .sacred-threshold h1 { margin-bottom: 1.7rem; font-size: .72rem; letter-spacing: .2em; }
+  .sacred-invocation { font-size: clamp(1.55rem,5.8vw,2rem); line-height: 1.94; -webkit-text-stroke-width: .7px; }
+  .sacred-section-heading { margin-bottom: 1.8rem; }
+  .sacred-cosmology-form { min-height: clamp(440px, 72svh, 650px); }
+  .sacred-cosmology-symbol { width: min(80vw, 370px); }
+  .sacred-cosmology-form--embodiment .sacred-cosmology-symbol { width: min(85vw, 405px); }
+  .sacred-cosmology-form--transmutation .sacred-cosmology-symbol { width: min(90vw, 450px); }
+  .sacred-cosmology-form--emergence .sacred-cosmology-symbol { width: min(98vw, 510px); }
+  .sacred-cosmology-form--union { min-height: 105svh; padding-bottom: clamp(2.5rem, 7svh, 4rem); }
+  .sacred-cosmology-form--union .sacred-cosmology-symbol { top: 43%; width: min(170vw, 1150px); }
+  .sacred-cosmology-form--union::after { top: calc(43% + 1px); }
+  .sacred-elements-diagram { width: min(100%,480px); }
+  .sacred-doorway { min-height: 88px; }
+  .sacred-doorway h3 { font-size: clamp(1.65rem,5vw,2.1rem); }
+}
+@media (max-width: 420px) {
+  .sacred-invocation { font-size: 1.55rem; }
+  .sacred-elements-whole { font-size: .68rem; letter-spacing: .04em; }
+  .sacred-elements-whole span { padding: 0 .25em; }
+  .sacred-doorway-forthcoming { font-size: .59rem; }
+  .sacred-cosmology-form--union .sacred-cosmology-symbol { width: 210vw; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sacred-threshold::before,
+  .sacred-threshold-ring,
+  .sacred-invocation span { animation: none; }
+  .sacred-doorway::before,
+  .sacred-doorway::after,
+  .sacred-doorway h3,
+  .sacred-doorway a span { transition: none; }
+}
