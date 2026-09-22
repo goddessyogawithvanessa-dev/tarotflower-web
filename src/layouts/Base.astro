@@ -86,7 +86,7 @@ const schemaGraph = {
       description: 'Tarot Flower is Vanessa Hylande’s home for tarot, ritual, astrology, Goddess Embodiment, and Sacred Becoming.',
       logo: {
         '@type': 'ImageObject',
-        url: new URL('/favicon-192x192.jpg', Astro.site).href,
+        url: new URL('/favicon-192.png', Astro.site).href,
         width: 192,
         height: 192,
       },
@@ -142,8 +142,8 @@ const schemaGraph = {
   <title>{title}</title>
   <link rel="canonical" href={canonicalURL.href} />
   {noindex && <meta name="robots" content="noindex, nofollow" />}
-  <link rel="icon" type="image/jpeg" sizes="32x32" href="/favicon.jpg" />
-  <link rel="icon" type="image/jpeg" sizes="192x192" href="/favicon-192x192.jpg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
   {description && <meta name="description" content={description} />}
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalURL.href} />
@@ -504,14 +504,16 @@ const schemaGraph = {
     // Desktop: mega menu hover behavior
     document.querySelectorAll('.desktop-nav .mega-categories').forEach(catGroup => {
       catGroup.querySelectorAll('.mega-cat').forEach(cat => {
-        cat.addEventListener('mouseenter', () => {
+        const activatePanel = () => {
           const panel = cat.getAttribute('data-panel');
           const container = catGroup.parentElement;
           container.querySelectorAll(':scope > .mega-panel').forEach(p => p.classList.remove('active'));
           container.querySelector('#panel-' + panel)?.classList.add('active');
           catGroup.querySelectorAll('.mega-cat').forEach(c => c.classList.remove('active'));
           cat.classList.add('active');
-        });
+        };
+        cat.addEventListener('mouseenter', activatePanel);
+        cat.addEventListener('focusin', activatePanel);
       });
     });
     document.querySelectorAll('.desktop-nav #panel-minor').forEach(minor => {

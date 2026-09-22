@@ -2919,7 +2919,14 @@ body {
 #mobile-nav.mm-spn a:not(:last-child)::after { border-color: rgba(224, 191, 120, 0.42); opacity: 1; }
 #mobile-nav.mm-spn a,
 #mobile-nav.mm-spn span { color: #fbf4e4; }
-#mobile-nav.mm-spn a:focus-visible { color: #f1d493; outline: 1px solid #d4ae62; outline-offset: -4px; }
+#mobile-nav.mm-spn a:is(:hover, :focus-visible, :active),
+#mobile-nav.mm-spn li:is(:hover, :focus-within, :active) > span {
+  color: #fff2cf;
+  background: #315247;
+  box-shadow: inset 3px 0 0 #e8c57d;
+  text-decoration: none;
+}
+#mobile-nav.mm-spn a:focus-visible { outline: 2px solid #f1d493; outline-offset: -3px; }
 .mobile-nav-bar { display: none; }
 a.hamburger { display: none; }
 .nav-dropdown {
@@ -3042,6 +3049,17 @@ a.hamburger { display: none; }
 .mega-panel a:focus-visible {
   color: #f1d493;
   background: rgba(212, 174, 98, 0.12);
+}
+.desktop-nav .dropdown-menu a:is(:hover, :focus-visible, :active),
+.desktop-nav .dropdown-menu .mega-cat.active > a {
+  color: #fff2cf;
+  background: rgba(175, 124, 62, 0.28);
+  box-shadow: inset 3px 0 0 #e8c57d;
+  text-decoration: none;
+}
+.desktop-nav .dropdown-menu a:focus-visible {
+  outline: 2px solid #f1d493;
+  outline-offset: -3px;
 }
 #panel-minor.active {
   display: flex;
@@ -12496,42 +12514,16 @@ a.fire-download-link:focus-visible {
   width: min(100%, 450px);
   aspect-ratio: 1;
   justify-self: center;
-  color: var(--temple-gold-pale);
-  filter: drop-shadow(0 0 30px rgba(215, 178, 97, 0.16));
 }
 
-.becoming-pentacle svg {
+.becoming-pentacle img {
   display: block;
   width: 100%;
   height: 100%;
-  overflow: visible;
+  margin: 0;
+  border-radius: 0;
+  object-fit: contain;
 }
-
-.becoming-pentacle svg circle,
-.becoming-pentacle svg path {
-  fill: none;
-  stroke: var(--temple-gold);
-  stroke-width: 1.2;
-}
-
-.becoming-pentacle svg circle:first-child { stroke-width: 2; }
-.becoming-pentacle svg .pentacle-core { fill: rgba(215, 178, 97, 0.14); stroke: var(--temple-gold-pale); }
-.becoming-pentacle svg .pentacle-node { fill: var(--temple-gold-pale); stroke: none; }
-
-.becoming-pentacle span {
-  position: absolute;
-  color: var(--temple-gold-pale);
-  font-family: 'Aboreto', Georgia, serif;
-  font-size: 0.62rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-}
-
-.becoming-pentacle .element-aether { top: -1.8rem; left: 50%; transform: translateX(-50%); }
-.becoming-pentacle .element-air { top: 35%; right: -2.3rem; }
-.becoming-pentacle .element-fire { right: 8%; bottom: 0.5rem; }
-.becoming-pentacle .element-earth { bottom: 0.5rem; left: 8%; }
-.becoming-pentacle .element-water { top: 35%; left: -2.8rem; }
 
 .becoming-temple .becoming-presence {
   position: relative;
@@ -13273,8 +13265,6 @@ a.fire-download-link:focus-visible {
     width: min(78vw, 350px);
   }
 
-  .becoming-pentacle .element-air { right: -1.4rem; }
-  .becoming-pentacle .element-water { left: -1.8rem; }
 
   .becoming-temple .becoming-presence {
     padding-top: 7rem;
@@ -13475,9 +13465,6 @@ a.fire-download-link:focus-visible {
     padding-left: 18px;
   }
 
-  .becoming-pentacle span { font-size: 0.55rem; }
-  .becoming-pentacle .element-air { right: -1rem; }
-  .becoming-pentacle .element-water { left: -1.25rem; }
 
   .becoming-temple .threshold-chamber {
     margin-right: -18px;
