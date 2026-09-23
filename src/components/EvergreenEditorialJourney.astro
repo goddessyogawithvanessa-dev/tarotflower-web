@@ -1,6 +1,7 @@
 ---
 import EmailOptIn from './EmailOptIn.astro';
 import FireEditorialCTA from './FireEditorialCTA.astro';
+import SacredBecomingMentorshipArtwork from './SacredBecomingMentorshipArtwork.astro';
 import type { RitualKey } from '../data/evergreenJourneys';
 import { ritualExperiences } from '../data/ritualExperiences';
 
@@ -103,18 +104,7 @@ const featured = rituals[ritual];
 
 {mentorship && (
   <aside class="card-mentorship-invitation" aria-labelledby="evergreen-mentorship-title">
-    <div class="card-mentorship-image">
-      <img
-        src="/images/homepage/vanessa-hylande-sacred-becoming-960.png"
-        srcset="/images/homepage/vanessa-hylande-sacred-becoming-480.png 480w, /images/homepage/vanessa-hylande-sacred-becoming-720.png 720w, /images/homepage/vanessa-hylande-sacred-becoming-960.png 960w, /images/homepage/vanessa-hylande-sacred-becoming-1324.png 1324w"
-        sizes="(max-width: 768px) min(420px, 100vw), min(32vw, 330px)"
-        alt="Vanessa Hylande smiling at the camera"
-        width="960"
-        height="861"
-        loading="lazy"
-        decoding="async"
-      />
-    </div>
+    <SacredBecomingMentorshipArtwork />
     <div class="card-mentorship-copy">
       <p class="card-editorial-kicker">A Deeper Step</p>
       <h2 id="evergreen-mentorship-title">Sacred Becoming Mentorship</h2>

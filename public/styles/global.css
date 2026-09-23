@@ -11253,6 +11253,16 @@ a.fire-download-link:focus-visible {
   float: none;
 }
 
+.card-mentorship-image--portrait {
+  overflow: hidden;
+}
+
+.card-mentorship-image--portrait img {
+  aspect-ratio: 960 / 861;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
 .card-mentorship-copy {
   text-align: left;
 }
