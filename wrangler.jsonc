@@ -1,0 +1,67 @@
+{
+  "name": "tarotflower-web-dev",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-07-07",
+  "compatibility_flags": [
+    "global_fetch_strictly_public"
+  ],
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "ALLOWED_ORIGINS": "https://tarotflower.com,https://www.tarotflower.com,https://tarotflower-web-dev.embodiedgoddesses.workers.dev",
+    "CAMPAIGN_FROM": "contact@tarotflower.com",
+    "CAMPAIGN_REPLY_TO": "contact@tarotflower.com",
+    "CONTACT_FROM": "contact@tarotflower.com",
+    "CONTACT_TURNSTILE_SITE_KEY": "0x4AAAAAADxdJGuO-lzCbR0H",
+    "TURNSTILE_ALLOWED_HOSTNAMES": "tarotflower.com,www.tarotflower.com,tarotflower-web-dev.embodiedgoddesses.workers.dev",
+    "WORKER_ENV": "dev"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "tarotflower-leads-dev",
+      "database_id": "5358b6e4-1411-43e3-bce3-adc7a6fc179f"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "GUIDE_ASSETS",
+      "bucket_name": "tarotflower-guides-dev"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "* * * * *"
+    ]
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": false,
+      "persist": true,
+      "head_sampling_rate": 1
+    }
+  },
+  "secrets": {
+    "required": [
+      "ADMIN_REVIEW_TOKEN",
+      "CAMPAIGN_DEV_SEND_TOKEN",
+      "CAMPAIGN_SEND_TOKEN",
+      "GUIDE_DOWNLOAD_TOKEN_SECRET",
+      "SMTP_APP_PASSWORD",
+      "SMTP_USERNAME",
+      "TURNSTILE_SECRET_KEY"
+    ]
+  }
+}
