@@ -608,4 +608,42 @@ const isVisualResetPending = visualResetPendingSlugs.has(slug);
       )}
     </div>
   </div>
+  <script is:inline>
+    document.addEventListener('click', (event) => {
+      const button = event.target.closest('.youtube-consent-trigger');
+      if (!button) return;
+      const url = button.dataset.youtubeSrc;
+      if (!/^https:\/\/www\.youtube\.com\/embed\/[A-Za-z0-9_-]+(?:\?[^"<>]*)?$/.test(url || '')) return;
+      const video = document.createElement('iframe');
+      video.src = url;
+      video.title = 'YouTube video';
+      video.width = '100%';
+      video.height = '450';
+      video.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      video.allowFullscreen = true;
+      button.replaceWith(video);
+    });
+  </script>
 </Base>
+
+<style is:global>
+  .youtube-embed .youtube-consent-trigger {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: clamp(220px, 50vw, 450px);
+    padding: 1rem;
+    border: 1px solid #9a8060;
+    background: #132426;
+    color: #f0e5d2;
+    font: 400 1rem/1.4 'Quattrocento', Georgia, serif;
+    cursor: pointer;
+  }
+  .youtube-embed .youtube-consent-trigger:hover,
+  .youtube-embed .youtube-consent-trigger:focus-visible {
+    background: #1c3334;
+    color: #fff;
+    outline: 2px solid #c89b66;
+    outline-offset: 2px;
+  }
+</style>

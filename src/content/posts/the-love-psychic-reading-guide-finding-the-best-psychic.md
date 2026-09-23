@@ -90,7 +90,7 @@ Overall, love psychic readings employ various skills and techniques to provide g
 
 ## Learn to Read Tarot, Channel and Connect to Your Own Divine Feminine at Goddess Yoga Retreats!
 
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<div class="youtube-embed"><button type="button" class="youtube-consent-trigger" data-youtube-src="https://www.youtube.com/embed/rM-E5n87oXQ">Load video from YouTube</button></div>
 
 ## What About Psychic Websites?
 

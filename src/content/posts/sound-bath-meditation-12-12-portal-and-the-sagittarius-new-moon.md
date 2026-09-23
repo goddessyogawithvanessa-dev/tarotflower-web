@@ -12,4 +12,4 @@ seo_description: "Here is a sound bath meditation for this beautiful new moon in
 
 Here is a sound bath meditation for this beautiful new moon in sagittarius on this 12-12 portal!
 
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/RiL5cKaGYRo" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<div class="youtube-embed"><button type="button" class="youtube-consent-trigger" data-youtube-src="https://www.youtube.com/embed/RiL5cKaGYRo">Load video from YouTube</button></div>

@@ -16,7 +16,6 @@ const socialImageURL = image ? new URL(image, Astro.site) : null;
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <GoogleAnalytics />
   <title>{title}</title>
   <link rel="canonical" href={canonicalURL.href} />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
@@ -38,5 +37,6 @@ const socialImageURL = image ? new URL(image, Astro.site) : null;
 </head>
 <body class="ceremonial-body">
   <slot />
+  <GoogleAnalytics />
 </body>
 </html>

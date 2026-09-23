@@ -12,7 +12,7 @@ seo_description: "These affirmations are powerful in conjunction with your yoga 
 
 These affirmations are powerful in conjunction with your yoga practice, meditations and divine feminine energy channelings! Use them to gather your power and set your intentions!
 
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/e5suTcCnxJ4" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<div class="youtube-embed"><button type="button" class="youtube-consent-trigger" data-youtube-src="https://www.youtube.com/embed/e5suTcCnxJ4">Load video from YouTube</button></div>
 
 ## Divine Feminine Affirmations for Kundalini Awakening and Goddess Embodiment
 

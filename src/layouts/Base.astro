@@ -143,7 +143,6 @@ const schemaGraph = {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <GoogleAnalytics />
   <title>{title}</title>
   <link rel="canonical" href={canonicalURL.href} />
   {noindex && <meta name="robots" content="noindex, nofollow" />}
@@ -464,8 +463,33 @@ const schemaGraph = {
   )}
 
   <slot />
+  <GoogleAnalytics />
 
   {showFooter && <footer id="site-footer">
+    <svg class="footer-botanical" viewBox="0 0 1440 470" fill="none" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id="footer-botanical-metal" x1="0" y1="470" x2="255" y2="35" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#715638" stop-opacity="0" />
+          <stop offset=".31" stop-color="#bc875e" stop-opacity=".54" />
+          <stop offset=".67" stop-color="#d9b989" stop-opacity=".63" />
+          <stop offset="1" stop-color="#bfc5c4" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <g stroke="url(#footer-botanical-metal)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+        <g>
+          <path d="M-18 465C54 405 80 347 89 286c8-57 30-92 65-133 26-31 38-72 43-126" />
+          <path d="M72 365c38-18 66-16 91-4M87 301c-30-24-52-29-78-27M109 237c32-15 58-13 80-1M147 168c-19-27-37-38-62-43M174 106c24-19 43-26 67-27" />
+          <path d="M72 365c25-38 58-46 91-4-37 4-67 7-91 4ZM87 301c-42 2-65-10-78-27 35-12 63-5 78 27ZM109 237c31-40 62-41 80-1-33 8-59 8-80 1ZM147 168c-38 2-57-15-62-43 34-2 58 11 62 43ZM174 106c10-37 31-46 67-27-19 23-43 31-67 27Z" />
+          <path d="M43 412c-6-31 4-51 31-62 3 30-7 51-31 62ZM119 216c-8-28-1-48 26-66 7 29-2 51-26 66Z" />
+        </g>
+        <g transform="translate(1440 0) scale(-1 1)">
+          <path d="M-18 465C54 405 80 347 89 286c8-57 30-92 65-133 26-31 38-72 43-126" />
+          <path d="M72 365c38-18 66-16 91-4M87 301c-30-24-52-29-78-27M109 237c32-15 58-13 80-1M147 168c-19-27-37-38-62-43M174 106c24-19 43-26 67-27" />
+          <path d="M72 365c25-38 58-46 91-4-37 4-67 7-91 4ZM87 301c-42 2-65-10-78-27 35-12 63-5 78 27ZM109 237c31-40 62-41 80-1-33 8-59 8-80 1ZM147 168c-38 2-57-15-62-43 34-2 58 11 62 43ZM174 106c10-37 31-46 67-27-19 23-43 31-67 27Z" />
+          <path d="M43 412c-6-31 4-51 31-62 3 30-7 51-31 62ZM119 216c-8-28-1-48 26-66 7 29-2 51-26 66Z" />
+        </g>
+      </g>
+    </svg>
     <div class="footer-inner">
       <div class="footer-col">
         <h4>CONNECT</h4>
@@ -483,14 +507,13 @@ const schemaGraph = {
         <h4>EXPLORE</h4>
         <ul>
           <li><a href="/daily-tarot">The Witch’s Journal</a></li>
-          <li><a href="/understanding-the-tarot">Tarot Card Meanings</a></li>
+          <li><a href="/understanding-the-tarot">Understanding the Tarot</a></li>
           <li><a href="/major-arcana-2">Major Arcana</a></li>
           <li><a href="/minor-arcana">Minor Arcana</a></li>
           <li><a href="/astrology">Astrology &amp; Zodiac</a></li>
           <li><a href="/rituals">Rituals</a></li>
           <li><a href="/library/login/">My Ritual Library</a></li>
-          <li><a href="/readings-with-vanessa">Tarot Readings with Vanessa</a></li>
-          <li><a href="/tarot-card-readings">Tarot Card Readings</a></li>
+          <li><a href="/readings-with-vanessa">Readings with Vanessa</a></li>
           <li><a href="/sacred-becoming/mentorship">Sacred Becoming Mentorship</a></li>
         </ul>
       </div>
@@ -501,10 +524,11 @@ const schemaGraph = {
       </div>
     </div>
     <div class="footer-quote">
-      <p>"A sacred space for divine insight and mystical connection."</p>
+      <svg class="footer-spiral" viewBox="0 0 76 76" fill="none" aria-hidden="true" focusable="false"><path d="M39 39c1-4-3-7-7-5-6 3-5 12 1 15 9 5 18-3 18-12 0-12-12-20-23-16-14 5-19 23-10 35 10 14 29 15 41 5" /></svg>
+      <p>Tarot. Ritual. Sacred Becoming.</p>
     </div>
     <div class="footer-bottom">
-      <p>&copy; {new Date().getFullYear()} Tarot Flower &middot; All Rights Reserved &middot; <a href="/terms-and-conditions">Privacy Policy</a> &middot; Site by Vanessa Hylande</p>
+      <p>&copy; {new Date().getFullYear()} Tarot Flower &middot; All Rights Reserved &middot; <a href="/privacy-policy/">Privacy Policy</a> &middot; <button type="button" class="footer-privacy-choices" data-open-privacy-choices>Cookie settings</button> &middot; Site by Vanessa Hylande</p>
     </div>
   </footer>}
   <script src="/scripts/mmenu-light.js" is:inline></script>

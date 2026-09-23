@@ -12,7 +12,7 @@ seo_description: "What are you ready to release? Is there a darkness holding you
 
 What are you ready to release? Is there a darkness holding you back from true happiness? Discover your Spring Equinox 2023 messages from the [Dark Goddess Oracle deck](https://amzn.to/3ZYXlcT) and [Anne Stoke's Gothic Tarot](https://amzn.to/40pLDaZ). The Dark Goddess shows you what to heal and let go of, so that you can manifest the next beautiful chapter of your life. Let's make this astrological new year of 2023 amazing!
 
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/xkM99VCS--4" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<div class="youtube-embed"><button type="button" class="youtube-consent-trigger" data-youtube-src="https://www.youtube.com/embed/xkM99VCS--4">Load video from YouTube</button></div>
 
 [![](/images/2023/03/Dark-Goddess-tarot-1024x948.jpeg)](https://amzn.to/3ZYXlcT)
 

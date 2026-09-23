@@ -1,8 +1,120 @@
-<!-- Google tag (gtag.js) -->
-<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-HZSXNP3G6Z"></script>
+<aside id="privacy-consent" class="privacy-consent" aria-labelledby="privacy-consent-title" hidden>
+  <div class="privacy-consent-copy">
+    <h2 id="privacy-consent-title">Analytics choice</h2>
+    <p>May Tarot Flower (Vanessa Pokorny) use Google Analytics to measure site visits? It runs only with your consent. You can decline or withdraw at any time through Cookie settings; the site still works. <a href="/privacy-policy/">Read the Privacy Policy</a>.</p>
+  </div>
+  <div class="privacy-consent-actions">
+    <button type="button" data-analytics-choice="declined">Decline analytics</button>
+    <button type="button" data-analytics-choice="accepted">Accept analytics</button>
+  </div>
+</aside>
+
+<style>
+  .privacy-consent[hidden] { display: none; }
+  .privacy-consent {
+    position: fixed;
+    z-index: 10000;
+    right: clamp(1rem, 3vw, 2rem);
+    bottom: clamp(1rem, 3vw, 2rem);
+    left: clamp(1rem, 3vw, 2rem);
+    max-width: 760px;
+    margin-inline: auto;
+    padding: 1.3rem clamp(1.2rem, 3vw, 1.8rem);
+    border: 1px solid rgba(218, 184, 138, .65);
+    background: #0a191b;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, .55);
+    color: #f1eadb;
+  }
+  .privacy-consent h2 {
+    margin: 0 0 .4rem;
+    color: #e4c692;
+    font: 400 1.35rem/1.2 'Cormorant Garamond', Georgia, serif;
+  }
+  .privacy-consent p {
+    margin: 0;
+    font: 400 .95rem/1.6 'Quattrocento', Georgia, serif;
+  }
+  .privacy-consent a { color: #f1d4a7; text-underline-offset: .2em; }
+  .privacy-consent-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1rem; }
+  .privacy-consent button {
+    min-height: 44px;
+    padding: .6rem 1rem;
+    border: 1px solid #d7b98e;
+    background: transparent;
+    color: #f6e9d2;
+    font: 400 .9rem/1.2 'Quattrocento', Georgia, serif;
+    cursor: pointer;
+  }
+  .privacy-consent button:hover, .privacy-consent button:focus-visible {
+    background: rgba(216, 182, 129, .16);
+    color: white;
+  }
+  .privacy-consent :focus-visible { outline: 2px solid #f4d39d; outline-offset: 3px; }
+  @media (max-width: 600px) {
+    .privacy-consent-actions { display: grid; grid-template-columns: 1fr; }
+  }
+</style>
+
 <script is:inline>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-HZSXNP3G6Z');
+  (() => {
+    const key = 'tf_analytics_consent_v1';
+    const measurementId = 'G-HZSXNP3G6Z';
+    const panel = document.getElementById('privacy-consent');
+    if (!panel) return;
+
+    const readChoice = () => {
+      try { return window.localStorage.getItem(key); } catch { return null; }
+    };
+    const saveChoice = (choice) => {
+      try { window.localStorage.setItem(key, choice); } catch { /* The choice still applies to this page. */ }
+    };
+    const removeAnalyticsCookies = () => {
+      const names = document.cookie.split(';').map((part) => part.trim().split('=')[0]);
+      const host = window.location.hostname;
+      const domains = ['', host, '.tarotflower.com'];
+      names.filter((name) => /^(_ga($|_)|_gid$|_gat($|_))/.test(name)).forEach((name) => {
+        domains.forEach((domain) => {
+          document.cookie = `${name}=; Max-Age=0; Path=/; SameSite=Lax${domain ? `; Domain=${domain}` : ''}`;
+        });
+      });
+    };
+    const loadAnalytics = () => {
+      if (window.__tfAnalyticsLoaded) return;
+      window.__tfAnalyticsLoaded = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){ window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('consent', 'default', {
+        analytics_storage: 'granted',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+      });
+      window.gtag('config', measurementId);
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+      document.head.appendChild(script);
+    };
+    const openChoices = () => { panel.hidden = false; panel.querySelector('button')?.focus(); };
+    window.TarotFlowerPrivacy = { openChoices };
+
+    panel.querySelectorAll('[data-analytics-choice]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const choice = button.dataset.analyticsChoice;
+        saveChoice(choice);
+        panel.hidden = true;
+        if (choice === 'accepted') loadAnalytics();
+        else {
+          removeAnalyticsCookies();
+          if (window.__tfAnalyticsLoaded) window.location.reload();
+        }
+      });
+    });
+    document.addEventListener('click', (event) => {
+      if (event.target.closest('[data-open-privacy-choices]')) openChoices();
+    });
+    if (readChoice() === 'accepted') loadAnalytics();
+    else if (readChoice() !== 'declined') panel.hidden = false;
+  })();
 </script>

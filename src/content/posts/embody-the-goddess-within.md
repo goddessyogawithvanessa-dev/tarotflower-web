@@ -42,7 +42,7 @@ Naturally, we must always act from a place of love and compassion for others. Ou
 
 ## Goddess Yourself to Find Abundance and Joy
 
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<div class="youtube-embed"><button type="button" class="youtube-consent-trigger" data-youtube-src="https://www.youtube.com/embed/rM-E5n87oXQ">Load video from YouTube</button></div>
 
 *Interested in our tarot and oracle decks? Check out our [shop](/shop/).*
 

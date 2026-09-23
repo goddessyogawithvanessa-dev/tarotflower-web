@@ -20,7 +20,7 @@ Try practicing yoga, meditation, sound baths and dance to ignite your inner fire
 
 ## Full Moon in Gemini Tarot Message
 
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/AOehC1hExnY" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<div class="youtube-embed"><button type="button" class="youtube-consent-trigger" data-youtube-src="https://www.youtube.com/embed/AOehC1hExnY">Load video from YouTube</button></div>
 
 ## Watch my full moon in Gemini 2023 reading on Tiktok!
 

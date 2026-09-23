@@ -36,6 +36,6 @@ When we are embodied we find the lightness and freedom in life because we are tr
 
 This is when **joy**, **abundance** and **love** can flourish in our every day lives. Want to learn more? Join our Goddess Yoga Retreats around the world today and learn how to embody beautiful goddess that already lives within you. Your divine feminine is waiting to fly!
 
-<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/rM-E5n87oXQ" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<div class="youtube-embed"><button type="button" class="youtube-consent-trigger" data-youtube-src="https://www.youtube.com/embed/rM-E5n87oXQ">Load video from YouTube</button></div>
 
 *Looking for* ***tarot card readings****,* ***astrology*** *and other mystical treasures? Check out* [*tarotflower.com*](https://tarotflower.com) *where you will find everything tarot for blossoming souls.*
