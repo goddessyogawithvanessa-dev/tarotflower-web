@@ -7,7 +7,7 @@ modified: 2023-12-25
 content_type: post
 categories: [vanessas-musings]
 seo_title: "Dream Dancing | Tarot Flower"
-seo_description: "> By night I take your soul by the hand"
+seo_description: "By night I take your soul by the hand"
 ---
 
 ![](/images/2023/12/dream-dancing.jpg)

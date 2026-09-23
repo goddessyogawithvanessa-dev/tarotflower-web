@@ -19,7 +19,10 @@ const socialImageURL = image ? new URL(image, Astro.site) : null;
   <GoogleAnalytics />
   <title>{title}</title>
   <link rel="canonical" href={canonicalURL.href} />
-  <link rel="icon" type="image/jpeg" sizes="32x32" href="/favicon.jpg" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
   {description && <meta name="description" content={description} />}
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalURL.href} />

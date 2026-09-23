@@ -7,7 +7,7 @@ modified: 2023-12-25
 content_type: post
 categories: [vanessas-musings]
 seo_title: "Adorn Your Soul | Tarot Flower"
-seo_description: "> \"Adorn your soul with everything beautiful"
+seo_description: "\"Adorn your soul with everything beautiful"
 ---
 
 ![](/images/2023/12/adorn-your-soul.jpg)
