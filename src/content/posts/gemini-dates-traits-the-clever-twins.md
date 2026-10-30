@@ -31,7 +31,7 @@ As for compatibility, Geminis are most compatible with other air signs, such as 
 
 ## Gemini zodiac personality at a glance
 
-![](/images/2023/04/gemini-v2-2.jpg)
+![Two women facing away from one another in a gold floral frame, Vanessa Hylande’s Gemini zodiac artwork of duality at Tarot Flower](/images/2023/04/gemini-v2-2.jpg)
 
 1. **Quick-witted:** Geminis are known for their sharp minds and ability to think on their feet. They are often the life of the party, entertaining those around them with their clever jokes and interesting conversations.
 2. **Versatile:** Geminis have a natural ability to adapt to any situation. They are versatile in their thinking and approach to life, making them well-rounded individuals.

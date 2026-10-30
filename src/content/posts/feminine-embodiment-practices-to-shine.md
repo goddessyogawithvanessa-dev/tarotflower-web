@@ -81,3 +81,5 @@ When we use the 5 elements in our feminine embodiment practice, we ensure that w
 ### The 7 Chakras and Embodied Learning
 
 When we use the [7 chakras](https://goddess-yoga-retreats.com/blog/balance-your-7-chakras-to-reset-your-nervous-system/) through our feminine embodiment practice, we also ensure that we will explore the whole range of our existence. From our physical security and our abundance in this world to our connection to the divine, each of the chakras explores a different aspect of our being. When we balance, unblock, nurture and integrate all of our 7 chakras, we achieve an enlightened state of flow and happiness.
+
+To experience these ideas through movement, explore [embodiment dance through the seven chakras](/embodiment-dance-for-high-vibe-living/).

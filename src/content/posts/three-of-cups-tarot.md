@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Three of Cups tarot card is a card of celebration and community. It represents coming together with like-minded individuals and being connected and supported by them. This card is a reminder that we are not alone in our struggles and successes and that having a supportive group of people around us can be very empowering.
 
-<img src="/images/tarot/cups/three-of-cups.png" alt="Three women in floral dresses raising cups in celebration" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/three-of-cups.png" alt="Three Of Cups Tarot at Tarot Flower: three women in floral dresses raising cups in celebration" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Three of Cups tarot card is a card of joy, creativity, and cooperation. It signifies coming together with friends to celebrate a special occasion or milestone and to share in each other’s joy. It can also signify the creation of new and exciting projects, relationships, or ideas, as well as a feeling of connectedness and support between people.
 

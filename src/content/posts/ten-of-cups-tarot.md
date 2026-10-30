@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Ten of Cups is a card that symbolizes happiness, contentment, and joy. It is the card of fulfilled wishes and dreams. In a tarot reading, it could mean that you are in a place of emotional stability and contentment, and that you have achieved what you had been longing for.
 
-<img src="/images/tarot/cups/ten-of-cups.png" alt="People dancing beneath ten glowing cups, flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/ten-of-cups.png" alt="Ten Of Cups Tarot at Tarot Flower: people dancing beneath ten glowing cups, flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 When the Ten of Cups appears in a reading, it is a sign that your relationships are strong and harmonious. You are in a place of emotional security and stability, and you have a deep connection with your family and friends. This could indicate that you have achieved the kind of relationships that you have been longing for in life.
 

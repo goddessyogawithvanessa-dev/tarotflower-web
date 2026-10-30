@@ -22,4 +22,4 @@ The essence of the Three of Pentacles is the ebb and flow of give and take in pe
 
 > My partnerships flow in perfect harmony"
 
-![](https://tarotflower.files.wordpress.com/2020/07/july-affirmations-1.png?w=800)
+![‘My partnerships flow in perfect harmony’ above dandelion seed heads, Tarot Flower’s Three of Pentacles affirmation for collaboration](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/july-affirmations-1.png)

@@ -6,9 +6,9 @@ const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.de
   <summary class="sacred-oracle-cta">Join the Waitlist</summary>
   <div class="oracle-waitlist-panel">
     <p>Be the first to hear when The Sacred Becoming Oracle is ready.</p>
-    <form class="oracle-waitlist-form" action={`${contactApiBase}/api/contact`} method="POST" data-oracle-waitlist-form>
+    <form class="oracle-waitlist-form" action={`${contactApiBase}/api/oracle-waitlist`} method="POST" data-oracle-waitlist-form>
       <input type="text" name="website" tabindex="-1" autocomplete="off" hidden />
-      <input type="hidden" name="message" value="Sacred Becoming Oracle waitlist signup. Please add me to the Oracle launch waitlist." />
+      <input type="hidden" name="source_path" value={Astro.url.pathname} />
       <label>
         <span>Name</span>
         <input type="text" name="name" autocomplete="name" required />
@@ -22,7 +22,7 @@ const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.de
         <span>I agree to receive Sacred Becoming Oracle launch updates by email.</span>
       </label>
       <div class="contact-turnstile" data-turnstile-widget></div>
-      <button type="submit">Join the Oracle Waitlist</button>
+      <button type="submit" disabled>Join the Oracle Waitlist</button>
       <p class="oracle-waitlist-note">No spam. Just Sacred Becoming Oracle news and launch updates.</p>
       <p class="oracle-waitlist-status" aria-live="polite"></p>
     </form>
@@ -71,13 +71,14 @@ const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.de
       const sitekey = config.turnstileSiteKey || config.siteKey || config.turnstile_site_key;
       if (!sitekey) throw new Error('Verification site key unavailable.');
       const turnstile = await oracleTurnstileReady;
-      widgetId = turnstile.render(container, { sitekey, action: 'contact' });
+      widgetId = turnstile.render(container, { sitekey, action: 'contact', size: container.clientWidth < 300 ? 'compact' : 'normal' });
     } catch (error) {
       status.textContent = 'Please refresh and try again in a moment.';
       submit.disabled = true;
       return;
     }
 
+    submit.disabled = false;
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
       status.textContent = 'Joining...';
@@ -92,6 +93,7 @@ const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.de
         const text = await response.text();
         const result = text ? JSON.parse(text) : {};
         if (!response.ok) throw new Error(result.error || 'The signup could not be sent.');
+        if (result.newSubscription === true) document.dispatchEvent(new CustomEvent('tf:oracle-subscribed'));
         status.textContent = "You're on the Sacred Becoming Oracle waitlist. Thank you.";
         form.reset();
         window.turnstile.reset(widgetId);

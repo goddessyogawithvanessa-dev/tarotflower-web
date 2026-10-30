@@ -9,14 +9,14 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Nine of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Nine of Cups tarot card meaning for wishes, love, contentment, the reversed position, and embodied gratitude."
 seo_image: /images/tarot/cups/nine-of-cups.png
-seo_image_alt: "Seated woman holding a cup surrounded by nine ornate cups and butterflies"
+seo_image_alt: "Seated woman holding a cup amid ornate cups and butterflies"
 seo_image_width: 1024
 seo_image_height: 1024
 ---
 
 The Nine of Cups is a card of deep contentment and satisfaction. It is often referred to as the “wish card” as it is a sign that all of your heart’s desires have come true. This card is a symbol of joy, abundance, and inner peace.
 
-<img src="/images/tarot/cups/nine-of-cups.png" alt="Seated woman holding a cup surrounded by nine ornate cups and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/nine-of-cups.png" alt="Nine Of Cups Tarot at Tarot Flower: seated woman holding a cup amid ornate cups and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 When the Nine of Cups appears in a Tarot reading, it signifies that things are going your way. You can expect a period of contentment and joy in your life, as your wishes have been granted. This card encourages you to take a break from all of your hard work, and to enjoy the fruits of your labor. It is a reminder that you have done a great job and that you should now take some time to relax and reflect.
 

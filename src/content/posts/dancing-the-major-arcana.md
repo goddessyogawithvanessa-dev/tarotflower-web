@@ -10,7 +10,7 @@ seo_title: "Dancing the Major Arcana | Tarot Flower"
 seo_description: "The Tarot is a powerful tool that can be used to explore the inner workings of our own lives. And in Goddess yoga, we embody the Major Arcana through..."
 ---
 
-![](http://goddess-yoga-retreat.com/wp-content/uploads/2022/12/IMG_20201215_120906-950x1024.jpg)
+![Major Arcana Tarot cards spread among crystals and shells, illustrating Vanessa Hylande’s ‘Dancing the Major Arcana’ practice at Tarot Flower](/images/wordpress-migration/goddess-yoga-retreat.com/2022/12/IMG_20201215_120906-950x1024.jpg)
 
 The Tarot is a powerful tool that can be used to explore the inner workings of our own lives. And in Goddess yoga, we embody the Major Arcana through dance and yoga to guide us on a journey of self exploration and ascension. The Tarot holds powerful lessons, and when we embody these archetypes in our spiritual practice, new perspectives and opportunities present themselves. So, are you ready to discover how dancing the Major Arcana can turbo boost your glow up?
 

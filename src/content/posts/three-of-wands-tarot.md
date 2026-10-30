@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/three-of-wands.png" alt="Woman holding one of three tall wands in a luminous mountain landscape" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/three-of-wands.png" alt="Three Of Wands Tarot at Tarot Flower: woman holding one of three tall wands in a luminous mountain landscape" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Three of Wands tarot card is a card of vision and foresight. It represents having a clear direction and knowing where you’re headed. It is a card of potential and opportunity, of exploration and adventure. The Three of Wands is a card of personal power. It tells you that you have the potential to make things happen.
 

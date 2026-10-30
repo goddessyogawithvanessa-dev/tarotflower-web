@@ -13,6 +13,8 @@ const posts = defineCollection({
     categories: z.array(z.string()).default([]),
     seo_title: z.string().optional(),
     seo_description: z.string().optional(),
+    og_description: z.string().optional(),
+    twitter_card: z.enum(['summary', 'summary_large_image']).optional(),
     seo_image: z.string().optional(),
     seo_image_alt: z.string().optional(),
     seo_image_width: z.coerce.number().optional(),

@@ -26,4 +26,4 @@ True strength is not forceful. It is light years beyond sheer force of will and 
 
 > My strength shines in my gentlest moments."
 
-![](https://tarotflower.files.wordpress.com/2020/07/july-affirmations.png?w=800)
+![‘My strength shines in my gentlest moments’ beside a shoreline figure, Tarot Flower’s Strength Tarot affirmation](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/july-affirmations.png)

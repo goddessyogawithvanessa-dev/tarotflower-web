@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import LibraryHeader from '../../components/LibraryHeader.astro';
+---
+
+<Base
+  title="Reset Your My Library Password | Tarot Flower"
+  description="Reset the password for your permanent Tarot Flower library."
+  showBanner={false}
+  showNavigation={false}
+  showFooter={false}
+  enableMarketingTracking={false}
+  noindex={true}
+>
+  <main class="library-page library-login-page" data-library-password-page data-purpose="reset">
+    <LibraryHeader />
+    <section class="library-doorway" aria-labelledby="library-password-title">
+      <div class="library-doorway-ornament" aria-hidden="true"><span></span></div>
+      <div class="library-login-card">
+        <p class="library-kicker">My Library</p>
+        <h1 id="library-password-title">Forgot your password?</h1>
+        <div class="library-gold-mark" aria-hidden="true"></div>
+        <p class="library-login-intro" data-password-intro>Enter the email address you used at checkout. We’ll send you a private reset link.</p>
+        <form class="library-login-form" data-password-request-form>
+          <label for="reset-email">Email address</label>
+          <input id="reset-email" type="email" name="email" autocomplete="email" placeholder="Email used at checkout" required />
+          <div class="library-turnstile" data-library-turnstile></div>
+          <button class="library-primary-button" type="submit">Send Reset Email <span aria-hidden="true">→</span></button>
+        </form>
+        <form class="library-login-form" data-password-set-form hidden>
+          <label for="verified-email">Verified email address</label>
+          <input id="verified-email" type="email" name="email" autocomplete="username" readonly />
+          <label for="new-password">Choose your new password</label>
+          <input id="new-password" type="password" name="password" autocomplete="new-password" placeholder="Choose your new password" minlength="10" maxlength="128" required />
+          <label for="confirm-password">Confirm your new password</label>
+          <input id="confirm-password" type="password" name="confirmPassword" autocomplete="new-password" placeholder="Confirm your new password" minlength="10" maxlength="128" required />
+          <p class="library-password-help">Use at least 10 characters. A few memorable words work well.</p>
+          <button class="library-primary-button" type="submit">Save Password &amp; Enter <span aria-hidden="true">→</span></button>
+        </form>
+        <p class="library-form-status" aria-live="polite" data-library-status></p>
+        <p class="library-privacy-note"><a href="/library/login/">Return to Sign In</a></p>
+      </div>
+    </section>
+    <footer class="library-private-footer"><span>Tarot Flower</span><small>Your private sacred space</small></footer>
+  </main>
+  <script src="/scripts/library-password-policy.js" is:inline></script>
+  <script src="/scripts/library-password.js" is:inline></script>
+</Base>

@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/page-of-wands.png" alt="Young woman holding a wand with closed eyes among blossoms and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/page-of-wands.png" alt="Page Of Wands Tarot at Tarot Flower: young woman holding a wand with closed eyes among blossoms and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Page of Wands tarot card is an exciting card that represents the potential for new beginnings and fresh ideas. This card is all about having the courage to take risks and explore new opportunities. It encourages you to let go of the past, and focus on the future with a sense of adventurousness and enthusiasm.
 

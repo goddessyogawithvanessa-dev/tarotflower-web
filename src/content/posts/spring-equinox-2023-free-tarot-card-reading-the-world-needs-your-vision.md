@@ -14,7 +14,7 @@ What are you ready to release? Is there a darkness holding you back from true ha
 
 <div class="youtube-embed"><button type="button" class="youtube-consent-trigger" data-youtube-src="https://www.youtube.com/embed/xkM99VCS--4">Load video from YouTube</button></div>
 
-[![](/images/2023/03/Dark-Goddess-tarot-1024x948.jpeg)](https://amzn.to/3ZYXlcT)
+[![Gothic Tarot and Dark Goddess Oracle cards spread over a Dragon Art book on white cloth for Tarot Flower’s Spring Equinox reading](/images/2023/03/Dark-Goddess-tarot-1024x948.jpeg)](https://amzn.to/3ZYXlcT)
 
 [The Dark Goddess Oracle Deck](https://amzn.to/3ZYXlcT) and [Anne Stoke's Gothic Tarot](https://amzn.to/3JUKuT6)
 

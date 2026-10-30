@@ -22,4 +22,4 @@ The Four of Wands can also indicate marriage, so whether or not you're looking t
 
 > I celebrate my creations!"
 
-![](https://tarotflower.files.wordpress.com/2020/07/i-celebrate-my-creations-1.png?w=1024)
+![‘I celebrate my creations’ surrounded by flowers and leaves, Tarot Flower’s Four of Wands Tarot affirmation](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/i-celebrate-my-creations-1.png)

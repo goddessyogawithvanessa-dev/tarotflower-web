@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Seven of Cups is one of the most mysterious cards in the Tarot, often inciting a great deal of speculation and debate amongst Tarot readers. This card, which is part of the Minor Arcana suit of Cups, appears in many traditional Tarot decks and is often associated with wishes and dreams, decision-making, and a range of other topics.
 
-<img src="/images/tarot/cups/seven-of-cups.png" alt="Cloaked figure facing seven floating ornate cups" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/seven-of-cups.png" alt="Seven Of Cups Tarot at Tarot Flower: cloaked figure facing seven floating ornate cups" width="1024" height="1024" loading="eager" decoding="async" />
 
 The card itself typically depicts seven cups, each of which contains a different symbol or image. The symbolism of each cup varies depending on the deck, but some common images include a snake, a castle, a dragon, and a treasure. The overall message of the card is that one must make a difficult decision or consider all of their options before proceeding.
 

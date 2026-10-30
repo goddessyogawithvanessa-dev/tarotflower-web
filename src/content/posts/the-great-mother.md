@@ -10,7 +10,7 @@ seo_title: "V. The Great Mother | Tarot Flower"
 seo_description: "The Great Mother is powerful. She is the one who gave us all life. There is nothing more profound and mysterious than her creation. And she is resented..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/mother-earth.jpg?w=1024)
+![Woman resting amid leaves with flowers in her hair, illustrating ‘The Great Mother’ at Tarot Flower](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/mother-earth.jpg)
 
 #### **The High Priestess and Pluto: Ten Steps From Darkness to Light**
 

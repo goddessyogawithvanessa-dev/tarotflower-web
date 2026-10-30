@@ -10,7 +10,7 @@ seo_title: "The First Whispers of the High Priestess | Tarot Flower"
 seo_description: "We are at a turning point once again. We spent months realizing, identifying, accepting and releasing everything that needed to left behind. A dramatic..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/john_collier_-_priestess_of_delphi.jpg?w=345)
+![Priestess in red beside rising smoke, accompanying Tarot Flower’s reflection on the High Priestess and intuition](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/john_collier_-_priestess_of_delphi.jpg)
 
 #### **How to Restore Our Divine Feminine with this Aquarius New Moon**
 

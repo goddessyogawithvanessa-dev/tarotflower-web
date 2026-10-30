@@ -31,31 +31,29 @@ const pageHref = (page: number) => page === 1 ? '/daily-tarot' : `/daily-tarot/p
 
 <section class="journal-index" id="complete-index" data-journal-index>
   <div class="journal-section-heading journal-index-heading">
-    <p class="journal-eyebrow">The Complete Index</p>
-    <h2>Search the shelves</h2>
-    <p>Every text in the living library, arranged for curiosity rather than chronology.</p>
+    <h2>Search the Witch's Journal</h2>
   </div>
 
   <form class="journal-index-tools" data-journal-tools>
     <label class="journal-search-field">
-      <span>Search the library</span>
-      <input type="search" name="journal-search" placeholder="A goddess, a ritual, a question…" autocomplete="off" data-journal-search />
+      <span>Search articles</span>
+      <input type="search" name="journal-search" placeholder="Search articles" autocomplete="off" data-journal-search />
     </label>
     <label class="journal-filter-field">
-      <span>Choose a room</span>
+      <span>Category</span>
       <select name="journal-room" data-journal-filter>
-        <option value="all">All rooms</option>
+        <option value="all">All categories</option>
         {journalCategories.map((category) => (
           <option value={category.slug}>{category.label}</option>
         ))}
-        {unshelvedCount > 0 && <option value="unshelved">Unshelved cart</option>}
+        {unshelvedCount > 0 && <option value="unshelved">Other articles</option>}
       </select>
     </label>
     <button type="button" class="journal-clear-filter" data-journal-clear>Clear</button>
   </form>
 
   <p class="journal-result-count" aria-live="polite" data-journal-count>
-    Showing {start + 1}–{Math.min(start + JOURNAL_PAGE_SIZE, entries.length)} of {entries.length} writings
+    Showing {start + 1}–{Math.min(start + JOURNAL_PAGE_SIZE, entries.length)} of {entries.length} articles
   </p>
 
   <div class="journal-index-grid" data-journal-results>
@@ -76,11 +74,11 @@ const pageHref = (page: number) => page === 1 ? '/daily-tarot' : `/daily-tarot/p
     ))}
   </div>
 
-  <button type="button" class="journal-load-more" hidden data-journal-more>Open more volumes</button>
+  <button type="button" class="journal-load-more" hidden data-journal-more>Load more</button>
 
   {totalPages > 1 && (
     <nav class="journal-pagination" aria-label="Witch's Journal archive pages" data-journal-pagination>
-      {currentPage > 1 && <a href={pageHref(currentPage - 1)} rel="prev">Previous shelf</a>}
+      {currentPage > 1 && <a href={pageHref(currentPage - 1)} rel="prev">Previous</a>}
       <div>
         {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
           page === currentPage
@@ -88,7 +86,7 @@ const pageHref = (page: number) => page === 1 ? '/daily-tarot' : `/daily-tarot/p
             : <a href={pageHref(page)}>{page}</a>
         ))}
       </div>
-      {currentPage < totalPages && <a href={pageHref(currentPage + 1)} rel="next">Next shelf</a>}
+      {currentPage < totalPages && <a href={pageHref(currentPage + 1)} rel="next">Next</a>}
     </nav>
   )}
 
@@ -153,8 +151,8 @@ const pageHref = (page: number) => page === 1 ? '/daily-tarot' : `/daily-tarot/p
         </article>
       `).join('');
       count.textContent = matches.length === 1
-        ? 'One writing is waiting on this shelf'
-        : `Showing ${Math.min(shown.length, matches.length)} of ${matches.length} writings`;
+        ? '1 article'
+        : `Showing ${Math.min(shown.length, matches.length)} of ${matches.length} articles`;
       more.hidden = shown.length >= matches.length;
       if (pagination) pagination.hidden = search.value.length > 0 || filter.value !== 'all';
     };

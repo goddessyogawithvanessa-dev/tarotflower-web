@@ -10,7 +10,7 @@ seo_title: "Dream Dancing | Tarot Flower"
 seo_description: "By night I take your soul by the hand"
 ---
 
-![](/images/2023/12/dream-dancing.jpg)
+![Woman dancing in red and gold among flowers, accompanying Vanessa Hylande’s ‘Dream Dancing’ at Tarot Flower](/images/2023/12/dream-dancing.jpg)
 
 > By night I take your soul by the hand
 >

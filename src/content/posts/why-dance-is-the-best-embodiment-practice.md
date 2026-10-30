@@ -28,6 +28,10 @@ Dance is the best method of achieving embodiment, because it engages so many fac
 
 Using dance as your embodiment practice will allow you to balance and interconnect the voice of the mind, the messages of your heart and emotional world, along with your rational mind and your **intuition**. It is the most holistic practice there is, and will positively impact every aspect of your life.
 
-The Embodied Goddesses method begins with a daily practice warm up designed to strengthen and stretch your entire body. Then, each module focuses on healing, liberating and nourishing one particular chakra with original dance choreography. The movements are inspired by the spirit animals associated with each chakra, and every chakra dance includes a “free dance” section at the end, where you can express yourself freely in any way that feels good and joyful to you. This is similar to ecstatic dance, but much more refined in its objective.
+An embodiment dance practice should begin with a warm-up designed to strengthen and stretch your entire body. From there, the practice can focus on healing, liberating, and nourishing one or multiple chakras through original dance choreography. The movements could be inspired by the spirit animals associated with a chakra, or any other inspiration that is relevant for you.
+
+And what I like best is when every chakra dance includes a free dance section, where you can express yourself freely in any way that feels good and joyful to you. This is similar to ecstatic dance, but it's more refined in its objective and connects you more directly to the elements that you're working with or the energies that you're working with.
+
+To explore how embodiment dance can engage all seven chakras, continue with [Embodiment Dance for High Vibe Living](/embodiment-dance-for-high-vibe-living/).
 
 Each module of the embodiment dance method is inspired by a Goddess and her archetypal wisdom and complemented by a selection of chakra healing crystals, flowers, supportive essential oils, incenses and candles. By dancing, meditating and journaling inside each of the beautiful Goddess Circles, you can learn to bring all five elements of your existence into loving harmony.

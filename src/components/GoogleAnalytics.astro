@@ -1,11 +1,32 @@
+---
+const pinterestTagId = import.meta.env.PUBLIC_PINTEREST_TAG_ID || '2613107381993';
+---
+<script src="/scripts/pinterest.js" data-pinterest-tag={pinterestTagId} is:inline></script>
 <aside id="privacy-consent" class="privacy-consent" aria-labelledby="privacy-consent-title" hidden>
   <div class="privacy-consent-copy">
-    <h2 id="privacy-consent-title">Analytics choice</h2>
-    <p>May Tarot Flower (Vanessa Pokorny) use Google Analytics to measure site visits? It runs only with your consent. You can decline or withdraw at any time through Cookie settings; the site still works. <a href="/privacy-policy/">Read the Privacy Policy</a>.</p>
+    <h2 id="privacy-consent-title">Your privacy choices</h2>
+    <p>We use optional analytics to understand visits and optional Pinterest measurement for campaigns. You can accept all, reject non-essential tracking, or choose your preferences. <a href="/privacy-policy/">Read the Privacy Policy</a>.</p>
   </div>
-  <div class="privacy-consent-actions">
-    <button type="button" data-analytics-choice="declined">Decline analytics</button>
-    <button type="button" data-analytics-choice="accepted">Accept analytics</button>
+  <div class="privacy-consent-actions privacy-consent-primary-actions">
+    <button type="button" data-consent-action="accept">Accept all</button>
+    <button type="button" data-consent-action="reject">Reject non-essential</button>
+    <button type="button" data-consent-action="preferences" aria-expanded="false" aria-controls="privacy-preferences">Preferences</button>
+  </div>
+  <div id="privacy-preferences" class="privacy-preferences" hidden>
+    <fieldset>
+      <legend>Optional services</legend>
+      <label>
+        <input type="checkbox" data-consent-preference="analytics" />
+        <span><strong>Google Analytics</strong><small>Helps us understand visits and improve the website.</small></span>
+      </label>
+      <label>
+        <input type="checkbox" data-consent-preference="pinterest" disabled={!pinterestTagId} />
+        <span><strong>Pinterest campaign measurement</strong><small>Measures campaign visits and conversions after you consent.</small></span>
+      </label>
+      {!pinterestTagId && <p class="privacy-consent-note">Pinterest measurement is not currently configured and remains off.</p>}
+      <p class="privacy-consent-note" data-privacy-signal-note hidden>Your browser privacy signal keeps Pinterest campaign measurement off.</p>
+    </fieldset>
+    <button type="button" data-consent-action="save">Save preferences</button>
   </div>
 </aside>
 
@@ -19,54 +40,116 @@
     left: clamp(1rem, 3vw, 2rem);
     max-width: 760px;
     margin-inline: auto;
-    padding: 1.3rem clamp(1.2rem, 3vw, 1.8rem);
+    padding: 1.15rem clamp(1.1rem, 3vw, 1.65rem);
     border: 1px solid rgba(218, 184, 138, .65);
     background: #0a191b;
     box-shadow: 0 12px 40px rgba(0, 0, 0, .55);
     color: #f1eadb;
   }
   .privacy-consent h2 {
-    margin: 0 0 .4rem;
+    margin: 0 0 .35rem;
     color: #e4c692;
     font: 400 1.35rem/1.2 'Cormorant Garamond', Georgia, serif;
   }
   .privacy-consent p {
     margin: 0;
-    font: 400 .95rem/1.6 'Quattrocento', Georgia, serif;
+    font: 400 .92rem/1.55 'Quattrocento', Georgia, serif;
   }
   .privacy-consent a { color: #f1d4a7; text-underline-offset: .2em; }
-  .privacy-consent-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1rem; }
+  .privacy-consent-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: .9rem; }
   .privacy-consent button {
     min-height: 44px;
     padding: .6rem 1rem;
     border: 1px solid #d7b98e;
     background: transparent;
     color: #f6e9d2;
-    font: 400 .9rem/1.2 'Quattrocento', Georgia, serif;
+    font: 400 .82rem/1.2 'Quattrocento', Georgia, serif;
+    letter-spacing: .04em;
     cursor: pointer;
   }
   .privacy-consent button:hover, .privacy-consent button:focus-visible {
     background: rgba(216, 182, 129, .16);
     color: white;
   }
+  .privacy-consent-primary-actions button { flex: 1 1 170px; }
+  .privacy-preferences {
+    margin-top: 1.05rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(218, 184, 138, .35);
+  }
+  .privacy-preferences[hidden] { display: none; }
+  .privacy-preferences fieldset { margin: 0 0 1rem; padding: 0; border: 0; }
+  .privacy-preferences legend {
+    margin-bottom: .75rem;
+    color: #e4c692;
+    font: 400 1.05rem/1.2 'Cormorant Garamond', Georgia, serif;
+  }
+  .privacy-preferences label {
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    gap: .7rem;
+    align-items: start;
+    margin-top: .7rem;
+    cursor: pointer;
+  }
+  .privacy-preferences input { width: 18px; height: 18px; margin-top: .15rem; accent-color: #d7b98e; }
+  .privacy-preferences input:disabled + span { opacity: .62; }
+  .privacy-preferences strong, .privacy-preferences small { display: block; }
+  .privacy-preferences small { margin-top: .18rem; color: #d8d0c3; font-size: .82rem; line-height: 1.45; }
+  .privacy-consent-note { margin-top: .7rem !important; color: #d8d0c3; font-size: .82rem !important; }
   .privacy-consent :focus-visible { outline: 2px solid #f4d39d; outline-offset: 3px; }
   @media (max-width: 600px) {
+    .privacy-consent { max-height: calc(100svh - 2rem); overflow-y: auto; }
     .privacy-consent-actions { display: grid; grid-template-columns: 1fr; }
   }
 </style>
 
 <script is:inline>
   (() => {
-    const key = 'tf_analytics_consent_v1';
+    const key = 'tf_consent_v2';
+    const analyticsLegacyKey = 'tf_analytics_consent_v1';
+    const pinterestLegacyKey = 'tf_pinterest_consent_v1';
+    const maxAge = 15552000;
     const measurementId = 'G-HZSXNP3G6Z';
     const panel = document.getElementById('privacy-consent');
     if (!panel) return;
+    const preferences = panel.querySelector('#privacy-preferences');
+    const preferencesButton = panel.querySelector('[data-consent-action="preferences"]');
+    const analyticsInput = panel.querySelector('[data-consent-preference="analytics"]');
+    const pinterestInput = panel.querySelector('[data-consent-preference="pinterest"]');
+    const privacySignal = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';
+    const pinterestConfigured = window.TarotFlowerPinterest?.isConfigured() === true;
+    const signalNote = panel.querySelector('[data-privacy-signal-note]');
 
-    const readChoice = () => {
-      try { return window.localStorage.getItem(key); } catch { return null; }
+    const cookieValue = (name) => document.cookie.split(';').map((part) => part.trim())
+      .find((part) => part.startsWith(`${name}=`))?.slice(name.length + 1) || '';
+    const parseRecord = (value) => {
+      if (!value) return null;
+      try {
+        const record = JSON.parse(decodeURIComponent(value));
+        if (record?.version !== 2 || typeof record.analytics !== 'boolean' || typeof record.pinterest !== 'boolean') return null;
+        return record;
+      } catch { return null; }
     };
-    const saveChoice = (choice) => {
-      try { window.localStorage.setItem(key, choice); } catch { /* The choice still applies to this page. */ }
+    const readRecord = () => {
+      try {
+        const stored = parseRecord(window.localStorage.getItem(key));
+        if (stored) return stored;
+      } catch { /* Fall back to the first-party cookie. */ }
+      return parseRecord(cookieValue(key));
+    };
+    const readLegacyChoice = (storageKey, cookieName = '') => {
+      try {
+        const stored = window.localStorage.getItem(storageKey);
+        if (stored === 'accepted' || stored === 'declined') return stored;
+      } catch { /* Fall back to the compatibility cookie when available. */ }
+      const storedCookie = cookieName ? cookieValue(cookieName) : '';
+      return storedCookie === 'accepted' || storedCookie === 'declined' ? storedCookie : null;
+    };
+    const writeRecord = (record) => {
+      const encoded = encodeURIComponent(JSON.stringify(record));
+      try { window.localStorage.setItem(key, encoded); } catch { /* The cookie remains the durable fallback. */ }
+      document.cookie = `${key}=${encoded}; Max-Age=${maxAge}; Path=/; Secure; SameSite=Lax`;
     };
     const removeAnalyticsCookies = () => {
       const names = document.cookie.split(';').map((part) => part.trim().split('=')[0]);
@@ -91,30 +174,88 @@
         ad_personalization: 'denied',
       });
       window.gtag('config', measurementId);
+      document.dispatchEvent(new CustomEvent('tf:analytics-ready'));
       const script = document.createElement('script');
       script.async = true;
       script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
       document.head.appendChild(script);
     };
-    const openChoices = () => { panel.hidden = false; panel.querySelector('button')?.focus(); };
+    const normalized = (record) => ({
+      version: 2,
+      analytics: Boolean(record.analytics),
+      pinterest: Boolean(record.pinterest && pinterestConfigured && !privacySignal),
+      updatedAt: new Date().toISOString(),
+    });
+    const syncControls = (record) => {
+      analyticsInput.checked = Boolean(record?.analytics);
+      pinterestInput.checked = Boolean(record?.pinterest && pinterestConfigured && !privacySignal);
+      pinterestInput.disabled = !pinterestConfigured || privacySignal;
+      if (signalNote) signalNote.hidden = !privacySignal;
+    };
+    const applyRecord = (record, { persist = true } = {}) => {
+      const choice = normalized(record);
+      const analyticsWasLoaded = Boolean(window.__tfAnalyticsLoaded);
+      if (persist) writeRecord(choice);
+      try { window.localStorage.setItem(analyticsLegacyKey, choice.analytics ? 'accepted' : 'declined'); } catch { /* Compatibility only. */ }
+      window.TarotFlowerPinterest?.choose(choice.pinterest ? 'accepted' : 'declined');
+      if (choice.analytics) loadAnalytics();
+      else {
+        window.gtag?.('consent', 'update', { analytics_storage: 'denied' });
+        removeAnalyticsCookies();
+      }
+      syncControls(choice);
+      panel.hidden = true;
+      preferences.hidden = true;
+      preferencesButton.setAttribute('aria-expanded', 'false');
+      if (analyticsWasLoaded && !choice.analytics) window.location.reload();
+      return choice;
+    };
+    const openChoices = () => {
+      const record = readRecord();
+      panel.hidden = false;
+      preferences.hidden = false;
+      preferencesButton.setAttribute('aria-expanded', 'true');
+      syncControls(record);
+      analyticsInput.focus();
+    };
     window.TarotFlowerPrivacy = { openChoices };
 
-    panel.querySelectorAll('[data-analytics-choice]').forEach((button) => {
+    panel.querySelectorAll('[data-consent-action]').forEach((button) => {
       button.addEventListener('click', () => {
-        const choice = button.dataset.analyticsChoice;
-        saveChoice(choice);
-        panel.hidden = true;
-        if (choice === 'accepted') loadAnalytics();
-        else {
-          removeAnalyticsCookies();
-          if (window.__tfAnalyticsLoaded) window.location.reload();
+        const action = button.dataset.consentAction;
+        if (action === 'preferences') {
+          const expanded = preferences.hidden;
+          preferences.hidden = !expanded;
+          button.setAttribute('aria-expanded', String(expanded));
+          if (expanded) {
+            syncControls(readRecord());
+            analyticsInput.focus();
+          }
+          return;
         }
+        if (action === 'accept') applyRecord({ analytics: true, pinterest: true });
+        if (action === 'reject') applyRecord({ analytics: false, pinterest: false });
+        if (action === 'save') applyRecord({ analytics: analyticsInput.checked, pinterest: pinterestInput.checked });
       });
     });
     document.addEventListener('click', (event) => {
       if (event.target.closest('[data-open-privacy-choices]')) openChoices();
     });
-    if (readChoice() === 'accepted') loadAnalytics();
-    else if (readChoice() !== 'declined') panel.hidden = false;
+
+    let record = readRecord();
+    if (!record) {
+      const analyticsLegacy = readLegacyChoice(analyticsLegacyKey);
+      const pinterestLegacy = readLegacyChoice(pinterestLegacyKey, 'tf_pinterest_consent');
+      if (analyticsLegacy && pinterestLegacy) {
+        record = normalized({ analytics: analyticsLegacy === 'accepted', pinterest: pinterestLegacy === 'accepted' });
+        writeRecord(record);
+      }
+    }
+    if (!record && privacySignal) record = applyRecord({ analytics: false, pinterest: false });
+    else if (record) applyRecord(record);
+    else {
+      syncControls(null);
+      panel.hidden = false;
+    }
   })();
 </script>

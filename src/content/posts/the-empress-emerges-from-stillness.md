@@ -10,7 +10,7 @@ seo_title: "The Empress Emerges from Stillness | Tarot Flower"
 seo_description: "Pluto will be around for a while and we will continue to work through our shadow sides over the next few months. But the Sun has just moved brightly..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/wave-gold-sound-symbol-light-rays-spiral-sun-704076.jpg?w=1024)
+![Golden spiral of radiating light, accompanying ‘The Empress Emerges from Stillness’ at Tarot Flower](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/wave-gold-sound-symbol-light-rays-spiral-sun-704076.jpg)
 
 #### **Restoring Our Divine Feminine With This New Moon in Aquarius**
 

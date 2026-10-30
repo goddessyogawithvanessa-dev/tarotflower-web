@@ -18,7 +18,7 @@ seo_description: "Explore the Suit of Pentacles with Tarot Flower. Learn tarot c
       <p>The Suit of Pentacles in the Tarot is commonly associated with the element of Earth and represents our material world and physical existence. This suit is often depicted with images of coins, diamonds, or pentagrams, which are symbols of wealth, abundance, and prosperity. When we receive cards from the Suit of Pentacles in a Tarot reading, it often indicates a focus on our finances, career, or physical well-being.</p>
       <p>The astrological signs associated with the Suit of Pentacles are Taurus, Virgo, and Capricorn, which are all earth signs. These signs are known for their practicality, groundedness, and focus on material stability. When these signs show up in a reading, it often suggests that we need to focus on our financial or career goals, and work hard towards building a stable and secure future for ourselves.</p>
     </div>
-    <img src="/images/2023/04/tf-ai-pentacles-980x980.jpg" alt="The Suit of Pentacles Minor Arcana tarot cards artwork by Vanessa Hylande" loading="eager" />
+    <img src="/images/2023/04/tf-ai-pentacles-980x980.jpg" alt="Floral Pentacles Tarot artwork by Vanessa Hylande introducing the suit of earth at Tarot Flower" loading="eager" />
   </section>
 
   <section class="minor-suit-feature">
@@ -27,14 +27,14 @@ seo_description: "Explore the Suit of Pentacles with Tarot Flower. Learn tarot c
       <p>It reflects our practical skills, our ability to manage finances, and our sense of security and stability.</p>
       <p>This suit is also associated with our physical body and health, and can indicate the need to focus on self-care and maintaining a healthy lifestyle.</p>
     </div>
-    <img src="/images/2023/04/tf-ai-pentacles-2-980x980.jpg" alt="Suit of Pentacles Minor Arcana tarot card meanings artwork by Vanessa Hylande" loading="lazy" />
+    <img src="/images/2023/04/tf-ai-pentacles-2-980x980.jpg" alt="Golden Pentacles and flowers, Vanessa Hylande’s Tarot Flower artwork of earthly abundance" loading="lazy" />
   </section>
 
   <section class="minor-suit-feature">
     <div class="minor-copy">
       <p>In a Tarot reading, the Suit of Pentacles can represent both the challenges and opportunities that come with abundance and material wealth. It can indicate the need to be grounded, practical, and disciplined when it comes to our finances, and to take responsibility for our material well-being. At the same time, this suit also reminds us to enjoy the fruits of our labor, to appreciate the abundance in our lives, and to cultivate a sense of gratitude and generosity towards ourselves and others.</p>
     </div>
-    <img src="/images/2023/04/tf-ai-pentacles-3-980x980.jpg" alt="The Suit of Pentacles tarot card meanings artwork by Vanessa Hylande" loading="lazy" />
+    <img src="/images/2023/04/tf-ai-pentacles-3-980x980.jpg" alt="Six floral Pentacles Tarot illustrations with figures and golden coins, Vanessa Hylande’s Tarot Flower artwork of earthly abundance" loading="lazy" />
   </section>
 </div>
 
@@ -42,59 +42,59 @@ seo_description: "Explore the Suit of Pentacles with Tarot Flower. Learn tarot c
 
 <div class="zodiac-grid">
 <a href="/ace-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs.jpg" alt="Ace of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs.jpg" alt="Ace of Pentacles as a flowering disk, White Sage Tarot artwork of earthly possibility at Tarot Flower" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Ace of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/two-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-1.jpg" alt="Two of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-1.jpg" alt="Two floral disks joined by a looping green ribbon, a White Sage Two of Pentacles card illustrating balance at Tarot Flower" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Two of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/three-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-2.jpg" alt="Three of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-2.jpg" alt="Three floral disks joined in a triangle, a White Sage Three of Pentacles card in Tarot Flower’s guide to collaboration" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Three of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/four-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-3.jpg" alt="Four of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-3.jpg" alt="Four of Pentacles with an orange ribbon encircling floral coins, White Sage Tarot artwork of security at Tarot Flower" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Four of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/five-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-4.jpg" alt="Five of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-4.jpg" alt="Five floral disks crossed by a red ribbon, a White Sage Five of Pentacles card in Tarot Flower’s guide to material hardship" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Five of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/six-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-1-1.jpg" alt="Six of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-1-1.jpg" alt="Six of Pentacles with balanced scales, a White Sage Tarot card in Tarot Flower’s guide to generosity" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Six of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/seven-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-2-1.jpg" alt="Seven of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-2-1.jpg" alt="Seven floral disks growing along a leafy branch, White Sage Seven of Pentacles artwork of growth at Tarot Flower" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Seven of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/eight-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-3-1.jpg" alt="Eight of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-3-1.jpg" alt="Eight floral disks beside an orange ribbon, White Sage Eight of Pentacles artwork of steady work at Tarot Flower" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Eight of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/nine-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-4-1.jpg" alt="Nine of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-4-1.jpg" alt="Nine floral pentacles arranged in rows, a White Sage Nine of Pentacles card illustrating abundance at Tarot Flower" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Nine of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/ten-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-5.jpg" alt="Ten of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-5.jpg" alt="Ten floral disks stacked in a triangle, White Sage Ten of Pentacles artwork of abundance at Tarot Flower" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Ten of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/page-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-6.jpg" alt="Page of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-6.jpg" alt="Young elephant holding a flower and floral disk, the White Sage Page of Pentacles card in Tarot Flower’s library" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Page of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/knight-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-7.jpg" alt="Knight of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-7.jpg" alt="Knight of Pentacles with an elephant, a White Sage Tarot court card in Tarot Flower’s library" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Knight of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/queen-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-8.jpg" alt="Queen of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-8.jpg" alt="Queen of Pentacles with elephants, a White Sage Tarot court card in Tarot Flower’s library" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Queen of Pentacles Tarot Card Meaning</h3></div>
 </a>
 <a href="/king-of-pentacles-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-9.jpg" alt="King of Pentacles" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/Tarot-Blogs-9.jpg" alt="Crowned elephant on the White Sage King of Pentacles card, a doorway into Tarot Flower’s guide to material stability" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The King of Pentacles Tarot Card Meaning</h3></div>
 </a>
 </div>

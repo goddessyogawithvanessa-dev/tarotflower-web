@@ -10,7 +10,7 @@ seo_title: "Yemaya/Yemoja: Origins, Symbolism & Embodiment | Tarot Flower"
 seo_description: "Explore Yemaya/Yemoja's Yoruba roots, diaspora ocean traditions, water and maternal symbolism, and a respectful Tarot Flower embodiment practice."
 ---
 
-![Illustrated Yemaya holding a luminous pearl amid ocean waves and coral flowers (Midjourney art by Vanessa Hylande)](/images/yemaya/yemaya-seven-seas-pearl.jpg)
+![Yemaya holding a luminous pearl amid ocean waves and coral flowers, Vanessa Hylande’s Tarot Flower artwork of the goddess of the sea](/images/yemaya/yemaya-seven-seas-pearl.jpg)
 
 Yemoja is a powerful and beloved Orisha within the living religious traditions of the Yoruba people. In Yorubaland, she is especially associated with rivers and freshwater, including the Ogun River, and with motherhood, nurture, and protection. Her name is often interpreted as “mother whose children are fish.”
 
@@ -26,7 +26,7 @@ For Tarot Flower's distinct card interpretation, read [Yemaya Oracle Card Meanin
 
 ## The Symbolism of Yemaya
 
-![Illustrated Yemaya in a flowing blue dress beside the sea and orange blossoms (Midjourney art by Vanessa Hylande)](/images/yemaya/yemaya-water-symbolism.jpg)
+![Yemaya in a flowing blue dress beside the sea and orange blossoms, Vanessa Hylande’s Tarot Flower artwork of water symbolism](/images/yemaya/yemaya-water-symbolism.jpg)
 
 Water is central to Yemaya's symbolism, but its form depends on the tradition: the river and freshwater in Yorubaland, and the ocean in many Cuban and Brazilian expressions. Water sustains life while continually changing shape. It can be calm, cleansing, protective, immense, and fierce.
 
@@ -44,7 +44,7 @@ Her symbolism can still inspire reflection on compassion, intuition, emotional h
 
 ## A Tarot Flower Embodiment Practice Inspired by Yemaya
 
-![Illustrated Yemaya in a blue gown holding a flower beneath a golden arch (Midjourney art by Vanessa Hylande)](/images/yemaya/yemaya-embodiment-practice.jpg)
+![Yemaya holding a flower beneath a golden arch, Vanessa Hylande’s artwork for Tarot Flower’s Goddess Embodiment practice](/images/yemaya/yemaya-embodiment-practice.jpg)
 
 The following suggestions are modern Tarot Flower practices inspired by Yemaya's water and maternal symbolism. They are not substitutes for initiation, lineage teaching, or community guidance within Yoruba religion, Santería/Lukumí, or Candomblé.
 

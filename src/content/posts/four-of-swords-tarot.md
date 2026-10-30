@@ -9,12 +9,12 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Four of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Four of Swords tarot card meaning for rest, recovery, contemplation, love, reversal, and the healing power of a deliberate pause."
 seo_image: /images/tarot/swords/four-of-swords.png
-seo_image_alt: "Woman resting beneath four swords in a stained-glass sanctuary"
+seo_image_alt: "Woman resting beside four upright swords in a stained-glass sanctuary"
 seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/four-of-swords.png" alt="Woman resting beneath four swords in a stained-glass sanctuary" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/four-of-swords.png" alt="Four Of Swords Tarot at Tarot Flower: woman resting beside four upright swords in a stained-glass sanctuary" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Four of Swords tarot card is a card of rest and contemplation. It signals a need for respite from the physical world and a retreat into the inner realms of thought. This card can indicate a period of contemplation, meditation, and self-reflection. It can also signify a time of healing, as it is associated with the suit of swords which is associated with the element of air and mental clarity.
 

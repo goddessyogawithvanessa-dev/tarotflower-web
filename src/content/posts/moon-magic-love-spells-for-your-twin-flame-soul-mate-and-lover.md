@@ -193,7 +193,7 @@ Cleanse your space and your energy and choose the following 5 cards from your Ta
 * T[he Hierophant Tarot card](/the-hierophant-tarot)
 * [The High Priestess Tarot card](/the-high-priestess-tarot)
 
-![](/images/2023/02/the-lovers.jpeg)
+![The Lovers Tarot card beside a mortar, flowers and a jar, ritual materials for Tarot Flower’s Moon Magic love spells](/images/2023/02/the-lovers.jpeg)
 
 ### 2. Light your candle and arrange the Tarot cards
 
@@ -237,7 +237,7 @@ Repeat this chant three times while you hold your crystals and gaze into the fla
 
 Place your crystals onto the tarot cards and lay the two roses side by side on top of The Lovers tarot card. Leave the candle safely burning until it is done.
 
-![](/images/2023/02/roses.jpeg)
+![Two red roses prepared for Tarot Flower’s Moon Magic love-spell practice](/images/2023/02/roses.jpeg)
 
 ## Frequently Asked Questions
 

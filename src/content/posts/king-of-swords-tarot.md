@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/king-of-swords.png" alt="Veiled regal figure seated with an upright sword amid flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/king-of-swords.png" alt="King Of Swords Tarot at Tarot Flower: veiled regal figure seated with an upright sword amid flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The King of Swords tarot card is one of the most powerful cards in the tarot deck. It is associated with strength, justice, and authority. This card can indicate a powerful individual who is an authority figure in some area of life, or it can represent the qualities of a leader.
 

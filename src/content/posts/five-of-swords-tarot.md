@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/five-of-swords.png" alt="Solitary woman holding swords beside water as butterflies scatter" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/five-of-swords.png" alt="Five Of Swords Tarot at Tarot Flower: solitary woman holding swords beside water as butterflies scatter" width="1024" height="1024" loading="eager" decoding="async" />
 
 Sometimes life can be full of difficult decisions, and the Five of Swords tarot card meaning is no exception. This card symbolizes the struggle between two conflicting forces and the difficult decision you must make.
 

@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Preparing My Library | Tarot Flower"
+  description="Preparing your private Tarot Flower library."
+  showBanner={false}
+  showNavigation={false}
+  showFooter={false}
+  noindex={true}
+>
+  <main class="purchase-complete-bridge" aria-live="polite">
+    <p class="eyebrow">TAROT FLOWER</p>
+    <h1>Preparing My Library…</h1>
+    <p>Your purchase is complete. We’re opening your private experience now.</p>
+    <a href="/library/" data-purchase-complete-link>Continue to My Library</a>
+  </main>
+  <script src="/scripts/ga4-purchase.js" is:inline></script>
+  <script is:inline>
+    (() => {
+      const params = new URLSearchParams(location.search);
+      const requested = params.get('next') || '/library/';
+      let destination = '/library/';
+      try {
+        const parsed = new URL(requested, location.origin);
+        if (parsed.origin === location.origin && parsed.pathname.startsWith('/library/')) {
+          destination = `${parsed.pathname}${parsed.search}${parsed.hash}`;
+        }
+      } catch { /* Keep the safe library fallback. */ }
+      const link = document.querySelector('[data-purchase-complete-link]');
+      link.href = destination;
+      let continuing = false;
+      const continueToLibrary = () => {
+        if (continuing) return;
+        continuing = true;
+        location.replace(destination);
+      };
+      document.addEventListener('tf:pinterest-purchase', () => setTimeout(continueToLibrary, 900), { once: true });
+      setTimeout(continueToLibrary, 2400);
+    })();
+  </script>
+</Base>
+
+<style>
+  .purchase-complete-bridge {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: #f8ead2;
+    background: radial-gradient(circle at 50% 20%, #5f1820 0, #26080d 45%, #100306 100%);
+  }
+  .purchase-complete-bridge h1,
+  .purchase-complete-bridge p { margin: 0; }
+  .purchase-complete-bridge .eyebrow { color: #d9af62; letter-spacing: .22em; font-size: .78rem; }
+  .purchase-complete-bridge a { color: #f0cf88; text-underline-offset: .25em; }
+</style>

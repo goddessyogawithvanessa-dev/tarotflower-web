@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/four-of-wands.png" alt="Two women exchanging a floral garland between four wands before a castle" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/four-of-wands.png" alt="Four Of Wands Tarot at Tarot Flower: two women exchanging a floral garland between four wands before a castle" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Four of Wands is a tarot card that symbolizes celebration, joy, success, and contentment. It is a card of completion and of looking back on past accomplishments with pride and self-satisfaction. This card is closely associated with the concept of home and family and is a reminder to bask in the beauty of the simple things in life.
 

@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/eight-of-wands.png" alt="Eight flowering wands flying through a luminous pink sky with butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/eight-of-wands.png" alt="Eight Of Wands Tarot at Tarot Flower: eight flowering wands flying through a luminous pink sky with butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Eight of Wands tarot card is a minor arcana card that symbolizes swift movement and change. It is associated with energy, ambition, and creativity. It can signify a time of great progress, often at a rapid rate. This card can also be interpreted as a sign of the subconscious mind being open and ready to accept new ideas and directions.
 

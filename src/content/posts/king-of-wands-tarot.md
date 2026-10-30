@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/king-of-wands.png" alt="Crowned figure seated with an upright wand beside a salamander and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/king-of-wands.png" alt="King Of Wands Tarot at Tarot Flower: crowned figure seated with an upright wand beside a salamander and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The King of Wands tarot card is associated with powerful energy, ambition, and passion. It symbolizes a strong, assertive leader who takes initiative and is not afraid to take risks. In a tarot reading, this card can indicate that you may be ready to take on a leadership role or embark on a new venture.
 

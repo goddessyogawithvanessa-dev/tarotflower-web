@@ -10,7 +10,7 @@ seo_title: "Retrograde Revelations | Tarot Flower"
 seo_description: "A period of unavoidable stillness. Mercury churns in reverse through the dreamscape of Pisces. There is no unseeing what is being revealed. The chasm..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/02/sea-quiet-water-ocean-seascape-landscape-horizon-3652697.jpg?w=1024)
+![Calm ocean beneath a pale horizon, accompanying ‘Retrograde Revelations’ at Tarot Flower](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/02/sea-quiet-water-ocean-seascape-landscape-horizon-3652697.jpg)
 
 A period of unavoidable stillness. Mercury churns in reverse through the dreamscape of Pisces. There is no unseeing what is being revealed. The chasm between the old and the new expands. We must choose whether to fall or fly.
 

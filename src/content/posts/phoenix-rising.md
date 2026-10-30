@@ -10,7 +10,7 @@ seo_title: "X. Phoenix Rising | Tarot Flower"
 seo_description: "\"Darkening Moon\" by Vanessa Hylande"
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/img_20181027_150416.png?w=1024)
+![Dragon-like winged creature amid fiery clouds with Vanessa Hylande’s ‘Darkening Moon’ poem, accompanying ‘Phoenix Rising’ at Tarot Flower](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/img_20181027_150416.png)
 
 "Darkening Moon" by Vanessa Hylande
 

@@ -9,3 +9,6 @@
 
 /library/*
   X-Robots-Tag: noindex, nofollow
+
+/workbench/*
+  X-Robots-Tag: noindex, nofollow

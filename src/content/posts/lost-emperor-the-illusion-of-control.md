@@ -10,7 +10,7 @@ seo_title: "Lost Emperor: The Illusion of Control | Tarot Flower"
 seo_description: "In my last blog entry, The Emperor is Out of Control, we looked at the Major Arcana archetype of The Emperor in his negative presentation, and the..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/still-wood-water-stillness-nets-nature-reflection-1246286.jpg?w=1024)
+![Wooden posts and netting reflected in still water, illustrating control and stillness in Tarot Flower’s ‘Lost Emperor’](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/still-wood-water-stillness-nets-nature-reflection-1246286.jpg)
 
 #### **Domination and Coercive Control**
 

@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import WorkbenchHeader from '../../components/WorkbenchHeader.astro';
+---
+
+<Base
+  title="Tarot Flower Workbench Login"
+  description="Private owner sign-in for the Tarot Flower Workbench."
+  showBanner={false}
+  showNavigation={false}
+  showFooter={false}
+  enableMarketingTracking={false}
+  noindex={true}
+>
+  <main class="library-page library-login-page">
+    <WorkbenchHeader />
+    <section class="library-doorway" aria-labelledby="workbench-login-title">
+      <div class="library-doorway-ornament" aria-hidden="true"><span></span></div>
+      <div class="library-login-card">
+        <p class="library-kicker">Private owner dashboard</p>
+        <h1 id="workbench-login-title">Tarot Flower Workbench</h1>
+        <div class="library-gold-mark" aria-hidden="true"></div>
+        <p class="library-login-intro">Sign in with your Tarot Flower email and password.</p>
+
+        <form
+          class="library-login-form"
+          data-library-login-form
+          data-login-endpoint="/api/workbench/login"
+          data-default-redirect="/workbench/"
+        >
+          <label for="workbench-email">Email address</label>
+          <input id="workbench-email" type="email" name="email" autocomplete="email" placeholder="Your email address" required />
+          <label for="workbench-password">Password</label>
+          <input id="workbench-password" type="password" name="password" autocomplete="current-password" placeholder="Your password" maxlength="128" required />
+          <div class="library-turnstile" data-library-turnstile></div>
+          <button class="library-primary-button" type="submit">Sign In <span aria-hidden="true">→</span></button>
+          <p class="library-form-status" aria-live="polite" data-library-status></p>
+          <div class="library-account-links">
+            <a href="/workbench/forgot/">Forgot Password?</a>
+          </div>
+        </form>
+
+        <p class="library-privacy-note">Authorized owner access only.</p>
+      </div>
+    </section>
+    <footer class="library-private-footer"><span>Tarot Flower</span><small>Private business management</small></footer>
+  </main>
+
+  <script src="/scripts/library-login.js" is:inline></script>
+</Base>

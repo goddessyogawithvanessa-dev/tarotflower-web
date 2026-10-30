@@ -18,7 +18,7 @@ seo_image_height: 1024
 
 The Five of Pentacles tarot card is a reminder of the precariousness of life and that life can change in an instant. It speaks to feelings of isolation, deprivation, lack and financial struggle. This card suggests that there is a need to make a change in order to move forward from a difficult situation.
 
-<img src="/images/tarot/pentacles/five-of-pentacles.png" alt="Two cloaked figures beneath five pentacles in a glowing cathedral window" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/five-of-pentacles.png" alt="Five Of Pentacles Tarot at Tarot Flower: two cloaked figures beneath five pentacles in a glowing cathedral window" width="1024" height="1024" loading="eager" decoding="async" />
 
 The 5 of pentacles shows an image of two people walking in the snow, suggesting that the person has been through a difficult time and is now trying to find a way out. The window of the building in the background symbolizes the opportunity for change and growth. The number five is associated with change and transformation, so this card is a reminder that sometimes we have to hit rock bottom before we can move forward.
 

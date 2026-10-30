@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/two-of-wands.png" alt="Woman standing between two wands at the shore while holding a luminous globe" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/two-of-wands.png" alt="Two Of Wands Tarot at Tarot Flower: woman standing between two wands at the shore while holding a luminous globe" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Two of Wands tarot card is associated with having two options and making a decision. The card suggests you are standing at a crossroads, having to choose between two options and taking a course of action. It can also signal a period of contemplation and reflection as you try to decide which path to take.
 

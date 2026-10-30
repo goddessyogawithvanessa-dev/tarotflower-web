@@ -16,12 +16,12 @@ const { ritual, mentorship = false, showFeatured = true } = Astro.props;
 const rituals = {
   fire: {
     title: 'Step Into Your Fire',
-    subtitle: 'One-hour guided video ritual · Permanent access',
+    subtitle: '45-minute guided ritual · Permanent access',
     description: 'Girl, you have the power. Download a little magic and make it yours.',
     href: ritualExperiences.fire.href,
     buttonText: 'Explore the Ritual',
     image: ritualExperiences.fire.image,
-    imageAlt: ritualExperiences.fire.imageAlt,
+    imageAlt: ritualExperiences.fire.bodyImageAlt,
   },
   flow: {
     title: 'Flow Like the Goddess',
@@ -30,7 +30,7 @@ const rituals = {
     href: '/flow-like-the-goddess',
     buttonText: 'Begin the Flow',
     image: '/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg',
-    imageAlt: 'Water goddess flowing beneath the moon among golden flowers and fish',
+    imageAlt: "Water goddess underwater among flowers and fish, artwork for Tarot Flower’s Flow Like the Goddess ritual",
   },
   air: {
     title: 'Awaken the Element of Air',
@@ -39,7 +39,7 @@ const rituals = {
     href: '/awaken-the-element-of-air',
     buttonText: 'Breathe',
     image: '/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg',
-    imageAlt: 'Air goddess with luminous wings beneath a golden sky',
+    imageAlt: "Winged Air goddess beneath a golden sky, artwork for Tarot Flower’s Awaken the Element of Air ritual",
   },
   earth: {
     title: 'Root Into the Earth',
@@ -48,7 +48,7 @@ const rituals = {
     href: '/root-into-the-earth',
     buttonText: 'Ground Yourself',
     image: '/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg',
-    imageAlt: 'Earth goddess beneath the moon in a dark enchanted forest',
+    imageAlt: "Earth goddess beneath the moon in an enchanted forest, artwork for Tarot Flower’s Root Into the Earth ritual",
   },
 } as const;
 
@@ -84,7 +84,7 @@ const featured = rituals[ritual];
     <div class="card-free-resource-artwork">
       <img
         src="/images/goddess-embodiment-guide-cover.jpg"
-        alt="Goddess Embodiment Guide cover"
+        alt="Tarot Flower’s Goddess Embodiment Guide by Vanessa Hylande: 10 Steps to Embody the Goddess, with a goddess among flowers"
         width="1414"
         height="2000"
         loading="lazy"

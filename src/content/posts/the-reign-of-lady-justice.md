@@ -10,7 +10,7 @@ seo_title: "IV. The Reign of Lady Justice | Tarot Flower"
 seo_description: "There's no more hiding. It's all coming out and it can't be stopped. The time for Justice is upon us. Great, big, karmic, collective justice that will..."
 ---
 
-![The Triumph of Justice - Gabriël Metsu (1629-1667) ](https://vanessahylande960269070.files.wordpress.com/2020/01/gabriecc88l_metsu_008.jpg?w=802)
+![The Triumph of Justice - Gabriël Metsu (1629-1667) ](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/gabriecc88l_metsu_008.jpg)
 
 #### **The High Priestess and Pluto: Ten Steps From Darkness to Light**
 

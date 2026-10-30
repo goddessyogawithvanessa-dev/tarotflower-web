@@ -10,7 +10,7 @@ seo_title: "VII. The Trumpets of Judgment Sound | Tarot Flower"
 seo_description: "If 'authenticity' is the theme of this age, then 'responsibility' is her sister. Liars and cheaters utilize neither, and this will become more and more..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/70bc438123dafa1b9e466860af3d08e5.jpg?w=640)
+![Quotation about authenticity and love of truth, accompanying Tarot Flower’s ‘The Trumpets of Judgment Sound’](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/70bc438123dafa1b9e466860af3d08e5.jpg)
 
 #### **The High Priestess and Pluto: Ten Steps From Darkness to Light**
 

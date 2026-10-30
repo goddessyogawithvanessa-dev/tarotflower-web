@@ -66,17 +66,17 @@ The author and creator of the White Sage Tarot deck, Theresa Hutch, has worked a
 
 ![the world tarot card meanings major arcana white sage deck](/images/2022/12/Tarot-Blogs-10.jpg)
 
-![](/images/2022/12/IMG_20201215_123126-scaled-3-923x1024.jpg)
+![White Sage Wands Tarot cards arranged among crystals and shells, deck photographs at Tarot Flower](/images/2022/12/IMG_20201215_123126-scaled-3-923x1024.jpg)
 
-![](/images/2022/12/IMG_20201215_123548-scaled-3-908x1024.jpg)
+![White Sage Pentacles Tarot cards arranged among crystals and shells, deck photographs at Tarot Flower](/images/2022/12/IMG_20201215_123548-scaled-3-908x1024.jpg)
 
-![](/images/2022/12/IMG_20201215_122606-scaled-2-874x1024.jpg)
+![White Sage Cups Tarot cards arranged among crystals and shells, deck photographs at Tarot Flower](/images/2022/12/IMG_20201215_122606-scaled-2-874x1024.jpg)
 
 ![the tower tarot card meaning](/images/2022/04/IMG_20220216_123119-992x1024.jpg)
 
-![](/images/2022/04/IMG_20220216_122913-1024x994.jpg)
+![White Sage Judgement Tarot card surrounded by crystals and shells, a deck photograph in Tarot Flower’s review](/images/2022/04/IMG_20220216_122913-1024x994.jpg)
 
-![](/images/2022/04/IMG_20201216_120012-1-1024x1016.webp)
+![White Sage Justice Tarot card among crystals, reviewed at Tarot Flower](/images/2022/04/IMG_20201216_120012-1-1024x1016.webp)
 
 ![the wheel of fortune tarot card meaning white sage tarot deck](/images/2021/01/IMG_20201216_115925-980x1024.webp)
 

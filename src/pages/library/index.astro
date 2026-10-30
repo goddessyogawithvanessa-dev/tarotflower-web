@@ -4,17 +4,18 @@ import LibraryHeader from '../../components/LibraryHeader.astro';
 ---
 
 <Base
-  title="My Ritual Library | Tarot Flower"
-  description="Return to the Rituals you own and access your private guides, music, and movement practices."
+  title="My Library | Tarot Flower"
+  description="Return to the Tarot Flower experiences you own and access your private guides, videos, and resources."
   showBanner={false}
   showNavigation={false}
   showFooter={false}
+  enableMarketingTracking={false}
   noindex={true}
 >
   <main class="library-page">
     <LibraryHeader authenticated={true} />
     <header class="library-welcome">
-      <p class="library-kicker">My Ritual Library</p>
+      <p class="library-kicker">My Library</p>
       <h1>Welcome back.</h1>
       <p class="library-welcome-declaration">This space is yours.</p>
       <div class="library-gold-mark" aria-hidden="true"></div>
@@ -26,7 +27,7 @@ import LibraryHeader from '../../components/LibraryHeader.astro';
       <div class="library-grid" hidden data-library-grid></div>
       <div class="library-empty" hidden data-library-empty>
         <h2>No purchased experiences are connected to this email yet.</h2>
-        <p>If you used another email at checkout, sign out and request a new link with that address.</p>
+        <p>If you used another email at checkout, sign out and sign in with that address.</p>
       </div>
     </section>
     <footer class="library-private-footer"><span>Tarot Flower</span><small>Your private sacred space</small></footer>

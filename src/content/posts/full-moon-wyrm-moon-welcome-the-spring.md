@@ -10,7 +10,7 @@ seo_title: "Full Moon, Wyrm Moon, Welcome the Spring | Tarot Flower"
 seo_description: "\"Wann starb wohl je ein Drache am Gift einer Schlange?« – sagte er. »Aber nimm dein Gift zurück! Du bist nicht reich genug, es mir zu schenken.\"..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2019/03/dragonborne.jpg)
+![Woman with green dragon wings, illustration for Tarot Flower’s Wyrm Moon and spring reflection](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2019/03/dragonborne.jpg)
 
 ***"Wann starb wohl je ein Drache am Gift einer Schlange?« – sagte er. »Aber nimm dein Gift zurück! Du bist nicht reich genug, es mir zu schenken."*** *(Nietzsche, Also sprach Zarathustra)*
 
@@ -60,5 +60,3 @@ May this Libra Super Moon, my personal Wyrm Moon, be like [The World](https://ww
 >   
 > So that we may walk freely, sister  
 > So mote it be*
-
-![]()

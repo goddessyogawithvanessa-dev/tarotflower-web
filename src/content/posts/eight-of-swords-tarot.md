@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/eight-of-swords.png" alt="Blindfolded and bound woman surrounded by eight swords, flowers, and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/eight-of-swords.png" alt="Eight Of Swords Tarot at Tarot Flower: blindfolded and bound woman surrounded by eight swords, flowers, and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Eight of Swords tarot card is an intriguing card that speaks to the power of mental limitations and the strength that comes from letting go. It is often associated with the idea of being "stuck" in a certain mindset or stuck in a certain situation. This card symbolizes a lack of freedom and the feeling of being trapped or restrained by external or internal forces.
 

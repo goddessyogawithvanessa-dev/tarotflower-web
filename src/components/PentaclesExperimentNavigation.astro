@@ -1,0 +1,37 @@
+---
+interface NavigationItem {
+  name: string;
+  href: string;
+}
+
+interface Props {
+  variant: 'breadcrumbs' | 'related';
+  items: NavigationItem[];
+}
+
+const { variant, items } = Astro.props;
+---
+
+{variant === 'breadcrumbs' ? (
+  <nav class="tarot-breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      {items.map((item, index) => (
+        <li>
+          {index === items.length - 1 ? (
+            <span aria-current="page">{item.name}</span>
+          ) : (
+            <a href={item.href}>{item.name}</a>
+          )}
+        </li>
+      ))}
+    </ol>
+  </nav>
+) : (
+  <nav class="card-continue-links pentacles-experiment-links" aria-label="Related Pentacles pages">
+    {items.map((item) => (
+      <a href={item.href}>
+        <strong>{item.name}</strong>
+      </a>
+    ))}
+  </nav>
+)}

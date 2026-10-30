@@ -10,7 +10,7 @@ seo_title: "The Beautiful Retreat to Release the Unwanted | Tarot Flower"
 seo_description: "Listening to our inner knowing. How often does the rational mind dissuade us from what we already know deep in our bones? That beautiful whisper upon..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2019/02/virgosupermoon.jpg)
+![Woman’s face beneath a starry headdress, illustration for Tarot Flower’s Virgo Supermoon reflection](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2019/02/virgosupermoon.jpg)
 
 Listening to our inner knowing. How often does the rational mind dissuade us from what we already know deep in our bones? That beautiful whisper upon our ear, the caress of the realization. The brightening before our eyes, the awakening. Though it was always there, recently it has become my companion.
 

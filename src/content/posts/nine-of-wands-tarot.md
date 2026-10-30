@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/nine-of-wands.png" alt="Weary hooded woman seated among nine upright wands and luminous moths" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/nine-of-wands.png" alt="Nine Of Wands Tarot at Tarot Flower: weary hooded woman seated among nine upright wands and luminous moths" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Nine of Wands tarot card is a card of resilience, courage, and strength. It symbolizes the courage to keep going, even when the odds seem insurmountable. It’s a reminder to never give up, no matter how hard the situation may seem.
 

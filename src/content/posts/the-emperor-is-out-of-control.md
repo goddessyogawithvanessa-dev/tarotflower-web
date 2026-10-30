@@ -12,7 +12,7 @@ seo_description: "The High Priestess of the Major Arcana in Tarot, embodies the 
 
 #### **Lost Emperor, Make Way for the High Priestess**
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/img_20190205_085306.jpg?w=617)
+![Rider-Waite High Priestess Tarot card, illustrating intuition in Tarot Flower’s ‘The Emperor is Out of Control’ reflection](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/img_20190205_085306.jpg)
 
 [The High Priestess](https://www.psychicguild.com/tarot/card-meanings/the-high-priestess) of the Major Arcana in Tarot, embodies the Divine Feminine, sacred knowledge, intuition, change, and new beginnings. At this moment, we are coming out of thousands of years of rule by [The Emperor](https://www.psychicguild.com/tarot/card-meanings/the-emperor). In his positive aspect, this archetype brings authority, establishment, and structure. In his negative aspect, these qualities appear in excess and become destructive. The Emperor becomes a tyrant, controlling, rigid and domineering.
 

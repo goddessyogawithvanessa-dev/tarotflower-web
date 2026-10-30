@@ -33,8 +33,7 @@ You can use these free tarot card readings as daily rituals, journaling prompts,
 Over time, you may begin to notice patterns — both in the cards and in your life. That’s when the magic really begins to unfold. Tarot is not about answers. It’s about *relationship*. And the more time you spend in communion with the cards, the more fluent the conversation becomes.
 
 Because at the heart of all of this — the tarot, the ritual, the words on these pages — is a deeper invitation:  
-To awaken. To transform. To return to your essence.  
-And ultimately, to join the circle.
+To awaken. To transform. To return to your essence.
 
 Welcome to the craft.  
 Welcome to the journey.  

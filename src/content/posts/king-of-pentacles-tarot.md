@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The King of Pentacles tarot card is a symbol of success, wealth and stability. It is a card of material abundance, but it also speaks to the importance of patience and hard work. Also referred to as the King of Coins, this minor arcana tarot card is traditionally depicted as a king seated on his throne, holding a pentacle in his left hand while holding a sceptre in his right hand. This is a representation of the king’s authority and power. He is surrounded by a field of coins, signifying his wealth and material security.
 
-<img src="/images/tarot/pentacles/king-of-pentacles.png" alt="Regal figure holding a pentacle and staff amid flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/king-of-pentacles.png" alt="King Of Pentacles Tarot at Tarot Flower: regal figure holding a pentacle and staff amid flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The King of Pentacles is also a card of responsibility and commitment. He is a figure of strength and stability, and he stands for the fruits of hard work. This archetype encourages us to build up our financial resources through careful planning and diligent effort and reminds us that financial success is not achieved overnight, but rather through persistent effort.
 

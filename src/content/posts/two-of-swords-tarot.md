@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/two-of-swords.png" alt="Blindfolded woman holding two crossed swords among flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/two-of-swords.png" alt="Two Of Swords Tarot at Tarot Flower: blindfolded woman holding two crossed swords among flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 Are you unable to make up your mind? Are you faced with a difficult decision? The Two of Swords Tarot card is one of indecision and duality. It is a card of inner conflict and struggle, and symbolizes that there are two opposing forces at work.
 

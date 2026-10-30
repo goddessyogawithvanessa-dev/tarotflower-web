@@ -9,14 +9,14 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Eight of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Eight of Pentacles tarot card meaning for practice, craftsmanship, focused work, mastery, and finding purpose in steady improvement."
 seo_image: /images/tarot/pentacles/eight-of-pentacles.png
-seo_image_alt: "Two artisans crafting golden pentacles amid flowers and butterflies"
+seo_image_alt: "An artisan hammering a golden coin among flowers and butterflies, Eight of Pentacles Tarot artwork of craftsmanship at Tarot Flower"
 seo_image_width: 1254
 seo_image_height: 1254
 ---
 
 The Eight of Pentacles tarot card is all about mastering a skill, putting in hard work and dedication to achieve success. It symbolizes learning a craft, honing a skill, and mastering a trade. Therefore, the 8 of Pentacles tarot card is a reminder that you have the power to create your own success. It suggests that you are working hard and putting in the effort to master something. If you are determined and focused on your goal and willing to put in the work to get there, you will have success.
 
-<img src="/images/tarot/pentacles/eight-of-pentacles.png" alt="Two artisans crafting golden pentacles amid flowers and butterflies" width="1254" height="1254" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/eight-of-pentacles.png" alt="An artisan hammering a golden coin among flowers and butterflies, Eight of Pentacles Tarot artwork of craftsmanship at Tarot Flower" width="1254" height="1254" loading="eager" decoding="async" />
 
 The Eight of Pentacles tarot card asks you to stay the course and not be distracted from your path. However, this card also represents finding joy in the work you do. Even though you are putting in a lot of hard work to achieve success, you are also finding pleasure in what you do.
 

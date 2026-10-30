@@ -1,6 +1,4 @@
 ---
-import GoogleAnalytics from '../components/GoogleAnalytics.astro';
-
 interface Props {
   title: string;
   description?: string;
@@ -37,6 +35,5 @@ const socialImageURL = image ? new URL(image, Astro.site) : null;
 </head>
 <body class="ceremonial-body">
   <slot />
-  <GoogleAnalytics />
 </body>
 </html>

@@ -24,4 +24,4 @@ You are still love. You are still passion. You are still generosity. All of this
 
 > I release the pain of my past to see the beauty before me."
 
-![](https://tarotflower.files.wordpress.com/2020/07/affirmations-7.png?w=1024)
+![‘I release the pain of my past to see the beauty before me’ over a sunset sea, Tarot Flower’s Five of Cups affirmation](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/affirmations-7.png)

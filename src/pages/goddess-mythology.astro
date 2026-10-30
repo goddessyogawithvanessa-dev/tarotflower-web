@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import JournalCollection from '../components/JournalCollection.astro';
+import { mythologyCollection } from '../data/journalCollections';
+import { preferredImages } from '../lib/preferred-images';
+import signatures from '../data/editorialImageAlts.json';
+const image = preferredImages['/goddess-aphrodite/'];
+const imageAlt = signatures['/goddess-aphrodite/'].find(entry => entry.src === image.src)?.alt ?? image.alt;
+---
+<Base title={mythologyCollection.title} description={mythologyCollection.description}
+  schemaType="CollectionPage" image={image.src} imageAlt={imageAlt}
+  imageWidth={image.width} imageHeight={image.height}>
+  <div class="container">
+    <h1>{mythologyCollection.heading}</h1>
+    <JournalCollection collection={mythologyCollection} visual />
+    <p>Explore the broader <a href="/tag/divine-feminine/">Divine Feminine collection</a>, or return to <a href="/daily-tarot/?room=mythology#complete-index">the Journal’s Goddess Mythology room</a>.</p>
+  </div>
+</Base>

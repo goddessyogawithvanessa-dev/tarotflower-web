@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import JournalIndex from '../components/JournalIndex.astro';
+import { journalHubDestinations } from '../data/journalCollections';
 import { getCollection } from 'astro:content';
 import {
   createJournalEntries,
@@ -54,13 +55,7 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
   <main class="journal-page">
     <section class="journal-hero">
       <div class="journal-hero-copy">
-        <p class="journal-eyebrow">A Living Library</p>
         <h1>The Witch's Journal</h1>
-        <p class="journal-hero-lede">Stories, rituals, mythology and wisdom for the path between knowing and becoming.</p>
-        <div class="journal-hero-introduction">
-          <p>The Witch's Journal is a living library of magic, memory and transformation. Here, personal stories rest beside lunar rituals, ancient goddesses speak through modern lives, and the wisdom of the body meets the language of the stars.</p>
-          <p>You do not need to begin at the beginning. Follow what catches your eye, open the door that calls to you, and allow one idea to lead unexpectedly into another.</p>
-        </div>
       </div>
       <figure class="journal-hero-art">
         <img
@@ -73,45 +68,9 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
       </figure>
     </section>
 
-    <section class="journal-doorways" aria-labelledby="journal-doorways-title">
-      <div class="journal-section-heading journal-doorways-heading">
-        <p class="journal-eyebrow">Choose a room</p>
-        <h2 id="journal-doorways-title">Where would you like to wonder today?</h2>
-        <p>Choose a doorway, or follow the one that is choosing you.</p>
-      </div>
-
-      <div class="journal-doorway-grid">
-        {journalCategories.map((category, index) => (
-          <a
-            class:list={['journal-doorway', `journal-doorway-${category.tone}`, { 'journal-doorway-large': index === 0 || index === 2 }]}
-            href={`/daily-tarot/?room=${category.slug}#complete-index`}
-            data-journal-room-link={category.slug}
-          >
-            <img
-              src={category.image}
-              alt={category.imageAlt}
-              width={category.imageWidth}
-              height={category.imageHeight}
-              loading="lazy"
-              decoding="async"
-            />
-            <span class="journal-doorway-shade" aria-hidden="true"></span>
-            <span class="journal-doorway-copy">
-              <small>{category.eyebrow}</small>
-              <strong>{category.label}</strong>
-              <span><b>{category.question}</b>{category.description}</span>
-              <em>{gatewayCount(category.slug)} writings · Enter this room</em>
-            </span>
-          </a>
-        ))}
-      </div>
-    </section>
-
     <section class="journal-begin" aria-labelledby="journal-begin-title">
       <div class="journal-section-heading">
-        <p class="journal-eyebrow">Begin with a Doorway</p>
         <h2 id="journal-begin-title">Some stories find us first</h2>
-        <p>Five enduring paths into the questions that live throughout the Journal.</p>
       </div>
 
       <div class="journal-feature-layout">
@@ -139,7 +98,7 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
                 <p>{entry.categoryLabel}</p>
                 <h3><a href={`/${entry.slug}`}>{entry.title}</a></h3>
                 <p>{entry.excerpt}</p>
-                <a href={`/${entry.slug}`}>Open this volume <span aria-hidden="true">→</span></a>
+                <a href={`/${entry.slug}`}>Read article <span aria-hidden="true">→</span></a>
               </div>
             </article>
           );
@@ -147,11 +106,39 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
       </div>
     </section>
 
+    <section class="journal-doorways" aria-labelledby="journal-doorways-title">
+      <div class="journal-section-heading journal-doorways-heading">
+        <h2 id="journal-doorways-title">Browse by category</h2>
+      </div>
+
+      <div class="journal-doorway-grid">
+        {journalCategories.map((category, index) => (
+          <a
+            class:list={['journal-doorway', `journal-doorway-${category.tone}`, { 'journal-doorway-large': index === 0 || index === 2 }]}
+            href={journalHubDestinations[category.slug] ?? `/daily-tarot/?room=${category.slug}#complete-index`}
+            data-journal-room-link={journalHubDestinations[category.slug] ? undefined : category.slug}
+          >
+            <img
+              src={category.image}
+              alt={category.imageAlt}
+              width={category.imageWidth}
+              height={category.imageHeight}
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="journal-doorway-shade" aria-hidden="true"></span>
+            <span class="journal-doorway-copy">
+              <strong>{category.label}</strong>
+              <em>{gatewayCount(category.slug)} articles</em>
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+
     <section class="journal-shelves" aria-labelledby="journal-shelves-title">
       <div class="journal-section-heading">
-        <p class="journal-eyebrow">Shelves of Living Wisdom</p>
-        <h2 id="journal-shelves-title">Follow the thread that glimmers</h2>
-        <p>Each shelf holds a different way of listening—to the body, the sky, the heart and the unseen.</p>
+        <h2 id="journal-shelves-title">Articles by category</h2>
       </div>
 
       <div class="journal-shelf-list">
@@ -168,9 +155,7 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
               />
             </div>
             <div class="journal-shelf-content">
-              <p class="journal-eyebrow">{category.eyebrow}</p>
               <h3>{category.label}</h3>
-              <p><strong>{category.question}</strong> {category.description}</p>
               <ol>
                 {shelfEntries.map((entry) => (
                   <li>
@@ -185,7 +170,10 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
                 class="journal-room-link"
                 href={`/daily-tarot/?room=${category.slug}#complete-index`}
                 data-journal-room-link={category.slug}
-              >Browse the complete room <span aria-hidden="true">→</span></a>
+              >View all articles <span aria-hidden="true">→</span></a>
+              {journalHubDestinations[category.slug] && (
+                <p><a class="journal-room-link" href={journalHubDestinations[category.slug]}>Explore the {category.label === 'Goddess Embodiment' ? 'Divine Feminine' : category.label} collection <span aria-hidden="true">→</span></a></p>
+              )}
             </div>
           </section>
         ))}
@@ -194,9 +182,7 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
 
     <section class="journal-personal" aria-labelledby="journal-personal-title">
       <div class="journal-personal-intro">
-        <p class="journal-eyebrow">A temporary title</p>
         <h2 id="journal-personal-title">Vanessa's Grimoire</h2>
-        <p>Stories written from the places where life, symbol and spirit meet. This is the intimate room of the library: personal essays, poems, visions and remembered thresholds.</p>
       </div>
       <div class="journal-personal-layout">
         {personalEntries.map((entry, index) => (
@@ -212,7 +198,6 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
               />
             )}
             <div>
-              <p>{index === 0 ? 'From Vanessa’s desk' : 'A personal writing'}</p>
               <h3><a href={`/${entry.slug}`}>{entry.title}</a></h3>
               <p>{entry.excerpt}</p>
             </div>
@@ -223,20 +208,18 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
         class="journal-room-link journal-personal-link"
         href="/daily-tarot/?room=vanessas-grimoire#complete-index"
         data-journal-room-link="vanessas-grimoire"
-      >Enter the complete grimoire <span aria-hidden="true">→</span></a>
+      >View all articles <span aria-hidden="true">→</span></a>
     </section>
 
     <section class="journal-tarot-bridge" aria-labelledby="journal-tarot-title">
       <div class="journal-tarot-copy">
-        <p class="journal-eyebrow">A neighboring wing</p>
-        <h2 id="journal-tarot-title">When you are ready for the cards</h2>
-        <p>The Witch's Journal follows living questions wherever they lead. The Tarot Library offers a more structured path through the cards, archetypes and meanings.</p>
+        <h2 id="journal-tarot-title">Tarot Library</h2>
       </div>
       <nav class="journal-tarot-links" aria-label="Continue into the Tarot Library">
-        <a href="/tarot-card-meanings"><span>Begin the study</span><strong>Tarot Card Meanings</strong></a>
-        <a href="/major-arcana/"><span>Walk the archetypal path</span><strong>Major Arcana</strong></a>
-        <a href="/minor-arcana"><span>Meet the everyday mysteries</span><strong>Minor Arcana</strong></a>
-        <a href="/readings-with-vanessa"><span>Receive personal reflection</span><strong>Tarot Readings with Vanessa</strong></a>
+        <a href="/tarot-card-meanings"><strong>Tarot Card Meanings</strong></a>
+        <a href="/major-arcana/"><strong>Major Arcana</strong></a>
+        <a href="/minor-arcana"><strong>Minor Arcana</strong></a>
+        <a href="/readings-with-vanessa"><strong>Tarot Readings with Vanessa</strong></a>
       </nav>
     </section>
 

@@ -20,7 +20,7 @@ For Flora's distinct Oracle archetype and card message, read [Goddess Flora Orac
 
 ## The History of the Goddess Flora
 
-![Flora standing in a richly flowering classical garden beneath a radiant golden crown (Midjourney art by Vanessa Hylande)](/images/flora/flora-roman-flowering-garden.png)
+![Flora in a flowering classical garden beneath a golden crown, Vanessa Hylande’s Tarot Flower artwork of the Roman goddess of flowers](/images/flora/flora-roman-flowering-garden.png)
 
 Flora belongs to ancient Roman religion and mythology. She was associated with flowers, blossoming plants, fertility, and the arrival of spring. Her festival, the Floralia, celebrated flowering life and the return of the growing season.
 
@@ -34,7 +34,7 @@ Flora's image continued through later art and literature as a flower-crowned fig
 
 ## How to Embody the Goddess Flora
 
-![Flora becoming one with an abundant landscape of blossoms and flowing golden light (Midjourney art by Vanessa Hylande)](/images/flora/flora-embodiment-blossoming.png)
+![Flora merging with blossoms and flowing gold light, Vanessa Hylande’s Tarot Flower artwork of Goddess Embodiment](/images/flora/flora-embodiment-blossoming.png)
 
 Embodying the goddess Flora is a delightful and empowering experience that can be infused into your yoga, dance, meditation, and various divine feminine practices. Here are some simple ways to connect with her energy:
 
@@ -56,7 +56,7 @@ You might bring these symbols into meditation or movement through flowers, water
 
 ## Goddess Flora Flower Circles
 
-![Flora seated within a candlelit sacred circle overflowing with flowers (Midjourney art by Vanessa Hylande)](/images/flora/flora-flower-circle.png)
+![Flora seated in a candlelit circle of flowers, Vanessa Hylande’s Tarot Flower artwork of a spring ritual](/images/flora/flora-flower-circle.png)
 
 One way to honor Flora is by creating a **Goddess circle** with flowers, petals, and greenery.
 
@@ -102,7 +102,7 @@ Tarot Flower treats **manifestation** as an intentional practice of clarifying d
 
 ## Evolving Out of Lack Mentality Through Gratitude
 
-![Flora surrounded by an abundant garden of roses and spring blossoms (Midjourney art by Vanessa Hylande)](/images/flora/flora-abundance-garden.png)
+![Flora amid roses and spring blossoms, Vanessa Hylande’s Tarot Flower artwork of renewal and abundance](/images/flora/flora-abundance-garden.png)
 
 Our relationship with abundance can become imbalanced through a constant fear of **lack** or through **overuse** without regard for limits. Honoring Mother Earth means valuing what nature provides and remembering that we are part of the same living systems as animals, plants, soil, and water.
 
@@ -120,7 +120,7 @@ Nature provides essential conditions for life: food, soil, water, sunlight, and 
 
 ## The Goddess Flora and the Dancing Body
 
-![Flora dancing barefoot as her feet merge with roots, earth, and red blossoms (Midjourney art by Vanessa Hylande)](/images/flora/flora-rooted-dance.png)
+![Flora dancing barefoot into roots and red blossoms, Vanessa Hylande’s Tarot Flower artwork of grounding through movement](/images/flora/flora-rooted-dance.png)
 
 When embodying Flora and Mother Earth through dance, focus on the **feet and legs**. Explore where you are planted, along with **gravity and weight**. Notice how you lower yourself toward the ground, shift your weight, and respond to the feeling of being supported by the earth.
 

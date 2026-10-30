@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/ten-of-wands.png" alt="Woman carrying ten long wands toward a distant town amid flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/ten-of-wands.png" alt="Ten Of Wands Tarot at Tarot Flower: woman carrying ten long wands toward a distant town amid flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Ten of Wands tarot card is a representation of a heavy burden, an obstacle, or a challenge that is weighing you down. It can be a sign of feeling overwhelmed with responsibilities, emotional burdens, and too many obligations. This card is a warning to take a step back, regroup, and reassess the weight of your burden.
 

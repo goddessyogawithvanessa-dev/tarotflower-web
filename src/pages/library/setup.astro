@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import LibraryHeader from '../../components/LibraryHeader.astro';
+---
+
+<Base
+  title="Create My Library Account | Tarot Flower"
+  description="Create your permanent Tarot Flower account for My Library."
+  showBanner={false}
+  showNavigation={false}
+  showFooter={false}
+  enableMarketingTracking={false}
+  noindex={true}
+>
+  <main class="library-page library-login-page" data-library-account-setup>
+    <LibraryHeader />
+    <section class="library-doorway" aria-labelledby="library-password-title">
+      <div class="library-doorway-ornament" aria-hidden="true"><span></span></div>
+      <div class="library-login-card">
+        <p class="library-kicker">My Library</p>
+        <h1 id="library-password-title" data-setup-title>Create your account.</h1>
+        <div class="library-gold-mark" aria-hidden="true"></div>
+        <p class="library-login-intro" data-setup-intro>Use the email address from checkout, then choose the password you’ll use for My Library.</p>
+
+        <form class="library-login-form" data-account-create-form>
+          <label for="setup-email">Email address</label>
+          <input id="setup-email" type="email" name="email" autocomplete="username" placeholder="Purchase email" required />
+          <label for="new-password">Choose password</label>
+          <input id="new-password" type="password" name="password" autocomplete="new-password" placeholder="Choose password" minlength="10" maxlength="128" required />
+          <label for="confirm-password">Confirm password</label>
+          <input id="confirm-password" type="password" name="confirmPassword" autocomplete="new-password" placeholder="Confirm password" minlength="10" maxlength="128" required />
+          <p class="library-password-help">Use at least 10 characters. A few memorable words work well.</p>
+          <div class="library-turnstile" data-library-turnstile></div>
+          <button class="library-primary-button" type="submit">Create My Account <span aria-hidden="true">→</span></button>
+        </form>
+
+        <form class="library-login-form" data-verification-resend-form hidden>
+          <label for="resend-email">Email address</label>
+          <input id="resend-email" type="email" name="email" autocomplete="username" placeholder="Purchase email" required />
+          <div class="library-turnstile" data-resend-turnstile></div>
+          <button class="library-primary-button" type="submit">Resend Verification Email <span aria-hidden="true">→</span></button>
+        </form>
+
+        <div class="library-confirmation" data-account-confirmation hidden>
+          <h2>Almost there! Please check your email.</h2>
+          <p>We've sent you a verification link. Open that email and click <strong>VERIFY MY EMAIL</strong> to finish setting up your account and begin your ritual.</p>
+        </div>
+        <p class="library-form-status" aria-live="polite" data-library-status></p>
+        <p class="library-privacy-note"><a href="/library/login/">Already have an account? Sign in</a></p>
+      </div>
+    </section>
+    <footer class="library-private-footer"><span>Tarot Flower</span><small>Your private sacred space</small></footer>
+  </main>
+  <script src="/scripts/library-password-policy.js" is:inline></script>
+  <script src="/scripts/library-account-setup.js" is:inline></script>
+</Base>

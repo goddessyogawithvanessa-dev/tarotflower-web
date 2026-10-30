@@ -10,7 +10,7 @@ seo_title: "II. The Great Awakening is Coming | Tarot Flower"
 seo_description: "From the 12/12 portal over the galactic center to the eclipse on the Solstice, the powerful and magical energies of the last months have been intense..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/img_20200106_183158.jpg?w=1006)
+![Eye containing a dark moon and swirling patterns, accompanying ‘The Great Awakening is Coming’ at Tarot Flower](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/img_20200106_183158.jpg)
 
 #### **The High Priestess and Pluto: Ten Steps From Darkness to Light**
 

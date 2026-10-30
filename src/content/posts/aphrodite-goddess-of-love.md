@@ -16,7 +16,7 @@ The Goddess Aphrodite represents the love and beauty within every one of us. In 
 
 Gently walk with your heart and **authenticity**, your truth, and really own it and **be your own beloved**. Be your own Goddess of love. You don’t need to seek it from the outside world.
 
-![Aphrodite rising from the sea among shells and flowing rose-gold waves (Midjourney art by Vanessa Hylande)](/images/aphrodite/aphrodite-rising-from-sea.png)
+![Aphrodite rising from the sea among shells and rose-gold waves, Vanessa Hylande’s Tarot Flower artwork of the goddess of love](/images/aphrodite/aphrodite-rising-from-sea.png)
 
 ## Aphrodite the Goddess of Love
 
@@ -40,7 +40,7 @@ Aphrodite can also help you to learn how to anchor yourself in love before you j
 
 Returning to the beauty and love of the radiant heart can support **healing from within**. This way, you can keep your inner light shining, even in the darkest places.
 
-![Aphrodite holding a blossoming lotus over her heart amid shells and flowing water (Midjourney art by Vanessa Hylande)](/images/aphrodite/aphrodite-blossoming-heart.png)
+![Aphrodite with a lotus blossoming at her heart, Vanessa Hylande’s artwork for Tarot Flower’s heart-centered Goddess Embodiment practice](/images/aphrodite/aphrodite-blossoming-heart.png)
 
 ## Journey to Your Blossoming Heart
 
@@ -48,7 +48,7 @@ Returning to the beauty and love of the radiant heart can support **healing from
 
 ## Aphrodite Embodiment Dance
 
-![Aphrodite dancing through flowing water and rose-gold fabric (Midjourney art by Vanessa Hylande)](/images/aphrodite/aphrodite-embodiment-dance.png)
+![Aphrodite dancing through water and rose-gold fabric, Vanessa Hylande’s Tarot Flower artwork of embodied love](/images/aphrodite/aphrodite-embodiment-dance.png)
 
 Dance your way into love and alignment and move like the Goddess Aphrodite. Through embodiment dance, you can explore a heart-warming, joyful, heart-centered connection with her.
 
@@ -70,11 +70,11 @@ Aphrodite, Goddess of love, can inspire you toward a heart-centered opening and 
 
 *Goddess Aphrodite is there to remind you to embody this divine love and beauty also. Listen to her whispers as she is here to inspire you to know that you too are your own Goddess of beauty and divine love."*
 
-![Aphrodite gazing into a jeweled mirror beside the sea (Midjourney art by Vanessa Hylande)](/images/aphrodite/aphrodite-self-love-mirror.png)
+![Aphrodite with closed eyes beside a jeweled mirror by the sea, Vanessa Hylande’s Tarot Flower artwork of self-love](/images/aphrodite/aphrodite-self-love-mirror.png)
 
 ## Create an Aphrodite Goddess Circle
 
-![Sacred Aphrodite love circle of roses, candles, shells, and crystals by the sea (Midjourney art by Vanessa Hylande)](/images/aphrodite/aphrodite-sacred-love-circle.png)
+![Roses, candles, shells and crystals forming an Aphrodite love circle by the sea, Vanessa Hylande’s ritual artwork at Tarot Flower](/images/aphrodite/aphrodite-sacred-love-circle.png)
 
 How would you make your **Aphrodite Goddess circle**? What would you use to create a sacred space that represents and invites the elements of the Goddess of love?
 

@@ -3,9 +3,11 @@
   if (!form) return;
 
   const status = form.querySelector('[data-library-status]');
-  const debugLink = form.querySelector('[data-library-debug-link]');
   const turnstileContainer = form.querySelector('[data-library-turnstile]');
   const submitButton = form.querySelector('button[type="submit"]');
+  const emailInput = form.querySelector('input[name="email"]');
+  const loginEndpoint = form.dataset.loginEndpoint || '/api/library/login';
+  const defaultRedirect = form.dataset.defaultRedirect || '/library/';
   let widgetId = null;
   let testMode = false;
 
@@ -50,33 +52,29 @@
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
-    debugLink.hidden = true;
     submitButton.disabled = true;
-    setStatus('Preparing your secure link…');
+    setStatus('Signing you in…');
 
-    const email = new FormData(form).get('email');
+    const data = new FormData(form);
     const turnstileToken = testMode
       ? 'test-pass'
       : (widgetId !== null && window.turnstile ? window.turnstile.getResponse(widgetId) : '');
 
     try {
       const params = new URLSearchParams(window.location.search);
-      const response = await fetch('/api/library/request-link', {
+      const response = await fetch(loginEndpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
-          email,
+          email: data.get('email'),
+          password: data.get('password'),
           turnstileToken,
           destinationPath: params.get('next') || '',
         }),
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'The request could not be completed.');
-      setStatus(result.message);
-      if (result.debugMagicLink) {
-        debugLink.href = result.debugMagicLink;
-        debugLink.hidden = false;
-      }
+      window.location.assign(result.redirect || defaultRedirect);
     } catch (error) {
       setStatus(error.message || 'The request could not be completed.', true);
     } finally {
@@ -87,12 +85,25 @@
 
   const params = new URLSearchParams(window.location.search);
   if (params.get('status') === 'invalid') {
-    setStatus('That magic link has expired or has already been used. Request a new one below.', true);
+    setStatus('That older email link has expired. Sign in below, or create a password if this is your first visit.', true);
   }
   if (params.get('status') === 'checkout') {
     setStatus('The checkout could not be confirmed. No library access was granted.', true);
   }
   if (params.get('status') === 'claim-used') {
-    setStatus('That checkout access link has already been used. Request a new secure link below.', true);
+    setStatus('That checkout link has already been used. Sign in below to open your rituals.', true);
+  }
+  if (params.get('status') === 'purchase') {
+    setStatus('Your purchase is in My Library. Sign in to continue.');
+  }
+  if (params.get('status') === 'password-ready') {
+    setStatus('Your password is ready. Sign in to continue.');
+  }
+
+  if (loginEndpoint === '/api/library/login') {
+    fetch('/api/library/setup-context', { headers: { Accept: 'application/json' } })
+      .then((response) => response.ok ? response.json() : null)
+      .then((context) => { if (context?.email && emailInput && !emailInput.value) emailInput.value = context.email; })
+      .catch(() => {});
   }
 })();

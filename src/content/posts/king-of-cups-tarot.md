@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The King of Cups tarot card is a powerhouse of emotion, intuition, and deep understanding. It's a reminder to take time to nurture yourself and connect to your inner wisdom, using it as a compass to make decisions that are right for you.
 
-<img src="/images/tarot/cups/king-of-cups.png" alt="Crowned figure on a floral throne holding a cup and staff above water" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/king-of-cups.png" alt="King Of Cups Tarot at Tarot Flower: crowned figure on a floral throne holding a cup and staff above water" width="1024" height="1024" loading="eager" decoding="async" />
 
 This card symbolizes emotional intelligence, compassion, and sensitivity, showing that you are in control of your emotions and able to handle life's ups and downs gracefully. It's a sign that you can trust your instincts and follow your heart to make decisions that bring harmony and balance to your life and relationships.
 

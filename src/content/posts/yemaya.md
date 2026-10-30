@@ -10,7 +10,7 @@ seo_title: "Yemaya Oracle Card Meaning: Dreams & Intuition | Tarot Flower"
 seo_description: "Explore the Tarot Flower Yemaya Oracle card meaning for dreams, emotional depth, intuition, surrender, creativity and nurturing relationships."
 ---
 
-![Yemaya wearing an ornate shell crown surrounded by ocean flowers (Midjourney art by Vanessa Hylande)](/images/2023/06/yemaya-2-1-683x1024.jpg)
+![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](/images/2023/06/yemaya-2-1-683x1024.jpg)
 
 Yemaya is a beloved water Orisha whose identity has taken distinct forms across Yoruba and African diaspora traditions. Known as Yemoja in Yorubaland, she is closely associated with rivers and motherhood. In Cuban Santería/Lukumí, Yemayá is strongly connected with the ocean; in Brazilian Candomblé, Iemanjá is honored as a great mother of the sea.
 
@@ -40,7 +40,7 @@ The Yemaya card encourages you to explore the dreams, desires, and creative impu
 
 ## The Goddess Yemaya Oracle Card Meaning
 
-![Yemaya standing on a tropical shoreline in flowing teal and gold (Midjourney art by Vanessa Hylande)](/images/2023/06/yemaya-3-1-683x1024.jpg)
+![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](/images/2023/06/yemaya-3-1-683x1024.jpg)
 
 When the Yemaya card appears in an Oracle reading, it can be an invitation to enter your emotional world with patience. Something beneath the surface may be ready to be felt, understood, expressed, or created.
 
@@ -48,7 +48,7 @@ Consider where life is asking you to soften without losing your boundaries. Noti
 
 ## How to Work With the Yemaya Oracle Card
 
-![Yemaya wearing a jeweled shell headdress among coral-colored flowers (Midjourney art by Vanessa Hylande)](/images/2023/06/yemaya-683x1024.jpg)
+![yemaya, goddess card, oracle, midjourney art by Vanessa Hylande](/images/2023/06/yemaya-683x1024.jpg)
 
 These practices belong to Tarot Flower's modern Oracle framework. They are reflective prompts inspired by Yemaya's water symbolism, not traditional religious instructions.
 

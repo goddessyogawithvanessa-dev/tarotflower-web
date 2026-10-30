@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/page-of-swords.png" alt="Young woman holding a sword amid clouds, birds, flowers, and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/page-of-swords.png" alt="Page Of Swords Tarot at Tarot Flower: young woman holding a sword amid clouds, birds, flowers, and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Page of Swords Tarot Card is a card of mental clarity and new beginnings. It symbolizes the power of the mind to cut through the confusion of life and see things for what they really are. The Page of Swords often signifies a need to take a step back and gain some perspective. This card encourages you to use your intellect and mental sharpness to make sense of a situation and gain clarity.
 

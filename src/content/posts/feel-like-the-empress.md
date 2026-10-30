@@ -28,6 +28,6 @@ Imagine exploring your divine feminine in the beautiful Italian Alps, swimming i
 
 When we connect to our inner divine feminine, we also connect with our own intuition. And like [The High Priestess](/the-high-priestess-tarot), we will make magic moon circles and come together in an ecstatic dance and trance dance party to help us to journey with our intuition so that we can receive messages from the divine. And all of this in a safe and supportive environment.
 
-![the emperor tarot card meanings major arcana](/images/2021/01/the-empress-1-683x1024.jpg)
+![The Empress Tarot card framed by pink flowers, a Tarot Flower invitation to embody creativity and abundance](/images/2021/01/the-empress-1-683x1024.jpg)
 
 ![the empress tarot card meanings major arcana embodiment](/images/2021/01/the-empress-683x1024.jpg)

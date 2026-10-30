@@ -9,14 +9,14 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Six of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Six of Pentacles tarot card meaning for generosity, reciprocity, fairness, receiving support, and sharing resources with discernment."
 seo_image: /images/tarot/pentacles/six-of-pentacles.png
-seo_image_alt: "Three women exchanging golden coins beneath six pentacles"
+seo_image_alt: "Three women exchanging golden coins beneath large pentacles"
 seo_image_width: 1024
 seo_image_height: 1024
 ---
 
 The Six of Pentacles Tarot card speaks of balance, generosity, and charity. It is a card of giving and receiving, of having and sharing. This minor arcana card symbolizes the mutual exchange that takes place between two people when one gives and the other receives. It also speaks of fairness, equity, and justice.
 
-<img src="/images/tarot/pentacles/six-of-pentacles.png" alt="Three women exchanging golden coins beneath six pentacles" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/six-of-pentacles.png" alt="Six Of Pentacles Tarot at Tarot Flower: three women exchanging golden coins beneath large pentacles" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Six of Pentacles shows a figure, typically a man, holding two pentacles in one hand and offering them to two figures in front of him. These two figures are often seen as two people in need of assistance. The figure offering the pentacles is seen as a generous benefactor, a philanthropist, or a wealthy merchant.
 

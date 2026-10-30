@@ -24,7 +24,7 @@ For the master, a broken bird is a safe bet. There are those of us who say thank
 
 This is called co-dependency. A parasite cannot survive without a host. The only problem is when we tell ourselves that we have no better choice and become filled with resentment and rage. We will be the dog chasing our own tail for as long as we agree to buy into the illusion, and the misery will only grow.
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/05/statue-of-liberty-1462952369yo4.jpg?w=1024)
+![Statue of Liberty and the New York skyline, accompanying ‘Reclaiming Our Power’ at Tarot Flower](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/05/statue-of-liberty-1462952369yo4.jpg)
 
 Who is free? Lady Liberty, or those that tower behind her?
 
@@ -48,7 +48,7 @@ But those who love power, cutthroat business, those ruthless types - they do see
 
 > *The circus master does not love the elephant. He loves the change in his pocket and the fact that it dances when he tells it to.*
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/05/images.jpg?w=267)
+![Person in red covering their face within a circular frame, accompanying ‘Reclaiming Our Power’ at Tarot Flower](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/05/images.jpg)
 
 As a warrior of the light, we also do not pick up our swords and tell the shadow people we see what they are doing and we are ready to challenge them. Pointing this out is simply giving them the advantage. Why would you tell the opposing team which play you're going to use? Why would you advise your captor that you realize the prison door is open? They will just lock it again. Stop approaching battle with the mind of a child. You must learn to think like they do and then stay ten steps ahead of them - quietly.
 

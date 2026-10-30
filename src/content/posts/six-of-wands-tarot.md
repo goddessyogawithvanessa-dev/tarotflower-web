@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/six-of-wands.png" alt="Crowned rider on a decorated horse holding a wand amid glowing red leaves" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/six-of-wands.png" alt="Six Of Wands Tarot at Tarot Flower: crowned rider on a decorated horse holding a wand amid glowing red leaves" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Six of Wands tarot card is associated with victory, accomplishment, and success. It symbolizes the recognition of hard work and efforts. This card can also signify the recognition of one’s talents and abilities, as well as the rewards that come from the successful application of one’s gifts.
 

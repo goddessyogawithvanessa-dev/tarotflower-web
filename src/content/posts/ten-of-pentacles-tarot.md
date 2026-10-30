@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Ten of Pentacles tarot card is a powerful card representing security, legacy, and family. It symbolizes the completion of a major event or cycle in your life, and can represent the end of a difficult period or a period of great success. The 10 of Pentacles is a minor arcana card that indicates security, success, and prosperity. It is a card of abundance, of having enough and being content with what you have.
 
-<img src="/images/tarot/pentacles/ten-of-pentacles.png" alt="Ten golden pentacles above an old stone bridge surrounded by flowers" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/ten-of-pentacles.png" alt="Ten Of Pentacles Tarot at Tarot Flower: ten golden pentacles above an old stone bridge surrounded by flowers" width="1024" height="1024" loading="eager" decoding="async" />
 
 The 10 of coins is also considered to be a card of family and tradition, of passing on what you have achieved to the next generation. This card also suggests a need for a sense of community and belonging in your life. The 10 of Pentacles can indicate a positive change in your financial status, such as an inheritance, a large bonus, or a successful venture.
 

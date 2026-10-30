@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/cups/ace-of-cups.png" alt="Ornate rose-gold chalice overflowing with water, surrounded by teal and blush flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/ace-of-cups.png" alt="Ace Of Cups Tarot at Tarot Flower: ornate rose-gold chalice overflowing with water, surrounded by teal and blush flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Ace of Cups is one of the most powerful cards in the Tarot deck. It symbolizes the beginning of emotions and feelings. In a tarot card reading, it's often interpreted as a symbol of new love, creativity, and emotional fulfillment.
 

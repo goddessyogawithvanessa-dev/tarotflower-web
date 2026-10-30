@@ -22,4 +22,4 @@ As Venus sextiles Chiron today, the Goddess of love is dancing in the sky with t
 
 > I choose love."
 
-![](https://tarotflower.files.wordpress.com/2020/07/affirmations-love-1.png?w=1024)
+![‘I choose love’ above a rose-gold heart, Tarot Flower’s Lovers Tarot affirmation](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/affirmations-love-1.png)

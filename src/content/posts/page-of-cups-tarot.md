@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Page of Cups tarot card is a symbol of new beginnings and the start of a creative journey. It is a reminder to stay open to new ideas, even if they may seem strange or daunting. The Page of Cups can represent a young person in your life who has the potential for great things.
 
-<img src="/images/tarot/cups/page-of-cups.png" alt="Flower-crowned figure holding a chalice as a fish leaps above it" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/page-of-cups.png" alt="Page Of Cups Tarot at Tarot Flower: flower-crowned figure holding a chalice as a fish leaps above it" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Page of Cups is often seen as a sign of innocence and creativity. It can represent a new idea or venture that you may be considering. It is a reminder to look at the world with fresh eyes and to explore new possibilities. The Page of Cups is an invitation to explore your passions and to express yourself in new ways.
 

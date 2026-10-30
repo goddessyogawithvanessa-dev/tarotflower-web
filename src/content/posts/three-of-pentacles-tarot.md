@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 When the Three of Pentacles pops up in your tarot card reading, you're getting advice to be a team player. Consider the partnerships in your life - are they leading you toward your goals? Could collaborations help to advance your objectives?
 
-<img src="/images/tarot/pentacles/three-of-pentacles.png" alt="Three women joining hands beneath three golden pentacles" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/three-of-pentacles.png" alt="Three Of Pentacles Tarot at Tarot Flower: three women joining hands beneath three golden pentacles" width="1024" height="1024" loading="eager" decoding="async" />
 
 ## The Three of Pentacles Tarot card meaning summarized
 

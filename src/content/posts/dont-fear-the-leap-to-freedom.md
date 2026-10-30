@@ -22,4 +22,4 @@ Whatever this lunar eclipse in Capricorn takes away from you, rest assured that 
 
 > *I welcome change with courage, for it opens new doors."*
 
-![](https://tarotflower.files.wordpress.com/2020/07/affirmations-9.png?w=1024)
+![‘I welcome change with courage, for it opens new doors’ above mountains, Tarot Flower’s affirmation for a leap toward freedom](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/affirmations-9.png)

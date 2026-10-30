@@ -20,4 +20,4 @@ Yesterday's message from The Devil was to create positive structure in our lives
 
 > Dedication to my craft leads me to success."
 
-![](https://tarotflower.files.wordpress.com/2020/07/affirmations-8.png?w=1024)
+![‘Dedication to my craft leads me to success’ on pale pink, Tarot Flower’s Eight of Pentacles affirmation](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/affirmations-8.png)

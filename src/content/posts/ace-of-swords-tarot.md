@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/ace-of-swords.png" alt="Jeweled hand holding an upright sword among clouds, flowers, and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/ace-of-swords.png" alt="Ace Of Swords Tarot at Tarot Flower: jeweled hand holding an upright sword among clouds, flowers, and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 If you've been looking for answers and illumination around a certain situation, then the Ace of Swords tarot card brings you exactly what you need. When you receive this card in your tarot card reading, it indicates that a time of clarity and truth is upon you.
 

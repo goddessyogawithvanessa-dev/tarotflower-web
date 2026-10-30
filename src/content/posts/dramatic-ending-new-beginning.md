@@ -10,7 +10,7 @@ seo_title: "I. A Dramatic Ending Brings a New Beginning | Tarot Flower"
 seo_description: "Anyone who follows the learned astrologers knows that the end of 2019 has not only been the ending of a year or decade, but also the ending of an age...."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/persephone.jpg?w=746)
+![Woman among flowers at the roots of a fruit-bearing tree, accompanying Tarot Flower’s Persephone reflection on endings and new beginnings](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/persephone.jpg)
 
 #### **The High Priestess and Pluto: Ten Steps From Darkness to Light**
 

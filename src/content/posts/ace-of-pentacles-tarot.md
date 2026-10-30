@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 In the tarot, the pentacles represent the Earth element, which symbolizes abundance of all kinds. As the Ace of Pentacles is the first card of that suit, it indicates a new beginning or opportunity in the physical world typically regarding material things. Whether you're looking to start a new career or business venture, or just wanting to turn your financial situation around, the Ace of Pentacles is an encouraging sign that you are primed to manifest your abundance. Go for it and you will be successful!
 
-<img src="/images/tarot/pentacles/ace-of-pentacles.png" alt="Open hand offering a golden pentacle among flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/ace-of-pentacles.png" alt="Ace Of Pentacles Tarot at Tarot Flower: open hand offering a golden pentacle among flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 ## The ace of pentacles tarot card meaning in summary
 

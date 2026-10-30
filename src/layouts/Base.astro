@@ -1,9 +1,14 @@
 ---
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+import TarotNewsletter from '../components/TarotNewsletter.astro';
+import { preferredImages } from '../lib/preferred-images';
+import reviewedMetaDescriptions from '../data/reviewedMetaDescriptions.json';
 
 interface Props {
   title: string;
   description?: string;
+  ogDescription?: string;
+  twitterCard?: 'summary' | 'summary_large_image';
   image?: string;
   imageAlt?: string;
   imageWidth?: number;
@@ -11,6 +16,7 @@ interface Props {
   showBanner?: boolean;
   showNavigation?: boolean;
   showFooter?: boolean;
+  enableMarketingTracking?: boolean;
   noindex?: boolean;
   schemaType?: 'WebPage' | 'Article' | 'CollectionPage';
   schemaHeadline?: string;
@@ -21,7 +27,9 @@ interface Props {
 
 const {
   title,
-  description = '',
+  description: providedDescription = '',
+  ogDescription = '',
+  twitterCard,
   image = '',
   imageAlt = '',
   imageWidth,
@@ -29,6 +37,7 @@ const {
   showBanner = true,
   showNavigation = true,
   showFooter = true,
+  enableMarketingTracking = true,
   noindex = false,
   schemaType = 'WebPage',
   schemaHeadline,
@@ -37,15 +46,18 @@ const {
   additionalSchema = [],
 } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const description = (reviewedMetaDescriptions as Record<string, string>)[canonicalURL.pathname] ?? providedDescription;
 const fallbackSocialImage = '/images/tarot-flower-dandelion-goddess-header.jpg';
-const resolvedSocialImage = image || fallbackSocialImage;
-const resolvedImageAlt = image ? imageAlt : 'A goddess blowing a dandelion, its seeds scattering through a luminous garden';
-const resolvedImageWidth = image ? imageWidth : 2170;
-const resolvedImageHeight = image ? imageHeight : 538;
+const preferredImage = preferredImages[canonicalURL.pathname];
+const resolvedSocialImage = image || preferredImage?.src || fallbackSocialImage;
+const resolvedImageAlt = image ? imageAlt : preferredImage?.alt || 'A goddess blowing a dandelion, its seeds scattering through a luminous garden';
+const resolvedImageWidth = image ? imageWidth : preferredImage?.width ?? 2170;
+const resolvedImageHeight = image ? imageHeight : preferredImage?.height ?? 538;
 const socialImageURL = new URL(resolvedSocialImage, Astro.site);
 const socialImageExtension = socialImageURL.pathname.split('.').pop()?.toLowerCase();
 const socialImageType = socialImageExtension === 'png' ? 'image/png'
   : socialImageExtension === 'webp' ? 'image/webp'
+  : socialImageExtension === 'gif' ? 'image/gif'
   : ['jpg', 'jpeg'].includes(socialImageExtension ?? '') ? 'image/jpeg'
   : undefined;
 const socialImageIsWide = resolvedImageWidth && resolvedImageHeight
@@ -69,7 +81,14 @@ const pageSchema: Record<string, unknown> = {
   isPartOf: { '@id': websiteId },
   about: { '@id': organizationId },
   inLanguage: 'en',
-  primaryImageOfPage: { '@type': 'ImageObject', url: socialImageURL.href },
+  primaryImageOfPage: {
+    '@type': 'ImageObject',
+    url: socialImageURL.href,
+    contentUrl: socialImageURL.href,
+    ...(resolvedImageAlt ? { caption: resolvedImageAlt } : {}),
+    isPartOf: { '@id': webpageId },
+    representativeOfPage: true,
+  },
   ...(mainEntitySchema ? { mainEntity: { '@id': mainEntitySchema['@id'] } } : {}),
 };
 if (schemaType === 'Article') {
@@ -145,6 +164,7 @@ const schemaGraph = {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <link rel="canonical" href={canonicalURL.href} />
+  {!noindex && !/^\/(?:admin|api|checkout|library)(?:\/|$)/.test(canonicalURL.pathname) && <link rel="describedby" href="https://tarotflower.com/llms.txt" />}
   {noindex && <meta name="robots" content="noindex, nofollow" />}
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
@@ -154,14 +174,15 @@ const schemaGraph = {
   <meta property="og:type" content={schemaType === 'Article' ? 'article' : 'website'} />
   <meta property="og:url" content={canonicalURL.href} />
   <meta property="og:title" content={title} />
-  {description && <meta property="og:description" content={description} />}
+  {(ogDescription || description) && <meta property="og:description" content={ogDescription || description} />}
   <meta property="og:image" content={socialImageURL.href} />
+  <meta property="og:image:secure_url" content={socialImageURL.href} />
   {socialImageType && <meta property="og:image:type" content={socialImageType} />}
   {resolvedImageAlt && <meta property="og:image:alt" content={resolvedImageAlt} />}
   {resolvedImageWidth && <meta property="og:image:width" content={String(resolvedImageWidth)} />}
   {resolvedImageHeight && <meta property="og:image:height" content={String(resolvedImageHeight)} />}
   <meta property="og:site_name" content="Tarot Flower" />
-  <meta name="twitter:card" content={socialImageIsWide ? 'summary_large_image' : 'summary'} />
+  <meta name="twitter:card" content={twitterCard || (socialImageIsWide ? 'summary_large_image' : 'summary')} />
   <meta name="twitter:title" content={title} />
   {description && <meta name="twitter:description" content={description} />}
   <meta name="twitter:image" content={socialImageURL.href} />
@@ -177,7 +198,7 @@ const schemaGraph = {
 <body>
   {showBanner && (
     <div class="banner">
-      <a href="/"><img src="/images/tarot-flower-dandelion-goddess-header.jpg" alt="A goddess blowing a dandelion, its seeds scattering through a luminous garden" width="2170" height="538" fetchpriority="high" /></a>
+      <a href="/"><img src="/images/tarot-flower-dandelion-goddess-header.jpg" alt="Tarot Flower home" width="2170" height="538" fetchpriority="high" /></a>
     </div>
   )}
   {showNavigation && (
@@ -307,6 +328,7 @@ const schemaGraph = {
       </li>
       <li><a href="/daily-tarot">WITCH'S JOURNAL</a></li>
       <li><a href="/shop">SHOP</a></li>
+      <li><a href="/library/">MY LIBRARY</a></li>
     </ul>
   </nav>
   <div class="mobile-nav-bar">
@@ -457,13 +479,14 @@ const schemaGraph = {
       </div>
       <a href="/daily-tarot">WITCH'S JOURNAL</a>
       <a href="/shop">SHOP</a>
+      <a href="/library/">MY LIBRARY</a>
     </div>
   </nav><!-- end desktop-nav -->
   </>
   )}
 
   <slot />
-  <GoogleAnalytics />
+  {enableMarketingTracking && <GoogleAnalytics />}
 
   {showFooter && <footer id="site-footer">
     <svg class="footer-botanical" viewBox="0 0 1440 470" fill="none" aria-hidden="true" focusable="false">
@@ -493,8 +516,9 @@ const schemaGraph = {
     <div class="footer-inner">
       <div class="footer-col">
         <h4>CONNECT</h4>
-        <p class="footer-heading"><strong>Join the Circle</strong></p>
-        <p>Subscribe for moon phase updates, tarot wisdom, and spiritual insights — plus invitations to our goddess retreats &amp; rituals.</p>
+        <p class="footer-heading"><strong>Keep Me Posted</strong></p>
+        <p>New rituals, creations, gatherings, invitations, and whatever magical little doors open next.</p>
+        <TarotNewsletter />
         <div class="social-icons">
           <a href="https://www.instagram.com/tarotflower.online/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
           <a href="https://www.pinterest.com/vanessahylande/" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
@@ -512,7 +536,7 @@ const schemaGraph = {
           <li><a href="/minor-arcana">Minor Arcana</a></li>
           <li><a href="/astrology">Astrology &amp; Zodiac</a></li>
           <li><a href="/rituals">Rituals</a></li>
-          <li><a href="/library/login/">My Ritual Library</a></li>
+          <li><a href="/library/">My Library</a></li>
           <li><a href="/readings-with-vanessa">Readings with Vanessa</a></li>
           <li><a href="/sacred-becoming/mentorship">Sacred Becoming Mentorship</a></li>
         </ul>

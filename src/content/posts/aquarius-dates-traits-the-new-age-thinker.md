@@ -71,7 +71,7 @@ In summary, Aquarius as an air sign embodies the qualities of intellectualism, a
 
 ## Aquarius Compatibility: Love & Relationships
 
-![](/images/2021/01/fool-5.jpg)
+![Vanessa Hylande’s Aquarius artwork at Tarot Flower: a woman beside a golden crescent moon and pink flowers](/images/2021/01/fool-5.jpg)
 
 In love and relationships, Aquarius individuals seek partners who can engage them intellectually, share their values of social justice and humanitarianism, and respect their need for independence. They are highly compatible with other air signs like Gemini and Libra, as these signs understand and appreciate their intellectual and social nature.
 

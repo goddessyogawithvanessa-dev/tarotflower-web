@@ -32,4 +32,4 @@ What is the shape that your dream will take?
 
 > I honor my own spiritual path, yet respect my traditions."
 
-![](https://tarotflower.files.wordpress.com/2020/07/affirmations-4.png?w=1024)
+![‘I honor my own spiritual path, yet respect my traditions’ beneath a starburst, Tarot Flower’s affirmation for the Hierophant’s spiritual path](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/affirmations-4.png)

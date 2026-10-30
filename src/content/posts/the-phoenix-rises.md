@@ -10,7 +10,7 @@ seo_title: "Spell Casting for This Lunar Eclipse: The Phoenix Rises | Tarot Flow
 seo_description: "I've decided to use this lunar eclipse in Cancer to manifest something new and amazing, and I thought you might like to join me! I'm going to channel..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2019/12/phoenix_rising_from_its_ashes.jpg?w=905)
+![Phoenix with spread wings amid curling vines, illustrating rebirth in Tarot Flower’s lunar eclipse spell-casting reflection](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2019/12/phoenix_rising_from_its_ashes.jpg)
 
 ### Let's Manifest Something Beautiful Together!
 

@@ -10,7 +10,7 @@ seo_title: "Adorn Your Soul | Tarot Flower"
 seo_description: "\"Adorn your soul with everything beautiful"
 ---
 
-![](/images/2023/12/adorn-your-soul.jpg)
+![Woman with flowing hair and an ornate headdress, accompanying Vanessa Hylande’s ‘Adorn Your Soul’ at Tarot Flower](/images/2023/12/adorn-your-soul.jpg)
 
 > "Adorn your soul with everything beautiful
 >

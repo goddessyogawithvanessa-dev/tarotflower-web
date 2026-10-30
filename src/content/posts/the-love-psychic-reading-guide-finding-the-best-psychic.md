@@ -146,7 +146,7 @@ Remove Energetic Blockages
 
 Remove energetic and physcial blockages. In person and remote.
 
-![](/images/2023/09/3-1.jpg)
+![Vanessa Hylande seated with her hands over her heart, a heart-centered Goddess Embodiment practice at Tarot Flower](/images/2023/09/3-1.jpg)
 
 ## The Goddess Embodiment Program
 

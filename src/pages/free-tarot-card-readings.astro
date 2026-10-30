@@ -69,7 +69,7 @@ function formatCategories(cats: string[]): string {
           <p>This is part of the practice. This is part of the path.</p>
           <p>You can use these free tarot card readings as daily rituals, journaling prompts, full moon reflections, or meditations for the week ahead. Light a candle. Pull your own card after reading. See what themes overlap or diverge. Let your inner priestess guide the process.</p>
           <p>Over time, you may begin to notice patterns — both in the cards and in your life. That's when the magic really begins to unfold. Tarot is not about answers. It's about <em>relationship</em>. And the more time you spend in communion with the cards, the more fluent the conversation becomes.</p>
-          <p>Because at the heart of all of this — the tarot, the ritual, the words on these pages — is a deeper invitation:<br />To awaken. To transform. To return to your essence.<br />And ultimately, to join the circle.</p>
+          <p>Because at the heart of all of this — the tarot, the ritual, the words on these pages — is a deeper invitation:<br />To awaken. To transform. To return to your essence.</p>
           <p>Welcome to the craft.<br />Welcome to the journey.<br />Welcome home.</p>
         </div>
       </details>
@@ -85,7 +85,7 @@ function formatCategories(cats: string[]): string {
         const cats = (post.data.categories || []).filter((c: string) => c !== 'daily-tarot');
         return (
           <a href={`/${post.data.slug}`} class="zodiac-card">
-            {img && <div class="zodiac-img"><img src={img} alt={post.data.title} loading="lazy" /></div>}
+            {img && <div class="zodiac-img"><img src={img} alt={img.includes("Screen-Shot-2023-03-06") ? "Mother Moon music-video preview beneath stars and a full moon, Vanessa Hylande’s Virgo Moon Magic ritual resource at Tarot Flower" : img.includes("Screen-Shot-2023-12-13") ? "Vanessa Hylande’s 12:12 Portal sound-bath meditation for the New Moon in Sagittarius at Tarot Flower" : post.body?.match(/!\[([^\]]*)\]\(/)?.[1] || post.data.title} loading="lazy" /></div>}
             <div class="zodiac-info">
               <h3>{post.data.title}</h3>
               <span class="zodiac-meta">by Vanessa Hylande | {displayDate}{cats.length > 0 && ` | ${formatCategories(cats)}`}</span>

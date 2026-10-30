@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Nine of Pentacles is a card that symbolizes abundance, luxury, and self-care. It speaks to the idea of enjoying the fruits of your labor and taking the time to appreciate all that you have achieved. This card can also represent financial stability and security, as well as being content with the things that you have. When the 9 of Pentacles appears in a reading, it is a sign that you are in a good place in your life and that you have been working hard to achieve your goals. The 9 of Pentacles also encourages you to take some time to enjoy the rewards of your labor without feeling guilty. You have worked hard to get to where you are, and you deserve to take a break and appreciate all that you have accomplished.
 
-<img src="/images/tarot/pentacles/nine-of-pentacles.png" alt="Woman holding a bird in a garden of coins, flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/nine-of-pentacles.png" alt="Nine Of Pentacles Tarot at Tarot Flower: woman holding a bird in a garden of coins, flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Nine of Pentacles is also associated with luxury, and it encourages you to treat yourself with kindness and respect. It is important to remember that it is not just about material possessions, but also taking the time to do things that make you feel good. This could include taking a long walk, getting a massage, or just taking a few moments to simply be still and enjoy the moment.
 

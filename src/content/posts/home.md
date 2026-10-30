@@ -23,7 +23,7 @@ You’ll also discover rich resources in \*\*astrology\*\*, \*\*psychic developm
 
 Our approach is gentle and inclusive. You don’t need to identify as a witch or know all 78 cards to belong here. You just need a curious heart, a willingness to listen to your intuition, and the desire to return home to yourself. Through ritual, reflection, and embodiment, Tarot Flower invites you to remember who you truly are.
 
-And if you're ready to go deeper, you're invited to join the \*\*Moonlight Circle\*\* — our heart-centered sister community for live circles, deep practices, and goddess embodiment. This is where the virtual space becomes real connection. Where you don’t just read the cards — you live them.
+\*\*Moonlight Circle\*\* is our private sister community for live circles, deep practices, and goddess embodiment. Access is offered through qualifying experiences, purchases, readings, classes, workshops, retreats, legacy membership, or personal invitation.
 
 Thank you for being here. Your presence is sacred. Your path is your power. And this — this is just the beginning.
 

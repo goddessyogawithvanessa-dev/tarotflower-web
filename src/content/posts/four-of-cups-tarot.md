@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Four of Cups tarot card is associated with the element of water and is associated with the inner emotions of a person. It represents a time of reflection, introspection and meditation. It also represents a time for contemplation and understanding of the deeper aspects of life.
 
-<img src="/images/tarot/cups/four-of-cups.png" alt="Pensive woman seated beneath a flowering tree beside four ornate cups" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/four-of-cups.png" alt="Four Of Cups Tarot at Tarot Flower: pensive woman seated beneath a flowering tree beside four ornate cups" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Four of Cups tarot card symbolizes a period of re-evaluation and contemplation. It indicates the need to step back and view the situation at hand from a different perspective. This card can appear when a person is feeling stuck and needs to look at options and possibilities they may have overlooked.
 

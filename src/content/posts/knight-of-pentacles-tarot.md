@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Knight of Pentacles is one of the many cards in the Tarot deck that can give you insights into your life. This card represents a journey towards stability, practicality, and hard work. It is a sign that you are on the right path and should continue to focus on achieving your goals.
 
-<img src="/images/tarot/pentacles/knight-of-pentacles.png" alt="Knight on a white horse holding a golden pentacle" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/knight-of-pentacles.png" alt="Knight Of Pentacles Tarot at Tarot Flower: knight on a white horse holding a golden pentacle" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Knight of Pentacles is a master of his domain. He is a man of action and has a strong sense of determination. This minor arcana tarot card encourages you to keep a clear vision of what you want and to take steps to achieve it. The Knight of Coins is reliable and trustworthy, and is often seen as a symbol of stability. This tarot card is most commonly associated with the element of Earth, which is fitting, as the card symbolizes practicality and groundedness.
 

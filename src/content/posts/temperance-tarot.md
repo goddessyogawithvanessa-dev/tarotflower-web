@@ -77,7 +77,7 @@ On the other hand, when reversed, the Temperance tarot card can indicate that it
 
 ## Your Career Reading and The Temperance Tarot Card
 
-<p><img src="/images/2022/02/6.jpg" alt="Temperance affirmation artwork for Your Career Reading and The Temperance Tarot Card" width="500" height="500" loading="lazy" decoding="async" /></p>
+<p><img src="/images/2022/02/6.jpg" alt="temperance tarot card, affirmations, harmony" width="500" height="500" loading="lazy" decoding="async" /></p>
 
 When it comes to a career reading, the Temperance tarot card expresses that there should be better management of plans and goals. You need to have, for example, time-management and organizational skills. What's more, you must begin reflecting about what your goals are in the long term.
 
@@ -113,7 +113,7 @@ Take a moment to honestly evaluate how things are going in your life right now a
 
 ## Symbology of the Temperance Tarot Card
 
-<p><img src="/images/2022/02/Minor-arcana-1.jpg" alt="Temperance Tarot artwork for Symbology of the Temperance Tarot Card" width="540" height="540" loading="lazy" decoding="async" /></p>
+<p><img src="/images/2022/02/Minor-arcana-1.jpg" alt="Rider-Waite Temperance card framed by red flowers in Tarot Flower’s guide to balance and transmutation" width="540" height="540" loading="lazy" decoding="async" /></p>
 
 The whole scenery of the Temperance Tarot Card depicts peace, harmony, and balance. In fact, it features a genderless and white-dressed angel pouring water from one cup to another. Te angel is also dipping one of her feet in water, as the other one stands on the shore.
 
@@ -155,4 +155,4 @@ Another interesting aspect of the Temperance Tarot card is that it teaches us th
 
 In conclusion, in order to embody the Temperance tarot card, you need to embody the skills and qualities we have learned above and put them into practice in your daily life. Try to show through your way of living that you are an instrument of peace. That you behave in a way that enables you to create perfect harmony in your life. Practice diligence and continue to tell yourself that you will always strive toward harmonization, and will not stop until you are sure your life is in harmony and balance. This way, you live your life with happiness and you always know how you should react no matter what may come your way.
 
-<p><img src="/images/2022/02/major-arcanas-4-683x1024.jpg" alt="Temperance Tarot artwork for Embodying The Temperance Tarot Card Through Moderation" width="683" height="1024" loading="lazy" decoding="async" /></p>
+<p><img src="/images/2022/02/major-arcanas-4-683x1024.jpg" alt="temperance tarot card meaning, tarot embodiment" width="683" height="1024" loading="lazy" decoding="async" /></p>

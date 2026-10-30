@@ -4,39 +4,70 @@ import { ritualExperiences } from '../data/ritualExperiences';
 
 const fireRitual = ritualExperiences.fire;
 const imageBase = '/images/digital-rituals/step-into-the-fire';
+const socialImage = `${imageBase}/step-into-your-fire-social.jpg`;
+const seoTitle = 'Step Into Your Fire — Guided FIRE Ritual | Tarot Flower';
+const seoDescription = 'Step Into Your Fire is Tarot Flower’s guided Goddess Kali fire ritual for courage and confidence, with movement, journaling, sound, and a 16-page companion.';
+const fireProductId = 'https://tarotflower.com/step-into-your-fire/#product';
 ---
 <Base
-  title={`${fireRitual.title} | Tarot Flower`}
-  description="A guided fire ritual with candle ceremony, journaling, embodied movement, original music, sound bath meditation, and permanent access."
-  image={fireRitual.image}
-  imageAlt={fireRitual.imageAlt}
-  imageWidth={fireRitual.width}
-  imageHeight={fireRitual.height}
+  title={seoTitle}
+  description={seoDescription}
+  image={socialImage}
+  imageAlt="Goddess Kali amid flowers and flames for Tarot Flower’s Step Into Your Fire guided ritual"
+  imageWidth={1200}
+  imageHeight={630}
   showBanner={false}
+  additionalSchema={{
+    '@type': 'Product',
+    '@id': fireProductId,
+    name: 'Step Into Your Fire — Guided FIRE Ritual',
+    description: seoDescription,
+    url: 'https://tarotflower.com/step-into-your-fire/',
+    image: `https://tarotflower.com${socialImage}`,
+    category: 'Guided fire ritual',
+    brand: { '@id': 'https://tarotflower.com/#organization' },
+    creator: { '@id': 'https://tarotflower.com/#vanessa-hylande' },
+    isRelatedTo: { '@id': 'https://tarotflower.com/step-into-your-fire/#ritual' },
+    offers: {
+      '@type': 'Offer',
+      url: 'https://tarotflower.com/step-into-your-fire/',
+      price: '33.00',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+    },
+  }}
 >
   <main class="digital-ritual-page digital-ritual-page--fire">
     <header class="fire-hero">
-      <img src={fireRitual.image} width={fireRitual.width} height={fireRitual.height} alt={fireRitual.imageAlt} />
+      <div class="fire-hero-image">
+        <img src={fireRitual.image} width={fireRitual.width} height={fireRitual.height} alt={fireRitual.bodyImageAlt} />
+      </div>
     </header>
 
     <section class="fire-product-title">
       <div class="digital-ritual-row">
-        <p class="fire-product-identifier">{fireRitual.title.toUpperCase()}</p>
-        <h1>Become the Warrior Goddess</h1>
-        <p class="fire-product-subtitle">A ritual for courage &amp; confidence</p>
+        <p class="fire-product-identifier">GUIDED GODDESS KALI FIRE RITUAL</p>
+        <h1>Step Into Your Fire</h1>
+        <p class="fire-product-subtitle">Become the Warrior Goddess · Courage &amp; Confidence</p>
+        {fireRitual.purchasable && (
+          <div class="fire-hero-offer" aria-label="Purchase Step Into Your Fire">
+            <p class="fire-hero-price"><strong>{fireRitual.priceLabel}</strong><span>One-time purchase · Permanent access</span></p>
+            <a class="digital-ritual-button fire-hero-cta" href={fireRitual.purchaseHref} data-pinterest-fire-checkout>BEGIN THE RITUAL</a>
+          </div>
+        )}
         <div class="fire-offer-icons" aria-label={`Included with ${fireRitual.title}`}>
           <figure>
-            <img src={`${imageBase}/ritual-icon.png`} width="500" height="555" alt="Ornate gold clapperboard and flame icon" />
+            <img src={`${imageBase}/ritual-icon.png`} width="500" height="555" alt="" />
             <figcaption>RITUAL</figcaption>
           </figure>
           <span class="fire-offer-plus" aria-hidden="true">+</span>
           <figure>
-            <img src={`${imageBase}/companion-guide-icon.png`} width="500" height="555" alt="Ornate gold open book and star icon" />
+            <img src={`${imageBase}/companion-guide-icon.png`} width="500" height="555" alt="" />
             <figcaption>COMPANION GUIDE</figcaption>
           </figure>
           <span class="fire-offer-plus" aria-hidden="true">+</span>
           <figure>
-            <img src={`${imageBase}/circle-icon.png`} width="500" height="555" alt="Ornate gold women and crescent moon icon" />
+            <img src={`${imageBase}/circle-icon.png`} width="500" height="555" alt="" />
             <figcaption>THE CIRCLE</figcaption>
           </figure>
         </div>
@@ -56,7 +87,7 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
         </div>
 
         <figure class="fire-kali-vision">
-          <img src={`${imageBase}/goddess-kali-power-closeup.png`} width="1024" height="1024" alt="Close-up of Goddess Kali crowned in gold and flowers, holding sacred fire" />
+          <img src={`${imageBase}/goddess-kali-power-closeup.png`} width="1024" height="1024" alt="Kali crowned in gold and flowers with sacred fire, artwork for Tarot Flower’s Step Into Your Fire ritual" />
         </figure>
 
         <div class="fire-prose fire-kali-turning-point">
@@ -81,7 +112,7 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
             src={`${imageBase}/vanessa-dancing-regenerated.png`}
             width="1254"
             height="1254"
-            alt="Vanessa dancing with flowing black fabric during her fire embodiment practice"
+            alt="Vanessa Hylande dancing with flowing black fabric during Tarot Flower’s FIRE embodiment ritual"
             loading="lazy"
           />
         </figure>
@@ -102,7 +133,7 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
     <section class="fire-section fire-story-section fire-guardian-section">
       <div class="digital-ritual-row fire-editorial-grid fire-power-grid">
         <figure class="fire-oracle-feature">
-          <img src={`${imageBase}/guardian-cinematic.png`} width="1536" height="1024" alt="The Guardian warrior goddess holding her sword amid flowing red hair, gold ornamentation, flowers, and fire" />
+          <img src={`${imageBase}/guardian-cinematic.png`} width="1536" height="1024" alt="The Guardian with a sword amid flowers and fire, Tarot Flower’s warrior goddess artwork for courage and boundaries" />
         </figure>
         <div class="fire-prose fire-power-questions">
           <h2 class="fire-major-statement">What if everything you've been carrying could become something powerful?</h2>
@@ -116,7 +147,7 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
       <div class="digital-ritual-row fire-prose fire-guided-ritual">
         <p class="fire-guardian-answer">You can.</p>
         <h2>I will guide you through this sacred reignition of your power every step of the way.</h2>
-        <p class="fire-guided-ritual-intro">In this <strong>one-hour guided video ritual</strong> we will:</p>
+        <p class="fire-guided-ritual-intro">In this <strong>complete 45-minute guided video ritual</strong> we will:</p>
         <ol class="fire-ritual-stages">
           <li><span>Open the channel to your sacred becoming</span></li>
           <li><span>Transmute your darkness into light through ancient ritual practices</span></li>
@@ -133,18 +164,18 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
         <div class="fire-prose fire-closing-copy">
           <h2>Leave the Ashes Behind.<br />Rise Up and Shine.</h2>
           <p class="fire-closing-magic">Let’s make some magic together.</p>
-          <p class="fire-format-clarification">One-hour guided video ritual · Yours to experience anytime</p>
+          <p class="fire-format-clarification">One complete 45-minute guided ritual · Yours to experience anytime</p>
           {fireRitual.purchasable ? (
             <>
               <p class="fire-price"><strong>{fireRitual.priceLabel}</strong><br />One-time purchase · Permanent access</p>
-              <a class="digital-ritual-button" href={fireRitual.purchaseHref}>Begin the Ritual</a>
+              <a class="digital-ritual-button" href={fireRitual.purchaseHref} data-pinterest-fire-checkout>Begin the Ritual</a>
             </>
           ) : (
             <span class="digital-ritual-button digital-ritual-button--disabled" aria-disabled="true">Coming Soon</span>
           )}
         </div>
         <figure class="fire-closing-art">
-          <img src={`${imageBase}/fire-goddess-risen.jpg`} width="1024" height="1024" alt="Luminous Fire Goddess holding flame, radiant and transformed" loading="lazy" />
+          <img src={`${imageBase}/fire-goddess-risen.jpg`} width="1024" height="1024" alt="Fire Goddess holding flame in golden light, Tarot Flower’s FIRE ritual artwork of transformation" loading="lazy" />
         </figure>
       </div>
     </section>
@@ -176,11 +207,11 @@ const imageBase = '/images/digital-rituals/step-into-the-fire';
           </div>
           <div class="fire-faq-item">
             <dt>How long does the ritual take?</dt>
-            <dd>The ritual itself is approximately 40 minutes. I recommend setting aside about an hour so you have plenty of time to gather your materials, read through your companion guide, move through the ritual without rushing, and leave space for reflection afterward.</dd>
+            <dd>The guided ritual video is 45 minutes. I recommend setting aside about an hour overall so you have plenty of time to gather your materials, read through your 16-page companion grimoire, move through the ritual without rushing, and leave space for reflection afterward.</dd>
           </div>
           <div class="fire-faq-item">
             <dt>How do I access the ritual?</dt>
-            <dd>After your purchase, you’ll be taken directly to your private Ritual Library, where you can begin the ritual immediately. Your access is permanent, so you can return whenever you want. If you’re using a new device or your session has expired, simply request a secure sign-in link using the same email address you used at checkout.</dd>
+            <dd>After your purchase, you’ll verify your checkout email once and choose a password for your private My Library. Your access is permanent, so you can return whenever you want and sign in with that email and password. If you forget your password, you can request a secure reset email.</dd>
           </div>
         </dl>
       </div>

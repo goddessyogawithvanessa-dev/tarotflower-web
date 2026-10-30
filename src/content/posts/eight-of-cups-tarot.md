@@ -16,7 +16,7 @@ seo_image_height: 1254
 
 The Eight of Cups is a card that symbolizes a need for inner reflection and a desire to move away from the past. This card encourages us to take the time to question our current situation and assess if it is truly in alignment with our highest purpose. It suggests that we have outgrown the circumstances and relationships that have been holding us back and that it is time to move on.
 
-<img src="/images/tarot/cups/eight-of-cups.png" alt="Woman walking toward a full moon past eight ornate cups" width="1254" height="1254" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/eight-of-cups.png" alt="Eight Of Cups Tarot at Tarot Flower: woman walking toward a full moon past eight ornate cups" width="1254" height="1254" loading="eager" decoding="async" />
 
 The Eight of Cups is a card of transition and signifies the end of a cycle and the beginning of a new one. This card can represent a need to let go of old patterns and habits, as well as relationships and circumstances, that are no longer serving us.
 

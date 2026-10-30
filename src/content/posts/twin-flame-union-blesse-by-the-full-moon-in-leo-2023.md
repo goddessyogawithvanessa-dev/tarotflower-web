@@ -10,7 +10,7 @@ seo_title: "Twin Flame Union - Blessed by the Full Moon in Leo 2023"
 seo_description: "Hey beautiful people on this crazy path we call the twin flame journey. With incredible highs and gut wrenching lows, a twin flame union is never easy..."
 ---
 
-![](/images/2023/02/74.jpg)
+![Oracle cards spread on a cloth for Vanessa Hylande’s Full Moon in Leo reading at Tarot Flower](/images/2023/02/74.jpg)
 
 Hey beautiful people on this crazy path we call the twin flame journey. With incredible highs and gut wrenching lows, a twin flame union is never easy to understand or surrender to. This full moon in Leo brings a focus on creativity, a desire for manifesting our dreams and coming into the most beautiful expression of our divine selves.
 

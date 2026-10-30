@@ -39,7 +39,7 @@ The Hanged Man is a guiding card that can lead you away from pain and despair an
 
 ## The Hanged Man in a Twin Flame Reading
 
-<p><img src="/images/2023/05/hanged-2.jpg" alt="The Hanged Man Tarot artwork for The Hanged Man in a Twin Flame Reading" width="1024" height="1024" loading="lazy" decoding="async" /></p>
+<p><img src="/images/2023/05/hanged-2.jpg" alt="Woman with closed eyes beneath a pink floral crown and gold spirals, Hanged Man Tarot artwork of surrender at Tarot Flower" width="1024" height="1024" loading="lazy" decoding="async" /></p>
 
 So, what about the Hanged Man tarot card in a twin flame reading? This Major Arcana tarot card represents the challenging period of separation on your twin flame journey. Here's the deal: twin flame love is something truly special, a connection that goes beyond words. It's like finding your other half, your soulmate, your perfect match.
 
@@ -55,7 +55,7 @@ In the traditional Rider-Waite tarot deck, the Hanged Man is positioned between 
 
 ## The Hanged Man Meaning
 
-<p><img src="/images/2023/05/hanged-1.jpg" alt="The Hanged Man Tarot artwork for The Hanged Man Meaning" width="1024" height="1024" loading="lazy" decoding="async" /></p>
+<p><img src="/images/2023/05/hanged-1.jpg" alt="Flower-crowned woman within golden spirals, Hanged Man Tarot artwork of stillness and perspective at Tarot Flower" width="1024" height="1024" loading="lazy" decoding="async" /></p>
 
 The Hanged Man tarot card carries profound symbolism and meaning in tarot readings. It represents a transformative experience that involves surrendering and shifting perspectives. When this card appears, it serves as a reminder to let go of control and allow life to unfold naturally.
 
@@ -83,7 +83,7 @@ In the background, there is a body of water, symbolizing the subconscious mind a
 
 ## The Hanged Man Reversed
 
-<p><img src="/images/2022/02/IMG_20220216_122937-1021x1024.jpg" alt="The Hanged Man card from the White Sage Tarot" width="1021" height="1024" loading="lazy" decoding="async" /></p>
+<p><img src="/images/2022/02/IMG_20220216_122937-1021x1024.jpg" alt="the hanged man tarot card meaning major arcana white sage tarot" width="1021" height="1024" loading="lazy" decoding="async" /></p>
 
 The Hanged Man from the White Sage Tarot Deck in a Tin
 
@@ -139,7 +139,7 @@ However, it advises that to achieve this, we must challenge our conventional rea
 
 ## How to Embody The Hanged Man Tarot Card
 
-<p><img src="/images/2020/06/affirmations-vanessa-1-1024x1024.png" alt="affirmation new perspective the hanged man tarot" width="1024" height="1024" loading="lazy" decoding="async" /></p>
+<p><img src="/images/2020/06/affirmations-vanessa-1-1024x1024.png" alt="affirmation new perspective the hanged man tarot  " width="1024" height="1024" loading="lazy" decoding="async" /></p>
 
 In order to embody the lessons of the Hanged Man tarot card, we must be willing to practice surrender in our every day lives. Whether through dance, meditation, journaling or other tools, make practical decisions to let go of things that are out of your control. The next time you are feeling frustrated about a situation, take the time to journal about your experience in order to gain more perspective. Do this instead of acting on impulse and desire.
 

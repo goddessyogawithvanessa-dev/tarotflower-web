@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Queen of Cups tarot card is a beautiful card to receive in your tarot card reading! She is one of the most mysterious and powerful cards in the tarot deck. Representing both intuition and emotion, this card symbolizes a deep level of understanding, creativity, and compassion. She is one of the four Queens in the [Minor Arcana](/minor-arcana-tarot), all four of which together, comprise [The Empress](/the-empress-tarot).
 
-<img src="/images/tarot/cups/queen-of-cups.png" alt="Seated woman holding a golden cup amid pink flowers and turquoise water" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/queen-of-cups.png" alt="Queen Of Cups Tarot at Tarot Flower: seated woman holding a golden cup amid pink flowers and turquoise water" width="1024" height="1024" loading="eager" decoding="async" />
 
 ### The Queen of Cups is intuitive
 

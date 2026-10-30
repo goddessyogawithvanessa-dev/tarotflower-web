@@ -18,4 +18,4 @@ If you want to start a new chapter in your life, now is the time!
 
 > I don't let my fears stand in the way of my dreams."
 
-[![affirmations tarot the fool freedom surrender](https://tarotflower.files.wordpress.com/2020/06/affirmations-vanessa-3.png?w=1024)](https://pin.it/3O6zCCM)
+[![affirmations tarot the fool freedom surrender](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/06/affirmations-vanessa-3.png)](https://pin.it/3O6zCCM)

@@ -9,14 +9,14 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Six of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Six of Cups tarot card meaning for nostalgia, love, childhood, the reversed position, and healing your relationship with the past."
 seo_image: /images/tarot/cups/six-of-cups.png
-seo_image_alt: "Two figures exchanging an ornate cup among six flower-filled cups and butterflies"
+seo_image_alt: "Two figures exchanging an ornate cup above five flower-filled cups and butterflies"
 seo_image_width: 1254
 seo_image_height: 1254
 ---
 
 The Six of Cups is a Minor Arcana card from the Tarot deck and is associated with nostalgia and childhood innocence. It is often interpreted as a symbol of giving and receiving in a relationship, as well as a reminder of simpler times.
 
-<img src="/images/tarot/cups/six-of-cups.png" alt="Two figures exchanging an ornate cup among six flower-filled cups and butterflies" width="1254" height="1254" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/six-of-cups.png" alt="Six Of Cups Tarot at Tarot Flower: two figures exchanging an ornate cup above five flower-filled cups and butterflies" width="1254" height="1254" loading="eager" decoding="async" />
 
 The most common interpretation of the Six of Cups tarot card is that it symbolizes innocence and nostalgia. It can be seen as a reminder of childhood innocence, when life was simpler and more carefree. It can also be seen as a reminder of past relationships, where both parties were willing to give and receive love.
 

@@ -12,7 +12,9 @@ const slugsByRitual: Record<RitualKey, readonly string[]> = {
     'affirmations-for-confidence',
     'aries-dates-traits-the-fearless-ram',
     'challenges-are-the-learning-ground-of-the-heart',
+    'creating-sacred-space-how-to-cast-a-goddess-circle',
     'dancing-the-major-arcana',
+    'embodiment-dance-for-high-vibe-living',
     'feel-like-the-empress',
     'freedom-of-the-fool',
     'i-am-the-fool',
@@ -24,8 +26,10 @@ const slugsByRitual: Record<RitualKey, readonly string[]> = {
     'speak-your-truth',
     'the-goddess-kali-unleashing-your-sacred-sexuality',
     'the-growing-pains-of-blossoming-dreams',
+    'twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing',
     'wands-tarot',
     'we-are-infinite-possibility',
+    'want-more-powerful-magic-embody-your-intention-through-dance',
   ],
   flow: [
     'affirmations-for-self-love-that-work',
@@ -54,7 +58,6 @@ const slugsByRitual: Record<RitualKey, readonly string[]> = {
     'sound-bath-meditation-for-embodying-the-goddess-yemaya',
     'the-divine-feminine-calling-unveiling-your-sacred-dreamscape',
     'the-moon-reveals-hidden-truths',
-    'twin-flames-no-youre-not-crazy-why-sex-with-your-twin-is-so-mind-blowing',
     'uplift-yourself-by-celebrating-friendship',
     'what-is-a-twin-flame-how-to-know-if-youve-met-your-mirror-soul',
     'what-is-an-embodied-goddess',
@@ -104,6 +107,8 @@ const slugsByRitual: Record<RitualKey, readonly string[]> = {
 };
 
 const mentorshipSlugs = new Set([
+  'creating-sacred-space-how-to-cast-a-goddess-circle',
+  'embodiment-dance-for-high-vibe-living',
   'goddess-embodiment-practices',
   'goddess-embodiment-when-the-raven-spoke-to-me',
   'how-to-self-heal-through-embodiment-practices',
@@ -115,6 +120,7 @@ const mentorshipSlugs = new Set([
   'what-is-a-twin-flame-how-to-know-if-youve-met-your-mirror-soul',
   'what-is-an-embodied-goddess',
   'why-dance-is-the-best-embodiment-practice',
+  'want-more-powerful-magic-embody-your-intention-through-dance',
 ]);
 
 export const evergreenJourneyBySlug: Record<string, EvergreenJourney> = Object.fromEntries(

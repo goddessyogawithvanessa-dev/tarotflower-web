@@ -1,15 +1,26 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
+Disallow: /workbench/
 Disallow: /api/
 Disallow: /checkout/
 Disallow: /library/
+Disallow: /fire-purchase-complete/
 
 User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-User
 Allow: /
 Disallow: /admin/
+Disallow: /workbench/
 Disallow: /api/
 Disallow: /checkout/
 Disallow: /library/
+Disallow: /fire-purchase-complete/
+
+User-agent: GPTBot
+User-agent: ClaudeBot
+Disallow: /
 
 Sitemap: https://tarotflower.com/sitemap-index.xml

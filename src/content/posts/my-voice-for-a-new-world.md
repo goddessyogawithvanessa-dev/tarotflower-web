@@ -10,7 +10,7 @@ seo_title: "My voice for a new world | Tarot Flower"
 seo_description: "I am tired of waiting around. I want to make a change the only way I know how. I don't know what the right way is, but I do know what my way is. Thank..."
 ---
 
-![Vanessa Hylande performing artist author](https://vanessahylande960269070.files.wordpress.com/2019/01/ixchelwebsitebackgroundphoto.jpg?w=1024)
+![Vanessa Hylande performing artist author](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2019/01/ixchelwebsitebackgroundphoto.jpg)
 
 I am tired of waiting around. I want to make a change the only way I know how. I don't know what the right way is, but I do know what *my* way is. Thank you for being here to listen.
 

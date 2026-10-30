@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/seven-of-wands.png" alt="Hooded woman defending herself with a wand against six surrounding wands" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/seven-of-wands.png" alt="Seven Of Wands Tarot at Tarot Flower: hooded woman defending herself with a wand against six surrounding wands" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Seven of Wands tarot card is a card of courage and determination in the face of adversity. It symbolizes victory in the face of great odds, and an inner strength that will carry one through to success. When the Seven of Wands appears in a tarot reading, it is a sign that you are being tested and challenged in some way. You have a difficult task before you, and it may take a great deal of courage and determination to overcome it. This card encourages you to stand your ground and be brave, even in the face of opposition. It is a reminder that you have the strength and courage within you to succeed, no matter what the odds.
 

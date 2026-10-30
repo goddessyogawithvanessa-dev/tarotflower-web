@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/nine-of-swords.png" alt="Distressed woman covering her face beneath nine swords in a dark bedroom" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/nine-of-swords.png" alt="Nine Of Swords Tarot at Tarot Flower: distressed woman covering her face beneath nine swords in a dark bedroom" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Nine of Swords Tarot card is a card of deep sorrow and despair, often associated with feelings of guilt and regret. It is a card that symbolizes a person’s deepest fears, worries and anxieties. It is a reminder that we must face our fears and worries in order to move forward.
 

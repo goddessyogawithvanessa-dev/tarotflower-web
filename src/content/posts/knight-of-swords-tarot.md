@@ -9,12 +9,12 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Knight of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Knight of Swords tarot card meaning for ambition, speed, courage, direct communication, love, reversal, and acting before thinking."
 seo_image: /images/tarot/swords/knight-of-swords.png
-seo_image_alt: "Woman riding a white horse with a raised sword through clouds and butterflies"
+seo_image_alt: "Woman riding a white horse with an extended sword through clouds and butterflies"
 seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/knight-of-swords.png" alt="Woman riding a white horse with a raised sword through clouds and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/knight-of-swords.png" alt="Knight Of Swords Tarot at Tarot Flower: woman riding a white horse with an extended sword through clouds and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Knight of Swords tarot card is a card that symbolizes courage, action, and a willingness to take risks. It is a card of direct and swift action and can indicate a person who is determined, focused, and fearless in their pursuit of a goal.
 

@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/ten-of-swords.png" alt="Fallen figure beneath ten swords as light breaks across a red horizon" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/ten-of-swords.png" alt="Ten Of Swords Tarot at Tarot Flower: fallen figure beneath ten swords as light breaks across a red horizon" width="1024" height="1024" loading="eager" decoding="async" />
 
 If you've ever seen the Ten of Swords tarot card, you may have noticed the ominous imagery that it portrays. In the traditional [Rider-Waite deck](https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot) this card typically depicts a man lying face down on the ground, with ten swords in his back. The 10 of Swords symbolizes an end, but not always a bad one. While this card can suggest heartache, it can also represent a difficult moment that ultimately leads to new beginnings.
 

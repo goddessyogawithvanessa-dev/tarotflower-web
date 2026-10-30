@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/queen-of-swords.png" alt="Crowned woman seated among clouds holding an upright sword" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/queen-of-swords.png" alt="Queen Of Swords Tarot at Tarot Flower: crowned woman seated among clouds holding an upright sword" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Queen of Swords tarot card is associated with the element of Air and is affiliated with the astrological signs of Libra and Aquarius. This card is associated with logic, objectivity, and truth. She has a sharp wit and an unwavering sense of justice. The Queen of Swords is a card of cutting through the lies and seeing the truth in any situation.
 

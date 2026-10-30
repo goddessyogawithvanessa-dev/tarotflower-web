@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 Are you holding onto something too tightly? When you receive the Four of Pentacles tarot card in your tarot card reading, it can indicate that you are clinging to physical or material things. This doesn't only have to be money - you could be hanging onto a partner or relationship too tightly as well. Take a moment to ask yourself: "What are you afraid of losing? Will holding onto it tightly help the situation?"
 
-<img src="/images/tarot/pentacles/four-of-pentacles.png" alt="Seated woman holding four golden pentacles among flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/four-of-pentacles.png" alt="Four Of Pentacles Tarot at Tarot Flower: seated woman holding four golden pentacles among flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 ## The Four of Pentacles Tarot Card Summarized
 

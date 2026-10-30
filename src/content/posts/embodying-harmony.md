@@ -22,4 +22,4 @@ Instead of choosing sides, rise above. Create something new and beautiful. Embod
 
 > I embody harmony"
 
-![](https://tarotflower.files.wordpress.com/2020/07/july-affirmations-2.png?w=800)
+![‘I embody harmony’ over a pink lotus, Tarot Flower’s Temperance Tarot affirmation](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/july-affirmations-2.png)

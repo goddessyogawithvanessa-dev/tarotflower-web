@@ -19,7 +19,7 @@ seo_description: "Dive into the Suit of Cups with Tarot Flower. Discover tarot c
       <p>Cups are often associated with love, relationships, creativity, and our innermost feelings.</p>
       <p>The suit of cups is usually linked to the astrological signs of Cancer, Scorpio, and Pisces, which are known for their sensitivity, empathy, and emotional depth.</p>
     </div>
-    <img src="/images/2023/04/tf-ace-of-cups-2-ai.jpg" alt="Ace of Cups tarot card meaning artwork by Vanessa Hylande" loading="eager" />
+    <img src="/images/2023/04/tf-ace-of-cups-2-ai.jpg" alt="ace of cups tarot card meaning image by vanessa hylande" loading="eager" />
   </section>
 
   <section class="minor-suit-feature">
@@ -31,14 +31,14 @@ seo_description: "Dive into the Suit of Cups with Tarot Flower. Discover tarot c
       <p>It is a symbol of overflowing love, compassion, and joy, and it encourages us to open our hearts and connect with the world around us.</p>
       <p>The Ace of Cups is a reminder to pay attention to our emotional needs and to let our intuition guide us towards a more fulfilling life.</p>
     </div>
-    <img src="/images/2020/12/IMG_20201215_122606-scaled.jpg" alt="Cups tarot cards spread" loading="lazy" />
+    <img src="/images/2020/12/IMG_20201215_122606-scaled.jpg" alt="White Sage Cups Tarot cards spread among crystals and shells in Tarot Flower’s guide to emotions and relationships" loading="lazy" />
   </section>
 
   <section class="minor-suit-feature">
     <div class="minor-copy">
       <p>The suit of cups also includes the cards of the Two of Cups, which represents partnerships and harmonious relationships, and the Ten of Cups, which symbolizes emotional fulfillment, joy, and harmony. However, the suit of cups is not all rainbows and sunshine - it also includes cards like the Five of Cups, which represents loss and disappointment, and the Three of Cups, which may indicate overindulgence or excessive emotions. Overall, the suit of cups encourages us to pay attention to our emotional well-being and to explore our inner world to find greater happiness, fulfillment, and balance in life.</p>
     </div>
-    <img src="/images/2023/04/tf-ace-of-cups-ai.jpg" alt="Ace of Cups tarot artwork by Vanessa Hylande" loading="lazy" />
+    <img src="/images/2023/04/tf-ace-of-cups-ai.jpg" alt="the ace of cups tarot card meaning suit of cups image by vanessa hylande" loading="lazy" />
   </section>
 </div>
 
@@ -46,7 +46,7 @@ seo_description: "Dive into the Suit of Cups with Tarot Flower. Discover tarot c
 
 <div class="zodiac-grid">
 <a href="/ace-of-cups-tarot" class="zodiac-card">
-<div class="zodiac-img"><img src="/images/2022/12/ace-of-cups-8.jpg" alt="The Ace of Cups: Overflowing With Love" loading="lazy" /></div>
+<div class="zodiac-img"><img src="/images/2022/12/ace-of-cups-8.jpg" alt="Golden chalice overflowing with flowers and flame, Vanessa Hylande’s Ace of Cups artwork of emotion at Tarot Flower" loading="lazy" /></div>
 <div class="zodiac-info"><h3>The Ace of Cups: Overflowing With Love</h3></div>
 </a>
 <a href="/two-of-cups-tarot" class="zodiac-card">

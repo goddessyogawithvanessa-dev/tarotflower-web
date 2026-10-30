@@ -10,7 +10,7 @@ seo_title: "VIII. Humans Without Souls | Tarot Flower"
 seo_description: "Excess breeds deformity and decay. That is why balance is so beautiful. We see this in business, with monopolies, for example. The excess of one entity..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/0.jpg)
+![Painting detail of a man devouring a figure, accompanying ‘Humans Without Souls’ in Tarot Flower’s reflections](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/0.jpg)
 
 #### **The High Priestess and Pluto: Ten Steps From Darkness to Light**
 

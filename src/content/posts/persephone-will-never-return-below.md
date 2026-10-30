@@ -10,7 +10,7 @@ seo_title: "VI. Persephone Will Never Return Below | Tarot Flower"
 seo_description: "Most importantly of all, as much as we might like to indulge ourselves in a bit of Schadenfreude, Lady Justice is compassionate and fair. The scales..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2019/01/owlandsnake.jpg?w=800)
+![Owl before a blue spiral, accompanying Tarot Flower’s Persephone reflection on descent and return](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2019/01/owlandsnake.jpg)
 
 #### **The High Priestess and Pluto: Ten Steps From Darkness to Light**
 

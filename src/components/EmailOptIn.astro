@@ -77,6 +77,8 @@ const leadMagnetApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers
     document.head.append(script);
   });
 
+  const guideWidgetIds = new WeakMap();
+
   async function renderTurnstile(form) {
     const container = form.querySelector('[data-turnstile-widget]');
     if (!container || container.dataset.rendered === 'true') return;
@@ -88,7 +90,8 @@ const leadMagnetApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers
       const sitekey = config.turnstileSiteKey || config.siteKey || config.turnstile_site_key;
       if (!sitekey) throw new Error('Turnstile site key unavailable.');
       const turnstile = await turnstileReady;
-      turnstile.render(container, { sitekey, action: 'lead_magnet_goddess_guide' });
+      const widgetId = turnstile.render(container, { sitekey, action: 'lead_magnet_goddess_guide' });
+      guideWidgetIds.set(form, widgetId);
       container.dataset.rendered = 'true';
     } catch (error) {
       const status = form.querySelector('.email-optin-status');
@@ -125,6 +128,8 @@ const leadMagnetApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers
       } catch (error) {
         status.textContent = error.message || 'Please try again in a moment.';
       } finally {
+        const widgetId = guideWidgetIds.get(form);
+        if (widgetId !== undefined) window.turnstile.reset(widgetId);
         submit.disabled = false;
       }
     });

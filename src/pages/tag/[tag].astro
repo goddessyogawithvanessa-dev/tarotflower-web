@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import JournalCollection from '../../components/JournalCollection.astro';
+import { divineFeminineCollection, loveCollection } from '../../data/journalCollections';
 
 export function getStaticPaths() {
   return [
@@ -47,6 +49,7 @@ const tagConfig: Record<string, { title: string; description: string; categories
 
 const { tag } = Astro.params;
 const config = tagConfig[tag!];
+const curated = tag === 'divine-feminine' ? divineFeminineCollection : tag === 'love' ? loveCollection : undefined;
 
 const allPosts = await getCollection('posts');
 const filtered = allPosts.filter(post => {
@@ -57,9 +60,19 @@ const filtered = allPosts.filter(post => {
   return config.keywords.some(kw => slug.includes(kw.replace(/ /g, '-')) || title.includes(kw));
 }).sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 ---
-<Base title={`${config.title} – Tarot Flower`} description={config.description}>
+<Base title={curated?.title ?? `${config.title} – Tarot Flower`} description={curated?.description ?? config.description} schemaType={curated ? 'CollectionPage' : 'WebPage'}>
   <div class="container">
-    <h1>{config.title}</h1>
+    <h1>{curated?.heading ?? config.title}</h1>
+    {curated ? (
+      <>
+        <JournalCollection collection={curated} />
+        {tag === 'divine-feminine' && (
+          <p>Explore the <a href="/goddess-mythology/">Goddess Mythology library</a> for the complete Goddess collection. Embodiment also runs through <a href="/sacred-becoming/">Sacred Becoming</a>, Vanessa’s larger transformational system; it is not confined to this archive.</p>
+        )}
+        <p><a href={`/daily-tarot/?room=${tag === 'love' ? 'twin-flames' : 'embodiment'}#complete-index`}>Browse the corresponding Witch’s Journal room</a>.</p>
+      </>
+    ) : (
+      <>
     <p class="tag-description">{config.description}</p>
     <div class="zodiac-grid">
       {filtered.map(post => (
@@ -69,5 +82,7 @@ const filtered = allPosts.filter(post => {
       ))}
     </div>
     {filtered.length === 0 && <p>No posts found for this theme yet.</p>}
+      </>
+    )}
   </div>
 </Base>

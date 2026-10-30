@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/queen-of-wands.png" alt="Crowned woman seated with a flowering wand and sunflower beside a black cat" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/queen-of-wands.png" alt="Queen Of Wands Tarot at Tarot Flower: crowned woman seated with a flowering wand and sunflower beside a black cat" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Queen of Wands tarot card is one of the most powerful cards in the tarot deck and holds a great deal of significance. Representing a strong and creative female energy, this card is often associated with independence, willpower and ambition.
 

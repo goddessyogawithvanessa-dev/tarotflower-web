@@ -26,4 +26,4 @@ Strive to allow your heart and your mind to work in harmony. Transform your nega
 
 > I trust my heart."
 
-![](https://tarotflower.files.wordpress.com/2020/07/i-trust-my-heart.png?w=1024)
+![‘I trust my heart’ above pink flowers, Tarot Flower’s Three of Swords affirmation for healing heartbreak](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/i-trust-my-heart.png)

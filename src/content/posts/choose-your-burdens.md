@@ -22,4 +22,4 @@ In an effort to help we can unwittingly prevent others from growing in the ways 
 
 > I lay down the burdens that are not mine to carry."
 
-![](https://tarotflower.files.wordpress.com/2020/07/affirmations-6.png?w=1024)
+![‘I lay down the burdens that are not mine to carry’ beside blossoms, Tarot Flower’s affirmation for the Ten of Wands](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/affirmations-6.png)

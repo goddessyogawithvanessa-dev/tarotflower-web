@@ -20,4 +20,4 @@ It's time to clean spiritual house with honest self-reflection, courage, and sac
 
 ---
 
-![](https://tarotflower.files.wordpress.com/2020/06/affirmations-5.png?w=1024)
+![‘I have the power to walk away from oppression and attachments’ over footprints in sand, Tarot Flower’s affirmation for releasing burdens](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/06/affirmations-5.png)

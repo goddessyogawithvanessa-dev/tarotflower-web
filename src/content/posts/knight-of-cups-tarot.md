@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Knight of Cups tarot card is a representation of a young, romantic, creative, and passionate individual. It is associated with the Water element and emphasizes the importance of emotions, intuition, and imagination in our lives. This card is a sign of romanticism and idealism, and can be a symbol of new beginnings, hope, and potential.
 
-<img src="/images/tarot/cups/knight-of-cups.png" alt="Woman riding an adorned white horse while holding a large golden chalice" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/knight-of-cups.png" alt="Knight Of Cups Tarot at Tarot Flower: woman riding an adorned white horse while holding a large golden chalice" width="1024" height="1024" loading="eager" decoding="async" />
 
 When this card appears in a reading, it can signify someone entering your life who will bring with them a wave of creative energy and passion. It is a sign of new connections that will be formed, and of a strong connection with your emotions and intuition. Specifically, the Knight of Cups can also be an indication of an opportunity for love or a new romance.
 

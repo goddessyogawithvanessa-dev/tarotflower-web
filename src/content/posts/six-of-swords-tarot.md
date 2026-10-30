@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/six-of-swords.png" alt="Three figures crossing water in a boat framed by six upright swords" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/six-of-swords.png" alt="Six Of Swords Tarot at Tarot Flower: three figures crossing water in a boat framed by six upright swords" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Six of Swords tarot card represents a journey, both physical and spiritual, in which we are moving away from pain and struggle and towards a better, brighter future. It symbolizes a difficult but necessary transition, often involving a movement from one place to another. It can also indicate a change in our outlook or attitude, from one of despair to one of hope.
 

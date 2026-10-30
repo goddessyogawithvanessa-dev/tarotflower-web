@@ -10,7 +10,7 @@ seo_title: "Blood Moon Wolf Moon on Middle Earth | Tarot Flower"
 seo_description: "It's raining outside as I write this. Big, heavy drops of rain. The showering cleanses everything, even my soul. Like tears falling from the eyes of..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2019/01/bloodmoonwolfmoon.jpg)
+![Wolf howling at a full moon above three women seen from behind, illustrating Tarot Flower’s Blood Moon Wolf Moon reflection](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2019/01/bloodmoonwolfmoon.jpg)
 
 It's raining outside as I write this. Big, heavy drops of rain. The showering cleanses everything, even my soul. Like tears falling from the eyes of great skies, I release everything.
 

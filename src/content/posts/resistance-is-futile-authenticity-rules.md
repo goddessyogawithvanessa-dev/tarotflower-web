@@ -10,7 +10,7 @@ seo_title: "III. Resistance is Futile, Authenticity Rules | Tarot Flower"
 seo_description: "There are those who will be fighting to preserve that which is dying. In so doing, they will remain stuck in a pattern of resistance for the entirety..."
 ---
 
-* ![](https://vanessahylande960269070.files.wordpress.com/2020/01/shadows.jpg?w=993)
+* ![Woman beside a shadowy winged figure, accompanying Tarot Flower’s reflection on resistance and authenticity](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/shadows.jpg)
 
 #### **The High Priestess and Pluto: Ten Steps From Darkness to Light**
 

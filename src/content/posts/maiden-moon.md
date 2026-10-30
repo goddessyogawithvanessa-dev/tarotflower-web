@@ -10,7 +10,7 @@ seo_title: "Maiden Moon | Tarot Flower"
 seo_description: "From Spell Songs. Original Lyrics by Vanessa Hylande"
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2019/02/maidenmoonfairy.jpg)
+![Winged woman within a crescent moon, illustration accompanying ‘Maiden Moon’ at Tarot Flower](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2019/02/maidenmoonfairy.jpg)
 
 *From Spell Songs. Original Lyrics by Vanessa Hylande*
 

@@ -65,7 +65,7 @@ function formatCategories(cats: string[]): string {
         const cats = post!.data.categories || [];
         return (
           <a href={`/${post!.data.slug}`} class="zodiac-card">
-            {img && <div class="zodiac-img"><img src={img} alt={post!.data.title} loading="lazy" /></div>}
+            {img && <div class="zodiac-img"><img src={img} alt={img.includes("Screen-Shot-2023-03-06") ? "Mother Moon music-video preview beneath stars and a full moon, Vanessa Hylande’s Virgo Moon Magic ritual resource at Tarot Flower" : img.includes("Screen-Shot-2023-12-13") ? "Vanessa Hylande’s 12:12 Portal sound-bath meditation for the New Moon in Sagittarius at Tarot Flower" : post!.body?.match(/!\[([^\]]*)\]\(/)?.[1] || post!.data.title} loading="lazy" /></div>}
             <div class="zodiac-info">
               <h3>{post!.data.title}</h3>
               <span class="zodiac-meta">by Vanessa Hylande | {displayDate} | {formatCategories(cats)}</span>

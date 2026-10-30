@@ -68,7 +68,7 @@
       grid.hidden = false;
     })
     .catch(() => {
-      loading.textContent = 'Your library could not be opened. Please request a new secure link.';
+      loading.textContent = 'Your library could not be opened. Please sign in again.';
     });
 
   logoutButton?.addEventListener('click', async () => {

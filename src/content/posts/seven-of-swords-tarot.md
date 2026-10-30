@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/seven-of-swords.png" alt="Woman carrying several swords through a luminous golden garden" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/seven-of-swords.png" alt="Seven Of Swords Tarot at Tarot Flower: woman carrying several swords through a luminous golden garden" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Seven of Swords tarot card is often seen as a difficult card to interpret, as it often has a negative connotation. It symbolizes a person who feels overwhelmed and unable to cope with life’s challenges. Additionally, the Seven of Swords can represent a person who is trying to take on too much and is struggling to keep up. However, this minor arcana card can also represent someone who is trying to cover up or hide their true intentions and is being deceptive in some way.
 

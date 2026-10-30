@@ -9,14 +9,14 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Five of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Five of Cups tarot card meaning for grief, love, healing, the reversed position, and practices for honoring loss and hope."
 seo_image: /images/tarot/cups/five-of-cups.png
-seo_image_alt: "Veiled figure walking away from five overturned cups toward a distant castle"
+seo_image_alt: "Veiled figure facing away from spilled and upright cups, Five of Cups Tarot artwork of loss and hope at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---
 
 If you’ve ever had the Five of Cups appear in a Tarot reading, you know that it can be an incredibly powerful and emotional card. This card is associated with loss, regret, and disappointment, but it also carries with it the potential for healing and hope.
 
-<img src="/images/tarot/cups/five-of-cups.png" alt="Veiled figure walking away from five overturned cups toward a distant castle" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/five-of-cups.png" alt="Veiled figure facing away from spilled and upright cups, Five of Cups Tarot artwork of loss and hope at Tarot Flower" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Five of Cups tarot card represents a period of sorrow and grief. This card often appears when we’ve experienced a great loss and are feeling overwhelmed with sadness. It can also signal a period of transition, where we are letting go of something or someone that we once held dear. It is a reminder that endings can bring new beginnings, and that while we may feel the pain of loss, it is ultimately a necessary part of growth.
 

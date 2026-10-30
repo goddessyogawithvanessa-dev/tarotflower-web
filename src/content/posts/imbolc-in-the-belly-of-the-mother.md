@@ -10,7 +10,7 @@ seo_title: "Imbolc - In the Belly of The Mother"
 seo_description: "Under the vanishing light of the recent eclipses, the Goddesses walking this Earth planted new seeds. We got down on our hands and knees and dug our..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2019/01/imbolcbrigit.jpg)
+![Red-haired woman crowned with candles, illustrating Brigit and Imbolc at Tarot Flower](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2019/01/imbolcbrigit.jpg)
 
 Under the vanishing light of the recent eclipses, the Goddesses walking this Earth planted new seeds. We got down on our hands and knees and dug our fingers into the dirt. The sweat dripped off of our brows as we repeated mantras to manifest plentitude and new beginnings. With this work, we sent our intentions to the stars. And so, this Imbolc, which is dedicated to the Fire Goddess Brigit, is the time for the seedling to peer out from the soil.
 

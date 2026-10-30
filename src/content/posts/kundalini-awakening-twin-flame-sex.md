@@ -118,7 +118,7 @@ The sexual union between twin flames is an exchange of not only physical pleasur
 
 ## Support Your Kundalini Awakening With Goddess Embodiment
 
-![goddess yoga, goddess yoga retreats, twin flame journey, kundalini awakening](https://i.postimg.cc/DwCshN4X/goddess-yoga.png)
+![goddess yoga, goddess yoga retreats, twin flame journey, kundalini awakening](/images/postimg-migration/DwCshN4X/goddess-yoga.png)
 
 Goddess embodiment and the practice of goddess yoga are powerful tools that can guide you through the profound experiences of Kundalini awakening and the intense journey of twin flames with grace, calmness, and poise. By embracing the essence of various goddess archetypes, such as the [Goddess Kali](/the-goddess-kali-unleashing-your-sacred-sexuality/), you tap into their wisdom, strength, and nurturing qualities. Goddess embodiment allows you to cultivate a deep connection with your divine feminine energy, fostering self-love, inner harmony, and spiritual alignment.
 
@@ -126,7 +126,7 @@ Through the practice of goddess yoga, you awaken and balance the energy centers 
 
 ## Need Support on Your Twin Flame Journey?
 
-![womens wellness retreat, goddess yoga, twin flame journey, divine feminine](https://i.postimg.cc/ZqKZh7tX/womens-wellness-retreat.png)
+![womens wellness retreat, goddess yoga, twin flame journey, divine feminine](/images/postimg-migration/ZqKZh7tX/womens-wellness-retreat.png)
 
 Ultimately, a Kundalini awakening is a sacred and transformative journey, which can also be intense and frightening. It holds the potential for profound spiritual awakening, self-realization, and a deep connection to the divine within yourself. It's a path of self-discovery and inner transformation that can bring about profound shifts in your perception, consciousness, and way of living in the world. That's why it is really important to have a trusted spiritual guide you can rely on, to help you navigate the powerful transformative energies. So, embrace this journey with kindness and trust, and know that we are here to support you on your path toward your twin flame. May your kundalini awakening and twin flame journey lead you to profound growth and fulfillment.
 

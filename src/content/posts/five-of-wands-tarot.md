@@ -9,12 +9,12 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Five of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Five of Wands tarot card meaning for competition, creative conflict, tension, love, reversal, and learning to engage difference constructively."
 seo_image: /images/tarot/wands/five-of-wands.png
-seo_image_alt: "Five women crossing wands amid swirling flowers, butterflies, and fiery energy"
+seo_image_alt: "Women crossing wands amid swirling flowers, butterflies, and fiery energy"
 seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/wands/five-of-wands.png" alt="Five women crossing wands amid swirling flowers, butterflies, and fiery energy" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/wands/five-of-wands.png" alt="Five Of Wands Tarot at Tarot Flower: women crossing wands amid swirling flowers, butterflies, and fiery energy" width="1024" height="1024" loading="eager" decoding="async" />
 
 If you’ve been asking yourself what the Five of Wands tarot card meaning is, you’ve come to the right place. This card is one of the most misunderstood cards in the tarot deck, but it can offer a great deal of insight if you know how to interpret it.
 

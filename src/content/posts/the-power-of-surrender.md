@@ -12,7 +12,7 @@ seo_description: "Photography by the esteemed Howard Schatz, Orenstein Studios"
 
 #### **The High Priestess and Pluto: Ten Steps From Darkness to Light**
 
-![](https://vanessahylande960269070.files.wordpress.com/2019/01/vanessaunderwaterschatz.jpg?w=715)
+![Vanessa Hylande floating underwater, illustrating surrender in her Tarot Flower reflection](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2019/01/vanessaunderwaterschatz.jpg)
 
 Photography by the esteemed Howard Schatz, Orenstein Studios
 

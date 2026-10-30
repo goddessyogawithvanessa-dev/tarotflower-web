@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Queen of Pentacles tarot card is a card of abundance and comfort. She is a symbol of stability, security, and prosperity. In a tarot card reading, this minor arcana archetype brings a sense of security, both financially and emotionally. She is a symbol of nurturing and loving energy, and she encourages us to take care of our physical and spiritual needs.
 
-<img src="/images/tarot/pentacles/queen-of-pentacles.png" alt="Crowned woman holding a pentacle amid flowers and glowing butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/pentacles/queen-of-pentacles.png" alt="Queen Of Pentacles Tarot at Tarot Flower: crowned woman holding a pentacle amid flowers and glowing butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 The Queen of Pentacles is a mature, confident, and wise woman who is deeply rooted in her material world. She is the symbol of a woman in charge, someone who is able to make decisions and take care of herself. She is often seen as a provider and protector, who is committed to providing for her family and friends. Traditionally, the Queen of Coins is someone who is able to bring her own wealth and abundance into her life.
 

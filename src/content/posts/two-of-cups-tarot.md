@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 The Two of Cups tarot card is one of the most interesting cards in the tarot deck. It symbolizes a deep connection between two people, and can indicate a strong emotional or spiritual bond. This card’s message is that the two of you are in harmony, and have a strong connection that may be romantic, but could also be platonic.
 
-<img src="/images/tarot/cups/two-of-cups.png" alt="Two figures holding matching ornate cups amid flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/cups/two-of-cups.png" alt="Two Of Cups Tarot at Tarot Flower: two figures holding matching ornate cups amid flowers and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 When the Two of Cups appears in a reading, it is an indication that there is a powerful connection between two people. This connection can be romantic, but it can also be friendship, family, or even an emotional link between two souls. It represents a perfect balance between two people, and the perfect understanding of one another.
 

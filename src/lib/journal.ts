@@ -15,9 +15,6 @@ export type JournalPlacementSlug = JournalCategorySlug | 'unshelved';
 export interface JournalCategory {
   slug: JournalCategorySlug;
   label: string;
-  eyebrow: string;
-  question: string;
-  description: string;
   image: string;
   imageAlt: string;
   imageWidth: number;
@@ -49,59 +46,43 @@ export interface JournalEntry {
 
 export const journalCategories: JournalCategory[] = [
   {
-    slug: 'embodiment', label: 'Goddess Embodiment', eyebrow: 'The room of becoming',
-    question: 'How do I embody this?',
-    description: 'Body, movement, healing and practices for becoming.',
-    image: '/images/2023/10/ixchel.jpg', imageAlt: 'Goddess Ixchel surrounded by luminous flowers and sacred symbols',
+    slug: 'embodiment', label: 'Goddess Embodiment',
+    image: '/images/2023/10/ixchel.jpg', imageAlt: "Ixchel amid luminous flowers, a doorway into Tarot Flower’s Goddess Embodiment practices",
     imageWidth: 1024, imageHeight: 1024, tone: 'rose',
   },
   {
-    slug: 'embodying-tarot', label: 'Embodying the Tarot', eyebrow: 'The room of living archetypes',
-    question: 'How do these archetypes live in everyday life?',
-    description: 'Meet the cards as lived wisdom rather than meanings to memorize.',
-    image: '/images/2020/06/I-am-the-fool.jpg', imageAlt: 'The Fool stepping toward an open landscape in Tarot Flower artwork',
+    slug: 'embodying-tarot', label: 'Embodying the Tarot',
+    image: '/images/2020/06/I-am-the-fool.jpg', imageAlt: "Meditating woman beneath the moon, a doorway into Tarot Flower’s Embodying Tarot practices",
     imageWidth: 1024, imageHeight: 1024, tone: 'sage',
   },
   {
-    slug: 'moon-magic', label: 'Moon Magic & Rituals', eyebrow: 'The moonlit room',
-    question: 'How do I work with sacred timing?',
-    description: 'Ritual, spell work, altars and ceremony for sacred timing.',
-    image: '/images/2023/02/moon-magic.jpeg', imageAlt: 'Moonlit ritual artwork surrounded by flowers and celestial light',
+    slug: 'moon-magic', label: 'Moon Magic & Rituals',
+    image: '/images/2023/02/moon-magic.jpeg', imageAlt: "Moonlit goddess among flowers, a doorway into Tarot Flower’s Moon Magic rituals",
     imageWidth: 540, imageHeight: 540, tone: 'midnight',
   },
   {
-    slug: 'cosmic-weather', label: 'Cosmic Weather', eyebrow: 'The celestial observatory',
-    question: 'What is happening in the sky?',
-    description: 'Eclipses, retrogrades, portals and the movements above us.',
-    image: '/images/2021/01/fool-7.jpg', imageAlt: 'Mystical figure beneath a star-filled sky representing celestial rhythms',
+    slug: 'cosmic-weather', label: 'Cosmic Weather',
+    image: '/images/2021/01/fool-7.jpg', imageAlt: "Woman beneath stars and a radiant crescent moon, a doorway into Tarot Flower’s Cosmic Weather reflections",
     imageWidth: 1024, imageHeight: 1024, tone: 'blue',
   },
   {
-    slug: 'twin-flames', label: 'Twin Flames & Relationships', eyebrow: 'The hall of mirrors',
-    question: 'How do relationships transform us?',
-    description: 'Connection, separation, devotion and the mirror of the heart.',
-    image: '/images/2023/05/kali-8.jpg', imageAlt: 'A goddess crowned in gold surrounded by red roses and warm light',
+    slug: 'twin-flames', label: 'Twin Flames & Relationships',
+    image: '/images/2023/05/kali-8.jpg', imageAlt: "Kali crowned in gold among red roses, a doorway into Tarot Flower’s Twin Flame reflections",
     imageWidth: 1024, imageHeight: 1024, tone: 'plum',
   },
   {
-    slug: 'affirmations', label: 'Affirmations & Manifestation', eyebrow: 'The room of spoken spells',
-    question: 'How do I reshape my inner dialogue?',
-    description: 'Inner language for confidence, love, abundance and possibility.',
-    image: '/images/2024/02/Divine-Feminine-Affirmations-blog-art.jpeg', imageAlt: 'Divine feminine affirmation artwork in luminous rose and gold',
+    slug: 'affirmations', label: 'Affirmations & Manifestation',
+    image: '/images/2024/02/Divine-Feminine-Affirmations-blog-art.jpeg', imageAlt: "Golden-crowned goddess, a doorway into Tarot Flower’s Divine Feminine affirmations",
     imageWidth: 960, imageHeight: 540, tone: 'gold',
   },
   {
-    slug: 'mythology', label: 'Goddess Mythology', eyebrow: 'The gallery of goddesses',
-    question: 'What wisdom do these archetypes carry?',
-    description: 'Ancient goddesses and the living wisdom carried in their stories.',
-    image: '/images/2023/07/aphrodite.jpg', imageAlt: 'Goddess Aphrodite surrounded by flowers in mythological artwork',
+    slug: 'mythology', label: 'Goddess Mythology',
+    image: '/images/2023/07/aphrodite.jpg', imageAlt: "Aphrodite among flowers, a doorway into Tarot Flower’s goddess mythology library",
     imageWidth: 1024, imageHeight: 1024, tone: 'petal',
   },
   {
-    slug: 'vanessas-grimoire', label: "Vanessa's Grimoire", eyebrow: 'The private reading room',
-    question: 'What have I discovered?',
-    description: 'Personal stories, essays, dreams, poetry and reflection.',
-    image: '/images/2020/07/hope.jpg', imageAlt: 'Dreamlike floral artwork representing hope and personal reflection',
+    slug: 'vanessas-grimoire', label: "Vanessa's Grimoire",
+    image: '/images/2020/07/hope.jpg', imageAlt: "Woman in white above clouds and sunrise, a doorway into Vanessa’s personal reflections at Tarot Flower",
     imageWidth: 1024, imageHeight: 1024, tone: 'ink',
   },
 ];
@@ -109,9 +90,45 @@ export const journalCategories: JournalCategory[] = [
 const categoryBySlug = Object.fromEntries(journalCategories.map((category) => [category.slug, category])) as Record<JournalCategorySlug, JournalCategory>;
 
 const featuredArtworkBySlug: Record<string, NonNullable<JournalEntry['featureImage']>> = {
+  'embodiment-dance-for-high-vibe-living': {
+    src: '/images/embodiment-dance/embodiment-dance-goddess-embodiment-hero-960.webp',
+    alt: 'Embodiment Dance Goddess Embodiment hero: a goddess in expressive dance amid flowing amber fabrics and luminous energy, evoking Divine Feminine Sacred Becoming — Midjourney art by Vanessa Hylande for Tarot Flower.',
+    width: 960,
+    height: 1200,
+  },
+  'want-more-powerful-magic-embody-your-intention-through-dance': {
+    src: '/images/powerful-magic/powerful-magic-embodiment-dance-manifestation-hero-960.webp',
+    alt: 'Manifestation ritual, bejeweled goddess pulling luminous energy from earth toward the stars, powerful magic, embody your intention through dance, Goddess Embodiment, Step Into Your Fire, Midjourney art Vanessa Hylande, Tarot Flower.',
+    width: 960,
+    height: 1200,
+  },
+  'creating-sacred-space-how-to-cast-a-goddess-circle': {
+    src: '/images/sacred-space/creating-sacred-space-goddess-circle-theia-hero-960.webp',
+    alt: 'Goddess Theia casting a luminous Goddess Circle, sacred geometry, crystals, flowers, creating sacred space, ritual magic, Divine Feminine, intention setting, Step Into Your Fire, Midjourney art Vanessa Hylande, Tarot Flower.',
+    width: 960,
+    height: 1200,
+  },
   'what-is-an-embodied-goddess': {
     src: '/images/journal/what-is-an-embodied-goddess.png',
-    alt: 'A luminous winged goddess surrounded by flowers and butterflies',
+    alt: 'Winged goddess among flowers and butterflies, introducing Tarot Flower’s Goddess Embodiment practice',
+    width: 1024,
+    height: 1024,
+  },
+  'what-is-a-twin-flame-how-to-know-if-youve-met-your-mirror-soul': {
+    src: '/images/2023/06/twin-flame-union-3.jpg',
+    alt: 'twin flame separation, divine feminine healing, twin flame sex, twin flame union',
+    width: 1024,
+    height: 1024,
+  },
+  'moon-magic': {
+    src: '/images/2022/12/21.jpg',
+    alt: 'moon magic candle magick',
+    width: 540,
+    height: 540,
+  },
+  'goddess-embodiment-when-the-raven-spoke-to-me': {
+    src: '/images/2023/10/raven.jpg',
+    alt: 'Spoke the Raven Midjourney art Vanessa Hylande',
     width: 1024,
     height: 1024,
   },
@@ -119,7 +136,7 @@ const featuredArtworkBySlug: Record<string, NonNullable<JournalEntry['featureIma
 
 const roomAssignments: Record<JournalCategorySlug, string[]> = {
   embodiment: [
-    'self-care-practices-to-make-you-feel-happier','spiritual-wellness-retreat-with-tarot-card-readings','allow-your-inner-goddess-to-bloom','an-embodied-goddess-always-finds-herself','balance-your-7-chakras-to-reset-your-nervous-system','best-yoga-retreat-europe-2023-the-perfect-european-vacation-in-italy','best-yoga-wellness-retreat-for-women-2024','dancing-the-major-arcana','discover-goddess-yoga-through-embodiment-dance','embodied-learning-a-holistic-approach','embodiment-course','embodiment-through-the-arts','embody-the-goddess-within','embodying-artemis-goddess-of-the-hunt-1212-portal-and-new-moon-in-sagittarius-2023','embodying-harmony','embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga','feminine-embodiment-practices-to-shine','glow-up-with-goddess-yoga','goddess-dance-embodiment-celebrate-spring','goddess-embodiment-your-divine-feminine','goddess-yoga-2024-step-into-the-spotlight-with-classes-retreats-and-the-mystic-mansion','goddess-yoga-wellness-retreat-making-magical-moments','goddess-yourself-with-tarot-dance-yoga-ritual','holistic-living-with-embodiment-through-the-arts','how-to-be-a-goddess-of-dance','how-to-be-more-beautiful','how-to-self-heal-through-embodiment-practices','feel-like-the-empress','kundalini-awakening-twin-flame-sex','lago-dorta-italy-dragons-in-the-dolomites','music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023','sound-bath-meditation-for-embodying-the-goddess-yemaya','sound-bath-meditation-12-12-portal-and-the-sagittarius-new-moon','the-best-heart-chakra-yoga-poses-activating-opening-and-balancing-your-anahata-chakra','the-magic-to-activate-your-divine-feminine','the-sacred-temple-creating-sanctuary-within-and-without','types-of-yoga-finding-your-inner-goddess-in-different-yoga-styles','what-is-an-embodied-goddess','what-is-goddess-yoga-unleashing-your-divine-feminine','why-dance-is-the-best-embodiment-practice',
+    'embodiment-dance-for-high-vibe-living','self-care-practices-to-make-you-feel-happier','spiritual-wellness-retreat-with-tarot-card-readings','allow-your-inner-goddess-to-bloom','an-embodied-goddess-always-finds-herself','balance-your-7-chakras-to-reset-your-nervous-system','best-yoga-retreat-europe-2023-the-perfect-european-vacation-in-italy','best-yoga-wellness-retreat-for-women-2024','dancing-the-major-arcana','discover-goddess-yoga-through-embodiment-dance','embodied-learning-a-holistic-approach','embodiment-course','embodiment-through-the-arts','embody-the-goddess-within','embodying-artemis-goddess-of-the-hunt-1212-portal-and-new-moon-in-sagittarius-2023','embodying-harmony','embrace-your-divine-feminine-discover-the-magic-of-goddess-yoga','feminine-embodiment-practices-to-shine','glow-up-with-goddess-yoga','goddess-dance-embodiment-celebrate-spring','goddess-embodiment-your-divine-feminine','goddess-yoga-2024-step-into-the-spotlight-with-classes-retreats-and-the-mystic-mansion','goddess-yoga-wellness-retreat-making-magical-moments','goddess-yourself-with-tarot-dance-yoga-ritual','holistic-living-with-embodiment-through-the-arts','how-to-be-a-goddess-of-dance','how-to-be-more-beautiful','how-to-self-heal-through-embodiment-practices','feel-like-the-empress','kundalini-awakening-twin-flame-sex','lago-dorta-italy-dragons-in-the-dolomites','music-for-ritual-and-meditationmoon-magic-for-the-full-moon-in-virgo-2023','sound-bath-meditation-for-embodying-the-goddess-yemaya','sound-bath-meditation-12-12-portal-and-the-sagittarius-new-moon','the-best-heart-chakra-yoga-poses-activating-opening-and-balancing-your-anahata-chakra','the-magic-to-activate-your-divine-feminine','the-sacred-temple-creating-sanctuary-within-and-without','types-of-yoga-finding-your-inner-goddess-in-different-yoga-styles','what-is-an-embodied-goddess','what-is-goddess-yoga-unleashing-your-divine-feminine','why-dance-is-the-best-embodiment-practice',
   ],
   'embodying-tarot': [
     'a-powerful-trio-of-opportunity','be-in-service-of-your-dreams','be-your-own-knight-in-shining-armor','celebrate-your-creations','challenges-are-the-learning-ground-of-the-heart','choose-your-burdens','dont-fear-the-leap-to-freedom','freeing-your-heart-from-your-mind','in-darkness-be-the-light','its-time-to-talk','riches-grow-from-the-seeds-in-your-heart','slow-down-to-discover-the-magic-of-life','speak-your-truth','step-forward-with-a-pure-heart','the-battle-for-your-dreams','the-empress-emerges-from-stillness','the-first-whispers-of-the-high-priestess','freedom-of-the-fool','the-growing-pains-of-blossoming-dreams','the-magician-tarot-card-says-dream-big','the-moon-reveals-hidden-truths','the-shape-of-your-dreams','the-wisdom-of-the-shaman','true-strength-shines-in-our-gentlest-moments','turning-from-loss-to-joy','bringer-of-joy-and-good-luck',
@@ -179,7 +196,7 @@ function countWords(body: string): number {
 export function createJournalEntries(posts: any[]): JournalEntry[] {
   return posts.filter((post) => post.data.content_type === 'post' && !isTarotLibraryArticle(post.data.slug) && !excludedFromJournal.has(post.data.slug)).map((post) => {
     const slug = post.data.slug as string;
-    const category: JournalPlacementSlug = primaryRoomBySlug.get(slug) || (unshelvedSlugs.has(slug) ? 'unshelved' : 'unshelved');
+    const category: JournalPlacementSlug = primaryRoomBySlug.get(slug) || post.data.journal_category || (unshelvedSlugs.has(slug) ? 'unshelved' : 'unshelved');
     const categoryConfig = category === 'unshelved' ? null : categoryBySlug[category];
     const body = post.body || '';
     const localImage = extractLocalImage(body);
@@ -189,7 +206,7 @@ export function createJournalEntries(posts: any[]): JournalEntry[] {
       categoryLabel: categoryConfig?.label || 'Unshelved cart', relatedPathways: relatedPathways[slug] || [],
       image: post.data.seo_image || localImage?.src || categoryConfig?.image || '/images/2023/10/raven.jpg',
       imageAlt: post.data.seo_image_alt || localImage?.alt || categoryConfig?.imageAlt || 'Mystical Tarot Flower library artwork',
-      date, year: date.getUTCFullYear(), wordCount: countWords(body), featured: Boolean(post.data.journal_featured), featureOrder: Number(post.data.journal_feature_order || 999),
+      date, year: date.getUTCFullYear(), wordCount: countWords(body), featured: Boolean(post.data.journal_featured), featureOrder: Number(post.data.journal_feature_order ?? 999),
       featureImage: featuredArtworkBySlug[slug],
     } satisfies JournalEntry;
   }).sort((a,b) => a.title.localeCompare(b.title));
@@ -200,9 +217,9 @@ export function getCategoryEntries(entries: JournalEntry[], slug: JournalCategor
 export function getShelfEntries(entries: JournalEntry[], slug: JournalCategorySlug, limit = 3): JournalEntry[] {
   if (slug === 'embodiment') {
     const selectedSlugs = [
+      'embodiment-dance-for-high-vibe-living',
       'why-dance-is-the-best-embodiment-practice',
       'how-to-self-heal-through-embodiment-practices',
-      'embodied-learning-a-holistic-approach',
     ];
     return selectedSlugs
       .map((selectedSlug) => entries.find((entry) => entry.slug === selectedSlug))

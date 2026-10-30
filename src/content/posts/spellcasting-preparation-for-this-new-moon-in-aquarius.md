@@ -10,7 +10,7 @@ seo_title: "Spellcasting Preparation for this New Moon in Aquarius | Tarot Flowe
 seo_description: "This new moon in Aquarius marks the beginning of our collective and personal new chapters. We have purged the old that stood in our way, and excavated..."
 ---
 
-![](https://vanessahylande960269070.files.wordpress.com/2020/01/chart-libra-zodiac-horoscope-astrology-divination-993127.jpg?w=1024)
+![Astrological chart with zodiac symbols, used in Tarot Flower’s New Moon in Aquarius spell-casting preparation](/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/chart-libra-zodiac-horoscope-astrology-divination-993127.jpg)
 
 #### **Unleashing Our Soul's Purpose, Healing the Divine Feminine**
 

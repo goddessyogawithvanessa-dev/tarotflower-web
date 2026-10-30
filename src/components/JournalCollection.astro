@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import reviewedDescriptions from '../data/reviewedMetaDescriptions.json';
+import signatures from '../data/editorialImageAlts.json';
+import { preferredImages } from '../lib/preferred-images';
+import type { JournalCollection } from '../data/journalCollections';
+
+interface Props { collection: JournalCollection; visual?: boolean; }
+const { collection, visual = false } = Astro.props;
+const posts = await getCollection('posts');
+const groups = collection.groups.map(group => ({
+  ...group,
+  articles: group.slugs.map(slug => {
+    const post = posts.find(post => post.data.slug === slug);
+    if (!post) throw new Error(`Missing curated Journal article: ${slug}`);
+    const pathname = `/${slug}/`;
+    const preferred = preferredImages[pathname];
+    const preserved = (signatures as Record<string, Array<{src: string; alt: string}>>)[pathname]?.find(entry => entry.src === preferred?.src);
+    const sourceImage = [...(post.body ?? '').matchAll(/!\[([^\]]*)\]\((\/images\/[^)\s]+)(?:\s+"[^"]*")?\)/g)].find(match => match[2] === preferred?.src);
+    // Recover unchanged historical wording from the article when no override was needed.
+    const preservedAlt = preserved?.alt ?? sourceImage?.[1];
+    const artwork = preferred && preservedAlt ? { ...preferred, alt: preservedAlt } : undefined;
+    const description = (reviewedDescriptions as Record<string, string>)[pathname] ?? post.data.seo_description;
+    if (!description) throw new Error(`Missing article description: ${slug}`);
+    return { slug, title: post.data.title, description, artwork };
+  }),
+}));
+---
+{groups.map(group => (
+  <section>
+    <h2>{group.title}</h2>
+    <div class="zodiac-grid">
+      {group.articles.filter(article => !visual || article.artwork).map(article => (
+        <a href={`/${article.slug}/`} class="zodiac-card">
+          {visual && article.artwork && (
+            <img src={article.artwork.src} alt={article.artwork.alt}
+              width={article.artwork.width} height={article.artwork.height}
+              loading="lazy" decoding="async" />
+          )}
+          <div class="zodiac-info">
+            <h3>{article.title}</h3>
+            <p class="zodiac-excerpt">{article.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+    {visual && group.articles.some(article => !article.artwork) && (
+      <ul>
+        {group.articles.filter(article => !article.artwork).map(article => (
+          <li>
+            <h3><a href={`/${article.slug}/`}>{article.title}</a></h3>
+            <p>{article.description}</p>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+))}

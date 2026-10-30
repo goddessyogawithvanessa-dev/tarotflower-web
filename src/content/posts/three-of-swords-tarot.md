@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<img src="/images/tarot/swords/three-of-swords.png" alt="Three ornate swords piercing a floral heart with roses and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
+<img src="/images/tarot/swords/three-of-swords.png" alt="Three Of Swords Tarot at Tarot Flower: three ornate swords piercing a floral heart with roses and butterflies" width="1024" height="1024" loading="eager" decoding="async" />
 
 Getting the 3 of Swords in your tarot card reading can strike fear in the heart of just about anyone. Nobody wants to experience what this card foretells, and if it appears in the future position of your reading, it looks like you or someone you are dealing with will be in for a challenging situation.
 

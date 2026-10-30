@@ -26,4 +26,4 @@ And do lean on those who support you. The people in your life who respect your c
 
 > My boundaries protect me."
 
-![](https://tarotflower.files.wordpress.com/2020/07/petals-photo-summer-quote-instagram-post.png?w=1024)
+![‘My boundaries protect me’ surrounded by pale pink roses, Tarot Flower’s affirmation for protecting your dreams](/images/wordpress-migration/tarotflower.files.wordpress.com/2020/07/petals-photo-summer-quote-instagram-post.png)

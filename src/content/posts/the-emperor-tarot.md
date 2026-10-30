@@ -14,7 +14,7 @@ seo_image_width: 1024
 seo_image_height: 1024
 ---
 
-<p><img src="/images/2021/01/the-emperor.jpg" alt="The Emperor Tarot artwork for The Emperor" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high" /></p>
+<p><img src="/images/2021/01/the-emperor.jpg" alt="A golden dragon beneath the stars, symbolizing the Emperor’s authority in Tarot Flower’s Tarot library" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high" /></p>
 
 When the Emperor tarot card appears in your reading, there are energies of **stability** and **authority** around you. The Emperor is like a traditional king. He is charged with **protecting** his people and leading them through conflict with strength but also with **compassion**.
 

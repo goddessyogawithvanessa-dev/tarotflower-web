@@ -28,6 +28,8 @@ If you are looking for an embodiment synonym think about other words for the ver
 
 For example, there are many embodiment yoga practices popping up that incorporate elements of embodiment practices. In fact, yoga already inherently and naturally incorporates aspects of embodiment practice. But, there is a reason [why dance is the best embodiment practice](/why-dance-is-the-best-embodiment-practice).
 
+Explore [how embodiment dance connects with the seven chakras](/embodiment-dance-for-high-vibe-living/), their elements and their goddess archetypes.
+
 ## How is Self Healing With Embodiment Practices Different?
 
 Rather than always looking to the outside to others to fix the broken parts of you, it's time to spend some time and energy looking within in order to self heal. So, what does that mean? How do we self heal when we don't know what's wrong and how to fix it?

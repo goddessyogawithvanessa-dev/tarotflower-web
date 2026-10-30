@@ -1465,6 +1465,78 @@ body {
   font-size: 1.1rem;
 }
 
+.library-account-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px 20px;
+  margin-top: 3px;
+  font-size: 0.9rem;
+}
+
+.library-account-links a,
+.library-privacy-note a {
+  color: #765628;
+  text-underline-offset: 0.2em;
+}
+
+.library-login-form[hidden],
+.library-confirmation[hidden] {
+  display: none !important;
+}
+
+.library-new-account {
+  max-width: 450px;
+  margin: 28px auto 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(181, 138, 67, 0.28);
+}
+
+.library-new-account p {
+  margin: 0 0 12px;
+}
+
+.library-secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 25px;
+  border: 1px solid #a77b39;
+  border-radius: 999px;
+  color: #765628;
+  font-family: 'Aboreto', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.library-confirmation {
+  max-width: 460px;
+  margin: 32px auto 0;
+}
+
+.library-confirmation h2 {
+  color: var(--library-ink);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 500;
+}
+
+.library-confirmation p {
+  color: var(--library-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.library-password-help {
+  margin: -4px 4px 3px;
+  color: var(--library-muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
 .library-form-status,
 .library-privacy-note,
 .library-test-mode {
@@ -3150,6 +3222,16 @@ p { margin-bottom: 1.1em; color: #666; }
   margin: 0 0 20px 30px;
   border-radius: 6px;
 }
+.content .article-image {
+  width: min(100%, 680px);
+  margin: 1.35em auto 2em;
+}
+.content .article-image img {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+.content .article-image--hero { margin-top: 0; }
 img {
   max-width: 100%;
   height: auto;
@@ -4329,6 +4411,13 @@ strong { color: #333; }
   display: grid;
   gap: 14px;
 }
+#site-footer .tarot-newsletter-form label > span,
+#site-footer .tarot-newsletter-form .oracle-waitlist-consent span,
+.tarot-newsletter-status { color: #eee2ce; }
+#site-footer .tarot-newsletter-form button { color: #eee2ce; border-color: #aa8654; }
+#site-footer .tarot-newsletter-form button:hover,
+#site-footer .tarot-newsletter-form button:focus-visible { background: #302720; color: #fff6e6; }
+.tarot-newsletter-form { margin: 20px 0; }
 .oracle-waitlist-form label {
   display: grid;
   gap: 6px;
@@ -4873,6 +4962,13 @@ footer:not(#site-footer) {
     radial-gradient(ellipse 34% 46% at 1% 55%, rgba(150, 91, 64, .105), transparent 85%),
     radial-gradient(ellipse 30% 42% at 100% 36%, rgba(194, 152, 99, .075), transparent 86%),
     linear-gradient(180deg, #0e2023 0%, #09191b 26%, #071315 67%, #040d0f 100%);
+}
+/* Full-width page backgrounds meet the footer without exposing the white body.
+   Privacy controls may sit between the page and footer; retain each page's
+   intentional internal padding and the normal spacing on article layouts. */
+main:is(.sacred-becoming-landscape, .becoming-temple, .oracle-deck-page,
+  .reading-sales-page, .rituals-page, .privacy-page) ~ #site-footer {
+  margin-top: 0;
 }
 #site-footer::before {
   content: '';
@@ -5854,6 +5950,37 @@ footer:not(#site-footer) {
 }
 .minor-arcana-page .zodiac-info h3 {
   padding: 0;
+}
+
+/* Phase 1 Pentacles SEO experiment: hierarchy and cross-cluster navigation */
+.tarot-breadcrumbs {
+  margin: 0.8rem 0 1.4rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+.tarot-breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tarot-breadcrumbs li:not(:last-child)::after {
+  margin-left: 0.4rem;
+  color: #999;
+  content: '/';
+}
+.tarot-breadcrumbs a {
+  color: #5b2333;
+  text-underline-offset: 0.2em;
+}
+.pentacles-experiment-links {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 3em 0;
+}
+.pentacles-experiment-links a {
+  min-height: 0;
 }
 
 /* Tantric Tarot by Melissa */
@@ -7969,11 +8096,25 @@ footer:not(#site-footer) {
 }
 
 .digital-ritual-banner {
+  position: relative;
   width: 100%;
   min-height: 450px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.digital-ritual-banner > img,
+.digital-ritual-audio-cover > img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: center;
 }
 
 .digital-ritual-introduction,
@@ -8257,7 +8398,7 @@ footer:not(#site-footer) {
 .fire-hero {
   position: relative;
   display: block;
-  height: clamp(260px, 36vw, 520px);
+  height: clamp(320px, 30vw, 430px);
   min-height: 0;
   overflow: hidden;
   background: #151416;
@@ -8267,7 +8408,12 @@ footer:not(#site-footer) {
   content: none;
 }
 
-.fire-hero > img {
+.fire-hero-image {
+  position: absolute;
+  inset: 0;
+}
+
+.fire-hero-image > img {
   position: absolute;
   inset: 0;
   display: block;
@@ -8278,11 +8424,79 @@ footer:not(#site-footer) {
   object-position: 50% 18%;
 }
 
+.fire-hero-offer {
+  position: relative;
+  display: flex;
+  width: min(390px, 100%);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 24px auto 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #FAF9F6;
+  text-align: center;
+}
+
+.fire-hero-price {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  gap: 3px;
+  color: #FAF9F6;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 1.02rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.fire-hero-price strong {
+  color: #E0BE78;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+.digital-ritual-page--fire .fire-product-title .fire-hero-cta {
+  display: inline-flex;
+  width: min(330px, 100%);
+  min-height: 54px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.9em 1.6em;
+  border-color: #A33220;
+  border-radius: 30px;
+  background: #A33220;
+  color: #FFFFFF;
+  font-family: 'Quattrocento', Georgia, serif;
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.digital-ritual-page--fire .fire-product-title .fire-hero-cta:hover,
+.digital-ritual-page--fire .fire-product-title .fire-hero-cta:focus-visible {
+  border-color: #B64B34;
+  background: #B64B34;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
 .fire-product-title {
-  padding: clamp(64px, 8vw, 104px) 0 clamp(70px, 9vw, 116px);
+  padding: 44px 0 clamp(70px, 9vw, 116px);
   background: var(--fire-night);
   color: #FAF9F6;
   text-align: center;
+}
+
+.fire-product-title .digital-ritual-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .fire-product-identifier {
@@ -8296,7 +8510,7 @@ footer:not(#site-footer) {
 }
 
 .fire-product-title h1 {
-  margin: clamp(22px, 3vw, 34px) 0 0;
+  margin: 16px 0 0;
   color: #FAF9F6;
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(3.2rem, 6.5vw, 5.25rem);
@@ -8306,7 +8520,7 @@ footer:not(#site-footer) {
 }
 
 .fire-product-subtitle {
-  margin: clamp(26px, 3vw, 38px) 0 0;
+  margin: 18px 0 0;
   color: #FAF9F6;
   font-family: 'Aboreto', serif;
   font-size: clamp(1.35rem, 3vw, 1.95rem);
@@ -9175,15 +9389,48 @@ footer:not(#site-footer) {
 
 @media (max-width: 767px) {
   .fire-hero {
-    height: clamp(210px, 58vw, 300px);
+    height: auto;
     min-height: 0;
   }
 
-  .fire-hero > img {
+  .fire-hero-image {
+    position: relative;
+    height: clamp(210px, 58vw, 300px);
+    overflow: hidden;
+  }
+
+  .fire-hero-image > img {
     width: 100%;
     object-position: 57% 34%;
     transform: scale(1.7);
     transform-origin: 57% 22%;
+  }
+
+  .fire-hero-offer {
+    order: -1;
+    width: 100vw;
+    flex-direction: column;
+    gap: 14px;
+    margin: -56px calc(50% - 50vw) 56px;
+    padding: 22px 18px 27px;
+    border: 1px solid rgba(198, 161, 91, 0.72);
+    border-width: 1px 0 0;
+    border-radius: 0;
+    background: #151416;
+    box-shadow: none;
+  }
+
+  .fire-hero-price {
+    font-size: 0.98rem;
+    text-align: center;
+  }
+
+  .fire-hero-price strong {
+    font-size: 1.35rem;
+  }
+
+  .digital-ritual-page--fire .fire-product-title .fire-hero-cta {
+    width: min(100%, 340px);
   }
 
   .fire-product-title {
@@ -9312,6 +9559,45 @@ footer:not(#site-footer) {
   place-items: end center;
   overflow: hidden;
   background: var(--fire-night);
+}
+
+.fire-private-nav {
+  position: sticky;
+  z-index: 30;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 56px;
+  padding: 0 clamp(20px, 4vw, 52px);
+  border-bottom: 1px solid rgba(214, 175, 112, 0.28);
+  background: rgba(20, 18, 20, 0.94);
+  backdrop-filter: blur(12px);
+}
+
+.fire-private-nav a {
+  color: rgba(250, 249, 246, 0.88);
+  font-family: 'Aboreto', serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.fire-private-wordmark {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.2em !important;
+}
+
+.fire-private-nav a:hover,
+.fire-private-nav a:focus-visible {
+  color: var(--fire-gold);
+}
+
+.fire-private-nav a:focus-visible {
+  outline: 2px solid var(--fire-gold);
+  outline-offset: 5px;
 }
 
 .fire-ritual-opening-image,
@@ -9961,6 +10247,31 @@ footer:not(#site-footer) {
   letter-spacing: 0.16em;
 }
 
+.fire-video-loading {
+  display: grid;
+  place-content: center;
+}
+
+.fire-unified-video-placeholder.is-ready {
+  display: block;
+}
+
+.fire-stream-player {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.fire-video-error {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 28px;
+  color: var(--fire-cream);
+  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+  line-height: 1.6;
+}
+
 .fire-blessing {
   background: #fff;
   text-align: center;
@@ -10108,8 +10419,16 @@ footer:not(#site-footer) {
   transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
+button.fire-download-link {
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+
 a.fire-download-link:hover,
-a.fire-download-link:focus-visible {
+a.fire-download-link:focus-visible,
+button.fire-download-link:hover,
+button.fire-download-link:focus-visible {
   background: var(--fire-gold);
   color: var(--fire-night);
   transform: translateY(-2px);
@@ -10127,6 +10446,32 @@ a.fire-download-link:focus-visible {
   font-family: 'Quattrocento', Georgia, serif;
   font-size: 0.72rem;
   letter-spacing: 0.04em;
+}
+
+.fire-companion {
+  background: #4A0F18;
+  color: var(--fire-cream);
+  text-align: center;
+}
+
+.fire-companion h2 {
+  margin: 0;
+  color: var(--fire-cream);
+}
+
+.fire-companion-introduction {
+  max-width: 690px;
+  margin: clamp(34px, 5vw, 54px) auto 0;
+  color: rgba(250, 249, 246, 0.86);
+  font-size: clamp(1.08rem, 1.7vw, 1.28rem);
+  line-height: 1.75;
+}
+
+.fire-companion-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(14px, 2vw, 22px);
+  margin-top: clamp(42px, 6vw, 64px);
 }
 
 .fire-continuation {
@@ -10246,6 +10591,15 @@ a.fire-download-link:focus-visible {
 }
 
 @media (max-width: 767px) {
+  .fire-private-nav {
+    min-height: 52px;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .fire-private-nav a { font-size: 0.56rem; }
+  .fire-private-wordmark { font-size: 0.86rem !important; }
+
   .fire-ritual-row,
   .fire-ritual-wide-row {
     width: auto;
@@ -10282,6 +10636,7 @@ a.fire-download-link:focus-visible {
   .fire-sacred-law-return,
   .fire-sacred-law-shadow,
   .fire-materials,
+  .fire-companion-actions,
   .fire-download-links,
   .fire-continuation-links {
     grid-template-columns: 1fr;
@@ -11043,6 +11398,180 @@ a.fire-download-link:focus-visible {
 
   .fire-threshold-copy h2 {
     font-size: clamp(2.65rem, 13vw, 3.5rem);
+  }
+}
+
+/* Private FIRE ritual — concise companion-first gateway */
+.fire-gateway-opening {
+  min-height: min(78svh, 780px);
+}
+
+.fire-gateway-opening .fire-ritual-opening-shade {
+  background:
+    linear-gradient(180deg, rgba(21, 20, 22, 0.08) 0%, rgba(21, 20, 22, 0.2) 36%, rgba(21, 20, 22, 0.96) 100%),
+    linear-gradient(90deg, rgba(21, 20, 22, 0.26), transparent 62%);
+}
+
+.fire-gateway-opening-copy {
+  width: min(820px, calc(100% - 44px));
+  padding: clamp(190px, 24vh, 270px) 0 clamp(58px, 8vh, 86px);
+}
+
+.fire-gateway-opening-copy h1 {
+  margin-top: clamp(18px, 2.5vw, 28px);
+  font-size: clamp(4rem, 7vw, 6.6rem);
+  line-height: 0.96;
+}
+
+.fire-gateway-welcome {
+  margin: clamp(28px, 4vw, 42px) 0 0;
+  color: var(--fire-gold);
+  font-family: 'Tangerine', cursive;
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 700;
+  line-height: 0.95;
+}
+
+.fire-gateway-guidance {
+  max-width: 720px;
+  margin: clamp(26px, 3.5vw, 38px) auto 0;
+  color: rgba(250, 249, 246, 0.88);
+  font-size: clamp(1.04rem, 1.55vw, 1.22rem);
+  line-height: 1.7;
+}
+
+.fire-gateway-guidance strong {
+  color: var(--fire-cream);
+}
+
+.fire-gateway-companion {
+  padding: clamp(78px, 9vw, 116px) 0;
+  background:
+    radial-gradient(circle at 50% 0, rgba(198, 161, 91, 0.12), transparent 30rem),
+    #4a0f18;
+}
+
+.fire-gateway-companion .fire-ritual-eyebrow {
+  margin-bottom: clamp(20px, 3vw, 30px);
+}
+
+.fire-gateway-companion h2 {
+  text-transform: none;
+}
+
+.fire-gateway-companion .fire-companion-actions {
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fire-download-link--primary {
+  border-color: var(--fire-gold);
+  background: var(--fire-gold);
+  box-shadow: 0 10px 30px rgba(21, 20, 22, 0.22);
+  color: var(--fire-night);
+  font-weight: 700;
+}
+
+a.fire-download-link--primary:hover,
+a.fire-download-link--primary:focus-visible {
+  background: var(--fire-cream);
+  color: var(--fire-rust);
+}
+
+.fire-ritual-begin {
+  overflow: hidden;
+  padding: clamp(82px, 10vw, 126px) 0 clamp(68px, 8vw, 96px);
+  background:
+    radial-gradient(circle at 50% 32%, rgba(159, 63, 36, 0.22), transparent 38rem),
+    var(--fire-night);
+  color: var(--fire-cream);
+  text-align: center;
+}
+
+.fire-begin-copy {
+  max-width: 760px;
+}
+
+.fire-begin-copy h2 {
+  color: var(--fire-cream);
+  font-size: clamp(3.2rem, 6vw, 5.4rem);
+  text-transform: none;
+}
+
+.fire-begin-copy p {
+  margin: clamp(24px, 3vw, 34px) 0 0;
+  color: rgba(250, 249, 246, 0.86);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  line-height: 1.35;
+}
+
+.fire-begin-player-wrap {
+  margin-top: clamp(40px, 5vw, 62px);
+}
+
+.fire-gateway-return {
+  margin-top: clamp(38px, 5vw, 54px);
+  color: var(--fire-gold);
+}
+
+.fire-gateway-return:hover,
+.fire-gateway-return:focus-visible {
+  color: var(--fire-cream);
+}
+
+@media (max-width: 767px) {
+  .fire-gateway-opening {
+    min-height: 100svh;
+  }
+
+  .fire-gateway-opening .fire-ritual-opening-image {
+    object-position: 57% 28%;
+  }
+
+  .fire-gateway-opening-copy {
+    padding: 32vh 0 9vh;
+  }
+
+  .fire-gateway-opening-copy h1 {
+    font-size: clamp(3rem, 14vw, 4.35rem);
+  }
+
+  .fire-gateway-welcome {
+    font-size: clamp(2.8rem, 13vw, 3.8rem);
+  }
+
+  .fire-gateway-guidance {
+    font-size: 1rem;
+    line-height: 1.62;
+  }
+
+  .fire-gateway-companion,
+  .fire-ritual-begin {
+    padding-top: 74px;
+    padding-bottom: 74px;
+  }
+
+  .fire-gateway-companion h2,
+  .fire-begin-copy h2 {
+    font-size: clamp(2.7rem, 12vw, 3.75rem);
+  }
+
+  .fire-gateway-companion .fire-companion-actions {
+    gap: 13px;
+  }
+
+  .fire-gateway-companion .fire-download-link {
+    min-height: 70px;
+  }
+
+  .fire-begin-copy p {
+    font-size: 1.4rem;
+  }
+
+  .fire-begin-player-wrap {
+    margin-top: 34px;
   }
 }
 
@@ -16059,7 +16588,6 @@ a.fire-download-link:focus-visible {
   background: var(--sb-black);
   overflow: hidden;
 }
-main.sacred-becoming-landscape + #site-footer { margin-top: 0; }
 .sacred-becoming-landscape h1,
 .sacred-becoming-landscape h2,
 .sacred-becoming-landscape h3,
@@ -16371,3 +16899,12 @@ main.sacred-becoming-landscape + #site-footer { margin-top: 0; }
   .sacred-doorway h3,
   .sacred-doorway a span { transition: none; }
 }
+
+/* Shared identity email confirmation: isolated from existing Tarot Flower pages. */
+body.circle-auth-confirm { margin: 0; min-height: 100svh; box-sizing: border-box; display: grid; place-items: center; padding: 32px 24px; color: #59413b; background: radial-gradient(ellipse at 80% 30%, #f3e6dc, transparent 70%), #fcf8f0; font: 400 20px/1.7 Georgia, serif; }
+.circle-auth-confirm main { width: 100%; text-align: center; }
+.circle-auth-confirm .circle-auth-wordmark { color: #a36349; letter-spacing: .15em; font-size: 17px; margin-bottom: 70px; }
+.circle-auth-confirm h1 { font: 400 clamp(32px, 5vw, 48px)/1.2 Georgia, serif; color: #915440; }
+.circle-auth-confirm p { max-width: 520px; margin: 25px auto; }
+.circle-auth-confirm button, .circle-auth-confirm a { display: inline-block; padding: 14px 26px; border: 1px solid #b78870; border-radius: 40px; background: transparent; color: #794734; font: inherit; text-decoration: none; cursor: pointer; }
+.circle-auth-confirm :is(a,button):focus-visible { outline: 2px solid #527b75; outline-offset: 5px; }

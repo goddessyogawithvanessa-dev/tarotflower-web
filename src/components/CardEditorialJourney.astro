@@ -57,7 +57,7 @@ const isFireFeature = featuredTitle === ritualExperiences.fire.title;
   <section class="card-featured-experience" aria-labelledby="card-featured-title">
     <img
       src={featuredImage}
-      alt={featuredImageAlt}
+      alt={Object.values(ritualExperiences).find((ritual) => ritual.image === featuredImage)?.bodyImageAlt || featuredImageAlt}
       width={featuredImageWidth}
       height={featuredImageHeight}
       loading="lazy"
@@ -78,7 +78,7 @@ const isFireFeature = featuredTitle === ritualExperiences.fire.title;
     <div class="card-free-resource-artwork">
       <img
         src="/images/goddess-embodiment-guide-cover.jpg"
-        alt="Goddess Embodiment Guide cover"
+        alt="Tarot Flower’s Goddess Embodiment Guide by Vanessa Hylande: 10 Steps to Embody the Goddess, with a goddess among flowers"
         width="1414"
         height="2000"
         loading="lazy"

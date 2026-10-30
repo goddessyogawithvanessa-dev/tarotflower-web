@@ -17,7 +17,7 @@ seo_description: "Explore the Minor Arcana tarot card meanings with Tarot Flower
     <p><em>The Minor Arcana of the Tarot is comprised of four suits: <a href="/cups-tarot">Cups</a>, <a href="/swords-tarot">Swords</a>, <a href="/wands-tarot">Wands</a>, and <a href="/pentacles-tarot">Pentacles</a>. Each suit represents an element and has a specific astrological association. The Cups suit represents the element of water, the Swords suit represents air, the Wands suit represents fire, and the Pentacles suit represents earth. The Minor Arcana cards often provide specific details and insights into a situation or question in a tarot reading, while the <a href="/major-arcana/">Major Arcana</a> cards offer more overarching themes and messages.</em></p>
     <p><em>The Cups suit is associated with emotions, love, and intuition. Cups cards often indicate matters related to relationships, creativity, and spirituality. In astrology, Cups are associated with the water signs: Cancer, Scorpio, and Pisces. When Cups cards appear in a reading, they often suggest the need for emotional healing, the importance of compassion and empathy, and the exploration of inner feelings.</em></p>
   </div>
-  <img src="/images/2023/04/tf-ai-minor-arcana.jpg" alt="The Minor Arcana tarot cards artwork by Vanessa Hylande" loading="eager" />
+  <img src="/images/2023/04/tf-ai-minor-arcana.jpg" alt="the minor arcana tarot cards artwork by vanessa hylande" loading="eager" />
 </section>
 
 <div class="minor-overview-copy">
@@ -27,7 +27,7 @@ seo_description: "Explore the Minor Arcana tarot card meanings with Tarot Flower
 </div>
 
 <figure class="minor-wide-image">
-  <img src="/images/2023/04/tf-ai-minor-arcana-2.jpg" alt="Floral Minor Arcana tarot artwork by Vanessa Hylande" loading="lazy" />
+  <img src="/images/2023/04/tf-ai-minor-arcana-2.jpg" alt="Four floral Minor Arcana illustrations by Vanessa Hylande for Tarot Flower’s guide to the four Tarot suits" loading="lazy" />
 </figure>
 
 <p class="minor-overview-conclusion">Overall, the Minor Arcana cards provide a detailed and nuanced perspective on a situation or question in a tarot reading. By understanding the symbolism and associations of each suit, tarot readers can gain deeper insights into the messages and guidance of the cards.</p>
@@ -39,7 +39,7 @@ seo_description: "Explore the Minor Arcana tarot card meanings with Tarot Flower
       <p>The Cups of the Minor Arcana represent the element of Water - your emotions. Therefore, this suit is associated with love, feelings and all of the emotions we feel.</p>
       <p>Astrologically, the suit of Cups corresponds to the water signs of the zodiac - Pisces, Cancer, Scorpio. Cups are related to the heart chakra.</p>
     </div>
-    <a class="minor-story-image" href="/cups-tarot"><img src="/images/2020/12/IMG_20201215_122606-scaled.jpg" alt="Cups tarot cards spread" loading="lazy" /></a>
+    <a class="minor-story-image" href="/cups-tarot"><img src="/images/2020/12/IMG_20201215_122606-scaled.jpg" alt="White Sage Cups Tarot cards spread among crystals and shells in Tarot Flower’s guide to emotions and relationships" loading="lazy" /></a>
   </section>
 
   <section class="minor-suit-story">
@@ -48,7 +48,7 @@ seo_description: "Explore the Minor Arcana tarot card meanings with Tarot Flower
       <p>Pentacles represent the element of earth - abundance in the physical world. These cards can indicate money and wealth, but also other kinds of abundance.</p>
       <p>The Earth element pertains to things in our physical world that bring us a sense of physical safety and wellbeing. Therefore, the suit of Pentacles corresponds to the Earth signs of the zodiac - Taurus, Capricorn, Virgo. Pentacles are related to the root chakra.</p>
     </div>
-    <a class="minor-story-image" href="/pentacles-tarot"><img src="/images/2020/12/IMG_20201215_123548-scaled.jpg" alt="Pentacles tarot cards spread" loading="lazy" /></a>
+    <a class="minor-story-image" href="/pentacles-tarot"><img src="/images/2020/12/IMG_20201215_123548-scaled.jpg" alt="White Sage Pentacles Tarot cards arranged with crystals and shells in Tarot Flower’s guide to earth and material life" loading="lazy" /></a>
   </section>
 
   <section class="minor-suit-story">
@@ -57,7 +57,7 @@ seo_description: "Explore the Minor Arcana tarot card meanings with Tarot Flower
       <p>The Suit of Swords corresponds to the mind, the Air element. This element rules thoughts, ideas, communication, and decisions.</p>
       <p>Therefore, Swords are often associated with news and also states of being where our thinking is influencing us, such as anxiety or over analyzing things. The Swords are associated with the air signs of the zodiac - Libra, Aquarius and Gemini. Swords are related to the throat chakra.</p>
     </div>
-    <a class="minor-story-image" href="/swords-tarot"><img src="/images/2021/01/swords-e1610542966242.jpg" alt="Swords tarot cards spread" loading="lazy" /></a>
+    <a class="minor-story-image" href="/swords-tarot"><img src="/images/2021/01/swords-e1610542966242.jpg" alt="White Sage Swords Tarot cards spread with crystals and shells in Tarot Flower’s guide to thought and clarity" loading="lazy" /></a>
   </section>
 
   <section class="minor-suit-story">
@@ -66,6 +66,6 @@ seo_description: "Explore the Minor Arcana tarot card meanings with Tarot Flower
       <p>The Wands represent the Fire element - the element of passion in all forms. This can be passion of a romantic nature, but also applies to action, initiative and inspiration.</p>
       <p>Therefore, the Fire element indicates motivation and drive to do or accomplish something, and is related to the fire signs of the zodiac - Aries, Leo, Sagittarius. Wands are related to the solar plexus and sacral chakras.</p>
     </div>
-    <a class="minor-story-image" href="/wands-tarot"><img src="/images/2021/01/wands-e1610542935860.jpg" alt="Wands tarot cards spread" loading="lazy" /></a>
+    <a class="minor-story-image" href="/wands-tarot"><img src="/images/2021/01/wands-e1610542935860.jpg" alt="White Sage Wands Tarot cards spread among crystals and shells in Tarot Flower’s guide to inspiration and action" loading="lazy" /></a>
   </section>
 </div>
