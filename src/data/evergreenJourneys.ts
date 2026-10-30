@@ -75,7 +75,7 @@ const slugsByRitual: Record<RitualKey, readonly string[]> = {
     'isis-goddess-of-the-divine-feminine',
     'its-time-to-talk',
     'libra-dates-traits-the-charming-diplomat',
-    'major-arcana-2',
+    'major-arcana',
     'melissa-warwood-tantric-tarot',
     'minor-arcana',
     'minor-arcana-tarot',

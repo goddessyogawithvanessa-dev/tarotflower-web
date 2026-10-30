@@ -1,6 +1,6 @@
 ---
 title: "Major Arcana"
-slug: major-arcana-2
+slug: major-arcana
 original_url: https://tarotflower.com/major-arcana-2/
 date: 2022-10-04
 modified: 2025-05-31

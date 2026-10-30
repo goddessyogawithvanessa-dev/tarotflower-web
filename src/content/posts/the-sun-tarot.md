@@ -18,7 +18,7 @@ seo_image_height: 1024
 
 The Sun Tarot card radiates warmth, joy, and positivity, and is one of the best cards to receive in your tarot card reading! The Sun card brings a sense of renewed energy and vitality into your life. It signifies a period of abundance, success, and personal fulfillment. The Sun tarot card's bright and optimistic energy encourages you to embrace the present moment and celebrate your achievements.
 
-This [Major Arcana](/major-arcana-2) tarot card represents the element of Fire, symbolizing **passion**, **creativity**, and **transformation**. It is associated with the zodiac sign of [Leo](/leo-dates-traits-the-shining-sun), embodying the qualities of **courage**, **leadership**, and **self-expression**. The number associated with the Sun card is 19, which carries the energy of completion and the fulfillment of one's aspirations.
+This [Major Arcana](/major-arcana/) tarot card represents the element of Fire, symbolizing **passion**, **creativity**, and **transformation**. It is associated with the zodiac sign of [Leo](/leo-dates-traits-the-shining-sun), embodying the qualities of **courage**, **leadership**, and **self-expression**. The number associated with the Sun card is 19, which carries the energy of completion and the fulfillment of one's aspirations.
 
 ## The Sun Tarot Card Quick Facts
 

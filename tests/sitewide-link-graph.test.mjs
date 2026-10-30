@@ -223,10 +223,27 @@ test('every retained WordPress import URL is unique and preserved, redirected, o
   assert.deepEqual(new Set(unresolved), approvalRequiredHistoricalUrls);
 });
 
-test('known consolidation decisions remain unaltered pending Vanessa approval', () => {
-  assert.ok(servedRoutes.has('/major-arcana-2/'));
+test('the owner-approved Major Arcana migration has one canonical route and direct legacy redirects', () => {
+  assert.ok(servedRoutes.has('/major-arcana/'));
+  assert.ok(!routes.has('/major-arcana-2/'));
   assert.ok(!redirects.has('/major-arcana/'));
   assert.ok(!redirects.has('/major-arcana-tarot/'));
+  for (const source of [
+    '/major-arcana-2',
+    '/major-arcana-2/',
+    '/category/tarot-card-meanings/major-arcana',
+    '/category/tarot-card-meanings/major-arcana/',
+    '/category/tarot-card-meanings/major-arcana/page/3',
+    '/category/tarot-card-meanings/major-arcana/page/3/',
+    '/tarotflower.com/major-arcana-2',
+    '/tarotflower.com/major-arcana-2/',
+  ]) {
+    assert.deepEqual(
+      redirects.get(source),
+      { destination: '/major-arcana/', status: 301, line: redirects.get(source)?.line },
+      `Major Arcana alias must redirect directly with 301: ${source}`,
+    );
+  }
   assert.ok(servedRoutes.has('/minor-arcana/'));
   assert.ok(servedRoutes.has('/minor-arcana-tarot/'));
 });
@@ -251,6 +268,10 @@ test('forms and runtime-generated daily journal links use direct canonical desti
 
 test('historical category and ghost-page regressions remain directly mapped', () => {
   const required = new Map([
+    ['/major-arcana-2/', '/major-arcana/'],
+    ['/category/tarot-card-meanings/major-arcana/', '/major-arcana/'],
+    ['/category/tarot-card-meanings/major-arcana/page/3/', '/major-arcana/'],
+    ['/tarotflower.com/major-arcana-2/', '/major-arcana/'],
     ['/tarot-card-meanings/minor-arcana-tarot/', '/minor-arcana-tarot/'],
     ['/tarot-card-meanings/the-hierophant-tarot/', '/the-hierophant-tarot/'],
     ['/tarot-card-meanings/the-fool-tarot/', '/the-fool-tarot/'],

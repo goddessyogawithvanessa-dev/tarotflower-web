@@ -18,7 +18,7 @@ seo_image_height: 1024
 
 When the Emperor tarot card appears in your reading, there are energies of **stability** and **authority** around you. The Emperor is like a traditional king. He is charged with **protecting** his people and leading them through conflict with strength but also with **compassion**.
 
-When you receive this [Major Arcana](/major-arcana-2) card in your Tarot card reading, you've got some stable foundations in your life, or perhaps there is a significant other that embodies this archetype. However it resonates with you, the energy of the Emperor is a powerful energy to have in any tarot card reading.
+When you receive this [Major Arcana](/major-arcana/) card in your Tarot card reading, you've got some stable foundations in your life, or perhaps there is a significant other that embodies this archetype. However it resonates with you, the energy of the Emperor is a powerful energy to have in any tarot card reading.
 
 ## The Emperor Tarot Card Summarized
 

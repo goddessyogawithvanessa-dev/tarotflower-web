@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 <p><img src="/images/2022/12/world-10.jpg" alt="The World Tarot artwork by Vanessa Hylande" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high" /></p>
 
-When you arrive at The World card, your spiritual evolution through this chapter of your life is complete. When you get this [Major Arcana](/major-arcana-2) card in your tarot card reading, it indicates that your inner and outer worlds are now unified in perfect balance.
+When you arrive at The World card, your spiritual evolution through this chapter of your life is complete. When you get this [Major Arcana](/major-arcana/) card in your tarot card reading, it indicates that your inner and outer worlds are now unified in perfect balance.
 
 The World tarot card is a card of **completion, arrival,** and **transformation**, and implies that you are beginning a new chapter in your life. Get ready to step into a whole new world.
 

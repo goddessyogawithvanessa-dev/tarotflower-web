@@ -13,7 +13,7 @@ seo_description: "Explore all 78 tarot card meanings with Tarot Flower. Learn th
 
 ## The Major and Minor Arcana
 
-Tarot cards are a divination tool used for gaining insight into the past, present, and future. There are 78 cards in a typical tarot deck, divided into two groups: the [major arcana](/major-arcana-2) and the [minor arcana](/minor-arcana). The major arcana consists of 22 cards, each with a unique symbolic image that represents a universal theme or archetype. These cards typically represent significant life events or lessons, and are often associated with spiritual growth and transformation.
+Tarot cards are a divination tool used for gaining insight into the past, present, and future. There are 78 cards in a typical tarot deck, divided into two groups: the [major arcana](/major-arcana/) and the [minor arcana](/minor-arcana). The major arcana consists of 22 cards, each with a unique symbolic image that represents a universal theme or archetype. These cards typically represent significant life events or lessons, and are often associated with spiritual growth and transformation.
 
 The minor arcana consists of the remaining 56 cards, which are divided into four suits: cups, pentacles, swords, and wands. Each suit represents a different element and has its own set of meanings. [Cups](/cups-tarot) represent water and emotions, [pentacles](/pentacles-tarot) represent earth and material possessions, [swords](/swords-tarot) represent air and the mind, and [wands](/wands-tarot) represent fire and creativity.
 

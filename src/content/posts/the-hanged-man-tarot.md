@@ -18,7 +18,7 @@ seo_image_height: 1024
 
 The Hanged Man pauses to look at the world from a new perspective. When life won't bend to our control we are wise to follow the guidance of The Hanged Man tarot card. Look at the world from another angle and new possibilities will be revealed to you.
 
-The Hanged Man tarot card is often misunderstood as a symbol of pain and misfortune. While there may be some truth to that interpretation, it's too simplistic to capture the card's full significance. This [Major Arcana](/major-arcana-2) card carries a much deeper meaning beyond its visual representation.
+The Hanged Man tarot card is often misunderstood as a symbol of pain and misfortune. While there may be some truth to that interpretation, it's too simplistic to capture the card's full significance. This [Major Arcana](/major-arcana/) card carries a much deeper meaning beyond its visual representation.
 
 So, the next time you come across the Hanged Man in a tarot reading, remember that there's more to it. This card represents acceptance and serves as a divine message advising you to let go of your ego, pride, and rigid beliefs in order to shift your perspective. By adopting a new mindset, you'll be able to truly understand life and the purpose behind it, including everything it encompasses.
 

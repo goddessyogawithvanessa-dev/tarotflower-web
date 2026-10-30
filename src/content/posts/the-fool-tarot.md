@@ -16,7 +16,7 @@ seo_image_height: 540
 
 <p><img src="/images/2023/05/AI-Square.jpg" alt="The Fool stepping forward through clouds and peach flowers, artwork by Vanessa Hylande" width="540" height="540" loading="eager" decoding="async" fetchpriority="high" /></p>
 
-The Fool tarot card, the first card of the [Major Arcana](/major-arcana-2), is a card of new beginnings. Like the crescent moon or the morning star, it signals a surrender to what the future may hold—and the courage to take that first step toward your new beginning.
+The Fool tarot card, the first card of the [Major Arcana](/major-arcana/), is a card of new beginnings. Like the crescent moon or the morning star, it signals a surrender to what the future may hold—and the courage to take that first step toward your new beginning.
 
 If you've been feeling stuck or unsure, you're going to be really happy to receive this card! This **fun-loving** archetype represents **new beginnings**, the start of a **new life**, or a **new journey**.
 

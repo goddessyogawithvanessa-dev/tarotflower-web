@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 <p><img src="/images/2021/02/hierophant-3.jpg" alt="The Hierophant Tarot artwork by Vanessa Hylande" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high" /></p>
 
-This [Major Arcana](/major-arcana-2) is powerful and important, so when The Hierophant tarot card appears in your reading, pay attention!
+This [Major Arcana](/major-arcana/) is powerful and important, so when The Hierophant tarot card appears in your reading, pay attention!
 
 This major arcana tarot card represents **society** and **tradition** - especially **religious institutions**. That's why this card is often referred to as the The High Priest tarot card and is often associated with **marriage**.
 

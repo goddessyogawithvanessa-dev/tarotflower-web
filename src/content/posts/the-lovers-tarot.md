@@ -16,7 +16,7 @@ seo_image_height: 1024
 
 <p><img src="/images/2021/02/lovers.jpg" alt="The Lovers Tarot artwork by Vanessa Hylande" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high" /></p>
 
-Wow! A beautiful **choice** is before you when The Lovers Tarot card appears in your tarot card reading! This [Major Arcana](/major-arcana-2) card represents a **divine union**, a **high-level partnership** that is authentic with free flowing communication.
+Wow! A beautiful **choice** is before you when The Lovers Tarot card appears in your tarot card reading! This [Major Arcana](/major-arcana/) card represents a **divine union**, a **high-level partnership** that is authentic with free flowing communication.
 
 But make sure your choice is in alignment with your truest desires and feelings. You must be truly honest with yourself and take action from a place of high vibration in order to manifest this divine love!
 

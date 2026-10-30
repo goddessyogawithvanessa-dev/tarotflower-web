@@ -44,7 +44,7 @@ The Justice card reminds us to approach situations with objectivity and to consi
 
 The Justice tarot card holds significant meaning and serves as a guiding force in matters of justice, fairness, and equilibrium. Represented by the number 11 and associated with the zodiac sign [Libra](/libra-dates-traits-the-charming-diplomat), this card aligns with the harmonizing energy of Venus, the planet of love, balance, and justice.
 
-When this [Major Arcana](/major-arcana-2) card appears in a tarot reading, it speaks to the principles of truth, integrity, and impartiality. It emphasizes the need to make ethical choices and seek fairness in all areas of life. The number 11 symbolizes spiritual insight, awakening, and the pursuit of higher wisdom.
+When this [Major Arcana](/major-arcana/) card appears in a tarot reading, it speaks to the principles of truth, integrity, and impartiality. It emphasizes the need to make ethical choices and seek fairness in all areas of life. The number 11 symbolizes spiritual insight, awakening, and the pursuit of higher wisdom.
 
 As the scales of justice symbolize, this card highlights the importance of balance and equilibrium. It prompts us to evaluate situations objectively, devoid of personal bias or hidden agendas. The Justice card encourages us to consider all perspectives, weigh the evidence, and make informed decisions based on truth and integrity.
 

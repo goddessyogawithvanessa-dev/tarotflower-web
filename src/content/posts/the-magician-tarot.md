@@ -18,7 +18,7 @@ seo_image_height: 1024
 
 When The Magician tarot card turns up in your reading, get ready for some magic!
 
-This [Major Arcana](/major-arcana-2) card represents **manifesting your desires**—making your **dreams** come true.
+This [Major Arcana](/major-arcana/) card represents **manifesting your desires**—making your **dreams** come true.
 
 Whatever you put your mind to, whatever you set your focus on, **will become a reality** if you stick to it! The time is now to put the effort into **creating the world you want** to live in!
 

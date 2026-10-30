@@ -18,7 +18,7 @@ seo_image_height: 1024
 
 The Death tarot card, like the [Three of Swords](/three-of-swords-tarot), often scares people when it appears in their tarot card reading. However, it is metaphorical and represents the ending of something that no longer serves you. Just as the phoenix is reborn from the ashes, this archetype brings positive change. It represents a purging of the old in order to make room for the new.
 
-People are often afraid of pulling the 13th Trump of the [Major Arcana](/major-arcana-2) - the death tarot card in their tarot deck; it is normal to think it means it is the end of everything. It is natural to view any card representing such a thing as negative.
+People are often afraid of pulling the 13th Trump of the [Major Arcana](/major-arcana/) - the death tarot card in their tarot deck; it is normal to think it means it is the end of everything. It is natural to view any card representing such a thing as negative.
 
 However, it does not necessarily depict physical death. In fact, this card is a wonderful and a powerful one. It is the most spiritual card in your Tarot deck. Whenever it appears in your reading, your life is going to change in a significant way. Let's dive into this mysterious and powerful card.
 
