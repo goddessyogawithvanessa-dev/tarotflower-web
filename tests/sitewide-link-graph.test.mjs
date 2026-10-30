@@ -10,8 +10,9 @@ const SITE = 'https://tarotflower.com';
 const HISTORICAL_IMPORT_COMMIT = '5840965';
 const exceptions = JSON.parse(fs.readFileSync(path.join(ROOT, 'tests/fixtures/sitewide-audit-exceptions.json'), 'utf8'));
 const approvedDynamicDestinations = exceptions.protectedDynamicDestinations.map(prefix => value => value.startsWith(prefix));
-const classifiedOrphans = new Set(exceptions.sitemapOrphans);
+const intentionalSitemapOnlyRoutes = new Set(exceptions.intentionalSitemapOnlyRoutes);
 const approvalRequiredHistoricalUrls = new Set(exceptions.approvalRequiredHistoricalUrls);
+const intentionallyUnpublishedHistoricalUrls = new Set(exceptions.intentionallyUnpublishedHistoricalUrls);
 
 function gitBinary() {
   const candidates = [process.env.GIT_BINARY, 'git'].filter(Boolean);
@@ -173,7 +174,7 @@ test('all rendered internal anchors on served pages resolve directly without red
   assert.deepEqual(failures, []);
 });
 
-test('every sitemap orphan is explicitly classified', () => {
+test('every route with no rendered inbound link is an intentional sitemap-only route', () => {
   const sitemap = fs.readFileSync(path.join(DIST, 'sitemap-0.xml'), 'utf8');
   const sitemapRoutes = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(x => new URL(x[1]).pathname);
   const inbound = new Map(sitemapRoutes.map(route => [route, new Set()]));
@@ -186,10 +187,10 @@ test('every sitemap orphan is explicitly classified', () => {
     }
   }
   const orphans = new Set([...inbound].filter(([, sources]) => sources.size === 0).map(([route]) => route));
-  assert.deepEqual(orphans, classifiedOrphans);
+  assert.deepEqual(orphans, intentionalSitemapOnlyRoutes);
 });
 
-test('every page without a contextual incoming link is explicitly classified', () => {
+test('every page without a contextual incoming link is intentionally classified', () => {
   const sitemap = fs.readFileSync(path.join(DIST, 'sitemap-0.xml'), 'utf8');
   const sitemapRoutes = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => new URL(match[1]).pathname);
   const contextualInbound = new Map(sitemapRoutes.map(route => [route, new Set()]));
@@ -202,7 +203,7 @@ test('every page without a contextual incoming link is explicitly classified', (
     }
   }
   const contextualOrphans = new Set([...contextualInbound].filter(([, sources]) => sources.size === 0).map(([route]) => route));
-  assert.deepEqual(contextualOrphans, new Set(exceptions.contextualOrphans));
+  assert.deepEqual(contextualOrphans, new Set(exceptions.intentionalNonContextualRoutes));
 });
 
 test('every retained WordPress import URL is unique and preserved, redirected, or explicitly approval-blocked', () => {
@@ -220,7 +221,17 @@ test('every retained WordPress import URL is unique and preserved, redirected, o
     originals.add(route);
     if (!servedRoutes.has(route) && !redirects.has(route)) unresolved.push(route);
   }
-  assert.deepEqual(new Set(unresolved), approvalRequiredHistoricalUrls);
+  assert.deepEqual(new Set(unresolved), new Set([...approvalRequiredHistoricalUrls, ...intentionallyUnpublishedHistoricalUrls]));
+});
+
+test('intentionally unpublished historical pages retain source provenance without a public route', () => {
+  for (const route of intentionallyUnpublishedHistoricalUrls) {
+    const slug = route.replace(/^\//, '').replace(/\/$/, '');
+    assert.ok(fs.existsSync(path.join(ROOT, 'src/content/posts', `${slug}.md`)), `missing retained source for ${route}`);
+    assert.ok(!routes.has(route), `intentionally unpublished route was generated: ${route}`);
+    assert.ok(!redirects.has(route), `intentionally unpublished route acquired an unapproved redirect: ${route}`);
+    assert.ok(!fs.readFileSync(path.join(DIST, 'sitemap-0.xml'), 'utf8').includes(`${SITE}${route}`), `intentionally unpublished route entered sitemap: ${route}`);
+  }
 });
 
 test('the owner-approved Major Arcana migration has one canonical route and direct legacy redirects', () => {

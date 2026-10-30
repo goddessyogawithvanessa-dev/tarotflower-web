@@ -15,7 +15,7 @@
     "test:library": "node --test tests/library*.test.mjs",
     "test:circle": "node --test tests/circle*.test.mjs",
     "routes:manifest:update": "node scripts/update-required-route-manifest.mjs",
-    "test:deployment-safety": "node --test tests/required-route-manifest.test.mjs tests/sitewide-link-graph.test.mjs"
+    "test:deployment-safety": "node --test tests/project-record.test.mjs tests/required-route-manifest.test.mjs tests/sitewide-link-graph.test.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

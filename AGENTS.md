@@ -4,14 +4,14 @@ This is the complete guide for any AI assistant working on the Tarot Flower webs
 
 ## What This Project Is
 
-Tarot Flower (tarotflower.com) is a tarot, astrology, and spiritual wellness site owned by Vanessa Hylande. It was migrated from WordPress/Divi to Astro on Cloudflare Pages. The site has 282 content pages (249 blog posts, 33 static pages) and 3 products.
+Tarot Flower (tarotflower.com) is a tarot, astrology, and spiritual wellness site owned by Vanessa Hylande. It was migrated from WordPress/Divi to Astro and is served by a Cloudflare Worker. The approved production baseline is 288 generated HTML routes, 276 sitemap URLs, and 1,390 historical redirect rules.
 
 The migration goal was 1:1 replication of the WordPress site — not a redesign. All content, images, and URLs were preserved from the original.
 
 ## Tech Stack
 
 - **Framework:** Astro v7 (static site generation, no SSR)
-- **Hosting:** Cloudflare Pages (auto-deploys from GitHub on push to `main`)
+- **Hosting:** Cloudflare Worker `tarotflower-web` with bundled static assets
 - **CMS:** Decap CMS at `/admin/` (GitHub-backed, PKCE auth)
 - **Repo:** `goddessyogawithvanessa-dev/tarotflower-web` on GitHub
 - **Node:** >=22.12.0
@@ -20,8 +20,10 @@ The migration goal was 1:1 replication of the WordPress site — not a redesign.
 
 ```bash
 npm run dev        # Local dev server at localhost:4321
-npm run build      # Production build to dist/ (292 pages)
+npm run build      # Production build to dist/ (approved baseline: 288 pages)
 npm run preview    # Preview the built site
+npm run test:deployment-safety
+node --test tests/*.test.mjs
 ```
 
 Always run `npm run build` after making changes to verify nothing is broken before pushing.
@@ -47,8 +49,7 @@ astro-site/
 │   │   ├── tag/[tag].astro     # Theme tag pages (full-moon, love, oracle, etc.)
 │   │   └── product/[slug].astro # Individual product pages
 │   └── content/
-│       ├── posts/              # 282 markdown files (posts + pages mixed)
-│       └── products/           # 3 markdown files
+│       └── posts/              # Published writing plus retained source provenance
 ├── public/
 │   ├── images/                 # ~98MB of images (preserved WP upload paths)
 │   ├── styles/
@@ -59,15 +60,17 @@ astro-site/
 │   ├── admin/
 │   │   ├── index.html          # Decap CMS entry point
 │   │   └── config.yml          # CMS collection definitions
-│   ├── _redirects              # Cloudflare Pages redirects (old WP paths → new)
+│   ├── _redirects              # Historical redirects consumed by the Worker
 │   └── favicon.ico / .jpg / .svg
-├── astro.config.mjs            # Minimal: site URL + sitemap plugin
+├── worker/                     # Runtime, auth, checkout, email, Library, and Workbench
+├── wrangler.jsonc              # Production Worker bindings and route
+├── astro.config.mjs            # Build integrations, sitemap, and output checks
 └── package.json
 ```
 
 ## Content Model
 
-All content is in `src/content/posts/` (both posts and pages) and `src/content/products/`. Astro has no content config file — it infers the schema from frontmatter.
+Published and retained page content is in `src/content/posts/`. Astro infers the content schema from frontmatter.
 
 ### Post/Page frontmatter
 
@@ -85,10 +88,6 @@ seo_description: "..."         # Optional, used in meta description
 ---
 ```
 
-### Product frontmatter
-
-Same as above plus: `price`, `image`, `stripe_link`.
-
 ### Critical rule: no `# Title` in markdown body
 
 `Post.astro` renders `<h1>{title}</h1>` from frontmatter. If the markdown body also starts with `# Title`, you get a double title. **Never** add a top-level heading to content markdown — the layout handles it.
@@ -96,7 +95,7 @@ Same as above plus: `price`, `image`, `stripe_link`.
 ## Routing
 
 - `[slug].astro` is the catch-all. It renders every post/page from the content collection EXCEPT those with dedicated custom pages.
-- The `dedicatedPages` array in `[slug].astro` excludes: `astrology`, `free-tarot-card-readings`, `moon-magic-spells`, `contact`, `daily-tarot`. These have their own `.astro` files with custom layouts (card grids, zodiac grids, forms, etc.).
+- The `dedicatedPages` array in `[slug].astro` excludes every content record with a dedicated `.astro` route. The deliberately unpublished Melissa source is separately excluded and must remain absent from generated HTML and the sitemap.
 - If you add a new custom page, you MUST add its slug to the `dedicatedPages` array in `[slug].astro` or you'll get a build conflict.
 
 ## Layouts
@@ -154,10 +153,7 @@ Container switches to `width: auto; padding: 30px 18px`. Desktop nav hides, hamb
 
 ## Navigation
 
-Desktop nav is in Base.astro as a `<nav class="desktop-nav">` with a mega menu. It has three sections:
-- Tarot Card Readings (with sub-links)
-- Tarot Card Meanings (with mega menu panels for Major Arcana and each Minor Arcana suit)
-- Browse by Theme (Full Moon, Love & Twin Flames, Oracle Spreads, Shadow Work, Divine Feminine — these link to `/tag/[tag]`)
+Desktop nav is in Base.astro as a `<nav class="desktop-nav">` with a mega menu. The approved Tarot destinations are Readings with Vanessa, Understanding the Tarot, Major Arcana, Minor Arcana, and Astrology & Zodiac. `/tarot-card-readings/` is a separate indexable content landing page, not the booking destination or an additional required primary-navigation entry.
 
 Mobile nav uses mmenu-light. The nav structure is in `<nav id="mobile-nav">` in Base.astro. The mmenu script at the bottom of Base.astro initializes it with `is:inline` (required because it references public/ assets).
 
@@ -169,7 +165,9 @@ Product images are in `public/images/products/`.
 
 ## Redirects
 
-`public/_redirects` maps old WordPress category-prefixed URLs to the new flat structure. For example:
+`public/_redirects` preserves approved historical URLs. The canonical Major Arcana hub is `/major-arcana/`; `/major-arcana-2/` remains a direct historical redirect. The historical Cups category slash and no-slash variants redirect directly to `/cups-tarot/`.
+
+For example:
 ```
 /tarot-card-meanings/the-fool-tarot /the-fool-tarot 301
 /embodiment/goddess-yoga /goddess-yoga 301
@@ -179,7 +177,7 @@ This file is critical for SEO — it preserves Google rankings from the old URL 
 
 ## Deployment
 
-Push to `main` on GitHub triggers Cloudflare Pages auto-build. Build command: `npm run build`. Output directory: `astro-site/dist`. No CI/CD config files — Cloudflare Pages dashboard handles it.
+Build locally into `dist/`, run the complete structural and runtime regression suites, and deploy only after explicit owner authorization through the existing `tarotflower-web` Wrangler Worker workflow. A commit, push, and production deployment are separate actions.
 
 ## Rules for AI Assistants
 
@@ -203,7 +201,7 @@ This is what has been done during the migration from WordPress. Use this as cont
 - Built complete site: homepage, nav, footer, products, CMS, sitemap, redirects
 - Matched original site: fonts (Tangerine, Aboreto, Quattrocento, Cormorant Garamond), footer, nav dropdowns, zodiac grid, layout
 - Homepage: full Read More text, Major Arcana card grid, Minor Arcana with suit images, hover effects
-- Card page CTA banners and YouTube embeds via fix-cards.mjs
+- Card page CTA banners and YouTube embeds migrated into the retained content
 - Side-by-side image pairs at bottom of card pages
 - Float bleed fix (h2 clear: both)
 - 56 YouTube embeds converted across 51 files
@@ -240,15 +238,11 @@ This is what has been done during the migration from WordPress. Use this as cont
 - Redirects file (_redirects) maps all old WordPress category-prefixed URLs to new flat paths
 - Sitemap generated via @astrojs/sitemap
 
-## Remaining / Known Issues
+## Current release safeguards
 
-- 219 images have empty/missing alt text (content task, not code)
-- Contact form backend (`functions/api/contact.js`) needs to be created at DNS cutover time
-- Product Stripe links are placeholders — need real links from Vanessa
-- Decap CMS GitHub OAuth app needs to be registered for production use
-- Add Blair's Cloudflare account as a member on Vanessa's Cloudflare account (so wrangler can check builds with `--account-id`)
-- Or: create a Cloudflare API token scoped to her account and set it as `CLOUDFLARE_API_TOKEN` locally
-- DNS cutover: point tarotflower.com to Cloudflare Pages, add MailChannels DNS records for contact form email
-- Confirm Vanessa's email address for contact form delivery
-- Monitor for 404s first week after go-live
-- Cancel WordPress hosting once stable
+- Required-route manifest coverage must remain exact.
+- The sitemap must contain exactly the intended indexable public routes.
+- Internal links must resolve without unexpected redirect hops.
+- Major Arcana and Cups historical migrations must remain direct.
+- FIRE, Library, Workbench, forms, email, authentication, consent, and checkout tests must pass.
+- Historical reports are evidence from their observation dates; current failures require current build or live-response evidence.

@@ -1,6 +1,6 @@
-# Tarot Flower — Working on Your Site with Claude
+# Tarot Flower — Working on Your Site with Codex
 
-You can make changes to your website by talking to Claude, the same way Blair does. You describe what you want in plain English, and Claude edits the code, builds the site, and you review it locally before it goes live.
+You can make changes to your website by talking to Codex. Describe what you want in plain English, review the local result, and authorize any production deployment separately.
 
 ---
 
@@ -8,19 +8,19 @@ You can make changes to your website by talking to Claude, the same way Blair do
 
 ### Open the project
 
-1. Open Terminal (or the Claude Code desktop app)
+1. Open Terminal (or the Codex desktop app)
 2. Navigate to the project:
    ```
-   cd ~/GitHub/websites/tarotflower-web/astro-site
+   cd /path/to/tarotflower-web
    ```
-3. Start Claude or codex:
+3. Start Codex:
    ```
-   claude or codex
+   codex
    ```
 
 That's it. You're now talking to an AI that understands the entire site.
 
-### What you can ask Claude to do
+### What you can ask Codex to do
 
 Just describe what you want in plain language. Examples:
 
@@ -32,7 +32,7 @@ Just describe what you want in plain language. Examples:
 - "Add a new product for a group reading, price is $120"
 - "Fix the typo on the contact page — it says 'reeading' instead of 'reading'"
 
-Claude will make the changes to the actual files in the project.
+Codex will make only the changes you authorize. Your published writing, metadata copy, and artwork are not rewritten unless you explicitly request that editorial change.
 
 ---
 
@@ -42,7 +42,7 @@ After Claude makes changes, you want to see them before they go live.
 
 ### Start the local dev server
 
-Ask Claude:
+Ask Codex:
 > "Start the dev server"
 
 Or run it yourself:
@@ -56,7 +56,7 @@ Then open **http://localhost:4321** in your browser. You'll see the site exactly
 
 Before deploying, always build to make sure nothing is broken:
 
-Ask Claude:
+Ask Codex:
 > "Build the site"
 
 Or:
@@ -64,23 +64,20 @@ Or:
 npm run build
 ```
 
-If it says "Complete!" with no errors, you're good. If there's an error, tell Claude and it will fix it.
+If it says "Complete!" with no errors, run the regression suites as well. A successful build alone does not prove route, redirect, or private-runtime integrity.
 
 ---
 
 ## Deploying (Making It Live)
 
-The site is on Cloudflare Pages. Deployment happens when code is pushed to GitHub.
+The site is served by the `tarotflower-web` Cloudflare Worker. Committing, pushing, and deploying are separate actions.
 
-Ask Claude:
-> "Commit these changes and push"
+Ask Codex only when you are ready:
+> "Commit these changes, but do not push or deploy"
 
-Claude will:
-1. Create a git commit describing what changed
-2. Push it to GitHub
-3. Cloudflare Pages automatically rebuilds and deploys (~2 minutes)
+For a production release, give a second explicit instruction after reviewing the commit and test report. Codex then uses the existing Worker deployment workflow and verifies the live site.
 
-**Only do this when you're happy with what you see locally.** You can always ask Claude to undo changes before pushing.
+**Only authorize deployment when you're happy with what you see locally.** A push or deployment is never implied by a local change or commit.
 
 ---
 
@@ -130,8 +127,8 @@ Each page has `seo_title` and `seo_description` fields in its frontmatter. These
 
 ## Things to Know
 
-- **Don't worry about breaking things.** Everything is in git. Claude can undo any change, and Blair can restore anything from history.
-- **Always build before pushing.** `npm run build` catches errors before they go live.
+- **Git preserves history, but production actions still require care.** Ask Codex to show the exact diff and test evidence before release.
+- **Always build and run the regression suites before deployment.** `npm run build` alone is not the complete release gate.
 - **One thing at a time works best.** "Change the heading on the astrology page" is better than "redesign the astrology page." You can always ask for more.
 - **You can say no.** If Claude makes a change you don't like, just say "undo that" or "no, I meant..."
 - **Images go in `public/images/`.** Reference them as `/images/your-file.jpg` (no `public` in the path).
@@ -146,6 +143,7 @@ Each page has `seo_title` and `seo_description` fields in its frontmatter. These
 | Start local preview | "Start the dev server" |
 | Stop local preview | Press Ctrl+C in terminal |
 | Check for errors | "Build the site" |
-| Deploy to live site | "Commit and push" |
+| Commit locally | "Commit these changes, but do not push or deploy" |
+| Deploy to live site | Give explicit production deployment approval after review |
 | Undo a change | "Undo that last change" |
 | See what changed | "Show me what files changed" |

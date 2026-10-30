@@ -2,8 +2,8 @@
   "supplementalStaticRoutes": ["/admin/"],
   "redirectedGeneratedRoutes": [],
   "protectedDynamicDestinations": ["/api/library/", "/workbench/"],
-  "sitemapOrphans": ["/tarot-card-readings/", "/terms-and-conditions/"],
-  "contextualOrphans": [
+  "intentionalSitemapOnlyRoutes": ["/tarot-card-readings/", "/terms-and-conditions/"],
+  "intentionalNonContextualRoutes": [
     "/astrology/",
     "/daily-tarot/page/2/",
     "/daily-tarot/page/3/",
@@ -14,6 +14,9 @@
     "/tarot-card-readings/",
     "/terms-and-conditions/"
   ],
+  "intentionallyUnpublishedHistoricalUrls": [
+    "/melissa-warwood-tantric-tarot/"
+  ],
   "approvalRequiredHistoricalUrls": [
     "/energy-healing-body-work/",
     "/goddess-yoga-class-schedule/",
@@ -21,7 +24,6 @@
     "/goddess-yoga-online/",
     "/lago-dorta-italy/",
     "/lago-dorta-italy-2024/",
-    "/melissa-warwood-tantric-tarot/",
     "/pantelleria-2024/",
     "/tarot-flower-kids/",
     "/product/lago-dorta-goddess-yoga-retreat-2024/",
