@@ -12,12 +12,20 @@
     "binding": "ASSETS"
   },
   "vars": {
-    "ALLOWED_ORIGINS": "https://tarotflower.com,https://www.tarotflower.com,https://tarotflower-web-dev.embodiedgoddesses.workers.dev",
-    "CAMPAIGN_FROM": "contact@tarotflower.com",
-    "CAMPAIGN_REPLY_TO": "contact@tarotflower.com",
-    "CONTACT_FROM": "contact@tarotflower.com",
+    "ALLOWED_ORIGINS": "https://tarotflower.com,https://www.tarotflower.com,https://goddess-yoga-retreats.com,https://www.goddess-yoga-retreats.com,https://tarotflower-web-dev.embodiedgoddesses.workers.dev",
+    "CAMPAIGN_FROM": "Vanessa Hylande <vanessa@tarotflower.com>",
+    "CAMPAIGN_REPLY_TO": "vanessa@tarotflower.com",
+    "CAMPAIGN_OWNER_COPY": "vanessa@tarotflower.com",
+    "CAMPAIGN_PUBLIC_ORIGIN": "https://tarotflower.com",
+    "CAMPAIGN_BATCH_SIZE": "25",
+    "SMTP_AUTHORIZED_FROM": "vanessa@tarotflower.com",
+    "CAMPAIGN_AUTHENTICATION_VERIFIED": "true",
+    "TAROT_FROM": "Tarot Flower <vanessa@tarotflower.com>",
+    "TAROT_REPLY_TO": "vanessa@tarotflower.com",
+    "CIRCLE_FROM": "Moonlight Circle <vanessa@tarotflower.com>",
+    "CIRCLE_REPLY_TO": "vanessa@tarotflower.com",
     "CONTACT_TURNSTILE_SITE_KEY": "0x4AAAAAADxdJGuO-lzCbR0H",
-    "TURNSTILE_ALLOWED_HOSTNAMES": "tarotflower.com,www.tarotflower.com,tarotflower-web-dev.embodiedgoddesses.workers.dev",
+    "TURNSTILE_ALLOWED_HOSTNAMES": "tarotflower.com,www.tarotflower.com,goddess-yoga-retreats.com,www.goddess-yoga-retreats.com,tarotflower-web-dev.embodiedgoddesses.workers.dev",
     "WORKER_ENV": "dev"
   },
   "d1_databases": [
@@ -59,6 +67,7 @@
       "CAMPAIGN_DEV_SEND_TOKEN",
       "CAMPAIGN_SEND_TOKEN",
       "GUIDE_DOWNLOAD_TOKEN_SECRET",
+      "QA_RECORD_TOKEN",
       "SMTP_APP_PASSWORD",
       "SMTP_USERNAME",
       "TURNSTILE_SECRET_KEY"

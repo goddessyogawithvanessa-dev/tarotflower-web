@@ -20,7 +20,7 @@ INSERT INTO products (
   '/library/rituals/step-into-your-fire/',
   'price_1Tyt6bHxP7ZQh1un7maRbGC4',
   'plink_1Tyt6kHxP7ZQh1unSsgzOV8w',
-  '[{"id":"guide","label":"Ritual Guide","kind":"pdf","key":"test/step-into-the-fire/ritual-guide.pdf","filename":"step-into-your-fire-guide.pdf","contentType":"application/pdf"},{"id":"music","label":"Original Music","kind":"audio","key":"test/step-into-the-fire/original-music.mp3","filename":"step-into-your-fire-music.mp3","contentType":"audio/mpeg"},{"id":"movement","label":"Guided Movement Practice","kind":"video","key":"test/step-into-the-fire/movement-practice.mp4","filename":"step-into-your-fire-movement.mp4","contentType":"video/mp4"},{"id":"video-initiation","label":"Initiation Ritual","kind":"video","key":"test/step-into-the-fire/videos/initiation.mp4","filename":"fire-ritual-initiation.mp4","contentType":"video/mp4"},{"id":"video-destruction","label":"Destruction Ritual","kind":"video","key":"test/step-into-the-fire/videos/destruction.mp4","filename":"fire-ritual-destruction.mp4","contentType":"video/mp4"},{"id":"video-guardian","label":"Guardian Embodiment Ritual","kind":"video","key":"test/step-into-the-fire/videos/guardian-embodiment.mp4","filename":"fire-ritual-guardian-embodiment.mp4","contentType":"video/mp4"},{"id":"video-freedom","label":"Freedom Sound Bath","kind":"video","key":"test/step-into-the-fire/videos/freedom-sound-bath.mp4","filename":"fire-ritual-freedom-sound-bath.mp4","contentType":"video/mp4"}]',
+  '[{"id":"guide","label":"Step Into Your Fire Grimoire","kind":"pdf","key":"production/step-into-your-fire/step-into-your-fire-grimoire.pdf","filename":"step-into-your-fire-grimoire.pdf","contentType":"application/pdf"}]',
   1,
   unixepoch(),
   unixepoch()

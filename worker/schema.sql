@@ -3,6 +3,9 @@ PRAGMA foreign_keys = ON;
 CREATE TABLE IF NOT EXISTS customers (
   email TEXT PRIMARY KEY COLLATE NOCASE,
   stripe_customer_id TEXT UNIQUE,
+  user_id TEXT UNIQUE,
+  display_name TEXT,
+  email_verified_at INTEGER,
   created_at INTEGER NOT NULL,
   updated_at INTEGER NOT NULL
 );
@@ -93,6 +96,7 @@ CREATE TABLE IF NOT EXISTS sessions (
   expires_at INTEGER NOT NULL,
   last_seen_at INTEGER NOT NULL,
   revoked_at INTEGER,
+  auth_method TEXT NOT NULL DEFAULT 'legacy',
   FOREIGN KEY (customer_email) REFERENCES customers(email)
 );
 
@@ -111,3 +115,29 @@ CREATE TABLE IF NOT EXISTS auth_rate_limits (
   attempts INTEGER NOT NULL,
   blocked_until INTEGER
 );
+
+-- Shared Tarot Flower identity credentials. Existing production databases receive
+-- these tables through migration 0007, while these definitions support fresh installs.
+CREATE TABLE IF NOT EXISTS identity_passwords (
+  user_id TEXT PRIMARY KEY REFERENCES customers(user_id),
+  password_hash TEXT NOT NULL,
+  version INTEGER NOT NULL CHECK(version > 0),
+  created_at INTEGER NOT NULL,
+  changed_at INTEGER NOT NULL,
+  change_token_hash TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS identity_password_tokens (
+  token_hash TEXT PRIMARY KEY,
+  user_id TEXT NOT NULL REFERENCES customers(user_id),
+  purpose TEXT NOT NULL CHECK(purpose IN ('setup','reset')),
+  credential_version INTEGER NOT NULL,
+  created_at INTEGER NOT NULL,
+  expires_at INTEGER NOT NULL,
+  consumed_at INTEGER,
+  pending_password_hash TEXT,
+  destination_path TEXT
+);
+
+CREATE INDEX IF NOT EXISTS identity_password_tokens_user_idx
+  ON identity_password_tokens(user_id, expires_at);

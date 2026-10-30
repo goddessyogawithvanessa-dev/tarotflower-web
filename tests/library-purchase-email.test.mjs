@@ -1,55 +1,37 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { buildLibraryPurchaseAccessEmail } from '../worker/email-service/library-purchase-email.js';
+import { EMAILS, renderEmail } from '../worker/email-service/tarot-email-suite.js';
 
-test('purchase email provides direct ritual access and a permanent library route', () => {
-  const ritualAccessUrl = 'https://tarotflower.com/library/auth?token=single-use-token&next=%2Flibrary%2Frituals%2Fstep-into-your-fire%2F';
-  const libraryUrl = 'https://tarotflower.com/library/';
-  const email = buildLibraryPurchaseAccessEmail({
-    productTitle: 'Step Into Your Fire',
-    ritualAccessUrl,
-    libraryUrl,
-    expiresInMinutes: 15,
-  });
-
-  for (const content of [email.html, email.text]) {
-    assert.match(content, /Hey, Warrior Goddess/i);
-    assert.match(content, /decided to join the circle/i);
-    assert.match(content, /ritual is ready for you/i);
-    assert.match(content, /private access link/i);
-    assert.match(content, /about an hour/i);
-    assert.match(content, /ritual is yours permanently/i);
-    assert.match(content, /BEGIN THE RITUAL/i);
-    assert.match(content, /MY RITUALS/i);
-    assert.match(content, /Let’s make some magic together/i);
-    assert.match(content, /XOXO/i);
-    assert.match(content, /library\/auth/i);
-    assert.match(content, /token=/i);
-    assert.match(content, /library\//i);
-    assert.doesNotMatch(content, /RITUAL GRIMOIRE/i);
-  }
+test('FIRE uses approved copy and keeps unfinished video/music disabled', () => {
+  const email = buildLibraryPurchaseAccessEmail({libraryUrl:'https://tarotflower.com/library/'});
+  assert.equal(email.subject, 'Your FIRE Ritual is ready 🔥');
+  assert.match(email.text,/I'm so excited you're here!/);
+  assert.match(email.text,/OPEN MY LIBRARY/);
+  assert.match(email.text,/same email address you used at checkout/);
+  assert.match(email.text,/existing password/);
+  assert.doesNotMatch(email.html,/href=""/);
+  assert.doesNotMatch(email.text,/DOWNLOAD YOUR RITUAL COMPANION|BEGIN THE RITUAL|magic link/i);
 });
-
-test('purchase email renders the protected download suite only when all final assets are available', () => {
-  const downloads = [
-    ['RITUAL GRIMOIRE', 'grimoire'],
-    ['COMPLETE RITUAL VIDEO', 'complete-video'],
-    ['RITUAL MUSIC', 'ritual-music'],
-  ].map(([label, id]) => ({
-    label,
-    url: `https://tarotflower.com/api/library/files/step-into-your-fire/${id}?download=1`,
-  }));
-  const email = buildLibraryPurchaseAccessEmail({
-    ritualAccessUrl: 'https://tarotflower.com/library/auth?token=single-use-token&next=%2Flibrary%2Frituals%2Fstep-into-your-fire%2F',
-    libraryUrl: 'https://tarotflower.com/library/',
-    downloads,
-  });
-
-  for (const content of [email.html, email.text]) {
-    assert.match(content, /YOURS TO KEEP/i);
-    assert.match(content, /RITUAL GRIMOIRE/i);
-    assert.match(content, /COMPLETE RITUAL VIDEO/i);
-    assert.match(content, /RITUAL MUSIC/i);
-    assert.match(content, /api\/library\/files\/step-into-your-fire/i);
+test('FIRE email has one durable library CTA and no asset attachments or expiring URLs', () => {
+  const email=buildLibraryPurchaseAccessEmail({libraryUrl:'https://tarotflower.com/library/'});
+  assert.equal((email.html.match(/<a href=/g) || []).length,1);
+  assert.match(email.text,/OPEN MY LIBRARY\nhttps:\/\/tarotflower\.com\/library\//);
+  assert.doesNotMatch(email.text,/token=|companion=|expires/i);
+});
+test('all eight approved templates produce HTML and real paragraph breaks', () => {
+  assert.equal(Object.keys(EMAILS).length,8);
+  for (const key of Object.keys(EMAILS)) {
+    const e=renderEmail(key,{unsubscribe_url:'https://example.test/unsubscribe',guide_download_url:'https://example.test/guide',
+      ritual_url:'https://example.test/ritual',library_url:'https://example.test/library',login_url:'https://example.test/login',
+      verification_url:'https://example.test/library/verify?token=preview'});
+    assert.ok(e.text.includes('\n\n'));
+    assert.ok(e.html.includes('<html'));
+    assert.doesNotMatch(e.text,/\\n/);
+    assert.doesNotMatch(e.text,/\{\{/);
   }
+  assert.match(EMAILS.transmutation.text,/crazy shit/);
+  assert.match(EMAILS['fire-followup'].text,/That’s transmutation/);
+  assert.match(EMAILS['library-verification'].text,/VERIFY MY EMAIL/);
+  assert.match(EMAILS['library-verification'].text,/24 hours/);
 });

@@ -1,5 +1,14 @@
+import { circlePublic, verifiedAccount, sharedIdentity, revokeSharedIdentity } from './circle/identity.js';
+import { syncCircleEmailConsents } from './circle/consent.js';
+import { hashPassword, verifyPassword, passwordError } from './circle/passwords.js';
+import { handleWorkbenchRequest } from './workbench/access.js';
+export { CircleIdentityService } from './circle/identity.js';
+
 const SESSION_COOKIE = 'tf_library_session';
+const CHECKOUT_CONTEXT_COOKIE = 'tf_library_checkout_context';
 const MAGIC_LINK_TTL_SECONDS = 15 * 60;
+const PASSWORD_LINK_TTL_SECONDS = 15 * 60;
+const ACCOUNT_VERIFICATION_TTL_SECONDS = 24 * 60 * 60;
 const SESSION_TTL_SECONDS = 30 * 24 * 60 * 60;
 const RATE_LIMIT_WINDOW_SECONDS = 15 * 60;
 const RATE_LIMIT_ATTEMPTS = 5;
@@ -10,16 +19,13 @@ const STEP_INTO_YOUR_FIRE_SLUG = 'step-into-your-fire';
 const LEGACY_STEP_INTO_FIRE_SLUG = 'step-into-the-fire-test';
 const LEGACY_STEP_INTO_FIRE_PATH = '/library/rituals/step-into-the-fire-test/';
 const PURCHASE_EMAIL_CLAIM_TTL_SECONDS = 5 * 60;
-
-// Activate these only after the final protected files are present in R2 and the
-// matching asset IDs have replaced the legacy test assets in products.assets_json.
-const FIRE_PURCHASE_DOWNLOAD_ASSET_IDS = Object.freeze({
-  grimoire: null,
-  completeVideo: null,
-  ritualMusic: null,
-});
+const GENERIC_PASSWORD_MESSAGE = 'If that email is connected to a purchase, a private email is on its way.';
+const ACCOUNT_CREATED_MESSAGE = 'Almost there! Please check your email.';
 
 export default {
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(syncCircleEmailConsents(env));
+  },
   async fetch(request, env, ctx) {
     try {
       return await routeRequest(request, env, ctx);
@@ -34,6 +40,8 @@ export default {
 };
 
 async function routeRequest(request, env, ctx) {
+  const circleResponse = await circlePublic(request, env, ctx);
+  if (circleResponse) return circleResponse;
   const url = new URL(request.url);
   const visitorScheme = request.headers.get('CF-Visitor') || '';
 
@@ -43,6 +51,60 @@ async function routeRequest(request, env, ctx) {
   ) {
     url.protocol = 'https:';
     return Response.redirect(url.toString(), 301);
+  }
+
+  if (url.pathname === '/api/email/unsubscribe' && ['GET', 'POST'].includes(request.method)) {
+    if (!env.EMAIL_SERVICE?.fetch) return new Response('Unsubscribe service unavailable.', { status: 503 });
+    const serviceUrl = new URL('https://email.internal/api/email/unsubscribe');
+    serviceUrl.search = url.search;
+    return env.EMAIL_SERVICE.fetch(new Request(serviceUrl.toString(), request));
+  }
+
+  const newsletterPreview = url.pathname.match(/^\/workbench\/newsletters\/([^/]+)\/preview\/?$/);
+  if (newsletterPreview && request.method === 'GET') {
+    const session = await authenticate(request, env, true);
+    if (!session) return noStoreRedirect(new URL('/workbench/login/', appOrigin(env)), 302);
+    if (normalizeEmail(session.email) !== workbenchOwnerEmail(env)) {
+      return new Response('This account is not authorized for the Tarot Flower Workbench.', {
+        status: 403, headers: workbenchSecurityHeaders(),
+      });
+    }
+    if (!env.EMAIL_SERVICE?.fetch) return new Response('Preview service unavailable.', { status: 503 });
+    return env.EMAIL_SERVICE.fetch(`https://email.internal/api/admin/newsletters/${encodeURIComponent(newsletterPreview[1])}/preview`);
+  }
+
+  if (request.method === 'GET' && url.pathname === '/workbench') {
+    return Response.redirect(`${url.origin}/workbench/${url.search}`, 308);
+  }
+
+  if (url.pathname === '/workbench/') {
+    const session = await authenticate(request, env, true);
+    if (!session) {
+      return noStoreRedirect(new URL('/workbench/login/', appOrigin(env)), 302);
+    }
+    if (normalizeEmail(session.email) !== workbenchOwnerEmail(env)) {
+      return new Response('This account is not authorized for the Tarot Flower Workbench.', {
+        status: 403,
+        headers: workbenchSecurityHeaders(),
+      });
+    }
+    return handleWorkbenchRequest(request, env);
+  }
+
+  if (request.method === 'POST' && url.pathname === '/api/workbench/login') {
+    return workbenchPasswordLogin(request, env);
+  }
+
+  if (request.method === 'POST' && url.pathname === '/api/workbench/password/request') {
+    return requestWorkbenchPasswordLink(request, env, ctx);
+  }
+
+  if (request.method === 'POST' && url.pathname === '/api/workbench/password/set') {
+    return setWorkbenchPassword(request, env, ctx);
+  }
+
+  if (request.method === 'POST' && url.pathname === '/api/workbench/logout') {
+    return logout(request, env, '/workbench/login/');
   }
 
   if (request.method === 'GET' && url.pathname === '/api/library/config') {
@@ -56,6 +118,38 @@ async function routeRequest(request, env, ctx) {
     return requestMagicLink(request, env, ctx);
   }
 
+  if (request.method === 'POST' && url.pathname === '/api/library/login') {
+    return passwordLogin(request, env);
+  }
+
+  if (request.method === 'POST' && url.pathname === '/api/library/account/register') {
+    return registerLibraryAccount(request, env);
+  }
+
+  if (request.method === 'GET' && url.pathname === '/library/verify') {
+    return verifyLibraryAccount(request, env);
+  }
+
+  if (request.method === 'POST' && url.pathname === '/api/library/account/resend-verification') {
+    return resendLibraryVerification(request, env, ctx);
+  }
+
+  if (request.method === 'POST' && url.pathname === '/api/library/password/request') {
+    return requestPasswordLink(request, env, ctx);
+  }
+
+  if (request.method === 'GET' && url.pathname === '/api/library/password/info') {
+    return passwordLinkInfo(request, env);
+  }
+
+  if (request.method === 'POST' && url.pathname === '/api/library/password/set') {
+    return setLibraryPassword(request, env, ctx);
+  }
+
+  if (request.method === 'GET' && url.pathname === '/api/library/setup-context') {
+    return getCheckoutContext(request, env);
+  }
+
   if (request.method === 'GET' && url.pathname === '/library/auth') {
     return consumeMagicLink(request, env);
   }
@@ -66,6 +160,18 @@ async function routeRequest(request, env, ctx) {
 
   if (request.method === 'GET' && url.pathname === '/api/library/session') {
     return getLibrarySession(request, env);
+  }
+
+  if (request.method === 'GET' && url.pathname === '/api/library/video/step-into-your-fire') {
+    return getProtectedFireVideo(request, env);
+  }
+
+  if (request.method === 'GET' && url.pathname === '/api/pinterest/fire-receipt') {
+    return getFireConversionReceipt(request, env);
+  }
+
+  if (request.method === 'GET' && url.pathname === '/api/analytics/fire-receipt') {
+    return getFireAnalyticsReceipt(request, env);
   }
 
   if ((request.method === 'GET' || request.method === 'HEAD') && url.pathname.startsWith('/library/rituals/')) {
@@ -149,6 +255,305 @@ async function requestMagicLink(request, env, ctx) {
   return json(response, 202);
 }
 
+async function passwordLogin(request, env) {
+  const body = await readJson(request);
+  const email = normalizeEmail(body.email);
+  const password = typeof body.password === 'string' ? body.password : '';
+  const turnstileToken = typeof body.turnstileToken === 'string' ? body.turnstileToken : '';
+  const ip = request.headers.get('CF-Connecting-IP') || 'local';
+  const invalid = () => json({ error: 'We couldn’t sign you in with that email and password.' }, 401, noStoreHeaders());
+
+  if (!await verifyTurnstile(turnstileToken, ip, env)) {
+    return json({ error: 'Please complete the security check and try again.' }, 400, noStoreHeaders());
+  }
+  if (!email || !isValidEmail(email) || [...password].length > 128) return invalid();
+  if (await isRateLimited(`login:${email}`, ip, env)) {
+    return json({ error: 'Too many sign-in attempts. Please try again in 15 minutes.' }, 429, noStoreHeaders());
+  }
+
+  const account = await passwordAccount(email, env);
+  const entitlement = await env.LIBRARY_DB.prepare(
+    'SELECT 1 FROM entitlements WHERE customer_email=?1 AND revoked_at IS NULL LIMIT 1',
+  ).bind(email).first();
+  if (!verifyPassword(password, account?.password_hash) || !account?.email_verified_at || !entitlement) return invalid();
+
+  const destination = await resolveRequestedDestination(email, body.destinationPath, env);
+  const response = json({ ok: true, redirect: destination.path }, 200, noStoreHeaders());
+  response.headers.append('Set-Cookie', await createLibrarySession(email, 'password', env));
+  response.headers.append('Set-Cookie', clearCheckoutContextCookie());
+  return response;
+}
+
+async function workbenchPasswordLogin(request, env) {
+  const body = await readJson(request);
+  const email = normalizeEmail(body.email);
+  const password = typeof body.password === 'string' ? body.password : '';
+  const turnstileToken = typeof body.turnstileToken === 'string' ? body.turnstileToken : '';
+  const ip = request.headers.get('CF-Connecting-IP') || 'local';
+  const invalid = () => json({ error: 'We couldn’t sign you in with that email and password.' }, 401, workbenchSecurityHeaders());
+
+  if (!await verifyTurnstile(turnstileToken, ip, env)) {
+    return json({ error: 'Please complete the security check and try again.' }, 400, workbenchSecurityHeaders());
+  }
+  if (!email || !isValidEmail(email) || [...password].length > 128) return invalid();
+  if (await isRateLimited(`login:${email}`, ip, env)) {
+    return json({ error: 'Too many sign-in attempts. Please try again in 15 minutes.' }, 429, workbenchSecurityHeaders());
+  }
+
+  const account = await passwordAccount(email, env);
+  const isOwner = email === workbenchOwnerEmail(env);
+  if (!verifyPassword(password, account?.password_hash) || !account?.email_verified_at || !isOwner) return invalid();
+
+  const response = json({ ok: true, redirect: '/workbench/' }, 200, workbenchSecurityHeaders());
+  response.headers.append('Set-Cookie', await createLibrarySession(email, 'password', env));
+  return response;
+}
+
+async function requestPasswordLink(request, env, ctx) {
+  const body = await readJson(request);
+  const email = normalizeEmail(body.email);
+  const purpose = 'reset';
+  const turnstileToken = typeof body.turnstileToken === 'string' ? body.turnstileToken : '';
+  const ip = request.headers.get('CF-Connecting-IP') || 'local';
+
+  if (!await verifyTurnstile(turnstileToken, ip, env)) {
+    return json({ error: 'Please complete the security check and try again.' }, 400, noStoreHeaders());
+  }
+  if (!email || !isValidEmail(email) || await isRateLimited(`${purpose}:${email}`, ip, env)) {
+    return json({ message: GENERIC_PASSWORD_MESSAGE }, 202, noStoreHeaders());
+  }
+
+  const destination = await resolveRequestedDestination(email, body.destinationPath, env);
+  const delivery = issueLibraryPasswordLink(email, purpose, destination.path, env);
+  if (isTestMode(env)) await delivery;
+  else ctx.waitUntil(delivery.catch(() => console.error('Library password email processing failed')));
+  return json({ message: GENERIC_PASSWORD_MESSAGE }, 202, noStoreHeaders());
+}
+
+async function requestWorkbenchPasswordLink(request, env, ctx) {
+  const body = await readJson(request);
+  const email = normalizeEmail(body.email);
+  const turnstileToken = typeof body.turnstileToken === 'string' ? body.turnstileToken : '';
+  const ip = request.headers.get('CF-Connecting-IP') || 'local';
+
+  if (!await verifyTurnstile(turnstileToken, ip, env)) {
+    return json({ error: 'Please complete the security check and try again.' }, 400, workbenchSecurityHeaders());
+  }
+  if (!email || !isValidEmail(email) || email !== workbenchOwnerEmail(env)
+      || await isRateLimited(`reset:${email}`, ip, env)) {
+    return json({ message: GENERIC_PASSWORD_MESSAGE }, 202, workbenchSecurityHeaders());
+  }
+
+  const delivery = issueWorkbenchPasswordLink(email, env);
+  if (isTestMode(env)) await delivery;
+  else ctx.waitUntil(delivery.catch(() => console.error('Workbench password email processing failed')));
+  return json({ message: GENERIC_PASSWORD_MESSAGE }, 202, workbenchSecurityHeaders());
+}
+
+async function passwordLinkInfo(request, env) {
+  const token = new URL(request.url).searchParams.get('token') || '';
+  const proof = await libraryPasswordProof(token, env);
+  if (!proof) return json({ error: 'This link has expired or has already been used.' }, 400, noStoreHeaders());
+  return json({ email: proof.email, purpose: proof.purpose }, 200, noStoreHeaders());
+}
+
+async function setLibraryPassword(request, env, ctx) {
+  const body = await readJson(request);
+  const proof = await libraryPasswordProof(body.token, env);
+  if (!proof || proof.purpose !== 'reset') return json({ error: 'This link has expired or has already been used. Please request a new one.' }, 400, noStoreHeaders());
+  if (body.password !== body.confirmPassword) return json({ error: 'The two passwords do not match.' }, 400, noStoreHeaders());
+  const invalid = passwordError(body.password, proof.email);
+  if (invalid) return json({ error: invalid }, 400, noStoreHeaders());
+
+  const entitlement = await env.LIBRARY_DB.prepare(
+    'SELECT 1 FROM entitlements WHERE customer_email=?1 AND revoked_at IS NULL LIMIT 1',
+  ).bind(proof.email).first();
+  if (!entitlement) return json({ error: 'No purchased rituals are connected to this email.' }, 403, noStoreHeaders());
+
+  const destination = await resolveRequestedDestination(proof.email, body.destinationPath, env);
+  return commitPasswordChange(proof, body.password, destination.path, env, ctx, true);
+}
+
+async function setWorkbenchPassword(request, env, ctx) {
+  const body = await readJson(request);
+  const proof = await libraryPasswordProof(body.token, env);
+  if (!proof || proof.purpose !== 'reset' || normalizeEmail(proof.email) !== workbenchOwnerEmail(env)) {
+    return json({ error: 'This link has expired or has already been used. Please request a new one.' }, 400, workbenchSecurityHeaders());
+  }
+  if (body.password !== body.confirmPassword) {
+    return json({ error: 'The two passwords do not match.' }, 400, workbenchSecurityHeaders());
+  }
+  const invalid = passwordError(body.password, proof.email);
+  if (invalid) return json({ error: invalid }, 400, workbenchSecurityHeaders());
+  return commitPasswordChange(proof, body.password, '/workbench/', env, ctx, false);
+}
+
+async function registerLibraryAccount(request, env) {
+  const body = await readJson(request);
+  const email = normalizeEmail(body.email);
+  const password = typeof body.password === 'string' ? body.password : '';
+  const confirmPassword = typeof body.confirmPassword === 'string' ? body.confirmPassword : '';
+  const ip = request.headers.get('CF-Connecting-IP') || 'local';
+  const turnstileToken = typeof body.turnstileToken === 'string' ? body.turnstileToken : '';
+
+  if (!await verifyTurnstile(turnstileToken, ip, env)) {
+    return json({ error: 'Please complete the security check and try again.' }, 400, noStoreHeaders());
+  }
+  if (!email || !isValidEmail(email)) return json({ error: 'Please enter a valid email address.' }, 400, noStoreHeaders());
+  if (password !== confirmPassword) return json({ error: 'The two passwords do not match.' }, 400, noStoreHeaders());
+  const invalid = passwordError(password, email);
+  if (invalid) return json({ error: invalid }, 400, noStoreHeaders());
+  if (await isRateLimited(`register:${email}`, ip, env)) {
+    return json({ error: 'Too many attempts. Please try again in 15 minutes.' }, 429, noStoreHeaders());
+  }
+
+  const account = await passwordAccount(email, env);
+  const entitlement = await env.LIBRARY_DB.prepare(
+    'SELECT 1 FROM entitlements WHERE customer_email=?1 AND revoked_at IS NULL LIMIT 1',
+  ).bind(email).first();
+  if (account?.password_hash) {
+    return json({ error: 'You already have an account. Please sign in, or use Forgot Password if you need help.' }, 409, noStoreHeaders());
+  }
+  if (!account || !entitlement) {
+    return json({ error: 'We could not find a purchased ritual for that email. Please use the email from checkout or reply to your welcome email for help.' }, 403, noStoreHeaders());
+  }
+
+  const user = await ensureCustomerIdentity(email, env);
+  const destination = await resolveRegistrationDestination(email, body.destinationPath, env);
+  const rawToken = randomToken();
+  const tokenHash = await sha256(rawToken);
+  const now = unixTime();
+  await env.LIBRARY_DB.prepare(
+    `INSERT INTO identity_password_tokens
+      (token_hash,user_id,purpose,credential_version,created_at,expires_at,consumed_at,pending_password_hash,destination_path)
+     VALUES (?1,?2,'setup',0,?3,?4,NULL,?5,?6)`,
+  ).bind(tokenHash, user.user_id, now, now + ACCOUNT_VERIFICATION_TTL_SECONDS, hashPassword(password), destination.path).run();
+
+  const link = new URL('/library/verify', appOrigin(env));
+  link.searchParams.set('token', rawToken);
+  try {
+    await sendLibraryAccountVerification(email, link.toString(), env);
+    await env.LIBRARY_DB.prepare(
+      `UPDATE identity_password_tokens SET consumed_at=?1,pending_password_hash=NULL
+       WHERE user_id=?2 AND purpose='setup' AND consumed_at IS NULL AND token_hash<>?3`,
+    ).bind(now, user.user_id, tokenHash).run();
+  } catch (error) {
+    await env.LIBRARY_DB.prepare('DELETE FROM identity_password_tokens WHERE token_hash=?1').bind(tokenHash).run();
+    console.error('Library verification email failed', error);
+    return json({ error: 'We could not send the verification email. Please try again.' }, 503, noStoreHeaders());
+  }
+
+  return json({
+    message: ACCOUNT_CREATED_MESSAGE,
+    detail: "We've sent you a verification link. Open that email and click VERIFY MY EMAIL to finish setting up your account and begin your ritual.",
+  }, 202, noStoreHeaders());
+}
+
+async function verifyLibraryAccount(request, env) {
+  const rawToken = new URL(request.url).searchParams.get('token') || '';
+  const setupUrl = new URL('/library/setup/?status=expired', appOrigin(env));
+  if (!/^[A-Za-z0-9_-]{43}$/.test(rawToken)) return noStoreRedirect(setupUrl, 302);
+  const tokenHash = await sha256(rawToken);
+  const now = unixTime();
+  const proof = await env.LIBRARY_DB.prepare(
+    `SELECT t.token_hash,t.user_id,t.pending_password_hash,t.destination_path,t.expires_at,t.consumed_at,c.email
+     FROM identity_password_tokens t JOIN customers c ON c.user_id=t.user_id
+     LEFT JOIN identity_passwords p ON p.user_id=t.user_id
+     WHERE t.token_hash=?1 AND t.purpose='setup' AND p.user_id IS NULL`,
+  ).bind(tokenHash).first();
+  if (!proof || proof.consumed_at !== null || Number(proof.expires_at) <= now || !proof.pending_password_hash) {
+    return noStoreRedirect(setupUrl, 302);
+  }
+
+  const gate = `EXISTS (SELECT 1 FROM identity_passwords p
+    WHERE p.user_id=?3 AND p.change_token_hash=?4)`;
+  const statements = [
+    env.LIBRARY_DB.prepare(
+      `INSERT INTO identity_passwords(user_id,password_hash,version,created_at,changed_at,change_token_hash)
+       SELECT user_id,pending_password_hash,1,?1,?1,token_hash FROM identity_password_tokens
+       WHERE token_hash=?2 AND purpose='setup' AND consumed_at IS NULL AND expires_at>?1
+         AND pending_password_hash IS NOT NULL
+       ON CONFLICT(user_id) DO NOTHING`,
+    ).bind(now, tokenHash),
+    env.LIBRARY_DB.prepare(`UPDATE customers SET email_verified_at=COALESCE(email_verified_at,?1),updated_at=?1
+      WHERE user_id=?2 AND ${gate}`).bind(now, proof.user_id, proof.user_id, tokenHash),
+    env.LIBRARY_DB.prepare(`UPDATE sessions SET revoked_at=?1 WHERE customer_email=?2 AND revoked_at IS NULL AND ${gate}`)
+      .bind(now, proof.email, proof.user_id, tokenHash),
+    env.LIBRARY_DB.prepare(`UPDATE identity_password_tokens SET consumed_at=?1,pending_password_hash=NULL
+      WHERE user_id=?2 AND purpose='setup' AND consumed_at IS NULL AND ${gate}`)
+      .bind(now, proof.user_id, proof.user_id, tokenHash),
+  ];
+  if (env.CIRCLE_ORIGIN) statements.splice(2, 0,
+    env.LIBRARY_DB.prepare(`UPDATE circle_sessions SET revoked_at=?1 WHERE user_id=?2 AND revoked_at IS NULL AND ${gate}`)
+      .bind(now, proof.user_id, proof.user_id, tokenHash));
+  const result = await env.LIBRARY_DB.batch(statements);
+  if (Number(result[0].meta?.changes || 0) !== 1) return noStoreRedirect(setupUrl, 302);
+
+  const destination = await resolveRegistrationDestination(proof.email, proof.destination_path, env);
+  const response = noStoreRedirect(new URL(destination.path, appOrigin(env)), 302);
+  response.headers.append('Set-Cookie', await createLibrarySession(proof.email, 'password', env));
+  response.headers.append('Set-Cookie', clearCheckoutContextCookie());
+  return response;
+}
+
+async function resendLibraryVerification(request, env) {
+  const body = await readJson(request);
+  const email = normalizeEmail(body.email);
+  const ip = request.headers.get('CF-Connecting-IP') || 'local';
+  const turnstileToken = typeof body.turnstileToken === 'string' ? body.turnstileToken : '';
+  if (!await verifyTurnstile(turnstileToken, ip, env)) {
+    return json({ error: 'Please complete the security check and try again.' }, 400, noStoreHeaders());
+  }
+  if (!email || !isValidEmail(email)) return json({ error: 'Please enter a valid email address.' }, 400, noStoreHeaders());
+  if (await isRateLimited(`verify:${email}`, ip, env)) {
+    return json({ error: 'Too many attempts. Please try again in 15 minutes.' }, 429, noStoreHeaders());
+  }
+  const account = await passwordAccount(email, env);
+  const pending = account && !account.password_hash
+    ? await env.LIBRARY_DB.prepare(
+      `SELECT t.user_id,t.pending_password_hash,t.destination_path FROM identity_password_tokens t
+       WHERE t.user_id=?1 AND t.purpose='setup' AND t.pending_password_hash IS NOT NULL
+       ORDER BY t.created_at DESC LIMIT 1`,
+    ).bind(account.user_id).first()
+    : null;
+  if (!pending) {
+    return json({ error: 'No unfinished account setup was found. You can create your account again using your purchase email.' }, 404, noStoreHeaders());
+  }
+
+  const rawToken = randomToken();
+  const tokenHash = await sha256(rawToken);
+  const now = unixTime();
+  await env.LIBRARY_DB.prepare(
+    `INSERT INTO identity_password_tokens
+      (token_hash,user_id,purpose,credential_version,created_at,expires_at,consumed_at,pending_password_hash,destination_path)
+     VALUES (?1,?2,'setup',0,?3,?4,NULL,?5,?6)`,
+  ).bind(tokenHash, pending.user_id, now, now + ACCOUNT_VERIFICATION_TTL_SECONDS,
+    pending.pending_password_hash, pending.destination_path).run();
+  const link = new URL('/library/verify', appOrigin(env));
+  link.searchParams.set('token', rawToken);
+  try {
+    await sendLibraryAccountVerification(email, link.toString(), env);
+    await env.LIBRARY_DB.prepare(
+      `UPDATE identity_password_tokens SET consumed_at=?1,pending_password_hash=NULL
+       WHERE user_id=?2 AND purpose='setup' AND consumed_at IS NULL AND token_hash<>?3`,
+    ).bind(now, pending.user_id, tokenHash).run();
+  } catch (error) {
+    await env.LIBRARY_DB.prepare('DELETE FROM identity_password_tokens WHERE token_hash=?1').bind(tokenHash).run();
+    return json({ error: 'We could not send the verification email. Please try again.' }, 503, noStoreHeaders());
+  }
+  return json({
+    message: ACCOUNT_CREATED_MESSAGE,
+    detail: "We've sent you a new verification link. Open that email and click VERIFY MY EMAIL to finish setting up your account and begin your ritual.",
+  }, 202, noStoreHeaders());
+}
+
+async function getCheckoutContext(request, env) {
+  const context = await readCheckoutContext(request, env);
+  if (!context) return json({ error: 'No verified checkout is available.' }, 401, noStoreHeaders());
+  const account = await passwordAccount(context.email, env);
+  return json({ email: context.email, hasPassword: Boolean(account?.password_hash), destinationPath: context.destinationPath }, 200, noStoreHeaders());
+}
+
 async function consumeMagicLink(request, env) {
   const url = new URL(request.url);
   const rawToken = url.searchParams.get('token') || '';
@@ -167,7 +572,7 @@ async function consumeMagicLink(request, env) {
     const requestedPath = link?.destination_path || url.searchParams.get('next');
     const recoveryDestination = await resolveRecoveryDestination(requestedPath, env);
     if (activeSession && link && activeSession.email === link.customer_email) {
-      const destination = await resolveStoredDestination(link, env);
+      const destination = await resolveStoredDestination(link, env, url.searchParams.get('companion'));
       if (destination) return noStoreRedirect(new URL(destination, appOrigin(env)), 302);
     }
     loginUrl.searchParams.set('status', 'invalid');
@@ -175,7 +580,7 @@ async function consumeMagicLink(request, env) {
     return noStoreRedirect(loginUrl, 302);
   }
 
-  const destination = await resolveStoredDestination(link, env);
+  const destination = await resolveStoredDestination(link, env, url.searchParams.get('companion'));
   if (!destination) {
     loginUrl.searchParams.set('status', 'invalid');
     return noStoreRedirect(loginUrl, 302);
@@ -193,15 +598,67 @@ async function consumeMagicLink(request, env) {
 
   const sessionToken = randomToken();
   const sessionHash = await sha256(sessionToken);
+  await verifiedAccount(link.customer_email, env);
   await env.LIBRARY_DB.prepare(
     `INSERT INTO sessions
-      (token_hash, customer_email, created_at, expires_at, last_seen_at, revoked_at)
-     VALUES (?1, ?2, ?3, ?4, ?3, NULL)`,
+      (token_hash, customer_email, created_at, expires_at, last_seen_at, revoked_at, auth_method)
+     VALUES (?1, ?2, ?3, ?4, ?3, NULL, 'email_magic_link')`,
   ).bind(sessionHash, link.customer_email, now, now + SESSION_TTL_SECONDS).run();
 
   const response = noStoreRedirect(new URL(destination, appOrigin(env)), 302);
   response.headers.append('Set-Cookie', sessionCookie(sessionToken, SESSION_TTL_SECONDS));
   return response;
+}
+
+async function getFireConversionReceipt(request, env) {
+  const headers = { ...noStoreHeaders(), 'Set-Cookie': 'tf_pinterest_receipt=; Max-Age=0; Path=/; Secure; HttpOnly; SameSite=Lax' };
+  if (getCookie(request, 'tf_pinterest_consent') !== 'accepted' || isTestMode(env)) return json({}, 200, headers);
+  const receipt = getCookie(request, 'tf_pinterest_receipt') || '';
+  const [id, proof] = receipt.split('.');
+  if (!id?.startsWith('cs_live_') || !proof
+      || !constantTimeEqual(proof, await keyedHash(`pinterest-receipt:${id}`, env.TOKEN_PEPPER))) return json({}, 200, headers);
+  const purchase = await env.LIBRARY_DB.prepare(`SELECT amount_total,currency FROM purchases
+    WHERE stripe_checkout_session_id=?1 AND product_id=?2 AND payment_status='paid'`)
+    .bind(id,STEP_INTO_YOUR_FIRE_PRODUCT_ID).first();
+  // FIRE is denominated in USD. Do not guess minor-unit conversion for other currencies.
+  if (!purchase || purchase.currency?.toLowerCase() !== 'usd') return json({}, 200, headers);
+  const eventId = await sha256(`pinterest-fire:${id}`);
+  return json({event_id:eventId,order_id:eventId,value:purchase.amount_total/100,currency:'USD',order_quantity:1,
+    line_items:[{product_id:'step-into-your-fire',product_name:'Step Into Your Fire',product_price:purchase.amount_total/100,product_quantity:1}]},200,headers);
+}
+
+async function getFireAnalyticsReceipt(request, env) {
+  const headers = { ...noStoreHeaders(), 'Set-Cookie': 'tf_analytics_receipt=; Max-Age=0; Path=/; Secure; HttpOnly; SameSite=Lax' };
+  if (isTestMode(env)) return json({}, 200, headers);
+  const receipt = getCookie(request, 'tf_analytics_receipt') || '';
+  const [id, proof] = receipt.split('.');
+  if (!id?.startsWith('cs_live_') || !proof
+      || !constantTimeEqual(proof, await keyedHash(`analytics-receipt:${id}`, env.TOKEN_PEPPER))) {
+    return json({}, 200, headers);
+  }
+  const purchase = await env.LIBRARY_DB.prepare(`SELECT customer_email,amount_total,currency FROM purchases
+    WHERE stripe_checkout_session_id=?1 AND product_id=?2 AND payment_status='paid'`)
+    .bind(id, STEP_INTO_YOUR_FIRE_PRODUCT_ID).first();
+  if (!purchase || isRecognizedQaEmail(purchase.customer_email, env)
+      || !Number.isFinite(Number(purchase.amount_total))) return json({}, 200, headers);
+  const currency = String(purchase.currency || '').toUpperCase();
+  if (!/^[A-Z]{3}$/.test(currency)) return json({}, 200, headers);
+  const transactionId = await sha256(`ga4-fire:${id}`);
+  return json({
+    transaction_id: transactionId,
+    value: Number(purchase.amount_total) / 100,
+    currency,
+    items: [{ item_id: 'step-into-your-fire', item_name: 'Step Into Your Fire', price: Number(purchase.amount_total) / 100, quantity: 1 }],
+  }, 200, headers);
+}
+
+function isRecognizedQaEmail(value, env) {
+  const email = normalizeEmail(value);
+  const owner = workbenchOwnerEmail(env);
+  return Boolean(email) && (email === owner
+    || /\+(?:tf-prod-verify|gyr-verify|tarotflower-qa|cleanup|leadtest|smtp-test|codex-send)[^@]*@/i.test(email)
+    || /^codex-[^@]*@/i.test(email)
+    || /@(example\.test|example\.com|web-library\.net)$/i.test(email));
 }
 
 async function claimCheckoutSession(request, env) {
@@ -238,21 +695,54 @@ async function claimCheckoutSession(request, env) {
     if (activeSession?.email === fulfillment.email) {
       return noStoreRedirect(new URL(fulfillment.experiencePath, appOrigin(env)), 302);
     }
-    loginUrl.searchParams.set('status', 'claim-used');
+    const account = await passwordAccount(fulfillment.email, env);
+    loginUrl.searchParams.set('status', account?.password_hash ? 'purchase' : 'setup');
     loginUrl.searchParams.set('next', fulfillment.experiencePath);
-    return noStoreRedirect(loginUrl, 302);
+    const response = noStoreRedirect(
+      account?.password_hash ? loginUrl : new URL('/library/setup/?status=request', appOrigin(env)),
+      302,
+    );
+    response.headers.append('Set-Cookie', await checkoutContextCookie(fulfillment.email, fulfillment.experiencePath, env));
+    return response;
   }
 
-  const sessionToken = randomToken();
-  await env.LIBRARY_DB.prepare(
-    `INSERT INTO sessions
-      (token_hash, customer_email, created_at, expires_at, last_seen_at, revoked_at)
-     VALUES (?1, ?2, ?3, ?4, ?3, NULL)`,
-  ).bind(await sha256(sessionToken), fulfillment.email, now, now + SESSION_TTL_SECONDS).run();
+  const activeSession = await authenticate(request, env, false);
+  if (activeSession?.email === fulfillment.email) {
+    return withPurchaseCompletionBridge(
+      noStoreRedirect(new URL(fulfillment.experiencePath, appOrigin(env)), 302),
+      request,
+      sessionId,
+      env,
+    );
+  }
 
-  const destination = new URL(fulfillment.experiencePath, appOrigin(env));
+  const account = await passwordAccount(fulfillment.email, env);
+  let destination;
+  if (account?.password_hash) {
+    destination = new URL('/library/login/', appOrigin(env));
+    destination.searchParams.set('status', 'purchase');
+    destination.searchParams.set('next', fulfillment.experiencePath);
+  } else {
+    destination = new URL('/library/setup/?status=request', appOrigin(env));
+  }
   const response = noStoreRedirect(destination, 302);
-  response.headers.append('Set-Cookie', sessionCookie(sessionToken, SESSION_TTL_SECONDS));
+  response.headers.append('Set-Cookie', await checkoutContextCookie(fulfillment.email, fulfillment.experiencePath, env));
+  return withPurchaseCompletionBridge(response, request, sessionId, env);
+}
+
+async function withPurchaseCompletionBridge(response, request, sessionId, env) {
+  if (isTestMode(env)) return response;
+  const destination = new URL(response.headers.get('Location') || '/', appOrigin(env));
+  if (destination.origin !== appOrigin(env) || !destination.pathname.startsWith('/library/')) return response;
+  const bridge = new URL('/fire-purchase-complete/', appOrigin(env));
+  bridge.searchParams.set('next', `${destination.pathname}${destination.search}${destination.hash}`);
+  response.headers.set('Location', bridge.toString());
+  const analyticsProof = await keyedHash(`analytics-receipt:${sessionId}`, env.TOKEN_PEPPER);
+  response.headers.append('Set-Cookie', `tf_analytics_receipt=${sessionId}.${analyticsProof}; Max-Age=600; Path=/; Secure; HttpOnly; SameSite=Lax`);
+  if (getCookie(request, 'tf_pinterest_consent') === 'accepted') {
+    const pinterestProof = await keyedHash(`pinterest-receipt:${sessionId}`, env.TOKEN_PEPPER);
+    response.headers.append('Set-Cookie', `tf_pinterest_receipt=${sessionId}.${pinterestProof}; Max-Age=600; Path=/; Secure; HttpOnly; SameSite=Lax`);
+  }
   return response;
 }
 
@@ -318,21 +808,46 @@ async function getLibrarySession(request, env) {
   return json({ authenticated: true, email: session.email, products }, 200, noStoreHeaders());
 }
 
-async function logout(request, env) {
+async function getProtectedFireVideo(request, env) {
+  const session = await authenticate(request, env, false);
+  if (!session) return json({ error: 'Unauthorized' }, 401, noStoreHeaders());
+
+  const entitlement = await env.LIBRARY_DB.prepare(
+    `SELECT 1
+     FROM entitlements e
+     JOIN products p ON p.id = e.product_id
+     WHERE p.id = ?1
+       AND e.customer_email = ?2
+       AND e.revoked_at IS NULL
+       AND p.active = 1
+     LIMIT 1`,
+  ).bind(STEP_INTO_YOUR_FIRE_PRODUCT_ID, session.email).first();
+  if (!entitlement) return json({ error: 'Not found' }, 404, noStoreHeaders());
+
+  if (!env.STREAM || !env.FIRE_STREAM_VIDEO_ID || !env.FIRE_STREAM_CUSTOMER_CODE) {
+    return json({ error: 'The ritual video is temporarily unavailable.' }, 503, noStoreHeaders());
+  }
+
+  const token = await env.STREAM.video(env.FIRE_STREAM_VIDEO_ID).generateToken();
+  const code = String(env.FIRE_STREAM_CUSTOMER_CODE).replace(/[^a-zA-Z0-9_-]/g, '');
+  if (!code) return json({ error: 'The ritual video is temporarily unavailable.' }, 503, noStoreHeaders());
+  const embedUrl = `https://customer-${code}.cloudflarestream.com/${token}/iframe?preload=metadata`;
+  return json({ embedUrl }, 200, noStoreHeaders());
+}
+
+async function logout(request, env, redirectPath = '') {
   const rawToken = getCookie(request, SESSION_COOKIE);
   if (rawToken) {
     await env.LIBRARY_DB.prepare(
       'UPDATE sessions SET revoked_at = ?2 WHERE token_hash = ?1 AND revoked_at IS NULL',
     ).bind(await sha256(rawToken), unixTime()).run();
   }
-  return json(
-    { ok: true },
-    200,
-    {
-      ...noStoreHeaders(),
-      'Set-Cookie': clearSessionCookie(),
-    },
-  );
+  const response = redirectPath
+    ? noStoreRedirect(new URL(redirectPath, appOrigin(env)), 303)
+    : json({ ok: true }, 200, noStoreHeaders());
+  response.headers.append('Set-Cookie', clearSessionCookie());
+  if (env.CIRCLE_ORIGIN) response.headers.append('Set-Cookie', await revokeSharedIdentity(request, env));
+  return response;
 }
 
 async function serveProtectedFile(request, env) {
@@ -530,38 +1045,14 @@ async function ensurePurchaseAccessEmail(checkoutSessionId, email, productId, pr
 
   if (Number(claimed.meta?.changes || 0) !== 1) return;
 
-  const rawToken = randomToken();
-  const tokenHash = await sha256(rawToken);
-  const nowForLink = unixTime();
-  const requestedIpHash = await keyedHash(`purchase:${checkoutSessionId}`, env.TOKEN_PEPPER);
-  await env.LIBRARY_DB.prepare(
-    `INSERT INTO magic_links
-      (token_hash, customer_email, product_id, destination_path, requested_ip_hash,
-       created_at, expires_at, consumed_at)
-     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, NULL)`,
-  ).bind(
-    tokenHash,
-    email,
-    productId,
-    experiencePath,
-    requestedIpHash,
-    nowForLink,
-    nowForLink + MAGIC_LINK_TTL_SECONDS,
-  ).run();
-
-  const ritualAccessUrl = new URL('/library/auth', appOrigin(env));
-  ritualAccessUrl.searchParams.set('token', rawToken);
-  ritualAccessUrl.searchParams.set('next', experiencePath);
-
   try {
-    await sendPurchaseAccessEmail(email, productTitle, ritualAccessUrl.toString(), env);
+    await sendPurchaseAccessEmail(email, productTitle, env);
     await env.LIBRARY_DB.prepare(
       `UPDATE purchase_access_emails
        SET sent_at = ?2, claimed_at = NULL, failed_at = NULL, last_error = NULL
        WHERE stripe_checkout_session_id = ?1`,
     ).bind(checkoutSessionId, unixTime()).run();
   } catch (error) {
-    await env.LIBRARY_DB.prepare('DELETE FROM magic_links WHERE token_hash = ?1').bind(tokenHash).run();
     const message = String(error?.message || error || 'Unknown email error').slice(0, 500);
     await env.LIBRARY_DB.prepare(
       `UPDATE purchase_access_emails
@@ -585,6 +1076,10 @@ async function retrieveStripeSession(sessionId, env) {
 }
 
 async function authenticate(request, env, touch) {
+  if (env.CIRCLE_ORIGIN) {
+    const identity = await sharedIdentity(request, env);
+    if (identity) return { email: identity.email, tokenHash: identity.token_hash };
+  }
   const rawToken = getCookie(request, SESSION_COOKIE);
   if (!rawToken) return null;
   const tokenHash = await sha256(rawToken);
@@ -665,7 +1160,7 @@ async function sendMagicLink(email, link, env) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       to: email,
-      subject: 'Your secure Tarot Flower library link',
+      subject: 'Your Tarot Flower Ritual Library ✨',
       magicLink: link,
       expiresInMinutes: 15,
     }),
@@ -673,37 +1168,186 @@ async function sendMagicLink(email, link, env) {
   if (!response.ok) throw new Error(`Email service rejected the message (${response.status})`);
 }
 
-async function sendPurchaseAccessEmail(email, productTitle, ritualAccessUrl, env) {
+async function sendPurchaseAccessEmail(email, productTitle, env) {
   if (!env.EMAIL_SERVICE?.fetch) throw new Error('EMAIL_SERVICE binding is not configured');
   const response = await env.EMAIL_SERVICE.fetch('https://email.internal/api/library-purchase-access', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       to: email,
-      subject: 'Your FIRE Ritual is waiting 🔥',
+      subject: 'Your FIRE Ritual is ready 🔥',
       productTitle,
-      ritualAccessUrl,
       libraryUrl: `${appOrigin(env)}/library/`,
-      downloads: buildFirePurchaseDownloads(env),
-      expiresInMinutes: MAGIC_LINK_TTL_SECONDS / 60,
     }),
   });
   if (!response.ok) throw new Error(`Email service rejected the message (${response.status})`);
 }
 
-function buildFirePurchaseDownloads(env) {
-  const origin = appOrigin(env);
-  const definitions = [
-    ['RITUAL GRIMOIRE', FIRE_PURCHASE_DOWNLOAD_ASSET_IDS.grimoire],
-    ['COMPLETE RITUAL VIDEO', FIRE_PURCHASE_DOWNLOAD_ASSET_IDS.completeVideo],
-    ['RITUAL MUSIC', FIRE_PURCHASE_DOWNLOAD_ASSET_IDS.ritualMusic],
+async function issueLibraryPasswordLink(email, purpose, destinationPath, env) {
+  const account = await passwordAccount(email, env);
+  const entitlement = await env.LIBRARY_DB.prepare(
+    'SELECT 1 FROM entitlements WHERE customer_email=?1 AND revoked_at IS NULL LIMIT 1',
+  ).bind(email).first();
+  if (!entitlement || (purpose === 'setup' ? account?.password_hash : !account?.password_hash)) return false;
+
+  const user = await ensureCustomerIdentity(email, env);
+  const rawToken = randomToken();
+  const tokenHash = await sha256(rawToken);
+  const time = unixTime();
+  await env.LIBRARY_DB.prepare(
+    `INSERT INTO identity_password_tokens(token_hash,user_id,purpose,credential_version,created_at,expires_at,consumed_at)
+     VALUES (?1,?2,?3,?4,?5,?6,NULL)`,
+  ).bind(tokenHash, user.user_id, purpose, Number(account?.version || 0), time, time + PASSWORD_LINK_TTL_SECONDS).run();
+
+  const link = new URL(purpose === 'reset' ? '/library/forgot/' : '/library/setup/', appOrigin(env));
+  link.searchParams.set('token', rawToken);
+  link.searchParams.set('mode', purpose);
+  const destination = await resolveRequestedDestination(email, destinationPath, env);
+  if (destination.path !== '/library/') link.searchParams.set('next', destination.path);
+  try {
+    await sendLibraryPasswordLink(email, purpose, link.toString(), env);
+    return true;
+  } catch (error) {
+    await env.LIBRARY_DB.prepare('DELETE FROM identity_password_tokens WHERE token_hash=?1').bind(tokenHash).run();
+    throw error;
+  }
+}
+
+async function issueWorkbenchPasswordLink(email, env) {
+  let account = await passwordAccount(email, env);
+  if (!account) {
+    const now = unixTime();
+    await env.LIBRARY_DB.prepare(
+      `INSERT OR IGNORE INTO customers(email,user_id,email_verified_at,created_at,updated_at)
+       VALUES (?1,?2,NULL,?3,?3)`,
+    ).bind(email, crypto.randomUUID(), now).run();
+    account = await passwordAccount(email, env);
+  }
+  if (!account?.user_id) {
+    await ensureCustomerIdentity(email, env);
+    account = await passwordAccount(email, env);
+  }
+  if (!account?.user_id) return false;
+
+  const rawToken = randomToken();
+  const tokenHash = await sha256(rawToken);
+  const time = unixTime();
+  await env.LIBRARY_DB.prepare(
+    `INSERT INTO identity_password_tokens(token_hash,user_id,purpose,credential_version,created_at,expires_at,consumed_at)
+     VALUES (?1,?2,'reset',?3,?4,?5,NULL)`,
+  ).bind(tokenHash, account.user_id, Number(account.version || 0), time, time + PASSWORD_LINK_TTL_SECONDS).run();
+
+  const link = new URL('/workbench/forgot/', appOrigin(env));
+  link.searchParams.set('token', rawToken);
+  link.searchParams.set('mode', 'reset');
+  try {
+    await sendLibraryPasswordLink(email, 'reset', link.toString(), env);
+    return true;
+  } catch (error) {
+    await env.LIBRARY_DB.prepare('DELETE FROM identity_password_tokens WHERE token_hash=?1').bind(tokenHash).run();
+    throw error;
+  }
+}
+
+async function commitPasswordChange(proof, password, redirectPath, env, ctx, clearCheckoutContext) {
+  const encoded = hashPassword(password);
+  const time = unixTime();
+  const gate = `EXISTS (SELECT 1 FROM identity_passwords p JOIN identity_password_tokens t ON t.token_hash=p.change_token_hash
+    WHERE p.user_id=?3 AND p.change_token_hash=?4 AND t.consumed_at IS NULL)`;
+  const statements = [
+    env.LIBRARY_DB.prepare(`INSERT INTO identity_passwords(user_id,password_hash,version,created_at,changed_at,change_token_hash)
+      SELECT t.user_id,?1,t.credential_version+1,?2,?2,t.token_hash FROM identity_password_tokens t
+      LEFT JOIN identity_passwords p ON p.user_id=t.user_id
+      WHERE t.token_hash=?3 AND t.consumed_at IS NULL AND t.expires_at>?2 AND t.credential_version=COALESCE(p.version,0)
+      ON CONFLICT(user_id) DO UPDATE SET password_hash=excluded.password_hash,version=excluded.version,
+      changed_at=excluded.changed_at,change_token_hash=excluded.change_token_hash WHERE identity_passwords.version=excluded.version-1`)
+      .bind(encoded, time, proof.token_hash),
+    env.LIBRARY_DB.prepare(`UPDATE customers SET email_verified_at=COALESCE(email_verified_at,?1),updated_at=?1
+      WHERE user_id=?2 AND ${gate}`).bind(time, proof.user_id, proof.user_id, proof.token_hash),
+    env.LIBRARY_DB.prepare(`UPDATE sessions SET revoked_at=?1 WHERE customer_email=?2 AND revoked_at IS NULL AND ${gate}`)
+      .bind(time, proof.email, proof.user_id, proof.token_hash),
+    env.LIBRARY_DB.prepare(`UPDATE identity_password_tokens SET consumed_at=?1 WHERE user_id=?2 AND consumed_at IS NULL AND ${gate}`)
+      .bind(time, proof.user_id, proof.user_id, proof.token_hash),
   ];
-  return definitions
-    .filter(([, assetId]) => assetId)
-    .map(([label, assetId]) => ({
-      label,
-      url: `${origin}/api/library/files/${STEP_INTO_YOUR_FIRE_SLUG}/${encodeURIComponent(assetId)}?download=1`,
-    }));
+  if (env.CIRCLE_ORIGIN) statements.splice(2, 0,
+    env.LIBRARY_DB.prepare(`UPDATE circle_sessions SET revoked_at=?1 WHERE user_id=?2 AND revoked_at IS NULL AND ${gate}`)
+      .bind(time, proof.user_id, proof.user_id, proof.token_hash));
+  const result = await env.LIBRARY_DB.batch(statements);
+  if (Number(result[0].meta?.changes || 0) !== 1) {
+    return json({ error: 'This link has expired or has already been used. Please request a new one.' }, 400, noStoreHeaders());
+  }
+
+  const response = json({ ok: true, redirect: redirectPath }, 200, noStoreHeaders());
+  response.headers.append('Set-Cookie', await createLibrarySession(proof.email, 'password', env));
+  if (clearCheckoutContext) response.headers.append('Set-Cookie', clearCheckoutContextCookie());
+  const passwordContext = redirectPath === '/workbench/' ? 'workbench' : 'library';
+  ctx.waitUntil(sendLibraryPasswordChanged(proof.email, env, passwordContext)
+    .catch(() => console.error('Library password-change notification failed')));
+  return response;
+}
+
+async function sendLibraryPasswordLink(email, purpose, passwordLink, env) {
+  if (!env.EMAIL_SERVICE?.fetch) throw new Error('EMAIL_SERVICE binding is not configured');
+  const response = await env.EMAIL_SERVICE.fetch('https://email.internal/api/library-password-link', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ to: email, purpose, passwordLink, expiresInMinutes: PASSWORD_LINK_TTL_SECONDS / 60 }),
+  });
+  if (!response.ok) throw new Error(`Email service rejected the password message (${response.status})`);
+}
+
+async function sendLibraryAccountVerification(email, verificationLink, env) {
+  if (!env.EMAIL_SERVICE?.fetch) throw new Error('EMAIL_SERVICE binding is not configured');
+  const response = await env.EMAIL_SERVICE.fetch('https://email.internal/api/library-account-verification', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ to: email, verificationLink, expiresInHours: ACCOUNT_VERIFICATION_TTL_SECONDS / 3600 }),
+  });
+  if (!response.ok) throw new Error(`Email service rejected the verification message (${response.status})`);
+}
+
+async function sendLibraryPasswordChanged(email, env, context = 'library') {
+  if (!env.EMAIL_SERVICE?.fetch || isTestMode(env)) return;
+  const response = await env.EMAIL_SERVICE.fetch('https://email.internal/api/library-password-changed', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ to: email, context }),
+  });
+  if (!response.ok) throw new Error(`Email service rejected the password notification (${response.status})`);
+}
+
+async function passwordAccount(email, env) {
+  return env.LIBRARY_DB.prepare(`SELECT c.user_id,c.email,c.email_verified_at,p.password_hash,p.version
+    FROM customers c LEFT JOIN identity_passwords p ON p.user_id=c.user_id WHERE c.email=?1`).bind(email).first();
+}
+
+async function ensureCustomerIdentity(email, env) {
+  let account = await env.LIBRARY_DB.prepare('SELECT user_id,email FROM customers WHERE email=?1').bind(email).first();
+  if (!account) return null;
+  if (!account.user_id) {
+    await env.LIBRARY_DB.prepare('UPDATE customers SET user_id=?1,updated_at=?2 WHERE email=?3 AND user_id IS NULL')
+      .bind(crypto.randomUUID(), unixTime(), email).run();
+    account = await env.LIBRARY_DB.prepare('SELECT user_id,email FROM customers WHERE email=?1').bind(email).first();
+  }
+  return account;
+}
+
+async function libraryPasswordProof(rawToken, env) {
+  if (typeof rawToken !== 'string' || !/^[A-Za-z0-9_-]{43}$/.test(rawToken)) return null;
+  return env.LIBRARY_DB.prepare(`SELECT t.token_hash,t.user_id,t.purpose,t.credential_version,c.email
+    FROM identity_password_tokens t JOIN customers c ON c.user_id=t.user_id
+    LEFT JOIN identity_passwords p ON p.user_id=t.user_id
+    WHERE t.token_hash=?1 AND t.consumed_at IS NULL AND t.expires_at>?2
+      AND t.credential_version=COALESCE(p.version,0)`)
+    .bind(await sha256(rawToken), unixTime()).first();
+}
+
+async function createLibrarySession(email, authMethod, env) {
+  const rawToken = randomToken();
+  const time = unixTime();
+  await env.LIBRARY_DB.prepare(`INSERT INTO sessions
+    (token_hash,customer_email,created_at,expires_at,last_seen_at,revoked_at,auth_method)
+    VALUES (?1,?2,?3,?4,?3,NULL,?5)`)
+    .bind(await sha256(rawToken), email, time, time + SESSION_TTL_SECONDS, authMethod).run();
+  return sessionCookie(rawToken, SESSION_TTL_SECONDS);
 }
 
 async function resolveRequestedDestination(email, requestedPath, env) {
@@ -725,10 +1369,22 @@ async function resolveRequestedDestination(email, requestedPath, env) {
     : { productId: null, path: '/library/' };
 }
 
-async function resolveStoredDestination(link, env) {
+async function resolveRegistrationDestination(email, requestedPath, env) {
+  const requested = await resolveRequestedDestination(email, requestedPath, env);
+  if (requested.path !== '/library/') return requested;
+  const product = await env.LIBRARY_DB.prepare(
+    `SELECT p.id,p.experience_path FROM products p
+     JOIN entitlements e ON e.product_id=p.id
+     WHERE e.customer_email=?1 AND e.revoked_at IS NULL AND p.active=1
+     ORDER BY e.granted_at DESC LIMIT 1`,
+  ).bind(email).first();
+  return product ? { productId: product.id, path: product.experience_path } : requested;
+}
+
+async function resolveStoredDestination(link, env, companionId = null) {
   if (!link.product_id) return '/library/';
   const product = await env.LIBRARY_DB.prepare(
-    `SELECT p.experience_path
+    `SELECT p.experience_path, p.assets_json, p.slug
      FROM products p
      JOIN entitlements e ON e.product_id = p.id
      WHERE p.id = ?1
@@ -738,6 +1394,10 @@ async function resolveStoredDestination(link, env) {
        AND p.active = 1
      LIMIT 1`,
   ).bind(link.product_id, link.destination_path, link.customer_email).first();
+  if (product && companionId && companionId === env.FIRE_COMPANION_ASSET_ID && product.slug === STEP_INTO_YOUR_FIRE_SLUG) {
+    const asset = JSON.parse(product.assets_json || '[]').find(a => a.id === companionId && a.kind === 'pdf');
+    if (asset) return `/api/library/files/${product.slug}/${encodeURIComponent(asset.id)}?download=1`;
+  }
   return product?.experience_path || null;
 }
 
@@ -881,6 +1541,21 @@ function base64Url(bytes) {
   return btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/g, '');
 }
 
+function base64UrlText(value) {
+  return base64Url(new TextEncoder().encode(value));
+}
+
+function decodeBase64UrlText(value) {
+  try {
+    const normalized = value.replace(/-/g, '+').replace(/_/g, '/');
+    const padded = normalized + '='.repeat((4 - normalized.length % 4) % 4);
+    const binary = atob(padded);
+    return new TextDecoder().decode(Uint8Array.from(binary, (character) => character.charCodeAt(0)));
+  } catch {
+    return '';
+  }
+}
+
 function getCookie(request, name) {
   const cookies = request.headers.get('Cookie') || '';
   for (const part of cookies.split(';')) {
@@ -896,6 +1571,34 @@ function sessionCookie(token, maxAge) {
 
 function clearSessionCookie() {
   return `${SESSION_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`;
+}
+
+async function checkoutContextCookie(email, destinationPath, env) {
+  const payload = base64UrlText(JSON.stringify({ email, destinationPath, expiresAt: unixTime() + 30 * 60 }));
+  const signature = await keyedHash(`checkout-context:${payload}`, env.TOKEN_PEPPER);
+  return `${CHECKOUT_CONTEXT_COOKIE}=${payload}.${signature}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=1800`;
+}
+
+function clearCheckoutContextCookie() {
+  return `${CHECKOUT_CONTEXT_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`;
+}
+
+async function readCheckoutContext(request, env) {
+  const raw = getCookie(request, CHECKOUT_CONTEXT_COOKIE);
+  const separator = raw.lastIndexOf('.');
+  if (separator < 1) return null;
+  const payload = raw.slice(0, separator);
+  const signature = raw.slice(separator + 1);
+  const expected = await keyedHash(`checkout-context:${payload}`, env.TOKEN_PEPPER);
+  if (!constantTimeEqual(signature, expected)) return null;
+  try {
+    const context = JSON.parse(decodeBase64UrlText(payload));
+    if (!isValidEmail(normalizeEmail(context.email)) || Number(context.expiresAt) < unixTime()) return null;
+    const destination = await resolveRequestedDestination(normalizeEmail(context.email), context.destinationPath, env);
+    return { email: normalizeEmail(context.email), destinationPath: destination.path };
+  } catch {
+    return null;
+  }
 }
 
 function noStoreRedirect(url, status) {
@@ -914,6 +1617,20 @@ function noStoreHeaders() {
     'Cache-Control': 'private, no-store, max-age=0',
     Pragma: 'no-cache',
   };
+}
+
+function workbenchSecurityHeaders() {
+  return {
+    ...noStoreHeaders(),
+    'X-Content-Type-Options': 'nosniff',
+    'X-Frame-Options': 'DENY',
+    'Referrer-Policy': 'no-referrer',
+    'X-Robots-Tag': 'noindex, nofollow, noarchive',
+  };
+}
+
+function workbenchOwnerEmail(env) {
+  return normalizeEmail(env.WORKBENCH_OWNER_EMAIL || env.CIRCLE_OWNER_EMAIL);
 }
 
 function safeFilename(value) {

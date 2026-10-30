@@ -21,6 +21,9 @@
       "bucket_name": "tarotflower-digital-rituals"
     }
   ],
+  "stream": {
+    "binding": "STREAM"
+  },
   "services": [
     {
       "binding": "EMAIL_SERVICE",
@@ -30,8 +33,40 @@
   ],
   "vars": {
     "APP_ORIGIN": "https://tarotflower.com",
+    "CIRCLE_ORIGIN": "https://moonlightcircle.com",
+    "CIRCLE_DEV_MODE": "false",
+    "CIRCLE_OWNER_EMAIL": "goddessyogawithvanessa@gmail.com",
+    "WORKBENCH_OWNER_EMAIL": "goddessyogawithvanessa@gmail.com",
     "LIBRARY_TEST_MODE": "false",
     "TURNSTILE_SITE_KEY": "0x4AAAAAADxdJSQWBM1O2yZl",
-    "TURNSTILE_EXPECTED_HOSTNAME": "tarotflower.com"
-  }
+    "TURNSTILE_EXPECTED_HOSTNAME": "tarotflower.com",
+    "CIRCLE_TURNSTILE_SITE_KEY": "0x4AAAAAAFBR5Pn943_RIVYF",
+    "FIRE_COMPANION_ASSET_ID": "guide",
+    "FIRE_STREAM_CUSTOMER_CODE": "hy95cnv1cg9dflee",
+    "FIRE_STREAM_VIDEO_ID": "7906242bfa7407fb68353a05ae2a6739"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "limits": {
+    "cpu_ms": 5000
+  },
+  "triggers": {
+    "crons": [
+      "*/5 * * * *"
+    ]
+  },
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "invocation_logs": false
+    }
+  },
+  "routes": [
+    {
+      "pattern": "tarotflower.com/*",
+      "zone_id": "10ce2edc1ceb5f447e251b143cebca1f"
+    }
+  ]
 }
