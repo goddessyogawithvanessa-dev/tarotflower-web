@@ -84,7 +84,7 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
         {journalCategories.map((category, index) => (
           <a
             class:list={['journal-doorway', `journal-doorway-${category.tone}`, { 'journal-doorway-large': index === 0 || index === 2 }]}
-            href={`/daily-tarot?room=${category.slug}#complete-index`}
+            href={`/daily-tarot/?room=${category.slug}#complete-index`}
             data-journal-room-link={category.slug}
           >
             <img
@@ -183,7 +183,7 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
               </ol>
               <a
                 class="journal-room-link"
-                href={`/daily-tarot?room=${category.slug}#complete-index`}
+                href={`/daily-tarot/?room=${category.slug}#complete-index`}
                 data-journal-room-link={category.slug}
               >Browse the complete room <span aria-hidden="true">→</span></a>
             </div>
@@ -221,7 +221,7 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
       </div>
       <a
         class="journal-room-link journal-personal-link"
-        href="/daily-tarot?room=vanessas-grimoire#complete-index"
+        href="/daily-tarot/?room=vanessas-grimoire#complete-index"
         data-journal-room-link="vanessas-grimoire"
       >Enter the complete grimoire <span aria-hidden="true">→</span></a>
     </section>

@@ -1,0 +1,30 @@
+{
+  "supplementalStaticRoutes": ["/admin/"],
+  "redirectedGeneratedRoutes": [],
+  "protectedDynamicDestinations": ["/api/library/", "/workbench/"],
+  "sitemapOrphans": ["/tarot-card-readings/", "/terms-and-conditions/"],
+  "contextualOrphans": [
+    "/astrology/",
+    "/daily-tarot/page/2/",
+    "/daily-tarot/page/3/",
+    "/daily-tarot/page/4/",
+    "/daily-tarot/page/5/",
+    "/daily-tarot/page/6/",
+    "/privacy-policy/",
+    "/tarot-card-readings/",
+    "/terms-and-conditions/"
+  ],
+  "approvalRequiredHistoricalUrls": [
+    "/energy-healing-body-work/",
+    "/goddess-yoga-class-schedule/",
+    "/goddess-yoga-november-2023/",
+    "/goddess-yoga-online/",
+    "/lago-dorta-italy/",
+    "/lago-dorta-italy-2024/",
+    "/melissa-warwood-tantric-tarot/",
+    "/pantelleria-2024/",
+    "/tarot-flower-kids/",
+    "/product/lago-dorta-goddess-yoga-retreat-2024/",
+    "/product/primal-in-pantelleria/"
+  ]
+}

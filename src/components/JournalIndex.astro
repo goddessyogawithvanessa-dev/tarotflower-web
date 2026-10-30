@@ -68,7 +68,7 @@ const pageHref = (page: number) => page === 1 ? '/daily-tarot' : `/daily-tarot/p
           <div class="journal-related-pathways" aria-label="Related pathways">
             <span>Related pathways</span>
             {entry.relatedPathways.map((pathway) => (
-              <a href={`/daily-tarot?room=${pathway}#complete-index`} data-journal-room-link={pathway}>{categoryLabels[pathway]}</a>
+              <a href={`/daily-tarot/?room=${pathway}#complete-index`} data-journal-room-link={pathway}>{categoryLabels[pathway]}</a>
             ))}
           </div>
         )}
@@ -148,7 +148,7 @@ const pageHref = (page: number) => page === 1 ? '/daily-tarot' : `/daily-tarot/p
           <p>${escapeJournalText(entry.excerpt)}</p>
           ${entry.relatedPathways.length ? `<div class="journal-related-pathways" aria-label="Related pathways"><span>Related pathways</span>${entry.relatedPathways.map((pathway) => {
             const option = [...filter.options].find((item) => item.value === pathway);
-            return `<a href="/daily-tarot?room=${encodeURIComponent(pathway)}#complete-index" data-journal-room-link="${escapeJournalText(pathway)}">${escapeJournalText(option?.textContent || pathway)}</a>`;
+            return `<a href="/daily-tarot/?room=${encodeURIComponent(pathway)}#complete-index" data-journal-room-link="${escapeJournalText(pathway)}">${escapeJournalText(option?.textContent || pathway)}</a>`;
           }).join('')}</div>` : ''}
         </article>
       `).join('');
