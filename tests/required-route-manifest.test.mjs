@@ -134,6 +134,13 @@ test('the historical redirect registry is complete and collision-free', async ()
   for (const alias of majorArcanaAliases) {
     assert.deepEqual(redirects.get(alias), { destination: '/major-arcana/', status: 301 }, alias);
   }
+
+  for (const alias of [
+    '/category/tarot-card-meanings/minor-arcana/cups',
+    '/category/tarot-card-meanings/minor-arcana/cups/',
+  ]) {
+    assert.deepEqual(redirects.get(alias), { destination: '/cups-tarot/', status: 301 }, alias);
+  }
 });
 
 test('the approved Major Arcana destination is canonical and excluded proposals stay excluded', () => {
