@@ -79,7 +79,6 @@ const slugsByRitual: Record<RitualKey, readonly string[]> = {
     'its-time-to-talk',
     'libra-dates-traits-the-charming-diplomat',
     'major-arcana',
-    'melissa-warwood-tantric-tarot',
     'minor-arcana',
     'minor-arcana-tarot',
     'mystic-sisters-oracle-cards',

@@ -5,7 +5,7 @@ import provenance from '../data/imageCreatorProvenance.json' with { type: 'json'
 import descriptions from '../data/reviewedMetaDescriptions.json' with { type: 'json' };
 import { attributes, decode } from './imageSitemap.mjs';
 
-const functional = new Set(['contact', 'home', 'shop', 'privacy-policy', 'terms-and-conditions', 'tarot-card-readings', 'free-tarot-card-readings', 'melissa-warwood-tantric-tarot']);
+const functional = new Set(['contact', 'home', 'shop', 'privacy-policy', 'terms-and-conditions', 'tarot-card-readings', 'free-tarot-card-readings']);
 const authoredRoutes = new Set(['/10-steps-to-embody-the-goddess-free-download/', '/rituals/', '/root-into-the-earth/', '/flow-like-the-goddess/', '/awaken-the-element-of-air/', '/sound-bath-meditations/']);
 const workForPage = { '/sacred-becoming/': 'sacred', '/goddess-embodiment-practices/': 'embodiment', '/step-into-your-fire/': 'fire', '/sacred-becoming/oracle-deck/': 'oracle' };
 // The historical Capricorn Kids guest credit remains unresolved. The separate
