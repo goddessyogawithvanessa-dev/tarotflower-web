@@ -24,6 +24,27 @@ Beyond her fierce appearance, Kali carries profound spiritual significance. She 
 
 As we delve deeper into the mysteries of the Goddess Kali, we discover a profound archetype that invites us to embrace our own power, confront our own demons, and surrender to the transformative forces of life. Her energy is both terrifying and awe-inspiring, reminding us of the cycles of birth, death, and rebirth that permeate our existence.
 
+<section class="card-featured-experience card-featured-experience--fire" aria-labelledby="kali-fire-editorial-title">
+  <div class="card-fire-artwork">
+    <img
+      src="/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png"
+      alt="Kali amid flames and flowers, warrior goddess artwork for Tarot Flower’s Step Into Your Fire ritual"
+      width="1672"
+      height="941"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+  <div class="card-featured-copy card-fire-copy">
+    <p class="card-editorial-kicker">Guided Video Ritual</p>
+    <h2 id="kali-fire-editorial-title">Step Into Your Fire</h2>
+    <p class="card-fire-description">Girl, you have the power. Download a little magic and make it yours.</p>
+    <p class="card-fire-format">45-minute guided ritual · Permanent access</p>
+    <p class="card-fire-price">$33 USD</p>
+    <a class="card-featured-button" href="/step-into-your-fire/">Explore the Ritual <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
 ### Transformation with the Goddess Kali
 
 In the realm of spirituality and self-discovery, connecting with the energy of Kali can be a transformative experience. It prompts us to question our attachments, liberate ourselves from societal constraints, and embrace the authentic essence of our being. Through Kali's fierce guidance, we are invited to unleash our inner strength, tap into our creative potential, and fearlessly navigate the ever-changing landscapes of life.

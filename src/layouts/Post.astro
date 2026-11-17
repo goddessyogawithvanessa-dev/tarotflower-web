@@ -11,6 +11,7 @@ const pageTitle = seo_title || title;
 const metaDesc = seo_description || '';
 const minorArcanaPages = ['minor-arcana', 'cups-tarot', 'pentacles-tarot', 'swords-tarot', 'wands-tarot'];
 const isMinorArcanaPage = minorArcanaPages.includes(slug);
+const isKaliPage = slug === 'the-goddess-kali-unleashing-your-sacred-sexuality';
 const isFoolPage = slug === 'the-fool-tarot';
 const isMagicianPage = slug === 'the-magician-tarot';
 const isHighPriestessPage = slug === 'the-high-priestess-tarot';
@@ -637,7 +638,7 @@ const isVisualResetPending = visualResetPendingSlugs.has(slug);
         />
       )}
       {evergreenJourney && !isVisualResetPending && !cupsJourney && !pentaclesJourney && !swordsJourney && !wandsJourney && (
-        <EvergreenEditorialJourney {...evergreenJourney} />
+        <EvergreenEditorialJourney {...evergreenJourney} showFeatured={!isKaliPage} />
       )}
     </div>
   </div>
