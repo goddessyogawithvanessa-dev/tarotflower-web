@@ -21,6 +21,13 @@ const LEGACY_STEP_INTO_FIRE_PATH = '/library/rituals/step-into-the-fire-test/';
 const PURCHASE_EMAIL_CLAIM_TTL_SECONDS = 5 * 60;
 const GENERIC_PASSWORD_MESSAGE = 'If that email is connected to a purchase, a private email is on its way.';
 const ACCOUNT_CREATED_MESSAGE = 'Almost there! Please check your email.';
+const PUBLIC_EMAIL_SERVICE_ROUTES = new Set([
+  '/api/contact/config',
+  '/api/contact',
+  '/api/lead-magnet',
+  '/api/oracle-waitlist',
+  '/api/tarot-newsletter',
+]);
 
 export default {
   async scheduled(event, env, ctx) {
@@ -51,6 +58,15 @@ async function routeRequest(request, env, ctx) {
   ) {
     url.protocol = 'https:';
     return Response.redirect(url.toString(), 301);
+  }
+
+  if (PUBLIC_EMAIL_SERVICE_ROUTES.has(url.pathname)) {
+    if (!env.EMAIL_SERVICE?.fetch) {
+      return json({ error: 'Contact service unavailable.' }, 503);
+    }
+    const serviceUrl = new URL(url.pathname, 'https://email.internal');
+    serviceUrl.search = url.search;
+    return env.EMAIL_SERVICE.fetch(new Request(serviceUrl.toString(), request));
   }
 
   if (url.pathname === '/api/email/unsubscribe' && ['GET', 'POST'].includes(request.method)) {

@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 
-const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
+const contactApiPath = '/api/contact';
 ---
 <Base
   title="Contact | Tarot Flower"
@@ -16,7 +16,7 @@ const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.de
           <p>Send a message below, and I'll respond as soon as I can.</p>
         </header>
 
-        <form class="contact-form" action={`${contactApiBase}/api/contact`} method="POST" data-contact-form>
+        <form class="contact-form" action={contactApiPath} method="POST" data-contact-form>
           <input type="text" name="website" tabindex="-1" autocomplete="off" hidden />
           <div class="contact-row">
             <input type="text" name="name" placeholder="Name" aria-label="Name" autocomplete="name" required />
@@ -34,8 +34,6 @@ const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.de
   </main>
 
   <script is:inline>
-    const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
-
     const turnstileReady = new Promise((resolve) => {
       if (window.turnstile) {
         resolve(window.turnstile);
@@ -64,7 +62,7 @@ const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.de
       let widgetId;
 
       try {
-        const response = await fetch(`${contactApiBase}/api/contact/config`, {
+        const response = await fetch('/api/contact/config', {
           headers: { Accept: 'application/json' },
         });
         if (!response.ok) throw new Error('Verification configuration unavailable.');

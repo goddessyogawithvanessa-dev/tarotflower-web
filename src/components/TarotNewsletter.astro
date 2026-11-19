@@ -1,7 +1,7 @@
 ---
-const apiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
+const newsletterApiPath = '/api/tarot-newsletter';
 ---
-<form class="oracle-waitlist-form tarot-newsletter-form" action={`${apiBase}/api/tarot-newsletter`} method="POST" data-tarot-newsletter>
+<form class="oracle-waitlist-form tarot-newsletter-form" action={newsletterApiPath} method="POST" data-tarot-newsletter>
   <input type="hidden" name="source_path" value={Astro.url.pathname} />
   <input type="text" name="website" tabindex="-1" autocomplete="off" hidden />
   <label><span>Email address</span><input type="email" name="email" autocomplete="email" required /></label>
@@ -11,8 +11,6 @@ const apiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
   <p class="tarot-newsletter-status" aria-live="polite"></p>
 </form>
 <script is:inline>
-  const newsletterApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
-
   const newsletterTurnstileReady = new Promise((resolve) => {
     if (window.turnstile) {
       resolve(window.turnstile);
@@ -44,7 +42,7 @@ const apiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
     let widgetId;
 
     try {
-      const response = await fetch(`${newsletterApiBase}/api/contact/config`, {
+      const response = await fetch('/api/contact/config', {
         headers: { Accept: 'application/json' },
       });
       if (!response.ok) throw new Error('Verification configuration unavailable.');

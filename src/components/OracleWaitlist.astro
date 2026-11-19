@@ -1,12 +1,12 @@
 ---
-const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
+const oracleWaitlistApiPath = '/api/oracle-waitlist';
 ---
 
 <details class="oracle-waitlist" data-oracle-waitlist>
   <summary class="sacred-oracle-cta">Join the Waitlist</summary>
   <div class="oracle-waitlist-panel">
     <p>Be the first to hear when The Sacred Becoming Oracle is ready.</p>
-    <form class="oracle-waitlist-form" action={`${contactApiBase}/api/oracle-waitlist`} method="POST" data-oracle-waitlist-form>
+    <form class="oracle-waitlist-form" action={oracleWaitlistApiPath} method="POST" data-oracle-waitlist-form>
       <input type="text" name="website" tabindex="-1" autocomplete="off" hidden />
       <input type="hidden" name="source_path" value={Astro.url.pathname} />
       <label>
@@ -30,8 +30,6 @@ const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.de
 </details>
 
 <script is:inline>
-  const oracleWaitlistApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.dev';
-
   const oracleTurnstileReady = new Promise((resolve) => {
     if (window.turnstile) {
       resolve(window.turnstile);
@@ -63,7 +61,7 @@ const contactApiBase = 'https://tarotflower-web-dev.embodiedgoddesses.workers.de
     let widgetId;
 
     try {
-      const response = await fetch(`${oracleWaitlistApiBase}/api/contact/config`, {
+      const response = await fetch('/api/contact/config', {
         headers: { Accept: 'application/json' },
       });
       if (!response.ok) throw new Error('Verification configuration unavailable.');
