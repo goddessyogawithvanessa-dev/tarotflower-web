@@ -79,3 +79,15 @@ test('the deliberately unpublished Melissa page remains source-only', () => {
   assert.ok(!sitemap.includes('melissa-warwood-tantric-tarot'));
   assert.doesNotMatch(redirects, /^\/melissa-warwood-tantric-tarot\/?\s/m);
 });
+
+test('the Goddess Embodiment article aliases go directly to the individual article', () => {
+  const destination = 'https://goddess-yoga-retreats.com/blog/goddess-embodiment-your-divine-feminine/';
+  for (const source of [
+    '/goddess-embodiment-your-divine-feminine',
+    '/goddess-embodiment-your-divine-feminine/',
+    '/embodiment/goddess-embodiment-your-divine-feminine',
+    '/embodiment/goddess-embodiment-your-divine-feminine/',
+  ]) {
+    assert.match(redirects, new RegExp(`^${source.replaceAll('/', '\\/')}\\s+${destination.replaceAll('/', '\\/')}\\s+301$`, 'm'));
+  }
+});
