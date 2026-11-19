@@ -15,12 +15,12 @@ const targets = [
   {
     slug: 'two-of-pentacles-tarot',
     title: 'The Two of Pentacles Tarot Card Meaning',
-    contentHash: 'e20901afd74fa51634a37538804e6c9154e387a9a1e8f75825de4c2b11194ae0',
+    contentHash: '1404def97e3d3dc3801fd7269d30f9b7c2cb972ef339cf3bbc842fdde464bb42',
   },
   {
     slug: 'page-of-pentacles-tarot',
     title: 'The Page of Pentacles Tarot Card Meaning',
-    contentHash: '868c120e1f68ce98b1bef4af46ea9468161bd89c8bddb23c8034441f6671d6f3',
+    contentHash: 'f2c173aa0823c14d6fc6a5475b75beb61b9733f645f37b1e5290fd944a472fce',
   },
 ];
 
