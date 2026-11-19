@@ -5,8 +5,8 @@
   "expectedAstroPageCount": 288,
   "expectedHtmlFileCount": 289,
   "expectedSitemapUrlCount": 261,
-  "redirectRuleCount": 1390,
-  "redirectRegistrySha256": "446871023858f5033b7e3ac57bb00e6bfd3a5a81276c287ffb410c4ba0e5a07c",
+  "redirectRuleCount": 1568,
+  "redirectRegistrySha256": "4e935df6276e8ccaf36c1702245715d16675b8655c1cadc2c002e7e539631472",
   "criticalRoutes": {
     "publicIndexable": [
       "/creating-sacred-space-how-to-cast-a-goddess-circle/",
