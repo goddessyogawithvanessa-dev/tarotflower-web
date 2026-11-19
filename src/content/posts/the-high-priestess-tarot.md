@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The High Priestess Tarot Card Meaning: Mystery and Intuition | Tarot Flower"
 seo_description: "Explore The High Priestess tarot card meaning for love, career, spirituality, past, present, future, and reversed readings—plus intuition and inner wisdom."
 seo_image: /images/2021/01/high-priestess-3.jpg
-seo_image_alt: "The High Priestess in purple robes beside an owl, artwork by Vanessa Hylande"
+seo_image_alt: "The High Priestess in purple beside an owl, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

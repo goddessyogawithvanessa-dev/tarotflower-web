@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Two of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Two of Swords tarot card meaning for indecision, inner conflict, intuition, love, and finding clarity at a difficult crossroads."
 seo_image: /images/tarot/swords/two-of-swords.png
-seo_image_alt: "Blindfolded woman holding two crossed swords among flowers and butterflies"
+seo_image_alt: "Two of Swords Tarot card meanings, Minor Arcana at Tarot Flower: blindfolded woman with two crossed swords among flowers and butterflies, indecision, duality and inner conflict"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

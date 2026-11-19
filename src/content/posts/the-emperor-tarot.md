@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Emperor Tarot Card Meaning: I Am the Master of My Fate | Tarot Flower"
 seo_description: "Explore The Emperor tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus stability, authority, and grounded leadership."
 seo_image: /images/2021/01/the-emperor.jpg
-seo_image_alt: "The Emperor Tarot artwork for The Emperor"
+seo_image_alt: "The Emperor Tarot card meaning, Major Arcana, stability, authority and compassionate leadership: a golden dragon beneath the stars at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

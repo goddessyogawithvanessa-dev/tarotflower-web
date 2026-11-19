@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Seven of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Seven of Wands tarot card meaning for courage, boundaries, perseverance, love, reversal, and defending what matters under pressure."
 seo_image: /images/tarot/wands/seven-of-wands.png
-seo_image_alt: "Hooded woman defending herself with a wand against six surrounding wands"
+seo_image_alt: "Seven of Wands Tarot card meaning, Wands, Minor Arcana, courage, determination and standing your ground: a hooded woman defending herself with a wand at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

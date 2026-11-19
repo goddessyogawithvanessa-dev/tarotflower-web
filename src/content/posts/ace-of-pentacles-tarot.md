@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Ace of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Ace of Pentacles tarot card meaning for new opportunities, abundance, practical beginnings, and turning potential into lasting growth."
 seo_image: /images/tarot/pentacles/ace-of-pentacles.png
-seo_image_alt: "Open hand offering a golden pentacle among flowers and butterflies"
+seo_image_alt: "Ace of Pentacles Tarot card meanings, Minor Arcana Earth suit at Tarot Flower: open hand offering a golden pentacle among flowers and butterflies, new opportunity, prosperity and financial stability"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

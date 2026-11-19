@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The King of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the King of Cups tarot card meaning for love, emotional maturity, the reversed position, and compassionate self-leadership."
 seo_image: /images/tarot/cups/king-of-cups.png
-seo_image_alt: "Crowned figure on a floral throne holding a cup and staff above water"
+seo_image_alt: "King of Cups Tarot card meaning, Minor Arcana: crowned figure on a floral throne holding a cup and staff above water, emotional intelligence, compassion, intuition and mature leadership at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

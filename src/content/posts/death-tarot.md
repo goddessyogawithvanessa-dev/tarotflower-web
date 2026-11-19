@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Death Tarot Card Meaning: The Phoenix Rising | Tarot Flower"
 seo_description: "Explore the Death tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus endings, release, transformation, and rebirth."
 seo_image: /images/2022/02/vanessahylande_a_gorgeous_woman_with_black_hair_with_piercing_b_abeda71f-a1c1-4fba-98c1-d781e0c52686.jpg
-seo_image_alt: "Death Tarot artwork by Vanessa Hylande"
+seo_image_alt: "Death dark-haired woman among flowers, Major Arcana Tarot card meanings and transformation in the human journey; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

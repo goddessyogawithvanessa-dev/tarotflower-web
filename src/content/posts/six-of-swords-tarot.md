@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Six of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Six of Swords tarot card meaning for transition, healing, moving on, love, reversal, and the passage from turmoil toward calmer waters."
 seo_image: /images/tarot/swords/six-of-swords.png
-seo_image_alt: "Three figures crossing water in a boat framed by six upright swords"
+seo_image_alt: "Six of Swords Tarot card meaning, Minor Arcana: three figures crossing water in a boat with six upright swords, transition, healing and moving from struggle toward peace at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

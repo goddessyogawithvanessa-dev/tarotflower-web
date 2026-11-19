@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Magician Tarot Card Meaning: Manifest Your Dreams | Tarot Flower"
 seo_description: "Explore The Magician tarot card meaning for love, career, feelings, spirituality, past, present, future, and reversed readings—plus its power to manifest."
 seo_image: /images/2021/01/magician-2-1.jpg
-seo_image_alt: "A raven flying before a turquoise moon, framed by coral and purple flowers"
+seo_image_alt: "The Magician raven before a turquoise moon and flowers, Major Arcana archetype in the Tarot card meanings library at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

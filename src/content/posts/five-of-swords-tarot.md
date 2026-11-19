@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Five of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Five of Swords tarot card meaning for conflict, hollow victory, boundaries, love, reversal, and choosing integrity over being right."
 seo_image: /images/tarot/swords/five-of-swords.png
-seo_image_alt: "Solitary woman holding swords beside water as butterflies scatter"
+seo_image_alt: "Five of Swords Tarot card meaning, Swords, Minor Arcana, conflicting choices and victory at a cost: a solitary woman holding swords beside water and scattering butterflies at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

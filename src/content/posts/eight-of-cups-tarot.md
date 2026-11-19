@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Eight of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Eight of Cups tarot card meaning for walking away, love, advice, the reversed position, and courageous emotional change."
 seo_image: /images/tarot/cups/eight-of-cups.png
-seo_image_alt: "Woman walking toward a full moon past eight ornate cups"
+seo_image_alt: "Eight of Cups Tarot meaning — woman walking past eight cups toward the moon, Minor Arcana Water, outgrowing old patterns and moving forward with self-awareness at Tarot Flower"
 seo_image_width: 1254
 seo_image_height: 1254
 ---

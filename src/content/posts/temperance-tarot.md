@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "Temperance Tarot Card Meaning: The Magic of Transmutation | Tarot Flower"
 seo_description: "Explore the Temperance tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus balance, patience, and integration."
 seo_image: /images/2022/02/vanessahylande_a_beautiful_woman_an_angel_holding_a_cup_of_wate_b8398230-e18c-4296-b105-535ee032aeb3.jpg
-seo_image_alt: "Temperance tarot card meaning major arcana Midjourney art by Vanessa Hylande"
+seo_image_alt: "Temperance angel with flower-filled cups, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

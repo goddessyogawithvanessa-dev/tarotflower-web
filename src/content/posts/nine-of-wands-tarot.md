@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Nine of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Nine of Wands tarot card meaning for resilience, boundaries, exhaustion, love, reversal, and finding the strength to continue wisely."
 seo_image: /images/tarot/wands/nine-of-wands.png
-seo_image_alt: "Weary hooded woman seated among nine upright wands and luminous moths"
+seo_image_alt: "Nine of Wands Tarot card meaning, Minor Arcana: weary hooded woman among nine wands and luminous moths, resilience, perseverance, boundaries and recovery after hardship at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

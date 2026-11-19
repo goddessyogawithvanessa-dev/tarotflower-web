@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Star Tarot Card Meaning: Wishes Come True | Tarot Flower"
 seo_description: "Explore The Star tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus hope, healing, renewal, and inspiration."
 seo_image: /images/2022/02/the-star-df-9.jpg
-seo_image_alt: "The Star Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The Star woman with open arms beneath a radiant star, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

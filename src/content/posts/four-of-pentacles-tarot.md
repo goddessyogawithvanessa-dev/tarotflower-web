@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Four of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Four of Pentacles tarot card meaning for security, control, boundaries, scarcity fears, and learning when to hold on or let go."
 seo_image: /images/tarot/pentacles/four-of-pentacles.png
-seo_image_alt: "Seated woman holding four golden pentacles among flowers and butterflies"
+seo_image_alt: "Four of Pentacles Tarot card meaning, Minor Arcana: seated woman holding four golden pentacles among flowers and butterflies, material security, possessiveness and fear of loss at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

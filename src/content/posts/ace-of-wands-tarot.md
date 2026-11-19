@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Ace of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Ace of Wands tarot card meaning for inspiration, creative potential, passion, love, reversal, and the courage to begin."
 seo_image: /images/tarot/wands/ace-of-wands.png
-seo_image_alt: "Jeweled hand lifting a leafy wand among clouds, butterflies, flowers, and flame"
+seo_image_alt: "Ace of Wands Tarot card meaning, Minor Arcana: jeweled hand lifting a leafy wand through clouds and butterflies, new beginnings, creativity, passion and courage at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "Three of Swords Tarot Card Meaning: Free Your Heart from Your Mind | Tarot Flower"
 seo_description: "Explore the Three of Swords tarot card meaning for heartbreak, grief, painful truth, healing, love, feelings, and the reversed card."
 seo_image: /images/tarot/swords/three-of-swords.png
-seo_image_alt: "Three ornate swords piercing a floral heart with roses and butterflies"
+seo_image_alt: "Three of Swords Tarot card meanings, Minor Arcana at Tarot Flower: three swords piercing a floral heart with roses and butterflies, heartbreak, emotional pain and opportunity for healing"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

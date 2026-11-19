@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Hanged Man Tarot Card Meaning: Reflection and Perspective | Tarot Flower"
 seo_description: "Explore The Hanged Man tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus surrender, patience, and new perspective."
 seo_image: /images/2023/05/hanged-3.jpg
-seo_image_alt: "the hanged man tarot card meaning major arcana surrender and new perspectives Midjourney art by Vanessa Hylande"
+seo_image_alt: "The Hanged Man woman beneath a floral crown and golden light, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

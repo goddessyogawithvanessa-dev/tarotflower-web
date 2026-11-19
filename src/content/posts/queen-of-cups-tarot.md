@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Queen of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Queen of Cups tarot card meaning for intuition, emotional depth, love, the reversed position, and embodied self-care."
 seo_image: /images/tarot/cups/queen-of-cups.png
-seo_image_alt: "Seated woman holding a golden cup amid pink flowers and turquoise water"
+seo_image_alt: "Queen of Cups Tarot card meaning, Cups, Minor Arcana, intuition, emotion and compassion: a seated woman holding a golden cup among pink flowers and turquoise water at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

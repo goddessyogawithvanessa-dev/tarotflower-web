@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Queen of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Queen of Swords tarot card meaning for discernment, truth, independence, boundaries, love, reversal, and compassionate clarity."
 seo_image: /images/tarot/swords/queen-of-swords.png
-seo_image_alt: "Crowned woman seated among clouds holding an upright sword"
+seo_image_alt: "Queen of Swords Tarot meaning — crowned woman holding an upright sword among clouds, Minor Arcana Air court card, clarity, truth, objectivity and intelligent boundaries at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

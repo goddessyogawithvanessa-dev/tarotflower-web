@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Ten of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Ten of Cups tarot card meaning for love, family, harmony, the reversed position, and practices that nurture belonging."
 seo_image: /images/tarot/cups/ten-of-cups.png
-seo_image_alt: "People dancing beneath ten glowing cups, flowers and butterflies"
+seo_image_alt: "Ten of Cups Tarot card meaning, Minor Arcana: people dancing beneath ten glowing cups, flowers and butterflies, happiness, harmonious relationships, emotional security and belonging at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

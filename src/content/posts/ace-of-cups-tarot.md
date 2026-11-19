@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Ace of Cups: Overflowing With Love | Tarot Flower"
 seo_description: "Discover the Ace of Cups tarot card meaning for love, feelings, self-love, emotional healing, embodiment, and the reversed position."
 seo_image: /images/tarot/cups/ace-of-cups.png
-seo_image_alt: "Ornate rose-gold chalice overflowing with water, surrounded by teal and blush flowers and butterflies"
+seo_image_alt: "Ace of Cups Tarot meaning — rose-gold chalice overflowing with water among flowers and butterflies, Minor Arcana Water, new love, self-love and emotional abundance at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

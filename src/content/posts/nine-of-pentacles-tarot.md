@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Nine of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Nine of Pentacles tarot card meaning for independence, earned abundance, self-worth, discernment, and enjoying the life you have cultivated."
 seo_image: /images/tarot/pentacles/nine-of-pentacles.png
-seo_image_alt: "Woman holding a bird in a garden of coins, flowers and butterflies"
+seo_image_alt: "Nine of Pentacles Tarot card meanings, Minor Arcana Earth suit at Tarot Flower: woman with a bird in a garden of coins, flowers and butterflies, abundance, luxury, self-care and earned rewards"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

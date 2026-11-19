@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Judgement Tarot Card Meaning: The Calling | Tarot Flower"
 seo_description: "Explore the Judgement tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus awakening, reflection, and rebirth."
 seo_image: /images/2022/04/jusdg-2.jpg
-seo_image_alt: "Judgement Tarot artwork by Vanessa Hylande"
+seo_image_alt: "Judgement luminous moth among flowers and geometric light, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

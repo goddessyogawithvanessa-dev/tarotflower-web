@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Queen of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Queen of Pentacles tarot card meaning for grounded care, practical abundance, self-worth, nourishment, and creating security with warmth."
 seo_image: /images/tarot/pentacles/queen-of-pentacles.png
-seo_image_alt: "Crowned woman holding a pentacle amid flowers and glowing butterflies"
+seo_image_alt: "Queen of Pentacles Tarot card meanings, Minor Arcana court card at Tarot Flower: crowned woman holding a pentacle among flowers and glowing butterflies, abundance, security and nurturing care"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

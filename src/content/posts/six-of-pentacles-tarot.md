@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Six of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Six of Pentacles tarot card meaning for generosity, reciprocity, fairness, receiving support, and sharing resources with discernment."
 seo_image: /images/tarot/pentacles/six-of-pentacles.png
-seo_image_alt: "Three women exchanging golden coins beneath large pentacles"
+seo_image_alt: "Six of Pentacles Tarot meaning — three women exchanging golden coins beneath pentacles, Minor Arcana Earth, generosity, fairness and the balance of giving and receiving at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Strength Tarot Card Meaning: Taming Your Inner Beast | Tarot Flower"
 seo_description: "Explore the Strength tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus courage, compassion, and quiet resilience."
 seo_image: /images/2023/05/strength-white-lady-and-lion-3.jpg
-seo_image_alt: "Strength Tarot artwork by Vanessa Hylande"
+seo_image_alt: "Strength woman among white lions and flowers, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Justice Tarot Card Meaning: Achieving Balance and Fairness | Tarot Flower"
 seo_description: "Explore the Justice tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus fairness, truth, and accountability."
 seo_image: /images/2022/04/Justice-6.jpg
-seo_image_alt: "Justice Tarot artwork by Vanessa Hylande"
+seo_image_alt: "Justice holding golden scales, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

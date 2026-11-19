@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Wheel of Fortune Tarot Card Meaning: Fate, Karma & Good Luck | Tarot Flower"
 seo_description: "Explore the Wheel of Fortune tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus change, karma, and divine timing."
 seo_image: /images/2021/01/fates-3.jpg
-seo_image_alt: "Wheel of Fortune Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The Wheel of Fortune veiled women with golden spheres, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

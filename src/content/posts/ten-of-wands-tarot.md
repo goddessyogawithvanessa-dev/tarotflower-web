@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Ten of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Ten of Wands tarot card meaning for burden, responsibility, overwhelm, love, reversal, and learning what to carry or release."
 seo_image: /images/tarot/wands/ten-of-wands.png
-seo_image_alt: "Woman carrying ten long wands toward a distant town amid flowers and butterflies"
+seo_image_alt: "Ten of Wands Tarot meaning — woman carrying a bundle of long wands toward a distant town, Minor Arcana Fire, heavy burdens, responsibility and the need to share the load at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

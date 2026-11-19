@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Hierophant Tarot Card Meaning: The Shaman | Tarot Flower"
 seo_description: "Explore The Hierophant tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus tradition, guidance, and shared wisdom."
 seo_image: /images/2021/02/hierophant-3.jpg
-seo_image_alt: "The Hierophant Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The Hierophant eagle above a desert, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

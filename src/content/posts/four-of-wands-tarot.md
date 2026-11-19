@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Four of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Four of Wands tarot card meaning for celebration, belonging, home, milestones, love, reversal, and honoring shared joy."
 seo_image: /images/tarot/wands/four-of-wands.png
-seo_image_alt: "Two women exchanging a floral garland between four wands before a castle"
+seo_image_alt: "Four of Wands Tarot card meanings, Minor Arcana at Tarot Flower: two women exchanging a floral garland between four wands before a castle, celebration, home, family and stability"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

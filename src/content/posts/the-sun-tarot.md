@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Sun Tarot Card Meaning: Celebrating Life | Tarot Flower"
 seo_description: "Explore The Sun tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus joy, vitality, clarity, and self-expression."
 seo_image: /images/2022/02/the-sun-1.jpg
-seo_image_alt: "The Sun Tarot artwork for The Sun"
+seo_image_alt: "The Sun Tarot card meanings, Major Arcana Fire at Tarot Flower: woman in golden robes beneath a radiant sun, joy, renewed vitality, abundance and celebrating achievements"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

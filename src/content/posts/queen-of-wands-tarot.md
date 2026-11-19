@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Queen of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Queen of Wands tarot card meaning for confidence, creativity, warmth, independence, love, reversal, and magnetic self-expression."
 seo_image: /images/tarot/wands/queen-of-wands.png
-seo_image_alt: "Crowned woman seated with a flowering wand and sunflower beside a black cat"
+seo_image_alt: "Queen of Wands Tarot card meaning, Minor Arcana: crowned woman with a flowering wand, sunflower and black cat, confidence, independence, intuition and creative leadership at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Page of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Page of Swords tarot card meaning for curiosity, new ideas, communication, vigilance, love, reversal, and learning to use the mind wisely."
 seo_image: /images/tarot/swords/page-of-swords.png
-seo_image_alt: "Young woman holding a sword amid clouds, birds, flowers, and butterflies"
+seo_image_alt: "Page of Swords Tarot meaning — young woman holding a sword amid clouds, birds and butterflies, Minor Arcana Air, curiosity, mental clarity and thoughtful communication at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

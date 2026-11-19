@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Devil Tarot Card Meaning: Breaking the Chains | Tarot Flower"
 seo_description: "Explore The Devil tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus attachment, shadow, choice, and liberation."
 seo_image: /images/2022/04/devil-9.jpg
-seo_image_alt: "The Devil Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The Devil woman among red roses beneath the stars, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

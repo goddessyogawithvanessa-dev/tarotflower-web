@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "Nine of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Nine of Swords tarot card meaning for anxiety, sleeplessness, fear, guilt, love, reversal, and meeting difficult thoughts with compassion."
 seo_image: /images/tarot/swords/nine-of-swords.png
-seo_image_alt: "Distressed woman covering her face beneath nine swords in a dark bedroom"
+seo_image_alt: "Nine of Swords Tarot meaning — woman covering her face beneath swords in a dark bedroom, Minor Arcana Air, fear, worry, guilt and the need for compassionate support at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

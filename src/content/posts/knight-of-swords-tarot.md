@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Knight of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Knight of Swords tarot card meaning for ambition, speed, courage, direct communication, love, reversal, and acting before thinking."
 seo_image: /images/tarot/swords/knight-of-swords.png
-seo_image_alt: "Woman riding a white horse with an extended sword through clouds and butterflies"
+seo_image_alt: "Knight of Swords Tarot card meanings, Minor Arcana court card at Tarot Flower: woman on a white horse with extended sword among clouds and butterflies, courage, swift action and focused determination"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

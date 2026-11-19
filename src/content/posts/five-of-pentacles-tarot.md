@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Five of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Five of Pentacles tarot card meaning for hardship, isolation, resilience, support, and finding a path through material or emotional scarcity."
 seo_image: /images/tarot/pentacles/five-of-pentacles.png
-seo_image_alt: "Two cloaked figures beneath five pentacles in a glowing cathedral window"
+seo_image_alt: "Five of Pentacles Tarot card meaning, Minor Arcana: two cloaked figures beneath five pentacles in a glowing cathedral window, hardship, isolation, hope and seeking support at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

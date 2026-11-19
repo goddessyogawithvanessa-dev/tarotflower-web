@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Seven of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Seven of Pentacles tarot card meaning for patience, assessment, sustainable growth, and deciding where your continued effort belongs."
 seo_image: /images/tarot/pentacles/seven-of-pentacles.png
-seo_image_alt: "Woman holding a pentacle while contemplating hanging pentacles in a dark garden"
+seo_image_alt: "Seven of Pentacles Tarot meaning — woman holding a pentacle in a garden of hanging coins, Minor Arcana Earth, patience, assessing progress and thoughtful investment at Tarot Flower"
 seo_image_width: 1254
 seo_image_height: 1254
 ---

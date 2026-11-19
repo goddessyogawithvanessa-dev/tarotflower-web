@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Moon Tarot Card Meaning: Shining Light on the Shadows | Tarot Flower"
 seo_description: "Explore The Moon tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus intuition, mystery, dreams, and shadow."
 seo_image: /images/2022/02/owl-8.jpg
-seo_image_alt: "The Moon Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The Moon owl among star-lit branches, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

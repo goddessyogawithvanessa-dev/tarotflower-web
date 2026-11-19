@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The King of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the King of Wands tarot card meaning for vision, leadership, enterprise, love, reversal, and turning creative fire into responsible action."
 seo_image: /images/tarot/wands/king-of-wands.png
-seo_image_alt: "Crowned figure seated with an upright wand beside a salamander and butterflies"
+seo_image_alt: "King of Wands Tarot meaning — crowned figure with an upright wand beside a salamander, Minor Arcana Fire, ambition, creative confidence and mature leadership at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

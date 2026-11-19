@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The King of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the King of Pentacles tarot card meaning for prosperity, stewardship, responsibility, wise leadership, and building security that lasts."
 seo_image: /images/tarot/pentacles/king-of-pentacles.png
-seo_image_alt: "Regal figure holding a pentacle and staff amid flowers and butterflies"
+seo_image_alt: "King of Pentacles Tarot card meaning, Pentacles, Minor Arcana, responsibility, commitment and material abundance: a regal figure with a pentacle and staff among flowers and butterflies at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

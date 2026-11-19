@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Lovers Tarot Card Meaning: Divine Union and Choice | Tarot Flower"
 seo_description: "Explore The Lovers tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus relationships, values, and conscious choice."
 seo_image: /images/2021/02/lovers.jpg
-seo_image_alt: "The Lovers Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The Lovers seahorses facing one another underwater, Major Arcana Tarot card meanings and the human journey of choosing; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

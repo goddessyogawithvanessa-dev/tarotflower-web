@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Page of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Page of Wands tarot card meaning for curiosity, creative discovery, enthusiasm, love, reversal, and following a new call with openness."
 seo_image: /images/tarot/wands/page-of-wands.png
-seo_image_alt: "Young woman holding a wand with closed eyes among blossoms and butterflies"
+seo_image_alt: "Page of Wands Tarot card meaning, Minor Arcana: young woman with a wand among blossoms and butterflies, fresh ideas, curiosity, adventure and creative beginnings at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

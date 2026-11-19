@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Seven of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Seven of Swords tarot card meaning for strategy, secrecy, self-deception, independence, love, reversal, and acting with integrity."
 seo_image: /images/tarot/swords/seven-of-swords.png
-seo_image_alt: "Woman carrying several swords through a luminous golden garden"
+seo_image_alt: "Seven of Swords Tarot card meaning, Minor Arcana: woman carrying swords through a golden garden, strategy, secrecy, deception and accountability at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Fool Tarot Card Meaning: Freedom and New Beginnings | Tarot Flower"
 seo_description: "Discover The Fool tarot card meaning for love, career, feelings, spirituality, past, present, future, and reversed readings—plus its call to begin again."
 seo_image: /images/2023/05/AI-Square.jpg
-seo_image_alt: "The Fool stepping forward through clouds and peach flowers, artwork by Vanessa Hylande"
+seo_image_alt: "The Fool stepping through clouds and flowers, Major Arcana Tarot card meanings and the human journey into the unknown; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 540
 seo_image_height: 540
 ---

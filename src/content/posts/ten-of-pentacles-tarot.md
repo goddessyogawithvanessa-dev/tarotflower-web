@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Ten of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Ten of Pentacles tarot card meaning for lasting security, family, community, inheritance, tradition, and the legacy you are building."
 seo_image: /images/tarot/pentacles/ten-of-pentacles.png
-seo_image_alt: "Ten golden pentacles above an old stone bridge surrounded by flowers"
+seo_image_alt: "Ten of Pentacles Tarot card meaning, Pentacles, Minor Arcana, family, tradition and belonging: ten golden pentacles above a stone bridge among flowers at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

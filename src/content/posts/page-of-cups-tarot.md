@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Page of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Page of Cups tarot card meaning for creativity, love, intuition, the reversed position, and playful emotional discovery."
 seo_image: /images/tarot/cups/page-of-cups.png
-seo_image_alt: "Flower-crowned figure holding a chalice as a fish leaps above it"
+seo_image_alt: "Page of Cups Tarot card meaning, Cups, Minor Arcana, innocence, creativity and new possibilities: a flower-crowned figure holding a chalice beneath a leaping fish at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

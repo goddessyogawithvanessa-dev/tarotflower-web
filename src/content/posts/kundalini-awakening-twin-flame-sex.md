@@ -9,7 +9,7 @@ categories: [twin-flame]
 seo_title: "Kundalini Awakening and Twin Flame Sex: The 5D Union | Tarot Flower"
 seo_description: "If you've met your twin flame, you've certainly spent time thinking you're crazy or wondering what is happening to you. When twin flames meet, their..."
 seo_image: /images/2023/05/vanessahylande_the_face_of_a_beautiful_woman_bejeweled_with_gem_6417450d-5f8b-4a7e-9e58-16ea384cd883.jpg
-seo_image_alt: "Bejeweled woman representing divine feminine energy and kundalini awakening"
+seo_image_alt: "Twin Flame Sex artwork for The Twin Flame Separation in Twin Flame Sex; Midjourney art by Vanessa Hylande, Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

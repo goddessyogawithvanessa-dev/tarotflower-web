@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Hermit Tarot Card Meaning: The Inward Journey | Tarot Flower"
 seo_description: "Explore The Hermit tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus solitude, reflection, and inner wisdom."
 seo_image: /images/2022/04/hermit-df-3.jpg
-seo_image_alt: "The Hermit Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The Hermit woman holding a torch beneath the moon, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

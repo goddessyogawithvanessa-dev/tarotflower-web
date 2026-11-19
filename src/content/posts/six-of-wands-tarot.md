@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Six of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Six of Wands tarot card meaning for victory, recognition, confidence, leadership, love, reversal, and receiving success with grace."
 seo_image: /images/tarot/wands/six-of-wands.png
-seo_image_alt: "Crowned rider on a decorated horse holding a wand amid glowing red leaves"
+seo_image_alt: "Six of Wands Tarot card meaning, Wands, Minor Arcana, victory, accomplishment and recognition: a crowned rider with a wand on a decorated horse among red leaves at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

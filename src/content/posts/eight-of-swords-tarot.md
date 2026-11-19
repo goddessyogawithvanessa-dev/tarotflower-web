@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Eight of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Eight of Swords tarot card meaning for restriction, limiting beliefs, powerlessness, love, reversal, and discovering choices hidden by fear."
 seo_image: /images/tarot/swords/eight-of-swords.png
-seo_image_alt: "Blindfolded and bound woman surrounded by eight swords, flowers, and butterflies"
+seo_image_alt: "Eight of Swords Tarot card meaning, Swords, Minor Arcana, mental limitations, feeling trapped and letting go: a blindfolded bound woman among swords, flowers and butterflies at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

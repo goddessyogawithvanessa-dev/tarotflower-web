@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Two of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Two of Cups tarot card meaning for love, relationships, advice, the reversed position, and practices for mutual connection."
 seo_image: /images/tarot/cups/two-of-cups.png
-seo_image_alt: "Two figures holding matching ornate cups amid flowers and butterflies"
+seo_image_alt: "Two of Cups Tarot card meaning, Minor Arcana: two figures holding matching ornate cups among flowers and butterflies, emotional connection, harmony, mutual respect and partnership at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

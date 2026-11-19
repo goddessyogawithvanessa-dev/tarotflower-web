@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Four of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Four of Cups tarot card meaning for reflection, love, missed opportunities, the reversed position, and mindful embodiment."
 seo_image: /images/tarot/cups/four-of-cups.png
-seo_image_alt: "Pensive woman seated beneath a flowering tree beside four ornate cups"
+seo_image_alt: "Four of Cups Tarot meaning — pensive woman beneath a flowering tree beside four cups, Minor Arcana Water, introspection, re-evaluation and overlooked possibilities at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

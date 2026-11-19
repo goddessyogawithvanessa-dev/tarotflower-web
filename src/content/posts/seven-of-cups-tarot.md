@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Seven of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Seven of Cups tarot card meaning for choices, love, dreams, the reversed position, and practices for clear discernment."
 seo_image: /images/tarot/cups/seven-of-cups.png
-seo_image_alt: "Cloaked figure facing seven floating ornate cups"
+seo_image_alt: "Seven of Cups Tarot card meanings, Minor Arcana at Tarot Flower: cloaked figure before seven floating ornate cups, wishes, dreams, choices and discerning possibilities"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

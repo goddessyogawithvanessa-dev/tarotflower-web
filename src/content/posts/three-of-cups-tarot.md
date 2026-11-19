@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Three of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Three of Cups tarot card meaning for celebration, friendship, love, the reversed position, and embodied community."
 seo_image: /images/tarot/cups/three-of-cups.png
-seo_image_alt: "Three women in floral dresses raising cups in celebration"
+seo_image_alt: "Three of Cups Tarot card meaning, Minor Arcana: three women raising cups in floral dresses, celebration, friendship, cooperation, community and belonging at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

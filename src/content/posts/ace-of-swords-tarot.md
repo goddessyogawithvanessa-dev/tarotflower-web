@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "Ace of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Ace of Swords tarot card meaning for truth, mental clarity, decisive action, love, feelings, and powerful new beginnings."
 seo_image: /images/tarot/swords/ace-of-swords.png
-seo_image_alt: "Jeweled hand holding an upright sword among clouds, flowers, and butterflies"
+seo_image_alt: "Ace of Swords Tarot meaning — jeweled hand holding an upright sword among clouds, flowers and butterflies, Minor Arcana Air, mental clarity, truth and new beginnings at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

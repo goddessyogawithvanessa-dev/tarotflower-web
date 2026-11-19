@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The World Tarot Card Meaning: The Portal | Tarot Flower"
 seo_description: "Explore The World tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus completion, wholeness, integration, and renewal."
 seo_image: /images/2022/12/world-10.jpg
-seo_image_alt: "The World Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The World woman with blossoms before the Earth, Major Arcana Tarot card meanings and becoming whole in the human journey; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Eight of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Eight of Pentacles tarot card meaning for practice, craftsmanship, focused work, mastery, and finding purpose in steady improvement."
 seo_image: /images/tarot/pentacles/eight-of-pentacles.png
-seo_image_alt: "An artisan hammering a golden coin among flowers and butterflies, Eight of Pentacles Tarot artwork of craftsmanship at Tarot Flower"
+seo_image_alt: "Eight of Pentacles Tarot card meaning, Minor Arcana: artisan hammering a golden coin among flowers and butterflies, craftsmanship, deliberate practice, diligence and mastery at Tarot Flower"
 seo_image_width: 1254
 seo_image_height: 1254
 ---

@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Tower Tarot Card Meaning: The Universe Clears a Path | Tarot Flower"
 seo_description: "Explore The Tower tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus upheaval, truth, release, and rebuilding."
 seo_image: /images/2022/04/tower-4.jpg
-seo_image_alt: "The Tower Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The Tower burning beneath storm clouds, Major Arcana Tarot card meanings and the falling tower in the human journey; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

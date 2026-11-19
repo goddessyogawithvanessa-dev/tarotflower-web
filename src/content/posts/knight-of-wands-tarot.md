@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Knight of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Knight of Wands tarot card meaning for adventure, passion, bold action, love, reversal, and directing restless energy wisely."
 seo_image: /images/tarot/wands/knight-of-wands.png
-seo_image_alt: "Rider on a white horse holding a wand among flowers and butterflies"
+seo_image_alt: "Knight of Wands Tarot meaning — rider on a white horse holding a wand among flowers and butterflies, Minor Arcana Fire, adventure, bold action and creative momentum at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Nine of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Nine of Cups tarot card meaning for wishes, love, contentment, the reversed position, and embodied gratitude."
 seo_image: /images/tarot/cups/nine-of-cups.png
-seo_image_alt: "Seated woman holding a cup amid ornate cups and butterflies"
+seo_image_alt: "Nine of Cups Tarot card meaning, Cups, Minor Arcana, contentment, wishes fulfilled and emotional stability: a seated woman with a cup amid ornate cups and butterflies at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

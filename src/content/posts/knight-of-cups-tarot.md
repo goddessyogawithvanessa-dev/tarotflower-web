@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Knight of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Knight of Cups tarot card meaning for love, romance, creativity, the reversed position, and acting with emotional integrity."
 seo_image: /images/tarot/cups/knight-of-cups.png
-seo_image_alt: "Woman riding an adorned white horse while holding a large golden chalice"
+seo_image_alt: "Knight of Cups Tarot card meaning, Minor Arcana: woman riding an adorned white horse with a golden chalice, romance, creative imagination, intuition and emotional exploration at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

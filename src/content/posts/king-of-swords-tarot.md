@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The King of Swords Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the King of Swords tarot card meaning for truth, ethical authority, reason, leadership, love, reversal, and making fair decisions."
 seo_image: /images/tarot/swords/king-of-swords.png
-seo_image_alt: "Veiled regal figure seated with an upright sword amid flowers and butterflies"
+seo_image_alt: "King of Swords Tarot card meanings, Minor Arcana court card at Tarot Flower: veiled regal figure with an upright sword amid flowers and butterflies, justice, authority and discerning leadership"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

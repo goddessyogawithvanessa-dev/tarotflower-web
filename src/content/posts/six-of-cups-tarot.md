@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Six of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Six of Cups tarot card meaning for nostalgia, love, childhood, the reversed position, and healing your relationship with the past."
 seo_image: /images/tarot/cups/six-of-cups.png
-seo_image_alt: "Two figures exchanging an ornate cup above five flower-filled cups and butterflies"
+seo_image_alt: "Six of Cups Tarot card meanings, Minor Arcana at Tarot Flower: two figures exchanging a cup above five flower-filled cups and butterflies, nostalgia, childhood innocence and giving and receiving love"
 seo_image_width: 1254
 seo_image_height: 1254
 ---

@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Three of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Three of Pentacles tarot card meaning for teamwork, collaboration, learning, skilled work, and building something worthwhile together."
 seo_image: /images/tarot/pentacles/three-of-pentacles.png
-seo_image_alt: "Three women joining hands beneath three golden pentacles"
+seo_image_alt: "Three of Pentacles Tarot card meaning, Pentacles, Minor Arcana, teamwork, learning and collaboration: three women joining hands beneath three golden pentacles at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

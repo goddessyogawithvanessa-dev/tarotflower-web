@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Two of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Two of Wands tarot card meaning for planning, possibility, personal power, love, reversal, and choosing a direction for the future."
 seo_image: /images/tarot/wands/two-of-wands.png
-seo_image_alt: "Woman standing between two wands at the shore while holding a luminous globe"
+seo_image_alt: "Two of Wands Tarot meaning — woman between two wands holding a luminous globe at the shore, Minor Arcana Fire, choosing a direction, planning and personal power at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

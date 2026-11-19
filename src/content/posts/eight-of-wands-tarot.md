@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Eight of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Eight of Wands tarot card meaning for momentum, messages, rapid change, love, reversal, and directing fast-moving energy with intention."
 seo_image: /images/tarot/wands/eight-of-wands.png
-seo_image_alt: "Eight flowering wands flying through a luminous pink sky with butterflies"
+seo_image_alt: "Eight of Wands Tarot card meanings, Minor Arcana at Tarot Flower: eight flowering wands through a pink sky with butterflies, swift movement, creative ambition and breakthrough"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

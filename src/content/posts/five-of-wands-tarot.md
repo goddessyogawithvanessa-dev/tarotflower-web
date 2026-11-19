@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Five of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Five of Wands tarot card meaning for competition, creative conflict, tension, love, reversal, and learning to engage difference constructively."
 seo_image: /images/tarot/wands/five-of-wands.png
-seo_image_alt: "Women crossing wands amid swirling flowers, butterflies, and fiery energy"
+seo_image_alt: "Five of Wands Tarot card meanings, Minor Arcana at Tarot Flower: women crossing wands amid flowers, butterflies and fire, conflict, competition and creative struggle"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

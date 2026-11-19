@@ -9,7 +9,7 @@ categories: [cups, minor-arcana, tarot-card-meanings]
 seo_title: "The Five of Cups Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Five of Cups tarot card meaning for grief, love, healing, the reversed position, and practices for honoring loss and hope."
 seo_image: /images/tarot/cups/five-of-cups.png
-seo_image_alt: "Veiled figure facing away from spilled and upright cups, Five of Cups Tarot artwork of loss and hope at Tarot Flower"
+seo_image_alt: "Five of Cups Tarot meaning — veiled figure beyond three spilled and two upright cups, Minor Arcana Water, loss, grief and the possibility of healing and hope at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

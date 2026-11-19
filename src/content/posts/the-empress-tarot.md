@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Empress Tarot Card Meaning: The Luxurious Divine Feminine | Tarot Flower"
 seo_description: "Explore The Empress tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus abundance, creativity, and divine feminine wisdom."
 seo_image: /images/2021/01/empress-4.jpg
-seo_image_alt: "The Empress Tarot card meaning major arcana midjourney art by Vanessa Hylande"
+seo_image_alt: "The Empress among blossoms, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

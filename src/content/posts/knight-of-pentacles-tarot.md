@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Knight of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Knight of Pentacles tarot card meaning for reliability, patience, practical action, commitment, and steady progress toward a meaningful goal."
 seo_image: /images/tarot/pentacles/knight-of-pentacles.png
-seo_image_alt: "Knight on a white horse holding a golden pentacle"
+seo_image_alt: "Knight of Pentacles Tarot card meaning, Pentacles, Minor Arcana, determination, reliability and groundedness: a knight on a white horse holding a golden pentacle at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

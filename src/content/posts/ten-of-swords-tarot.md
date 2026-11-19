@@ -9,7 +9,7 @@ categories: [minor-arcana, swords, tarot-card-meanings]
 seo_title: "The Ten of Swords Tarot Card Meaning: Done, Done and Done! | Tarot Flower"
 seo_description: "Explore the Ten of Swords tarot card meaning for painful endings, surrender, recovery, love, the reversed card, and the new beginning after closure."
 seo_image: /images/tarot/swords/ten-of-swords.png
-seo_image_alt: "Fallen figure beneath ten swords as light breaks across a red horizon"
+seo_image_alt: "Ten of Swords Tarot card meanings, Minor Arcana at Tarot Flower: fallen figure beneath ten swords and a red dawn, painful endings, release and new beginnings"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

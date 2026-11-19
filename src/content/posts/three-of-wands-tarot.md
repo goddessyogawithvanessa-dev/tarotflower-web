@@ -9,7 +9,7 @@ categories: [minor-arcana, tarot-card-meanings, wands]
 seo_title: "The Three of Wands Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Three of Wands tarot card meaning for expansion, foresight, progress, collaboration, love, reversal, and trusting what you have set in motion."
 seo_image: /images/tarot/wands/three-of-wands.png
-seo_image_alt: "Woman holding one of three tall wands in a luminous mountain landscape"
+seo_image_alt: "Three of Wands Tarot meaning — woman holding one of three tall wands in a mountain landscape, Minor Arcana Fire, vision, foresight and expansion beyond familiar ground at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

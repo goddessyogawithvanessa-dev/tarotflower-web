@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Page of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Page of Pentacles tarot card meaning for curiosity, study, practical beginnings, dedication, and giving a promising idea room to grow."
 seo_image: /images/tarot/pentacles/page-of-pentacles.png
-seo_image_alt: "Young woman holding a pentacle amid pale flowers and butterflies"
+seo_image_alt: "Page of Pentacles Tarot card meanings, Minor Arcana court card at Tarot Flower: young woman holding a pentacle among pale flowers and butterflies, new beginnings, practical learning and dedication"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

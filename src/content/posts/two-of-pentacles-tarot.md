@@ -9,7 +9,7 @@ categories: [minor-arcana, pentacles, tarot-card-meanings]
 seo_title: "The Two of Pentacles Tarot Card Meaning | Tarot Flower"
 seo_description: "Explore the Two of Pentacles tarot card meaning for balance, priorities, adaptability, and managing competing responsibilities with greater ease."
 seo_image: /images/tarot/pentacles/two-of-pentacles.png
-seo_image_alt: "Woman balancing two golden pentacles amid flowers and butterflies"
+seo_image_alt: "Two of Pentacles Tarot card meaning, Pentacles, Minor Arcana, balance, flexibility and juggling responsibilities: a woman balancing golden pentacles among flowers and butterflies at Tarot Flower"
 seo_image_width: 1024
 seo_image_height: 1024
 ---

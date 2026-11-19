@@ -9,7 +9,7 @@ categories: [major-arcana, tarot-card-meanings]
 seo_title: "The Chariot Tarot Card Meaning: Charging Towards Victory! | Tarot Flower"
 seo_description: "Explore The Chariot tarot card meaning for love, career, feelings, spirituality, and reversed readings—plus determination, balance, and forward movement."
 seo_image: /images/2022/02/chariot-df4.jpg
-seo_image_alt: "The Chariot Tarot artwork by Vanessa Hylande"
+seo_image_alt: "The Chariot woman riding a white horse beneath the moon, Major Arcana archetype in the Tarot card meanings library; Tarot Flower, MidJourney art by Vanessa Hylande"
 seo_image_width: 1024
 seo_image_height: 1024
 ---
