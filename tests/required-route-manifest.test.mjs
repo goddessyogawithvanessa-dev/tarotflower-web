@@ -83,7 +83,7 @@ test('indexable routes are self-canonical, indexable, and exactly match the site
   }
 });
 
-test('private routes remain generated, noindex, absent from the sitemap, and free of canonical conflicts', async () => {
+test('noindex routes remain generated, absent from the sitemap, and free of canonical conflicts', async () => {
   const sitemap = new Set(manifest.indexableRoutes);
   for (const route of manifest.noindexRoutes) {
     const html = await readFile(htmlFileForRoute(route), 'utf8');
@@ -94,10 +94,22 @@ test('private routes remain generated, noindex, absent from the sitemap, and fre
   }
 });
 
+test('the 15 approved browsing routes remain live with noindex, follow and stay out of the sitemap', async () => {
+  assert.equal(manifest.criticalRoutes.publicBrowsingNoindex.length, 15);
+  const sitemap = new Set(sitemapRoutes(await readFile(path.join(dist, 'sitemap-0.xml'), 'utf8')));
+  for (const route of manifest.criticalRoutes.publicBrowsingNoindex) {
+    const html = await readFile(htmlFileForRoute(route), 'utf8');
+    assert.equal(metaContent(html, 'robots').toLowerCase(), 'noindex, follow', `${route} must use noindex, follow`);
+    assert.equal(canonicalHref(html), `${manifest.siteOrigin}${route}`, `${route} must remain self-canonical`);
+    assert.ok(!sitemap.has(route), `${route} must stay out of the page sitemap`);
+  }
+});
+
 test('the ten recovered production routes retain their intended indexing classification and canonicals', async () => {
   const indexable = new Set(manifest.indexableRoutes);
   const noindex = new Set(manifest.noindexRoutes);
   for (const route of manifest.criticalRoutes.publicIndexable) assert.ok(indexable.has(route), route);
+  for (const route of manifest.criticalRoutes.publicBrowsingNoindex) assert.ok(noindex.has(route), route);
   for (const route of manifest.criticalRoutes.privateNoindex) {
     assert.ok(noindex.has(route), route);
     const html = await readFile(htmlFileForRoute(route), 'utf8');

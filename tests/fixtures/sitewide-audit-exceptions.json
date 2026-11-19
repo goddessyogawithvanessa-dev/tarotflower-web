@@ -5,11 +5,6 @@
   "intentionalSitemapOnlyRoutes": ["/tarot-card-readings/", "/terms-and-conditions/"],
   "intentionalNonContextualRoutes": [
     "/astrology/",
-    "/daily-tarot/page/2/",
-    "/daily-tarot/page/3/",
-    "/daily-tarot/page/4/",
-    "/daily-tarot/page/5/",
-    "/daily-tarot/page/6/",
     "/privacy-policy/",
     "/tarot-card-readings/",
     "/terms-and-conditions/"

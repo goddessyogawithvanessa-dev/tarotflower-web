@@ -3,6 +3,7 @@ import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import TarotNewsletter from '../components/TarotNewsletter.astro';
 import { preferredImages } from '../lib/preferred-images';
 import reviewedMetaDescriptions from '../data/reviewedMetaDescriptions.json';
+import { isNoindexBrowsingRoute } from '../data/noindexBrowsingRoutes.mjs';
 
 interface Props {
   title: string;
@@ -46,6 +47,8 @@ const {
   additionalSchema = [],
 } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const isBrowsingNoindex = isNoindexBrowsingRoute(canonicalURL.pathname);
+const robotsContent = isBrowsingNoindex ? 'noindex, follow' : noindex ? 'noindex, nofollow' : '';
 const description = (reviewedMetaDescriptions as Record<string, string>)[canonicalURL.pathname] ?? providedDescription;
 const fallbackSocialImage = '/images/tarot-flower-dandelion-goddess-header.jpg';
 const preferredImage = preferredImages[canonicalURL.pathname];
@@ -165,7 +168,7 @@ const schemaGraph = {
   <title>{title}</title>
   <link rel="canonical" href={canonicalURL.href} />
   {!noindex && !/^\/(?:admin|api|checkout|library)(?:\/|$)/.test(canonicalURL.pathname) && <link rel="describedby" href="https://tarotflower.com/llms.txt" />}
-  {noindex && <meta name="robots" content="noindex, nofollow" />}
+  {robotsContent && <meta name="robots" content={robotsContent} />}
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />

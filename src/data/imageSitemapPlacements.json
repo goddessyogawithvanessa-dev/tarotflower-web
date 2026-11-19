@@ -1,20 +1,6 @@
 {
   "description": "Reviewed rendered public image placements from the cleaned Tarot Flower production release. Includes substantive editorial artwork, relevant photography, taxonomy galleries, ritual/oracle illustrations and contextual editorial pathways. Repeated meaningful placements remain attached to their own canonical page; repeated uses on one page are deduplicated only in XML. Excludes shared header chrome, explicitly decorative images and non-indexable routes. No metadata-only fallbacks or unreferenced files are inferred.",
   "pages": {
-    "/goddess-mythology/": {
-      "images": [
-        { "index": 1, "src": "/images/2023/07/aphrodite.jpg" },
-        { "index": 2, "src": "/images/yemaya/yemaya-seven-seas-pearl.jpg" },
-        { "index": 3, "src": "/images/aphrodite/aphrodite-rising-from-sea.png" },
-        { "index": 4, "src": "/images/flora/flora-roman-flowering-garden.png" },
-        { "index": 5, "src": "/images/2023/06/Kali-1-1-683x1024.jpg" },
-        { "index": 6, "src": "/images/2023/06/Flora-1-1-683x1024.jpg" },
-        { "index": 7, "src": "/images/2023/06/yemaya-2-1-683x1024.jpg" }
-      ],
-      "excluded": [
-        { "index": 0, "src": "/images/tarot-flower-dandelion-goddess-header.jpg", "reason": "shared navigation/header chrome, not page artwork" }
-      ]
-    },
     "/10-steps-to-embody-the-goddess-free-download/": {
       "images": [
         {
@@ -310,29 +296,6 @@
     },
     "/affirmations-for-self-love-that-work/": {
       "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/affirmations/": {
-      "images": [
-        {
-          "index": 1,
-          "src": "/images/2021/01/the-empress.jpg"
-        },
-        {
-          "index": 2,
-          "src": "/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg"
-        },
-        {
-          "index": 3,
-          "src": "/images/goddess-embodiment-guide-cover.jpg"
-        }
-      ],
       "excluded": [
         {
           "index": 0,
@@ -1122,167 +1085,6 @@
         }
       ]
     },
-    "/daily-tarot/": {
-      "images": [
-        {
-          "index": 1,
-          "src": "/images/2023/10/raven.jpg"
-        },
-        {
-          "index": 10,
-          "src": "/images/2023/10/ixchel.jpg"
-        },
-        {
-          "index": 11,
-          "src": "/images/2020/06/I-am-the-fool.jpg"
-        },
-        {
-          "index": 12,
-          "src": "/images/2023/02/moon-magic.jpeg"
-        },
-        {
-          "index": 13,
-          "src": "/images/2021/01/fool-7.jpg"
-        },
-        {
-          "index": 14,
-          "src": "/images/2023/05/kali-8.jpg"
-        },
-        {
-          "index": 15,
-          "src": "/images/2024/02/Divine-Feminine-Affirmations-blog-art.jpeg"
-        },
-        {
-          "index": 16,
-          "src": "/images/2023/07/aphrodite.jpg"
-        },
-        {
-          "index": 17,
-          "src": "/images/2020/07/hope.jpg"
-        },
-        {
-          "index": 5,
-          "src": "/images/journal/what-is-an-embodied-goddess.png"
-        },
-        {
-          "index": 6,
-          "src": "/images/2023/06/twin-flame-union-3.jpg"
-        },
-        {
-          "index": 7,
-          "src": "/images/2022/12/21.jpg"
-        },
-        {
-          "index": 8,
-          "src": "/images/2024/02/Divine-Feminine-Affirmations-blog-art.jpeg"
-        },
-        {
-          "index": 9,
-          "src": "/images/2023/10/raven.jpg"
-        },
-        {
-          "index": 2,
-          "src": "/images/embodiment-dance/embodiment-dance-goddess-embodiment-hero-960.webp"
-        },
-        {
-          "index": 3,
-          "src": "/images/powerful-magic/powerful-magic-embodiment-dance-manifestation-hero-960.webp"
-        },
-        {
-          "index": 4,
-          "src": "/images/sacred-space/creating-sacred-space-goddess-circle-theia-hero-960.webp"
-        },
-        {
-          "index": 18,
-          "src": "/images/2023/10/ixchel.jpg"
-        },
-        {
-          "index": 19,
-          "src": "/images/2020/06/I-am-the-fool.jpg"
-        },
-        {
-          "index": 20,
-          "src": "/images/2023/02/moon-magic.jpeg"
-        },
-        {
-          "index": 21,
-          "src": "/images/2021/01/fool-7.jpg"
-        },
-        {
-          "index": 22,
-          "src": "/images/2023/05/kali-8.jpg"
-        },
-        {
-          "index": 23,
-          "src": "/images/2024/02/Divine-Feminine-Affirmations-blog-art.jpeg"
-        },
-        {
-          "index": 24,
-          "src": "/images/2023/07/aphrodite.jpg"
-        },
-        {
-          "index": 25,
-          "src": "/images/2023/10/raven.jpg"
-        }
-      ],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/daily-tarot/page/2/": {
-      "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/daily-tarot/page/3/": {
-      "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/daily-tarot/page/4/": {
-      "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/daily-tarot/page/5/": {
-      "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/daily-tarot/page/6/": {
-      "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
     "/dancing-the-major-arcana/": {
       "images": [
         {
@@ -1602,15 +1404,42 @@
     },
     "/embodiment-dance-for-high-vibe-living/": {
       "images": [
-        { "index": 1, "src": "/images/embodiment-dance/embodiment-dance-goddess-embodiment-hero-960.webp" },
-        { "index": 2, "src": "/images/embodiment-dance/embodiment-dance-ecstatic-liberation-960.webp" },
-        { "index": 3, "src": "/images/embodiment-dance/embodiment-dance-heart-chakra-water-aphrodite-960.webp" },
-        { "index": 4, "src": "/images/embodiment-dance/embodiment-dance-throat-chakra-air-amunet-960.webp" },
-        { "index": 5, "src": "/images/embodiment-dance/embodiment-dance-solar-plexus-fire-artemis-960.webp" },
-        { "index": 6, "src": "/images/embodiment-dance/embodiment-dance-root-chakra-earth-gaia-960.webp" },
-        { "index": 7, "src": "/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png" },
-        { "index": 8, "src": "/images/goddess-embodiment-guide-cover.jpg" },
-        { "index": 9, "src": "/images/sacred-becoming/walking-beside-you.jpg" }
+        {
+          "index": 1,
+          "src": "/images/embodiment-dance/embodiment-dance-goddess-embodiment-hero-960.webp"
+        },
+        {
+          "index": 2,
+          "src": "/images/embodiment-dance/embodiment-dance-ecstatic-liberation-960.webp"
+        },
+        {
+          "index": 3,
+          "src": "/images/embodiment-dance/embodiment-dance-heart-chakra-water-aphrodite-960.webp"
+        },
+        {
+          "index": 4,
+          "src": "/images/embodiment-dance/embodiment-dance-throat-chakra-air-amunet-960.webp"
+        },
+        {
+          "index": 5,
+          "src": "/images/embodiment-dance/embodiment-dance-solar-plexus-fire-artemis-960.webp"
+        },
+        {
+          "index": 6,
+          "src": "/images/embodiment-dance/embodiment-dance-root-chakra-earth-gaia-960.webp"
+        },
+        {
+          "index": 7,
+          "src": "/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png"
+        },
+        {
+          "index": 8,
+          "src": "/images/goddess-embodiment-guide-cover.jpg"
+        },
+        {
+          "index": 9,
+          "src": "/images/sacred-becoming/walking-beside-you.jpg"
+        }
       ],
       "excluded": [
         {
@@ -2245,61 +2074,6 @@
           "index": 2,
           "src": "/images/goddess-dance-spring/goddess-dance-retreat-rest.jpg",
           "reason": "retained source image has intentionally empty alternative text"
-        }
-      ]
-    },
-    "/goddess-embodiment-practices/": {
-      "images": [
-        {
-          "index": 1,
-          "src": "/images/2023/10/Meditation-1.jpg"
-        },
-        {
-          "index": 2,
-          "src": "/images/2023/09/1-1.jpg"
-        },
-        {
-          "index": 3,
-          "src": "/images/2023/09/IMG_20230909_152050.jpg"
-        },
-        {
-          "index": 4,
-          "src": "/images/2023/09/3.jpg"
-        },
-        {
-          "index": 5,
-          "src": "/images/2023/09/3-1.jpg"
-        },
-        {
-          "index": 6,
-          "src": "/images/2021/01/Mystic-Sisters-Deck.gif"
-        },
-        {
-          "index": 7,
-          "src": "/images/2023/02/74.jpg"
-        },
-        {
-          "index": 8,
-          "src": "/images/2023/11/1-e1696182390338.jpg"
-        },
-        {
-          "index": 9,
-          "src": "/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
-        },
-        {
-          "index": 10,
-          "src": "/images/goddess-embodiment-guide-cover.jpg"
-        },
-        {
-          "index": 11,
-          "src": "/images/sacred-becoming/walking-beside-you.jpg"
-        }
-      ],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
         }
       ]
     },
@@ -4376,33 +4150,6 @@
         }
       ]
     },
-    "/rituals/": {
-      "images": [
-        {
-          "index": 1,
-          "src": "/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png"
-        },
-        {
-          "index": 2,
-          "src": "/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
-        },
-        {
-          "index": 3,
-          "src": "/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg"
-        },
-        {
-          "index": 4,
-          "src": "/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg"
-        }
-      ],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
     "/root-into-the-earth/": {
       "images": [
         {
@@ -5328,56 +5075,6 @@
           "src": "/images/goddess-embodiment-guide-cover.jpg"
         }
       ],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/tag/divine-feminine/": {
-      "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/tag/full-moon/": {
-      "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/tag/love/": {
-      "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/tag/oracle/": {
-      "images": [],
-      "excluded": [
-        {
-          "index": 0,
-          "src": "/images/tarot-flower-dandelion-goddess-header.jpg",
-          "reason": "shared navigation/header chrome, not page artwork"
-        }
-      ]
-    },
-    "/tag/shadow-work/": {
-      "images": [],
       "excluded": [
         {
           "index": 0,
