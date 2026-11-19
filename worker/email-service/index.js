@@ -92,6 +92,21 @@ var worker_default = {
 class LibraryEmailService extends WorkerEntrypoint {
   async fetch(request) {
     const url = new URL(request.url);
+    if (url.pathname === "/api/contact/config" && request.method === "GET") {
+      return contactConfig(request, this.env);
+    }
+    if (url.pathname === "/api/contact") {
+      return handleContact(request, this.env);
+    }
+    if (url.pathname === "/api/lead-magnet") {
+      return handleLeadMagnet(request, this.env);
+    }
+    if (url.pathname === "/api/oracle-waitlist") {
+      return handleTarotSignup(request, this.env, "oracle");
+    }
+    if (url.pathname === "/api/tarot-newsletter") {
+      return handleTarotSignup(request, this.env, "newsletter");
+    }
     if (url.pathname === UNSUBSCRIBE_PATH) {
       return handleUnsubscribe(request, this.env);
     }

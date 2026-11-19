@@ -65,6 +65,18 @@ async function sendDue(){
   await worker.scheduled({scheduledTime:Date.now(),cron:'* * * * *'});
 }
 async function one(email){return db.prepare('SELECT * FROM subscribers WHERE email=?').bind(email).first();}
+test('named email-service entrypoint exposes the exact public form routes',async()=>{
+ const caller=await mf.getWorker('business-review-caller');
+ const config=await caller.fetch('https://email.internal/api/contact/config');
+ assert.equal(config.status,200);
+ assert.equal((await config.json()).siteKey,'test');
+ for(const route of ['/api/contact','/api/lead-magnet','/api/oracle-waitlist','/api/tarot-newsletter']){
+  const response=await caller.fetch(`https://email.internal${route}`,{
+   method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded',Accept:'application/json'},body:''});
+  assert.equal(response.status,400,route);
+  assert.match(response.headers.get('content-type'),/application\/json/,route);
+ }
+});
 test('Oracle capture is persistent, consented and deduplicated under concurrent retries',async()=>{
  const responses=await Promise.all(Array.from({length:3},()=>signup('/api/oracle-waitlist','oracle@example.test')));
  responses.forEach(r=>assert.equal(r.status,200));
