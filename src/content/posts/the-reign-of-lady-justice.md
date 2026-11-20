@@ -18,6 +18,8 @@ There's no more hiding. It's all coming out and it can't be stopped. The time fo
 
 We are in this process together. I hope you are all prepared. Those of us who have retained our moral integrity, will find relief and vindication in this revolution, though it won't come easily. But we already know that. We keep on going in spite of the hardship.
 
+<div data-campaign-cta="oracle-deck"></div>
+
 #### **Collective Blindness**
 
 Then there are those with no bottom who are desperate to remain in power by trumpeting false narratives. They surround themselves with those who are desperate for someone to believe in. And they choose their justifications to suit their objectives. The perfect recipe for collective blindness. The perfect environment for those who self-serve.

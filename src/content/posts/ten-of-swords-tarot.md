@@ -30,6 +30,8 @@ The astrological sign associated with the suit of swords is Aquarius, which is k
 
 The suit of swords is also associated with the element of air, which is often seen as a force of change and transformation. Air can bring clarity, insight, and understanding, but it can also stir up conflicts and tensions. The swords in tarot readings can represent the power of the mind to cut through confusion, gain clarity, and make decisions. However, they can also symbolize the potential for conflict, aggression, and hurtful words. In essence, the swords are a double-edged sword, representing both the positive and negative aspects of the mind and communication.
 
+<div data-campaign-cta="fire"></div>
+
 ## Interpreting the 10 of Swords in Your Tarot Card Reading
 
 The Ten of Swords often symbolizes an emotional or mental crisis. It can represent the feeling of being overwhelmed by your emotions, or the sense of being stuck in a certain situation. This card can also suggest that you are in the midst of a difficult decision, and that you are struggling to find a way forward.

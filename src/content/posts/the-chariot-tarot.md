@@ -35,6 +35,8 @@ After a long journey over difficult terrain, The Chariot arrives triumphantly. T
 * **Depicted with:** A charioteer standing in a chariot, holding reins and sphinxes
 * **Often associated with:** Success, personal drive, and the need to maintain focus and direction on the path to achievement.
 
+<div data-campaign-cta="fire"></div>
+
 ## The Chariot Tarot Meaning
 
 <p><img src="/images/2023/05/vanessahylande_a_gorgeous_bejeweled_powerful_white_horse_gallop_29bc16d9-0e2d-48dc-8cc1-2be4b7be4f1d.jpg" alt="Sagittarius zodiac, spirit animal, the horse, Midjourney art by Vanessa Hylande" width="1024" height="1024" loading="lazy" decoding="async" /></p>

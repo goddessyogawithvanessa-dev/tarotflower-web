@@ -1,0 +1,25 @@
+---
+interface Props {
+  headingId?: string;
+}
+
+const { headingId = 'sacred-becoming-oracle-cta-title' } = Astro.props;
+---
+
+<aside class="dare-dream-oracle-cta" aria-labelledby={headingId}>
+  <figure class="dare-dream-oracle-cta-art">
+    <img
+      src="/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
+      width="1448"
+      height="1086"
+      loading="lazy"
+      decoding="async"
+      alt="Seven cards from Vanessa Hylande’s Sacred Becoming Oracle Deck spread on textured cream cloth at Tarot Flower"
+    />
+  </figure>
+  <div class="dare-dream-oracle-cta-copy">
+    <h2 id={headingId}>Sacred Becoming Oracle Deck</h2>
+    <p>If you’d like to work with the deck I made,</p>
+    <a class="dare-dream-oracle-cta-button" href="https://tarotflower.com/sacred-becoming/oracle-deck/">join the Sacred Becoming Oracle Deck waitlist</a>
+  </div>
+</aside>

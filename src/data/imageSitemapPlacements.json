@@ -332,18 +332,22 @@
         },
         {
           "index": 2,
-          "src": "/images/aphrodite/aphrodite-blossoming-heart.png"
+          "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
         },
         {
           "index": 3,
-          "src": "/images/aphrodite/aphrodite-embodiment-dance.png"
+          "src": "/images/aphrodite/aphrodite-blossoming-heart.png"
         },
         {
           "index": 4,
-          "src": "/images/aphrodite/aphrodite-self-love-mirror.png"
+          "src": "/images/aphrodite/aphrodite-embodiment-dance.png"
         },
         {
           "index": 5,
+          "src": "/images/aphrodite/aphrodite-self-love-mirror.png"
+        },
+        {
+          "index": 6,
           "src": "/images/aphrodite/aphrodite-sacred-love-circle.png"
         }
       ],
@@ -804,71 +808,71 @@
         },
         {
           "index": 2,
-          "src": "/images/2023/04/cap-3.jpg"
+          "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
         },
         {
           "index": 3,
-          "src": "/images/2023/04/cap-2.jpg"
+          "src": "/images/2023/04/cap-3.jpg"
         },
         {
           "index": 4,
-          "src": "/images/2023/04/cap-4.jpg"
+          "src": "/images/2023/04/cap-2.jpg"
         },
         {
           "index": 5,
-          "src": "/images/2022/04/devil-1.jpg"
+          "src": "/images/2023/04/cap-4.jpg"
         },
         {
           "index": 6,
-          "src": "/images/2023/04/aries-1.jpg"
+          "src": "/images/2022/04/devil-1.jpg"
         },
         {
           "index": 7,
-          "src": "/images/2023/04/taurus-4.jpg"
+          "src": "/images/2023/04/aries-1.jpg"
         },
         {
           "index": 8,
-          "src": "/images/2023/04/gemini-v2-2.jpg"
+          "src": "/images/2023/04/taurus-4.jpg"
         },
         {
           "index": 9,
-          "src": "/images/2023/04/cancer-3.jpg"
+          "src": "/images/2023/04/gemini-v2-2.jpg"
         },
         {
           "index": 10,
-          "src": "/images/2023/04/leo-2.jpg"
+          "src": "/images/2023/04/cancer-3.jpg"
         },
         {
           "index": 11,
-          "src": "/images/2023/05/virgo-4.jpg"
+          "src": "/images/2023/04/leo-2.jpg"
         },
         {
           "index": 12,
-          "src": "/images/2023/04/libra-4.jpg"
+          "src": "/images/2023/05/virgo-4.jpg"
         },
         {
           "index": 13,
-          "src": "/images/2023/05/scorpio.jpg"
+          "src": "/images/2023/04/libra-4.jpg"
         },
         {
           "index": 14,
-          "src": "/images/2023/05/vanessahylande_a_gorgeous_bejeweled_powerful_white_horse_gallop_29bc16d9-0e2d-48dc-8cc1-2be4b7be4f1d-1.jpg"
+          "src": "/images/2023/05/scorpio.jpg"
         },
         {
           "index": 15,
-          "src": "/images/2021/01/fool-7.jpg"
+          "src": "/images/2023/05/vanessahylande_a_gorgeous_bejeweled_powerful_white_horse_gallop_29bc16d9-0e2d-48dc-8cc1-2be4b7be4f1d-1.jpg"
         },
         {
           "index": 16,
-          "src": "/images/2023/04/pisces-5.jpg"
+          "src": "/images/2021/01/fool-7.jpg"
         },
         {
           "index": 17,
-          "src": "/images/2022/04/devil-rw.jpeg"
+          "src": "/images/2023/04/pisces-5.jpg"
         },
         {
           "index": 18,
-          "src": "/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg"
+          "src": "/images/2022/04/devil-rw.jpeg"
         },
         {
           "index": 19,
@@ -1009,27 +1013,27 @@
         },
         {
           "index": 3,
-          "src": "/images/sacred-space/creating-sacred-space-blue-cornflowers-ritual-960.webp"
-        },
-        {
-          "index": 4,
-          "src": "/images/sacred-space/creating-sacred-space-third-eye-chakra-foods-960.webp"
-        },
-        {
-          "index": 5,
-          "src": "/images/sacred-space/creating-sacred-space-affirmations-sanctuary-928.webp"
-        },
-        {
-          "index": 6,
           "src": "/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png"
         },
         {
+          "index": 4,
+          "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
+        },
+        {
+          "index": 5,
+          "src": "/images/sacred-space/creating-sacred-space-blue-cornflowers-ritual-960.webp"
+        },
+        {
+          "index": 6,
+          "src": "/images/sacred-space/creating-sacred-space-third-eye-chakra-foods-960.webp"
+        },
+        {
           "index": 7,
-          "src": "/images/goddess-embodiment-guide-cover.jpg"
+          "src": "/images/sacred-space/creating-sacred-space-affirmations-sanctuary-928.webp"
         },
         {
           "index": 8,
-          "src": "/images/sacred-becoming/walking-beside-you.jpg"
+          "src": "/images/goddess-embodiment-guide-cover.jpg"
         }
       ],
       "excluded": [
@@ -1419,35 +1423,35 @@
         },
         {
           "index": 2,
-          "src": "/images/embodiment-dance/embodiment-dance-ecstatic-liberation-960.webp"
-        },
-        {
-          "index": 3,
-          "src": "/images/embodiment-dance/embodiment-dance-heart-chakra-water-aphrodite-960.webp"
-        },
-        {
-          "index": 4,
-          "src": "/images/embodiment-dance/embodiment-dance-throat-chakra-air-amunet-960.webp"
-        },
-        {
-          "index": 5,
-          "src": "/images/embodiment-dance/embodiment-dance-solar-plexus-fire-artemis-960.webp"
-        },
-        {
-          "index": 6,
-          "src": "/images/embodiment-dance/embodiment-dance-root-chakra-earth-gaia-960.webp"
-        },
-        {
-          "index": 7,
           "src": "/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png"
         },
         {
+          "index": 3,
+          "src": "/images/embodiment-dance/embodiment-dance-ecstatic-liberation-960.webp"
+        },
+        {
+          "index": 4,
+          "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
+        },
+        {
+          "index": 5,
+          "src": "/images/embodiment-dance/embodiment-dance-heart-chakra-water-aphrodite-960.webp"
+        },
+        {
+          "index": 6,
+          "src": "/images/embodiment-dance/embodiment-dance-throat-chakra-air-amunet-960.webp"
+        },
+        {
+          "index": 7,
+          "src": "/images/embodiment-dance/embodiment-dance-solar-plexus-fire-artemis-960.webp"
+        },
+        {
           "index": 8,
-          "src": "/images/goddess-embodiment-guide-cover.jpg"
+          "src": "/images/embodiment-dance/embodiment-dance-root-chakra-earth-gaia-960.webp"
         },
         {
           "index": 9,
-          "src": "/images/sacred-becoming/walking-beside-you.jpg"
+          "src": "/images/goddess-embodiment-guide-cover.jpg"
         }
       ],
       "excluded": [
@@ -4176,6 +4180,10 @@
         {
           "index": 3,
           "src": "/images/digital-rituals/root-into-the-earth/mother-earth-music-image.jpeg"
+        },
+        {
+          "index": 4,
+          "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
         }
       ],
       "excluded": []
@@ -4688,7 +4696,7 @@
         },
         {
           "index": 2,
-          "src": "/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
         },
         {
           "index": 3,
@@ -4828,6 +4836,10 @@
         {
           "index": 1,
           "src": "/images/2023/10/sound-bath.jpg"
+        },
+        {
+          "index": 2,
+          "src": "/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png"
         }
       ],
       "excluded": [
@@ -5234,67 +5246,67 @@
         },
         {
           "index": 2,
-          "src": "/images/2023/04/taurus-2.jpg"
+          "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
         },
         {
           "index": 3,
-          "src": "/images/2023/04/taurus-1.jpg"
+          "src": "/images/2023/04/taurus-2.jpg"
         },
         {
           "index": 4,
-          "src": "/images/2023/04/taurus-3.jpg"
+          "src": "/images/2023/04/taurus-1.jpg"
         },
         {
           "index": 5,
-          "src": "/images/2023/04/aries-2.jpg"
+          "src": "/images/2023/04/taurus-3.jpg"
         },
         {
           "index": 6,
-          "src": "/images/2023/04/gemini-1.jpg"
+          "src": "/images/2023/04/aries-2.jpg"
         },
         {
           "index": 7,
-          "src": "/images/2023/04/cancer-2.jpg"
+          "src": "/images/2023/04/gemini-1.jpg"
         },
         {
           "index": 8,
-          "src": "/images/2023/04/leo-3.jpg"
+          "src": "/images/2023/04/cancer-2.jpg"
         },
         {
           "index": 9,
-          "src": "/images/2023/04/virgo-2.jpg"
+          "src": "/images/2023/04/leo-3.jpg"
         },
         {
           "index": 10,
-          "src": "/images/2023/04/libra-3.jpg"
+          "src": "/images/2023/04/virgo-2.jpg"
         },
         {
           "index": 11,
-          "src": "/images/2023/04/scorpio-2.jpg"
+          "src": "/images/2023/04/libra-3.jpg"
         },
         {
           "index": 12,
-          "src": "/images/2023/04/sag-2.jpg"
+          "src": "/images/2023/04/scorpio-2.jpg"
         },
         {
           "index": 13,
-          "src": "/images/2023/04/capricorn-1.jpg"
+          "src": "/images/2023/04/sag-2.jpg"
         },
         {
           "index": 14,
-          "src": "/images/2023/04/virgo-3.jpg"
+          "src": "/images/2023/04/capricorn-1.jpg"
         },
         {
           "index": 15,
-          "src": "/images/2023/04/pisces-1.jpg"
+          "src": "/images/2023/04/virgo-3.jpg"
         },
         {
           "index": 16,
-          "src": "/images/2023/05/hierophant-canva.jpeg"
+          "src": "/images/2023/04/pisces-1.jpg"
         },
         {
           "index": 17,
-          "src": "/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg"
+          "src": "/images/2023/05/hierophant-canva.jpeg"
         },
         {
           "index": 18,
@@ -5531,47 +5543,47 @@
         },
         {
           "index": 3,
-          "src": "/images/2023/05/vanessahylande_a_gorgeous_bejeweled_powerful_white_horse_gallop_29bc16d9-0e2d-48dc-8cc1-2be4b7be4f1d.jpg"
+          "src": "/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png"
         },
         {
           "index": 4,
-          "src": "/images/2022/02/chariot-1.jpg"
+          "src": "/images/2023/05/vanessahylande_a_gorgeous_bejeweled_powerful_white_horse_gallop_29bc16d9-0e2d-48dc-8cc1-2be4b7be4f1d.jpg"
         },
         {
           "index": 5,
-          "src": "/images/2023/02/twin-4.jpg"
+          "src": "/images/2022/02/chariot-1.jpg"
         },
         {
           "index": 6,
-          "src": "/images/2023/05/vanessahylande_a_gorgeous_bejeweled_powerful_white_horse_gallop_bbdfe14a-a53c-48cf-8ed5-7abb2c9d8d4f-1.jpg"
+          "src": "/images/2023/02/twin-4.jpg"
         },
         {
           "index": 7,
-          "src": "/images/2022/02/chariot-3.jpg"
+          "src": "/images/2023/05/vanessahylande_a_gorgeous_bejeweled_powerful_white_horse_gallop_bbdfe14a-a53c-48cf-8ed5-7abb2c9d8d4f-1.jpg"
         },
         {
           "index": 8,
-          "src": "/images/2022/02/Rider-Waite-9.jpg"
+          "src": "/images/2022/02/chariot-3.jpg"
         },
         {
           "index": 9,
-          "src": "/images/2022/02/the-chariot-1024x1006.jpeg"
+          "src": "/images/2022/02/Rider-Waite-9.jpg"
         },
         {
           "index": 10,
-          "src": "/images/2022/02/chariot-df1.jpg"
+          "src": "/images/2022/02/the-chariot-1024x1006.jpeg"
         },
         {
           "index": 11,
-          "src": "/images/2022/02/4-1.jpg"
+          "src": "/images/2022/02/chariot-df1.jpg"
         },
         {
           "index": 12,
-          "src": "/images/2022/02/3-1.jpg"
+          "src": "/images/2022/02/4-1.jpg"
         },
         {
           "index": 13,
-          "src": "/images/digital-rituals/step-into-the-fire/goddess-kali-warrior-hero-wide.png"
+          "src": "/images/2022/02/3-1.jpg"
         },
         {
           "index": 14,
@@ -6676,6 +6688,10 @@
         {
           "index": 1,
           "src": "/images/wordpress-migration/vanessahylande960269070.files.wordpress.com/2020/01/gabriecc88l_metsu_008.jpg"
+        },
+        {
+          "index": 2,
+          "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
         }
       ],
       "excluded": [
@@ -6956,51 +6972,47 @@
         },
         {
           "index": 3,
-          "src": "/images/2021/01/fates-4.jpg"
+          "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
         },
         {
           "index": 4,
-          "src": "/images/2021/01/wheel-v2-4.jpg"
+          "src": "/images/2021/01/fates-4.jpg"
         },
         {
           "index": 5,
-          "src": "/images/2021/01/fates-2.jpg"
+          "src": "/images/2021/01/wheel-v2-4.jpg"
         },
         {
           "index": 6,
-          "src": "/images/2021/01/wheel.jpg"
+          "src": "/images/2021/01/fates-2.jpg"
         },
         {
           "index": 7,
-          "src": "/images/2021/01/fates-1.jpg"
+          "src": "/images/2021/01/wheel.jpg"
         },
         {
           "index": 8,
-          "src": "/images/2021/01/wheel-4.jpg"
+          "src": "/images/2021/01/fates-1.jpg"
         },
         {
           "index": 9,
-          "src": "/images/2021/01/Rider-Waite-8.jpg"
+          "src": "/images/2021/01/wheel-4.jpg"
         },
         {
           "index": 10,
-          "src": "/images/2021/01/IMG_20201216_115925-980x1024.webp"
+          "src": "/images/2021/01/Rider-Waite-8.jpg"
         },
         {
           "index": 11,
-          "src": "/images/2021/01/Take-a-chance-on-your-life-1024x1024.jpg"
+          "src": "/images/2021/01/IMG_20201216_115925-980x1024.webp"
         },
         {
           "index": 12,
-          "src": "/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
+          "src": "/images/2021/01/Take-a-chance-on-your-life-1024x1024.jpg"
         },
         {
           "index": 13,
           "src": "/images/goddess-embodiment-guide-cover.jpg"
-        },
-        {
-          "index": 14,
-          "src": "/images/sacred-becoming/walking-beside-you.jpg"
         }
       ],
       "excluded": [

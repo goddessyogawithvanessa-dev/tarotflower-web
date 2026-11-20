@@ -28,6 +28,8 @@ The voice of the heart has always been there with you, it’s always been your h
 
 But as we grow up and we learn things - and we are conditioned - we start to question. We start to think. So, return to the voice of the heart, find the voice of your inner child, and learn to distinguish it from the other voices.
 
+<div data-campaign-cta="oracle-deck"></div>
+
 ## Why We Should Listen to the Voice of the Heart
 
 So, why is it important to listen to the voice of the heart? It can be the **first step to aligning to your identity**, to **manifestation**, to finding your **desires** and your **truths**. That is why it is so critical to come into that heart space and connect to that loving place, so that we become the observers of our thoughts, our past, our conditioning, and our programming. It is a fundamental part of [Goddess embodiment—connecting to your inner divine feminine](/goddess-embodiment-practices/).

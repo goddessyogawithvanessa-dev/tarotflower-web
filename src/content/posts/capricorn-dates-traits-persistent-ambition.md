@@ -24,6 +24,8 @@ Capricorns are known for their determined and ambitious personality. They are hi
 * **Tarot Card:** The Devil
 * **Element:** Earth
 
+<div data-campaign-cta="oracle-deck"></div>
+
 ## Capricorn Personality at a Glance
 
 ![Capricorn compatibility zodiac astrology dates and traits midjourney art Vanessa Hylande](/images/2023/04/cap-3.jpg)

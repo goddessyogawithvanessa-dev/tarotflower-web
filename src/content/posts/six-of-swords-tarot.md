@@ -34,6 +34,8 @@ The Six of Swords describes the in-between place: the storm may be behind you, b
 
 This transition can be physical, emotional, or intellectual. You may be moving home, changing work, leaving a relationship, or releasing a way of thinking that once protected you. Progress may feel quiet rather than triumphant. The card reminds you that moving toward peace is still movement, even when you carry sadness with you.
 
+<div data-campaign-cta="oracle-deck"></div>
+
 ## The Six of Swords Love
 
 In a love reading, the Six of Swords can indicate healing after a difficult period, creating distance from conflict, or deciding to leave a relationship that cannot become peaceful. For couples, it can describe a shared effort to communicate differently and move beyond an old pattern. For single people, it may mark the gradual release of past pain.

@@ -1,6 +1,7 @@
 ---
 import EmailOptIn from './EmailOptIn.astro';
 import FireEditorialCTA from './FireEditorialCTA.astro';
+import SacredBecomingOracleDeckCTA from './SacredBecomingOracleDeckCTA.astro';
 import SacredBecomingMentorshipArtwork from './SacredBecomingMentorshipArtwork.astro';
 import { ritualExperiences } from '../data/ritualExperiences';
 
@@ -24,6 +25,7 @@ interface Props {
   mentorshipDescription?: string;
   mentorshipHref?: string;
   mentorshipButtonText?: string;
+  showFeatured?: boolean;
 }
 
 const {
@@ -46,12 +48,16 @@ const {
   mentorshipDescription,
   mentorshipHref,
   mentorshipButtonText,
+  showFeatured = true,
 } = Astro.props;
 
 const isFireFeature = featuredTitle === ritualExperiences.fire.title;
+const isOracleDeckFeature = featuredHref === 'https://tarotflower.com/sacred-becoming/oracle-deck/';
 ---
 
-{isFireFeature ? (
+{showFeatured && (isOracleDeckFeature ? (
+  <SacredBecomingOracleDeckCTA headingId="card-featured-title" />
+) : isFireFeature ? (
   <FireEditorialCTA description={featuredDescription} headingId="card-featured-title" />
 ) : (
   <section class="card-featured-experience" aria-labelledby="card-featured-title">
@@ -71,7 +77,7 @@ const isFireFeature = featuredTitle === ritualExperiences.fire.title;
       <a class="card-featured-button" href={featuredHref} aria-label={`${featuredButtonText}: ${featuredTitle}`}>{featuredButtonText}</a>
     </div>
   </section>
-)}
+))}
 
 <div class="card-free-resource">
   <div class="card-free-resource-layout">

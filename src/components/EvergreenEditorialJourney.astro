@@ -1,6 +1,7 @@
 ---
 import EmailOptIn from './EmailOptIn.astro';
 import FireEditorialCTA from './FireEditorialCTA.astro';
+import SacredBecomingOracleDeckCTA from './SacredBecomingOracleDeckCTA.astro';
 import SacredBecomingMentorshipArtwork from './SacredBecomingMentorshipArtwork.astro';
 import type { RitualKey } from '../data/evergreenJourneys';
 import { ritualExperiences } from '../data/ritualExperiences';
@@ -9,9 +10,10 @@ interface Props {
   ritual: RitualKey;
   mentorship?: boolean;
   showFeatured?: boolean;
+  oracleDeckPlacement?: 'featured' | 'deeper-step';
 }
 
-const { ritual, mentorship = false, showFeatured = true } = Astro.props;
+const { ritual, mentorship = false, showFeatured = true, oracleDeckPlacement } = Astro.props;
 
 const rituals = {
   fire: {
@@ -55,11 +57,15 @@ const rituals = {
 const featured = rituals[ritual];
 ---
 
-{showFeatured && ritual === 'fire' && (
+{showFeatured && oracleDeckPlacement === 'featured' && (
+  <SacredBecomingOracleDeckCTA headingId="evergreen-featured-title" />
+)}
+
+{showFeatured && oracleDeckPlacement !== 'featured' && ritual === 'fire' && (
   <FireEditorialCTA headingId="evergreen-featured-title" />
 )}
 
-{showFeatured && ritual !== 'fire' && (
+{showFeatured && oracleDeckPlacement !== 'featured' && ritual !== 'fire' && (
   <section class="card-featured-experience" aria-labelledby="evergreen-featured-title">
     <img
       src={featured.image}
@@ -101,6 +107,10 @@ const featured = rituals[ritual];
     />
   </div>
 </div>
+
+{oracleDeckPlacement === 'deeper-step' && (
+  <SacredBecomingOracleDeckCTA headingId="evergreen-oracle-deck-title" />
+)}
 
 {mentorship && (
   <aside class="card-mentorship-invitation" aria-labelledby="evergreen-mentorship-title">

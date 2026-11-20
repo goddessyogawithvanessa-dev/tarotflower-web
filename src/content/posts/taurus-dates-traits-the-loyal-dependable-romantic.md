@@ -31,6 +31,8 @@ If you have a Taurus birthday coming up, expect to be celebrated by your loved o
 * Lucky Numbers: 2, 6, 9, 12, 24
 * Dates: April 20 - May 20
 
+<div data-campaign-cta="oracle-deck"></div>
+
 ## Taurus Personality At a Glance
 
 ![taurus earth zodiac sign artwork by Vanessa Hylande](/images/2023/04/taurus-2.jpg)

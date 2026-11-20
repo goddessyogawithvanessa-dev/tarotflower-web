@@ -39,6 +39,8 @@ The Wheel of Fortune carries several key characteristics that guide its interpre
 * **Depicted with:** A wheel turning with various figures, representing the unpredictability of life
 * **Often associated with:** Turning points, pivotal moments, and the potential for growth and personal evolution.
 
+<div data-campaign-cta="oracle-deck"></div>
+
 ## **The Wheel of Fortune Meaning**
 
 <p><img src="/images/2021/01/fates-4.jpg" alt="the wheel of fortune tarot card meaning, major arcana, Midjourney art by Vanessa Hylande" width="1024" height="1024" loading="lazy" decoding="async" /></p>

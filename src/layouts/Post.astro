@@ -2,7 +2,9 @@
 import Base from './Base.astro';
 import CardEditorialJourney from '../components/CardEditorialJourney.astro';
 import EvergreenEditorialJourney from '../components/EvergreenEditorialJourney.astro';
+import FireEditorialCTA from '../components/FireEditorialCTA.astro';
 import PentaclesExperimentNavigation from '../components/PentaclesExperimentNavigation.astro';
+import SacredBecomingOracleDeckCTA from '../components/SacredBecomingOracleDeckCTA.astro';
 import { evergreenJourneyBySlug } from '../data/evergreenJourneys';
 import { ritualExperiences } from '../data/ritualExperiences';
 
@@ -12,6 +14,19 @@ const metaDesc = seo_description || '';
 const minorArcanaPages = ['minor-arcana', 'cups-tarot', 'pentacles-tarot', 'swords-tarot', 'wands-tarot'];
 const isMinorArcanaPage = minorArcanaPages.includes(slug);
 const isKaliPage = slug === 'the-goddess-kali-unleashing-your-sacred-sexuality';
+const hasDirectFireCTA = slug === 'sound-bath-meditations';
+const inlineCampaignCTACounts = new Map([
+  ['the-chariot-tarot', 1],
+  ['embodiment-dance-for-high-vibe-living', 2],
+  ['the-reign-of-lady-justice', 1],
+  ['ten-of-swords-tarot', 1],
+  ['the-wheel-of-fortune-tarot', 1],
+  ['aphrodite-goddess-of-love', 1],
+  ['six-of-swords-tarot', 1],
+  ['capricorn-dates-traits-persistent-ambition', 1],
+  ['taurus-dates-traits-the-loyal-dependable-romantic', 1],
+  ['creating-sacred-space-how-to-cast-a-goddess-circle', 2],
+]);
 const isFoolPage = slug === 'the-fool-tarot';
 const isMagicianPage = slug === 'the-magician-tarot';
 const isHighPriestessPage = slug === 'the-high-priestess-tarot';
@@ -110,7 +125,7 @@ const swordsJourneyBySlug: Record<string, {
   'three-of-swords-tarot': { featuredTitle: 'Flow Like the Goddess', featuredSubtitle: 'A Ritual for Healing, Sensuality & Emotional Release', featuredDescription: 'Give heartbreak room to move through the body. This ritual offers a compassionate path for feeling, releasing, and returning to the wisdom of the heart.', featuredHref: '/flow-like-the-goddess', featuredButtonText: 'Begin the Flow', featuredImage: '/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg', featuredImageAlt: 'Water goddess flowing beneath the moon among golden flowers and fish', nextCardTitle: 'Four of Swords', nextCardHref: '/four-of-swords-tarot', nextCardDescription: 'After pain is named, enter the restorative quiet of rest, reflection, and repair.' },
   'four-of-swords-tarot': { featuredTitle: 'Root Into the Earth', featuredSubtitle: 'A Ritual for Stability & Belonging', featuredDescription: 'Let the body become a safe place to pause. This ritual supports the grounded stillness in which the mind can rest and healing can begin.', featuredHref: '/root-into-the-earth', featuredButtonText: 'Ground Yourself', featuredImage: '/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg', featuredImageAlt: 'Earth goddess beneath the moon in a dark enchanted forest', nextCardTitle: 'Five of Swords', nextCardHref: '/five-of-swords-tarot', nextCardDescription: 'Return from stillness with greater awareness of conflict, consequence, and what a victory truly costs.' },
   'five-of-swords-tarot': { featuredTitle: 'Flow Like the Goddess', featuredSubtitle: 'A Ritual for Healing, Sensuality & Emotional Release', featuredDescription: 'Release the emotional residue of conflict without denying what happened. This ritual invites softness, honest feeling, and a return to connection.', featuredHref: '/flow-like-the-goddess', featuredButtonText: 'Begin the Flow', featuredImage: '/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg', featuredImageAlt: 'Water goddess flowing beneath the moon among golden flowers and fish', nextCardTitle: 'Six of Swords', nextCardHref: '/six-of-swords-tarot', nextCardDescription: 'Leave the battlefield behind and begin the necessary passage toward calmer water.' },
-  'six-of-swords-tarot': { featuredTitle: 'Flow Like the Goddess', featuredSubtitle: 'A Ritual for Healing, Sensuality & Emotional Release', featuredDescription: 'Allow transition to unfold at its own pace. This ritual supports the emotional release and trust required to move from turbulence toward peace.', featuredHref: '/flow-like-the-goddess', featuredButtonText: 'Begin the Flow', featuredImage: '/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg', featuredImageAlt: 'Water goddess flowing beneath the moon among golden flowers and fish', nextCardTitle: 'Seven of Swords', nextCardHref: '/seven-of-swords-tarot', nextCardDescription: 'Carry the lessons of transition into strategy, self-honesty, and careful discernment.' },
+  'six-of-swords-tarot': { featuredTitle: 'Sacred Becoming Oracle Deck', featuredSubtitle: 'An Oracle Spiral of Transformation', featuredDescription: 'If you’d like to work with the deck I made, join the Sacred Becoming Oracle Deck waitlist.', featuredHref: 'https://tarotflower.com/sacred-becoming/oracle-deck/', featuredButtonText: 'Join the Waitlist', featuredImage: '/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg', featuredImageAlt: 'Seven cards from Vanessa Hylande’s Sacred Becoming Oracle Deck spread on textured cream cloth at Tarot Flower', nextCardTitle: 'Seven of Swords', nextCardHref: '/seven-of-swords-tarot', nextCardDescription: 'Carry the lessons of transition into strategy, self-honesty, and careful discernment.' },
   'seven-of-swords-tarot': { featuredTitle: 'Awaken the Element of Air', featuredSubtitle: 'A Ritual for Clarity & Intuition', featuredDescription: 'Step back from concealment and mental noise. This ritual supports clear strategy while asking whether your choices remain aligned with your truth.', featuredHref: '/awaken-the-element-of-air', featuredButtonText: 'Breathe', featuredImage: '/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg', featuredImageAlt: 'Air goddess with luminous wings beneath a golden sky', nextCardTitle: 'Eight of Swords', nextCardHref: '/eight-of-swords-tarot', nextCardDescription: 'Look more closely at the beliefs and perceptions that can turn strategy into self-imposed restriction.' },
   'eight-of-swords-tarot': { featuredTitle: 'Awaken the Element of Air', featuredSubtitle: 'A Ritual for Clarity & Intuition', featuredDescription: 'Create enough space to see beyond the story of powerlessness. Breath and perspective can reveal choices that fear has hidden from view.', featuredHref: '/awaken-the-element-of-air', featuredButtonText: 'Breathe', featuredImage: '/images/digital-rituals/awaken-the-element-of-air/air-goddess-header-web.jpg', featuredImageAlt: 'Air goddess with luminous wings beneath a golden sky', nextCardTitle: 'Nine of Swords', nextCardHref: '/nine-of-swords-tarot', nextCardDescription: 'Follow the mind into its night landscape of anxiety, and learn where compassionate awareness can interrupt the cycle.' },
   'nine-of-swords-tarot': { featuredTitle: 'Root Into the Earth', featuredSubtitle: 'A Ritual for Stability & Belonging', featuredDescription: 'When worry pulls you out of the present, return gently to the body and the ground beneath you. This ritual offers steadiness without dismissing what you feel.', featuredHref: '/root-into-the-earth', featuredButtonText: 'Ground Yourself', featuredImage: '/images/digital-rituals/root-into-the-earth/earth-goddess-banner.jpg', featuredImageAlt: 'Earth goddess beneath the moon in a dark enchanted forest', nextCardTitle: 'Ten of Swords', nextCardHref: '/ten-of-swords-tarot', nextCardDescription: 'Continue toward the ending that asks for surrender, acceptance, and the first light of a new cycle.' },
@@ -171,6 +186,25 @@ const visualResetPendingSlugs = new Set([
   'affirmations-for-self-love-that-work',
 ]);
 const isVisualResetPending = visualResetPendingSlugs.has(slug);
+const inlineCampaignCTACount = inlineCampaignCTACounts.get(slug) ?? 0;
+const renderedArticleContent = inlineCampaignCTACount > 0 ? await Astro.slots.render('default') : '';
+const articleSegments: Array<{ type: 'html' | 'fire' | 'oracle-deck'; value: string }> = [];
+
+if (inlineCampaignCTACount > 0) {
+  const marker = /<div data-campaign-cta="(fire|oracle-deck)"><\/div>/g;
+  let cursor = 0;
+  let match;
+  while ((match = marker.exec(renderedArticleContent)) !== null) {
+    articleSegments.push({ type: 'html', value: renderedArticleContent.slice(cursor, match.index) });
+    articleSegments.push({ type: match[1] as 'fire' | 'oracle-deck', value: '' });
+    cursor = marker.lastIndex;
+  }
+  articleSegments.push({ type: 'html', value: renderedArticleContent.slice(cursor) });
+  const found = articleSegments.filter((segment) => segment.type !== 'html').length;
+  if (found !== inlineCampaignCTACount) {
+    throw new Error(`Expected ${inlineCampaignCTACount} inline campaign CTA marker(s) for ${slug}; found ${found}`);
+  }
+}
 ---
 <Base
   title={pageTitle}
@@ -193,7 +227,16 @@ const isVisualResetPending = visualResetPendingSlugs.has(slug);
     )}
     <h1>{title}</h1>
     <div class="content clearfix">
-      <slot />
+      {inlineCampaignCTACount > 0 ? articleSegments.map((segment) => (
+        segment.type === 'html'
+          ? <Fragment set:html={segment.value} />
+          : segment.type === 'fire'
+            ? <FireEditorialCTA headingId={`inline-${slug}-fire-title`} />
+            : <SacredBecomingOracleDeckCTA headingId={`inline-${slug}-oracle-deck-title`} />
+      )) : <slot />}
+      {hasDirectFireCTA && (
+        <FireEditorialCTA headingId="sound-bath-fire-title" />
+      )}
       {pentaclesExperimentPage && (
         <PentaclesExperimentNavigation variant="related" items={pentaclesRelatedPages} />
       )}
@@ -336,6 +379,7 @@ const isVisualResetPending = visualResetPendingSlugs.has(slug);
           featuredImageAlt={ritualExperiences.fire.imageAlt}
           featuredImageWidth={ritualExperiences.fire.width}
           featuredImageHeight={ritualExperiences.fire.height}
+          showFeatured={false}
           nextCardTitle="Strength"
           nextCardHref="/strength-tarot"
           nextCardDescription="Carry determined action inward, discovering the quiet courage of compassion and self-mastery."
@@ -379,19 +423,16 @@ const isVisualResetPending = visualResetPendingSlugs.has(slug);
       )}
       {isWheelOfFortunePage && (
         <CardEditorialJourney
-          featuredTitle="Flow Like the Goddess"
-          featuredSubtitle="A Ritual for Healing, Sensuality & Emotional Release"
-          featuredDescription="This ritual is a gentle invitation to come home to yourself—to feel deeply, soften fully, and surrender to the wisdom of your inner tides. Water is the element of emotion, sensuality, and intuitive knowing. Through fluid movement, breath, and reflection, you’ll begin to release tension, dissolve emotional blocks, and remember what it feels like to truly flow."
-          featuredHref="/flow-like-the-goddess"
-          featuredButtonText="Begin the Flow"
-          featuredImage="/images/digital-rituals/flow-like-the-goddess/water-goddess-banner-ritual.jpg"
-          featuredImageAlt="Water goddess flowing beneath the moon among golden flowers and fish"
-          featuredImageWidth={1600}
-          featuredImageHeight={500}
-          mentorshipTitle="Sacred Becoming Mentorship"
-          mentorshipDescription="If you're moving through meaningful change and want support releasing what no longer fits, trusting what is unfolding, and meeting the next chapter as yourself, Sacred Becoming offers a private one-on-one path to reconnect with your authentic voice and embody a life that truly feels like yours."
-          mentorshipHref="/sacred-becoming/mentorship"
-          mentorshipButtonText="Discover Sacred Becoming"
+          featuredTitle="Sacred Becoming Oracle Deck"
+          featuredSubtitle="An Oracle Spiral of Transformation"
+          featuredDescription="If you’d like to work with the deck I made, join the Sacred Becoming Oracle Deck waitlist."
+          featuredHref="https://tarotflower.com/sacred-becoming/oracle-deck/"
+          featuredButtonText="Join the Waitlist"
+          featuredImage="/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg"
+          featuredImageAlt="Seven cards from Vanessa Hylande’s Sacred Becoming Oracle Deck spread on textured cream cloth at Tarot Flower"
+          featuredImageWidth={1448}
+          featuredImageHeight={1086}
+          showFeatured={false}
           nextCardTitle="Justice"
           nextCardHref="/justice-tarot"
           nextCardDescription="Continue from change and surrender into truth, accountability, and conscious choice."
@@ -622,6 +663,7 @@ const isVisualResetPending = visualResetPendingSlugs.has(slug);
           {...swordsJourney}
           featuredImageWidth={1600}
           featuredImageHeight={500}
+          showFeatured={!['six-of-swords-tarot', 'ten-of-swords-tarot'].includes(slug)}
           guideTitle="Suit of Swords Guide"
           guideHref="/swords-tarot"
           guideDescription="Explore all 14 Swords cards and the suit’s journey through thought, truth, conflict, and clarity."
@@ -638,7 +680,11 @@ const isVisualResetPending = visualResetPendingSlugs.has(slug);
         />
       )}
       {evergreenJourney && !isVisualResetPending && !cupsJourney && !pentaclesJourney && !swordsJourney && !wandsJourney && (
-        <EvergreenEditorialJourney {...evergreenJourney} showFeatured={!isKaliPage} />
+        <EvergreenEditorialJourney
+          {...evergreenJourney}
+          mentorship={inlineCampaignCTACount > 0 ? false : evergreenJourney.mentorship}
+          showFeatured={!isKaliPage && inlineCampaignCTACount === 0}
+        />
       )}
     </div>
   </div>

@@ -35,6 +35,8 @@ With embodiment dance, we physicalize our internal practice. After doing inner w
 
 Want to learn more? Check out [self-healing through embodiment practices](/how-to-self-heal-through-embodiment-practices/).
 
+<div data-campaign-cta="fire"></div>
+
 ## Embodiment Dance for Chakra Work
 
 Embodiment dances can be designed to open, support, nurture, strengthen and release each chakra. Movement may be inspired by the five elements, spirit animals, chakra colors and sounds, and the archetypes of different goddesses.
@@ -74,6 +76,8 @@ There are many ways to engage in embodiment, but dance is a particularly joyful 
 Read more about [why dance is such a powerful embodiment practice](/why-dance-is-the-best-embodiment-practice/).
 
 At Tarot Flower, embodiment dance sits naturally beside guided ritual, meditation, journaling, tarot and archetypal work. Each practice offers another doorway into the same intention: bringing insight out of abstraction and into lived experience.
+
+<div data-campaign-cta="oracle-deck"></div>
 
 ## Creating Sanctuary Through the Third Eye Chakra
 

@@ -47,6 +47,8 @@ Much like an altar, a goddess circle is a physical representation of an energeti
 
 There is no single correct way to create a goddess circle. The objects matter less than the care and meaning with which you place them. It is helpful, however, to understand which elements offer the kind of energetic support your practice needs.
 
+<div data-campaign-cta="fire"></div>
+
 ## How to Cast a Goddess Circle
 
 ### 1. Name the intention
@@ -74,6 +76,8 @@ Pause before stepping into the circle. Feel the boundary you have created. Let t
 ### 6. Close the circle
 
 When the practice is complete, offer gratitude, extinguish candles safely and release the boundary with intention. Put away or return the elements with the same care you used to place them.
+
+<div data-campaign-cta="oracle-deck"></div>
 
 ## Colors for the Third Eye Chakra
 
