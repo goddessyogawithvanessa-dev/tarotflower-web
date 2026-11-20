@@ -11,6 +11,22 @@ test('public desktop, mobile, and footer navigation use the durable My Library d
   assert.doesNotMatch(base, /href="\/library\/login\/">My (?:Ritual )?Library<\/a>/);
 });
 
+test('direct desktop menu links keep a legible gold hover on the dark header', async () => {
+  const [base, css] = await Promise.all([
+    read('src/layouts/Base.astro'),
+    read('public/styles/global.css'),
+  ]);
+  for (const [href, label] of [
+    ['/daily-tarot', "WITCH'S JOURNAL"],
+    ['/shop', 'SHOP'],
+    ['/library/', 'MY LIBRARY'],
+  ]) {
+    const escapedHref = href.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    assert.match(base, new RegExp(`<a class="nav-direct-link" href="${escapedHref}">${label}<\\/a>`));
+  }
+  assert.match(css, /\.desktop-nav \.nav-direct-link:is\(:hover, :focus-visible\)\s*\{[^}]*color:\s*#e2c47f;[^}]*text-decoration:\s*none;/s);
+});
+
 test('customer-facing library copy uses My Library while preserving ritual-specific language', async () => {
   const paths = [
     'src/components/LibraryHeader.astro',

@@ -2085,6 +2085,10 @@ body {
 }
 .desktop-nav a:hover,
 .desktop-nav a:focus-visible { color: #e2c47f; }
+.desktop-nav .nav-direct-link:is(:hover, :focus-visible) {
+  color: #e2c47f;
+  text-decoration: none;
+}
 .desktop-nav .nav-wordmark {
   margin: 0 auto 0 0;
   color: #f7e7bc;
