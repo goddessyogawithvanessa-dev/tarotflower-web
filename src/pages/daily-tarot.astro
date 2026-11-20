@@ -84,7 +84,7 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
           };
           return (
             <article class:list={['journal-feature', { 'journal-feature-primary': index === 0 }]}>
-              <a href={`/${entry.slug}`} class="journal-feature-image">
+              <a href={`/${entry.slug}/`} class="journal-feature-image">
                 <img
                   src={artwork.src}
                   alt={artwork.alt}
@@ -96,9 +96,9 @@ const featuredCategory = (slug: JournalCategorySlug) => getJournalCategory(slug)
               </a>
               <div class="journal-feature-copy">
                 <p>{entry.categoryLabel}</p>
-                <h3><a href={`/${entry.slug}`}>{entry.title}</a></h3>
+                <h3><a href={`/${entry.slug}/`}>{entry.title}</a></h3>
                 <p>{entry.excerpt}</p>
-                <a href={`/${entry.slug}`}>Read article <span aria-hidden="true">→</span></a>
+                <a href={`/${entry.slug}/`}>Read article <span aria-hidden="true">→</span></a>
               </div>
             </article>
           );

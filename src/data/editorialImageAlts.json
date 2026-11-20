@@ -5896,126 +5896,132 @@
     },
     {
       "index": 2,
+      "src": "/images/dare-to-dream/dare-to-dream-manifest-goddess-960.webp",
+      "expectedAlt": "Joyful Art Nouveau goddess laughing with her head tilted back as luminous floral energy blooms from her third eye, daring to dream and manifest. Midjourney art by Vanessa Hylande, Tarot Flower.",
+      "alt": "Joyful Art Nouveau goddess laughing with her head tilted back as luminous floral energy blooms from her third eye, daring to dream and manifest. Midjourney art by Vanessa Hylande, Tarot Flower."
+    },
+    {
+      "index": 3,
       "src": "/images/embodiment-dance/embodiment-dance-goddess-embodiment-hero-960.webp",
       "expectedAlt": "Embodiment Dance Goddess Embodiment hero: a goddess in expressive dance amid flowing amber fabrics and luminous energy, evoking Divine Feminine Sacred Becoming — Midjourney art by Vanessa Hylande for Tarot Flower.",
       "alt": "Embodiment Dance Goddess Embodiment hero: a goddess in expressive dance amid flowing amber fabrics and luminous energy, evoking Divine Feminine Sacred Becoming — Midjourney art by Vanessa Hylande for Tarot Flower."
     },
     {
-      "index": 3,
+      "index": 4,
       "src": "/images/powerful-magic/powerful-magic-embodiment-dance-manifestation-hero-960.webp",
       "expectedAlt": "Manifestation ritual, bejeweled goddess pulling luminous energy from earth toward the stars, powerful magic, embody your intention through dance, Goddess Embodiment, Step Into Your Fire, Midjourney art Vanessa Hylande, Tarot Flower.",
       "alt": "Manifestation ritual, bejeweled goddess pulling luminous energy from earth toward the stars, powerful magic, embody your intention through dance, Goddess Embodiment, Step Into Your Fire, Midjourney art Vanessa Hylande, Tarot Flower."
     },
     {
-      "index": 4,
+      "index": 5,
       "src": "/images/sacred-space/creating-sacred-space-goddess-circle-theia-hero-960.webp",
       "expectedAlt": "Goddess Theia casting a luminous Goddess Circle, sacred geometry, crystals, flowers, creating sacred space, ritual magic, Divine Feminine, intention setting, Step Into Your Fire, Midjourney art Vanessa Hylande, Tarot Flower.",
       "alt": "Goddess Theia casting a luminous Goddess Circle, sacred geometry, crystals, flowers, creating sacred space, ritual magic, Divine Feminine, intention setting, Step Into Your Fire, Midjourney art Vanessa Hylande, Tarot Flower."
     },
     {
-      "index": 5,
+      "index": 6,
       "src": "/images/journal/what-is-an-embodied-goddess.png",
       "expectedAlt": "Winged goddess among flowers and butterflies, introducing Tarot Flower’s Goddess Embodiment practice",
       "alt": "What Is an Embodied Goddess in The Witch’s Journal at Tarot Flower: winged goddess among flowers and butterflies, self-worth, authenticity and Goddess Embodiment"
     },
     {
-      "index": 8,
+      "index": 9,
       "src": "/images/2024/02/Divine-Feminine-Affirmations-blog-art.jpeg",
       "expectedAlt": "Golden-crowned goddess, a doorway into Tarot Flower’s Divine Feminine affirmations",
       "alt": "Affirmations for Self Love That Actually Work in The Witch’s Journal at Tarot Flower: golden-crowned goddess, positive affirmations and effective self-love practice"
     },
     {
-      "index": 10,
+      "index": 11,
       "src": "/images/2023/10/ixchel.jpg",
       "expectedAlt": "Ixchel amid luminous flowers, a doorway into Tarot Flower’s Goddess Embodiment practices",
       "alt": "The Witch’s Journal Goddess Embodiment room at Tarot Flower: Ixchel among luminous flowers, body, movement and healing; MidJourney art by Vanessa Hylande"
     },
     {
-      "index": 11,
+      "index": 12,
       "src": "/images/2020/06/I-am-the-fool.jpg",
       "expectedAlt": "Meditating woman beneath the moon, a doorway into Tarot Flower’s Embodying Tarot practices",
       "alt": "The Witch’s Journal Embodying the Tarot room at Tarot Flower: meditative woman amid golden lights, living archetypes in everyday life; AI art by Vanessa Hylande"
     },
     {
-      "index": 12,
+      "index": 13,
       "src": "/images/2023/02/moon-magic.jpeg",
       "expectedAlt": "Moonlit goddess among flowers, a doorway into Tarot Flower’s Moon Magic rituals",
       "alt": "The Witch’s Journal Moon Magic and Rituals room at Tarot Flower: moonlit goddess among flowers, spell work, altars and sacred timing"
     },
     {
-      "index": 13,
+      "index": 14,
       "src": "/images/2021/01/fool-7.jpg",
       "expectedAlt": "Woman beneath stars and a radiant crescent moon, a doorway into Tarot Flower’s Cosmic Weather reflections",
       "alt": "The Witch’s Journal Cosmic Weather room at Tarot Flower: woman beneath stars and a crescent moon, eclipses, retrogrades and portals; MidJourney art by Vanessa Hylande"
     },
     {
-      "index": 14,
+      "index": 15,
       "src": "/images/2023/05/kali-8.jpg",
       "expectedAlt": "Kali crowned in gold among red roses, a doorway into Tarot Flower’s Twin Flame reflections",
       "alt": "The Witch’s Journal Twin Flames and Relationships room at Tarot Flower: Kali crowned in gold amid red roses, connection, separation and devotion; MidJourney art by Vanessa Hylande"
     },
     {
-      "index": 15,
+      "index": 16,
       "src": "/images/2024/02/Divine-Feminine-Affirmations-blog-art.jpeg",
       "expectedAlt": "Golden-crowned goddess, a doorway into Tarot Flower’s Divine Feminine affirmations",
       "alt": "The Witch’s Journal Affirmations and Manifestation room at Tarot Flower: golden-crowned goddess, inner dialogue, confidence, love and abundance"
     },
     {
-      "index": 16,
+      "index": 17,
       "src": "/images/2023/07/aphrodite.jpg",
       "expectedAlt": "Aphrodite among flowers, a doorway into Tarot Flower’s goddess mythology library",
       "alt": "The Witch’s Journal Goddess Mythology room at Tarot Flower: Aphrodite among flowers, ancient goddesses and living wisdom; MidJourney art by Vanessa Hylande"
     },
     {
-      "index": 17,
+      "index": 18,
       "src": "/images/2020/07/hope.jpg",
       "expectedAlt": "Woman in white above clouds and sunrise, a doorway into Vanessa’s personal reflections at Tarot Flower",
       "alt": "The Witch’s Journal Vanessa’s Grimoire room at Tarot Flower: woman in white facing sunrise above clouds, personal stories, essays, dreams and poetry; AI art by Vanessa Hylande"
     },
     {
-      "index": 18,
+      "index": 19,
       "src": "/images/2023/10/ixchel.jpg",
       "expectedAlt": "Ixchel amid luminous flowers, a doorway into Tarot Flower’s Goddess Embodiment practices",
       "alt": "The Witch’s Journal Goddess Embodiment shelf at Tarot Flower: Ixchel among flowers, dance, self-healing and holistic embodied learning; MidJourney art by Vanessa Hylande"
     },
     {
-      "index": 19,
+      "index": 20,
       "src": "/images/2020/06/I-am-the-fool.jpg",
       "expectedAlt": "Meditating woman beneath the moon, a doorway into Tarot Flower’s Embodying Tarot practices",
       "alt": "The Witch’s Journal Embodying the Tarot shelf at Tarot Flower: meditative woman amid golden lights, manifestation, receptive awareness and High Priestess intuition; AI art by Vanessa Hylande"
     },
     {
-      "index": 20,
+      "index": 21,
       "src": "/images/2023/02/moon-magic.jpeg",
       "expectedAlt": "Moonlit goddess among flowers, a doorway into Tarot Flower’s Moon Magic rituals",
       "alt": "The Witch’s Journal Moon Magic and Rituals shelf at Tarot Flower: moonlit goddess among flowers, love spells, lunar eclipses and Aquarius new-moon spellcasting"
     },
     {
-      "index": 21,
+      "index": 22,
       "src": "/images/2021/01/fool-7.jpg",
       "expectedAlt": "Woman beneath stars and a radiant crescent moon, a doorway into Tarot Flower’s Cosmic Weather reflections",
       "alt": "The Witch’s Journal Cosmic Weather shelf at Tarot Flower: woman beneath stars and crescent moon, Virgo full moon, Lion’s Gate and spring Wyrm Moon; MidJourney art by Vanessa Hylande"
     },
     {
-      "index": 22,
+      "index": 23,
       "src": "/images/2023/05/kali-8.jpg",
       "expectedAlt": "Kali crowned in gold among red roses, a doorway into Tarot Flower’s Twin Flame reflections",
       "alt": "The Witch’s Journal Twin Flames and Relationships shelf at Tarot Flower: Kali amid red roses, sacred sexuality, love readings and mirror-soul connection; MidJourney art by Vanessa Hylande"
     },
     {
-      "index": 23,
+      "index": 24,
       "src": "/images/2024/02/Divine-Feminine-Affirmations-blog-art.jpeg",
       "expectedAlt": "Golden-crowned goddess, a doorway into Tarot Flower’s Divine Feminine affirmations",
       "alt": "The Witch’s Journal Affirmations and Manifestation shelf at Tarot Flower: golden-crowned goddess, abundance, self-love, boundaries and confidence"
     },
     {
-      "index": 24,
+      "index": 25,
       "src": "/images/2023/07/aphrodite.jpg",
       "expectedAlt": "Aphrodite among flowers, a doorway into Tarot Flower’s goddess mythology library",
       "alt": "The Witch’s Journal Goddess Mythology shelf at Tarot Flower: Aphrodite among flowers, Flora’s renewal, beauty and heart-centered embodiment; MidJourney art by Vanessa Hylande"
     },
     {
-      "index": 25,
+      "index": 26,
       "src": "/images/2023/10/raven.jpg",
       "expectedAlt": "A raven beside a flower-crowned woman in mystical Tarot Flower artwork",
       "alt": "Vanessa’s Grimoire in The Witch’s Journal at Tarot Flower: raven beside a flower-crowned woman, personal essays, poems, visions and remembered thresholds; MidJourney art by Vanessa Hylande"
@@ -8095,6 +8101,20 @@
       "src": "/images/sacred-becoming/walking-beside-you.jpg",
       "expectedAlt": "Vanessa Hylande in red, inviting you into Sacred Becoming Mentorship at Tarot Flower",
       "alt": "Vanessa Hylande wearing red, Sacred Becoming Mentorship alongside Goddess Embodiment at Tarot Flower: personal support beyond reflection, reconnecting with your authentic voice and embodying your life"
+    }
+  ],
+  "/dare-to-dream-dare-to-manifest/": [
+    {
+      "index": 1,
+      "src": "/images/dare-to-dream/dare-to-dream-manifest-goddess-960.webp",
+      "expectedAlt": "Joyful Art Nouveau goddess laughing with her head tilted back as luminous floral energy blooms from her third eye, daring to dream and manifest. Midjourney art by Vanessa Hylande, Tarot Flower.",
+      "alt": "Joyful Art Nouveau goddess laughing with her head tilted back as luminous floral energy blooms from her third eye, daring to dream and manifest. Midjourney art by Vanessa Hylande, Tarot Flower."
+    },
+    {
+      "index": 2,
+      "src": "/images/sacred-becoming-oracle/oracle-spiral-spread-textured.jpg",
+      "expectedAlt": "Seven cards from Vanessa Hylande’s Sacred Becoming Oracle Deck spread on textured cream cloth at Tarot Flower",
+      "alt": "The Sacred Becoming Oracle Deck spiral spread: seven cards on cream cloth, grieving, growing, surrendering, creating and rising, deck created by Vanessa Hylande at Tarot Flower"
     }
   ],
   "/daring-to-hope-in-times-of-darkness/": [

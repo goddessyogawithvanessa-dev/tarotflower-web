@@ -90,6 +90,12 @@ export const journalCategories: JournalCategory[] = [
 const categoryBySlug = Object.fromEntries(journalCategories.map((category) => [category.slug, category])) as Record<JournalCategorySlug, JournalCategory>;
 
 const featuredArtworkBySlug: Record<string, NonNullable<JournalEntry['featureImage']>> = {
+  'dare-to-dream-dare-to-manifest': {
+    src: '/images/dare-to-dream/dare-to-dream-manifest-goddess-960.webp',
+    alt: 'Joyful Art Nouveau goddess laughing with her head tilted back as luminous floral energy blooms from her third eye, daring to dream and manifest. Midjourney art by Vanessa Hylande, Tarot Flower.',
+    width: 960,
+    height: 1200,
+  },
   'embodiment-dance-for-high-vibe-living': {
     src: '/images/embodiment-dance/embodiment-dance-goddess-embodiment-hero-960.webp',
     alt: 'Embodiment Dance Goddess Embodiment hero: a goddess in expressive dance amid flowing amber fabrics and luminous energy, evoking Divine Feminine Sacred Becoming — Midjourney art by Vanessa Hylande for Tarot Flower.',

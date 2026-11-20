@@ -2372,6 +2372,87 @@ p { margin-bottom: 1.1em; color: #666; }
   width: 100%;
   margin: 0;
 }
+.content .dare-dream-opening-art {
+  float: right;
+  width: min(44%, 420px);
+  margin: 0 0 1.75rem clamp(1.75rem, 4vw, 3.25rem);
+}
+.content .dare-dream-opening-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 6px;
+}
+.content .dare-dream-oracle-cta {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(250px, 0.9fr);
+  align-items: stretch;
+  clear: both;
+  margin: 2.25rem 0;
+  overflow: hidden;
+  background: #0b2423;
+  border: 1px solid rgba(198, 168, 105, 0.5);
+  box-shadow: 0 16px 38px rgba(18, 28, 27, 0.16);
+}
+.content .dare-dream-oracle-cta-art {
+  margin: 0;
+  min-width: 0;
+}
+.content .dare-dream-oracle-cta-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0;
+}
+.content .dare-dream-oracle-cta-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(1.75rem, 3.5vw, 3rem);
+  color: #f5eee1;
+}
+.content .dare-dream-oracle-cta-copy h2 {
+  clear: none;
+  margin: 0 0 1.2rem;
+  color: #e0c58e;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 500;
+  line-height: 0.98;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.content .dare-dream-oracle-cta-copy p {
+  margin: 0 0 1rem;
+  color: #f5eee1;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+.content .dare-dream-oracle-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 0.9rem 1.15rem;
+  color: #102624;
+  background: #e0c58e;
+  border: 1px solid #e0c58e;
+  font-family: "Quattrocento", Georgia, serif;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+.content .dare-dream-oracle-cta-button:hover,
+.content .dare-dream-oracle-cta-button:focus-visible {
+  color: #f5eee1;
+  background: transparent;
+}
 .content .article-image--hero { margin-top: 0; }
 img {
   max-width: 100%;
@@ -5871,6 +5952,33 @@ main:is(.sacred-becoming-landscape, .becoming-temple, .oracle-deck-page,
 
 @media (max-width: 768px) {
   .content > p img { float: none !important; width: 100% !important; margin: 0 0 1em 0 !important; }
+  .dare-dream-opening {
+    display: flex;
+    flex-direction: column;
+  }
+  .dare-dream-opening > p {
+    order: 1;
+  }
+  .content .dare-dream-opening-art {
+    order: 2;
+    float: none;
+    width: 100%;
+    margin: 0 0 1.35rem;
+  }
+  .content .dare-dream-oracle-cta {
+    grid-template-columns: 1fr;
+    margin: 2rem 0;
+  }
+  .content .dare-dream-oracle-cta-copy {
+    padding: 1.75rem 1.5rem 2rem;
+  }
+  .content .dare-dream-oracle-cta-copy h2 {
+    margin-bottom: 0.9rem;
+    font-size: 2.35rem;
+  }
+  .content .dare-dream-oracle-cta-button {
+    width: 100%;
+  }
   .container { width: auto; padding: 30px 18px; }
   h1 { font-size: 2.8em; }
 

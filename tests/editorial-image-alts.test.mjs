@@ -15,7 +15,7 @@ const decode = (value) => value.replace(/&(#x[\da-f]+|#\d+|amp|quot|apos|lt|gt);
 const attrs = (tag) => Object.fromEntries([...tag.matchAll(/\s([\w:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/g)].map((match) => [match[1].toLowerCase(), decode(match[2] ?? match[3])]));
 const field = (frontmatter, name) => frontmatter.match(new RegExp(`^${name}:\\s*(?:"([^"]*)"|'([^']*)'|([^\\n]+))$`, 'm'))?.slice(1).find((value) => value !== undefined)?.trim() ?? null;
 
-test('all 1,108 approved article image placements have exact built alt text and hero metadata', async () => {
+test('all 1,110 approved article image placements have exact built alt text and hero metadata', async () => {
   const files = (await readdir(postsDir)).filter((file) => file.endsWith('.md'));
   let articles = 0;
   let checked = 0;
@@ -55,6 +55,6 @@ test('all 1,108 approved article image placements have exact built alt text and 
   }
 
   assert.equal(articles, 234);
-  assert.equal(checked, 1108);
-  assert.equal(heroes, 82);
+  assert.equal(checked, 1110);
+  assert.equal(heroes, 83);
 });
